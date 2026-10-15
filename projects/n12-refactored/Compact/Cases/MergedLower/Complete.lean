@@ -14,7 +14,10 @@ set_option maxHeartbeats 0
 
 theorem cover71 : Check domains71 recipes := by
   apply check_of_parts domains71 recipes
-  · decide +kernel
+  · simp only [recipes, List.mem_cons, List.not_mem_nil, or_false,
+      forall_eq_or_imp, forall_eq]
+    dsimp only [upperNE, upperNW, spanNE, spanNW]
+    decide +kernel
   · decide +kernel
 
 theorem case71_impossible (p : NormalizedPacking)
@@ -23,7 +26,10 @@ theorem case71_impossible (p : NormalizedPacking)
 
 theorem cover80 : Check domains80 recipes := by
   apply check_of_parts domains80 recipes
-  · decide +kernel
+  · simp only [recipes, List.mem_cons, List.not_mem_nil, or_false,
+      forall_eq_or_imp, forall_eq]
+    dsimp only [upperNE, upperNW, spanNE, spanNW]
+    decide +kernel
   · decide +kernel
 
 theorem case80_impossible (p : NormalizedPacking)
@@ -32,7 +38,10 @@ theorem case80_impossible (p : NormalizedPacking)
 
 theorem cover589 : Check domains589 recipes := by
   apply check_of_parts domains589 recipes
-  · decide +kernel
+  · simp only [recipes, List.mem_cons, List.not_mem_nil, or_false,
+      forall_eq_or_imp, forall_eq]
+    dsimp only [upperNE, upperNW, spanNE, spanNW]
+    decide +kernel
   · decide +kernel
 
 theorem case589_impossible (p : NormalizedPacking)
@@ -41,7 +50,10 @@ theorem case589_impossible (p : NormalizedPacking)
 
 theorem cover590 : Check domains590 recipes := by
   apply check_of_parts domains590 recipes
-  · decide +kernel
+  · simp only [recipes, List.mem_cons, List.not_mem_nil, or_false,
+      forall_eq_or_imp, forall_eq]
+    dsimp only [upperNE, upperNW, spanNE, spanNW]
+    decide +kernel
   · decide +kernel
 
 theorem case590_impossible (p : NormalizedPacking)

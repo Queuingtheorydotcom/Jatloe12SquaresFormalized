@@ -43,7 +43,7 @@ private theorem coefficient_bound {d t l r : ℝ}
     have product := mul_nonneg (sub_nonneg.mpr wb.2.1)
       (sub_nonneg.mpr wb.2.2.2.1)
     have identity : d*(89/100-a)=(1-d)*(1-t) := by
-      dsimp [a]; field_simp [dp.ne'] <;> ring
+      dsimp [a]; field_simp [dp.ne']; ring
     have scaled : 0≤d*(89/100-a) := by linarith only [identity,product]
     have gap := nonneg_of_mul_nonneg_right scaled dp
     linarith only [gap]
@@ -57,6 +57,7 @@ private theorem coefficient_bound {d t l r : ℝ}
       (sub_nonneg.mpr a_global)
     have second := mul_nonneg ln.1 (sub_nonneg.mpr b_global)
     change 0≤1-l*a-r*b
+    clear_value a b
     nlinarith only [first,second,lb.2.1,order,low]
   · have high : 11/50≤t := le_of_lt (lt_of_not_ge low)
     have tSquare := mul_nonneg (sub_nonneg.mpr high)
@@ -91,7 +92,7 @@ private theorem coefficient_bound {d t l r : ℝ}
     have a_high : a≤871/1000 := by
       have identity : d*(871/1000-a)=
           (1-d)*(1-t)-(19/1000)*d := by
-        dsimp [a]; field_simp [dp.ne'] <;> ring
+        dsimp [a]; field_simp [dp.ne']; ring
       have scaled : 0≤d*(871/1000-a) := by linarith only [identity,margin]
       have gap := nonneg_of_mul_nonneg_right scaled dp
       linarith only [gap]
@@ -112,6 +113,7 @@ private theorem coefficient_bound {d t l r : ℝ}
       (sub_nonneg.mpr a_high)
     have second := mul_nonneg ln.1 (sub_nonneg.mpr b_high)
     change 0≤1-l*a-r*b
+    clear_value a b
     nlinarith only [first,second,disk]
 
 /-- The exact coefficient required by the actual O/L/W support cycle
@@ -156,9 +158,11 @@ theorem margin {c s d t l r : ℝ}
       l*(1-c)*(l*(1-s)-(24/25)*c*r)+
       l*r*c*(1/100-(1-c)/25) := by
     dsimp [F,F0,H]
-    field_simp [cp.ne',dp.ne'] <;> ring
+    field_simp [cp.ne',dp.ne']; ring
   have central : F0≤F := by
-    have scaled : 0≤c*(F-F0) := by nlinarith only [identity,central1,central2]
+    have scaled : 0≤c*(F-F0) := by
+      rw [identity]
+      exact add_nonneg central1 central2
     have gap := nonneg_of_mul_nonneg_right scaled cp
     linarith only [gap]
   have lp1 : 0<1+l := by linarith only [lp]
@@ -174,7 +178,7 @@ theorem margin {c s d t l r : ℝ}
           (1-l*(189/100-t-(1-t)/d)-r*(d^2/(1+d)))+
           r*(l/(1+l)-d/(1+d)) := by
       dsimp [H]
-      field_simp [lp1.ne',dp1.ne',dp.ne'] <;> ring
+      field_simp [lp1.ne',dp1.ne',dp.ne']; ring
     nlinarith only [identity,scalar,remainder]
   have endpoint : F0=r*(1+l*H-d*r+l*r/(1+l)) := by
     apply (mul_right_cancel₀ lp1.ne')
@@ -182,7 +186,7 @@ theorem margin {c s d t l r : ℝ}
       F0*(1+l) = r*(1+l*H-d*r+l*r/(1+l))*(1+l)+
           (d*(1+l)-l)*(l^2+r^2-1) := by
         dsimp [F0]
-        field_simp [lp1.ne'] <;> ring
+        field_simp [lp1.ne']; ring
       _ = _ := by rw [ln.2.2]; ring
   have nonnegative : 0≤F0 := by rw [endpoint]; exact mul_nonneg ln.1 bracket
   change 0≤F

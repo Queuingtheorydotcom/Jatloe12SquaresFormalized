@@ -28,6 +28,7 @@ theorem marker_margin {e f c s : ℝ} (en : Normal e f) (tn : Normal c s) :
   have circle : (e*A+f*B)^2+(e*B-f*A)^2=A^2+B^2 := by
     linear_combination (A^2+B^2)*en.2.2
   change 0≤1+e*A+f*B
+  clear_value A B
   nlinarith only [identity,residual,circle,sq_nonneg (e*B-f*A),
     sq_nonneg (e*A+f*B+1)]
 
@@ -78,6 +79,7 @@ theorem lower_pair_margin {e f c s : ℝ}
       (sub_nonneg.mpr aBound)
     have last := mul_nonneg en.1 (sub_nonneg.mpr bBound)
     have disk := disk_margin en (show (47/50 : ℝ)^2+(1/4)^2<1 by norm_num)
+    clear_value A B
     nlinarith only [first,last,disk]
   · have large : 2/5≤s := (lt_of_not_ge small).le
     have ap : A≤0 := by
@@ -87,13 +89,15 @@ theorem lower_pair_margin {e f c s : ℝ}
       have identity : c*B-s*A=1+(23/20)*s-(5/4)*c := by
         dsimp [A,B]
         linear_combination (1-(61/100)*s)*tn.2.2
-      nlinarith only [identity,large,tb.2.1]
+      rw [identity]
+      nlinarith only [large,tb.2.1]
     have endpoint : 0<1+c*A+s*B := by
       have identity : 1+c*A+s*B=2-(44/25)*c-(3/5)*s := by
         dsimp [A,B]
         linear_combination (1+(13/20)*s)*tn.2.2
       have disk := disk_margin tn (show (22/25 : ℝ)^2+(3/10)^2<1 by norm_num)
-      linarith only [identity,disk]
+      rw [identity]
+      linarith only [disk]
     have first := mul_nonneg (neg_nonneg.mpr ap)
       (sub_nonneg.mpr (dot_le_one tn en))
     have last := mul_nonneg (sub_nonneg.mpr fs) slope
@@ -101,8 +105,10 @@ theorem lower_pair_margin {e f c s : ℝ}
         -A*(1-(c*e+s*f))+(f-s)*(c*B-s*A) := by
       linear_combination -A*tn.2.2
     have scaled : 0≤c*((1+e*A+f*B)-(1+c*A+s*B)) := by
-      linarith only [identity,first,last]
+      rw [identity]
+      linarith only [first,last]
     have monotone := nonneg_of_mul_nonneg_right scaled cp
+    clear_value A B
     linarith only [monotone,endpoint]
 
 /-- The wing-upper-V face forces a definite top-wall tilt. In shallower
@@ -127,7 +133,9 @@ theorem upper_pair_margin {e f c s : ℝ}
   have factor : 0≤1-(61/100)*s := by linarith only [tb.2.2.2.1]
   have positive := mul_nonneg difference factor
   have bIdentity : B=-(c-s)*(1-(61/100)*s)-(1/25)*s^2 := by dsimp [B]; ring
-  have bNonpos : B≤0 := by nlinarith only [bIdentity,positive,sq_nonneg s]
+  have bNonpos : B≤0 := by
+    rw [bIdentity]
+    nlinarith only [positive,sq_nonneg s]
   have gap : c-s≤7/10 := by nlinarith only [tilt,tb.2.1]
   have correction := mul_nonneg difference tn.1
   have bBound : -(18/25)≤B := by
@@ -141,6 +149,7 @@ theorem upper_pair_margin {e f c s : ℝ}
     have first := mul_nonneg (show 0≤e by linarith only [eb.1])
       (sub_nonneg.mpr aSmall)
     have last := mul_nonneg en.1 (sub_nonneg.mpr bBound)
+    clear_value A B
     nlinarith only [first,last,eb.2.1,fs,small]
   · have large : 1/2≤s := (lt_of_not_ge small).le
     have narrow : c≤87/100 := by
@@ -157,6 +166,7 @@ theorem upper_pair_margin {e f c s : ℝ}
       (sub_nonneg.mpr aBound)
     have bWeight := mul_nonneg en.1 (sub_nonneg.mpr bSmall)
     have disk := disk_margin en (show (91/200 : ℝ)^2+(22/25)^2<1 by norm_num)
+    clear_value A B
     nlinarith only [aWeight,bWeight,disk]
 
 #print axioms lower_pair_margin

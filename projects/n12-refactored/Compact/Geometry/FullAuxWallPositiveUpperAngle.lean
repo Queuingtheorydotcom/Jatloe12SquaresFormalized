@@ -105,6 +105,7 @@ theorem b_axis {C S b t u : ℝ} (dn : Normal C S) (bn : Normal b t)
     (show 0≤(267/500 : ℝ)-(23/100)*(S+11/50) by
       linarith only [small])
   change 0≤1+b*P+t*Q-beta*u
+  clear_value P Q beta
   nlinarith only [weightP,weightQ,weightSquare,upperCosine,betaCap,
     weightedOffset,chord,ob.2.2]
 

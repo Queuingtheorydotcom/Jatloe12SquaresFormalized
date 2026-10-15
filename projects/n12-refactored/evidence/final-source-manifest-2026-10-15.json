@@ -1430,8 +1430,8 @@
     {
       "module": "Compact.Cases.MergedLower.Complete",
       "path": "Compact/Cases/MergedLower/Complete.lean",
-      "bytes": 1997,
-      "sha256": "99113d8280f2498b3081dacf18661c1c3dc07535fad08c1a010be01c1239dd29"
+      "bytes": 2605,
+      "sha256": "9968849dff3e97625f6db7db401b60fc6587e95025ddb1eaa069c82b6a3bfb50"
     },
     {
       "module": "Compact.Assembly.MergedLowerCases",
@@ -2060,8 +2060,8 @@
     {
       "module": "Compact.Geometry.CornerWallNegativeMargin",
       "path": "Compact/Geometry/CornerWallNegativeMargin.lean",
-      "bytes": 8185,
-      "sha256": "b130262b00e2f8b5508dea9c55cbf35ced779583fd55c6bee93d42c5a0300ba5"
+      "bytes": 8227,
+      "sha256": "3fc9056a4ddbcdd5aae7b39ca29a2251c3c490203725be634e80c6234985582e"
     },
     {
       "module": "Compact.Geometry.CornerWallNegativeShared",
@@ -2132,8 +2132,8 @@
     {
       "module": "Compact.Geometry.CornerOuterOrderMonotone",
       "path": "Compact/Geometry/CornerOuterOrderMonotone.lean",
-      "bytes": 4727,
-      "sha256": "61da1ef9067d626a1255a44cd28286aa5881f835442128810ea8b193a6ebe207"
+      "bytes": 4774,
+      "sha256": "329a57710cb8395a517c9a7c30750cb71c6c74fd37b44659228c0d0d7a77d5b7"
     },
     {
       "module": "Compact.Geometry.PositiveCentralEscapeOrder",
@@ -2576,8 +2576,8 @@
     {
       "module": "Compact.Geometry.UpperRightCornerLongitudinalBounds",
       "path": "Compact/Geometry/UpperRightCornerLongitudinalBounds.lean",
-      "bytes": 7519,
-      "sha256": "41f3d92de16c30ea048f9998b42300d4d7598be7f171f5b2976a479b8e97ff3e"
+      "bytes": 7663,
+      "sha256": "5d5afc260e5ad9f8589eff3272908e6ed2ea2249dfbd94a6b1cf5f7e20a263e1"
     },
     {
       "module": "Compact.Geometry.UpperRightCornerReachAxes",
@@ -26030,8 +26030,8 @@
     {
       "module": "Compact.Geometry.FullAuxWallPositiveUpperAngle",
       "path": "Compact/Geometry/FullAuxWallPositiveUpperAngle.lean",
-      "bytes": 4778,
-      "sha256": "00ee77243833eb4806fcfe0c5ef328b86c5fb85ad50bbc474d898ff43ded052d"
+      "bytes": 4801,
+      "sha256": "5494f9caf22dd8407eedb1ff2a9fe8afbd55d329338657ccc3c25cc93fd9d978"
     },
     {
       "module": "Compact.Geometry.FullAuxWallPositiveUpperAngleSupport",

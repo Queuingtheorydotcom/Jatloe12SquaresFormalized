@@ -53,6 +53,7 @@ private theorem polynomial_nonnegative {x y : ℝ}
   · unfold Q
     positivity
 
+set_option maxHeartbeats 800000 in
 /-- Both coefficient differences are nonnegative for every ordered pair
 of canonical normals, including zero tilt and equal angles. -/
 theorem differences {p q d t : ℝ}
@@ -87,6 +88,7 @@ theorem differences {p q d t : ℝ}
   have qe : q=2*x/(1+x^2) := (eq_div_iff (ne_of_gt dx)).mpr qx
   have de : d=(1-y^2)/(1+y^2) := (eq_div_iff (ne_of_gt dypos)).mpr dy
   have te : t=2*y/(1+y^2) := (eq_div_iff (ne_of_gt dypos)).mpr ty
+  clear_value x y
   obtain ⟨pnonneg,qnonneg⟩ := polynomial_nonnegative ylo xy xhi
   have common : 0≤2*(1+x)*(x-y)*(1+y) := by
     have gap := sub_nonneg.mpr xy
@@ -97,7 +99,7 @@ theorem differences {p q d t : ℝ}
           2*(1+x)*(x-y)*(1+y)*P x y := by
       unfold F G denominator cross P
       rw [pe,qe,de,te]
-      field_simp [ne_of_gt dx,ne_of_gt dypos] <;> ring
+      field_simp [ne_of_gt dx,ne_of_gt dypos]; ring
     have product : 0≤(G p q d t-F p q d t)*
         ((1+x^2)^2*(1+y^2)^2) := by
       rw [identity]
@@ -110,7 +112,7 @@ theorem differences {p q d t : ℝ}
           2*(1+x)*(x-y)*(1+y)*Q x y := by
       unfold F G denominator cross Q
       rw [pe,qe,de,te]
-      field_simp [ne_of_gt dx,ne_of_gt dypos] <;> ring
+      field_simp [ne_of_gt dx,ne_of_gt dypos]; ring
     have product : 0≤
         (p*F p q d t+q*G p q d t-denominator q t*cross p q d t)*
           ((1+x^2)^3*(1+y^2)^2) := by
