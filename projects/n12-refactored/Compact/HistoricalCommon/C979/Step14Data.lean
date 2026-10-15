@@ -1,0 +1,25 @@
+import Compact.Bridge.CheckedCommonGroup
+import Compact.HistoricalCommon.Bindings326
+import Compact.HistoricalCommon.Bindings327
+import Compact.HistoricalCommon.Bindings328
+import Compact.HistoricalCommon.Bindings329
+import Compact.HistoricalCommon.Bindings330
+import Compact.HistoricalCommon.Bindings331
+import Compact.HistoricalCommon.Bindings332
+import Compact.HistoricalCommon.Keys
+
+namespace N12Compact.HistoricalCommon.C979.Step14
+open S12 S12Pilot IntegerSupport IndexedCommonGroups HistoricalData C713Shared
+set_option Elab.async false
+set_option linter.unnecessarySeqFocus false
+noncomputable section
+
+def sources : Fin 75 → Context dictionary :=
+  ![context10439,context10563,context10564,context10565,context10566,context10567,context10568,context10569,context10570,context10571,context10572,context10573,context10574,context10575,context10576,context10577,context10578,context10579,context10580,context10581,context10582,context10583,context10584,context10585,context10586,context10587,context10588,context10589,context10590,context10591,context10592,context10593,context10594,context10595,context10596,context10597,context10598,context10599,context10600,context10601,context10602,context10603,context10604,context10605,context10606,context10607,context10608,context10609,context10610,context10611,context10612,context10613,context10614,context10615,context10616,context10617,context10618,context10619,context10620,context10621,context10622,context10623,context10624,context10625,context10626,context10627,context10628,context10629,context10630,context10631,context10632,context10633,context10634,context10635,context10636]
+
+def neighbors : Fin 123 → Context dictionary :=
+  ![context10440,context10441,context10442,context10443,context10444,context10445,context10446,context10447,context10448,context10449,context10450,context10451,context10452,context10453,context10454,context10455,context10456,context10457,context10458,context10459,context10460,context10461,context10462,context10463,context10464,context10465,context10466,context10467,context10468,context10469,context10470,context10471,context10472,context10473,context10474,context10475,context10476,context10477,context10478,context10479,context10480,context10481,context10482,context10483,context10484,context10485,context10486,context10487,context10488,context10489,context10490,context10491,context10492,context10493,context10494,context10495,context10496,context10497,context10498,context10499,context10500,context10501,context10502,context10503,context10504,context10505,context10506,context10507,context10508,context10509,context10510,context10511,context10512,context10513,context10514,context10515,context10516,context10517,context10518,context10519,context10520,context10521,context10522,context10523,context10524,context10525,context10526,context10527,context10528,context10529,context10530,context10531,context10532,context10533,context10534,context10535,context10536,context10537,context10538,context10539,context10540,context10541,context10542,context10543,context10544,context10545,context10546,context10547,context10548,context10549,context10550,context10551,context10552,context10553,context10554,context10555,context10556,context10557,context10558,context10559,context10560,context10561,context10562]
+
+
+end
+end N12Compact.HistoricalCommon.C979.Step14

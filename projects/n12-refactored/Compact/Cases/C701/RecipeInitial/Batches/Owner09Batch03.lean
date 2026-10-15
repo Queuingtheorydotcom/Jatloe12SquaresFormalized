@@ -1,0 +1,16 @@
+import Compact.Cases.C701.RecipeInitial.Inputs
+import Compact.Bridge.InitialCoverBatch
+
+checked_initial_batch N12Compact.C701RecipeInitial.entries9_3
+  (N12Compact.Preservation.InitialBank.bank, N12Compact.C701RecipeInitial.inside9,
+   N12Compact.C701RecipeInitial.outside9)
+[
+  entry9_24 := ⟨24, [0, 3, 5, 6, 12, 13, 14, 15], none⟩,
+  entry9_25 := ⟨25, [0, 3, 5, 6, 12, 13, 14, 15], none⟩,
+  entry9_26 := ⟨26, [0, 3, 5, 6, 12, 13, 14, 15], none⟩,
+  entry9_27 := ⟨27, [0, 3, 5, 6, 12, 13, 14, 15], some 1738⟩,
+  entry9_28 := ⟨28, [0, 3, 5, 6, 12, 13, 14, 15], some 1739⟩,
+  entry9_29 := ⟨29, [0, 3, 5, 6, 12, 13, 14, 15], some 1740⟩,
+  entry9_30 := ⟨30, [0, 3, 5, 6, 12, 13, 14, 15], some 1741⟩,
+  entry9_31 := ⟨31, [0, 3, 5, 6, 12, 13, 14, 15], some 1742⟩
+]

@@ -1,0 +1,9 @@
+{
+  "source_commit": "82e40146b2fdc5bf11715c48b8809e210babaab0",
+  "scope": "N12 source-only snapshot",
+  "final_project_modules_preserved": 5375,
+  "original_mathematical_documents_preserved": 259,
+  "proof_source_bytes_unchanged": true,
+  "full_lean_compilation_performed": false,
+  "machine_specific_caches_logs_and_private_history_included": false
+}

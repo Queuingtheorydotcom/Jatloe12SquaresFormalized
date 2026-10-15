@@ -1,0 +1,72 @@
+import S12.IntervalCoverage
+namespace S12
+set_option maxRecDepth 100000
+set_option maxHeartbeats 0
+set_option Elab.async false
+def angle32_0 : AngleEnclosure := ⟨0,(1/32),(4095/4097),(128/4097),(4223/4097),(4097/4223),1⟩
+theorem angle32_0_checked : angle32_0.Check := by decide +kernel
+def angle32_1 : AngleEnclosure := ⟨(1/32),(1/16),(4087/4105),(384/4105),(4336841/4207625),(4207625/4336841),(1087/1025)⟩
+theorem angle32_1_checked : angle32_1.Check := by decide +kernel
+def angle32_2 : AngleEnclosure := ⟨(1/16),(3/32),(4071/4121),(640/4121),(1091513/1059097),(1059097/1091513),(287/257)⟩
+theorem angle32_2_checked : angle32_2.Check := by decide +kernel
+def angle32_3 : AngleEnclosure := ⟨(3/32),(1/8),(4047/4145),(896/4145),(4412153/4281785),(4281785/4412153),(1207/1033)⟩
+theorem angle32_3_checked : angle32_3.Check := by decide +kernel
+def angle32_4 : AngleEnclosure := ⟨(1/8),(5/32),(4015/4177),(1152/4177),(279713/271505),(271505/279713),(79/65)⟩
+theorem angle32_4_checked : angle32_4.Check := by decide +kernel
+def angle32_5 : AngleEnclosure := ⟨(5/32),(3/16),(3975/4217),(1408/4217),(4556177/4423633),(4423633/4556177),(1319/1049)⟩
+theorem angle32_5_checked : angle32_5.Check := by decide +kernel
+def angle32_6 : AngleEnclosure := ⟨(3/16),(7/32),(3927/4265),(1664/4265),(1163729/1130225),(1130225/1163729),(343/265)⟩
+theorem angle32_6_checked : angle32_6.Check := by decide +kernel
+def angle32_7 : AngleEnclosure := ⟨(7/32),(1/4),(3871/4321),(1920/4321),(4772177/4636433),(4636433/4772177),(1423/1073)⟩
+theorem angle32_7_checked : angle32_7.Check := by decide +kernel
+def angle32_8 : AngleEnclosure := ⟨(1/4),(9/32),(3807/4385),(2176/4385),(76697/74545),(74545/76697),(23/17)⟩
+theorem angle32_8_checked : angle32_8.Check := by decide +kernel
+def angle32_9 : AngleEnclosure := ⟨(9/32),(5/16),(3735/4457),(2432/4457),(5064953/4924985),(4924985/5064953),(1519/1105)⟩
+theorem angle32_9_checked : angle32_9.Check := by decide +kernel
+def angle32_10 : AngleEnclosure := ⟨(5/16),(11/32),(3655/4537),(2688/4537),(1310513/1274897),(1274897/1310513),(391/281)⟩
+theorem angle32_10_checked : angle32_10.Check := by decide +kernel
+def angle32_11 : AngleEnclosure := ⟨(11/32),(3/8),(3567/4625),(2944/4625),(5440841/5295625),(5295625/5440841),(1607/1145)⟩
+theorem angle32_11_checked : angle32_11.Check := by decide +kernel
+def angle32_12 : AngleEnclosure := ⟨(3/8),(13/32),(3471/4721),(3200/4721),(353897/344633),(344633/353897),(103/73)⟩
+theorem angle32_12_checked : angle32_12.Check := by decide +kernel
+def angle32_13 : AngleEnclosure := ⟨(13/32),(7/16),(3367/4825),(3456/4825),(5907713/5756225),(5756225/5907713),(431/305)⟩
+theorem angle32_13_checked : angle32_13.Check := by decide +kernel
+def angle32_14 : AngleEnclosure := ⟨(7/16),(15/32),(3255/4937),(3712/4937),(1544537/1505785),(1505785/1544537),(1759/1249)⟩
+theorem angle32_14_checked : angle32_14.Check := by decide +kernel
+def angle32_15 : AngleEnclosure := ⟨(15/32),(1/2),(3135/5057),(3968/5057),(6474977/6316193),(6316193/6474977),(7/5)⟩
+theorem angle32_15_checked : angle32_15.Check := by decide +kernel
+def angle32_16 : AngleEnclosure := ⟨(1/2),(17/32),(3007/5185),(4224/5185),(26561/25925),(25925/26561),(1823/1313)⟩
+theorem angle32_16_checked : angle32_16.Check := by decide +kernel
+def angle32_17 : AngleEnclosure := ⟨(17/32),(9/16),(2871/5321),(4480/5321),(7153577/6986473),(6986473/7153577),(463/337)⟩
+theorem angle32_17_checked : angle32_17.Check := by decide +kernel
+def angle32_18 : AngleEnclosure := ⟨(9/16),(19/32),(2727/5465),(4736/5465),(1884617/1841705),(1841705/1884617),(1879/1385)⟩
+theorem angle32_18_checked : angle32_18.Check := by decide +kernel
+def angle32_19 : AngleEnclosure := ⟨(19/32),(5/8),(2575/5617),(4992/5617),(7955993/7779545),(7779545/7955993),(119/89)⟩
+theorem angle32_19_checked : angle32_19.Check := by decide +kernel
+def angle32_20 : AngleEnclosure := ⟨(5/8),(21/32),(2415/5777),(5248/5777),(525497/514153),(514153/525497),(1927/1465)⟩
+theorem angle32_20_checked : angle32_20.Check := by decide +kernel
+def angle32_21 : AngleEnclosure := ⟨(21/32),(11/16),(2247/5945),(5504/5945),(8896241/8709425),(8709425/8896241),(487/377)⟩
+theorem angle32_21_checked : angle32_21.Check := by decide +kernel
+def angle32_22 : AngleEnclosure := ⟨(11/16),(23/32),(2071/6121),(5760/6121),(2355713/2307617),(2307617/2355713),(1967/1553)⟩
+theorem angle32_22_checked : angle32_22.Check := by decide +kernel
+def angle32_23 : AngleEnclosure := ⟨(23/32),(3/4),(1887/6305),(6016/6305),(9989873/9791665),(9791665/9989873),(31/25)⟩
+theorem angle32_23_checked : angle32_23.Check := by decide +kernel
+def angle32_24 : AngleEnclosure := ⟨(3/4),(25/32),(1695/6497),(6272/6497),(165617/162425),(162425/165617),(1999/1649)⟩
+theorem angle32_24_checked : angle32_24.Check := by decide +kernel
+def angle32_25 : AngleEnclosure := ⟨(25/32),(13/16),(1495/6697),(6528/6697),(11253977/11043353),(11043353/11253977),(503/425)⟩
+theorem angle32_25_checked : angle32_25.Check := by decide +kernel
+def angle32_26 : AngleEnclosure := ⟨(13/16),(27/32),(1287/6905),(6784/6905),(2988929/2934625),(2934625/2988929),(2023/1753)⟩
+theorem angle32_26_checked : angle32_26.Check := by decide +kernel
+def angle32_27 : AngleEnclosure := ⟨(27/32),(7/8),(1071/7121),(7040/7121),(12707177/12483113),(12483113/12707177),(127/113)⟩
+theorem angle32_27_checked : angle32_27.Check := by decide +kernel
+def angle32_28 : AngleEnclosure := ⟨(7/8),(29/32),(847/7345),(7296/7345),(844433/829985),(829985/844433),(2039/1865)⟩
+theorem angle32_28_checked : angle32_28.Check := by decide +kernel
+def angle32_29 : AngleEnclosure := ⟨(29/32),(15/16),(615/7577),(7552/7577),(14369633/14131105),(14131105/14369633),(511/481)⟩
+theorem angle32_29_checked : angle32_29.Check := by decide +kernel
+def angle32_30 : AngleEnclosure := ⟨(15/16),(31/32),(375/7817),(7808/7817),(3821513/3759977),(3759977/3821513),(2047/1985)⟩
+theorem angle32_30_checked : angle32_30.Check := by decide +kernel
+def angle32_31 : AngleEnclosure := ⟨(31/32),1,(127/8065),(8064/8065),(16263041/16009025),(16009025/16263041),1⟩
+theorem angle32_31_checked : angle32_31.Check := by decide +kernel
+def angles32 : List {w : AngleEnclosure // w.Check} := [⟨angle32_0,angle32_0_checked⟩,⟨angle32_1,angle32_1_checked⟩,⟨angle32_2,angle32_2_checked⟩,⟨angle32_3,angle32_3_checked⟩,⟨angle32_4,angle32_4_checked⟩,⟨angle32_5,angle32_5_checked⟩,⟨angle32_6,angle32_6_checked⟩,⟨angle32_7,angle32_7_checked⟩,⟨angle32_8,angle32_8_checked⟩,⟨angle32_9,angle32_9_checked⟩,⟨angle32_10,angle32_10_checked⟩,⟨angle32_11,angle32_11_checked⟩,⟨angle32_12,angle32_12_checked⟩,⟨angle32_13,angle32_13_checked⟩,⟨angle32_14,angle32_14_checked⟩,⟨angle32_15,angle32_15_checked⟩,⟨angle32_16,angle32_16_checked⟩,⟨angle32_17,angle32_17_checked⟩,⟨angle32_18,angle32_18_checked⟩,⟨angle32_19,angle32_19_checked⟩,⟨angle32_20,angle32_20_checked⟩,⟨angle32_21,angle32_21_checked⟩,⟨angle32_22,angle32_22_checked⟩,⟨angle32_23,angle32_23_checked⟩,⟨angle32_24,angle32_24_checked⟩,⟨angle32_25,angle32_25_checked⟩,⟨angle32_26,angle32_26_checked⟩,⟨angle32_27,angle32_27_checked⟩,⟨angle32_28,angle32_28_checked⟩,⟨angle32_29,angle32_29_checked⟩,⟨angle32_30,angle32_30_checked⟩,⟨angle32_31,angle32_31_checked⟩]
+theorem angles32_cover : CoversInterval 0 1 (angles32.map Subtype.val) := by native_decide
+end S12

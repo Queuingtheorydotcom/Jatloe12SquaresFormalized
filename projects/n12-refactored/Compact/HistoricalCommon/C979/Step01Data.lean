@@ -1,0 +1,29 @@
+import Compact.Bridge.CheckedCommonGroup
+import Compact.HistoricalCommon.Bindings056
+import Compact.HistoricalCommon.Bindings057
+import Compact.HistoricalCommon.Bindings058
+import Compact.HistoricalCommon.Bindings059
+import Compact.HistoricalCommon.Bindings060
+import Compact.HistoricalCommon.Bindings316
+import Compact.HistoricalCommon.Bindings352
+import Compact.HistoricalCommon.Bindings353
+import Compact.HistoricalCommon.Bindings354
+import Compact.HistoricalCommon.Bindings355
+import Compact.HistoricalCommon.Bindings356
+import Compact.HistoricalCommon.Keys
+
+namespace N12Compact.HistoricalCommon.C979.Step01
+open S12 S12Pilot IntegerSupport IndexedCommonGroups HistoricalData C713Shared
+set_option Elab.async false
+set_option linter.unnecessarySeqFocus false
+noncomputable section
+
+def sources : Fin 128 → Context dictionary :=
+  ![context11267,context11306,context11317,context11328,context11339,context11350,context11361,context11372,context11383,context11394,context11278,context11289,context11298,context11299,context11300,context11301,context11302,context11303,context11304,context11305,context11307,context11308,context11309,context11310,context11311,context11312,context11313,context11314,context11315,context11316,context11318,context11319,context11320,context11321,context11322,context11323,context11324,context11325,context11326,context11327,context11329,context11330,context11331,context11332,context11333,context11334,context11335,context11336,context11337,context11338,context11340,context11341,context11342,context11343,context11344,context11345,context11346,context11347,context11348,context11349,context11351,context11352,context11353,context11354,context11355,context11356,context11357,context11358,context11359,context11360,context11362,context11363,context11364,context11365,context11366,context11367,context11368,context11369,context11370,context11371,context11373,context11374,context11375,context11376,context11377,context11378,context11379,context11380,context11381,context11382,context11384,context11385,context11386,context11387,context11388,context11389,context11390,context11391,context11392,context11393,context11268,context11269,context11270,context11271,context11272,context11273,context11274,context11275,context11276,context11277,context11279,context11280,context11281,context11282,context11283,context11284,context11285,context11286,context11287,context11288,context11290,context11291,context11292,context11293,context11294,context11295,context11296,context11297]
+
+def neighbors : Fin 114 → Context dictionary :=
+  ![context1793,context1794,context1795,context1796,context1797,context1798,context1799,context1800,context1801,context1802,context1803,context1804,context1805,context1806,context1807,context1808,context1809,context1810,context1811,context1812,context1813,context1814,context1815,context1817,context1819,context1821,context1823,context1825,context1827,context1829,context1831,context1833,context1835,context1837,context1839,context1841,context1843,context1845,context1847,context1849,context1851,context1853,context1855,context1857,context1859,context1861,context1863,context1865,context1867,context1869,context1871,context1873,context1875,context1877,context1879,context1881,context1883,context1885,context1887,context1889,context1891,context1893,context1894,context1895,context1896,context1898,context1900,context1902,context1904,context1906,context1908,context1910,context1912,context1914,context1915,context1916,context1917,context1918,context1919,context1920,context1921,context1922,context1923,context1924,context1925,context1926,context1927,context1928,context1929,context1930,context1931,context1932,context1933,context1934,context1935,context1936,context1937,context1938,context1939,context1940,context1941,context1942,context1943,context1944,context1945,context10115,context10116,context10117,context10118,context10119,context10120,context10121,context10122,context10123]
+
+
+end
+end N12Compact.HistoricalCommon.C979.Step01

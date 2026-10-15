@@ -1,0 +1,15 @@
+import Compact.HistoricalCommon.C973.Step08Data
+
+namespace N12Compact.HistoricalCommon.C973.Step08
+open S12 S12Pilot IntegerSupport IndexedCommonGroups HistoricalData C713Shared
+set_option Elab.async false
+set_option linter.unnecessarySeqFocus false
+noncomputable section
+
+checked_point_group group8 (sources,neighbors,positive_denominators,ownKeys) : 47 × 64 in (23,24,8,8) at ⟨2209,2639,1000⟩
+checked_point_group group9 (sources,neighbors,positive_denominators,ownKeys) : 47 × 64 in (23,24,16,16) at ⟨1085,1254,500⟩
+checked_point_group group10 (sources,neighbors,positive_denominators,ownKeys) : 47 × 64 in (0,11,32,8) at ⟨2179,2520,1000⟩
+checked_point_group group11 (sources,neighbors,positive_denominators,ownKeys) : 47 × 64 in (11,6,32,8) at ⟨11263343,13168060,5000000⟩
+
+end
+end N12Compact.HistoricalCommon.C973.Step08

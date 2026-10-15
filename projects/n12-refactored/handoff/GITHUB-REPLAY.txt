@@ -1,0 +1,101 @@
+MANUAL N12 GITHUB REPLAY
+
+START OR RESUME
+With GitHub CLI authenticated to Queuingtheorydotcom/Jatloe12SquaresFormalized:
+  gh workflow run verify.yml --repo Queuingtheorydotcom/Jatloe12SquaresFormalized \
+    --ref main -f target=n12-final -f jobs=auto -f resume_run=auto
+
+Repeat exactly that command for another five-hour session. The newest available
+compatible checkpoint on branch main is restored automatically. No checkpoint
+means a fresh start. A failed compilation still saves earlier completed modules.
+Fix the reported source error on main and start a new run with the same command.
+Unchanged receipts are reused; changed sources and their dependents are checked
+again. A module interrupted mid-compilation restarts from its beginning.
+
+Monitor runs:
+  gh run list --repo Queuingtheorydotcom/Jatloe12SquaresFormalized --workflow verify.yml --branch main
+  gh run watch RUN_ID --repo Queuingtheorydotcom/Jatloe12SquaresFormalized
+
+Or open https://github.com/Queuingtheorydotcom/Jatloe12SquaresFormalized/actions/workflows/verify.yml
+and use Run workflow: branch main, target n12-final, jobs auto, fresh unchecked,
+resume_run auto. The command above explicitly supplies all N12 options if the
+default-branch form does not list them.
+
+To ignore all previous progress, add -f fresh=true. To request a specific prior
+run, replace auto with its numeric ID in -f resume_run=RUN_ID. An unavailable or
+incompatible explicit checkpoint fails visibly; auto falls back to older valid
+checkpoints, then a fresh start. Use a NEW workflow run to resume, rather than
+rerunning the same run ID. The latter does not resume its own prior attempts.
+
+verify.yml forwards the selected N12 target to n12.yml. This repository contains
+only N12. The targets:
+  n12          registered closure through the historical compatibility API.
+  n12-selected registered closure and selected Compact/Completion roots.
+  n12-final    Compact/Assembly/Final.lean, its exact unconditional theorem
+               N12Compact.Final.optimality, and the final axiom audit.
+
+RESOURCES AND FIVE-HOUR CHECKPOINT
+The job starts a five-hour absolute deadline before checkout. Setup, dependency
+restoration, checkpoint restoration and compilation all count toward it. At the
+deadline, the process group is stopped and completed modules are packaged and
+uploaded. The six-hour job limit leaves up to one hour for shutdown and upload.
+An earlier failure or successful completion also packages progress. A hard job
+cancellation or runner loss may prevent upload; allow the scheduled stop instead.
+
+The default runner is ubuntu-latest. To use a larger runner enabled for this
+repository, add -f runner=YOUR_RUNNER_LABEL to the launch command.
+
+jobs=auto uses the runner's available logical CPUs, respecting affinity and
+cgroup limits. A positive jobs value requests fewer threads, capped at available
+CPUs. Modules remain serial as required by the project; Lean can use those
+threads within each module. Memory is approximately 90% of currently available
+RAM, respecting cgroup limits and leaving OS headroom. Disk allocation scales
+with free space and reserves room for a checkpoint archive. Restore has a separate
+OS disk floor because it temporarily holds both the download and restored objects.
+The conservative local defaults are unchanged; this does not start a local build.
+
+Lean 4.19.0 and all library revisions remain pinned. Exact library caches are
+restored rather than rebuilding Mathlib. The hard 10000-module limit remains;
+the final source inventory is 8739 including libraries, cache helpers, compiled
+package configurations and final type audit. The preferred 8000 limit is exceeded.
+
+SAVED PROGRESS AND VALIDATION
+Each run uploads these artifacts, retained for 30 days:
+  n12-final-checkpoint-ATTEMPT    checkpoint.tar of completed project .olean
+                               objects, compiler logs and acceptance receipts.
+  n12-final-evidence-ATTEMPT      diagnostics, source inventory, resource usage,
+                               module timings and checkpoint/final audit reports.
+Other profiles substitute registered or selected for final.
+
+Checkpoints must come from this repository, branch, profile and platform, use
+the same pinned configuration, and have the same source commit or an ancestor.
+Download/extraction validates paths, metadata and file hashes. The verifier then
+rechecks source, recursive dependency, compiler, object and log fingerprints;
+restoration alone never establishes a theorem. Incomplete objects and logs
+containing admissions are not accepted. Global-success reports are never restored.
+Expired/deleted artifacts are unavailable; retain them or rerun within 30 days.
+GitHub artifact documentation:
+https://docs.github.com/en/actions/concepts/workflows-and-actions/workflow-artifacts
+
+SUCCESS IS SEPARATE FROM SAVING PROGRESS
+A normal five-hour stop can produce a successful checkpoint job while verification
+is still incomplete. Read the run summary and github-replay.json, not just its
+green status. Only the final profile can set global_optimality_proved=true, after
+all project modules compile and the exact type S12.packingConstant12=4 and its
+axioms pass the final audit. Scoped profiles cannot claim global optimality.
+The original native-decide classification retains native compiler trust.
+
+No Lean build or workflow was launched while configuring this runner. The new
+runner was checked with offline/mock tests; its first hosted execution is pending.
+The full source remains uncompiled. Fix elaboration issues without weakening
+statements or accepting admissions.
+
+SOURCE-ONLY CHECKS
+From projects/n12-refactored:
+  python3 scripts/github_replay.py --plan --profile final
+  python3 scripts/test_source_census.py
+  python3 scripts/test_replay_runner.py
+  python3 scripts/test_checkpoint.py
+  python3 scripts/test_runner_resources.py
+The last command launches tiny Python processes to test termination, never Lean.
+Non-plan local github_replay.py refuses before any setup or Lean invocation.

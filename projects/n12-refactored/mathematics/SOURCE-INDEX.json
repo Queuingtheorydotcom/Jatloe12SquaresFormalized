@@ -1,0 +1,1636 @@
+{
+  "scope": "Supplemental mathematical source added to the October 13 handoff; original files preserved byte-for-byte",
+  "files": [
+    {
+      "path": "mathematics/current/proofs/EIGHT-POINT-OBSTRUCTION.md",
+      "sha256": "85a3e9b80470b83790ea63e2d1482eb9dddcecf38fef7b938fcf6db66f9270d9",
+      "bytes": 6460,
+      "source": "User-supplied mathematical argument, 2026-10-14",
+      "lean_compilation_performed": false
+    },
+    {
+      "path": "mathematics/current/proofs/C1089-SIMPLIFIED-PROOF.md",
+      "sha256": "6bf2ab3b71e2c2ac920f52e03b7c394703813f18a327574ec23c06ebdb41c1eb",
+      "bytes": 8945,
+      "source": "User-supplied mathematical argument, 2026-10-14",
+      "lean_compilation_performed": false
+    },
+    {
+      "path": "mathematics/current/proofs/NE-SELECTION-LEMMA.md",
+      "sha256": "08ec7dfb10564d61eca8882d8481a70331ef807d1a5542b7ba96b0de8356bdc1",
+      "bytes": 5028,
+      "source": "User-supplied mathematical argument, 2026-10-14",
+      "lean_compilation_performed": false
+    },
+    {
+      "path": "mathematics/current/proofs/C1090-SIMPLIFIED-PROOF.md",
+      "sha256": "06e6f4950ab07f035ddcdc8c2621a5c6d4904ba4436ad297852f7a724382d0f5",
+      "bytes": 19805,
+      "source": "User-supplied mathematical argument, 2026-10-14",
+      "lean_compilation_performed": false
+    },
+    {
+      "path": "mathematics/current/proofs/C1091-complete-proof.md",
+      "sha256": "11b3232e73195ff752eb05156b98415d79c149c6ce31eadc266ed1696cf86d3d",
+      "bytes": 22719,
+      "source": "User-supplied mathematical argument, 2026-10-14",
+      "lean_compilation_performed": false
+    },
+    {
+      "path": "mathematics/current/proofs/C1091-merged-marker-seed.md",
+      "sha256": "bbb7441692aff1f0025e61e1822180ca26ae7667774bbd5e5f98bd31c4cfb24b",
+      "bytes": 3451,
+      "source": "User-supplied mathematical argument, 2026-10-14",
+      "lean_compilation_performed": false
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-TWO-FIFTHS-SLOPE-SQUEEZE.md",
+      "sha256": "a42f1fe6e9b24fd9c5b7692769fc887b631f8bd0efc054c9e303bb2d38e56e12",
+      "bytes": 10877,
+      "source": "User-supplied mathematical argument, 2026-10-14",
+      "lean_compilation_performed": false
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-SIMPLIFIED-PROOF.md",
+      "sha256": "713d8b7d1e1756f8ab9bae5aaa6f6d1d6ccf9fffb75d53b6daccbc2c6ee88f01",
+      "bytes": 8985,
+      "source": "User-supplied mathematical argument, 2026-10-14",
+      "lean_compilation_performed": false
+    },
+    {
+      "path": "mathematics/current/proofs/05_C580_MATH_DONE__FORMAL_PENDING.md",
+      "sha256": "e8c864f90b9c732f26d1b39b76a2d5e2044ecdec032ecbbb8a5c8ccbaa42d865",
+      "bytes": 158029,
+      "source": "User-supplied mathematical argument, 2026-10-15",
+      "lean_compilation_performed": false
+    },
+    {
+      "path": "mathematics/current/proofs/06_DONE_MATH_C581.md",
+      "sha256": "46d3c802cb82a74d4ec4f3e6dc753d94084630b486855cfa91e06fe34a898a86",
+      "bytes": 43290,
+      "source": "User-supplied mathematical argument, 2026-10-15",
+      "lean_compilation_performed": false
+    }
+  ],
+  "base_source": "12-square-formalization-handoff-2026-10-13.zip, mathematics/current/proofs",
+  "unprovided_relative_references": [
+    "entrance/LOCAL-RULE.txt",
+    "entrance/FOUNDATIONAL-ENTRANCE.md",
+    "checks/replay_entrance.py",
+    "checks/check_foundation.py",
+    "checks/check_new_obstruction.py",
+    "PROVENANCE.json",
+    "reference/RECOVERY-MANIFEST.json"
+  ],
+  "claims_policy": "The new standalone eight-point argument is transcribed directly. Reported entrance replays and supporting documents are not treated as available formal proofs.",
+  "base_mathematical_sources": [
+    {
+      "path": "mathematics/current/proofs/BOTTOM-WALL-LOWER-MIDPOINT.md",
+      "sha256": "3b199b27755b066a82c45f1a79fd209a8779b577d12a6ecec70887687c0fb45f",
+      "bytes": 10601
+    },
+    {
+      "path": "mathematics/current/proofs/C1072-CONTINUOUS-REDUCTION.md",
+      "sha256": "e53e76034df7f9cda9cb6a950870bdd096ffabef7ffe7b7f7167dd1ca40aaecb",
+      "bytes": 8092
+    },
+    {
+      "path": "mathematics/current/proofs/C1084-CENTRAL-REDUCTION.md",
+      "sha256": "987f08a8ea596401c46c874fe6ed4dc7394764089ef115f7a5bbd595f8978185",
+      "bytes": 8265
+    },
+    {
+      "path": "mathematics/current/proofs/C1084-DUPLICATE-POINT.md",
+      "sha256": "e69be7e06e38de29fc34cb84e595c7122e576afd2f56a021e13c092c9a10eeae",
+      "bytes": 14127
+    },
+    {
+      "path": "mathematics/current/proofs/C1089-CONTINUOUS-REDUCTION.md",
+      "sha256": "3503cf83b8c9aaee1401d099bc6c5a0b5ce5701c137ff0064c87535678701ec0",
+      "bytes": 14966
+    },
+    {
+      "path": "mathematics/current/proofs/C1089-LAST-SECTOR-ENDING.md",
+      "sha256": "5c6eb4510dc0bc2e45d5a05ac2b357ef40e676e10651ef211e3b3b9bc46cfe97",
+      "bytes": 11105
+    },
+    {
+      "path": "mathematics/current/proofs/C1089-LAST-SECTOR-POINTS.md",
+      "sha256": "b2de0eefc19ddb8748c6163b08b56312c93e287d5c8ad639fbff52bff7af2ec7",
+      "bytes": 7683
+    },
+    {
+      "path": "mathematics/current/proofs/C1089-LAST-SECTOR-REDUCTION.md",
+      "sha256": "b80dedbae88720b687a33c4083771dc4ae937703dd881ec7fb0408928059ea57",
+      "bytes": 15300
+    },
+    {
+      "path": "mathematics/current/proofs/C1089-MMMP-SINGLETON-ENDING.md",
+      "sha256": "6e30b773eb2d68c84ee687fe149d97dc188fe8ffe339f888afa8c0201a1c8d62",
+      "bytes": 7350
+    },
+    {
+      "path": "mathematics/current/proofs/C1089-NORTHEAST-INWARD-ENDING.md",
+      "sha256": "c10413181ff2a7209103d5303ae2a5e7ef0c9f538d872127fdfce0f264985ec4",
+      "bytes": 5385
+    },
+    {
+      "path": "mathematics/current/proofs/C1089-REVERSE-CYCLIC-ENDING.md",
+      "sha256": "adf6675e8bfbd29181e282532800e6a0ba4c5f9a432387c8f0ea9095b8fc0a77",
+      "bytes": 19498
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-ALL-EIGHT-TERMINALS.md",
+      "sha256": "2245e55dcab9579d9e4f7d9887f9834c45930c1345a63f63f7914662447478ed",
+      "bytes": 8632
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-BC-CURVATURE-SCALAR.md",
+      "sha256": "a2a937b5a80df5747ffdff9807b4650c4af7c9e5702a324528e51ba5b24372f5",
+      "bytes": 3381
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-CB-ENDPOINT-SCALARS.md",
+      "sha256": "a9ec00974f23be6100eb3d9b884d6b1ab5636d9428c6629c04cd9894c507649a",
+      "bytes": 13188
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-CYCLES.md",
+      "sha256": "79b62d352243548c09e30d78e915d89ba52bcc40c19b4b737e092a958d242c75",
+      "bytes": 9045
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-CYCLIC-ENTRANCE.md",
+      "sha256": "0ae6da65568b9cb6d954501d18e97257e033689982f5a3b1cbf81ff0d8eb893a",
+      "bytes": 26746
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-DIRECT-LAST-ASSIGNMENT.md",
+      "sha256": "855c9f9edaa6eba5919b2253a0263dc05964eff672b4d59f1bdc6c9372d1057a",
+      "bytes": 7232
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-DIRECT-MIXED-CYCLE.md",
+      "sha256": "75582c24e81818b78046b351efb9e8ca5b5ba70ba778cc109c2209615fb1d6b8",
+      "bytes": 11809
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-DIRECT-NEGATIVE-CYCLE.md",
+      "sha256": "8610d9f294c154ec9f6210a99339f5318b99a7ce6a99e0fd35a93c03a507081c",
+      "bytes": 14264
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-DIRECT-NEGATIVE-DISK.md",
+      "sha256": "0990d6a6617c56e87ec8ad45702af3b2d61d6b15defc39f1e5955152f9d0768a",
+      "bytes": 10278
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-DIRECT-POSITIVE-CYCLE.md",
+      "sha256": "c2ddb92277d59142d5d6dbaa0cce7b0d3f29174c5d254b58495a81402b422f18",
+      "bytes": 18633
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-DIRECT-WALL-POINT.md",
+      "sha256": "9c1ab20abe6fc630887b92c0d099c0a44d0f50c9fe44fc9e10a6021893a83e5c",
+      "bytes": 35300
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MIXED-NEGATIVE-DISK.md",
+      "sha256": "50063b23f0f401680d37688e2deb9ad0b0f18a561961624e80e0b0fb07f9c818",
+      "bytes": 8905
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MIXED-NEGATIVE-H.md",
+      "sha256": "bb301a02056cafb87491bc99c1e63f884f8a0aecc8d7aa753f4620f1332a32ee",
+      "bytes": 9379
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MIXED-SIGNS.md",
+      "sha256": "c9accdb2ff3107e3b7fda8a32824b935fb237bec83857b2538ee6a9cc37e69ff",
+      "bytes": 8218
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MMMM-CONTINUOUS-ENDING.md",
+      "sha256": "4e6e2f1aa507a18475fc27df710436a2e7a878558140ce05763d8ce7f04f4687",
+      "bytes": 23255
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MMMM-CONTINUOUS-REDUCTION.md",
+      "sha256": "8b0f7a2d580f4ea133b79175f9b44070b6b3754d9baf5c0d6585eb49155fe53b",
+      "bytes": 13509
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MMMP-BOTTOM-ORDINARY-PAIR.md",
+      "sha256": "59dd9a282ba9e58ee87f130b3a786c6fc2dd1e11d33161f8f4d26129415de7a0",
+      "bytes": 6472
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MMMP-CENTER-CROSSPOINTS.md",
+      "sha256": "2af4790d151742399a5c3f3970a316292d3fc26d8ee2bc4a3b4a5d7ac8362d02",
+      "bytes": 10886
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MMMP-CONTINUOUS-ENDING.md",
+      "sha256": "a1d68e8d3a27ef57e252b8c330f713e30a8cd41f9205f9d4953907f32706c4aa",
+      "bytes": 11810
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MMMP-CORE-OWNERS.md",
+      "sha256": "d0094e45dded8303fcaf11633cb53580c868014f5f8919e495c207f32ab6ae61",
+      "bytes": 7555
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MMMP-DOUBLE-RIGHT-BOTTOM-ORIGIN.md",
+      "sha256": "c01052684e487c6b97d98ba632cf76d46ec257034b89050f596c750eecbb835e",
+      "bytes": 11258
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MMMP-DOUBLE-RIGHT-NORTHWEST-SIGN.md",
+      "sha256": "c37cb783659956e98b661b429f310ce415f70a309de95506c6e871019d1b3bc4",
+      "bytes": 5583
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MMMP-FULL-INWARD-CENTER.md",
+      "sha256": "cce512c4518a2b205b7c24a6745696176d884ac7aa4e1f0ad7c72ba64cf06e9b",
+      "bytes": 15538
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MMMP-INWARD-CENTER.md",
+      "sha256": "3090454cf61afc92ef89dac0e28d603b8f4df8e9742af4aa502df11115528097",
+      "bytes": 8236
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MMMP-LEFT-AUXILIARY-EXCLUSION.md",
+      "sha256": "f2d297d56629cf0946fc86d91fff65f4013c996a498c06571322250d82612856",
+      "bytes": 7425
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MMMP-LEFT-FAR-AUXILIARY.md",
+      "sha256": "87a7f878c0617febe62fd8db559214bab55259cd5f11b3cee8d44419336eb4a3",
+      "bytes": 4465
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MMMP-LEFT-LOWER-INCIDENCE.md",
+      "sha256": "0b9c4f5b2df8ecedf3ccae5be7271afbd7e3e87bc7dd1cd44b15d6e36715ec54",
+      "bytes": 4081
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MMMP-NEGATIVE-INWARD-MISSING-ORIGIN.md",
+      "sha256": "ad839a889a3a2d81310300601f088cd724138a0c114a27603ba179a6899250c5",
+      "bytes": 7732
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MMMP-NEGATIVE-ORDINARY-HALFANGLE-POINT.md",
+      "sha256": "f8f781a496fbea0d2b0a6c9b2efe83eae469f822dc9ece14879704bea4fa8faa",
+      "bytes": 5783
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MMMP-NEGATIVE-RIGHT-ENDING.md",
+      "sha256": "da5f869ebc2063cddb37f7d6b4d8ca7fd9c6edf57db1757154fe15cb024cc9db",
+      "bytes": 11054
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MMMP-NORTHEAST-ANGLE.md",
+      "sha256": "c251d23ca71a94c4bec93585b9c4d7e0c418bc0e2099733e3061da3aed39b201",
+      "bytes": 12387
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MMMP-NORTHEAST-LOWER-TIP.md",
+      "sha256": "d204641723234b89e6e10231aaf2187616d08648f9929ee021c4e1517d588822",
+      "bytes": 7435
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MMMP-NORTHEAST-TOP-CAP.md",
+      "sha256": "aede8dbe9b33264c747df42560ec3308ea7d3ccf7ca99a9593dbeccfa3156f34",
+      "bytes": 2845
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MMMP-NORTHEAST-UPPER-THIRD.md",
+      "sha256": "e71b3a27089a9e8da1d7bafe24263ec012a1a92406986fe5aec3607108004db6",
+      "bytes": 10436
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MMMP-NORTHWEST-LEFT-TIP.md",
+      "sha256": "b82a3559aa52b3d0ae16f6b5ed8242463bfe0ceeaca4ab02bfc7cd64a7fe84d4",
+      "bytes": 3831
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MMMP-ORDINARY-SOUTHEAST-MISSING-ORIGIN.md",
+      "sha256": "bfae241c9277301ea7f2a6013f209c16fdb2d03b9b55eb10a6dd34a9f7a799ac",
+      "bytes": 8618
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MMMP-PARTIAL-RIGHT-ENDING.md",
+      "sha256": "9287b8f382f314e13b634a18191ff276f0b64f696fedae50d32892f951f94217",
+      "bytes": 11905
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MMMP-PARTIAL-RIGHT-NORTHEAST-BOUND.md",
+      "sha256": "33d5b4cf60dfdea3f1e199c67eeac2f9abc9a66368cddc6e7a75591bff0e0cf6",
+      "bytes": 8179
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MMMP-PARTIAL-RIGHT-SOUTHEAST-FLOOR.md",
+      "sha256": "25fda03cea0ca6204964ed5cfea2e03a7f126e3147df389c0c06be948eb9bd04",
+      "bytes": 7711
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MMMP-POSITIVE-RIGHT-ANGLE-REDUCTION.md",
+      "sha256": "07b1092bfa6a14f8cb82676452304f2c1a442355579bd7ebd2ea5dc0f59e44a8",
+      "bytes": 8406
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MMMP-POSITIVE-RIGHT-ENDING.md",
+      "sha256": "5bb04740862b5549d048cb9e44d383d8ea8236aedb836c666c8ca5b13ac980e3",
+      "bytes": 9073
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MMMP-RIGHT-DOUBLE-SPAN.md",
+      "sha256": "7d3691405d6a9c4b911bb46d179a6cacddaa4363775a6e998ef9d9e748a8bd67",
+      "bytes": 5695
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MMMP-RIGHT-FAR-AUXILIARY.md",
+      "sha256": "68a396912997de9fccb571a36278f02d00833daeb6cc59a00eeaffdeb39707a2",
+      "bytes": 2907
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MMMP-RIGHT-INNER-EXCLUSION.md",
+      "sha256": "268ec45db0a539c827d3583beba2256e388cbfd7924b0de92da37f0e6c673432",
+      "bytes": 10123
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MMMP-RIGHT-LOWER-REACH.md",
+      "sha256": "eb0681a7fec6a2c9a01d48328e1b34bf762637d3d499ba9898b8f5146be0f727",
+      "bytes": 13579
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MMMP-RIGHT-NEAR-BOTTOM-ORIGIN.md",
+      "sha256": "22fd35384e886d4ce113a8f2e77aeb575dcbb34f14fead49a820de8159c43fc8",
+      "bytes": 8887
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MMMP-RIGHT-ORIGIN.md",
+      "sha256": "f892a30bf118cd8257677694fa8760c8b0302b42a6ad99685878c7b23e458c46",
+      "bytes": 2587
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MMMP-SECOND-INWARD-TIP.md",
+      "sha256": "e53f5b044ffd802056e86954effbe9ce8e6caee87ac26d5c3ce06027e70f1300",
+      "bytes": 1820
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MMMP-SOLE-RIGHT-NORTHEAST-REACH.md",
+      "sha256": "4a0ca479ad00a73683334c661504043e4e58d811638db9611eab92f01e44f715",
+      "bytes": 6410
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MMMP-SOLE-RIGHT-SOUTHEAST-COVERS.md",
+      "sha256": "2fcb54568b992b1955dd7c962e46aef0e6a5eb59cf5e151a7e3f8b3b401e40f5",
+      "bytes": 9262
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MMMP-SOUTHEAST-CENTER-REDUCTION.md",
+      "sha256": "a4a1bbaa1f7e86159a3400ae9adc8b8b7aaa4bb3c37c51ec90fc954da4619ad1",
+      "bytes": 13072
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MMMP-SOUTHEAST-FLOOR-RIGHT-SIGN.md",
+      "sha256": "198eb69dfb87f5ce7db18a41fcadb27774a1ceb0eff6baa3f46d8817520b611d",
+      "bytes": 6955
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MMMP-SOUTHWEST-OUTWARD-EXCLUSION.md",
+      "sha256": "03b8bcc1ca0afca762c01e7bc1873730eda8af60662d2aac7c25fbdc3c8d58a4",
+      "bytes": 20623
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MMMP-TOP-AUXILIARY-EXCLUSION.md",
+      "sha256": "834b65d4d693fa81869ab43d5a274d74378629b78ef1fd83bcf19d3285056959",
+      "bytes": 8085
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MMMP-TOP-ORIGIN.md",
+      "sha256": "52a0570ae17293618b23b4395c54e53cef0e43f3e6a42fe1a7113aed414f4e24",
+      "bytes": 16835
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MMMP-UPPER-STRICT-POINTS.md",
+      "sha256": "0bc44f61d3429685539b22b15cd96b83fac6c3e6d3f56f99d9a65906b9fdc978",
+      "bytes": 9132
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MMMP-WALL-TRANSFER.md",
+      "sha256": "d0b2c95c2081f03e34d09e4d88c82ebd927d54365f9070eaedb3640cdde7d72e",
+      "bytes": 3841
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-ALL-NEGATIVE-MIXED-FORWARD-ENDING.md",
+      "sha256": "b7d4079f4b1cc4ad947a761bced3306466e0ee1ebd5cf920e06f30d68d5813b4",
+      "bytes": 19117
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-CENTERED-INWARD-OIOI-ENDING.md",
+      "sha256": "42bbb0a15bf471eedaef408252dcc017212426acc43780c092ed45a106f4d7f9",
+      "bytes": 17117
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-CENTERED-INWARD-OMITTED-G-FAR-ENDING.md",
+      "sha256": "6dcde29566acf73e057c5feb0663085ec01740c91e82ab53c0558c27bec263c2",
+      "bytes": 11058
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-CENTERED-NEGATIVE-INWARD-ANGLE.md",
+      "sha256": "58609e20ef7a9acaeafe23a58608d0b83376c527c0a20f5054e74427f3d92b3a",
+      "bytes": 11808
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-CENTERED-NEGATIVE-INWARD-H-CAP.md",
+      "sha256": "2bd310bfd5b90c740bebbffccfffdbfaa911df0b1c84e13bd1a35b36a049b2cf",
+      "bytes": 11041
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-CENTERED-OUTER-OWNED-FAR-ENDING.md",
+      "sha256": "dc43c507f14e08f5dbc679e033d16f3476d68b5816f3e44a81e1cf27546f0c71",
+      "bytes": 8401
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-CENTERED-POSITIVE-INWARD-ENDING.md",
+      "sha256": "6f44be647cbd15c39057cd5b93fac7c015b0e0b3f3e116d2bdcc244cf25359f3",
+      "bytes": 21261
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-CENTERED-POSITIVE-OVERLAP.md",
+      "sha256": "f15e59d0c1ccfa5113c80d4529ea2ca402146a1ecf1cda3c238ef159292056b4",
+      "bytes": 8137
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-CENTRAL-SIGN-REDUCTION.md",
+      "sha256": "1e5619f5d7c893cd5a0432fe0ab0fff75d43a82e7601501bf087a6007cc743ee",
+      "bytes": 5963
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-CONTINUOUS-ENDING.md",
+      "sha256": "1f417c44b45601bd646fd88915537af82031df2f44ce7f7cb5890735f01de0b5",
+      "bytes": 10749
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-CROSSPOINT-STATE-REDUCTION.md",
+      "sha256": "8412fa2fe81bb7e0d94d3f16a88edc113fdff18b92960b53145fe3a98ae21bcd",
+      "bytes": 7857
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-ELBOW-EXCLUSION.md",
+      "sha256": "5128607fa9c16761fffd113091e52acc6cde152b5e0961d189834ce06caae162",
+      "bytes": 17697
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-ELBOW-SUCCESSOR.md",
+      "sha256": "b3358d04c4f1e598e2474ba13d08a41eb76c9634aa999e851c969b82008667d2",
+      "bytes": 12476
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-FLANKED-POSITIVE-HALFPOINT.md",
+      "sha256": "382cfe4639c4e8b925d1068150103b9b36b56570d9a5018676bdfb2561d14b5e",
+      "bytes": 13610
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-FORWARD-OWNED-POSITIVE-D.md",
+      "sha256": "cd14b66858c0ba41b5094a85333a95b727ffdc1be6b236aeec4d42f2a2524dc5",
+      "bytes": 5921
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-INWARD-BOTTOM-ANGLE.md",
+      "sha256": "16b8139e001b66d01b6eacdf56cb02c68f129a110b2d53c94b9ecb0e1a385c97",
+      "bytes": 11097
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-INWARD-CONTINUOUS-ENDING.md",
+      "sha256": "2ff11adba58948a0d5ee01517e2bf008037f8a7ceb1fb4d3107bc070d0b09ed0",
+      "bytes": 5790
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-INWARD-OPPOSITE-REDUCTION.md",
+      "sha256": "c980c683cb3682e75c9c85524cbd805511af72b267fff05d9b37ef176b2eb97d",
+      "bytes": 7234
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-INWARD-OUTER-OWNED-ANGLE.md",
+      "sha256": "8de4b1c9780ba49ffe32903f640fef3a44b001fc573f0fa973e062b7353e921c",
+      "bytes": 6950
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-MISSING-BOUNDARY-SHALLOW-ANGLE.md",
+      "sha256": "d2a426a22fae034d7483e4441d3366242c47ab9acdb9ed2a1b71c3fa9fb3f9d2",
+      "bytes": 8674
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-MISSING-NEGATIVE-BOUNDARIES.md",
+      "sha256": "494c6ecae71e0f93ef110585f44c3ceb7f0eba3e8ae022ed27ad8cf8ae09b3fa",
+      "bytes": 16454
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-MISSING-NEGATIVE-WALL-ORDER.md",
+      "sha256": "5b74e2884caf29437c41ae46caa9d6af3adf890e5eff4afb99665d177f7cbb85",
+      "bytes": 12229
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-MISSING-POSITIVE-BOUNDARIES.md",
+      "sha256": "0cb9749341f92c84cd7b282d13a8b4ef668b4d6b2a097346b596d868260c6549",
+      "bytes": 22387
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-MISSING-POSITIVE-WALL-ORDER.md",
+      "sha256": "36b1400f9ed7cf741d39f8e482a00ca0a6dc9440408bb62a3fce3a34adeb8e9f",
+      "bytes": 20502
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-MISSING-RETAINING-SOUTHEAST-POTENTIAL.md",
+      "sha256": "a8d5be0ced831c03982e26a2a3ef3e1b50aae3fe4c060eeea8f2a2a1c2794ff5",
+      "bytes": 7213
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-MIXED-WALL-CENTER.md",
+      "sha256": "8b4119d9bedb414a5068ba891bd582a5da1a38e652a10c64ef4553b1076166f3",
+      "bytes": 9763
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-NEGATIVE-FORWARD-POSITIVE-H.md",
+      "sha256": "6ef876cf131c0da6ccbe81ecefb6f39199443725a37a610a901130383633a61b",
+      "bytes": 12468
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-NEGATIVE-INWARD-SUCCESSOR-SIGN.md",
+      "sha256": "ac301412a76c59aca5035c531316e071e3ac85822fac07ab432e696f81e1a47b",
+      "bytes": 10562
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-NEGATIVE-MISSING-POSITIVE-CEILING.md",
+      "sha256": "3bf751ceda65742b153ce12c81eca4236962d2728fd5378665d7e75f5fc53fa4",
+      "bytes": 10585
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-NEGATIVE-MISSING-POSITIVE-ENDING.md",
+      "sha256": "96776d0f0671efbf4805b0790c69427b0b43a66da38de54c371a2d965f9405fe",
+      "bytes": 10780
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-NEGATIVE-MISSING-POSITIVE-MISSING-EXCLUSION.md",
+      "sha256": "fd895b916e075d62d94cc12a564309e3f3dbd59bf87cee9dc5f84fbde75bf6b7",
+      "bytes": 3364
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-NEGATIVE-MISSING-POSITIVE-SHARED-WALL.md",
+      "sha256": "52b3a171d4b7609fe72022f0fbcea743bf98726c7e83a01a7a75e02ce8b4d9a8",
+      "bytes": 12095
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-NEGATIVE-OWNED-POSITIVE-CEILING.md",
+      "sha256": "abc7ff325e69f5e09f42dce4c6dc684156a447527d0a63a703ef6184d40348f8",
+      "bytes": 8693
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-NEGATIVE-OWNED-POSITIVE-OWNED-EXCLUSION.md",
+      "sha256": "86289ad3c23cf6fb29133b3b2806a57bcf3d70948cc71cc584d69506838c3e2b",
+      "bytes": 9673
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-NEGATIVE-SUCCESSOR-BAR-PROFILE.md",
+      "sha256": "a0df536e4afd8e2a3de2653cf71ce544e7e7d03c32e16551b8e6e29b5810f510",
+      "bytes": 6049
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-NO-OMISSION-REDUCTION.md",
+      "sha256": "6f31eecbc897bd92df4cf5daad0803a7193350df7c32e63637c8fd6118827f6d",
+      "bytes": 12627
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-NONORDINARY-ISOLATION.md",
+      "sha256": "bde56f24f1ba63ddd5fe5973597013cd582f8be00d25ecd5487420a4df5c8892",
+      "bytes": 13584
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-NONPOSITIVE-PREDECESSOR-HALFPOINT.md",
+      "sha256": "efaa5652f4e6bf38b60f39182c4665202ac47b22c1e763190c60c575a1f83a94",
+      "bytes": 6236
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-ONE-OMISSION-CONTINUOUS-ENDING.md",
+      "sha256": "3c771ec8fd92e23ed87199eb1c7d5de653d1decc188f574c275b917d53dfe413",
+      "bytes": 24353
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-ONE-OMISSION-NORTHWEST-SIGN.md",
+      "sha256": "5144fd655961b63c68f3de840fb329d50e7b608d7342a092db3c97c235929e48",
+      "bytes": 6742
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-ONE-OMISSION-TOP-ORIGIN.md",
+      "sha256": "45b3cd9823c3ea8a890c91df3c40ece90bb06daa08980adf2c5bf8ba8497bec5",
+      "bytes": 9914
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-ONE-OMISSION-UPPER-CORE.md",
+      "sha256": "328bd96c5762890c1bfdd20bf8c37df4cf29078911fe392240c82a0a2abdfe26",
+      "bytes": 13236
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-ONE-POSITIVE-CONTINUOUS-ENDING.md",
+      "sha256": "631b0d1fc6a1c806697eceb5ca1cc72031179e922756e6053cef6d523a583aa7",
+      "bytes": 17016
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-OPPOSED-MISSING-INWARD-ENDING.md",
+      "sha256": "497b68baf7a84888f2177528a473050dfb22e11392c4e689fbbe106b201a46ed",
+      "bytes": 17413
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-ORDINARY-CENTRAL-REDUCTION.md",
+      "sha256": "39cd0e4f00aae1f681bfb8dd316a9de9adf3bd7ce516729620b27012e1279fbc",
+      "bytes": 5322
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-ORDINARY-NEGATIVE-HALFPOINT.md",
+      "sha256": "22eb9660023b5ea219f6926145bc90457e38bc9a3f668fbe965913a3a0ad00a9",
+      "bytes": 9444
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-OUTER-OWNED-INWARD-FAR-ENDING.md",
+      "sha256": "bf475d6bc324bff27b5c8b3faa3e5fefc316f068c78048c9c0dabeefbc20c2ea",
+      "bytes": 10409
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-POSITIVE-BOUNDARY-ORIGIN.md",
+      "sha256": "d009b6c0356018d2248161d5eb30b7c3dbd28f8d3796ca0e7175d270df73b6de",
+      "bytes": 11075
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-POSITIVE-CROSSPOINT-ANGLE-DICHOTOMY.md",
+      "sha256": "017043c0b35a85f2d98cf3bc756421a661e4ab65718b38c4fe710f244484b868",
+      "bytes": 7474
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-POSITIVE-CROSSPOINT-SEEDS.md",
+      "sha256": "2448251388bf0f3af48f6d1488cd50ae907c093b0da4ed99aab921370a5b6bcc",
+      "bytes": 6747
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-POSITIVE-FORWARD-UPPER-CAP.md",
+      "sha256": "f8968a95ba98487ed047fa3b3cbbe109c87992d694a0c66a10cd9107c588f07d",
+      "bytes": 3101
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-POSITIVE-MISSING-INWARD-FAR-ENDING.md",
+      "sha256": "095034a28809900709858e6337fa85a4386597ff02b074f0f811cf11f3a207d2",
+      "bytes": 11143
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-POSITIVE-MISSING-INWARD-ORIGIN-ENDING.md",
+      "sha256": "b42bd5f56e666d4ce69986b3ef579ea849096f546662529c4c0abad69edf9fe7",
+      "bytes": 9756
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-POSITIVE-MISSING-INWARD-SUCCESSOR.md",
+      "sha256": "9a41acdf2f4a63add7c000ac4d2fcaca3819a3613ce0951a58ca8ed236a3ffa9",
+      "bytes": 10375
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-POSITIVE-MISSING-LEFT-CENTER.md",
+      "sha256": "a3382354752c0b271c971fc7e71c41af992ed07365b5617c6ed7d3fa03166660",
+      "bytes": 4190
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-POSITIVE-MISSING-NEGATIVE-H.md",
+      "sha256": "005708dd9b39f36e9b846fe47a9e3e411f50529febee44554f6e3be044ea6fd5",
+      "bytes": 7904
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-POSITIVE-NEGATIVE-RETAINING-SHALLOW.md",
+      "sha256": "7f42970e887dd161de0724ed1bb746f3ae41dbed4533f0f3cf195f212d53b13d",
+      "bytes": 11470
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-POSITIVE-ORIGIN-OWNED-WALL-ANGLE.md",
+      "sha256": "d1afa70dc7d319672ec3986509e7934944cc2fdfbd8ec036a156943410443bd2",
+      "bytes": 6065
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-POSITIVE-RETAINING-ANGLE-AND-ORIGINS.md",
+      "sha256": "c276906439a1bd07dfecb23d0e9e215381c8590ead6baef1c50e26288c4f9f66",
+      "bytes": 9655
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-POSITIVE-RETAINING-FIRST-NORMALS.md",
+      "sha256": "46eb1da43942d6ea8dbc968c7a91d657b743a1bc47a92f8cc85b28e1778ff252",
+      "bytes": 4917
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-SHALLOW-POSITIVE-NEGATIVE-HALFPOINT.md",
+      "sha256": "f82a82f8e6eee9d4064e1d73ac6c2afb7a3661faa3494da9bbe79a7aff8f608f",
+      "bytes": 5795
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-SHALLOW-POSITIVE-WALL-ORDER-SCALARS.md",
+      "sha256": "11d97487244c1ee480a5926a1fc578115d8484744b09c59f6862afc223763178",
+      "bytes": 6972
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-SHALLOW-POSITIVE-WALL-ORDER.md",
+      "sha256": "cf576f3ce837dcc92ec9b674ccc465d9a7f4f8aef4705673ccefd67bd4409862",
+      "bytes": 12779
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-SHALLOW-STEEP-POSITIVE-HALFPOINT.md",
+      "sha256": "7cf8837dd05f6cf0be9f1531730f8d2fc571427fbd6e5a26063c3be7b53d2db6",
+      "bytes": 6875
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-SMALL-INWARD-SUCCESSOR.md",
+      "sha256": "4d3720d56d097c0e20d11e16be60dcb500716257f7f9649ceb863e4d476fb63e",
+      "bytes": 14458
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-SMALL-INWARD-SUPPORT-CERTIFICATE.txt",
+      "sha256": "8c2b6796952bb19e5dda549307fa888099810ffeb016ccd6a898f89f7fef8b48",
+      "bytes": 3849
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-SMALL-INWARD-THREE-SQUARE-ENDING.md",
+      "sha256": "a65bb973cae2e2ce0650de22d385cf823126146eb4fb73aad7867072e1be8836",
+      "bytes": 16037
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-STEEP-POSITIVE-BOUNDARY-SCALARS.md",
+      "sha256": "b29d06a8fbacc13cc8c6535ee0b270a98b29d2c329220e306cff350275ea9362",
+      "bytes": 14574
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-STEEP-POSITIVE-CENTRAL-SCALAR.md",
+      "sha256": "db37a27afd09d63008189b3be8e3b8f95fbdbc12f69c7f86915a369fabf58788",
+      "bytes": 5640
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-STEEP-POSITIVE-MISSING-NEGATIVE-CROSSPOINT.md",
+      "sha256": "ca6d71306fa7d09e3afc71db184113ee618f5676dbf6bd33766299a2d8472e22",
+      "bytes": 9176
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-STEEP-POSITIVE-MISSING-NEGATIVE-WALL-SCALARS.md",
+      "sha256": "d40364c2a7339bb189f5de7729a88c08a731b0027bfacab01ca50f1b2c7a2ef4",
+      "bytes": 11179
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-STEEP-POSITIVE-NEGATIVE-CROSSPOINT-TRANSFER.md",
+      "sha256": "428b8364f14c5bb3dc4a95c98a60584586898a3abdf99e036c5d8029fc7d78ee",
+      "bytes": 8296
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-STEEP-POSITIVE-NEGATIVE-PROFILE.md",
+      "sha256": "0aa139e0596021349fab60de3d67695d852d1ee1b4fe54735fafed42363dbc97",
+      "bytes": 5944
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-STEEP-POSITIVE-NEGATIVE-WALL-SCALARS.md",
+      "sha256": "a4980b29266d1b8e391c2dc66a461f3d6370bec77ab55124ccd99c71bb43fcca",
+      "bytes": 10726
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-STEEP-POSITIVE-SUCCESSOR-FAR-CAP.md",
+      "sha256": "39bb9358bf7fb217e9abb1b95eaeb399d5f944ea4ac7c0e2136ef58c600e4e03",
+      "bytes": 7733
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-STEEP-POSITIVE-THREE-SQUARE-REDUCTION.md",
+      "sha256": "e615f2e0f584e01f8072d2f3c3c4224a8805d8c4a053e46d45f4aabde6acd444",
+      "bytes": 11916
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-TWO-POSITIVE-CONTINUOUS-ENDING.md",
+      "sha256": "b1f6928a1c2d94e7c2ef2ba25b49d71a3dbd4ec6631b0142cef8142153f7f751",
+      "bytes": 10450
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-UNIVERSAL-CENTRAL-ORIGIN-EXCLUSIONS.md",
+      "sha256": "7f479d3d6d13f8982cbc1101a3e23f520fbc6d1960a7384122d998346e6a6349",
+      "bytes": 4060
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-MPPM-UNIVERSAL-POSITIVE-CROSSPOINTS.md",
+      "sha256": "73c78b6af347794be1e696fdb73d2dcc9bf6a5e918f78f90d6ad2000797e2602",
+      "bytes": 6278
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-NEGATIVE-ENTRANCE-AUDIT.md",
+      "sha256": "40c0a88e989ba4270fc0c7e28da1e0ebb7faea5fb90503c118c73f237497be84",
+      "bytes": 4788
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-NEGATIVE-GEOMETRY.md",
+      "sha256": "a2e7ea1c22240ef2beb5623258128062c9187cf51a4623d103077095078b56a4",
+      "bytes": 11075
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-NEGATIVE-H-PROPAGATION.md",
+      "sha256": "333a15d15d56cbcc904974f606b6d79d028b4d192ba2b2852c9ed74362b12f29",
+      "bytes": 10743
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-NEGATIVE-OWNED-POINTS.md",
+      "sha256": "b09017b7fdd844f83d894eada0973537636efa9eef44ddfd463183341b5486f3",
+      "bytes": 7001
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-NEGATIVE-TO-POSITIVE-H.md",
+      "sha256": "c46cc4cc6b5764f541e6268436d2919f2a6bc798c2c86d52770ecc08e7dfb476",
+      "bytes": 8405
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-NONPOSITIVE-BOUNDARY-POTENTIAL.md",
+      "sha256": "967415d5cf613338ec872ca09e0ac67189ee87017514fa0be5c93f28fa34699c",
+      "bytes": 8687
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-ORIGINAL-ENTRANCE.txt",
+      "sha256": "84fc395b4970ee0cdc2981b235e6dd5838b6b98ce546b7fd23d0c9cc7ca3330b",
+      "bytes": 17671
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-POSITIVE-ADJACENT-ANGLE.md",
+      "sha256": "8dac05d791ef3c75114fa97912aa198854bde7adb11f5bcf7724cadfaacea49a",
+      "bytes": 11553
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-POSITIVE-BB-REDUCTION.md",
+      "sha256": "aa53832eff89fa51818c8e09d06099af19c843ca930824d34f4837372efd4e36",
+      "bytes": 12526
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-POSITIVE-BOUNDARY-ORDER.md",
+      "sha256": "34607fc2d87476fce7440c8a9ef5ce290078c22bd09a157f253ce91a2abd85af",
+      "bytes": 9189
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-POSITIVE-CYCLE.md",
+      "sha256": "b4e9644d1b96251a986c4dce2f02e15b1fcb43edd2d1ed8fc4b0a8408bbe9f40",
+      "bytes": 20248
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-POSITIVE-D-TRANSFER.md",
+      "sha256": "bb5349d73b802915ffc48ebb7b661fe28685ec72f9e186a15f721a09b2c37ad6",
+      "bytes": 8956
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-POSITIVE-EDGE-INEQUALITIES.md",
+      "sha256": "e1d015d5b7222cac56e8e8e55e4d895aa90fa27ad4410bbf01812c238d6696ab",
+      "bytes": 7028
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-POSITIVE-ENDPOINT-SCALARS.md",
+      "sha256": "524e39fbd4758642f0c01734bbfb3a98a1a1261bf421045d0999703baa8fa07d",
+      "bytes": 11997
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-POSITIVE-QUADRANT-BOOTSTRAP.md",
+      "sha256": "1f6e4423e2ac8c89b1205bd10cc0e40390339440d201c5e6525be671431c9ed1",
+      "bytes": 16314
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-POSITIVE-WALL-POINTS.md",
+      "sha256": "a6db9decc026b8d97f7daed229e96517d35b892e4e1721940f9f0721b02caa63",
+      "bytes": 6559
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-WALL-REMAINDERS.md",
+      "sha256": "dce4be2534b366dd8af3c40d4cc051d0934dc8725389a255db3238cb6ee9b38c",
+      "bytes": 6994
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-WALL-SIGN-AUXILIARIES.md",
+      "sha256": "bb57eaffd017a26960268e937e41a7cf6be8d968802866741a0e3bddba5ee649",
+      "bytes": 6059
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-WALL-SIGN-CHORD.md",
+      "sha256": "633729038c6ce79d7f069b37468ccaf12dffca1e12118398675f7519e049e4f0",
+      "bytes": 5756
+    },
+    {
+      "path": "mathematics/current/proofs/C1092-WIDE-NEGATIVE-DISK.md",
+      "sha256": "2b32656b10dc7b06febb1df233059bd106c6357753e5fae55ba6396e778f0c39",
+      "bytes": 7963
+    },
+    {
+      "path": "mathematics/current/proofs/C702-CONTINUOUS-REDUCTION.md",
+      "sha256": "2457ee02e072a580d2cd2e23a557ddc7fb75d1502e96e71ffc4bb0761416a194",
+      "bytes": 6063
+    },
+    {
+      "path": "mathematics/current/proofs/C702-DUPLICATE-POINT.md",
+      "sha256": "ca496edfc09616add03f4222d477f599736e546c7f1988e3e535eb6c42de2493",
+      "bytes": 8178
+    },
+    {
+      "path": "mathematics/current/proofs/C702-N-STRICT-POINT.md",
+      "sha256": "1ea6bc1b19eebaf43f14f549e343fbc9b01dbc7a1710015e761dc1e3eed50b66",
+      "bytes": 9773
+    },
+    {
+      "path": "mathematics/current/proofs/C888-C889-CONTINUOUS-EXCLUSION.md",
+      "sha256": "d6b565d6ce798995e889293649fe569d891e0d3cda98a898213fe777a5c624f1",
+      "bytes": 8881
+    },
+    {
+      "path": "mathematics/current/proofs/C893-CONTINUOUS-EXCLUSION.md",
+      "sha256": "c7801569040fdb6e332ffe4aa5a09172e40ff174fe57b1629f5396215ddca716",
+      "bytes": 10579
+    },
+    {
+      "path": "mathematics/current/proofs/C974-C976-CENTRAL-CROSSPOINTS.md",
+      "sha256": "a2cf3ba21679b1c594ae633337d7f39f9d235512a6a26c2c6ea44e6479f6344d",
+      "bytes": 15717
+    },
+    {
+      "path": "mathematics/current/proofs/C974-C976-CONTINUOUS-REDUCTIONS.md",
+      "sha256": "54d42ee2cb3aeb6825459a3babcd64c41fdd25559745fa22a3a06e031cf70c32",
+      "bytes": 15386
+    },
+    {
+      "path": "mathematics/current/proofs/C974-C976-DUPLICATE-POINT.md",
+      "sha256": "25864f935889cb4f9021abe2891f16d0ade1395a20f54d13cc655164c8f7ff64",
+      "bytes": 10483
+    },
+    {
+      "path": "mathematics/current/proofs/C974-C976-FINAL-ANGLE-REDUCTIONS.md",
+      "sha256": "5dcdc21ae4b1d9a8d745566e5bde8c7fefea5bb71ab82ae9895a43f77e804398",
+      "bytes": 8252
+    },
+    {
+      "path": "mathematics/current/proofs/C974-C976-NEGATIVE-UPPER-ANGLE.md",
+      "sha256": "3dcf02c9c1bb349a2e2a160c9420afa0511f7977fa020ec8905eafaaf0d6fcd8",
+      "bytes": 4260
+    },
+    {
+      "path": "mathematics/current/proofs/C974-C976-OUTWARD-PAIR.md",
+      "sha256": "430388a86c809455bc09e48ecf3220347d8062e06a44c73bc866d19c8fd18390",
+      "bytes": 9855
+    },
+    {
+      "path": "mathematics/current/proofs/C974-C976-SW-SUPPORT-POINT.md",
+      "sha256": "5b6c263bd26ea0d7c4bca9f72ffd77b56317863c388daf80ab75ec6e9abd4dfa",
+      "bytes": 12703
+    },
+    {
+      "path": "mathematics/current/proofs/C974-FIRST-MISSING-CORNER-ENDING.md",
+      "sha256": "a569531e871b46816536e9d7ee3e10c674bfda5d55eb39f1b6cf30de791e2686",
+      "bytes": 3524
+    },
+    {
+      "path": "mathematics/current/proofs/C974-LEFT-ORIGIN-AND-MIDPOINT.md",
+      "sha256": "73d9052e5e70e058e60eedd6f1c2ec35f9ea61a05671f1a3bb8c4e60e91d6e0a",
+      "bytes": 5141
+    },
+    {
+      "path": "mathematics/current/proofs/C974-ORIGINAL-ENTRANCE.txt",
+      "sha256": "19b94844c034693bca588ed9176b8608d6fd48ee1541ee70017dee4a3fa1408b",
+      "bytes": 23833
+    },
+    {
+      "path": "mathematics/current/proofs/C974-THREE-SQUARE-ENDING.md",
+      "sha256": "d0fefa227804843c29103c384182bd81965f5d5dab2b3cdc1eb5c40a1990e674",
+      "bytes": 14865
+    },
+    {
+      "path": "mathematics/current/proofs/C976-LEFT-TOP-ANGLE.md",
+      "sha256": "144eaae6b6bc5f6d59d152fef955b4bc1641c42dd7c58b89a24843daa9450f94",
+      "bytes": 12787
+    },
+    {
+      "path": "mathematics/current/proofs/C976-LEFT-UPPER-POINTS.md",
+      "sha256": "6d09aefe0381a971edef8ec6ca26b920b49d7f4a6ec30103190eca274a14288a",
+      "bytes": 10473
+    },
+    {
+      "path": "mathematics/current/proofs/C976-MERGED-LEFT-ENDING.md",
+      "sha256": "2b3693ecb26a4d683c365e77d5639baabb3e601f7e1486456be53f2fdc4ed0f8",
+      "bytes": 10111
+    },
+    {
+      "path": "mathematics/current/proofs/C976-NEGATIVE-NE-TOP-ENDING.md",
+      "sha256": "a24ade7b8d72af63ecf01cb752cdf5ee6b2e1ac3cede9c0d0f2729563eb7e215",
+      "bytes": 14552
+    },
+    {
+      "path": "mathematics/current/proofs/C981-COMMON-CYCLE.md",
+      "sha256": "c97bb75b5c2b5685f2c9519ce7e0343a88e09189bdf9acca1e2deff4c3451f0f",
+      "bytes": 34775
+    },
+    {
+      "path": "mathematics/current/proofs/C981-LAST-TWO-CYCLES.md",
+      "sha256": "0c4aa37d1334e71a1b11f1119192456161e5667d9afa159eeba2d719dc62044e",
+      "bytes": 22595
+    },
+    {
+      "path": "mathematics/current/proofs/C981-OPPOSITE-CENTRAL-ANGLE.md",
+      "sha256": "5eeedbb0ffb2d96642ff21ddd7a14194796882edcb6f6fea6f2b402a22f3a600",
+      "bytes": 11882
+    },
+    {
+      "path": "mathematics/current/proofs/C981-RETAINED-CONTINUOUS-LEMMAS.md",
+      "sha256": "067eaefd2c5af5097442fb6330b2f6428a1f59c4d5dbb26c50cd2261861677f1",
+      "bytes": 24240
+    },
+    {
+      "path": "mathematics/current/proofs/C981-WALL-CYCLES.md",
+      "sha256": "d2cfc40749324c65d2c298c5c0646a3b6bcbeee9c9001f39c011f0673bfe5cc4",
+      "bytes": 62195
+    },
+    {
+      "path": "mathematics/current/proofs/C982-CONTINUOUS-EXCLUSION.md",
+      "sha256": "034aa97c1c67d0a4360872350ad485d3b12aa4b9ec78befc7a7aa6b4f37767cb",
+      "bytes": 15263
+    },
+    {
+      "path": "mathematics/current/proofs/C983-F4-BAR-ANGLE-REDUCTION.md",
+      "sha256": "9e37d6a76361448032998db4808b01046788f2659251f884d89bc7f82fd46d80",
+      "bytes": 9846
+    },
+    {
+      "path": "mathematics/current/proofs/C983-F4-CENTRAL-REDUCTION.md",
+      "sha256": "bf59a70ea5acede1ff8d0dd3cf208aac006ca1f56c126d3cb323bb65c8120ee1",
+      "bytes": 14818
+    },
+    {
+      "path": "mathematics/current/proofs/C983-F4-FULL-8208-ENDING.md",
+      "sha256": "8582ee350c70ce9201134cb18fde9ffdf5330463bdf20b6bd17e06f3824a09ca",
+      "bytes": 7612
+    },
+    {
+      "path": "mathematics/current/proofs/C983-F4-FULL-8240-ENDING.md",
+      "sha256": "5e021913dfb888384256602e04c536a77a9c71dce1f9a0ef68059684a5d1cabf",
+      "bytes": 21376
+    },
+    {
+      "path": "mathematics/current/proofs/C983-F4-LEFT-ORIGIN-AND-CORNER-ROOT.md",
+      "sha256": "1aaf6aed0e65034983bc2d37afe6694bdef144b69941df690e890dd5c228f3ba",
+      "bytes": 8779
+    },
+    {
+      "path": "mathematics/current/proofs/C983-F4-MERGED-CENTER.md",
+      "sha256": "3a8aef84e023ce4172f38a76ed7b0bc3a19df6a819367b3ae592c8cc8ce50ddf",
+      "bytes": 13031
+    },
+    {
+      "path": "mathematics/current/proofs/C983-F4-MIXED-NEGATIVE-8208-ENDING.md",
+      "sha256": "8ec436488d276d7f31fbbf433e96a50be2e83fa1dbdb96d2e17e0083d719e560",
+      "bytes": 12411
+    },
+    {
+      "path": "mathematics/current/proofs/C983-F4-NO-G8-EXCLUSION.md",
+      "sha256": "a14b473da6c2541c4931264b545cc7e43836204748bfb722840563e30310957b",
+      "bytes": 12682
+    },
+    {
+      "path": "mathematics/current/proofs/C983-F4-POINT-TRANSFERS.md",
+      "sha256": "aba6ba1b55afa4601fdb9b8fac399620685d19356497be4c204e9184d9209cc1",
+      "bytes": 5966
+    },
+    {
+      "path": "mathematics/current/proofs/C983-F4-TOP-ONLY-8208-ENDING.md",
+      "sha256": "7ab95dd1c62d364fbfed80a8a58e1b155b24ce5a336f7989462ec36666f924cf",
+      "bytes": 22920
+    },
+    {
+      "path": "mathematics/current/proofs/C983-F5-CENTRAL-REDUCTION.md",
+      "sha256": "166f3090167d9d49f9a98243b013a4291e170428ddfb3b31811c65dd9b7aa92c",
+      "bytes": 8652
+    },
+    {
+      "path": "mathematics/current/proofs/C983-F5-INWARD-SIGN.md",
+      "sha256": "16d96c7745a47fc7cc2f7fc17c3b930414d0cc7b680236f6f60284f2a5adb48e",
+      "bytes": 10295
+    },
+    {
+      "path": "mathematics/current/proofs/C983-F5-LEFT-ORIGIN-AND-CORNER-ROOT.md",
+      "sha256": "6a4c3e2102a89f72dfbafae3710ecde5707b21aa4c6653a2abdf3a3d27eecf1c",
+      "bytes": 5174
+    },
+    {
+      "path": "mathematics/current/proofs/C983-F5-LOWER-RIGHT-EXCLUSION.md",
+      "sha256": "7eccb62b6690eea79ed98ba2fc9e44e195081668193d386dd1a3b20df1d031f5",
+      "bytes": 3251
+    },
+    {
+      "path": "mathematics/current/proofs/C983-F5-MERGED-CENTER.md",
+      "sha256": "af51fa32980902edb713313d716a09c46a771d6c3e4379db9d2f76a3bb9b23e4",
+      "bytes": 15628
+    },
+    {
+      "path": "mathematics/current/proofs/C983-F5-NEGATIVE-BAR-FACE-ENDING.md",
+      "sha256": "ef47273e65b9705d4ebcac40316fcd42a3b310d83a6a47968e88a1a566f9e190",
+      "bytes": 14601
+    },
+    {
+      "path": "mathematics/current/proofs/C983-F5-NEGATIVE-LOWER-SUPPORT-ENDING.md",
+      "sha256": "e03b603cdf14217a87422eb067e63423ecd8d0731b8551cf1857ff8aaace3c20",
+      "bytes": 18655
+    },
+    {
+      "path": "mathematics/current/proofs/C983-F5-POSITIVE-ENDING.md",
+      "sha256": "7d86e41642635f052130c4d98709416495d5618ebf9cb0b9ffe642e1b97f7086",
+      "bytes": 15821
+    },
+    {
+      "path": "mathematics/current/proofs/C983-F5-TWO-RIGHT-AUXILIARIES-ENDING.md",
+      "sha256": "742c624f6a9658b70dc98650425eede95dd921e803935ab8e367231425ea006a",
+      "bytes": 7599
+    },
+    {
+      "path": "mathematics/current/proofs/C983-F5-UNIVERSAL-ORIGINS.md",
+      "sha256": "9948a39c570b5d407670b5a40119d03c88d6849b415fb2576c4013da04cb531c",
+      "bytes": 9622
+    },
+    {
+      "path": "mathematics/current/proofs/C983-F5-UPPER-RIGHT-REDUCTION.md",
+      "sha256": "d525993d2f2315e08c29369815bb7ff46ebd25ef74022d28fb9e6f9ec0ba4126",
+      "bytes": 8281
+    },
+    {
+      "path": "mathematics/current/proofs/C983-MERGED-INWARD-ALTERNATIVE.md",
+      "sha256": "4da749dc1f1d376702ef441a3d52c0a29ad95fe4ee7e229c9c461729f49de6ce",
+      "bytes": 6883
+    },
+    {
+      "path": "mathematics/current/proofs/C983-MERGED-NEAR-TOP-EXCLUSION.md",
+      "sha256": "8a7a31953db3e50dda30e80f42ea9bda40a3b3a8dd81eabf5620ddbad61b9775",
+      "bytes": 13961
+    },
+    {
+      "path": "mathematics/current/proofs/C983-MERGED-RIGHT-EXCLUSION.md",
+      "sha256": "cfc87410964d99523a5b1ba79027b2e444f94c27c9da3ffba2bd74f3e8a72d55",
+      "bytes": 8660
+    },
+    {
+      "path": "mathematics/current/proofs/C983-MERGED-TOP-EXCLUSION.md",
+      "sha256": "3932bec037aaf1a0f9e771bec1cfa6246d947b52cd778cb9c7c0c2ce48191b68",
+      "bytes": 9690
+    },
+    {
+      "path": "mathematics/current/proofs/C983-ORIGINAL-OWNERS.txt",
+      "sha256": "cc019fd9c92242a45441bd2601c6faa009434cce67289e83ee089e2817758692",
+      "bytes": 2728
+    },
+    {
+      "path": "mathematics/current/proofs/CORNER-LEFT-WALL-SIGN.md",
+      "sha256": "16fb30e4d643df114af45dd92b7b8621c0417e98642de8ac620ed2fd9b270585",
+      "bytes": 7126
+    },
+    {
+      "path": "mathematics/current/proofs/ELBOW-CROSSPOINT.md",
+      "sha256": "a10da0ee6810a46c0bc786f0a6c9581443bc287b0b45a802e3182690436daea2",
+      "bytes": 11435
+    },
+    {
+      "path": "mathematics/current/proofs/INNER-CORNER-FOUR-EXCLUSIONS.md",
+      "sha256": "567b76530d9a31c10ff50dff37643b3992cbdbce6746cba8412daa66ca04a481",
+      "bytes": 3417
+    },
+    {
+      "path": "mathematics/current/proofs/INNER-CORNER-INWARD-POINT.md",
+      "sha256": "34674fdfe411ebaab7cf3747185cbd4b3a0bbf5d3a6456f97a8021a887993130",
+      "bytes": 3006
+    },
+    {
+      "path": "mathematics/current/proofs/INWARD-CENTER-DIAGONAL-POINT.md",
+      "sha256": "cbf151f9fa908d86432cd9895694c43688bf52475131d47283d91e2126b19b40",
+      "bytes": 3785
+    },
+    {
+      "path": "mathematics/current/proofs/INWARD-EXTENDED-ANCHOR-CENTER.md",
+      "sha256": "421b394a97dc7076b950c866df1c4cf85bab06e523ae164d61f4f4b08fe9d298",
+      "bytes": 9260
+    },
+    {
+      "path": "mathematics/current/proofs/INWARD-OUTER-ARM-HALFPOINT.md",
+      "sha256": "18cec342112586a69500f31b295e748677568e8a55d3381128c14a2ab37a5196",
+      "bytes": 6097
+    },
+    {
+      "path": "mathematics/current/proofs/INWARD-SHORT-BAR-POINT.md",
+      "sha256": "a7dd47edcfdf534349b70da3c36d47e2ced13b512bfeed6ccb99e22a3508a79f",
+      "bytes": 5973
+    },
+    {
+      "path": "mathematics/current/proofs/MERGED-RIGHT-PATTERN-4.md",
+      "sha256": "6fe42de13fb879ecfab29cb929cd9604692f630ea5dba985a3a2e06e9284d525",
+      "bytes": 11537
+    },
+    {
+      "path": "mathematics/current/proofs/MISSING-CORNER-FAR-BAR.md",
+      "sha256": "aea90c77a2395043cfc13e40cd1983164f4b3426257bc998190f2c71e6e9f20c",
+      "bytes": 11643
+    },
+    {
+      "path": "mathematics/current/proofs/MISSING-CORNER-MIDPOINT.md",
+      "sha256": "288bb3e2cb9b3db525b49bd5caa82e3df3d33f08c3dcc1c180c8c316eb611338",
+      "bytes": 8604
+    },
+    {
+      "path": "mathematics/current/proofs/MISSING-CORNER-WALL-SIGN.md",
+      "sha256": "7657ed4bc33b705d17cc83ab52e8238f195fbec52dd34562098c4fc95aee9dbd",
+      "bytes": 15118
+    },
+    {
+      "path": "mathematics/current/proofs/MIXED-SPAN-FOUR-POINTS.md",
+      "sha256": "5c990267ec098318c9407802302242d8efa0817c4b8c1d591ffd9ee3fd6a1d9b",
+      "bytes": 3913
+    },
+    {
+      "path": "mathematics/current/proofs/MIXED-WALL-CENTER-CROSSPOINT.md",
+      "sha256": "6c129a3522235935a142ea9c94950feeb81a4db3860b8cc16fbfb645a711c7e1",
+      "bytes": 4450
+    },
+    {
+      "path": "mathematics/current/proofs/MIXED-WALL-HALFANGLE-CROSSING.md",
+      "sha256": "313bcb707db03729380865f01d4c200d22ed4b918e4a5f2fe9f674d377241e2b",
+      "bytes": 7917
+    },
+    {
+      "path": "mathematics/current/proofs/NEGATIVE-50-51-ENTRANCE-DATA.txt",
+      "sha256": "b17506eca442f4113b2e71ba78ecf2558965f5e0c1352983b4806aafd7020a50",
+      "bytes": 9777
+    },
+    {
+      "path": "mathematics/current/proofs/ORDINARY-BAR-CROSSPOINT.md",
+      "sha256": "7a3ebf2c661845896322e676f91630cb59e8ea028ef1b5104bc11862976e0562",
+      "bytes": 7745
+    },
+    {
+      "path": "mathematics/current/proofs/ORDINARY-LEFT-TOP-OBSTRUCTION.md",
+      "sha256": "d3b05c133d5499273d2fac8089c36fadbe256a1734824ef27251c0c1a6bbed5d",
+      "bytes": 11360
+    },
+    {
+      "path": "mathematics/current/proofs/ORDINARY-MARKER-HALFPOINT.md",
+      "sha256": "df2bde811feac28ab833e0fd630ddbc05411af1147a19af85804f4b209635b60",
+      "bytes": 4966
+    },
+    {
+      "path": "mathematics/current/proofs/ORDINARY-RIGHT-HALFPOINT.md",
+      "sha256": "7b715159be11a92ccd23dc39f7b04dccb9426048fb9b1d66a8de078e5b834a67",
+      "bytes": 4470
+    },
+    {
+      "path": "mathematics/current/proofs/OTHER-GEOMETRY.md",
+      "sha256": "f059784c3c98ac9b7da4530fec7fce16845bf0804951b6d82f83a8c42d8b9600",
+      "bytes": 55186
+    },
+    {
+      "path": "mathematics/current/proofs/OUTWARD-BAR-AND-UPPER-SPAN.md",
+      "sha256": "f8ae8f5bcf43fedf550aa0ea813d785a9c8ebb5067e959bce36269892812d1d1",
+      "bytes": 13356
+    },
+    {
+      "path": "mathematics/current/proofs/OUTWARD-CORNER-TWO-GAPS.md",
+      "sha256": "1e6b41d6194f347d1668c5ea0c61c11bf774e36eb793f080d758f66ef015ccbf",
+      "bytes": 3247
+    },
+    {
+      "path": "mathematics/current/proofs/OUTWARD-STRONG-BAR.md",
+      "sha256": "dbb37470c4be67d75a29e0cba34550eac1bf240ff4ded04be6da33257fe121c8",
+      "bytes": 5712
+    },
+    {
+      "path": "mathematics/current/proofs/POSITIVE-1-6-ENTRANCE-DATA.txt",
+      "sha256": "20dfcc809ddddf9edd77ca4be495f7734e0f61d6c816538335c5af3448c2ff35",
+      "bytes": 16075
+    },
+    {
+      "path": "mathematics/current/proofs/SHORTER-CORNER-WALL-OBSTRUCTION.md",
+      "sha256": "74baa900ecb5dd6b9fb1934a4cdf0213bd82781c0baaee5e4e274f60e245ae22",
+      "bytes": 3760
+    },
+    {
+      "path": "mathematics/current/proofs/TOP-ONLY-LEFT-POINT.md",
+      "sha256": "5d37a3d7291ad99572d2e38b2f9c97f30260f78bd7a9618cd0405cf85a3fbffd",
+      "bytes": 8394
+    },
+    {
+      "path": "mathematics/current/proofs/UNIT-SPAN-BETWEEN-TWO-BARS.md",
+      "sha256": "be12aa29941545576a0641f2d4e068389287bede28e6f48fbc8a322679f3ff19",
+      "bytes": 3678
+    },
+    {
+      "path": "mathematics/current/proofs/WALL-CENTER-AND-C974.md",
+      "sha256": "f623496595917e01dc1555c6de2643e9e28d08183a77504ac2347765e3c34dd5",
+      "bytes": 5082
+    },
+    {
+      "path": "mathematics/current/PROOF-INDEX.md",
+      "sha256": "35a28ece737d0419877a45259bd0d8bc56c8c2c4d23c2198472c6fd583046622",
+      "bytes": 21089
+    }
+  ],
+  "formalization": {
+    "eight_point_root": "Compact.Completion.OtherCases.EightPointObstruction",
+    "c1089_map": "N12Compact.Completion.OtherCases.C1089.LastOrdinaryObstruction.eight_point_impossible",
+    "actual_support_join": "N12Compact.Completion.OtherCases.C1089.LastSectorSupportJoin.impossible",
+    "status": "written source; compilation deferred by user",
+    "eight_point_theorem": "N12Compact.Completion.OtherCases.EightPointObstruction.impossible"
+  },
+  "c1090": {
+    "selection_source": "mathematics/current/proofs/NE-SELECTION-LEMMA.md",
+    "family_source": "mathematics/current/proofs/C1090-SIMPLIFIED-PROOF.md",
+    "status": "Complete unconditional original-family and row574 source proof now written and source-reviewed; registered as an original case in source assembly; uncompiled, not kernel acceptance",
+    "distinct_marker_family": "The actual merged left owner has mask4098; marker1 is owned there and excluded only from distinct owners. No C1089 family theorem is transferred.",
+    "unprovided_supporting_references": [
+      "proofs/MERGED-LEFT-SEED.md",
+      "proofs/RESIDUAL-ENDING.md",
+      "entrance/COMPONENTS.json",
+      "entrance/COMMON-HULLS.json",
+      "entrance/ADMISSIBLE-VECTORS.json",
+      "reference/CoverData-row-identities.json",
+      "checks/replay_c1090.py",
+      "checks/check_reduction.py",
+      "checks/check_geometry_inputs.py",
+      "checks/run_checks.py",
+      "../C1089/entrance/FOUNDATIONAL-ENTRANCE.md",
+      "../C1089/entrance/LOCAL-RULE.txt"
+    ],
+    "formalization_roots": [
+      "Compact.Completion.OtherCases.C1090.NESelection",
+      "Compact.Completion.OtherCases.C1090.MergedLeftSeed",
+      "Compact.Completion.OtherCases.C1090.EarlyResidual",
+      "Compact.Completion.OtherCases.C1090.StructuralReduction",
+      "Compact.Completion.OtherCases.C1090.ResidualEnding",
+      "Compact.Completion.OtherCases.C1090.OriginalEnding",
+      "Compact.Completion.OtherCases.C1090.RowIdentity",
+      "Compact.Completion.CommonCases.DirectSingleBudget",
+      "Compact.Completion.CommonCases.WallSignFromSingleton",
+      "Compact.Completion.OtherCases.C1090.AuxiliaryCover",
+      "Compact.Completion.OtherCases.C1090.DirectDomains",
+      "Compact.Completion.OtherCases.C1090.OriginalEntrance"
+    ],
+    "selection_theorem": "N12Compact.Completion.OtherCases.C1090.NESelection.selection",
+    "actual_selection": "N12Compact.Completion.OtherCases.C1090.NESelectionOwners.selection",
+    "merged_seed": "N12Compact.Completion.OtherCases.C1090.MergedLeftSeed.actual_segment",
+    "selection_note": "The second duplicate uses the same existing sharp point (2.525,2.125) in both actual squares. The bottom interval belongs to one actual Q9; the merged left seed uses both markers in one actual Q8.",
+    "source_review": "Independent local source review found no concrete mathematical or owner mismatch; this is not compiler acceptance.",
+    "continuous_ending": "N12Compact.Completion.OtherCases.C1090.Structural.impossible_of_early_input",
+    "original_owner_ending": "N12Compact.Completion.OtherCases.C1090.OriginalData.impossible_of_auxiliary_entrance",
+    "conditional_original_case_adapter": "N12Compact.Completion.OtherCases.C1090.OriginalData.case_excluded_of_auxiliary_entrance",
+    "remaining_finite_entrance": "None in the new source route; source acceptance and complete dependency replay remain deferred",
+    "additional_sene_label_catalogue_required": false,
+    "finite_entrance_completed": true,
+    "literal_original_row_inspection": {
+      "source": "source/S12/CoverData.lean",
+      "raw_rows": 577,
+      "zero_based_position": 574,
+      "original_id": 1090,
+      "groups": [
+        1,
+        12,
+        48,
+        192,
+        256,
+        512,
+        1024,
+        2048,
+        4098,
+        8192,
+        16384,
+        32768
+      ],
+      "source_inspection_only": true,
+      "lean_lookup_compiled": false
+    },
+    "simplifications": [
+      "All five structural exclusions are joined using the literal covers; no additional exact SE/NE label list is needed.",
+      "Optional top F5 is excluded using the existing exact point (2,2.62), inside the actual same-owner interval.",
+      "The outward short point follows by a rational triangle of the sharper bar point and actual strict anchors.",
+      "Existing local certificates21 and24 are instantiated at the true C1090 3/3 exemption census; no old joint catalogue is required.",
+      "The actual singleton and wall chord force bottom G5 without assuming F6 or an angle sign."
+    ],
+    "finite_entrance_status": "All thirteen AuxiliaryEntrance fields have unconditional source producers from this exact family, its actual owners and existing checked local certificates; no catalogue replay or compilation performed",
+    "unconditional_original_entrance": "N12Compact.Completion.OtherCases.C1090.OriginalData.auxiliary_entrance",
+    "unconditional_original_case": "N12Compact.Completion.OtherCases.C1090.OriginalData.case_excluded"
+  },
+  "c1091": {
+    "complete_source": "mathematics/current/proofs/C1091-complete-proof.md",
+    "seed_source": "mathematics/current/proofs/C1091-merged-marker-seed.md",
+    "status": "Unconditional original-family exclusion through Completion.case_excluded is written and independently source-reviewed. All earlier right/top sectors and the six actual residual entrance points are reconstructed from genuine owner domains; no unavailable progress chapter or reported catalogue is assumed. Registered, uncompiled.",
+    "distinct_marker_family": "Actual Q4 has mask258 and owns both (.914,1) and (1.65,1.65). Q8 has mask4096. Marker1 is owned by Q4 and is never globally absent; Q4 is not a singleton.",
+    "family_masks": [
+      1,
+      12,
+      48,
+      192,
+      258,
+      512,
+      1024,
+      2048,
+      4096,
+      8192,
+      16384,
+      32768
+    ],
+    "linked_references": [
+      "C1091-PROGRESS.md",
+      "../C1089/reference/recovered-lemmas/C974-C976-CONTINUOUS-REDUCTIONS.md",
+      "../C1089/reference/recovered-lemmas/C981-COMMON-CYCLE.md",
+      "../C1089/reference/recovered-lemmas/C981-RETAINED-CONTINUOUS-LEMMAS.md",
+      "../C1089/reference/recovered-lemmas/MIXED-SPAN-FOUR-POINTS.md",
+      "proofs/MERGED-MARKER-CORNER-SEED.md",
+      "../C1089/reference/recovered-lemmas/C981-WALL-CYCLES.md",
+      "../C1089/reference/recovered-lemmas/C981-LAST-TWO-CYCLES.md",
+      "../C1089/reference/recovered-lemmas/C981-OPPOSITE-CENTRAL-ANGLE.md"
+    ],
+    "unprovided_package_note": "Only these two new documents were attached. C1091-PROGRESS.md, linked entrance package and replay files were not supplied. Older recovered local lemmas are available by basename when present; claims that an archive includes additional files do not make them available.",
+    "reported_catalogue_counts_are_formal_receipts": false,
+    "reported_joint_vectors": 259,
+    "reported_residual_vectors": 36,
+    "new_lean_compilation_performed": false,
+    "formalization_roots": [
+      "Compact.Completion.OtherCases.C1091.MergedMarkerSeed",
+      "Compact.Completion.OtherCases.C1091.MergedMarkerSeedWall",
+      "Compact.Completion.OtherCases.C1091.Completion"
+    ],
+    "seed_theorem": "N12Compact.Completion.OtherCases.C1091.MergedMarkerSeed.point_original",
+    "actual_wall_theorem": "N12Compact.Completion.OtherCases.C1091.MergedMarkerSeed.original_owner_bar",
+    "unconditional_original_case": "N12Compact.Completion.OtherCases.C1091.Completion.case_excluded",
+    "missing_progress_resolution": "Missing earlier sectors reconstructed locally; see mathematics/research/C1091-ENTRANCE-2026-10-15.md. Original unavailable references remain listed as provenance."
+  },
+  "c1092_simplified": {
+    "squeeze_source": "mathematics/current/proofs/C1092-TWO-FIFTHS-SLOPE-SQUEEZE.md",
+    "case_source": "mathematics/current/proofs/C1092-SIMPLIFIED-PROOF.md",
+    "status": "Full supplied local squeeze and actual MMMP entrance are source-written and independently reviewed; MMMP BranchEnding1 is unconditional in source. Windmill BranchEnding0 remains; no Lean or whole-case acceptance.",
+    "family_masks": [
+      3,
+      12,
+      48,
+      192,
+      256,
+      512,
+      1024,
+      2048,
+      4096,
+      8192,
+      16384,
+      32768
+    ],
+    "same_actual_wall_required": true,
+    "local_side_cap_required": false,
+    "local_g8_ownership_premise_required": false,
+    "explicit_actual_entrance_still_required": false,
+    "unprovided_supporting_references": [
+      "proofs/MMMP-ACTUAL-ENTRANCE.md",
+      "proofs/ORIGINAL-ENTRANCE-AND-SYMMETRY.md",
+      "proofs/WINDMILL-AND-ADJACENT-ASSEMBLY.md",
+      "checks/run_all.py",
+      "checks/test_inputs.py",
+      "TASK04-STATUS.json"
+    ],
+    "reported_catalogue_counts_are_formal_receipts": false,
+    "reported_component_labels": 824,
+    "reported_complete_assignments": 55126,
+    "new_lean_compilation_performed": false,
+    "note": "The terminal replaces three MMMP right-angle endings and has a separate signed MPPM application. Do not transfer an entrance from one sector to another. Only these two documents were attached, not their claimed supporting archive."
+  },
+  "case_transfer_review": {
+    "report": "mathematics/research/CASE-TRANSFER-REVIEW-2026-10-15.md",
+    "case_ids": [
+      580,
+      581,
+      683,
+      700,
+      867,
+      868,
+      896,
+      972,
+      974,
+      975,
+      976,
+      981,
+      983
+    ],
+    "source_only": true,
+    "common_wall_reduction": "Compact.Completion.CommonCases.WallSignFromSingleton",
+    "new_c975_cut": "N12Compact.FiniteCases.C975Selection.cuts",
+    "new_c896_entrance": "N12Compact.FiniteCases.C896Entrance.compulsory",
+    "c580_c581_source_assembly": "Compact.Completion.FiniteCases.C580581Completion",
+    "new_lean_compilation_performed": false
+  },
+  "c580_c581_new_delivery": {
+    "sources": [
+      "mathematics/current/proofs/05_C580_MATH_DONE__FORMAL_PENDING.md",
+      "mathematics/current/proofs/06_DONE_MATH_C581.md"
+    ],
+    "status": "Preserved unchanged and compared against the existing original-family/row adapters. Both cases already have unconditional source contracts in C580581Completion; compiler acceptance remains deferred.",
+    "existing_source_root": "Compact.Completion.FiniteCases.C580581Completion",
+    "new_c581_scalar_simplification": "Sections6--8 transcribed in NegativeMixedCubic and NegativeWallElimination, replacing NegativeMixedScalars.triangle and shortening both NegativeRightOwned endings without changing public APIs. No embedded checker executed.",
+    "reported_checks_are_formal_acceptance": false,
+    "new_lean_compilation_performed": false,
+    "new_source_modules": [
+      "Compact.Completion.OtherCases.C983.NegativeMixedCubic",
+      "Compact.Completion.OtherCases.C983.NegativeWallElimination"
+    ],
+    "queue": "mathematics/FORMALIZATION-QUEUE.txt"
+  },
+  "six_case_translation_2026_10_15": {
+    "requested_cases": [
+      974,
+      976,
+      981,
+      1089,
+      1091,
+      1092
+    ],
+    "unconditional_original_case_source_contracts": [
+      974,
+      976,
+      981,
+      1089,
+      1091,
+      1092
+    ],
+    "source_assembly_count": 115,
+    "remaining_original_ids": [
+      683,
+      700,
+      867,
+      868,
+      972
+    ],
+    "c1091": "Unconditional original-family exclusion through Completion.case_excluded is written and independently source-reviewed. All earlier right/top sectors and the six actual residual entrance points are reconstructed from genuine owner domains; no unavailable progress chapter or reported catalogue is assumed. Registered, uncompiled.",
+    "c1092": "All four whole-packing branch source contracts are supplied. MPPM.windmill joins the actual inward-to-Ordinary reduction, the complete Ordinary sign-state contradiction and one whole-packing reflection. C1092Compact.excludes_case_complete includes the original row576 adapter; registered, uncompiled.",
+    "shared_strong_singleton_producer": "Compact.Completion.CommonCases.SingletonMissing",
+    "queue": "mathematics/FORMALIZATION-QUEUE.txt",
+    "lean_compilation_performed": false,
+    "fresh_axiom_audit": false,
+    "global_optimality_proved": false,
+    "c1092_supplied_branch_source_contracts": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "current_source_census": {
+      "project_modules": 5468,
+      "external_modules": 3234,
+      "combined_modules": 8702,
+      "project_source_lines": 511297,
+      "selected_source_closure_complete": true,
+      "preferred_limit": 8000,
+      "hard_limit": 10000,
+      "replay_modules_including_cache_and_package_configuration": 8831,
+      "future_unwritten_obligations_included": false
+    },
+    "remaining_mathematical_targets": "mathematics/REMAINING-EIGHT.txt",
+    "additional_original_case_contracts_2026_10_15": {
+      "896": "N12Compact.FiniteCases.C896Ending.case_excluded",
+      "975": "N12Compact.FiniteCases.C975Selection.case_excluded",
+      "983": "N12Compact.Completion.OtherCases.C983.case_excluded",
+      "683": "N12Compact.MergedPending.case683_excluded",
+      "867": "N12Compact.MergedPending.case867_excluded",
+      "868": "N12Compact.C868.case_excluded"
+    },
+    "continuation": "handoff/UPPER-CASES-COMPLETE-2026-10-15.txt",
+    "github_replay_guide": "handoff/GITHUB-REPLAY.txt"
+  },
+  "residual_reductions_2026_10_15": {
+    "mathematics": "mathematics/research/RESIDUAL-REDUCTIONS-2026-10-15.txt",
+    "evidence": "evidence/residual-reductions-source-2026-10-15.json",
+    "stable_new_lean_modules": 31,
+    "pending_original_ids": [
+      683,
+      700,
+      867,
+      868,
+      972
+    ],
+    "global_optimality_proved": false,
+    "lean_compilation_performed": false
+  },
+  "upper_cases_2026_10_15": {
+    "evidence": "evidence/upper-cases-source-2026-10-15.json",
+    "continuation": "handoff/UPPER-CASES-COMPLETE-2026-10-15.txt",
+    "source_assembly_count": 115,
+    "pending_original_ids": [
+      700,
+      972
+    ],
+    "lean_compilation_performed": false,
+    "global_optimality_proved": false
+  },
+  "complete_source_2026_10_15": {
+    "evidence": "evidence/complete-source-2026-10-15.json",
+    "guide": "handoff/COMPLETE-SOURCE-2026-10-15.txt",
+    "theorem": "N12Compact.Final.optimality",
+    "type": "S12.packingConstant12 = 4",
+    "source_assembly_count": 117,
+    "pending_original_ids": [],
+    "lean_compilation_performed": false,
+    "global_optimality_verified": false,
+    "final_modules_including_setup_and_audit": 8739,
+    "selected_modules_including_setup_and_audit": 8890
+  }
+}

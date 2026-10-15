@@ -1,0 +1,9 @@
+import Compact.Cases.FourSquareConvex.Case445
+import Compact.Cases.FourSquareConvex.Case454
+import Compact.Cases.FourSquareConvex.Case862
+import Compact.Cases.FourSquareConvex.Case864
+import Compact.Cases.FourSquareConvex.Case992
+import Compact.Cases.FourSquareConvex.Case995
+import Compact.Cases.FourSquareConvex.Case998
+import Compact.Cases.FourSquareConvex.Case1001
+import Compact.Cases.FourSquareConvex.Case1002

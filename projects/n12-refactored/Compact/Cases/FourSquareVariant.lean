@@ -1,0 +1,11 @@
+import Compact.Cases.FourSquareVariant.Case405
+import Compact.Cases.FourSquareVariant.Case424
+import Compact.Cases.FourSquareVariant.Case985
+import Compact.Cases.FourSquareVariant.Case990
+import Compact.Cases.FourSquareVariant.Case993
+import Compact.Cases.FourSquareVariant.Case994
+import Compact.Cases.FourSquareVariant.Case999
+import Compact.Cases.FourSquareVariant.Case1063
+import Compact.Cases.FourSquareVariant.Case1064
+import Compact.Cases.FourSquareVariant.Case1069
+import Compact.Cases.FourSquareVariant.Case1070

@@ -1,0 +1,18 @@
+import Compact.Bridge.IndexedBlockedTargetSyntax
+import Compact.Cases.C713.SharedDictionary
+set_option Elab.async false
+set_option maxRecDepth 100000
+set_option maxHeartbeats 0
+
+checked_blocked_batch N12Compact.C979DirectPruning.Step15Batch05 (N12Compact.C713Shared.dictionary) [
+  plan779 (11794,(some [113377]),11823) [.direct (.single 0), .direct (.single 1), .direct (.pair 0 2), .block [.pair 0 3], .block [.pair 0 7], .block [.pair 0 8], .direct (.pair 0 7), .direct (.single 8), .direct (.single 8), .block [.pair 0 3], .direct (.single 1), .block [.pair 0 8], .direct (.copy 13)],
+  plan780 (11795,(some [113378]),11824) [.direct (.single 0), .direct (.single 1), .direct (.pair 0 2), .block [.pair 0 3], .block [.pair 0 7], .block [.pair 0 8], .direct (.pair 0 7), .direct (.single 8), .direct (.single 8), .block [.pair 0 3], .direct (.single 1), .block [.pair 0 8], .direct (.copy 13)],
+  plan781 (11796,(some [113379]),11825) [.direct (.single 0), .direct (.single 1), .direct (.pair 0 2), .block [.pair 0 3], .block [.pair 0 7], .block [.pair 0 8], .direct (.pair 0 7), .direct (.single 8), .direct (.single 8), .block [.pair 0 3], .direct (.single 1), .block [.pair 0 8], .direct (.copy 13)],
+  plan782 (11797,(some [113380]),11826) [.direct (.single 0), .direct (.single 1), .direct (.pair 0 2), .block [.pair 0 3], .block [.pair 0 7], .block [.pair 0 8], .direct (.pair 0 7), .direct (.single 8), .direct (.single 8), .block [.pair 0 3], .direct (.single 1), .block [.pair 0 8], .direct (.copy 13)],
+  plan783 (11798,(some [113381]),11827) [.direct (.single 0), .direct (.single 1), .direct (.pair 0 2), .block [.pair 0 3], .block [.pair 0 2], .block [.pair 0 8], .direct (.pair 0 7), .direct (.single 8), .direct (.single 8), .block [.pair 0 3], .direct (.single 1), .block [.pair 0 8], .direct (.copy 13)],
+  plan784 (11799,(some [113382]),11828) [.direct (.single 0), .direct (.single 1), .direct (.pair 0 2), .block [.pair 0 3], .block [.pair 0 2], .block [.pair 0 8], .direct (.pair 0 7), .direct (.single 8), .direct (.single 8), .block [.pair 0 3], .direct (.single 1), .block [.pair 0 8], .direct (.copy 13)],
+  plan785 (11800,(some [113383]),11829) [.direct (.single 0), .direct (.single 1), .direct (.pair 0 2), .block [.pair 0 3], .block [.pair 0 7], .block [.pair 0 8], .direct (.pair 0 7), .direct (.single 8), .direct (.single 8), .block [.pair 0 3], .direct (.single 1), .block [.pair 0 8], .direct (.copy 13)],
+  plan786 (11801,(some [113384]),11830) [.direct (.single 0), .direct (.single 1), .direct (.pair 0 2), .block [.pair 0 3], .block [.pair 0 7], .block [.pair 0 8], .direct (.pair 0 7), .direct (.single 8), .direct (.single 8), .block [.pair 0 3], .direct (.single 1), .block [.pair 0 8], .direct (.copy 13)],
+  plan787 (11802,(some [113385]),11831) [.direct (.single 0), .direct (.single 1), .direct (.single 2), .direct (.pair 0 3), .block [.pair 0 4], .block [.pair 0 2], .block [.pair 0 8], .direct (.pair 0 7), .direct (.single 8), .direct (.single 8), .block [.pair 0 4], .direct (.single 1), .block [.pair 0 8], .direct (.copy 13)],
+  plan788 (11803,(some [113386]),11832) [.direct (.single 0), .direct (.single 1), .direct (.single 2), .direct (.pair 0 3), .block [.pair 0 4], .block [.pair 0 7], .block [.pair 0 8], .direct (.pair 0 7), .direct (.single 8), .direct (.single 8), .block [.pair 0 4], .direct (.single 1), .block [.pair 0 8], .direct (.copy 13)],
+  plan789 (11804,(some [113387]),11833) [.direct (.single 0), .direct (.single 1), .direct (.pair 0 2), .block [.pair 0 3], .block [.pair 0 2], .block [.pair 0 7], .direct (.pair 0 6), .direct (.single 7), .direct (.single 7), .block [.pair 0 3], .direct (.single 1), .block [.pair 0 7], .direct (.copy 12)]]

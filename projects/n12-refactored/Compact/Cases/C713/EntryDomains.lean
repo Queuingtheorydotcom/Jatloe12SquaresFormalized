@@ -1,0 +1,72 @@
+import Compact.Cases.C713.EntryQueries
+
+namespace S12
+open S12 S12Pilot
+set_option maxRecDepth 100000
+set_option maxHeartbeats 0
+set_option Elab.async false
+set_option linter.unnecessarySeqFocus false
+noncomputable section
+
+def domain713_0_0 : CertifiedDomain case713Family := .ofDirectProduct _ single713_0_0 single713_0_1 single713_0_0_checked single713_0_1_checked (by decide +kernel)
+def domain713_1_0 : CertifiedDomain case713Family := .ofDirectProduct _ single713_1_0 single713_1_1 single713_1_0_checked single713_1_1_checked (by decide +kernel)
+def domain713_2_0 : CertifiedDomain case713Family := .ofDirectProduct _ single713_2_0 single713_2_1 single713_2_0_checked single713_2_1_checked (by decide +kernel)
+def domain713_2_1 : CertifiedDomain case713Family := .remove _ domain713_2_0 query713_133 query713_133_checked (by decide +kernel) (by decide +kernel)
+def domain713_3_0 : CertifiedDomain case713Family := .ofDirectProduct _ single713_3_0 single713_3_1 single713_3_0_checked single713_3_1_checked (by decide +kernel)
+def domain713_4_0 : CertifiedDomain case713Family := .ofDirectProduct _ single713_4_0 single713_4_1 single713_4_0_checked single713_4_1_checked (by decide +kernel)
+def domain713_5_0 : CertifiedDomain case713Family := .ofDirectProduct _ single713_5_0 single713_5_1 single713_5_0_checked single713_5_1_checked (by decide +kernel)
+def domain713_5_1 : CertifiedDomain case713Family := .remove _ domain713_5_0 query713_267 query713_267_checked (by decide +kernel) (by decide +kernel)
+def domain713_6_0 : CertifiedDomain case713Family := .ofDirectProduct _ single713_6_0 single713_6_1 single713_6_0_checked single713_6_1_checked (by decide +kernel)
+def domain713_6_1 : CertifiedDomain case713Family := .remove _ domain713_6_0 query713_319 query713_319_checked (by decide +kernel) (by decide +kernel)
+def domain713_6_2 : CertifiedDomain case713Family := .remove _ domain713_6_1 query713_320 query713_320_checked (by decide +kernel) (by decide +kernel)
+def domain713_6_3 : CertifiedDomain case713Family := .remove _ domain713_6_2 query713_321 query713_321_checked (by decide +kernel) (by decide +kernel)
+def domain713_6_4 : CertifiedDomain case713Family := .remove _ domain713_6_3 query713_322 query713_322_checked (by decide +kernel) (by decide +kernel)
+def domain713_6_5 : CertifiedDomain case713Family := .remove _ domain713_6_4 query713_323 query713_323_checked (by decide +kernel) (by decide +kernel)
+def domain713_6_6 : CertifiedDomain case713Family := .remove _ domain713_6_5 query713_324 query713_324_checked (by decide +kernel) (by decide +kernel)
+def domain713_6_7 : CertifiedDomain case713Family := .remove _ domain713_6_6 query713_325 query713_325_checked (by decide +kernel) (by decide +kernel)
+def domain713_6_8 : CertifiedDomain case713Family := .remove _ domain713_6_7 query713_326 query713_326_checked (by decide +kernel) (by decide +kernel)
+def domain713_6_9 : CertifiedDomain case713Family := .remove _ domain713_6_8 query713_327 query713_327_checked (by decide +kernel) (by decide +kernel)
+def domain713_6_10 : CertifiedDomain case713Family := .remove _ domain713_6_9 query713_328 query713_328_checked (by decide +kernel) (by decide +kernel)
+def domain713_6_11 : CertifiedDomain case713Family := .remove _ domain713_6_10 query713_329 query713_329_checked (by decide +kernel) (by decide +kernel)
+def domain713_7_0 : CertifiedDomain case713Family := .ofDirectProduct _ single713_7_0 single713_7_1 single713_7_0_checked single713_7_1_checked (by decide +kernel)
+def domain713_8_0 : CertifiedDomain case713Family := .ofDirectProduct _ single713_8_0 single713_8_1 single713_8_0_checked single713_8_1_checked (by decide +kernel)
+def domain713_8_1 : CertifiedDomain case713Family := .remove _ domain713_8_0 query713_400 query713_400_checked (by decide +kernel) (by decide +kernel)
+def domain713_8_2 : CertifiedDomain case713Family := .remove _ domain713_8_1 query713_401 query713_401_checked (by decide +kernel) (by decide +kernel)
+def domain713_8_3 : CertifiedDomain case713Family := .remove _ domain713_8_2 query713_402 query713_402_checked (by decide +kernel) (by decide +kernel)
+def domain713_8_4 : CertifiedDomain case713Family := .remove _ domain713_8_3 query713_403 query713_403_checked (by decide +kernel) (by decide +kernel)
+def domain713_8_5 : CertifiedDomain case713Family := .remove _ domain713_8_4 query713_404 query713_404_checked (by decide +kernel) (by decide +kernel)
+def domain713_8_6 : CertifiedDomain case713Family := .remove _ domain713_8_5 query713_405 query713_405_checked (by decide +kernel) (by decide +kernel)
+def domain713_8_7 : CertifiedDomain case713Family := .remove _ domain713_8_6 query713_406 query713_406_checked (by decide +kernel) (by decide +kernel)
+def domain713_8_8 : CertifiedDomain case713Family := .remove _ domain713_8_7 query713_407 query713_407_checked (by decide +kernel) (by decide +kernel)
+def domain713_8_9 : CertifiedDomain case713Family := .remove _ domain713_8_8 query713_408 query713_408_checked (by decide +kernel) (by decide +kernel)
+def domain713_9_0 : CertifiedDomain case713Family := .ofDirectProduct _ single713_9_0 single713_9_1 single713_9_0_checked single713_9_1_checked (by decide +kernel)
+def domain713_9_1 : CertifiedDomain case713Family := .remove _ domain713_9_0 query713_466 query713_466_checked (by decide +kernel) (by decide +kernel)
+def domain713_9_2 : CertifiedDomain case713Family := .remove _ domain713_9_1 query713_467 query713_467_checked (by decide +kernel) (by decide +kernel)
+def domain713_9_3 : CertifiedDomain case713Family := .remove _ domain713_9_2 query713_468 query713_468_checked (by decide +kernel) (by decide +kernel)
+def domain713_9_4 : CertifiedDomain case713Family := .remove _ domain713_9_3 query713_469 query713_469_checked (by decide +kernel) (by decide +kernel)
+def domain713_9_5 : CertifiedDomain case713Family := .remove _ domain713_9_4 query713_470 query713_470_checked (by decide +kernel) (by decide +kernel)
+def domain713_9_6 : CertifiedDomain case713Family := .remove _ domain713_9_5 query713_471 query713_471_checked (by decide +kernel) (by decide +kernel)
+def domain713_9_7 : CertifiedDomain case713Family := .remove _ domain713_9_6 query713_472 query713_472_checked (by decide +kernel) (by decide +kernel)
+def domain713_9_8 : CertifiedDomain case713Family := .remove _ domain713_9_7 query713_473 query713_473_checked (by decide +kernel) (by decide +kernel)
+def domain713_10_0 : CertifiedDomain case713Family := .ofDirectProduct _ single713_10_0 single713_10_1 single713_10_0_checked single713_10_1_checked (by decide +kernel)
+def domain713_10_1 : CertifiedDomain case713Family := .remove _ domain713_10_0 query713_531 query713_531_checked (by decide +kernel) (by decide +kernel)
+def domain713_10_2 : CertifiedDomain case713Family := .remove _ domain713_10_1 query713_532 query713_532_checked (by decide +kernel) (by decide +kernel)
+def domain713_10_3 : CertifiedDomain case713Family := .remove _ domain713_10_2 query713_533 query713_533_checked (by decide +kernel) (by decide +kernel)
+def domain713_10_4 : CertifiedDomain case713Family := .remove _ domain713_10_3 query713_534 query713_534_checked (by decide +kernel) (by decide +kernel)
+def domain713_10_5 : CertifiedDomain case713Family := .remove _ domain713_10_4 query713_535 query713_535_checked (by decide +kernel) (by decide +kernel)
+def domain713_10_6 : CertifiedDomain case713Family := .remove _ domain713_10_5 query713_536 query713_536_checked (by decide +kernel) (by decide +kernel)
+def domain713_10_7 : CertifiedDomain case713Family := .remove _ domain713_10_6 query713_537 query713_537_checked (by decide +kernel) (by decide +kernel)
+def domain713_10_8 : CertifiedDomain case713Family := .remove _ domain713_10_7 query713_538 query713_538_checked (by decide +kernel) (by decide +kernel)
+def domain713_10_9 : CertifiedDomain case713Family := .remove _ domain713_10_8 query713_539 query713_539_checked (by decide +kernel) (by decide +kernel)
+def domain713_11_0 : CertifiedDomain case713Family := .ofDirectProduct _ single713_11_0 single713_11_1 single713_11_0_checked single713_11_1_checked (by decide +kernel)
+def domain713_11_1 : CertifiedDomain case713Family := .remove _ domain713_11_0 query713_597 query713_597_checked (by decide +kernel) (by decide +kernel)
+def domain713_11_2 : CertifiedDomain case713Family := .remove _ domain713_11_1 query713_598 query713_598_checked (by decide +kernel) (by decide +kernel)
+def domain713_11_3 : CertifiedDomain case713Family := .remove _ domain713_11_2 query713_599 query713_599_checked (by decide +kernel) (by decide +kernel)
+def domain713_11_4 : CertifiedDomain case713Family := .remove _ domain713_11_3 query713_600 query713_600_checked (by decide +kernel) (by decide +kernel)
+def domain713_11_5 : CertifiedDomain case713Family := .remove _ domain713_11_4 query713_601 query713_601_checked (by decide +kernel) (by decide +kernel)
+def domain713_11_6 : CertifiedDomain case713Family := .remove _ domain713_11_5 query713_602 query713_602_checked (by decide +kernel) (by decide +kernel)
+def domain713_11_7 : CertifiedDomain case713Family := .remove _ domain713_11_6 query713_603 query713_603_checked (by decide +kernel) (by decide +kernel)
+def domain713_11_8 : CertifiedDomain case713Family := .remove _ domain713_11_7 query713_604 query713_604_checked (by decide +kernel) (by decide +kernel)
+
+end
+end S12

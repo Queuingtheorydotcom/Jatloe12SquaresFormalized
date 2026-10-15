@@ -1,0 +1,24 @@
+import Compact.Bridge.CheckedCommonGroup
+import Compact.HistoricalCommon.Bindings304
+import Compact.HistoricalCommon.Bindings305
+import Compact.HistoricalCommon.Bindings306
+import Compact.HistoricalCommon.Bindings307
+import Compact.HistoricalCommon.Bindings308
+import Compact.HistoricalCommon.Bindings309
+import Compact.HistoricalCommon.Keys
+
+namespace N12Compact.HistoricalCommon.C979.Step10
+open S12 S12Pilot IntegerSupport IndexedCommonGroups HistoricalData C713Shared
+set_option Elab.async false
+set_option linter.unnecessarySeqFocus false
+noncomputable section
+
+def sources : Fin 23 → Context dictionary :=
+  ![context9756,context9885,context9886,context9887,context9888,context9889,context9890,context9891,context9892,context9893,context9894,context9895,context9896,context9897,context9898,context9899,context9900,context9901,context9902,context9903,context9904,context9905,context9906]
+
+def neighbors : Fin 128 → Context dictionary :=
+  ![context9757,context9758,context9759,context9760,context9761,context9762,context9763,context9764,context9765,context9766,context9767,context9768,context9769,context9770,context9771,context9772,context9773,context9774,context9775,context9776,context9777,context9778,context9779,context9780,context9781,context9782,context9783,context9784,context9785,context9786,context9787,context9788,context9789,context9790,context9791,context9792,context9793,context9794,context9795,context9796,context9797,context9798,context9799,context9800,context9801,context9802,context9803,context9804,context9805,context9806,context9807,context9808,context9809,context9810,context9811,context9812,context9813,context9814,context9815,context9816,context9817,context9818,context9819,context9820,context9821,context9822,context9823,context9824,context9825,context9826,context9827,context9828,context9829,context9830,context9831,context9832,context9833,context9834,context9835,context9836,context9837,context9838,context9839,context9840,context9841,context9842,context9843,context9844,context9845,context9846,context9847,context9848,context9849,context9850,context9851,context9852,context9853,context9854,context9855,context9856,context9857,context9858,context9859,context9860,context9861,context9862,context9863,context9864,context9865,context9866,context9867,context9868,context9869,context9870,context9871,context9872,context9873,context9874,context9875,context9876,context9877,context9878,context9879,context9880,context9881,context9882,context9883,context9884]
+
+
+end
+end N12Compact.HistoricalCommon.C979.Step10

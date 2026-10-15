@@ -1,0 +1,50 @@
+import Compact.Cases.C978.RecipeInitial.Batches.Owner01Batch00
+import Compact.Cases.C978.RecipeInitial.Batches.Owner01Batch01
+import Compact.Cases.C978.RecipeInitial.Batches.Owner01Batch02
+import Compact.Cases.C978.RecipeInitial.Batches.Owner01Batch03
+import Compact.Cases.C978.RecipeInitial.Batches.Owner01Batch04
+import Compact.Cases.C978.RecipeInitial.Batches.Owner01Batch05
+import Compact.Cases.C978.RecipeInitial.Batches.Owner01Batch06
+import Compact.Cases.C978.RecipeInitial.Batches.Owner01Batch07
+import Compact.Preservation.C978
+
+namespace N12Compact.C978RecipeInitial
+open S12 S12Pilot
+set_option maxRecDepth 100000
+set_option maxHeartbeats 0
+set_option Elab.async false
+set_option linter.unnecessarySeqFocus false
+noncomputable section
+
+open DirectPoseCover Preservation.InitialBank
+
+def entries1 : List (DirectRecipeTable.Entry bank inside1 outside1) :=
+  entries1_0 ++
+  entries1_1 ++
+  entries1_2 ++
+  entries1_3 ++
+  entries1_4 ++
+  entries1_5 ++
+  entries1_6 ++
+  entries1_7
+
+theorem entries1_checked : ∀ entry ∈ entries1, entry.Check := by
+  unfold entries1
+  simp only [List.forall_mem_append]
+  exact ⟨entries1_0_checked, entries1_1_checked, entries1_2_checked, entries1_3_checked, entries1_4_checked, entries1_5_checked, entries1_6_checked, entries1_7_checked⟩
+
+def owner1 : Owner :=
+  DirectRecipeTable.checkedOwner bank inside1 outside1 entries1 entries1_checked
+
+theorem owner1_checked : owner1.Check :=
+  DirectRecipeTable.checkedOwner_check bank inside1 outside1
+    entries1 entries1_checked angles64_cover_kernel
+
+theorem owner1_leaves_shared :
+    owner1.leaves = Preservation.C978.continuousScout978Domain1_0 := by
+  unfold owner1
+  rw [DirectRecipeTable.checkedOwner_leaves]
+  rfl
+
+end
+end N12Compact.C978RecipeInitial

@@ -1,0 +1,83 @@
+import Compact.Bridge.FourSquareCase
+import Compact.Bridge.OwnerBudget
+import S12.DomainSpecData
+
+/-! Original marker case 1086: compact shared four-square exclusion.
+The numerical input archive supplies only the proposed point choices; the
+ownership and all point memberships below are independently checked. -/
+namespace N12Compact.FourSquareCases
+open S12 OwnerBudget FourSquareCase
+set_option maxRecDepth 10000
+set_option maxHeartbeats 0
+
+def family1086 : Finset Nat := {1,12,48,64,256,512,1024,2176,4096,8192,16384,32768}
+
+def domain1086_1 : CertifiedDomain family1086 :=
+  CertifiedDomain.ofCombined family1086 combinedSpec0 combinedSpec0_checked (by decide +kernel)
+
+def domain1086_64 : CertifiedDomain family1086 :=
+  OwnerBudget.product family1086 64
+    (HalfDomain.ofSpec family1086 singleSpec19 0 singleSpec19_checked (by decide +kernel))
+    (HalfDomain.ofSeedHull family1086 64 1 4 (by decide +kernel)
+    (by decide +kernel) (by decide +kernel) ⟨(87/50,3),(87/50,3),(87/50,3),(87/50,3),0,0⟩ (by decide +kernel)
+    (by decide +kernel) (by decide +kernel) (by decide +kernel) (by decide +kernel))
+
+def domain1086_256 : CertifiedDomain family1086 :=
+  CertifiedDomain.ofCombined family1086 combinedSpec5 combinedSpec5_checked (by decide +kernel)
+
+def domain1086_512 : CertifiedDomain family1086 :=
+  CertifiedDomain.ofCombined family1086 combinedSpec7 combinedSpec7_checked (by decide +kernel)
+
+def domain1086_1024 : CertifiedDomain family1086 :=
+  OwnerBudget.product family1086 1024
+    (HalfDomain.ofSpec family1086 singleSpec34 0 singleSpec34_checked (by decide +kernel))
+    (HalfDomain.ofSpec family1086 singleSpec35 1 singleSpec35_checked (by decide +kernel))
+
+def domain1086_2176 : CertifiedDomain family1086 :=
+  OwnerBudget.product family1086 2176
+    (HalfDomain.ofSpec family1086 singleSpec46 0 singleSpec46_checked (by decide +kernel))
+    (HalfDomain.singleton family1086 2176 1 (by decide +kernel) (by decide +kernel))
+
+def domain1086_4096 : CertifiedDomain family1086 :=
+  CertifiedDomain.ofCombined family1086 combinedSpec16 combinedSpec16_checked (by decide +kernel)
+
+def domain1086_8192 : CertifiedDomain family1086 :=
+  CertifiedDomain.ofCombined family1086 combinedSpec18 combinedSpec18_checked (by decide +kernel)
+
+def domain1086_16384 : CertifiedDomain family1086 :=
+  CertifiedDomain.ofCombined family1086 combinedSpec20 combinedSpec20_checked (by decide +kernel)
+
+def domain1086_32768 : CertifiedDomain family1086 :=
+  CertifiedDomain.ofCombined family1086 combinedSpec22 combinedSpec22_checked (by decide +kernel)
+
+def domains1086 : List (CertifiedDomain family1086) :=
+  [domain1086_1,domain1086_64,domain1086_4096,domain1086_8192,domain1086_16384,domain1086_32768,domain1086_256,domain1086_512,domain1086_1024,domain1086_2176]
+
+theorem domains1086_members : ∀ d ∈ domains1086, d.mask ∈ family1086 := by decide +kernel
+theorem domains1086_distinct : domains1086.Pairwise (fun a b => a.mask ≠ b.mask) := by decide +kernel
+
+def data1086 : FourSquareCase.Data :=
+  ⟨⟨true,false,false⟩, ![1024,512,8192,32768],
+    ![{5,16},{8,18},{6,15},{7,17}], 1, 64⟩
+
+theorem data1086_checked : (data1086).Check family1086 := by decide +kernel
+
+theorem forced1086 (p : NormalizedPacking) (hf : codedMarkerFamily p = family1086) :
+    ∀ i, natCombinedOwners p (ownerIndex p (data1086.masks i)) = data1086.owned i := by
+  intro i
+  fin_cases i
+  · exact certified_domain_forced domains1086 domains1086_members domains1086_distinct
+      1024 {5,16} (by decide +kernel) p hf
+  · exact certified_domain_forced domains1086 domains1086_members domains1086_distinct
+      512 {8,18} (by decide +kernel) p hf
+  · exact certified_domain_forced domains1086 domains1086_members domains1086_distinct
+      8192 {6,15} (by decide +kernel) p hf
+  · exact certified_domain_forced domains1086 domains1086_members domains1086_distinct
+      32768 {7,17} (by decide +kernel) p hf
+
+theorem case1086_impossible (p : NormalizedPacking)
+    (hf : codedMarkerFamily p = family1086) : False :=
+  FourSquareCase.impossible data1086 family1086 data1086_checked forced1086 p hf
+
+#print axioms case1086_impossible
+end N12Compact.FourSquareCases
