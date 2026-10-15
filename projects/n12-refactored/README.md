@@ -60,6 +60,7 @@ python3 scripts/github_replay.py --plan --profile final
 python3 scripts/test_source_census.py
 python3 scripts/test_replay_runner.py
 python3 scripts/test_checkpoint.py
+python3 scripts/test_restore_cache.py
 python3 scripts/test_runner_resources.py
 ```
 

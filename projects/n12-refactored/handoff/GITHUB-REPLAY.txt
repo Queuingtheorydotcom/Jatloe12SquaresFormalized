@@ -59,6 +59,16 @@ restored rather than rebuilding Mathlib. The hard 10000-module limit remains;
 the final source inventory is 8739 including libraries, cache helpers, compiled
 package configurations and final type audit. The preferred 8000 limit is exceeded.
 
+CACHE DOWNLOAD RECOVERY
+The exact Mathlib v4.19 cache endpoint remains pinned. Temporary network
+timeouts, truncated responses and HTTP 408/429/5xx failures get up to five
+retries with exponential backoff and a 60-second socket timeout per attempt.
+Errors name the module, archive and URL. Complete downloads are published
+atomically; the archive-size and total-download limits remain enforced.
+A cache-setup failure occurs before project proof compilation. After a
+runner fix is pushed, choose Run workflow to use the new branch revision;
+Re-run jobs uses the old revision.
+
 SAVED PROGRESS AND VALIDATION
 Each run uploads these artifacts, retained for 30 days:
   n12-final-checkpoint-ATTEMPT    checkpoint.tar of completed project .olean
@@ -96,6 +106,7 @@ From projects/n12-refactored:
   python3 scripts/test_source_census.py
   python3 scripts/test_replay_runner.py
   python3 scripts/test_checkpoint.py
+  python3 scripts/test_restore_cache.py
   python3 scripts/test_runner_resources.py
 The last command launches tiny Python processes to test termination, never Lean.
 Non-plan local github_replay.py refuses before any setup or Lean invocation.
