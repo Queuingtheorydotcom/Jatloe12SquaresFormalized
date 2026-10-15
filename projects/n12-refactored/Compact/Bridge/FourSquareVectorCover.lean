@@ -19,9 +19,18 @@ def Recipe.owned : Recipe → Fin 4 → Finset Nat
   | .inl d => d.owned
   | .inr d => d.owned
 
+/-- The finite geometric checks for either recipe constructor. Naming the
+predicate supplies its decision procedure before a recipe has been selected. -/
+def Recipe.GeometryCheck (r : Recipe) (family : Finset Nat) : Prop :=
+  match r with | .inl d => d.Check family | .inr d => d.Check family
+
+instance (r : Recipe) (family : Finset Nat) :
+    Decidable (r.GeometryCheck family) := by
+  cases r <;> unfold Recipe.GeometryCheck <;> infer_instance
+
 def Recipe.Check (r : Recipe) (family : Finset Nat)
     (masks : List Nat) (vector : List (Finset Nat)) : Prop :=
-  (match r with | .inl d => d.Check family | .inr d => d.Check family) ∧
+  r.GeometryCheck family ∧
   ∀ i, (r.masks i,r.owned i) ∈ masks.zip vector
 
 instance (r : Recipe) (family : Finset Nat)
@@ -56,8 +65,7 @@ instance {family : Finset Nat} (ds : List (CertifiedDomain family))
 only four finite bindings, instead of repeatedly reducing geometric queries. -/
 theorem check_of_parts {family : Finset Nat} (ds : List (CertifiedDomain family))
     (recipes : List Recipe)
-    (geometry : ∀ r ∈ recipes,
-      match r with | .inl d => d.Check family | .inr d => d.Check family)
+    (geometry : ∀ r ∈ recipes, r.GeometryCheck family)
     (coverage : ∀ v ∈ enumerateAssignments (ds.map CertifiedDomain.allowed) ∅,
       ∃ r ∈ recipes, ∀ i, (r.masks i,r.owned i) ∈
         (ds.map CertifiedDomain.mask).zip v) : Check ds recipes := by

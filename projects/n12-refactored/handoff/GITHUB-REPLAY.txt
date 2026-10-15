@@ -126,6 +126,20 @@ source corrections await remote Lean replay. Proof statements, assumptions,
 module counts and inherited native trust are unchanged. The full final theorem
 and its axiom audit remain unverified.
 
+FINITE-CHECK INSTANCE CORRECTIONS
+The four MergedLower cover proofs share a match over two recipe types. The
+geometric predicate now has an explicit computable decision instance, so the
+existing kernel decisions can elaborate for all four families. The same audit
+added missing instances for WingConditions and OuterConditions before their
+finite filters. Mathematical requirements, packing assumptions, native proof
+sites and the project module inventory are unchanged.
+
+The audit covered all 5375 final-import sources, including 364 proposition
+definitions. An isolated Lean 4.19 core test reproduced all four original
+missing-instance errors and passed after the correction; both filter-instance
+shapes and a negative geometry case also passed. That small test is separate
+from compiling the actual project modules, which still need remote replay.
+
 SOURCE-ONLY CHECKS
 From projects/n12-refactored:
   python3 scripts/github_replay.py --plan --profile final

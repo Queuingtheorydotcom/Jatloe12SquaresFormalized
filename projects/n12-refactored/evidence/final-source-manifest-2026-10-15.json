@@ -1418,8 +1418,8 @@
     {
       "module": "Compact.Bridge.FourSquareVectorCover",
       "path": "Compact/Bridge/FourSquareVectorCover.lean",
-      "bytes": 3910,
-      "sha256": "3c4da336df17cc41c98df978ba13999663680c55de6ccce98fc5f07afb5ff087"
+      "bytes": 4261,
+      "sha256": "50a340993809fa93a4d135372ca527dc07029ee18a2b285c4cc56ab8232983c4"
     },
     {
       "module": "Compact.Cases.MergedLower.Recipes",
@@ -2474,14 +2474,14 @@
     {
       "module": "Compact.Bridge.C977CentralWingReach",
       "path": "Compact/Bridge/C977CentralWingReach.lean",
-      "bytes": 10413,
-      "sha256": "f4bc7582fad358651f2c63b318506707c5812b9ea597c1f2693db351d8b7b67f"
+      "bytes": 10537,
+      "sha256": "da49ac1c2b702da99313edc156a10eecd3b837942c6fb909ae57e5b9265a6576"
     },
     {
       "module": "Compact.Bridge.C977OuterWings",
       "path": "Compact/Bridge/C977OuterWings.lean",
-      "bytes": 6976,
-      "sha256": "adaa1c12526b2a970e546c92934e1a83ac49d78017b74e26dee0347878c8f9b2"
+      "bytes": 7085,
+      "sha256": "4aed4ded42843a939c975619f2a6700abdad0acd62cc538ec371ebd86994c566"
     },
     {
       "module": "Compact.Geometry.CornerWallLowerSupportMargin",

@@ -167,6 +167,9 @@ theorem top_wing (p : NormalizedPacking) (hf : codedMarkerFamily p = family)
 def WingConditions (v : List (Finset Nat)) : Prop :=
   (5 ∈ v[6]! → 18 ∈ v[6]!) ∧ (16 ∈ v[7]! → 3 ∈ v[7]!)
 
+instance (v : List (Finset Nat)) : Decidable (WingConditions v) :=
+  inferInstanceAs (Decidable ((_ → _) ∧ (_ → _)))
+
 theorem actual_wing_conditions (p : NormalizedPacking)
     (hf : codedMarkerFamily p = family) : WingConditions (actualAuxiliaryVector p) := by
   unfold WingConditions

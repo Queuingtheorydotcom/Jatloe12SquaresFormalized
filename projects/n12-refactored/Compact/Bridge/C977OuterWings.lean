@@ -104,6 +104,9 @@ theorem points (p : NormalizedPacking) (hf : codedMarkerFamily p = family) :
 def OuterConditions (v : List (Finset Nat)) : Prop :=
   18 ∈ v[6]! ∧ 3 ∈ v[7]!
 
+instance (v : List (Finset Nat)) : Decidable (OuterConditions v) :=
+  inferInstanceAs (Decidable (_ ∧ _))
+
 theorem actual_outer_conditions (p : NormalizedPacking)
     (hf : codedMarkerFamily p = family) : OuterConditions (actualAuxiliaryVector p) := by
   unfold OuterConditions
