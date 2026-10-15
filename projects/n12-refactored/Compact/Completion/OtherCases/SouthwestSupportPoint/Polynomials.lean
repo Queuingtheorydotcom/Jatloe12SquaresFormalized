@@ -1,5 +1,7 @@
 import Compact.Completion.CommonCases.BernsteinQuartic
 
+noncomputable section
+
 /-! All five exact quartics and all five closed-interval coefficient
 identities from C974-C976-SW-SUPPORT-POINT.md section 7. The displayed
 source coefficients are rational; no angle samples or generated forest

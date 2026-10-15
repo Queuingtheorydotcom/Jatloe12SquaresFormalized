@@ -3,6 +3,7 @@
 import json
 from pathlib import Path
 import shutil
+import signal
 import subprocess
 import sys
 import tempfile
@@ -158,6 +159,36 @@ class BoundedTests(unittest.TestCase):
         self.assertNotEqual(result.returncode, 0)
         self.assertIn('paused', result.stderr)
         self.assertFalse(self.receipt.exists())
+
+    def test_external_interrupt_preserves_signal_and_is_not_a_timeout(self):
+        for signum in (signal.SIGTERM, signal.SIGINT):
+            with self.subTest(signal=signum):
+                marker = self.root/'ready'
+                marker.unlink(missing_ok=True)
+                command = [sys.executable, str(self.script), '--rss-mib', '512',
+                           '--free-gib', '0', '--seconds', '10',
+                           '--receipt', str(self.receipt), '--', sys.executable, '-c',
+                           'from pathlib import Path; import time; '
+                           'Path("ready").touch(); time.sleep(60)']
+                child = subprocess.Popen(command, cwd=self.root,
+                                         stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+                try:
+                    deadline = time.monotonic() + 5
+                    while not marker.exists() and child.poll() is None and time.monotonic() < deadline:
+                        time.sleep(.02)
+                    self.assertTrue(marker.exists(), 'Guarded child never started')
+                    child.send_signal(signum)
+                    stdout, stderr = child.communicate(timeout=8)
+                    self.assertEqual(child.returncode, 128 + signum, (stdout, stderr))
+                    report = json.loads(self.receipt.read_text())
+                    self.assertEqual(report['stop_reason'], 'interrupted')
+                    self.assertEqual(report['interrupt_signal'], signum)
+                    self.assertEqual(report['remaining_processes'], [])
+                    self.assertEqual(report['cleanup_errors'], [])
+                finally:
+                    if child.poll() is None:
+                        child.terminate()
+                    child.communicate(timeout=8)
 
 
 if __name__ == '__main__':

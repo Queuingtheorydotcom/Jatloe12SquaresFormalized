@@ -49,18 +49,22 @@ theorem residual_nonpos {c s : ℝ} (normal : Normal c s) :
     apply (div_le_iff₀ den).mpr
     linarith only [sine,bounds.1]
   have zd : z*(1+c)=s := by dsimp [z]; field_simp [den.ne']
+  clear_value z
   have zs : z*s=1-c := by
     have product := congrArg (fun x : ℝ => x*s) zd
+    dsimp only at product
     have identity : (1+c)*(z*s-(1-c))=0 := by
       nlinarith only [product,normal.2.2]
     exact sub_eq_zero.mp ((mul_eq_zero.mp identity).resolve_left den.ne')
   have square : z^2*(1+c)=1-c := by
     have product := congrArg (fun x : ℝ => z*x) zd
+    dsimp only at product
     nlinarith only [product,zs]
   have cform : (1+z^2)*c=1-z^2 := by
     nlinarith only [square]
   have sform : (1+z^2)*s=2*z := by
     have product := congrArg (fun x : ℝ => z*x) zs
+    dsimp only at product
     nlinarith only [product,zd]
   have identity : 250000*(1+z^2)^2*
       (261/100-(88/25)*c-(6/5)*s+(187949/250000)*c^2+

@@ -1,5 +1,7 @@
 import Compact.Completion.OtherCases.C976LeftTop.PointProfile
 
+noncomputable section
+
 /-! The lower-segment support used in C976-LEFT-UPPER-POINTS sections
 3 and 5. The proof retains both endpoint exits and the weak corner tie.
 It does not need the target upper point as an input. -/

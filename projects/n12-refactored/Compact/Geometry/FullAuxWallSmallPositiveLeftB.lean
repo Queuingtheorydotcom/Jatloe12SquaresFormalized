@@ -1,5 +1,7 @@
 import Compact.Geometry.FullAuxWallSmallPositiveLeft
 
+noncomputable section
+
 /-! The neighbor-owned longitudinal separator is also impossible for
 a small positive left-wall frame, once the genuine C/B cycle bounds the
 upper frame's sine. No additional separating-axis choice is assumed. -/

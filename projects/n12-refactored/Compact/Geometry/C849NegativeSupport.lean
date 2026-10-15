@@ -122,6 +122,7 @@ theorem support (a c t C S X Y R : ℝ)
       have absB : |c*C-t*S|=c*C-t*S := abs_of_pos (by dsimp [u] at B; linarith only [B])
       rw [absB] at value
       simpa only [u,mul_neg,sub_neg_eq_add,neg_mul] using value
+    clear_value u
     have bounds := frame_bounds C u hC hu uC unit'
     by_cases relative : 0 ≤ t*C-c*u
     · rw [abs_of_nonneg relative] at value'
@@ -188,6 +189,7 @@ theorem support (a c t C S X Y R : ℝ)
           nlinarith only [angle,strict]
         exact (pos_of_mul_pos_right scaled hC.le).le
       left
+      clear_value F G
       linarith only [lower,nonnegative]
 
 #print axioms support

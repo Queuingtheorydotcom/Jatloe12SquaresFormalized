@@ -8,6 +8,9 @@ from pathlib import Path
 import subprocess
 import tempfile
 import types
+import threading
+import time
+import sys
 import unittest
 from unittest.mock import patch
 
@@ -20,6 +23,25 @@ checkpoint_spec.loader.exec_module(checkpoint)
 
 
 class ReplayTests(unittest.TestCase):
+    def test_parallel_siblings_finish_before_consumer_and_reuse_receipts(self):
+        (self.root/'Compact/Other.lean').write_text('def z := 3\n')
+        (self.root/'Compact/Final.lean').write_text('import Compact.Base Compact.Other\n')
+        barrier = threading.Barrier(2, timeout=5)
+        original = self.compile
+        def compile_parallel(command, **kwargs):
+            source = Path(command[-1])
+            if source.stem in {'Base', 'Other'}:
+                barrier.wait()
+            else:
+                self.assertEqual({c[0] for c in self.calls}, {'Base', 'Other'})
+            return original(command, **kwargs)
+        with patch.object(self, 'compiler', side_effect=compile_parallel):
+            self.replay('--module-jobs', '2')
+        self.assertEqual(len(self.receipts()), 3)
+        self.calls.clear()
+        self.replay('--module-jobs', '2')
+        self.assertEqual(self.calls, [])
+
     def setUp(self):
         self.temporary = tempfile.TemporaryDirectory()
         self.addCleanup(self.temporary.cleanup)
@@ -37,11 +59,35 @@ class ReplayTests(unittest.TestCase):
         self.reject = None
         self.fail = None
         self.interrupt = None
+        self.compiler = self.compile
         self.addCleanup(patch.stopall)
         patch.object(verify, 'ROOT', self.root).start()
         patch.object(verify, 'BIN', self.bin).start()
         patch.object(verify.subprocess, 'check_output', return_value='{}').start()
-        patch.object(verify.subprocess, 'run', side_effect=self.compile).start()
+        case = self
+        class FakeCompiler:
+            def __init__(self, command, **kwargs):
+                self.command, self.kwargs = command, kwargs
+                self.returncode = None
+
+            def wait(self, timeout=None):
+                if self.returncode is None:
+                    try:
+                        self.returncode = case.compiler(self.command, **self.kwargs).returncode
+                    except BaseException:
+                        self.returncode = 130
+                        raise
+                return self.returncode
+
+            def poll(self):
+                return self.returncode
+
+            def terminate(self):
+                self.returncode = -15
+
+            def kill(self):
+                self.returncode = -9
+        patch.object(verify.subprocess, 'Popen', side_effect=FakeCompiler).start()
 
     def compile(self, command, **kwargs):
         source = Path(command[-1])
@@ -113,6 +159,28 @@ class ReplayTests(unittest.TestCase):
         self.assertEqual(list(self.receipts()), ['Compact.Base'])
         self.assertFalse((self.root/'.lake/build/lib/lean/Compact/Final.pending.olean').exists())
 
+    def test_stdout_contains_only_accepted_module_progress(self):
+        for fresh in (True, False):
+            output = io.StringIO()
+            with patch('sys.argv', ['verify.py', 'Compact.Final']), contextlib.redirect_stdout(output):
+                verify.main()
+            self.assertEqual(output.getvalue(), 'module 1/2\nmodule 2/2\n')
+            if fresh:
+                self.calls.clear()
+        self.assertEqual(self.calls, [])
+
+    def test_failed_module_does_not_advance_progress_and_log_is_saved(self):
+        self.reject = 'Final'
+        output = io.StringIO()
+        with patch('sys.argv', ['verify.py', 'Compact.Final']), contextlib.redirect_stdout(output):
+            with self.assertRaises(SystemExit):
+                verify.main()
+        self.assertEqual(output.getvalue(), 'module 1/2\n')
+        self.assertIn("declaration uses 'sorry'", (self.root/'.verification/Compact.Final.log').read_text())
+        report = json.loads((self.root/'.verification/latest-replay.json').read_text())
+        self.assertFalse(report['complete'])
+        self.assertEqual(report['records'][-1]['returncode'], 1)
+
     def test_interrupted_compile_preserves_completed_receipt(self):
         self.interrupt = 'Final'
         with self.assertRaises(KeyboardInterrupt):
@@ -150,6 +218,38 @@ class ReplayTests(unittest.TestCase):
         self.calls.clear()
         self.replay()
         self.assertEqual(self.calls, [])
+
+
+class ParallelAbortTests(unittest.TestCase):
+    def test_failure_terminates_running_compiler_before_scheduler_returns(self):
+        compilers = verify.CompilerProcesses()
+        started = threading.Event()
+        children = []
+        original_popen = subprocess.Popen
+        def launch(command, **kwargs):
+            child = original_popen(command, **kwargs)
+            children.append(child)
+            started.set()
+            return child
+        def check(module):
+            if module == 'failed':
+                self.assertTrue(started.wait(timeout=3))
+                raise RuntimeError('simulated compiler failure')
+            return compilers.run([sys.executable, '-c', 'import time; time.sleep(60)'],
+                                 stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL)
+        begin = time.monotonic()
+        try:
+            with patch.object(verify.subprocess, 'Popen', side_effect=launch):
+                with self.assertRaisesRegex(RuntimeError, 'simulated compiler failure'):
+                    verify.schedule(['failed', 'running'], {'failed': [], 'running': []},
+                                    check, workers=2, abort=compilers.abort)
+            self.assertLess(time.monotonic()-begin, 5)
+            self.assertEqual(len(children), 1)
+            self.assertIsNotNone(children[0].poll())
+            with self.assertRaisesRegex(RuntimeError, 'Replay cancelled'):
+                compilers.run([sys.executable, '-c', 'pass'])
+        finally:
+            compilers.abort()
 
 
 if __name__ == '__main__':

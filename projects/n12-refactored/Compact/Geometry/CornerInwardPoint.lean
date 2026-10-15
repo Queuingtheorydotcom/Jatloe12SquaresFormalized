@@ -63,6 +63,7 @@ private theorem in_frame (q : OpenSquare)
     have first := mul_nonneg hc wx
     have second := mul_nonneg hs wy
     have identity := congrArg (fun z : ℝ => q.loU*z) q.unit_normal
+    dsimp only at identity
     nlinarith only [first,second,identity]
   have uUpper : q.c*q.side+q.s*q.side ≤ q.loU+q.side := by
     have factor := mul_nonneg (sub_nonneg.mpr cHigh) (sub_nonneg.mpr sHigh)

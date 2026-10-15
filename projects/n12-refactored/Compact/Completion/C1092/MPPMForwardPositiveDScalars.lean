@@ -1,5 +1,7 @@
 import Compact.Completion.CommonCases.CanonicalScalars
 
+noncomputable section
+
 /-! The two exact coefficient regimes in C1092-POSITIVE-D-TRANSFER.
 The rational sum bound 10/7 replaces the chapter's square-root estimate.
 All statements include zero sine and the diagonal endpoint. Uncompiled. -/

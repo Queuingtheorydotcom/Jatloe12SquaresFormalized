@@ -1,5 +1,7 @@
 import Compact.Completion.OtherCases.OrdinaryLeftTop.ScalarMargins
 
+noncomputable section
+
 /-! The exact scalar layer of ORDINARY-LEFT-TOP-OBSTRUCTION.md, Theorem 2,
 sections 2.2 and 2.3.  These are the published coefficient estimates and
 support residual, with rational algebra replacing the square-root bounds.

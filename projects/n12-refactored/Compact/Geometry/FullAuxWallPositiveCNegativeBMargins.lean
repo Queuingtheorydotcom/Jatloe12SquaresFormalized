@@ -30,6 +30,7 @@ theorem lower_u {C S b t : ℝ} (cn : Normal C S) (bn : Normal b t) :
   have pBound : P≤1-(1/5)*b*t := by dsimp [P]; nlinarith only [arc]
   have qBound : Q≤t-2/5 := by dsimp [Q]; nlinarith only [deficit bn]
   change C*P+S*Q≤1
+  clear_value P Q
   by_cases small : t≤2/5
   · have product := mul_nonneg bp bn.1
     have p : P≤1 := by nlinarith only [pBound,product]
@@ -63,6 +64,7 @@ theorem upper_v {C S b t : ℝ} (cn : Normal C S) (bn : Normal b t) :
   have orderWeight := mul_nonneg bn.1 (sub_nonneg.mpr bn.2.1)
   have qBound : Q≤t-1/20 := by dsimp [Q]; nlinarith only [orderWeight]
   change C*P+S*Q≤1
+  clear_value P Q
   by_cases small : t≤1/20
   · have p : P≤1 := by linarith only [pBound,bn.1]
     have q : Q≤0 := by linarith only [qBound,small]

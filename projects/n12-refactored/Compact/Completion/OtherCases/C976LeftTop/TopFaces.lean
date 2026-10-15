@@ -1,5 +1,7 @@
 import Compact.Completion.OtherCases.C976LeftTop.Directions
 
+noncomputable section
+
 /-! Section 2: the literal omitted right point of W exits below W.
 The identical full-interval scalar estimates are shared with the ordinary
 left/top theorem; only the original weaker C976 angle premise is used. -/

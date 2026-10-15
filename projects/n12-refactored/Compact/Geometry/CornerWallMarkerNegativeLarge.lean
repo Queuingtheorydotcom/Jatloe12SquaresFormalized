@@ -1,6 +1,8 @@
 import Compact.Geometry.CornerWallMarkerNegativeCorner
 import Compact.Geometry.CornerWallMarkerNegativeBounds
 
+noncomputable section
+
 /-! Genuine-marker support reductions for negative L after its backward
 U separator. The original strict L corner forces this larger-tilt range;
 the two scalar margins are supplied separately. -/

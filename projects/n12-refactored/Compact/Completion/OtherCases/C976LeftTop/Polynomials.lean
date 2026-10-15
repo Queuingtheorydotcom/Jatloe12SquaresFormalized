@@ -1,5 +1,7 @@
 import Compact.Completion.CommonCases.BernsteinQuartic
 
+noncomputable section
+
 /-! The two complete bivariate quartics in C976-LEFT-TOP-ANGLE.md section7.
 The 25 coefficients of each polynomial are the exact expansion of the
 chapter's rational Bernstein formula on its stated rectangle. The most

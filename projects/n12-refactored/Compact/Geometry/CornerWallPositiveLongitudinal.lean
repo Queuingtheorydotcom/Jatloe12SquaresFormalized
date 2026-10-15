@@ -1,5 +1,7 @@
 import Compact.Geometry.CornerWallSharedAxis
 
+noncomputable section
+
 /-! Original-support reduction for positive L's remaining longitudinal
 separator. Unlike the earlier local exclusion, this does not require W
 to miss (1,2). The two continuous scalar margins remain explicit until

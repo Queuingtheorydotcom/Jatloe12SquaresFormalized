@@ -23,7 +23,7 @@ def chart (i : Fin 4) (q : OpenSquare) : OpenSquare :=
     (pullX (pullY q)).translated 2 2,
     (pullX (pullSwap q)).translated 2 2] i
 
-def centerPairs (q : Fin 12 → OpenSquare) : Fin 4 → ℝ × ℝ :=
+noncomputable def centerPairs (q : Fin 12 → OpenSquare) : Fin 4 → ℝ × ℝ :=
   ![(centerX (q 9)-2,centerY (q 8)-2),
     (centerY (q 10)-2,2-centerX (q 9)),
     (2-centerX (q 11),2-centerY (q 10)),

@@ -1,6 +1,8 @@
 import Compact.Completion.OtherCases.SouthwestSupportPoint.Polynomials
 import Compact.Completion.C1092.WallProfileScalars
 
+noncomputable section
+
 /-! The five whole-interval scalar comparisons in
 C974-C976-SW-SUPPORT-POINT.md sections 4--7. A single quadratic substitution
 identity connects the physical support expressions to the exact quartics.

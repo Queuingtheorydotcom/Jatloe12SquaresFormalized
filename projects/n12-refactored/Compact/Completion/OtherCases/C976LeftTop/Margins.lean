@@ -1,6 +1,8 @@
 import Compact.Completion.OtherCases.C976LeftTop.Scalars
 import Mathlib.Data.Real.Sqrt
 
+noncomputable section
+
 /-! The two one-angle inequalities f0,f1 in C976-LEFT-TOP-ANGLE section5.
 Coarse exact rational bounds suffice for f0. For f1 the manuscript's
 monotonicity is the two-point unit-circle difference at (11,8)/sqrt(185).

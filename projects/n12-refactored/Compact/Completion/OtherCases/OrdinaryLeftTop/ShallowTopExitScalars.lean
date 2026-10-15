@@ -1,6 +1,8 @@
 import Compact.Completion.OtherCases.OrdinaryLeftTop.ShallowTopScalars
 import Mathlib.Tactic.LinearCombination
 
+noncomputable section
+
 /-! ORDINARY-LEFT-TOP-OBSTRUCTION.md, Theorem 2 section 2.1.
 The two decreasing-function estimates are expressed by an exact lower chord
 of the unit circle and polynomial differences. This keeps the whole closed

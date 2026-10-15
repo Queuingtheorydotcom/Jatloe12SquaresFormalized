@@ -29,7 +29,7 @@ private theorem half_angle {p q : ℝ} (normal : Normal p q) :
   · field_simp [ne_of_gt hp]
     linear_combination (p+1)*normal.2.2
   · field_simp [ne_of_gt hp]
-    linear_combination q*normal.2.2
+    linear_combination q*(p+1)*normal.2.2
 
 private def P (x y : ℝ) : ℝ :=
   (x+y)*(1-x)*(1-y)+4*x^2*y^2

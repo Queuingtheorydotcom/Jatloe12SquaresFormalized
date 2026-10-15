@@ -1,6 +1,8 @@
 import Compact.Completion.CommonCases.UnitCircleChord
 import Compact.Completion.OtherCases.SharpPointScalars
 
+noncomputable section
+
 /-! Exact margins for the two remaining actual transverse axes in C972.
 Every comparison is a unit-circle identity, a rational chord, or a sum
 of nonnegative products. The two relative-angle orders retain equality. -/

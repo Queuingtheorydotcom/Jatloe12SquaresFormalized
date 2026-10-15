@@ -61,6 +61,9 @@ python3 scripts/test_source_census.py
 python3 scripts/test_replay_runner.py
 python3 scripts/test_checkpoint.py
 python3 scripts/test_restore_cache.py
+python3 scripts/test_replay_state.py
+python3 scripts/test_replay_stop.py
+python3 scripts/test_bootstrap_cache.py
 python3 scripts/test_runner_resources.py
 ```
 

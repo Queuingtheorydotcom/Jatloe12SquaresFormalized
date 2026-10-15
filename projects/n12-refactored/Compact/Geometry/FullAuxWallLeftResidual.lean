@@ -1,5 +1,7 @@
 import Compact.Geometry.FullAuxWallPositiveTop
 
+noncomputable section
+
 /-! Necessary angle inequalities from the genuine left wall and positive
 upper central square. No unresolved separating axis is removed by a point
 relaxation. This module is a reduction, not a whole-row exclusion. -/

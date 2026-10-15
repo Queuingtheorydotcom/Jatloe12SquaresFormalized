@@ -1,5 +1,7 @@
 import Compact.Geometry.UpperRightNegativePairLongitudinalBounds
 
+noncomputable section
+
 /-! A negative southeast neighbor sharpens the positive central owner's
 upper support through either genuine incoming axis. All estimates are
 continuous on the canonical arcs. -/

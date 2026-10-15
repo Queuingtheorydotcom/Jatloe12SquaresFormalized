@@ -39,7 +39,7 @@ theorem first_coefficient {c s d t : ℝ}
       2*d*(c+t-3+(1-t)/d+s^2+(c+d)/2) =
         2*d*((1-c)*(c-1/2))+(1-d)*(2-d-2*t) := by
     field_simp [ne_of_gt dp]
-    <;> linear_combination 2*d*on.2.2
+    ; linear_combination 8*d^2*on.2.2
   have scaled : 0≤2*d*(c+t-3+(1-t)/d+s^2+(c+d)/2) := by
     nlinarith only [identity,cweighted,dterm]
   have base := nonneg_of_mul_nonneg_right scaled
@@ -49,7 +49,7 @@ theorem first_coefficient {c s d t : ℝ}
   have expansion : first c d t = c+t-3+(1-t)/d+((43/500)*t)/d := by
     unfold first
     field_simp [ne_of_gt dp]
-    <;> ring
+    ; ring
   linarith only [base,improvement,expansion]
 
 theorem second_coefficient {c s d t : ℝ}
@@ -76,7 +76,7 @@ theorem second_coefficient {c s d t : ℝ}
     have square : 0≤c+1/c-2 := by
       have identity : c*(c+1/c-2)=(1-c)^2 := by
         field_simp [ne_of_gt cp]
-        <;> ring
+        ; ring
       have scaled : 0≤c*(c+1/c-2) := by
         nlinarith only [identity,sq_nonneg (1-c)]
       exact nonneg_of_mul_nonneg_right scaled cp
@@ -88,7 +88,7 @@ theorem second_coefficient {c s d t : ℝ}
         (1-s)*(c+1/c-2)+(43/500)*s/c+(d+t/2-(c+s/2)) := by
       dsimp [E,second]
       field_simp [ne_of_gt cp]
-      <;> ring
+      ; ring
     dsimp [E] at form
     linarith only [form,endpoint,gain,moving]
   · have high : 7/25≤t := le_of_lt (lt_of_not_ge low)
@@ -117,9 +117,10 @@ theorem second_coefficient {c s d t : ℝ}
           s*((207/500)-(c^2-(3/2)*c+457/500)) := by
       dsimp [E,second]
       field_simp [ne_of_gt cp]
-      <;> ring
+      ; ring
     have scaled : 0<c*E := by
-      nlinarith only [identity,cproduct,sproduct,norm]
+      rw [identity]
+      nlinarith only [cproduct,sproduct,norm]
     have positive := pos_of_mul_pos_right scaled cp.le
     dsimp [E] at positive
     linarith only [positive]

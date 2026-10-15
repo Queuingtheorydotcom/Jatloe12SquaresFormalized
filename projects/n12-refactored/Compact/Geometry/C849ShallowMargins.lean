@@ -21,11 +21,13 @@ private theorem quartic (t : ℝ) (lo : 0≤t) (hi : t≤2/5) :
   have interval := mul_nonneg (show 0≤z+1/5 by linarith only [zl])
     (show 0≤1/5-z by linarith only [zh])
   have factor : 0≤21260+42300*z-49500*z^2 := by
+    dsimp [z] at zl interval ⊢
     nlinarith only [zl,interval]
   have positive := mul_nonneg (sq_nonneg z) factor
   have identity :
       25000*(1/50-(19/250)*t-(16/25)*t^2+(819/250)*t^3-(99/50)*t^4) =
         56*(1-z)+z^2*(21260+42300*z-49500*z^2) := by dsimp [z]; ring
+  dsimp [z] at identity positive zh
   nlinarith only [identity,positive,zh]
 
 private theorem half_angle_margin (p q : ℝ) (hp : 0≤p) (hq : 0≤q)
@@ -46,7 +48,7 @@ private theorem half_angle_margin (p q : ℝ) (hp : 0≤p) (hq : 0≤q)
   have qIdentity : q*(1+t^2)=2*t := by
     dsimp [t]
     field_simp [ne_of_gt denominator]
-    linear_combination q*unit
+    linear_combination q*(p+1)*unit
   have identity :
       (p+(4/5)*q-(49/50)*p^2-(419/500)*p*q-(13/20)*q^2)*(1+t^2)^2 =
         1/50-(19/250)*t-(16/25)*t^2+(819/250)*t^3-(99/50)*t^4 := by
@@ -55,10 +57,8 @@ private theorem half_angle_margin (p q : ℝ) (hp : 0≤p) (hq : 0≤q)
           (49/50)*(p*(1+t^2))^2-(419/500)*(p*(1+t^2))*(q*(1+t^2))-
           (13/20)*(q*(1+t^2))^2 := by ring
       _ = _ := by rw [pIdentity,qIdentity]; ring
-  by_contra failure
-  have nonpos := mul_nonpos_of_nonpos_of_nonneg (le_of_not_gt failure) (sq_nonneg (1+t^2))
-  rw [identity] at nonpos
-  exact (not_le_of_gt positive) nonpos
+  have factor : 0 < (1+t^2)^2 := sq_pos_of_pos (by nlinarith only [sq_nonneg t])
+  exact (mul_pos_iff_of_pos_right factor).mp (identity.symm ▸ positive)
 
 /-- A lower-V mode, or the stronger lower-U mode, when the relative
 angle is nonpositive. The actual angle hypotheses imply the half-angle

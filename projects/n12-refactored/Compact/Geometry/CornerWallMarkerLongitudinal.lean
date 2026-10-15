@@ -1,6 +1,8 @@
 import Compact.Geometry.CornerWallPositiveLongitudinal
 import Compact.Geometry.NegativeWallMarkerCap
 
+noncomputable section
+
 /-! Positive-L longitudinal support using both genuine foreign markers.
 The NW marker supplies W's upper U face, while the paired upper corner
 marker supplies its upper V face. Both full side corrections are retained. -/

@@ -13,7 +13,7 @@ private theorem bottom_mul {c s : ℝ} (hc : 0<c) :
     c*bottom c s=c+s-2*c*s-s^2 := by
   unfold bottom
   field_simp [ne_of_gt hc]
-  <;> ring
+  ; ring
 
 /-- A positive linear functional on this unit arc lies above the smaller
 endpoint value. The proof uses the exact sine-coordinate chord. -/
@@ -65,7 +65,7 @@ theorem endpoint_zero {c s d t : ℝ} (on : Normal c s) (wn : Normal d t)
       _ = c^2-d*(c^2+(1-c)*(1-s))+d*(1-(c^2+s^2)) := by
         unfold bottom
         field_simp [ne_of_gt hc]
-        <;> ring
+        ; ring
       _ = _ := by rw [on.2.2]; ring
   have numerator : 0≤c^2*((d/c)*bottom c s+1+(t+d+d*s/c)-t-3*d) := by
     nlinarith only [identity,monotone,endpoint]
@@ -85,7 +85,7 @@ theorem endpoint_self {c s d t : ℝ} (on : Normal c s) (wn : Normal d t)
       _ = -(1-c)*(c^2+(1-c)*(1-s))+(1-(c^2+s^2)) := by
         dsimp [Q]
         field_simp [ne_of_gt hc]
-        <;> ring
+        ; ring
       _ = _ := by rw [on.2.2]; ring
   have defect := mul_nonneg (sub_nonneg.mpr ob.2.1)
     (sub_nonneg.mpr ob.2.2.2.1)
@@ -112,7 +112,7 @@ theorem endpoint_self {c s d t : ℝ} (on : Normal c s) (wn : Normal d t)
       _ = (1-s)*(1-c)*(2*c-1)+(1-(c^2+s^2)) := by
         dsimp [Q]
         field_simp [ne_of_gt hc]
-        <;> ring
+        ; ring
       _ = _ := by rw [on.2.2]; ring
   have endpointNonnegative : 0≤1+c*Q+(c-1)*s := by
     have weighted : 0≤c*(1+c*Q+(c-1)*s) := by
@@ -123,7 +123,7 @@ theorem endpoint_self {c s d t : ℝ} (on : Normal c s) (wn : Normal d t)
     unfold bottom
     dsimp [Q]
     field_simp [ne_of_gt hc]
-    <;> ring
+    ; ring
   rw [form]
   linarith only [moving,endpointNonnegative]
 
@@ -151,10 +151,10 @@ theorem positive_coefficient {c s d t l r : ℝ}
         _ = c*t+d*s+d/c+(d/c)*(c^2+s^2-1) := by
           dsimp [p,q]
           field_simp [ne_of_gt hc]
-          <;> ring
+          ; ring
         _ = _ := by rw [on.2.2]; ring
     dsimp [b]
-    rw [identity]
+    rw [add_assoc, identity]
     nlinarith only [h]
   have h := arc_nonnegative on ln leftOrder hp h0 h1
   dsimp [b,p,q] at h
@@ -188,7 +188,7 @@ theorem negative_coefficient {c s d t l r : ℝ}
         _ = ((c-d)/c)*(1-c*t-d*s)+(d^2+t^2-1) := by
           dsimp [p]
           field_simp [ne_of_gt hc]
-          <;> ring
+          ; ring
         _ = _ := by rw [wn.2.2]; ring
     dsimp [b]
     nlinarith only [h,margin,identity]
@@ -247,7 +247,7 @@ theorem positive_large_coefficient {c s d t l r : ℝ}
       _ = d*((c+s)*(r-s)-2*c*(c-l))+c*(d-t)*(c-l)+
           d*(c^2+s^2-1) := by
         field_simp [ne_of_gt hc]
-        <;> ring
+        ; ring
       _ = _ := by rw [on.2.2]; ring
   have difference : c*t+d*s+d/c≤l*(t+d)+d*r*(1+s/c) := by
     have weighted : 0≤c*((l*(t+d)+d*r*(1+s/c))-(c*t+d*s+d/c)) := by
@@ -283,7 +283,7 @@ theorem negative_large_coefficient {c s d t l r : ℝ}
   have ratio : 0≤t-d*s/c := by
     have identity : c*(t-d*s/c)=c*t-d*s := by
       field_simp [ne_of_gt hc]
-      <;> ring
+      ; ring
     have weighted : 0≤c*(t-d*s/c) := by
       nlinarith only [identity,cross0,cross1]
     exact nonneg_of_mul_nonneg_right weighted hc

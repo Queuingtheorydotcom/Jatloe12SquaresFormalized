@@ -47,7 +47,7 @@ private theorem half_angle (p q : ℝ) (hp : 0<p) (hq : 0≤q)
   · field_simp [ne_of_gt denominator]
     linear_combination (p+1)*unit
   · field_simp [ne_of_gt denominator]
-    linear_combination q*unit
+    linear_combination q*(p+1)*unit
 
 private def certificate0 (x y : ℝ) : ℝ :=
     (449280000*(12*y)*(5-12*y)^3 +

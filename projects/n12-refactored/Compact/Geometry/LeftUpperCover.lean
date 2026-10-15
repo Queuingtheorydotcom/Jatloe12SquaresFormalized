@@ -71,7 +71,9 @@ private theorem high_upper_U (L : OpenSquare)
       field_simp [ne_of_gt lc] <;> ring
     have scaled := mul_le_mul_of_nonneg_right (walls.1 sign) lc.le
     rw [clear] at scaled
-    nlinarith only [scaled,nonnegative,strict]
+    have result : (L.c+L.s*(283/100))*L.c < (L.loU+L.side)*L.c := by
+      nlinarith only [scaled,nonnegative,strict]
+    exact (mul_lt_mul_right lc).mp result
   · have sign' : L.s ≤ 0 := le_of_not_ge sign
     have sOne : -L.s ≤ 1 := by
       nlinarith only [unit, sq_nonneg L.c]
@@ -92,7 +94,9 @@ private theorem high_upper_U (L : OpenSquare)
       field_simp [ne_of_gt lc] <;> ring
     have scaled := mul_le_mul_of_nonneg_right (walls.2 sign') lc.le
     rw [clear] at scaled
-    nlinarith only [scaled,nonnegative,strict]
+    have result : (L.c+L.s*(283/100))*L.c < (L.loU+L.side)*L.c := by
+      nlinarith only [scaled,nonnegative,strict]
+    exact (mul_lt_mul_right lc).mp result
 
 /-- In a canonical face frame, avoiding the lower candidate forces the
 upper candidate and identifies the actual missing-point face. -/

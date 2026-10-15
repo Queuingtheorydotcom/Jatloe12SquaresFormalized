@@ -163,6 +163,7 @@ theorem lowerU_a_pos (p q c s : ℝ) (hp : 0≤p) (hq : 0≤q)
   have wp := mul_le_mul_of_nonneg_left first hp
   have wq := mul_le_mul_of_nonneg_left second hq
   have uq := congrArg (fun z : ℝ => q*z) unitB
+  dsimp only at uq
   have short : (2/5)*p+(4/5)*q<1 := by
     nlinarith only [unit,sq_nonneg ((4/5)*p-(2/5)*q),
       sq_nonneg ((2/5)*p+(4/5)*q-1)]

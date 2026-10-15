@@ -1,6 +1,8 @@
 import Compact.Completion.OtherCases.C976LeftTop.Polynomials
 import Compact.Completion.C1092.WallProfileScalars
 
+noncomputable section
+
 /-! C976-LEFT-TOP-ANGLE.md sections 6--7. The original width inequality
 supplies the full left half-angle interval. The sign of the actual relative
 coefficient supplies the appropriate whole right interval. Exact substitution

@@ -1,6 +1,8 @@
 import Compact.Geometry.CentralLeftWallNegative
 import Compact.Geometry.PositiveCentralLeftBand
 
+noncomputable section
+
 /-! A negative left wall separating from the positive central square must
 have strictly larger sine magnitude. All comparisons are exact continuous
 unit-normal inequalities. The still-unproved central point (1,2) remains

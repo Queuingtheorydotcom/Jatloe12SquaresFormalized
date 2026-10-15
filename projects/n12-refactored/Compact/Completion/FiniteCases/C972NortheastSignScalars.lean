@@ -1,5 +1,7 @@
 import Compact.Geometry.C977CornerCubic
 
+noncomputable section
+
 /-! Two exact full-angle margins for the genuine southeast/northeast
 comparison in C972. The normals retain their closed canonical endpoints. -/
 namespace N12Compact.FiniteCases.C972Local.NortheastScalars

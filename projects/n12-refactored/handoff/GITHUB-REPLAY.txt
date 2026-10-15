@@ -47,7 +47,7 @@ repository, add -f runner=YOUR_RUNNER_LABEL to the launch command.
 
 jobs=auto uses the runner's available logical CPUs, respecting affinity and
 cgroup limits. A positive jobs value requests fewer threads, capped at available
-CPUs. Modules remain serial as required by the project; Lean can use those
+CPUs. This workflow checks modules serially; Lean can use those
 threads within each module. Memory is approximately 90% of currently available
 RAM, respecting cgroup limits and leaving OS headroom. Disk allocation scales
 with free space and reserves room for a checkpoint archive. Restore has a separate
@@ -68,6 +68,24 @@ atomically; the archive-size and total-download limits remain enforced.
 A cache-setup failure occurs before project proof compilation. After a
 runner fix is pushed, choose Run workflow to use the new branch revision;
 Re-run jobs uses the old revision.
+
+VERIFICATION OUTPUT AND INTERRUPTIONS
+During module verification the console prints only module k/total. The count
+includes accepted or authenticated reused project modules; failures do not
+advance it. Timings, module names and compiler errors remain in the evidence
+artifact. The final theorem/type/axiom audit is still required after the count.
+On a failed parallel check, the runner stops other active compilers promptly.
+External SIGINT/SIGTERM stops are reported as interruptions, with the signal
+saved in github-resources.json. Only the scheduled deadline is a successful
+partial checkpoint. replay-stop.json records the classified stop reason.
+Result summaries match the current repository, run, attempt, commit and
+profile; a previous run cannot supply a success result.
+
+Interrupted dependency downloads are staged and retried without publishing
+partial packages. Legacy unmarked packages are preserved in .lake/source-backups
+before retrying. Cache seeding supports separate HOME/workspace filesystems.
+The pinned toolchain is reused only after a completed-install marker and checks
+for Lean, Lake and the standard-library files.
 
 SAVED PROGRESS AND VALIDATION
 Each run uploads these artifacts, retained for 30 days:
@@ -100,6 +118,14 @@ runner was checked with offline/mock tests; its first hosted execution is pendin
 The full source remains uncompiled. Fix elaboration issues without weakening
 statements or accepting admissions.
 
+SOURCE CORRECTIONS
+The current source includes the latest upstream fixes for failed geometry
+modules and a broader scan for the same error patterns: 21 missing noncomputable
+declarations and one matching half-angle multiplier error. The additional
+source corrections await remote Lean replay. Proof statements, assumptions,
+module counts and inherited native trust are unchanged. The full final theorem
+and its axiom audit remain unverified.
+
 SOURCE-ONLY CHECKS
 From projects/n12-refactored:
   python3 scripts/github_replay.py --plan --profile final
@@ -107,6 +133,9 @@ From projects/n12-refactored:
   python3 scripts/test_replay_runner.py
   python3 scripts/test_checkpoint.py
   python3 scripts/test_restore_cache.py
+  python3 scripts/test_replay_state.py
+  python3 scripts/test_replay_stop.py
+  python3 scripts/test_bootstrap_cache.py
   python3 scripts/test_runner_resources.py
 The last command launches tiny Python processes to test termination, never Lean.
 Non-plan local github_replay.py refuses before any setup or Lean invocation.

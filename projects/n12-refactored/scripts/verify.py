@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Serial source-to-object replay of an explicit local closure, with receipts.
+"""Dependency-scheduled source-to-object replay, with atomic receipts.
 
 Use bounded.py around this runner. Library cache is read, never rebuilt.
 An accepted conditional module is not an accepted global packing theorem.
@@ -12,10 +12,61 @@ from pathlib import Path
 import re
 import subprocess
 import time
+import sys
+import threading
+sys.path.insert(0, str(Path(__file__).resolve().parents[3]))
+from ci.scheduler import schedule
 
 ROOT = Path(__file__).resolve().parents[1]
 BIN = Path.home()/'.elan/toolchains/leanprover--lean4---v4.19.0/bin'
 RECEIPT_VERSION = 2
+
+
+class CompilerProcesses:
+    """Stop active compilers when one parallel check fails.
+
+    Children stay in bounded.py's process group so aggregate accounting and
+    deadline cleanup continue to cover them and any compiler descendants.
+    """
+    def __init__(self):
+        self.lock = threading.Lock()
+        self.children = set()
+        self.cancelled = False
+
+    def run(self, command, **kwargs):
+        with self.lock:
+            if self.cancelled:
+                raise RuntimeError('Replay cancelled after another module failed')
+            child = subprocess.Popen(command, **kwargs)
+            self.children.add(child)
+        try:
+            return subprocess.CompletedProcess(command, child.wait())
+        finally:
+            # Retain interrupted children until abort() can terminate them.
+            if child.poll() is not None:
+                with self.lock:
+                    self.children.discard(child)
+
+    def abort(self):
+        with self.lock:
+            self.cancelled = True
+            children = list(self.children)
+            for child in children:
+                if child.poll() is None:
+                    try:
+                        child.terminate()
+                    except ProcessLookupError:
+                        pass
+        deadline = time.monotonic() + 3
+        for child in children:
+            try:
+                child.wait(timeout=max(0, deadline-time.monotonic()))
+            except subprocess.TimeoutExpired:
+                try:
+                    child.kill()
+                except ProcessLookupError:
+                    pass
+                child.wait()
 
 
 def write_json(path, value):
@@ -78,14 +129,15 @@ def main():
     parser.add_argument('--jobs',type=int,
                         default=int(os.environ.get('N12_LEAN_THREADS', '1')))
     parser.add_argument('--fresh',action='store_true')
+    parser.add_argument("--module-jobs", type=int, default=1)
     args=parser.parse_args()
-    if args.jobs < 1:
+    if args.jobs < 1 or args.module_jobs < 1:
         parser.error('--jobs must be positive')
     modules=closure(args.modules)
     if args.plan:
         print(json.dumps({'modules':modules,'source_bytes':sum(path(m).stat().st_size for m in modules)}));return
     if (ROOT/'PAUSED.json').exists():
-        raise SystemExit('Proof work is paused. Read PAUSED.json; clear it only after an explicit request to resume.')
+        raise SystemExit('Proof work is paused. Read handoff/CONTINUATION-2026-10-14.txt; clear PAUSED.json only after an explicit user resume.')
     verification=ROOT/'.verification';verification.mkdir(exist_ok=True)
     out=ROOT/'.lake/build/lib/lean';out.mkdir(parents=True,exist_ok=True)
     # Lake only computes the environment; it is never asked to build dependencies.
@@ -100,7 +152,15 @@ def main():
     configuration=configuration_fingerprint()
     fingerprints={}
     records=[]
-    for module in modules:
+    accepted = 0
+    lock = threading.RLock()
+    compilers = CompilerProcesses()
+    write_json(verification/'latest-replay.json', {'records':records,
+        'roots':args.modules,'complete':False,'global_optimality_proved':False})
+    selected = set(modules)
+    dependencies = {m: [d for d in imports(path(m).read_text()) if d in selected] for m in modules}
+    def check_module(module):
+        nonlocal accepted
         source=path(module); target=out/Path(*module.split('.')).with_suffix('.olean')
         target.parent.mkdir(parents=True,exist_ok=True)
         source_hash=hashlib.sha256(source.read_bytes()).hexdigest()
@@ -116,10 +176,13 @@ def main():
             old.get('record',{}).get('log_sha256')==hashlib.sha256(old_log.read_bytes()).hexdigest() and \
             not has_admission(old_log.read_text()):
             fingerprints[module]=fingerprint
-            records.append(dict(old['record'],reused_verified_object=True))
-            continue
+            with lock:
+                records.append(dict(old['record'],reused_verified_object=True))
+                accepted += 1
+                print(f'module {accepted}/{len(modules)}', flush=True)
+            return
+
         started=time.monotonic()
-        print(json.dumps({'checking':module}),flush=True)
         log_path=verification/(module+'.log')
         temporary_target=target.with_name(target.stem+'.pending.olean')
         temporary_target.unlink(missing_ok=True)
@@ -127,7 +190,7 @@ def main():
         with log_path.open('w') as log_file:
             # This pinned Lean rejects -M as an unknown max_memory option.
             # bounded.py enforces aggregate RSS and physical footprint instead.
-            result=subprocess.run([str(BIN/'lean'),f'-j{args.jobs}','-o',str(temporary_target),str(source)],
+            result=compilers.run([str(BIN/'lean'),f'-j{args.jobs}','-o',str(temporary_target),str(source)],
                 cwd=ROOT,env=env,stdout=log_file,stderr=subprocess.STDOUT,text=True)
         log=log_path.read_text()
         # Lean can exit successfully after accepting an admission. Such an
@@ -139,29 +202,30 @@ def main():
                 'lean_threads':args.jobs,
                 'lean_returncode':result.returncode,'rejected_admission':rejected_admission,
                 'log_sha256':hashlib.sha256(log.encode()).hexdigest()}
-        records.append(record)
-        if returncode == 0:
-            temporary_target.replace(target)
-            fingerprints[module]=fingerprint
-            checked[module]={'receipt_version':RECEIPT_VERSION,
-                'fingerprint':fingerprint,'record':record,
-                'object_sha256':hashlib.sha256(target.read_bytes()).hexdigest()}
-            write_json(index_path, checked)
-        else:
-            temporary_target.unlink(missing_ok=True)
-            checked.pop(module, None)
-            write_json(index_path, checked)
-        write_json(verification/'latest-replay.json', {'records':records,
-            'roots':args.modules,'complete':len(records)==len(modules) and returncode==0,
-            'global_optimality_proved':False})
-        print(json.dumps(record),flush=True)
+        with lock:
+            records.append(record)
+            if returncode == 0:
+                temporary_target.replace(target)
+                fingerprints[module]=fingerprint
+                checked[module]={'receipt_version':RECEIPT_VERSION,
+                    'fingerprint':fingerprint,'record':record,
+                    'object_sha256':hashlib.sha256(target.read_bytes()).hexdigest()}
+                write_json(index_path, checked)
+                accepted += 1
+            else:
+                temporary_target.unlink(missing_ok=True)
+                checked.pop(module, None)
+                write_json(index_path, checked)
+            write_json(verification/'latest-replay.json', {'records':records,
+                'roots':args.modules,'complete':False,
+                'global_optimality_proved':False})
+            if returncode == 0:
+                print(f'module {accepted}/{len(modules)}', flush=True)
         if returncode:
-            print(log[:8000],flush=True)
-            if len(log) > 8000:
-                print(f'Full diagnostics retained at {log_path} ({len(log)} characters).',flush=True)
             raise SystemExit(returncode)
+    schedule(modules, dependencies, check_module, workers=args.module_jobs,
+             abort=compilers.abort)
     write_json(verification/'latest-replay.json', {'records':records,
         'roots':args.modules,'complete':True,'global_optimality_proved':False})
-    print('SCOPED_REPLAY_PASS_GLOBAL_OBLIGATIONS_OPEN',flush=True)
 
 if __name__=='__main__':main()

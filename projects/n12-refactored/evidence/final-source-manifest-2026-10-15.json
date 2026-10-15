@@ -1400,8 +1400,8 @@
     {
       "module": "Compact.Geometry.MidpointSection",
       "path": "Compact/Geometry/MidpointSection.lean",
-      "bytes": 6849,
-      "sha256": "ac493512b796e525b9abc22ec4f67d29cc23c1bad8548f53658bb306c26048b6"
+      "bytes": 6924,
+      "sha256": "2b212754c32203eeff2d2da6e32855abd2ff7b98f8efa5ac71bc7c32d0a18a78"
     },
     {
       "module": "Compact.Geometry.MidpointRowTemplate",
@@ -1490,14 +1490,14 @@
     {
       "module": "Compact.Geometry.C849SteepMargins",
       "path": "Compact/Geometry/C849SteepMargins.lean",
-      "bytes": 8078,
-      "sha256": "7efef3e868741acd4c5ea4add504f2024dd5299bc46c72dad1d1e10280aea35c"
+      "bytes": 8097,
+      "sha256": "8c4ee185063f55f40d7544e8eed9872c83ef23da4f2fa0e2945643b48ed6b152"
     },
     {
       "module": "Compact.Geometry.LeftUpperCover",
       "path": "Compact/Geometry/LeftUpperCover.lean",
-      "bytes": 7425,
-      "sha256": "33a4c914ac64c4d9c38e7fcefe37d091c352ade510b6fcd0cccd84fd61447e11"
+      "bytes": 7651,
+      "sha256": "ca19412ec009c3b564967aae397ac52c2758735b77caa2ce02d8ca6492aa6aa7"
     },
     {
       "module": "Compact.Geometry.C849PositiveSupport",
@@ -1526,8 +1526,8 @@
     {
       "module": "Compact.Geometry.C849ShallowMargins",
       "path": "Compact/Geometry/C849ShallowMargins.lean",
-      "bytes": 6935,
-      "sha256": "4f7fcde9ed7519d2cb1adab2ee60a96b5a5eeb5ae43383ad0686cc91a655831d"
+      "bytes": 6989,
+      "sha256": "83c9d291b07cec26082eea54728c6d349cf42a244f5b0bcbf7a8c6cec4d11f91"
     },
     {
       "module": "Compact.Geometry.C849ShallowAB",
@@ -1544,8 +1544,8 @@
     {
       "module": "Compact.Geometry.C849NegativePositiveMargins",
       "path": "Compact/Geometry/C849NegativePositiveMargins.lean",
-      "bytes": 11012,
-      "sha256": "fc95e11e8cb85467694321d2d5724312767e67e632435871aaa7f649ca1b8c7f"
+      "bytes": 11018,
+      "sha256": "a89b2f05252ac35444ed533d1108dc520f58ef2809362891562e4d9e9cb77d3e"
     },
     {
       "module": "Compact.Geometry.C849NegativeLeftScalar",
@@ -1574,14 +1574,14 @@
     {
       "module": "Compact.Geometry.C849NegativeSupport",
       "path": "Compact/Geometry/C849NegativeSupport.lean",
-      "bytes": 9038,
-      "sha256": "43a09b2308fb00b805c48a3094840fb119e00dc1242aeeabc11d1ed3906ca132"
+      "bytes": 9078,
+      "sha256": "0c4d673f7c00d081968ee5abec79f44ccd5e307c7ec33c42b54dacc2a1531391"
     },
     {
       "module": "Compact.Geometry.CornerInwardPoint",
       "path": "Compact/Geometry/CornerInwardPoint.lean",
-      "bytes": 6340,
-      "sha256": "8887be69fcffa00cf65d688cbcd6dafb531d248538f946018bc105bf5d69847a"
+      "bytes": 6367,
+      "sha256": "4a3fd0946c57acbb62c48bd4b9c97381208535ef5567cbb129a4f16572599760"
     },
     {
       "module": "Compact.Geometry.C849NegativeCorner",
@@ -1952,8 +1952,8 @@
     {
       "module": "Compact.Geometry.NegativeWallAngleOrder",
       "path": "Compact/Geometry/NegativeWallAngleOrder.lean",
-      "bytes": 9099,
-      "sha256": "cdcf6a56eea7ddd74d10cc558ab86575a1d20e51b16d78ca46f33d1f0f469f8f"
+      "bytes": 9122,
+      "sha256": "39f6f407a98453e63d178ff5c4867f3bfa42adcbad4c756a8711b79dcb11a1d6"
     },
     {
       "module": "Compact.Geometry.PositiveCentralWallAngleOrder",
@@ -1964,8 +1964,8 @@
     {
       "module": "Compact.Geometry.CornerWallCycleBounds",
       "path": "Compact/Geometry/CornerWallCycleBounds.lean",
-      "bytes": 12494,
-      "sha256": "230b70ee42dddf8822c6b5ac6d5437121168449b71ddcbd3ee124e2f795369a0"
+      "bytes": 12487,
+      "sha256": "a66ff521d9fa9064f74703036fd8ec706d7b33d3eadc3babd7b905a1de6cf677"
     },
     {
       "module": "Compact.Geometry.CornerWallCycle",
@@ -1976,8 +1976,8 @@
     {
       "module": "Compact.Geometry.CornerWallMarkerSharedBounds",
       "path": "Compact/Geometry/CornerWallMarkerSharedBounds.lean",
-      "bytes": 6044,
-      "sha256": "d22b72878e8022f6dae8b162365e0381c0a5772fd62fe49f4c19dd235497660c"
+      "bytes": 6047,
+      "sha256": "cc0b1f08df334a93ea677aed3e624a2f93ec9f8e504e8fe0081d86fcc9113588"
     },
     {
       "module": "Compact.Geometry.CornerWallSharedMargin",
@@ -2024,8 +2024,8 @@
     {
       "module": "Compact.Geometry.CornerWallPositiveLongitudinal",
       "path": "Compact/Geometry/CornerWallPositiveLongitudinal.lean",
-      "bytes": 8532,
-      "sha256": "55c4ca30009326021504c7fd336604e870e9b51708d7af2d2508091ee5044b9b"
+      "bytes": 8555,
+      "sha256": "e3913862266743190f7adaf7e3135f9c7c853ed3fb6487ebdcf8cc891047d767"
     },
     {
       "module": "Compact.Geometry.NegativeWallTopSeed",
@@ -2042,8 +2042,8 @@
     {
       "module": "Compact.Geometry.CornerWallMarkerLongitudinal",
       "path": "Compact/Geometry/CornerWallMarkerLongitudinal.lean",
-      "bytes": 7419,
-      "sha256": "e75d3cd86a631a91d16739ad159a13f7866685c4b6592f8604cfee7f165d4f87"
+      "bytes": 7442,
+      "sha256": "afab1365724842d61424782f96b3f3fa55f8516e946184a820ca7fe9de8d4f39"
     },
     {
       "module": "Compact.Geometry.CornerWallMarkerLongitudinalBounds",
@@ -2084,8 +2084,8 @@
     {
       "module": "Compact.Geometry.CornerWallMarkerNegativeLarge",
       "path": "Compact/Geometry/CornerWallMarkerNegativeLarge.lean",
-      "bytes": 11403,
-      "sha256": "a5a09364c79b234da000b172b45fa23976a6aa0b5af7e59ba123a7cbabecce8c"
+      "bytes": 11426,
+      "sha256": "347df0363145b3ccca8250cf70a032ea146f2d6dc010951e22d59c3d2ef84b02"
     },
     {
       "module": "Compact.Geometry.CornerWallNegativeMixedBounds",
@@ -2132,8 +2132,8 @@
     {
       "module": "Compact.Geometry.CornerOuterOrderMonotone",
       "path": "Compact/Geometry/CornerOuterOrderMonotone.lean",
-      "bytes": 4721,
-      "sha256": "4a85fa01123112021edd1cf64408c8a1715b60bc2aac873b9e6813c94e340347"
+      "bytes": 4727,
+      "sha256": "61da1ef9067d626a1255a44cd28286aa5881f835442128810ea8b193a6ebe207"
     },
     {
       "module": "Compact.Geometry.PositiveCentralEscapeOrder",
@@ -2570,8 +2570,8 @@
     {
       "module": "Compact.Geometry.UpperRightCornerLongitudinalNorm",
       "path": "Compact/Geometry/UpperRightCornerLongitudinalNorm.lean",
-      "bytes": 3263,
-      "sha256": "3e5c279906fb71a1ca4403281a67277a8afa31ec6ee123ee3cbdb79807004fa0"
+      "bytes": 3357,
+      "sha256": "23ff8200540f6bc5c9f5ae43bf1530e9ef03edf3eb7fd1ca219c4d77c8e2fedf"
     },
     {
       "module": "Compact.Geometry.UpperRightCornerLongitudinalBounds",
@@ -2726,8 +2726,8 @@
     {
       "module": "Compact.Geometry.CentralNegativeNeighborBounds",
       "path": "Compact/Geometry/CentralNegativeNeighborBounds.lean",
-      "bytes": 4182,
-      "sha256": "834a3a099410679603b82cefd531e2757e8678fb638b60f21f64b6a42c5e444f"
+      "bytes": 4205,
+      "sha256": "29c9c25d4c3835758ff7f05a34527769c1eedd7f55b63687026bb0cdfc30c168"
     },
     {
       "module": "Compact.Geometry.CentralNegativeNeighbor",
@@ -25922,8 +25922,8 @@
     {
       "module": "Compact.Geometry.FullAuxWallPositiveCNegativeBMargins",
       "path": "Compact/Geometry/FullAuxWallPositiveCNegativeBMargins.lean",
-      "bytes": 3880,
-      "sha256": "3310be2d189dbf2c4b93ce2760d98502f96b49fdedbd99c88aa949afcce5c595"
+      "bytes": 3916,
+      "sha256": "13a2b696c08cd8938edd48ad7c95db8eaf56bbd974ce517dae10ae784a18d048"
     },
     {
       "module": "Compact.Geometry.FullAuxWallPositiveOpposite",
@@ -25934,8 +25934,8 @@
     {
       "module": "Compact.Geometry.FullAuxWallPositiveMargins",
       "path": "Compact/Geometry/FullAuxWallPositiveMargins.lean",
-      "bytes": 2408,
-      "sha256": "96369673c27977495e7647f18f221cd2cd738726466e3a2d8ac9fa82dca5a30f"
+      "bytes": 2436,
+      "sha256": "c1af4aa543ed2915d1ab796a40a188646e5d815512a9055a50117414bf50780e"
     },
     {
       "module": "Compact.Geometry.FullAuxWallPositiveReach",
@@ -26024,8 +26024,8 @@
     {
       "module": "Compact.Geometry.FullAuxWallLeftResidual",
       "path": "Compact/Geometry/FullAuxWallLeftResidual.lean",
-      "bytes": 9698,
-      "sha256": "a63f0ca3b434f983ae4099430445f3d8c6ca25779af87a1c41d11d2d3051a6f4"
+      "bytes": 9721,
+      "sha256": "b957a4830b5fd494392dca15420868d27d072a8c11b34cc2b2b305bc2fe6cdd8"
     },
     {
       "module": "Compact.Geometry.FullAuxWallPositiveUpperAngle",
@@ -26060,8 +26060,8 @@
     {
       "module": "Compact.Geometry.FullAuxWallSmallPositiveLeftB",
       "path": "Compact/Geometry/FullAuxWallSmallPositiveLeftB.lean",
-      "bytes": 8038,
-      "sha256": "e3b66ab0bda58933b58438d253cc1bdc88b4106c0d08b3fb4f9f1e6516f9e062"
+      "bytes": 8061,
+      "sha256": "5fd9587c1f84c78ad69f1300c01ca50fd72584f35a361668fffd518dee6f19cf"
     },
     {
       "module": "Compact.Geometry.FullAuxWallPositiveLeftOwn",
@@ -28250,8 +28250,8 @@
     {
       "module": "Compact.Geometry.C1092ShallowPositiveScalars",
       "path": "Compact/Geometry/C1092ShallowPositiveScalars.lean",
-      "bytes": 11200,
-      "sha256": "404baf50b2e4a0f9a3317065c1dbdefc99d3721197b850caf65ef2d05972af18"
+      "bytes": 11223,
+      "sha256": "ac9b2d207b0bdfb0cbcdce1009ace6ff519b7f3c5a5ca9951e5bed721d17b2c0"
     },
     {
       "module": "Compact.Completion.C1092.ShallowBottom",
@@ -28328,8 +28328,8 @@
     {
       "module": "Compact.Completion.C1092.MPPMWallOrderCycle",
       "path": "Compact/Completion/C1092/MPPMWallOrderCycle.lean",
-      "bytes": 4804,
-      "sha256": "10a615f9ba147dac8264e179e6b64141392de068ee844eb6c3d9bf0ce34ffd4e"
+      "bytes": 4818,
+      "sha256": "0424042d5de6f8c9e59c7c5c80743f38e491d0b8610bc264f68b287600a0b45d"
     },
     {
       "module": "Compact.Completion.C1092.MPPMActualPositiveOrder",
@@ -28658,8 +28658,8 @@
     {
       "module": "Compact.Completion.C1092.MPPMForwardPositiveDScalars",
       "path": "Compact/Completion/C1092/MPPMForwardPositiveDScalars.lean",
-      "bytes": 2923,
-      "sha256": "f5d7191ad4dbcd8427bc2a43e44a9660cd40098a9908c8a63bff0cbba213471e"
+      "bytes": 2946,
+      "sha256": "dbddca100b63c9562e1dc09e6db457adc7cff5d07fb2fc46df25dc125eafdfa1"
     },
     {
       "module": "Compact.Completion.C1092.MPPMForwardPositiveDFaces",
@@ -30062,14 +30062,14 @@
     {
       "module": "Compact.Completion.OtherCases.SouthwestSupportPoint.Polynomials",
       "path": "Compact/Completion/OtherCases/SouthwestSupportPoint/Polynomials.lean",
-      "bytes": 3350,
-      "sha256": "f51c514c7c265a4716631090e91b2f214771ba3ec7ca3a172e867c0b22077892"
+      "bytes": 3373,
+      "sha256": "219636450bcdbf601a8824f6c8babcf318bb93b1885281b7a3e2ea6a6ba5254d"
     },
     {
       "module": "Compact.Completion.OtherCases.SouthwestSupportPoint.Scalars",
       "path": "Compact/Completion/OtherCases/SouthwestSupportPoint/Scalars.lean",
-      "bytes": 7310,
-      "sha256": "089e41973ad9127ebb0a7e843dc7022084cb09176ec865f7bac76829ee9f6248"
+      "bytes": 7333,
+      "sha256": "d8773ebeb2e4675372c8de6a0f2286a5190588172f074a5de822501d489437cc"
     },
     {
       "module": "Compact.Completion.OtherCases.SouthwestSupportPoint.Positive",
@@ -30128,14 +30128,14 @@
     {
       "module": "Compact.Completion.OtherCases.OrdinaryLeftTop.ShallowTopScalars",
       "path": "Compact/Completion/OtherCases/OrdinaryLeftTop/ShallowTopScalars.lean",
-      "bytes": 5409,
-      "sha256": "4acf92d500e9bd4138880c4eaae9c96b36f55ae6910f3d1cc06de51b3a3016e8"
+      "bytes": 5432,
+      "sha256": "249a5958cd314d067f94ba2542b8d074a7da8e3615bc07fead5809e141e24dc7"
     },
     {
       "module": "Compact.Completion.OtherCases.OrdinaryLeftTop.ShallowTopExitScalars",
       "path": "Compact/Completion/OtherCases/OrdinaryLeftTop/ShallowTopExitScalars.lean",
-      "bytes": 5296,
-      "sha256": "6c0e207eb4beb17ccc38f95c8230e694f5282946115b0b2ead516ce568990197"
+      "bytes": 5319,
+      "sha256": "03e66d026347f5ac6d6f7eff4f77026466775b18efe2049852086a785e72b2a9"
     },
     {
       "module": "Compact.Completion.OtherCases.OrdinaryLeftTop.ShallowTopDirections",
@@ -30950,8 +30950,8 @@
     {
       "module": "Compact.Completion.OtherCases.C976LeftTop.PointSupport",
       "path": "Compact/Completion/OtherCases/C976LeftTop/PointSupport.lean",
-      "bytes": 5023,
-      "sha256": "d8d8c187eb0cae486b5d373d798f5fb4563870ed8355df0e1e00727263d07688"
+      "bytes": 5046,
+      "sha256": "524422de6a9b8433728db28ea24b17502ab2498f0d8484bc67ad47b934c5408e"
     },
     {
       "module": "Compact.Completion.OtherCases.C976LeftTop.Inputs",
@@ -30968,8 +30968,8 @@
     {
       "module": "Compact.Completion.OtherCases.C976LeftTop.TopFaces",
       "path": "Compact/Completion/OtherCases/C976LeftTop/TopFaces.lean",
-      "bytes": 5680,
-      "sha256": "078179e4bb69a74bc9d69da64b4f10bd95820d6dfbd4a2b065b5205266b8610d"
+      "bytes": 5703,
+      "sha256": "6bb364da0e43c7d5c51c87b5f3acee462061d26f9605bc87e002ae01ffe25a65"
     },
     {
       "module": "Compact.Completion.OtherCases.C976LeftTop.SmallAngles",
@@ -30980,14 +30980,14 @@
     {
       "module": "Compact.Completion.OtherCases.C976LeftTop.Polynomials",
       "path": "Compact/Completion/OtherCases/C976LeftTop/Polynomials.lean",
-      "bytes": 4133,
-      "sha256": "fcfbafbea1f619eb91dc8d0e04b513455fc475af570cd4ca9454b13ebac71558"
+      "bytes": 4156,
+      "sha256": "59494b1339a770c9f0c3f320672487b03075343ddd58a10d266994828af3275f"
     },
     {
       "module": "Compact.Completion.OtherCases.C976LeftTop.Scalars",
       "path": "Compact/Completion/OtherCases/C976LeftTop/Scalars.lean",
-      "bytes": 7895,
-      "sha256": "fd6f2b41624e8c327d5ae80ef3b3a80359643a18b9cbbb6cfa6b11af477bc5de"
+      "bytes": 7918,
+      "sha256": "faa523def61f3dd2d780abf2bffec5b5e9e6218f0ceb7c9d7793df5013a0b9a1"
     },
     {
       "module": "Compact.Completion.OtherCases.C976LeftTop.Segment",
@@ -30998,8 +30998,8 @@
     {
       "module": "Compact.Completion.OtherCases.C976LeftTop.Margins",
       "path": "Compact/Completion/OtherCases/C976LeftTop/Margins.lean",
-      "bytes": 4811,
-      "sha256": "0ecf0f588f7094c3f1a97e067a69dad77bd13c95ed3ea368669ae1d9da2ad5de"
+      "bytes": 4834,
+      "sha256": "406c0feffbba4d0ee266f0f4b4a5caffa5640f4ee2c3c49f9777ad3f525c86bd"
     },
     {
       "module": "Compact.Completion.OtherCases.C976LeftTop.LargeSupports",
@@ -31778,8 +31778,8 @@
     {
       "module": "Compact.Completion.FiniteCases.C972NortheastSignScalars",
       "path": "Compact/Completion/FiniteCases/C972NortheastSignScalars.lean",
-      "bytes": 2614,
-      "sha256": "f8bb033c766caf9e99649bcf10f6222117d9414bef66e70061bc020f44573f6b"
+      "bytes": 2637,
+      "sha256": "338430d0ed5d842f59cc7c86613dcf82c05ac04d92be9d7146b9512b1b3c7016"
     },
     {
       "module": "Compact.Completion.FiniteCases.C972Domains",
@@ -31904,8 +31904,8 @@
     {
       "module": "Compact.Completion.FiniteCases.C972NortheastPositiveScalars",
       "path": "Compact/Completion/FiniteCases/C972NortheastPositiveScalars.lean",
-      "bytes": 5860,
-      "sha256": "c30bc635a6013443a21118e4a3e1d50e501a4360aa14e203894f9f272176815c"
+      "bytes": 5883,
+      "sha256": "c27650671d8d8ebb218a3a0bd91bd034c27808e2b710e229ae7a33d6ea46fb30"
     },
     {
       "module": "Compact.Completion.FiniteCases.C972NortheastPositiveEnding",

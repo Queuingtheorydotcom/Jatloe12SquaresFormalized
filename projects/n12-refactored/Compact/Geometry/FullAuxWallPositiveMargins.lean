@@ -8,8 +8,8 @@ namespace N12Compact.FullAuxWallPositiveMargins
 open C977CornerCubic
 set_option Elab.async false
 
-def F (c s : ℝ) : ℝ := 2/5+s-(37/50)*c*s+(2/5)*s^2
-def G (c s : ℝ) : ℝ := 2-c-(37/50)*s^2-(2/5)*c*s
+noncomputable def F (c s : ℝ) : ℝ := 2/5+s-(37/50)*c*s+(2/5)*s^2
+noncomputable def G (c s : ℝ) : ℝ := 2-c-(37/50)*s^2-(2/5)*c*s
 
 theorem coefficients {c s : ℝ} (an : Normal c s) (narrow : 4*s≤c) :
     0≤F c s ∧ F c s≤G c s ∧ F c s+G c s≤7/5 := by

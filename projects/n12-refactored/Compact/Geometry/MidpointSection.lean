@@ -144,9 +144,9 @@ theorem grid_hit (q : OpenSquare) (h : ℝ) (box : InsideContainer q)
     (hsection : UnitSection q h) : ∃ j : Fin 3, q.Inside ((j.val:ℝ)+1) h := by
   obtain ⟨z,hz⟩ := hsection
   have lo : 0 ≤ z-1/2 := by
-    have hp := (box _ _ (hz (-1/2) (by norm_num))).1
+    have hp := (box _ _ (hz (-1/2) (by norm_num [abs_of_nonneg (show (0:ℝ) ≤ 1/2 by norm_num)]))).1
     linarith only [hp]
-  have up : z+1/2 ≤ 4 := (box _ _ (hz (1/2) (by norm_num))).2.1
+  have up : z+1/2 ≤ 4 := (box _ _ (hz (1/2) (by rw [abs_of_nonneg (by norm_num)]))).2.1
   have point (k : ℝ) (hlo : z-1/2 ≤ k) (hhi : k ≤ z+1/2) : q.Inside k h := by
     have h := hz (k-z) (abs_le.mpr ⟨by linarith,by linarith⟩)
     convert h using 1 <;> ring

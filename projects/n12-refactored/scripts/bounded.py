@@ -82,7 +82,7 @@ def main():
         parser.error('--deadline must be a finite Unix timestamp')
     checkpoint_root = Path(__file__).resolve().parents[1]
     if (checkpoint_root/'PAUSED.json').exists():
-        raise SystemExit('Computation is paused. Read PAUSED.json; clear it only after an explicit request to resume.')
+        raise SystemExit('Computation is paused. Read handoff/CONTINUATION-2026-10-14.txt; clear PAUSED.json only after an explicit user resume.')
     footprint_limit = args.footprint_mib if args.footprint_mib is not None else args.rss_mib
     command = args.command[1:] if args.command[:1] == ['--'] else args.command
     if not command:
@@ -102,9 +102,13 @@ def main():
     peak_group_processes = []
     stop_group_processes = []
     stop_snapshot_error = None
+    interrupt_signal = None
     def interrupt(signum, frame):
+        nonlocal interrupt_signal
+        interrupt_signal = signum
         raise KeyboardInterrupt('signal '+str(signum))
     signal.signal(signal.SIGTERM, interrupt)
+    signal.signal(signal.SIGINT, interrupt)
     try:
         if effective_seconds <= 0:
             reason = 'deadline_reached'
@@ -153,6 +157,7 @@ def main():
             time.sleep(0.25)
     except KeyboardInterrupt:
         reason = 'interrupted'
+        interrupt_signal = interrupt_signal or int(signal.SIGINT)
     except (OSError, RuntimeError, subprocess.SubprocessError) as error:
         reason = reason or 'monitor_error'
         stop_snapshot_error = str(error)
@@ -193,6 +198,7 @@ def main():
                 time.sleep(0.5)
             args.receipt.write_text(json.dumps({
                 'command': command, 'returncode': child.returncode, 'stop_reason': reason,
+                'interrupt_signal': interrupt_signal,
                 'limits': {'rss_mib': args.rss_mib, 'physical_footprint_mib': footprint_limit,
                            'seconds': args.seconds, 'free_gib': args.free_gib,
                            'threads': args.threads, 'deadline_epoch': args.deadline,
@@ -210,6 +216,7 @@ def main():
     if child is None:
         report = {
             'command': command, 'returncode': None, 'stop_reason': reason,
+            'interrupt_signal': interrupt_signal,
             'launched': False,
             'limits': {'rss_mib': args.rss_mib, 'physical_footprint_mib': footprint_limit,
                        'seconds': args.seconds, 'free_gib': args.free_gib,
@@ -222,7 +229,10 @@ def main():
         args.receipt.write_text(json.dumps(report, indent=2) + '\n')
         print(json.dumps({'stopping': reason, 'launched': False,
                           'minimum_free_bytes': minimum_free_bytes}), flush=True)
-    raise SystemExit(124 if reason else child.returncode)
+    # A cancellation is not a scheduled checkpoint deadline. Preserve the
+    # conventional signal status so callers can distinguish the two cases.
+    raise SystemExit(128 + interrupt_signal if reason == 'interrupted'
+                     else 124 if reason else child.returncode)
 
 if __name__ == '__main__':
     main()

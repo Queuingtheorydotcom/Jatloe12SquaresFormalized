@@ -15,6 +15,8 @@ from pathlib import Path
 import re
 import shutil
 import subprocess
+import sys
+import traceback
 
 ROOT = Path(__file__).resolve().parents[1]
 BIN = Path.home()/'.elan/toolchains/leanprover--lean4---v4.19.0/bin'
@@ -54,8 +56,15 @@ def disk_preflight():
         raise RuntimeError(f'N12 project exceeds its {project_gib:g} GiB storage budget')
 
 
-def run(*args, env=None):
-    subprocess.run(list(map(str, args)), cwd=ROOT, env=env, check=True)
+def run(*args, env=None, announce=True):
+    if announce:
+        print('Running: ' + ' '.join(map(str, args)), flush=True)
+        subprocess.run(list(map(str, args)), cwd=ROOT, env=env, check=True)
+        print('Completed: ' + ' '.join(map(str, args)), flush=True)
+    else:
+        with (ROOT/'.verification/replay-driver.log').open('a') as diagnostics:
+            subprocess.run(list(map(str, args)), cwd=ROOT, env=env, check=True,
+                           stderr=diagnostics)
 
 
 def audit_global(verify, jobs=1):
@@ -65,9 +74,11 @@ def audit_global(verify, jobs=1):
     source.write_text(f'import {FINAL_MODULE}\n'
                       f'example : S12.packingConstant12 = 4 := {FINAL_THEOREM}\n'
                       f'#print axioms {FINAL_THEOREM}\n')
-    env = json.loads(subprocess.check_output(
-        [str(BIN/'lake'), 'env', 'python3', '-c',
-         'import json,os;print(json.dumps(dict(os.environ)))'], cwd=ROOT, text=True))
+    with (directory/'replay-driver.log').open('a') as diagnostics:
+        env = json.loads(subprocess.check_output(
+            [str(BIN/'lake'), 'env', 'python3', '-c',
+             'import json,os;print(json.dumps(dict(os.environ)))'], cwd=ROOT, text=True,
+            stderr=diagnostics))
     env['LEAN_PATH'] = str(ROOT/'.lake/build/lib/lean')+os.pathsep+env.get('LEAN_PATH', '')
     env['LEAN_NUM_THREADS'] = str(jobs)
     result = subprocess.run([str(BIN/'lean'), f'-j{jobs}', str(source)], cwd=ROOT, env=env,
@@ -95,10 +106,15 @@ def main():
     parser.add_argument('--plan', action='store_true')
     parser.add_argument('--jobs', type=int, default=int(os.environ.get('N12_LEAN_THREADS', '1')))
     parser.add_argument('--resume-run', default='auto')
+    parser.add_argument('--module-jobs', type=int, default=1)
     parser.add_argument('--fresh', action='store_true')
     args = parser.parse_args()
-    if args.jobs < 1:
+    if args.jobs < 1 or args.module_jobs < 1:
         parser.error('--jobs must be positive')
+    if not args.plan:
+        if os.environ.get('GITHUB_ACTIONS') != 'true':
+            parser.error('Replay is GitHub-only; local use is restricted to --plan')
+        run_identity = load_script('replay_state').reset(ROOT, args.profile)
     try:
         roots = roots_for(args.profile)
     except ValueError as error:
@@ -110,8 +126,10 @@ def main():
                           'project_modules':len(project), 'compiled':False,
                           'global_optimality_proved':False}, indent=2))
         return
-    if os.environ.get('GITHUB_ACTIONS') != 'true':
-        parser.error('Replay is GitHub-only; local use is restricted to --plan')
+    from runner_resources import cgroup_directories, detect_cpu
+    cpus, _ = detect_cpu(cgroup_directories())
+    args.module_jobs = min(args.module_jobs, max(1, cpus // args.jobs))
+    print(f'Parallel compilation: {args.module_jobs} modules × {args.jobs} Lean threads; {cpus} CPUs available.', flush=True)
     if (ROOT/'lean-toolchain').read_text().strip() != 'leanprover/lean4:v4.19.0':
         raise RuntimeError('Unexpected N12 toolchain; inspect the pinned setup')
     os.environ['N12_LEAN_THREADS'] = str(args.jobs)
@@ -159,8 +177,10 @@ def main():
                     ROOT/'.verification/mathlib-cache-plan.json')
     disk_preflight()
     run('python3', 'scripts/verify.py', '--jobs', str(args.jobs),
-        *(['--fresh'] if args.fresh else []), *roots)
+        '--module-jobs', str(args.module_jobs),
+        *(['--fresh'] if args.fresh else []), *roots, announce=False)
     report = {'profile':args.profile, 'roots':roots, 'compilation_complete':True,
+              'run_identity':run_identity,
               'project_modules':len(project), 'external_modules':len(external),
               'cache_setup_project_modules':2,
               'compiled_package_configs':[str(p.relative_to(ROOT)) for p in package_configs],
@@ -173,11 +193,18 @@ def main():
         report['final_axioms'] = audit_global(verify, args.jobs)
         report['inherited_native_compiler_trust'] = 'Lean.ofReduceBool' in report['final_axioms']
         report['global_optimality_proved'] = True
-    (ROOT/'.verification/github-replay.json').write_text(json.dumps(report, indent=2)+'\n')
-    print(json.dumps(report, indent=2))
-    if args.profile != 'final':
-        print('N12_SOURCE_COMPONENTS_COMPILED_GLOBAL_THEOREM_NOT_ASSERTED')
+    verify.write_json(ROOT/'.verification/github-replay.json', report)
 
 
 if __name__ == '__main__':
-    main()
+    try:
+        main()
+    except Exception as error:
+        directory = ROOT/'.verification'
+        directory.mkdir(exist_ok=True)
+        with (directory/'replay-error.log').open('w') as diagnostics:
+            traceback.print_exc(file=diagnostics)
+            if isinstance(error, subprocess.CalledProcessError) and error.output:
+                diagnostics.write(str(error.output)+'\n')
+        sys.exit(error.returncode if isinstance(error, subprocess.CalledProcessError)
+                 and error.returncode > 0 else 1)

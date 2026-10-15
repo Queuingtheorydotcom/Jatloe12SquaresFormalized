@@ -1,6 +1,8 @@
 import Compact.Geometry.C1092ShallowPositiveScalarsPolynomials
 import Mathlib.Tactic.FieldSimp
 
+noncomputable section
+
 /-!
 Exact half-angle versions of the C1092 shallow-positive wall scalars. The
 physical bridge supplies the actual support inequalities and identifies its
