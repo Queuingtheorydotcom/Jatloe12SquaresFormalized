@@ -1,0 +1,29 @@
+{
+  "scope": "Exact rational source polynomial identities only; no Lean elaboration, no global packing proof",
+  "source": "Compact/Geometry/C849NegativePositiveMargins.lean",
+  "sha256": "fc95e11e8cb85467694321d2d5724312767e67e632435871aaa7f649ca1b8c7f",
+  "identities": [
+    {
+      "margin": 0,
+      "scale": 52488000000000,
+      "exact_expanded_identity": true,
+      "positive_displayed_coefficients": true,
+      "nonzero_terms": 24
+    },
+    {
+      "margin": 1,
+      "scale": 103680000000000,
+      "exact_expanded_identity": true,
+      "positive_displayed_coefficients": true,
+      "nonzero_terms": 25
+    },
+    {
+      "margin": 2,
+      "scale": 10497600000000000,
+      "exact_expanded_identity": true,
+      "positive_displayed_coefficients": true,
+      "nonzero_terms": 34
+    }
+  ],
+  "total_positive_terms": 83
+}

@@ -1,0 +1,17 @@
+{
+  "scope": "source-only bounded declaration factoring; exact raw views and original context links unchanged",
+  "files": [
+    {
+      "path": "Compact/Cases/C898/CachedPairs/Step04RawData.lean",
+      "before_sha256": "908a4cdb71ecb36fb2cae5f862da5188c79b0c113051ba6e5a75a902c2241839",
+      "after_sha256": "18628beb7e591eb923f767bdf79047a4a28b0c52c3fc469db63769d06852054c",
+      "named_contexts": 71
+    },
+    {
+      "path": "Compact/Cases/C898/PairStep14CommonPoint.lean",
+      "before_sha256": "a11d69c01d5583d2ee3b5ca52cb8b0582ab5986fee04cf9b4c5019c038a64e33",
+      "after_sha256": "088fbafe35ab7c087475038890d90c7083e53df17b77478e64be8471a02082ab",
+      "named_contexts": 61
+    }
+  ]
+}

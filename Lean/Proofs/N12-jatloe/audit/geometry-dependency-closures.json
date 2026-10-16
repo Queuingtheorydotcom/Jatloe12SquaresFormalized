@@ -1,0 +1,129 @@
+{
+  "scope": "Source/import graph only, no elaboration; moved and formerly transitive declaration reference scan",
+  "closures": {
+    "S12.SquareFrame": {
+      "local_modules": 2,
+      "before_local_modules": null,
+      "missing": [],
+      "closure": [
+        "S12.Diagonal",
+        "S12.SquareFrame"
+      ],
+      "has_ShortCluster": false,
+      "has_WallRowCover": false,
+      "has_MarkerClassification": false,
+      "old_missing": null
+    },
+    "S12.WallGeometry": {
+      "local_modules": 3,
+      "before_local_modules": 6,
+      "missing": [],
+      "closure": [
+        "S12.Diagonal",
+        "S12.SquareFrame",
+        "S12.WallGeometry"
+      ],
+      "has_ShortCluster": false,
+      "has_WallRowCover": false,
+      "has_MarkerClassification": false,
+      "old_missing": []
+    },
+    "S12.SymmetryBase": {
+      "local_modules": 2,
+      "before_local_modules": null,
+      "missing": [],
+      "closure": [
+        "S12.Diagonal",
+        "S12.SymmetryBase"
+      ],
+      "has_ShortCluster": false,
+      "has_WallRowCover": false,
+      "has_MarkerClassification": false,
+      "old_missing": null
+    },
+    "S12.Container": {
+      "local_modules": 4,
+      "before_local_modules": null,
+      "missing": [],
+      "closure": [
+        "S12.Container",
+        "S12.Diagonal",
+        "S12.SquareFrame",
+        "S12.SymmetryBase"
+      ],
+      "has_ShortCluster": false,
+      "has_WallRowCover": false,
+      "has_MarkerClassification": false,
+      "old_missing": null
+    },
+    "S12.MarkerCoverGeometry": {
+      "local_modules": 14,
+      "before_local_modules": 11,
+      "missing": [],
+      "closure": null,
+      "has_ShortCluster": true,
+      "has_WallRowCover": true,
+      "has_MarkerClassification": false,
+      "old_missing": []
+    },
+    "S12.PackingConstant": {
+      "local_modules": 68,
+      "before_local_modules": 65,
+      "missing": [],
+      "closure": null,
+      "has_ShortCluster": true,
+      "has_WallRowCover": true,
+      "has_MarkerClassification": true,
+      "old_missing": []
+    }
+  },
+  "references_checked": 205,
+  "missing_declaration_imports": [
+    {
+      "module": "Compact.Geometry.BorderEndpoint",
+      "referenced": "inside_centered_iff",
+      "needs": "S12.SquareFrame"
+    },
+    {
+      "module": "adapters.C696SymmetryOriginal",
+      "referenced": "centerY",
+      "needs": "S12.SquareFrame"
+    },
+    {
+      "module": "adapters.ThreeSquareOriginal",
+      "referenced": "centerX",
+      "needs": "S12.SquareFrame"
+    },
+    {
+      "module": "adapters.ThreeSquareOriginal",
+      "referenced": "centerY",
+      "needs": "S12.SquareFrame"
+    },
+    {
+      "module": "adapters.ThreeSquareOriginal",
+      "referenced": "center_coordinates",
+      "needs": "S12.SquareFrame"
+    },
+    {
+      "module": "adapters.ThreeSquareOriginal",
+      "referenced": "inside_centered_iff",
+      "needs": "S12.SquareFrame"
+    },
+    {
+      "module": "adapters.ThreeSquareOriginal",
+      "referenced": "InsideContainer",
+      "needs": "S12.Container"
+    }
+  ],
+  "reference_scan_interpretation": {
+    "source_overlay_missing_references": [],
+    "compact_comment_only": [
+      "Compact.Geometry.BorderEndpoint: inside_centered_iff appears in explanatory comment only"
+    ],
+    "inactive_adapters_with_preexisting_unrestored_imports": [
+      "adapters.C696SymmetryOriginal imports missing Completion.Cases.C696.RootZeroSymmetry",
+      "adapters.ThreeSquareOriginal imports missing Completion.Cases.C709.UpperEndpoint and SignedFrame"
+    ],
+    "claim": "Every scanned reference in restored S12 overlay retains its required declaration; inactive incomplete adapters are not claimed closed."
+  }
+}

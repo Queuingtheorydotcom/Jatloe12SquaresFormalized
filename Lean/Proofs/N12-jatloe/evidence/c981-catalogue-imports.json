@@ -1,0 +1,141 @@
+{
+  "recorded_at": "2026-10-11T00:25:10.525484+00:00",
+  "archive": "LOCAL_PATH/C981-progress-2026-10-10.zip",
+  "archive_sha256": "b51a47bfc4c6c214303c5f016d6f0ad47ae0e9a6cd5fcee468df572059c7434d",
+  "archive_bytes": 24508614,
+  "purpose": "Original C981 representative catalogue and small transitive Completion imports; no generated Remaining modules. No compilation performed.",
+  "source_files": [
+    {
+      "path": "Completion/Cases/C981/CaseVectors.lean",
+      "archive_member": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/CaseVectors.lean",
+      "bytes": 13653,
+      "lines": 206,
+      "sha256": "12cec78e2c2b46fe4d6ffcc1fcddb2bd216a0a5c50600e76b0ebede9d4ec21c8",
+      "git_blob_sha1": "6cb7777ae61a8349b5622b6d35d2e61ec94ad5cf",
+      "status": "copied_original_bytes",
+      "imports": [
+        "Completion.Cases.C981.OwnershipDomains",
+        "Completion.Cases.C981.DiagonalAuxiliary"
+      ]
+    },
+    {
+      "path": "Completion/Cases/C981/OwnershipDomains.lean",
+      "archive_member": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/OwnershipDomains.lean",
+      "bytes": 6111,
+      "lines": 118,
+      "sha256": "c38379fb9001e7ca73aba514b26e65f8982f7a2f49b814730f326de5406e9078",
+      "git_blob_sha1": "92794ab0bcd2fc72d13556601b754ec3cd40ece8",
+      "status": "copied_original_bytes",
+      "imports": [
+        "Completion.Cases.C981.Ownership",
+        "Completion.Cases.C981.DomainReuse",
+        "S12.Case976Domains",
+        "S12.DomainSpecData",
+        "S12.DomainEnumeration"
+      ]
+    },
+    {
+      "path": "Completion/Cases/C981/DiagonalAuxiliary.lean",
+      "archive_member": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/DiagonalAuxiliary.lean",
+      "bytes": 6659,
+      "lines": 142,
+      "sha256": "15784f3c6e15e576bfbd017983153cad3595c5237bc9266d6720a290507afe25",
+      "git_blob_sha1": "ccb540476ffcfeaae571a142d7a4b05e7786b452",
+      "status": "copied_original_bytes",
+      "imports": [
+        "Completion.Cases.C981.CornerReduction",
+        "Completion.Cases.C981.Ownership"
+      ]
+    },
+    {
+      "path": "Completion/Cases/C981/Ownership.lean",
+      "archive_member": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/Ownership.lean",
+      "bytes": 3628,
+      "lines": 80,
+      "sha256": "7b704a2f0979cf49d8e9a1640fc9678a57fc6ea19e19f16c7e4c384788fb475d",
+      "git_blob_sha1": "66a5c18b26d51ecaf506901d489dd31d099ef99b",
+      "status": "copied_original_bytes",
+      "imports": [
+        "Completion.Cases.C981.RowIdentity",
+        "S12.ConditionalEnclosure",
+        "Mathlib.Data.List.OfFn"
+      ]
+    },
+    {
+      "path": "Completion/Cases/C981/DomainReuse.lean",
+      "archive_member": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/DomainReuse.lean",
+      "bytes": 1307,
+      "lines": 29,
+      "sha256": "a4b2e21eee2c189f0466d0d57382edaada9b0c1b2d9163ee4c29d86c503fbbc5",
+      "git_blob_sha1": "c27a1752876ad2c8ea3f86c92fce6c2641594859",
+      "status": "copied_original_bytes",
+      "imports": [
+        "S12.DirectSingleDomain"
+      ]
+    },
+    {
+      "path": "Completion/Cases/C981/CornerReduction.lean",
+      "archive_member": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/CornerReduction.lean",
+      "bytes": 3323,
+      "lines": 77,
+      "sha256": "83081b5c9cd23eddc8c402be5e1583f799e856d01e8ac2ede52f31381ec36c99",
+      "git_blob_sha1": "242e9b02f6782d068f9c29067773bba91043eb4f",
+      "status": "copied_original_bytes",
+      "imports": [
+        "Completion.Cases.C981.Geometry",
+        "S12.FamilyTransport"
+      ]
+    },
+    {
+      "path": "Completion/Cases/C981/RowIdentity.lean",
+      "archive_member": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/RowIdentity.lean",
+      "bytes": 937,
+      "lines": 31,
+      "sha256": "ab2849f265b2d85eff6c80dca0d333e27946f69ba6f7125fd5eb6771d2faa20a",
+      "git_blob_sha1": "94ac161fe882747efa175c2ea39964ada15ad5dc",
+      "status": "copied_original_bytes",
+      "imports": [
+        "Completion.Contracts"
+      ]
+    },
+    {
+      "path": "Completion/Cases/C981/Geometry.lean",
+      "archive_member": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/Geometry.lean",
+      "bytes": 3031,
+      "lines": 73,
+      "sha256": "d4b02ef70feed4d2f7619cf865cc109ff532f1c67c84ba20c4209dd3540c0609",
+      "git_blob_sha1": "c39dd4c7fe50829d6b1ba5a40999c3a9c16afb4e",
+      "status": "copied_original_bytes",
+      "imports": [
+        "Completion.Cases.C981.RowIdentity",
+        "S12.MissingCornerBranches"
+      ]
+    },
+    {
+      "path": "Completion/Contracts.lean",
+      "archive_member": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Contracts.lean",
+      "bytes": 687,
+      "lines": 16,
+      "sha256": "f9f918063f3b14f829a157ec55f729ec50665c08a865e749a319df3dd814a680",
+      "git_blob_sha1": "396e53d360f7718e58f330f3094634bd1b36d300",
+      "status": "already_present_identical",
+      "imports": [
+        "S12.PackingConstant"
+      ]
+    }
+  ],
+  "external_imports": [
+    "Mathlib.Data.List.OfFn",
+    "S12.Case976Domains",
+    "S12.ConditionalEnclosure",
+    "S12.DirectSingleDomain",
+    "S12.DomainEnumeration",
+    "S12.DomainSpecData",
+    "S12.FamilyTransport",
+    "S12.MissingCornerBranches",
+    "S12.PackingConstant"
+  ],
+  "copied_files": 8,
+  "copied_bytes": 38649,
+  "copied_lines": 756
+}

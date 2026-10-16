@@ -1,0 +1,263 @@
+{
+  "scope": "Exact Fraction verification of supplied five-square relaxation; not an original twelve-square packing and not Lean acceptance.",
+  "side": "1001/1000",
+  "squares": {
+    "E192": {
+      "unit": true,
+      "contained": true,
+      "markers": [
+        6,
+        7
+      ],
+      "aux": [],
+      "extra_points": [
+        {
+          "point": [
+            "1",
+            "3"
+          ],
+          "strict": true
+        }
+      ],
+      "signature_matches": true
+    },
+    "T32768": {
+      "unit": true,
+      "contained": true,
+      "markers": [
+        15
+      ],
+      "aux": [
+        3,
+        14
+      ],
+      "extra_points": [],
+      "signature_matches": true
+    },
+    "C16": {
+      "unit": true,
+      "contained": true,
+      "markers": [
+        4
+      ],
+      "aux": [
+        7,
+        17
+      ],
+      "extra_points": [
+        {
+          "point": [
+            "113/50",
+            "3"
+          ],
+          "strict": true
+        },
+        {
+          "point": [
+            "72/25",
+            "3"
+          ],
+          "strict": true
+        },
+        {
+          "point": [
+            "213/100",
+            "81/25"
+          ],
+          "strict": true
+        }
+      ],
+      "signature_matches": true
+    },
+    "R16416": {
+      "unit": true,
+      "contained": true,
+      "markers": [
+        5,
+        14
+      ],
+      "aux": [
+        9,
+        19
+      ],
+      "extra_points": [
+        {
+          "point": [
+            "3",
+            "9/4"
+          ],
+          "strict": true
+        },
+        {
+          "point": [
+            "3",
+            "11/4"
+          ],
+          "strict": true
+        }
+      ],
+      "signature_matches": true
+    },
+    "H3072": {
+      "unit": true,
+      "contained": true,
+      "markers": [
+        10,
+        11
+      ],
+      "aux": [
+        5,
+        16
+      ],
+      "extra_points": [],
+      "signature_matches": true
+    }
+  },
+  "separators": {
+    "E192-T32768": [
+      {
+        "frame": "first",
+        "axis": "U",
+        "direction": "first-before-second",
+        "gap": "39/1000"
+      },
+      {
+        "frame": "second",
+        "axis": "U",
+        "direction": "first-before-second",
+        "gap": "39/1000"
+      }
+    ],
+    "E192-C16": [
+      {
+        "frame": "first",
+        "axis": "U",
+        "direction": "first-before-second",
+        "gap": "1077/1000"
+      },
+      {
+        "frame": "second",
+        "axis": "U",
+        "direction": "first-before-second",
+        "gap": "1077/1000"
+      }
+    ],
+    "E192-R16416": [
+      {
+        "frame": "first",
+        "axis": "U",
+        "direction": "first-before-second",
+        "gap": "3981/2500"
+      },
+      {
+        "frame": "second",
+        "axis": "U",
+        "direction": "first-before-second",
+        "gap": "2271/5000"
+      },
+      {
+        "frame": "second",
+        "axis": "V",
+        "direction": "second-before-first",
+        "gap": "3119/2500"
+      }
+    ],
+    "E192-H3072": [
+      {
+        "frame": "first",
+        "axis": "U",
+        "direction": "first-before-second",
+        "gap": "1431/2500"
+      },
+      {
+        "frame": "first",
+        "axis": "V",
+        "direction": "second-before-first",
+        "gap": "199/2500"
+      },
+      {
+        "frame": "second",
+        "axis": "V",
+        "direction": "second-before-first",
+        "gap": "2219/2500"
+      }
+    ],
+    "T32768-C16": [
+      {
+        "frame": "first",
+        "axis": "U",
+        "direction": "first-before-second",
+        "gap": "37/1000"
+      },
+      {
+        "frame": "second",
+        "axis": "U",
+        "direction": "first-before-second",
+        "gap": "37/1000"
+      }
+    ],
+    "T32768-R16416": [
+      {
+        "frame": "first",
+        "axis": "U",
+        "direction": "first-before-second",
+        "gap": "1381/2500"
+      },
+      {
+        "frame": "second",
+        "axis": "V",
+        "direction": "second-before-first",
+        "gap": "1559/2500"
+      }
+    ],
+    "T32768-H3072": [
+      {
+        "frame": "first",
+        "axis": "V",
+        "direction": "second-before-first",
+        "gap": "199/2500"
+      },
+      {
+        "frame": "second",
+        "axis": "V",
+        "direction": "second-before-first",
+        "gap": "659/2500"
+      }
+    ],
+    "C16-R16416": [
+      {
+        "frame": "second",
+        "axis": "V",
+        "direction": "second-before-first",
+        "gap": "1/1250"
+      }
+    ],
+    "C16-H3072": [
+      {
+        "frame": "first",
+        "axis": "V",
+        "direction": "second-before-first",
+        "gap": "199/2500"
+      }
+    ],
+    "R16416-H3072": [
+      {
+        "frame": "first",
+        "axis": "U",
+        "direction": "second-before-first",
+        "gap": "1/250"
+      },
+      {
+        "frame": "second",
+        "axis": "U",
+        "direction": "second-before-first",
+        "gap": "1/250"
+      }
+    ]
+  },
+  "H_exclusions": [
+    true,
+    true
+  ],
+  "all_checks_pass": true
+}

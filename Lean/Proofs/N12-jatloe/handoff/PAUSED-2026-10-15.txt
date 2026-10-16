@@ -1,0 +1,126 @@
+PAUSED SOURCE CHECKPOINT, 2026-10-15
+
+USER REQUEST: pause and save. All three running proof agents were interrupted.
+Do not resume proof research, builds, CI, or other work until the user resumes.
+No compilation or computation was started during this pause operation.
+
+CHECKOUT
+  /Users/macintosh/Documents/Codex/2026-10-13/plz/work/ben-continuation
+  project: projects/n12-refactored
+  branch: codex/n12-initial-programs-2026-10-14
+  remote: https://github.com/EvolvingPrograms/SquaresLean.git
+Previous pushed commit: aa7b7defa0384a83eadd16adf39398b7631a6e20.
+This pause commit preserves every currently changed/untracked proof source,
+including work in progress, with no claim that unreviewed source is accepted.
+The adjacent evidence/pause-source-2026-10-15.json records exact source hashes.
+
+STATUS / TRUST
+116/117 original cases are now registered in source; only C700 remains.
+C972's complete source ending and actual-case adapter received independent
+source review. The entire new source closure remains uncompiled. There is no
+unconditional Final.lean and no completed unrestricted optimality theorem.
+No new admissions, custom axioms, unsafe or native proof sites are intended.
+The original finite classification inherits native compiler trust.
+Static review, registry counts and exact rational diagnostic calculations do
+not establish Lean acceptance or the global theorem.
+
+USER CONSTRAINTS ON RESUME
+Continue translating and simplifying the mathematics. Do not compile locally,
+run numerical searches, generate expanded certificates, or launch CI merely to
+resume. GitHub replay is prepared but has not been launched. Preserve the
+original S12 definitions, actual owners, all angle signs and boundary contacts.
+Hard whole-proof limit: 10,000 modules including libraries and setup; <=8,000
+preferred. Last completed inventory BEFORE this checkpoint's additions:
+8,702 proof modules, 8,831 including cache/setup/configuration modules. That is
+historical, not a recensus of the newly saved work. Recount before future builds.
+Do not restore the abandoned expanded proof forests or large deleted caches.
+
+NEW C972 COMPLETE SOURCE
+Compact/Completion/FiniteCases/C972NortheastPositiveFaces.lean
+Compact/Completion/FiniteCases/C972NortheastPositiveScalars.lean
+Compact/Completion/FiniteCases/C972NortheastPositiveEnding.lean
+Compact/Completion/FiniteCases/C972Completion.lean
+The actual positive SE/NE pair is impossible through every directed support
+axis and both relative orientation orders. The genuine original family is
+adapted at row503, yielding N12Compact.C972.case_excluded. Registry edits in
+NewCases, SourceAssembly and ContinuousRemaining leave pendingIds={700}.
+Two optional reviewed actual-singleton adapters are also preserved:
+C972PositiveSingletonEnding.lean and C972NegativeSingleton.lean. They are not
+needed by the simpler SE/NE ending, but record completed mathematical work.
+
+NEW C700 PARTIAL SOURCE
+Directory: Compact/Completion/OtherCases/MergedPending/
+- C700PositiveSouthwest.lean: actual positive SW lower faces; only two
+  longitudinal separating alternatives remain. No contradiction yet.
+- C700LowerRightFaces.lean: same merged square B, Ulo>=-.26s,
+  Vlo>=-s-.26c, and 9c<65s, using genuine omitted owner points.
+- C700RightProfile.lean: full actual right-wall input, negative-SW crossing
+  with 0<z<.26, (1+c)z=s, sz=1-c, s<=.64c. No whole-case ending.
+- C700FullCornerOrigin.lean: unconditional actual right origin(3,2) and
+  bottom origin(2,1), using paired corner12 and actual wall owners.
+These four modules received source review before the pause.
+- C700FullCornerFaces.lean: newly saved origin-face strengthening, claiming
+  B Vlo>=-s, 7c<13s, .87<c<.89 and .47<s<.49. ROOT REVIEW STILL NEEDED.
+- C700FullCornerTilt.lean: newly saved negative-SW support and tilt reduction,
+  claiming -A.s<1/30 and A.c>.999 from actual A/B support plus right origin.
+  Agent self-review was interrupted; ROOT REVIEW STILL NEEDED.
+Shared Geometry/MergedRightWallSector.lean exposes the existing faces and
+crossing lemmas; their mathematical bodies were unchanged.
+
+C700 REMAINING WORK
+Original family (row381):
+{1,2,12,16,32,192,256,1536,4096,8192,16384,32768}.
+A=actual SW256, B=merged SE/NE1536, L4096, D8192, R16384, T32768.
+Paired12 is SE corner; paired192 is NW corner. 16/32 are the two NE
+singletons, not a paired NE corner. The NW marker2048 is globally absent:
+never invent its owner. Prove both SW orientation branches with the complete
+actual geometry; no conditional local input may be counted as a finished case.
+
+Negative SW: existing C700NegativeSouthwest forces the B-U separator,
+positive B.Ulo and actual B point(2.5,2). New FullCornerFaces/Tilt would make
+A almost horizontal. Investigate full A/D coupling after reviewing those
+lemmas. Full B/R/K or B/R/K/D point-and-wall relaxations are feasible; their
+impossibility must not be asserted. The actual SW body is essential to the
+proposed negative-SW route. Genuine NE singletons may also strengthen B.
+
+Positive SW: old source gives two longitudinal alternatives. Last unsaved
+mathematical observation from the positive-SW agent: actual L2 near point
+(-1,-.26) in the centered chart should force A.U>=-C-.26t, hence
+A.upperU>1-C-.26t. Its other bands follow from the SW marker and prior
+Vfloor>=-C+.35t, side>1, and .74C+.65t<1. This observation is NOT yet a
+formal lemma; rederive and review it. Full D/L bodies remain relevant.
+
+LOCAL DIAGNOSTICS (not full-case counterexamples)
+See mathematics/research/C700-RIGHT-WALL-INPUT-BOUNDARY-2026-10-15.txt.
+Centered chart(x-2,y-2), common side1.001.
+1. Weak B/R profile has the exact counterexample recorded in that note.
+2. Even adding R omissions(1,-1),(1.086,-1) is insufficient:
+   same B=(15/17,8/17), U=.001,V=-.475;
+   R=(4/5,-3/5), U=107/125,V=-37/250. It owns its full right bar/marker,
+   omits both corner points, lies in the box and separates from B in R-U.
+   The genuine paired12 square/origin requirements are still missing here.
+3. Even full paired12/R/B plus the genuine R origin is locally feasible:
+   B=(37399/42601,20400/42601), U=.001,V=-.475;
+   R axis x in(.999,2), y in(-.999,.002);
+   K12 axis x in(.999,2), y in(-2,-.999).
+   R/K touch legally, K owns its three SE-corner points, R owns its full bar,
+   marker and origin; B stays strictly separated. These exact local data were
+   checked with Fraction arithmetic; they omit full actual A and other owners.
+   The last agent further observed that axis D x in(-.002,.999),
+   y in(-2,-.999) appears to extend this relaxation while owning its bar,
+   marker and origin. That D extension was NOT fully independently checked
+   before interruption; it does not assert a valid full C700 packing.
+
+NEXT RESUMPTION STEPS
+1. Inspect git status and this checkpoint manifest; preserve all originals.
+2. Review FullCornerFaces and FullCornerTilt before using their conclusions.
+3. Recount selected source closure INCLUDING setup; refresh the source index,
+   formalization queue and remaining-case docs (older guides still say115/117).
+4. Close C700 using original owners, both SW branches and every separator.
+5. Only then register117/117, write the unconditional Final.lean in the original
+   model, audit axioms and prepare the final GitHub replay under the cap.
+   Current manual workflow instructions: handoff/GITHUB-REPLAY.txt.
+No workflow was launched and no local Lean/Lake command was run for this phase.
+
+Earlier guides and evidence are historical. This pause instruction supersedes
+any active-work wording in them until the user explicitly resumes.

@@ -42,9 +42,12 @@ on:
         type: boolean
         default: false
       resume_run:
-        description: Checkpoint run ID, auto for latest compatible run, or none
-        type: string
+        description: Restore the latest compatible build cache, or start without it
+        type: choice
         default: auto
+        options:
+          - auto
+          - none
 
 permissions:
   contents: read
@@ -60,7 +63,7 @@ jobs:
     timeout-minutes: 360
     defaults:
       run:
-        working-directory: projects/n12-refactored
+        working-directory: Lean/Proofs/N12-jatloe
         shell: bash
     env:
       N12_REPLAY_PROFILE: ${{ inputs.profile }}
@@ -76,7 +79,7 @@ jobs:
           fetch-depth: 1
           persist-credentials: false
           sparse-checkout: |
-            projects/n12-refactored
+            Lean/Proofs/N12-jatloe
             ci
 
       - name: Initialize this run's verification status
@@ -90,52 +93,51 @@ jobs:
       - name: Check the source target without compiling
         run: python3 scripts/github_replay.py --plan --profile "$N12_REPLAY_PROFILE"
 
-      - name: Install the pinned Linux Lean toolchain
-        timeout-minutes: 15
+      - name: Install the pinned elan bootstrap
+        timeout-minutes: 10
         run: |
           set -euo pipefail
-          n12_toolchain="$HOME/.elan/toolchains/leanprover--lean4---v4.19.0"
-          n12_complete="$n12_toolchain/.n12-toolchain-complete"
-          if [[ -f "$n12_complete" && -x "$n12_toolchain/bin/lean" && -x "$n12_toolchain/bin/lake" \
-                && -f "$n12_toolchain/lib/lean/Init.olean" && -f "$n12_toolchain/lib/lean/Std.olean" \
-                && -f "$n12_toolchain/lib/lean/Lake.olean" ]]; then
-            "$n12_toolchain/bin/lean" --version
-            "$n12_toolchain/bin/lake" --version
-            exit 0
-          fi
-          # An interrupted extraction can leave bin/lean before its libraries.
-          # Re-extract the pinned release; only a complete install gets a marker.
-          rm -f "$n12_complete"
-          mkdir -p "$n12_toolchain"
+          case "$(uname -m)" in
+            x86_64)
+              elan_arch=x86_64
+              elan_sha=42b94d4244e8353142c456ec0e4ca6528fd898a6c604d4059f494e706e431f63 ;;
+            aarch64)
+              elan_arch=aarch64
+              elan_sha=05febd124d84ebf994b2e7479922a5650b1e950c17ae3bd1ddd776b65bb72bf9 ;;
+            *) echo 'A Linux x86_64 or aarch64 runner is required.' >&2; exit 1 ;;
+          esac
+          elan_stage="$(mktemp -d)"
+          trap 'rm -rf "$elan_stage"' EXIT
           curl --fail --location --retry 3 --connect-timeout 30 \
-            https://github.com/leanprover/lean4/releases/download/v4.19.0/lean-4.19.0-linux.tar.zst \
-            | tar --zstd -xf - -C "$n12_toolchain" --strip-components=1
-          "$n12_toolchain/bin/lean" --version
-          "$n12_toolchain/bin/lake" --version
-          test -f "$n12_toolchain/lib/lean/Init.olean"
-          test -f "$n12_toolchain/lib/lean/Std.olean"
-          test -f "$n12_toolchain/lib/lean/Lake.olean"
-          touch "$n12_complete"
+            "https://github.com/leanprover/elan/releases/download/v4.2.4/elan-${elan_arch}-unknown-linux-gnu.tar.gz" \
+            --output "$elan_stage/elan.tar.gz"
+          printf '%s  %s\n' "$elan_sha" "$elan_stage/elan.tar.gz" | sha256sum --check
+          tar -xzf "$elan_stage/elan.tar.gz" -C "$elan_stage"
+          "$elan_stage/elan-init" -y --no-modify-path --default-toolchain none
+          echo "$HOME/.elan/bin" >> "$GITHUB_PATH"
 
-      - name: Restore saved completed modules
-        id: restore
-        env:
-          GH_TOKEN: ${{ github.token }}
-          RESUME_RUN: ${{ inputs.resume_run }}
-          REPLAY_FRESH: ${{ inputs.fresh }}
-        run: |
-          if [[ "$REPLAY_FRESH" == true ]]; then RESUME_RUN=none; fi
-          # Restore temporarily holds both the downloaded ZIP and staged objects;
-          # use the OS floor here, then reserve archive space during compilation.
-          python3 scripts/bounded.py --rss-mib "$N12_RSS_MIB" --free-gib "$N12_RESTORE_FREE_GIB" \
-            --threads "$N12_LEAN_THREADS" --seconds 18000 --deadline "$N12_REPLAY_DEADLINE" \
-            --receipt .verification/checkpoint-restore-resources.json -- \
-            python3 -u scripts/checkpoint.py restore --profile "$N12_REPLAY_PROFILE" --run "$RESUME_RUN"
+      # Cache the complete compiler output tree, including Lean 4.35 sidecars.
+      # Old .olean-only checkpoint tarballs are intentionally not restored.
+      - name: Restore cached completed modules
+        id: cache
+        if: ${{ !inputs.fresh && inputs.resume_run != 'none' }}
+        uses: actions/cache/restore@0057852bfaa89a56745cba8c7296529d2fc39830
+        with:
+          path: |
+            Lean/Proofs/N12-jatloe/.lake/build/lib/lean
+            Lean/Proofs/N12-jatloe/.verification/checked-modules.json
+            Lean/Proofs/N12-jatloe/.verification/Compact.*.log
+            Lean/Proofs/N12-jatloe/.verification/Completion.*.log
+            Lean/Proofs/N12-jatloe/.verification/S12.*.log
+          key: n12-${{ runner.os }}-${{ runner.arch }}-${{ hashFiles('Lean/Proofs/N12-jatloe/verification/toolchain-lock.json') }}-${{ inputs.profile }}-${{ github.run_id }}-${{ github.run_attempt }}
+          restore-keys: |
+            n12-${{ runner.os }}-${{ runner.arch }}-${{ hashFiles('Lean/Proofs/N12-jatloe/verification/toolchain-lock.json') }}-${{ inputs.profile }}-
 
       - name: Replay until the five-hour deadline
         id: replay
         env:
           REPLAY_FRESH: ${{ inputs.fresh }}
+          GITHUB_TOKEN: ${{ github.token }}
         run: |
           args=(--profile "$N12_REPLAY_PROFILE" --jobs "$N12_LEAN_THREADS" --resume-run none)
           if [[ "$REPLAY_FRESH" == true ]]; then args+=(--fresh); fi
@@ -151,20 +153,33 @@ jobs:
           echo "exit_code=$replay_status" >> "$GITHUB_OUTPUT"
           python3 scripts/replay_stop.py --exit-code "$replay_status"
 
-      - name: Package completed modules and their validation receipts
-        id: checkpoint
-        if: ${{ always() && steps.checkout.outcome == 'success' }}
-        run: python3 scripts/checkpoint.py package --profile "$N12_REPLAY_PROFILE"
+      - name: Cache completed modules for the next manual run
+        id: saved_cache
+        if: ${{ always() && steps.replay.outcome != 'skipped' }}
+        uses: actions/cache/save@0057852bfaa89a56745cba8c7296529d2fc39830
+        with:
+          path: |
+            Lean/Proofs/N12-jatloe/.lake/build/lib/lean
+            Lean/Proofs/N12-jatloe/.verification/checked-modules.json
+            Lean/Proofs/N12-jatloe/.verification/Compact.*.log
+            Lean/Proofs/N12-jatloe/.verification/Completion.*.log
+            Lean/Proofs/N12-jatloe/.verification/S12.*.log
+          key: n12-${{ runner.os }}-${{ runner.arch }}-${{ hashFiles('Lean/Proofs/N12-jatloe/verification/toolchain-lock.json') }}-${{ inputs.profile }}-${{ github.run_id }}-${{ github.run_attempt }}
 
-      - name: Save resumable proof progress
+      - name: Save complete build output and module receipts
         id: saved
-        if: ${{ always() && steps.checkpoint.outcome == 'success' }}
+        if: ${{ always() && steps.checkout.outcome == 'success' }}
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a
         with:
-          name: n12-${{ inputs.profile }}-checkpoint-${{ github.run_attempt }}
-          path: projects/n12-refactored/.verification/artifacts/checkpoint.tar
+          name: n12-${{ inputs.profile }}-build-${{ github.run_attempt }}
+          path: |
+            Lean/Proofs/N12-jatloe/.lake/build/lib/lean/
+            Lean/Proofs/N12-jatloe/.verification/checked-modules.json
+            Lean/Proofs/N12-jatloe/.verification/Compact.*.log
+            Lean/Proofs/N12-jatloe/.verification/Completion.*.log
+            Lean/Proofs/N12-jatloe/.verification/S12.*.log
           include-hidden-files: true
-          if-no-files-found: error
+          if-no-files-found: warn
           retention-days: 30
           compression-level: 1
           overwrite: false
@@ -175,10 +190,10 @@ jobs:
         with:
           name: n12-${{ inputs.profile }}-evidence-${{ github.run_attempt }}
           path: |
-            projects/n12-refactored/.verification/
-            !projects/n12-refactored/.verification/artifacts/
-            !projects/n12-refactored/.verification/checkpoint-download-*/**
-            !projects/n12-refactored/.verification/checkpoint-stage-*/**
+            Lean/Proofs/N12-jatloe/.verification/
+            !Lean/Proofs/N12-jatloe/.verification/artifacts/
+            !Lean/Proofs/N12-jatloe/.verification/checkpoint-download-*/**
+            !Lean/Proofs/N12-jatloe/.verification/checkpoint-stage-*/**
           include-hidden-files: true
           if-no-files-found: warn
           retention-days: 30
@@ -187,5 +202,5 @@ jobs:
       - name: Report whether verification finished or needs another run
         if: ${{ always() && steps.checkout.outcome == 'success' }}
         env:
-          CHECKPOINT_UPLOAD: ${{ steps.saved.outcome }}
+          CHECKPOINT_UPLOAD: ${{ steps.saved_cache.outcome }}
         run: python3 scripts/replay_state.py summary

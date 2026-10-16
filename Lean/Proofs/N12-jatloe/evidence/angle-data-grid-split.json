@@ -1,0 +1,39 @@
+{
+  "original_sha256": "f049d9a836ac674b6af735973e3f57007cb52bdf1385138de257666b62d680f2",
+  "original_bytes": 76630,
+  "original_lines": 460,
+  "declaration_bytes_preserved_exactly": true,
+  "native_checks_before": 3,
+  "native_checks_after": 3,
+  "modules": {
+    "32": {
+      "bytes": 10525,
+      "lines": 72,
+      "sha256": "fb07d8de69d3ccd704879b5ed2fbb153851a0c7262eab013040cff51a4bd9d62",
+      "angle_definitions": 32,
+      "norm_num_checks": 32,
+      "native_cover_checks": 1,
+      "preserved_declaration_sha256": "2b8e0a782c334ba395a6a5f075ab8c0d49b139232b01793bea68e29a6dbcfb6b"
+    },
+    "64": {
+      "bytes": 21475,
+      "lines": 136,
+      "sha256": "d8a4143a3a7a75527a9bc20ea7ef300bdee5dd793e24de9c8226cb67f76768ba",
+      "angle_definitions": 64,
+      "norm_num_checks": 64,
+      "native_cover_checks": 1,
+      "preserved_declaration_sha256": "88ef502e9519f60601ece48310bf28f795da01ba73cdfc72e04b7d9d9580b8fd"
+    },
+    "128": {
+      "bytes": 44900,
+      "lines": 264,
+      "sha256": "59419942f0e621b660aaf194f39306369dc1b29146f2996108116978aed40121",
+      "angle_definitions": 128,
+      "norm_num_checks": 128,
+      "native_cover_checks": 1,
+      "preserved_declaration_sha256": "bda86c72de3ae319ae721c2cb80be743d46f238ed4dd077d695121b8f26a322a"
+    }
+  },
+  "wrapper_bytes": 295,
+  "lean_run": false
+}

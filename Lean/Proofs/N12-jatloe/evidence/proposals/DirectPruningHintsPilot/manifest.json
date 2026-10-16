@@ -1,0 +1,82 @@
+{
+  "status": "explicit audited hints; source only, unchanged Plan.Check requires replay",
+  "pilot_only": true,
+  "cases": [
+    713
+  ],
+  "input_sha256": {
+    "evidence/proposals/HistoricalDirectPruningStages/manifest.json": "8a9a52c482e83cc300e52c898ce8cd848a867b5d65b798e38b1456995e4284e1",
+    "evidence/historical-outside-coverage/manifest.json": "714e143464039ec9ddbb5370c446d321e42dcac634bed0f8f91d222232d0fa60",
+    "evidence/historical-compact-data/manifest.json": "f20009fcf353dc46a22907d2c1dc78a23a5e8499f569ab549d94bb31ba6d53ca",
+    "evidence/historical-compact-data/poses.json": "faeaf04102217cc07ceccc576ecfed41a9c7ed164a41bfc516c415ce95226908",
+    "evidence/historical-compact-data/rows.json": "5652be93ba32352a8fdc393c028424cf9d454a2fefa7798e55723e5da8027215",
+    "evidence/historical-outside-coverage/branches.jsonl": "914254e93dc71bb73fb5ad5dda4271ceb2c9d592b8123e3c8363e9e9cc1bb050"
+  },
+  "batches": [
+    {
+      "case": 713,
+      "step": 0,
+      "batch": 0,
+      "plans": 16,
+      "statistics": {
+        "single_hints": 144,
+        "copy_hints": 16,
+        "outside_contexts": 16,
+        "input_row_occurrences": 216,
+        "target_row_occurrences": 208,
+        "old_search_candidate_upper_bound": 23400,
+        "pair_hints": 48
+      },
+      "input_row_range": [
+        13,
+        14
+      ],
+      "target_row_range": [
+        13,
+        13
+      ]
+    },
+    {
+      "case": 713,
+      "step": 1,
+      "batch": 0,
+      "plans": 16,
+      "statistics": {
+        "single_hints": 350,
+        "copy_hints": 43,
+        "outside_contexts": 43,
+        "input_row_occurrences": 689,
+        "target_row_occurrences": 549,
+        "old_search_candidate_upper_bound": 86263,
+        "pair_hints": 156
+      },
+      "input_row_range": [
+        13,
+        22
+      ],
+      "target_row_range": [
+        12,
+        13
+      ]
+    }
+  ],
+  "outputs": [
+    {
+      "path": "Compact/Cases/C713/DirectPruningHintPilot/Step00Batch00.lean",
+      "sha256": "724ed0d098d5f0abc8d41c3d107c884bc4e10fa630c31fbd75407bfcee9b382c",
+      "lines": 52,
+      "bytes": 4483
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruningHintPilot/Step01Batch00.lean",
+      "sha256": "797ef16dd0c0b164b28ca8868cabb430d116d1f6b00612814ee42987b69f40ac",
+      "lines": 79,
+      "bytes": 8883
+    }
+  ],
+  "lean_modules": 2,
+  "lean_lines": 131,
+  "lean_bytes": 13366,
+  "remaining_lean_searches": 0,
+  "elapsed_seconds": 0.31305662500017206
+}

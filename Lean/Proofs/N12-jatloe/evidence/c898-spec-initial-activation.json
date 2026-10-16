@@ -1,0 +1,117 @@
+{
+  "scope": "Exact source activation only; source checks still pending.",
+  "proposal_report_sha256": "702c09bc4c6c008ddef485a41083ef5b590c00c91a74c6b6a9d1ab34d8be9a2d",
+  "target": "Compact/Cases/C898/RecipeInitial",
+  "archive": "evidence/source-archive/c898-recipe-initial-before-spec",
+  "files": [
+    {
+      "path": "Compact/Cases/C898/RecipeInitial/Bank.lean",
+      "sha256": "0275121cb7b1b9bd9ef56e0fb96c6ff40b06e348131815e9659eceec1db41fd3"
+    },
+    {
+      "path": "Compact/Cases/C898/RecipeInitial/Data00.lean",
+      "sha256": "9fde54812bf9217f43b7a6361cc1fd4dfb421b1880d1de2e508cbf510b9a7218"
+    },
+    {
+      "path": "Compact/Cases/C898/RecipeInitial/Owner00.lean",
+      "sha256": "c6a6ff683cb2fd76ad683364c21ab8f40bb585ea387e7371bbc03ea9c2c0425b"
+    },
+    {
+      "path": "Compact/Cases/C898/RecipeInitial/Data01.lean",
+      "sha256": "dd49428900e6fbe21a45c87481291e6d79f1761c2b20c305d1bba01ed2bcd252"
+    },
+    {
+      "path": "Compact/Cases/C898/RecipeInitial/Owner01.lean",
+      "sha256": "d949d83829511e83d6b326baa6317fefeef29fd2bc21ca4f3fa6bdc48582014b"
+    },
+    {
+      "path": "Compact/Cases/C898/RecipeInitial/Data02.lean",
+      "sha256": "c9abbf172a2b17dea015426823482f43ae8d8fd3c33291f5314bdb559c398bc4"
+    },
+    {
+      "path": "Compact/Cases/C898/RecipeInitial/Owner02.lean",
+      "sha256": "c5d17606759e24985952ec58afb45041bc614fd17746e55a2bbbe70eb3a57a4f"
+    },
+    {
+      "path": "Compact/Cases/C898/RecipeInitial/Data03.lean",
+      "sha256": "d6784cda68225ea1c31c14fa85bd4b97bcabce092767c4c004bb3d6b90328c9c"
+    },
+    {
+      "path": "Compact/Cases/C898/RecipeInitial/Owner03.lean",
+      "sha256": "efdd7431e28a8552b820f1aad7f08fa003ffffa3e572b02dccf3782021bcdebf"
+    },
+    {
+      "path": "Compact/Cases/C898/RecipeInitial/Data05.lean",
+      "sha256": "322c4f6fc86379ebd4ac0bbaf04374a7e0db4d64b9df2dcf4d443690753c5c3e"
+    },
+    {
+      "path": "Compact/Cases/C898/RecipeInitial/Owner05.lean",
+      "sha256": "72890f88d24d26b26bc72560dbea341bdf1288f7e2f229d5008908b4a16dbeb2"
+    },
+    {
+      "path": "Compact/Cases/C898/RecipeInitial/Data06.lean",
+      "sha256": "8e633c498ec6427c210e32d2597f51968d6b2eb9ba7d67c3e9be9ea1e03ab8f8"
+    },
+    {
+      "path": "Compact/Cases/C898/RecipeInitial/Owner06.lean",
+      "sha256": "f6bd4931da44a3781c3a5cc2a783d81d3b9b98b774d44bf35954fb620130d14e"
+    },
+    {
+      "path": "Compact/Cases/C898/RecipeInitial/Data07.lean",
+      "sha256": "fea183a20803e56492f96c1c909804504fb63e63dc445681b7f8c5281fcf3f95"
+    },
+    {
+      "path": "Compact/Cases/C898/RecipeInitial/Owner07.lean",
+      "sha256": "77a9428607915cd3de6440267aaddfdffbd5c3832f97181b5d949918cc7fa87a"
+    },
+    {
+      "path": "Compact/Cases/C898/RecipeInitial/Data08.lean",
+      "sha256": "ba4d08a8338137e9cb8667f0845564a2d4b090a441385637855dd84fb5f22166"
+    },
+    {
+      "path": "Compact/Cases/C898/RecipeInitial/Owner08.lean",
+      "sha256": "500bdfe9eb8b4b5b8ce18cfb9d59f75d9891535aead3f4ca3fdca9bfd1a1e3c4"
+    },
+    {
+      "path": "Compact/Cases/C898/RecipeInitial/Data09.lean",
+      "sha256": "1fe746725955301c011602d9eef4adb51b75189e27bfba34ab7f83c7a6327ebe"
+    },
+    {
+      "path": "Compact/Cases/C898/RecipeInitial/Owner09.lean",
+      "sha256": "8358b18c471f91ae7447938b4a97716e6851b75a1e3a3e097a9d728ad6924a85"
+    },
+    {
+      "path": "Compact/Cases/C898/RecipeInitial/Data10.lean",
+      "sha256": "a54e9aaf86e956de8100330266b5113f2f3f362de9e764b4d8130b268171077e"
+    },
+    {
+      "path": "Compact/Cases/C898/RecipeInitial/Owner10.lean",
+      "sha256": "a9f6968ede948530b722083bc0653a2f420d24eafbe8f9897e34f6bfd8b45d3a"
+    },
+    {
+      "path": "Compact/Cases/C898/RecipeInitial/Data11.lean",
+      "sha256": "66451bbaa485a98ae5ccf4902f899598540354a96b59dac3db53b48d91fcb820"
+    },
+    {
+      "path": "Compact/Cases/C898/RecipeInitial/Owner11.lean",
+      "sha256": "0eb13461d464ec3ae4183655c3b73160d00e46cbec7f4e7942dfccd16da1b6f4"
+    },
+    {
+      "path": "Compact/Cases/C898/RecipeInitial/Pilot.lean",
+      "sha256": "1f4853157c1d71b540f98d9a9dbec7645d502647c896d12b398a12de89307bb1"
+    },
+    {
+      "path": "Compact/Cases/C898/RecipeInitial/All.lean",
+      "sha256": "8b2844cd376e714976a9b3f50593c387afbd4749683ef2cf44b13ae21279d5a9"
+    },
+    {
+      "path": "Compact/Cases/C898/RecipeInitial/Entry.lean",
+      "sha256": "aa9ec0d8e1f71a514a0ce8b9ce3daa173a62ca8016b7c9cf97b6fc691835cae1"
+    }
+  ],
+  "roots": [
+    "Compact.Cases.C898.RecipeInitial.Pilot",
+    "Compact.Cases.C898.RecipeInitial.Owner00",
+    "Compact.Cases.C898.RecipeInitial.Entry"
+  ]
+}

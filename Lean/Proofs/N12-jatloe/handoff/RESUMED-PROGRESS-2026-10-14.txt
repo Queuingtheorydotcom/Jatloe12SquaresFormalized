@@ -1,0 +1,111 @@
+ACTIVE RESUMPTION: N12, 2026-10-14
+
+CURRENT USER SCOPE OVERRIDE
+Continue writing the already-completed mathematics in Lean source. Do not run
+Lean, Lake, verifier jobs, generators, or new geometric searches in this phase.
+The user will relay outside solutions to mathematical gaps. The current
+chapter map and source-writing instructions are SOURCE-WRITING-2026-10-14.txt.
+The verification statuses and commands below record the PRECEDING phase;
+they are not instructions to resume compilation now.
+
+The user explicitly resumed with "just finish the job" and alerted us to
+additional work by Ben. PAUSED.json was removed on that authorization.
+The prior RESUME-SIMPLIFIED-2026-10-14.txt is a historical pause snapshot.
+This file records the resumed work; it does not assert global completion.
+
+Environment and limits are unchanged: projects/n12-refactored in the private
+EvolvingPrograms/SquaresLean repository, branch
+codex/n12-initial-programs-2026-10-14, Lean4.19.0, pinned Mathlib.
+One computational worker, nice10, Lean-j1, RSS1536MiB, physical footprint
+450MiB,90seconds per invocation,3GiB free-disk floor,task storage<10GB.
+Preferred<=8000modules;hard<=10000 across the intended proof with externals.
+Do not raise limits or restore old large certificate/cache profiles.
+Earlier measured selected closure:7334modules,complete external closure.
+New small helpers since that census require a fresh census before batching.
+
+BEN'S ADDITIONAL WORK
+Reviewed and selectively imported24files from Benjamin Gurevitch commit
+3f8a157baf461c24c1727cebbabef4b530aa21a8, branch
+codex/n12-c705-c716-complete-contracts, against shared baseline46e0067.
+This supplies C705/C716 whole-case contracts and registration, plus bounded
+C717/C979 ownership checks and minimal dependencies. Our compact data
+factoring remains intact. The redundant Short54 certificate expansion was
+not imported: our shared geometric54/55 proofs already pass.
+See evidence/ben-c705716-integration-2026-10-14.json for exact provenance.
+Ben reports scoped acceptance remotely under larger caps. Those results
+are not a fresh local replay. Local C705716.WholeCases/NewCases replay is
+still required under our limits.
+
+C981 REPRESENTATIVES
+All20previously unfinished original representative contracts have now
+passed individually in the local guarded verifier:
+CommonRows:[2,28,30,34,37,41,43,69,103];Common107:107;
+NewSimpleShortRows:[54,56,58,73,109];OutwardTranspose:55;
+ShortCentralRows:[93,98];LastRows:29;Last104:104.
+The last chain passed after replacing failed arithmetic automation by exact
+support identities and monotone endpoint bounds. LastRightWall4.966s,
+LastCycle2.301s,LastRows5.488s,Last1042.124s.
+Last104 and its cycle print only propext,Classical.choice,Quot.sound.
+
+handoff/C981-integration.patch has NOW BEEN APPLIED. Do not apply it twice.
+C981Progress includes42rows;Registry.unfinished is empty and
+all_representatives_complete has no Pending argument. C981Progress passed2.287s. Full registry replay
+is in progress: earlier geometric dependencies must also pass in the
+current environment. The entire C981 case is NOT yet accepted.
+
+C981 COVERAGE
+Prefix09/10 were split into22data helpers and share50Finset definitions.
+All data helpers and wrappers passed. Exact inverse audits preserve all
+5291rows and their order. Sharing reduced most chunk elaborations to1-2s.
+The original32-front checker hit450MiB, even with a172-row target slice.
+The8-front Finset checker also hit450MiB. Neither pilot is accepted.
+Do not generate a large batch from that failing design.
+PrefixCoverageIndexed's slice/subset lifts passed. A new generic
+PrefixCoverageMasks bridge computes with exact natural-number bit masks
+and proves the original Finset StepCheck contract. Its generic soundness proof passed8.571s. The8-front encoded pilot and exact original-table correspondences passed
+in2.582s. Larger pilot measurement is next.
+No full proof batch has been emitted. All12coverage steps and the final
+AllowedData/DiagonalAuxiliary/TransposeData/CaseVectors ancestry remain
+required before Compact.Cases.C981Compact can be counted as closed.
+
+C1092
+MMMM.adjacentPair is an unconditional source candidate for BranchEnding2,
+not yet locally accepted or registered. Its WallPolynomial import was
+reduced to Fin.VecNotation; WallPolynomial,WallCenterRegion,WallCenterCover,
+WallPhysical,ClosedPointExclusion and WallCycle passed. WallSymmetry hit
+450MiB; factoring it into five helpers preserved public declarations and
+partitioned finite checks. All five helpers and the wrapper now passed.
+The subsequent MMMM dependency replay is in progress.
+New MMMP.CenterCorner and MMMP.TopOriginSign are source-only reductions,
+not branch endings. Negative-left support and right-F8/reach obligations
+remain. Do not promote conditional MMMP.ActualProfile to an exclusion.
+
+SHARED C983 / C580 / C581 GEOMETRY
+Source-only new NegativeRightSeparation and NegativeCentralOrder reduce
+actual three-square SAT axes and prove central slope order. F5TripleInput
+and C580581TripleEntrance retain genuine pairwise E/N/R disjointness and
+original owner identities. C580581UpperChain supplies actual top/right
+origins and northeast extension. These new helpers still require replay;
+the common three-square contradiction is not yet supplied.
+
+GLOBAL STATUS
+S12.packingConstant12=4 remains UNPROVED. SourceAssembly now lists100/117
+source-covered original cases after Ben's705/716 registration, with17open:
+580,581,683,700,867,868,896,972,974,975,976,981,983,1089,1090,1091,1092.
+This is a source ledger, not a fresh end-to-end acceptance count.
+No new admissions/axioms/native sites are allowed. Inherited historical
+Lean.ofReduceBool dependencies remain a separate disclosed trust boundary.
+
+HISTORICAL SERIAL VALIDATION COMMANDS (DEFERRED BY CURRENT USER SCOPE)
+Run from projects/n12-refactored:
+nice -n 10 python3 -B scripts/bounded.py --rss-mib 1536 --footprint-mib 450 \
+  --seconds 90 --free-gib 3 --receipt .verification/resume-NEXT.json -- \
+  python3 -B scripts/verify.py MODULE
+Each invocation needs ordinary process-monitor sandbox access. Reuse only
+the verifier's fingerprint-checked objects. Successful dependencies survive
+timeouts. Check .verification/latest-replay.json and per-module logs;
+empty/incomplete logs and resource-stop receipts do not mean acceptance.
+Useful roots:Compact.Assembly.C981Progress,Compact.Cases.C981Registry,
+Compact.Bridge.PrefixCoverageMasks,Compact.Bridge.C1092WallSymmetry,
+Compact.Completion.C1092.MMMM,
+Compact.Completion.OtherCases.C705716.WholeCases.

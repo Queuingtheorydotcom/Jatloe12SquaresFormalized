@@ -1,0 +1,2 @@
+'S12.AngleEnclosure.outer_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'S12.AngleEnclosure.wall_sound' depends on axioms: [propext, Classical.choice, Quot.sound]

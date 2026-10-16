@@ -1,0 +1,6 @@
+'N12Compact.C981CompletionLastPositiveScalars.first_impossible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]
+'N12Compact.C981CompletionLastPositiveScalars.second_impossible' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

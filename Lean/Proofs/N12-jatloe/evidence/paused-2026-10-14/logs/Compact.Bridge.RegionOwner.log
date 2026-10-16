@@ -1,0 +1,1 @@
+'N12Compact.RegionOwner.Owner.oriented_sound' depends on axioms: [propext, Classical.choice, Quot.sound]

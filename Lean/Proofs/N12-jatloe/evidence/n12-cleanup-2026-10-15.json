@@ -1,0 +1,3336 @@
+{
+  "timestamp_utc": "2026-10-15T15:51:31.651320+00:00",
+  "canonical_branch": "n12",
+  "preserved_final_commit": "01d3d22b28aea68f68eb11e4726d8f9220834874",
+  "archived_branch_tips": 111,
+  "all_archive_tags_verified_remotely": true,
+  "retired_remote_branches_verified": true,
+  "final_manifest_files_verified_unchanged": 5375,
+  "original_mathematical_files_verified_unchanged": 259,
+  "non_n12_readme_section_unchanged": true,
+  "no_non_n12_paths_changed": true,
+  "proof_source_changed": false,
+  "compilation_performed": false,
+  "protected_roots": [
+    "Compact.Assembly.Final",
+    "Compact",
+    "Compact.Assembly.ContinuousRemaining",
+    "Compact.Assembly.C981Progress"
+  ],
+  "current_project_closures": {
+    "Compact.Assembly.Final": 5375,
+    "Compact": 5388,
+    "Compact.Assembly.ContinuousRemaining": 5375,
+    "Compact.Assembly.C981Progress": 202
+  },
+  "final_modules_including_setup_and_audit": 8739,
+  "removed_lean_files": 549,
+  "removed_lean_bytes": 30805061,
+  "removed_files": [
+    {
+      "path": "projects/n12-refactored/Compact/Assembly/CaseSlots.lean",
+      "project_path": "Compact/Assembly/CaseSlots.lean",
+      "bytes": 2288,
+      "sha256": "262fafbc7f6d8b8011326b2fa19a74aed8fdc80fbf8cb3eb1e4f095dfb1db60a"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Assembly/Frontier.lean",
+      "project_path": "Compact/Assembly/Frontier.lean",
+      "bytes": 2843,
+      "sha256": "04f5ea9c45e5f4d7ba5b40cb0f1bc911f222b59cbadb3cec3e2e1b9074502297"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Assembly/RefactorInventory.lean",
+      "project_path": "Compact/Assembly/RefactorInventory.lean",
+      "bytes": 10012,
+      "sha256": "f86a58a266254d3889e20a2d39238753f09ab2849f0906b5757f49c83bedb3cd"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Bridge/C48RightBarOwnership.lean",
+      "project_path": "Compact/Bridge/C48RightBarOwnership.lean",
+      "bytes": 6988,
+      "sha256": "1426b0aa2d40fe497a4ca9669eec0807852e72565b69668f62aeb5c34d7ab38e"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Bridge/C696BoundaryChain.lean",
+      "project_path": "Compact/Bridge/C696BoundaryChain.lean",
+      "bytes": 7863,
+      "sha256": "0dd240a10245778e8c9f2df8f72705ae4c0685fbfa514a5f100985f94e08647e"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Bridge/C696GlobalSections.lean",
+      "project_path": "Compact/Bridge/C696GlobalSections.lean",
+      "bytes": 14575,
+      "sha256": "194e92d9658aca4f79fc73cdb11031ce9f393ddfeec35ba05571994184775d66"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Bridge/C977CenterIncomingCorner.lean",
+      "project_path": "Compact/Bridge/C977CenterIncomingCorner.lean",
+      "bytes": 12344,
+      "sha256": "ad9484bc90ddee52b484aaca4588796a5cdf3ec03ba10651c56857b366f6900a"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Bridge/C977CenterOpposedChains.lean",
+      "project_path": "Compact/Bridge/C977CenterOpposedChains.lean",
+      "bytes": 9936,
+      "sha256": "37f87b6b1cd3ef66b51bfdd3c617d60be056db21f8453d9ab745d9864c88ff10"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Bridge/C977NegativeLeftWest.lean",
+      "project_path": "Compact/Bridge/C977NegativeLeftWest.lean",
+      "bytes": 6434,
+      "sha256": "d19bfb7013b2ef253dcf1195c5f1f4f88c702320206bcd45a431dda4445bc41a"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Bridge/C977NegativeNeighbor.lean",
+      "project_path": "Compact/Bridge/C977NegativeNeighbor.lean",
+      "bytes": 6523,
+      "sha256": "61311432a25aee8df88fa9dab8e638331764b522cc87e5d710732ab0bc5bac30"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Bridge/C977SteeperBottomClosure.lean",
+      "project_path": "Compact/Bridge/C977SteeperBottomClosure.lean",
+      "bytes": 6218,
+      "sha256": "ea55b51923ad47cb50668bce3626da25780d7eca262696e77dda45b0c3cd667e"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Bridge/C977SteeperNegativeBottom.lean",
+      "project_path": "Compact/Bridge/C977SteeperNegativeBottom.lean",
+      "bytes": 7373,
+      "sha256": "5dd9d7fe56dc97901d439cda19f0f08267a10cc85e0ebaa89521a6afdd2fb169"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Bridge/C981CentralOuter.lean",
+      "project_path": "Compact/Bridge/C981CentralOuter.lean",
+      "bytes": 3372,
+      "sha256": "6b81a490f5cb68c5805eeb7211a435109217045afbeda3f704e3f9138a1a994d"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Bridge/C981CoupledSector.lean",
+      "project_path": "Compact/Bridge/C981CoupledSector.lean",
+      "bytes": 6092,
+      "sha256": "68d956575ab72b03f2ca00b6fc90e5c8ef96070fef669bda26faa072b23d5896"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Bridge/C981DiagonalWallElbows.lean",
+      "project_path": "Compact/Bridge/C981DiagonalWallElbows.lean",
+      "bytes": 4504,
+      "sha256": "36902a6ae8b228077e20b107242127a5efa39e61d7847ac03ef54868e0362059"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Bridge/C981V53EscapeAngles.lean",
+      "project_path": "Compact/Bridge/C981V53EscapeAngles.lean",
+      "bytes": 5377,
+      "sha256": "94d8a1d9d450ae456e23e91d1079ff1e19d1f6bad13b864b6107e654c8b16fb8"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Bridge/C981WallCenters.lean",
+      "project_path": "Compact/Bridge/C981WallCenters.lean",
+      "bytes": 5226,
+      "sha256": "5fcfc81622999abc23c66308af43f0bae7310784715e49a8bdca4f76e0ffffb8"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Bridge/CheckedFanCommand.lean",
+      "project_path": "Compact/Bridge/CheckedFanCommand.lean",
+      "bytes": 2563,
+      "sha256": "93bbc76728c775704a571dfdcb140600507f11abdc74e8ac23a3e855b93f666f"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Bridge/DirectPruningHintSyntax.lean",
+      "project_path": "Compact/Bridge/DirectPruningHintSyntax.lean",
+      "bytes": 2105,
+      "sha256": "05eee329caf857793f1300066d9577a2696fcd1314318ddbc315b05d3bbdc0d1"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Bridge/DirectPruningLinearCheck.lean",
+      "project_path": "Compact/Bridge/DirectPruningLinearCheck.lean",
+      "bytes": 1421,
+      "sha256": "c32e07f1cb81ef6e8375dc3235f91805e2a5b006f12e6821eca8575c056f15cc"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Bridge/DirectPruningStage.lean",
+      "project_path": "Compact/Bridge/DirectPruningStage.lean",
+      "bytes": 3276,
+      "sha256": "32568daf41f42ddab49cf5756922ae4b212a5c867d2f6df7ad58748f2d02e007"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Bridge/DirectPruningSyntax.lean",
+      "project_path": "Compact/Bridge/DirectPruningSyntax.lean",
+      "bytes": 2704,
+      "sha256": "4de02a42b2034417d0b547b03cda16cb7c4a6bf5cc6c0710bbeae215329311a5"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Bridge/PrefixCoverageChunks.lean",
+      "project_path": "Compact/Bridge/PrefixCoverageChunks.lean",
+      "bytes": 1865,
+      "sha256": "576a6992a36c69e4c98d522c87798f634b52bfd35728d51d38618ec10c6779d9"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Bridge/PrefixCoverageIndexed.lean",
+      "project_path": "Compact/Bridge/PrefixCoverageIndexed.lean",
+      "bytes": 7089,
+      "sha256": "fdbf11ff591723bc3f6a3a0cf75533c4b16fb7347041a09e9f889401933f5f03"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Bridge/PrefixCoverageMaskChunks.lean",
+      "project_path": "Compact/Bridge/PrefixCoverageMaskChunks.lean",
+      "bytes": 2012,
+      "sha256": "7080b524a888362c22f9a6f53ad9ebc90d2014a2ba7206bc3d5572aa10bd335b"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Bridge/PrefixCoverageMasks.lean",
+      "project_path": "Compact/Bridge/PrefixCoverageMasks.lean",
+      "bytes": 9611,
+      "sha256": "bff5f8ae1a3e809cdfde9200ddb87234b87f378206134c40dd7b993bab0cc0fe"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Bridge/RegionOwner.lean",
+      "project_path": "Compact/Bridge/RegionOwner.lean",
+      "bytes": 5132,
+      "sha256": "49b9e22ac37478a6a6069f8d962fce1380e143f06425ef3a8ee602676e257846"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Bridge/RegionTraversalOwner.lean",
+      "project_path": "Compact/Bridge/RegionTraversalOwner.lean",
+      "bytes": 5786,
+      "sha256": "dd748f005c02b2f736161f04c1a936a3e42d0e120841167334c55b43a33155e6"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C713/DirectPruning/Pilot.lean",
+      "project_path": "Compact/Cases/C713/DirectPruning/Pilot.lean",
+      "bytes": 1225,
+      "sha256": "4e56b48f6b2688e2c6bdecc4e4b91fad0cdf21e1940bcfd01f77d727513047e8"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C713/DirectPruningHintPilot/Step00Batch00.lean",
+      "project_path": "Compact/Cases/C713/DirectPruningHintPilot/Step00Batch00.lean",
+      "bytes": 4483,
+      "sha256": "724ed0d098d5f0abc8d41c3d107c884bc4e10fa630c31fbd75407bfcee9b382c"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C713/DirectPruningHintPilot/Step01Batch00.lean",
+      "project_path": "Compact/Cases/C713/DirectPruningHintPilot/Step01Batch00.lean",
+      "bytes": 8883,
+      "sha256": "797ef16dd0c0b164b28ca8868cabb430d116d1f6b00612814ee42987b69f40ac"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C713/RecipeInitial/CommandPilot.lean",
+      "project_path": "Compact/Cases/C713/RecipeInitial/CommandPilot.lean",
+      "bytes": 1896,
+      "sha256": "9ade948334e423dd13c6864de09251b0e5bc844b999c3aad051cac86b57c7695"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C713/RecipeInitial/Pilot.lean",
+      "project_path": "Compact/Cases/C713/RecipeInitial/Pilot.lean",
+      "bytes": 673,
+      "sha256": "b81f8452b722a2582f420816eb7171269998c417e2d853fa9e558b15df59f106"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C868/UpperNegativeTilt.lean",
+      "project_path": "Compact/Cases/C868/UpperNegativeTilt.lean",
+      "bytes": 995,
+      "sha256": "b5cb438b0744696bccfe2efe03350835c5191eca8d703cc01c4b685526a8196b"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/BoundaryHints/Owner00.lean",
+      "project_path": "Compact/Cases/C898/BoundaryHints/Owner00.lean",
+      "bytes": 40191,
+      "sha256": "da39b475c8daafa9640af92fb76fe47c5693ef2f0b8591ca673378007ffaa276"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/BoundaryHints/Owner01.lean",
+      "project_path": "Compact/Cases/C898/BoundaryHints/Owner01.lean",
+      "bytes": 40210,
+      "sha256": "d8b545d24e49ec46a81dd5c0a874a257db3f632b131c6586f695b2c211841308"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/BoundaryHints/Owner02.lean",
+      "project_path": "Compact/Cases/C898/BoundaryHints/Owner02.lean",
+      "bytes": 29402,
+      "sha256": "989df4b9d84e5b6229eb993c41ecc5b87665662e6a8126f24b6db5042ad45a8e"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/BoundaryHints/Owner03.lean",
+      "project_path": "Compact/Cases/C898/BoundaryHints/Owner03.lean",
+      "bytes": 33585,
+      "sha256": "6a2fbfb7a1c0ef3a377c5901f321fd6a26af813da4c2dcda8685fb403817ce77"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/BoundaryHints/Owner05.lean",
+      "project_path": "Compact/Cases/C898/BoundaryHints/Owner05.lean",
+      "bytes": 77624,
+      "sha256": "84cd8078f8dac245e565a847b6998f3bb8274d3b2abb0a0fe6e927a5100513be"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/BoundaryHints/Owner06.lean",
+      "project_path": "Compact/Cases/C898/BoundaryHints/Owner06.lean",
+      "bytes": 72589,
+      "sha256": "abce544c0d073994d327542b012c1561b572e778c7a4564f5cbb929b08b4f7a7"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/BoundaryHints/Owner07.lean",
+      "project_path": "Compact/Cases/C898/BoundaryHints/Owner07.lean",
+      "bytes": 75607,
+      "sha256": "4dc2d07d32d2ee13393d87d40fcdbd1f885907ce5dfba5c7f9fce156268146e7"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/BoundaryHints/Owner08.lean",
+      "project_path": "Compact/Cases/C898/BoundaryHints/Owner08.lean",
+      "bytes": 54073,
+      "sha256": "46c5ecdec340a75499f88f27beb5354d1d801912d1be16d2fbd54f17da7e00c8"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/BoundaryHints/Owner09.lean",
+      "project_path": "Compact/Cases/C898/BoundaryHints/Owner09.lean",
+      "bytes": 73366,
+      "sha256": "02c6d60674d1207437495ff6f0ebeb0a8115e851686a49a5f9a93692ff0850ff"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/BoundaryHints/Owner10.lean",
+      "project_path": "Compact/Cases/C898/BoundaryHints/Owner10.lean",
+      "bytes": 42400,
+      "sha256": "1eda6434e74cb61b35bae6ddbf3206484f407041b667375f22af692ee3686601"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/BoundaryHints/Owner11.lean",
+      "project_path": "Compact/Cases/C898/BoundaryHints/Owner11.lean",
+      "bytes": 54276,
+      "sha256": "82d618ed123532405a31dbee3e1443881cd40fe6faa3ff35558173b893f79b6b"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/CachedPairs/Step00Pairs.lean",
+      "project_path": "Compact/Cases/C898/CachedPairs/Step00Pairs.lean",
+      "bytes": 67350,
+      "sha256": "5559a9412f939be62693c8769d6281bc399527954b21b3bd859c98a46001aec1"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/CachedPairs/Step01Pairs.lean",
+      "project_path": "Compact/Cases/C898/CachedPairs/Step01Pairs.lean",
+      "bytes": 86166,
+      "sha256": "a3b9973d23084fa6e6000e0beef8fef0710ddf17aeeeec648e5ca7e20a74ac8f"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/CachedPairs/Step02Pairs.lean",
+      "project_path": "Compact/Cases/C898/CachedPairs/Step02Pairs.lean",
+      "bytes": 63318,
+      "sha256": "dca76f8d1c36887a1ac2a44a7ff126c4eac708f79beb2b9ba23aa18cf6f7716e"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/CachedPairs/Step03Pairs.lean",
+      "project_path": "Compact/Cases/C898/CachedPairs/Step03Pairs.lean",
+      "bytes": 9641,
+      "sha256": "502b975bfcd5c8dfc8680e4a401f090f7b782f75fc4b288e27f12fecf0204b06"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/CachedPairs/Step04BoolPairs.lean",
+      "project_path": "Compact/Cases/C898/CachedPairs/Step04BoolPairs.lean",
+      "bytes": 1381,
+      "sha256": "91b521b4986a79a0cb2c7d1b563be886d12d042cd99535ca1510a11ae33ad5f0"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/CachedPairs/Step04Pairs.lean",
+      "project_path": "Compact/Cases/C898/CachedPairs/Step04Pairs.lean",
+      "bytes": 9641,
+      "sha256": "1b431223efef7909b08b34cfc4e6f6ad65a65f2a62c8cc41015ecd06853ee965"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/CachedPairs/Step04RawPairs.lean",
+      "project_path": "Compact/Cases/C898/CachedPairs/Step04RawPairs.lean",
+      "bytes": 400,
+      "sha256": "2fab6f03524c779b2284945bd156ca2d37e9f6c9dbe98109f1e0a14252a1904a"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/CachedPairs/Step04RawTransfer.lean",
+      "project_path": "Compact/Cases/C898/CachedPairs/Step04RawTransfer.lean",
+      "bytes": 937,
+      "sha256": "e86fe53449dcf434c7808abe1800bb738b39dadfc8ab1a07fa9fd27cdf2bbc1e"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/CachedPairs/Step05Pairs.lean",
+      "project_path": "Compact/Cases/C898/CachedPairs/Step05Pairs.lean",
+      "bytes": 26340,
+      "sha256": "43bc36f6e1e8565a7643697bcb472a7bbc72803e5299a05a1dd8972f1648748e"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/CachedPairs/Step06Pairs.lean",
+      "project_path": "Compact/Cases/C898/CachedPairs/Step06Pairs.lean",
+      "bytes": 79446,
+      "sha256": "6cd9946d65d811988911bfae996e1de93c7d7b653cc24892af725980135f11de"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/CachedPairs/Step07Pairs.lean",
+      "project_path": "Compact/Cases/C898/CachedPairs/Step07Pairs.lean",
+      "bytes": 66006,
+      "sha256": "cff621d55f29c26e319289a4dc37b7cba258127fa7ff22f0cf2865517369adc0"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/CachedPairs/Step08Pairs.lean",
+      "project_path": "Compact/Cases/C898/CachedPairs/Step08Pairs.lean",
+      "bytes": 86166,
+      "sha256": "328b3606fd5528cb51cae52d6b56ad12750983f6885b377169f6c2113aefc770"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/CachedPairs/Step11Pairs.lean",
+      "project_path": "Compact/Cases/C898/CachedPairs/Step11Pairs.lean",
+      "bytes": 30336,
+      "sha256": "d35cf6be284eb146b4acf681ae277acc76267153afbf531de01b47877278aefa"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/CachedPairs/Step12Pairs.lean",
+      "project_path": "Compact/Cases/C898/CachedPairs/Step12Pairs.lean",
+      "bytes": 25812,
+      "sha256": "5cf4871761abec57faa94c184530c48eeaf64f2b7f52c0ff29fd34fe3a8a6517"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/CachedPairs/Step13Pairs.lean",
+      "project_path": "Compact/Cases/C898/CachedPairs/Step13Pairs.lean",
+      "bytes": 31708,
+      "sha256": "662c183b2f08b8479abbb20d124632fe635682806a23c4f34f3e98c675b50725"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/CachedPoseRecipe.lean",
+      "project_path": "Compact/Cases/C898/CachedPoseRecipe.lean",
+      "bytes": 1848,
+      "sha256": "fe22eecbe37549ea0d43c9c81c974bd6520bfe4c1975e22110e05a25a113d1e3"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/ChordFusedEmptyPilot.lean",
+      "project_path": "Compact/Cases/C898/ChordFusedEmptyPilot.lean",
+      "bytes": 1407,
+      "sha256": "f9a280492b0b9fcf096bcd5e328566b906c621d400e08531073641df9e2705b8"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/ChordStep10.lean",
+      "project_path": "Compact/Cases/C898/ChordStep10.lean",
+      "bytes": 11678,
+      "sha256": "fbbd169dcc7e7ac45c36348f7ed596b0a4823b830417fe7d2024a6a70644df5a"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/ChordStep10Retained.lean",
+      "project_path": "Compact/Cases/C898/ChordStep10Retained.lean",
+      "bytes": 11645,
+      "sha256": "2b1d1b58b1048e951eddd9f79be68780fc63b524bda71f27c03a96f8c4e3b7e8"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/ChordStep9.lean",
+      "project_path": "Compact/Cases/C898/ChordStep9.lean",
+      "bytes": 13766,
+      "sha256": "a1f55f80c678778552f2dddd70f82d3a9238e5383289d43ce7ad88ffec109401"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/ChordStep9Retained.lean",
+      "project_path": "Compact/Cases/C898/ChordStep9Retained.lean",
+      "bytes": 13730,
+      "sha256": "ec99fd409a40804a56289f6c216c5c057fc3a5e022cf16da6449efba1977aafc"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Complete.lean",
+      "project_path": "Compact/Cases/C898/Complete.lean",
+      "bytes": 2774,
+      "sha256": "f2cf3900dc6e98edd517a7e6b3808b5ab00f2d525ae64183eee88c119d502258"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/CompleteFusedProposal.lean",
+      "project_path": "Compact/Cases/C898/CompleteFusedProposal.lean",
+      "bytes": 3635,
+      "sha256": "ae02a68512d76e85c1f31335f0d2b198d7a6e6de634dc98e2f0c10c544cdf968"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/DirectInitial/All.lean",
+      "project_path": "Compact/Cases/C898/DirectInitial/All.lean",
+      "bytes": 528,
+      "sha256": "a9bee6a1b1425bdc528640c329e55b3306c0f7e0954f8d1c275340bd795a8bae"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/DirectInitial/CachedFilteredPilot.lean",
+      "project_path": "Compact/Cases/C898/DirectInitial/CachedFilteredPilot.lean",
+      "bytes": 1138,
+      "sha256": "cfb5ed9b63c3696dcb5ec78b2ef4bd64da7c7e89b69c4b7bfbe54f6b8afff8a7"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/DirectInitial/CachedPilot.lean",
+      "project_path": "Compact/Cases/C898/DirectInitial/CachedPilot.lean",
+      "bytes": 1353,
+      "sha256": "1d98e71cfacc57eb00919d71196201a98852791ab989cdbdca311c07557e432e"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/DirectInitial/CachedUnorderedPilot.lean",
+      "project_path": "Compact/Cases/C898/DirectInitial/CachedUnorderedPilot.lean",
+      "bytes": 1026,
+      "sha256": "0a7f3d2329b60c213af983eac2708321d0cd3deebcde1e673d2818e939dfc6f3"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/DirectInitial/Data00.lean",
+      "project_path": "Compact/Cases/C898/DirectInitial/Data00.lean",
+      "bytes": 86917,
+      "sha256": "6cd4f2c13bfb56794d440ad3277915d1c9c39e4c427328ee86eba91da28a4628"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/DirectInitial/Data01.lean",
+      "project_path": "Compact/Cases/C898/DirectInitial/Data01.lean",
+      "bytes": 88511,
+      "sha256": "b366bd18fda388f0ae547b9bc39af89a98d6f9a62014e617bf20283e31088014"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/DirectInitial/Data02.lean",
+      "project_path": "Compact/Cases/C898/DirectInitial/Data02.lean",
+      "bytes": 84526,
+      "sha256": "5151b87e6593a416d7142db2314fc569a13f3ab0e98a0a0e8824f1ee39dd8441"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/DirectInitial/Data03.lean",
+      "project_path": "Compact/Cases/C898/DirectInitial/Data03.lean",
+      "bytes": 89190,
+      "sha256": "48dec1655dc7cbe184fc6e72cd12d177e6e45ffa07f687e6547d387ce1d8eae6"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/DirectInitial/Data05.lean",
+      "project_path": "Compact/Cases/C898/DirectInitial/Data05.lean",
+      "bytes": 88700,
+      "sha256": "3f1c2fc82b98dd28414e536e043cd90d17fea838a895af71459fa888cbce6245"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/DirectInitial/Data06.lean",
+      "project_path": "Compact/Cases/C898/DirectInitial/Data06.lean",
+      "bytes": 56303,
+      "sha256": "7bba96295b2385aac0aeef01847c4cc26bee65bb1acac3417dac2168a0eb40e1"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/DirectInitial/Data07.lean",
+      "project_path": "Compact/Cases/C898/DirectInitial/Data07.lean",
+      "bytes": 98810,
+      "sha256": "603a52cf9e15e68384dba632432f9110bd224fd654d070835ab0057aa52bb12a"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/DirectInitial/Data08.lean",
+      "project_path": "Compact/Cases/C898/DirectInitial/Data08.lean",
+      "bytes": 87568,
+      "sha256": "398e4d6948abb83a458adf9b25877e18da6784f5d4e625cc40febe66f36772d3"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/DirectInitial/Data09.lean",
+      "project_path": "Compact/Cases/C898/DirectInitial/Data09.lean",
+      "bytes": 88753,
+      "sha256": "76de6b25afc8d80f899e1c0dc956aa3894eca5570297d8098710552b115054c0"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/DirectInitial/Data10.lean",
+      "project_path": "Compact/Cases/C898/DirectInitial/Data10.lean",
+      "bytes": 90625,
+      "sha256": "c65f74cfb860da3454ef032ae6b2d4ff9e95bec17fe40d9c452055c2e4fcf62d"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/DirectInitial/Data11.lean",
+      "project_path": "Compact/Cases/C898/DirectInitial/Data11.lean",
+      "bytes": 89820,
+      "sha256": "d6f6f34df05ef7309adae1d744927b4924dc83acffcb870d15434b4f5a1f8265"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/DirectInitial/Entry.lean",
+      "project_path": "Compact/Cases/C898/DirectInitial/Entry.lean",
+      "bytes": 8137,
+      "sha256": "9c7688febd82d22654c27ecc47a14717038f7794cf8f63f4b45028c02164c225"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/DirectInitial/Owner00.lean",
+      "project_path": "Compact/Cases/C898/DirectInitial/Owner00.lean",
+      "bytes": 12281,
+      "sha256": "a14241b494705410ecabcbccae45ef67ec9fe55aec77f182261e0048a571e119"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/DirectInitial/Owner01.lean",
+      "project_path": "Compact/Cases/C898/DirectInitial/Owner01.lean",
+      "bytes": 12281,
+      "sha256": "e9860559b1eb7525916dffd94ba4fd5d0d524006b9798964cdb86d2b7a9dcb0c"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/DirectInitial/Owner02.lean",
+      "project_path": "Compact/Cases/C898/DirectInitial/Owner02.lean",
+      "bytes": 12281,
+      "sha256": "b1bb0ef718404d020fa80f09281210dd52067c1f8eead942bb8326ccebb72c47"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/DirectInitial/Owner03.lean",
+      "project_path": "Compact/Cases/C898/DirectInitial/Owner03.lean",
+      "bytes": 12281,
+      "sha256": "f0e117c09f1809a0c6ed14623257ca534e7e8075dad800f91f81bf33f1e56f09"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/DirectInitial/Owner05.lean",
+      "project_path": "Compact/Cases/C898/DirectInitial/Owner05.lean",
+      "bytes": 12050,
+      "sha256": "976751ff6424f4cc9a9bf92882caee59cbdebf14261f618ce92c927c91ab0087"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/DirectInitial/Owner06.lean",
+      "project_path": "Compact/Cases/C898/DirectInitial/Owner06.lean",
+      "bytes": 11273,
+      "sha256": "fa68d76a4378475eac907990d95581fd15bf6d31631ee2d420564b407a111f93"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/DirectInitial/Owner07.lean",
+      "project_path": "Compact/Cases/C898/DirectInitial/Owner07.lean",
+      "bytes": 12281,
+      "sha256": "4b54af44607275471ee794d1ffdbddc3160b76900d42586c9fb00a0387d37d7e"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/DirectInitial/Owner08.lean",
+      "project_path": "Compact/Cases/C898/DirectInitial/Owner08.lean",
+      "bytes": 12176,
+      "sha256": "defe2caca568033b8a0553f4484b5b98cd1e2038fc4499fc6c258eb9381fae83"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/DirectInitial/Owner09.lean",
+      "project_path": "Compact/Cases/C898/DirectInitial/Owner09.lean",
+      "bytes": 12176,
+      "sha256": "7d9d1838a576c185b8b1c6c62422568fc40a4215169c452bb29df78f75d0bc13"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/DirectInitial/Owner10.lean",
+      "project_path": "Compact/Cases/C898/DirectInitial/Owner10.lean",
+      "bytes": 12485,
+      "sha256": "9d2f498696fc9d140f3dc76b97d51999f1375e5cfdddc73d8c511eb8608045e4"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/DirectInitial/Owner11.lean",
+      "project_path": "Compact/Cases/C898/DirectInitial/Owner11.lean",
+      "bytes": 12380,
+      "sha256": "04c08fdd748fd32ca1576bdf3aae2a91773401b4b66b056537db41e2455bcd03"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/DirectInitial/Pilot.lean",
+      "project_path": "Compact/Cases/C898/DirectInitial/Pilot.lean",
+      "bytes": 1928,
+      "sha256": "653dba51f1fb0a97773cc8c84400f96c762c944254a9c0c8dcfe6e8d31e28603"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Entry.lean",
+      "project_path": "Compact/Cases/C898/Entry.lean",
+      "bytes": 6821,
+      "sha256": "cafae24c5a74040ceeb12ba1320b4fcd8c26dedaa9d8795b01222c52f2da3fd4"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/FusedContextPilot.lean",
+      "project_path": "Compact/Cases/C898/FusedContextPilot.lean",
+      "bytes": 1797,
+      "sha256": "a70bc3ae80bcfeac879fa7d0c21d374efc13d3684619868e6ebf784ffeb66ff4"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Incoming.lean",
+      "project_path": "Compact/Cases/C898/Incoming.lean",
+      "bytes": 13385,
+      "sha256": "5c9ad646507710c0db3a5f21e055bd82ceee303b89906979c6c01ed8656ff306"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/All.lean",
+      "project_path": "Compact/Cases/C898/Initial/All.lean",
+      "bytes": 462,
+      "sha256": "5ceaef49bc9f34604097150b6d2a7af7009c32df0ca298b6c9bf7ead4f954a19"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/Inputs.lean",
+      "project_path": "Compact/Cases/C898/Initial/Inputs.lean",
+      "bytes": 2848,
+      "sha256": "6ccb370fd288b1aae7d3214b7478315856a38bc0ef925576190b0e6e67c88c6b"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/Owner00.lean",
+      "project_path": "Compact/Cases/C898/Initial/Owner00.lean",
+      "bytes": 2720,
+      "sha256": "c9dc0ee91748e43983680ad1b37c568dfb11629f96f8cdd55fadc0f17a9dfb05"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/Owner00Part0.lean",
+      "project_path": "Compact/Cases/C898/Initial/Owner00Part0.lean",
+      "bytes": 41774,
+      "sha256": "54d942189f199b04d5aa45f6ad409637237794256280bf5bf135c1f60e687788"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/Owner00Part1.lean",
+      "project_path": "Compact/Cases/C898/Initial/Owner00Part1.lean",
+      "bytes": 41790,
+      "sha256": "cdac57e5b9794543d2681bf07087fd71967ae8da150332a9352cb7a735f73bc7"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/Owner00Part2.lean",
+      "project_path": "Compact/Cases/C898/Initial/Owner00Part2.lean",
+      "bytes": 43437,
+      "sha256": "5198ed05374a2b9d8d3f4a5ea92349e9e5747b5e6c4ae59bbe6717cd634732fd"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/Owner00Part3.lean",
+      "project_path": "Compact/Cases/C898/Initial/Owner00Part3.lean",
+      "bytes": 49131,
+      "sha256": "0e2f26e90129284dbd808de2f140552877b289ae3316327312ab7791da956e64"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/Owner01.lean",
+      "project_path": "Compact/Cases/C898/Initial/Owner01.lean",
+      "bytes": 2720,
+      "sha256": "5f1a8b686a1d3087c965f90c2581dd5bda567e4787b4a767a026a4bc64feba2c"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/Owner01Part0.lean",
+      "project_path": "Compact/Cases/C898/Initial/Owner01Part0.lean",
+      "bytes": 47450,
+      "sha256": "e6aaa35a63e0db6e3142ec7ecf6a735e762f9ab311fdbebf9b31ecfe0145b776"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/Owner01Part1.lean",
+      "project_path": "Compact/Cases/C898/Initial/Owner01Part1.lean",
+      "bytes": 40324,
+      "sha256": "cf10f199087c872076df3b6f89cc448c66a8e05cd1ec5cf26d2ecfe7a088b0c4"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/Owner01Part2.lean",
+      "project_path": "Compact/Cases/C898/Initial/Owner01Part2.lean",
+      "bytes": 46218,
+      "sha256": "e36104d09c99e4c72606167b678ccf301c82d6f02f982b72031e585cbdf4ea24"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/Owner01Part3.lean",
+      "project_path": "Compact/Cases/C898/Initial/Owner01Part3.lean",
+      "bytes": 42584,
+      "sha256": "b15561b71d10f2bf070c33f649a7d98a8dec883ab7b1337b46e681b3508fde03"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/Owner02.lean",
+      "project_path": "Compact/Cases/C898/Initial/Owner02.lean",
+      "bytes": 2720,
+      "sha256": "cae661f8c2b55b192f1fee43e764559bf9eace95df8fc46495f09ae3579eb410"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/Owner02Part0.lean",
+      "project_path": "Compact/Cases/C898/Initial/Owner02Part0.lean",
+      "bytes": 36753,
+      "sha256": "803146386086a47565aac222af832acab04d6dfc25709659c9c3b397af99a56c"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/Owner02Part1.lean",
+      "project_path": "Compact/Cases/C898/Initial/Owner02Part1.lean",
+      "bytes": 37653,
+      "sha256": "8c7b5615db267d81325facc2983886a53ed4e97e1d7975d1b5343b9f72349016"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/Owner02Part2.lean",
+      "project_path": "Compact/Cases/C898/Initial/Owner02Part2.lean",
+      "bytes": 38500,
+      "sha256": "920c74250c51f051006453a208c2c2a39b8a2ebb1f5d2519f1e083552e03b21a"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/Owner02Part3.lean",
+      "project_path": "Compact/Cases/C898/Initial/Owner02Part3.lean",
+      "bytes": 36121,
+      "sha256": "1744b0d9d8b13acd9498a84222bac49540e737353e4b8b84ef6a3c2635e88ab6"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/Owner03.lean",
+      "project_path": "Compact/Cases/C898/Initial/Owner03.lean",
+      "bytes": 2720,
+      "sha256": "74488ea2f16cc899c0b12861b0223a83c2c529b362d8f70bf5a93d1cd5c70606"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/Owner03Part0.lean",
+      "project_path": "Compact/Cases/C898/Initial/Owner03Part0.lean",
+      "bytes": 40482,
+      "sha256": "590028c17ae80030bb7e483b1e5e0ef65b09b188578b71e03aea534a2656897e"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/Owner03Part1.lean",
+      "project_path": "Compact/Cases/C898/Initial/Owner03Part1.lean",
+      "bytes": 40552,
+      "sha256": "bf88c4a87ec046528e80218bbe1e0053029e4e6347e722440d7a984e85399a9b"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/Owner03Part2.lean",
+      "project_path": "Compact/Cases/C898/Initial/Owner03Part2.lean",
+      "bytes": 44489,
+      "sha256": "57e39b17fc8e630f10077e9f6421a57fb3ef065c7d1558819394a6132ce47afd"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/Owner03Part3.lean",
+      "project_path": "Compact/Cases/C898/Initial/Owner03Part3.lean",
+      "bytes": 50200,
+      "sha256": "243a6029e51a6d01e5e85eebf2f3050a4223f184aabc40a52c3bd000411f89db"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/Owner05.lean",
+      "project_path": "Compact/Cases/C898/Initial/Owner05.lean",
+      "bytes": 2720,
+      "sha256": "40ed5ab02aa6f184922fc39d252301a5e012ef9fb6066962bc17a409e839521b"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/Owner05Part0.lean",
+      "project_path": "Compact/Cases/C898/Initial/Owner05Part0.lean",
+      "bytes": 44468,
+      "sha256": "c8633f8fd42a3e6d69a738d71b11cec5bb34b7bf3ed634489ef96d0581a5a39c"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/Owner05Part1.lean",
+      "project_path": "Compact/Cases/C898/Initial/Owner05Part1.lean",
+      "bytes": 67175,
+      "sha256": "4b1a5be5f6e8dbfcc059665fc95ef1aa9403d6440c7e1b18214dd67ec510e5fb"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/Owner05Part2.lean",
+      "project_path": "Compact/Cases/C898/Initial/Owner05Part2.lean",
+      "bytes": 74170,
+      "sha256": "79885f98bb108f086992183034b7d375e8a364e0eabd3ccfdc955140f8eeef44"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/Owner05Part3.lean",
+      "project_path": "Compact/Cases/C898/Initial/Owner05Part3.lean",
+      "bytes": 67899,
+      "sha256": "fb6d574f1d1f1411911a5f23b66c2106b6d03e0adf843e32a3881b7bec921011"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/Owner06.lean",
+      "project_path": "Compact/Cases/C898/Initial/Owner06.lean",
+      "bytes": 2720,
+      "sha256": "8a2fb29a5573da1c71f3782d5842651b4530638e4d30a3a7dc26e9d9ef1af38b"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/Owner06Part0.lean",
+      "project_path": "Compact/Cases/C898/Initial/Owner06Part0.lean",
+      "bytes": 35597,
+      "sha256": "4b09141c64634eb115bf9021dcc306af97681fd6dcc9b6c94ec7b532eb93ad72"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/Owner06Part1.lean",
+      "project_path": "Compact/Cases/C898/Initial/Owner06Part1.lean",
+      "bytes": 56924,
+      "sha256": "9334990e3a6a98825690440df7980c479814cba2b0635e3397c6b38c5ae6a12b"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/Owner06Part2.lean",
+      "project_path": "Compact/Cases/C898/Initial/Owner06Part2.lean",
+      "bytes": 42875,
+      "sha256": "6fbf2948e6e138b65eb9bbedb1a293286960725a1a6c41357850ab040f2fcb4d"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/Owner06Part3.lean",
+      "project_path": "Compact/Cases/C898/Initial/Owner06Part3.lean",
+      "bytes": 74616,
+      "sha256": "4ee78fe7c90c569ffa9f92c1438d90ce9a0fee4c84b316b2bf2bc7098c7c4fa6"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/Owner07.lean",
+      "project_path": "Compact/Cases/C898/Initial/Owner07.lean",
+      "bytes": 2720,
+      "sha256": "340b7258d7b286658dbc3f729c67124a04b68907abdaa7083755e8ec570e5d1e"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/Owner07Part0.lean",
+      "project_path": "Compact/Cases/C898/Initial/Owner07Part0.lean",
+      "bytes": 63763,
+      "sha256": "a1efe0aa2a37431d2e107b0f6fd2121ef90aabb2e02339d1202a6d5c2835ee7a"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/Owner07Part1.lean",
+      "project_path": "Compact/Cases/C898/Initial/Owner07Part1.lean",
+      "bytes": 86355,
+      "sha256": "a1493a8930ff730649bdf8de6070cacaeb072558d01f9cbb7f36cbcf7f6397ec"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/Owner07Part2.lean",
+      "project_path": "Compact/Cases/C898/Initial/Owner07Part2.lean",
+      "bytes": 85889,
+      "sha256": "4a372573aab9b6fa5c499d507863b03e3ab000dd90c1181d74b66d49cf6f23b2"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/Owner07Part3.lean",
+      "project_path": "Compact/Cases/C898/Initial/Owner07Part3.lean",
+      "bytes": 70941,
+      "sha256": "97d6822418929bc1ae43ea6820b78bc730a260628d066278974967518246461a"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/Owner08.lean",
+      "project_path": "Compact/Cases/C898/Initial/Owner08.lean",
+      "bytes": 2720,
+      "sha256": "1aed7882dbbb59c62432d70ba3d214fcf0b43cd086014b2a6dcc4bb76600915c"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/Owner08Part0.lean",
+      "project_path": "Compact/Cases/C898/Initial/Owner08Part0.lean",
+      "bytes": 71771,
+      "sha256": "c05ef05d122d1606db5e28ffc00b28b6ca902d28d29c6466e68ca5dfc2a2f203"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/Owner08Part1.lean",
+      "project_path": "Compact/Cases/C898/Initial/Owner08Part1.lean",
+      "bytes": 77441,
+      "sha256": "298806dae07bd27c8d2b8063999be2c41e72c79ac4f60cf7611104452381f827"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/Owner08Part2.lean",
+      "project_path": "Compact/Cases/C898/Initial/Owner08Part2.lean",
+      "bytes": 57991,
+      "sha256": "dff8d040fb35bf85b1c43d73f33ad718c82b817ba1533299c16829f077cd37d6"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/Owner08Part3.lean",
+      "project_path": "Compact/Cases/C898/Initial/Owner08Part3.lean",
+      "bytes": 68098,
+      "sha256": "f57f7d76b08574777c86a51d25e8d258b47cc7303fd46a6ecddddf97610ec37d"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/Owner09.lean",
+      "project_path": "Compact/Cases/C898/Initial/Owner09.lean",
+      "bytes": 2720,
+      "sha256": "e4445549f3ec0b1034868351dcd970d5bb40a23a9f8a0d881eb61bb68679a288"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/Owner09Part0.lean",
+      "project_path": "Compact/Cases/C898/Initial/Owner09Part0.lean",
+      "bytes": 66299,
+      "sha256": "2ee291b483018aa5f13e25bd41996fc8a4ed9f4a98453c1d30120f4731264703"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/Owner09Part1.lean",
+      "project_path": "Compact/Cases/C898/Initial/Owner09Part1.lean",
+      "bytes": 87410,
+      "sha256": "a3e80ab99930434bbb1d6392dacf0b23fe0edf45c418d9638088a48188ec6d64"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/Owner09Part2.lean",
+      "project_path": "Compact/Cases/C898/Initial/Owner09Part2.lean",
+      "bytes": 84518,
+      "sha256": "4c723e1c027b132f6535dd7f7c3ac74f2635343a7b3a73b4fd3898d566e61770"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/Owner09Part3.lean",
+      "project_path": "Compact/Cases/C898/Initial/Owner09Part3.lean",
+      "bytes": 71236,
+      "sha256": "0e3356da2aa406207b93a33074711cbadde74f3ebb86a664dd6056032ebfbb40"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/Owner10.lean",
+      "project_path": "Compact/Cases/C898/Initial/Owner10.lean",
+      "bytes": 2860,
+      "sha256": "15d4fa7a4a62618ae8ee7dbba063921730470cd230bc5a1779d5300ce28f9688"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/Owner10Part0.lean",
+      "project_path": "Compact/Cases/C898/Initial/Owner10Part0.lean",
+      "bytes": 54242,
+      "sha256": "408adfeadf0f231b667a92cb91bc14cf41930fe9861bdb4e640c680483b9b474"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/Owner10Part1.lean",
+      "project_path": "Compact/Cases/C898/Initial/Owner10Part1.lean",
+      "bytes": 63900,
+      "sha256": "dd4b297c574ccdbf82c5841c57041f4d3b89fa768399312def51b109e5b2b573"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/Owner10Part2.lean",
+      "project_path": "Compact/Cases/C898/Initial/Owner10Part2.lean",
+      "bytes": 43906,
+      "sha256": "fe79327eda2185a352890f43cbf0fc63b468035c7e86684a84c0ead85118b4f0"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/Owner10Part3.lean",
+      "project_path": "Compact/Cases/C898/Initial/Owner10Part3.lean",
+      "bytes": 42665,
+      "sha256": "b426aa26dc3a053459ec9378d0327df2df20bc28819852dd087234aa3a3e03e4"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/Owner11.lean",
+      "project_path": "Compact/Cases/C898/Initial/Owner11.lean",
+      "bytes": 2860,
+      "sha256": "f5364d375ed1b2d6f02d613589174b2d1c1d14c4f3c3564c1aad8591400036cc"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/Owner11Part0.lean",
+      "project_path": "Compact/Cases/C898/Initial/Owner11Part0.lean",
+      "bytes": 65232,
+      "sha256": "e105c21a1f58bbfc1c51e51739f92f181fcdddee4293ed3aef0d8b82ab3aa868"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/Owner11Part1.lean",
+      "project_path": "Compact/Cases/C898/Initial/Owner11Part1.lean",
+      "bytes": 82037,
+      "sha256": "cc619b8948b59f96bd78bdd07a88463f8851c401143c66e8d5e5492429974c4c"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/Owner11Part2.lean",
+      "project_path": "Compact/Cases/C898/Initial/Owner11Part2.lean",
+      "bytes": 81846,
+      "sha256": "c41266f06f14ec9233c5a9f827fea6e30e0581f58593337319e713002117ea16"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/Owner11Part3.lean",
+      "project_path": "Compact/Cases/C898/Initial/Owner11Part3.lean",
+      "bytes": 68200,
+      "sha256": "d51f94cd2d9471f3f67540045cab981b1570a94670533aefb64dd099df7fba4c"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/Rows.lean",
+      "project_path": "Compact/Cases/C898/Initial/Rows.lean",
+      "bytes": 929803,
+      "sha256": "d95974c3dcbb4d6e8595981f59d45bf4f3961c988d0c6abbae54e4b4f2f97b12"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/SharedAll.lean",
+      "project_path": "Compact/Cases/C898/Initial/SharedAll.lean",
+      "bytes": 528,
+      "sha256": "3da00201aaa4eeafd1f504c968b150c49478aea8b9ad676618d576a43ea7f2bf"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/SharedOwner00.lean",
+      "project_path": "Compact/Cases/C898/Initial/SharedOwner00.lean",
+      "bytes": 1221,
+      "sha256": "a45907f999408bea100677b92081eb654c2a5c35ed6ff715a33f811ba6e5b527"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/SharedOwner01.lean",
+      "project_path": "Compact/Cases/C898/Initial/SharedOwner01.lean",
+      "bytes": 1330,
+      "sha256": "42ac7a6f665323abe403673ccaf42aa39576e5f2012be08d8ffb911e6f400aef"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/SharedOwner02.lean",
+      "project_path": "Compact/Cases/C898/Initial/SharedOwner02.lean",
+      "bytes": 1678,
+      "sha256": "83bce89b4d3d891819f1c073b1cd0a056d7d192cde0eedb41892e9adc8f6f3aa"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/SharedOwner03.lean",
+      "project_path": "Compact/Cases/C898/Initial/SharedOwner03.lean",
+      "bytes": 1338,
+      "sha256": "bd62e1dd3bfafb4509cec4d938d56151cdaf2403e96f2f084a9f727f5be7bef0"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/SharedOwner05.lean",
+      "project_path": "Compact/Cases/C898/Initial/SharedOwner05.lean",
+      "bytes": 1363,
+      "sha256": "15a9573fdf5bf48fbc865ad29d2a263510e61c98ec46b99cd58647af85dec70a"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/SharedOwner06.lean",
+      "project_path": "Compact/Cases/C898/Initial/SharedOwner06.lean",
+      "bytes": 958,
+      "sha256": "e5a31ce859df080b3cced8aec9cde007ce6e847d2a4f39f16b51e4f0a8ca6128"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/SharedOwner07.lean",
+      "project_path": "Compact/Cases/C898/Initial/SharedOwner07.lean",
+      "bytes": 1498,
+      "sha256": "209c85a7d84a0876e68c2e47468b5d52cea2c5af453bf41b016c71c8608d2704"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/SharedOwner08.lean",
+      "project_path": "Compact/Cases/C898/Initial/SharedOwner08.lean",
+      "bytes": 1308,
+      "sha256": "37088d6edaebc734bcba370d91da2ebebab56d0f738a410d859dedd67825ff1e"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/SharedOwner09.lean",
+      "project_path": "Compact/Cases/C898/Initial/SharedOwner09.lean",
+      "bytes": 1368,
+      "sha256": "d3a6db8b4a650bbae5fb57c3f9649e4b99b030175a7c0c4b21d7a4e866bdb734"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/SharedOwner10.lean",
+      "project_path": "Compact/Cases/C898/Initial/SharedOwner10.lean",
+      "bytes": 1589,
+      "sha256": "04d8f82b9d3dfddb4fee4a69932aa82eab141586b1d58ffc27e29b1f0a6dbb2b"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Initial/SharedOwner11.lean",
+      "project_path": "Compact/Cases/C898/Initial/SharedOwner11.lean",
+      "bytes": 1480,
+      "sha256": "573a36e31ad705bcb5053dda6694a6686efc9c4f6be344824d361d6e31d9ca0c"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Mixed.lean",
+      "project_path": "Compact/Cases/C898/Mixed.lean",
+      "bytes": 3774,
+      "sha256": "448366dfb49496d446ab2ecb7ac3b97562e7ad2f3a40a13a98d23e9807aa5cfc"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/MixedFusedProposal.lean",
+      "project_path": "Compact/Cases/C898/MixedFusedProposal.lean",
+      "bytes": 3590,
+      "sha256": "7c2d091c0caf260755dce1b6c1cca9fcad9b4c271d2e5fa321b3b87fcab4911b"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/PairFanDiagnostic.lean",
+      "project_path": "Compact/Cases/C898/PairFanDiagnostic.lean",
+      "bytes": 719,
+      "sha256": "6efdc44a653672500afb47a316d667fd2fdd08fa361c9a13a799ea5d7fd1cf62"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/PairFanSyntax.lean",
+      "project_path": "Compact/Cases/C898/PairFanSyntax.lean",
+      "bytes": 3568,
+      "sha256": "13165f12deb21deb3b9aa4610c081922bfc4d1827f603805689bdaf8729a910e"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/PairPlans.lean",
+      "project_path": "Compact/Cases/C898/PairPlans.lean",
+      "bytes": 6242,
+      "sha256": "b69c0f6be484a5f7b00377d1d0776568d67b9d2b9bf488d1864de3859acdc682"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/PairStep00.lean",
+      "project_path": "Compact/Cases/C898/PairStep00.lean",
+      "bytes": 24490,
+      "sha256": "c132908faa3a35fe4449ab72636bf63f4ef18f50efff8bab8ba908d16790f34d"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/PairStep00Records.lean",
+      "project_path": "Compact/Cases/C898/PairStep00Records.lean",
+      "bytes": 881816,
+      "sha256": "91cf972652d775f991e0917a1987aa3902f10ee17d2e5dda338fbedff90bec93"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/PairStep01.lean",
+      "project_path": "Compact/Cases/C898/PairStep01.lean",
+      "bytes": 31193,
+      "sha256": "d49fd1e0b14746f603f86d3e798895523e8dd19f2f178ae918f3f3509b8a5bea"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/PairStep01Records.lean",
+      "project_path": "Compact/Cases/C898/PairStep01Records.lean",
+      "bytes": 1225956,
+      "sha256": "c519fb50f62b3a84471092fe8995bc611402b15b51e9cb974f7d39f283042528"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/PairStep02.lean",
+      "project_path": "Compact/Cases/C898/PairStep02.lean",
+      "bytes": 23615,
+      "sha256": "da64189ac0f8d742cf208e9fd154bd1ac3e873f8045703adb4ff196726b24f1b"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/PairStep02Records.lean",
+      "project_path": "Compact/Cases/C898/PairStep02Records.lean",
+      "bytes": 832256,
+      "sha256": "7530f9b36da6d2abbd78612cc34c5d32e9297e81099343db1c4c22de7bfe5856"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/PairStep03.lean",
+      "project_path": "Compact/Cases/C898/PairStep03.lean",
+      "bytes": 5428,
+      "sha256": "a312e4b73857d92bf5deef6201e4c28eb88d89726c1e36ba2daf6d66803a2c8e"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/PairStep03Records.lean",
+      "project_path": "Compact/Cases/C898/PairStep03Records.lean",
+      "bytes": 134756,
+      "sha256": "7f9db4acfb63a0dd661b2a304cce1502f9d0946ed3ca8d005eeb1368608e8f7a"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/PairStep04.lean",
+      "project_path": "Compact/Cases/C898/PairStep04.lean",
+      "bytes": 5275,
+      "sha256": "1c6705bced0aa8077403c1580ca2eb1994049be8e3fd10782e095e515b8bc546"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/PairStep04Records.lean",
+      "project_path": "Compact/Cases/C898/PairStep04Records.lean",
+      "bytes": 134756,
+      "sha256": "d5f650bfa05244bf42e2e96dfd63462db11ea6922fda4ed3663b43d81914216e"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/PairStep05.lean",
+      "project_path": "Compact/Cases/C898/PairStep05.lean",
+      "bytes": 10376,
+      "sha256": "9480e13d525b8b948ab88a1c6ecac9cd4cee0aa73f30b42cc2291a8ca6c2a7d8"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/PairStep05Records.lean",
+      "project_path": "Compact/Cases/C898/PairStep05Records.lean",
+      "bytes": 183956,
+      "sha256": "f92d0a739f0f328b8b91520e9a08658769cf60a763225f443fbb115ffed41458"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/PairStep06.lean",
+      "project_path": "Compact/Cases/C898/PairStep06.lean",
+      "bytes": 27780,
+      "sha256": "e683e64844d3cd2d2f994694dd8d7943648607761af4ee2a3e58732cc2bbe36c"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/PairStep06Records.lean",
+      "project_path": "Compact/Cases/C898/PairStep06Records.lean",
+      "bytes": 1044656,
+      "sha256": "c52a99ab407d708e05a5874aae492fc25d7a8af6291e37715ed2a9239e296b5c"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/PairStep07.lean",
+      "project_path": "Compact/Cases/C898/PairStep07.lean",
+      "bytes": 24844,
+      "sha256": "67babb2f15e0eee7591667518052d6a694ed4c2482be83f8293086dbbaf4bbd9"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/PairStep07Records.lean",
+      "project_path": "Compact/Cases/C898/PairStep07Records.lean",
+      "bytes": 941156,
+      "sha256": "6e34ed876609a348fbe163f875bdad0a2d2a13f8cdb2ed06054126a5f08ead5d"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/PairStep08.lean",
+      "project_path": "Compact/Cases/C898/PairStep08.lean",
+      "bytes": 31830,
+      "sha256": "9be951f833c0d3fca050bee9cc743b6c35759347222fe3071ef04b341309dcac"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/PairStep08Records.lean",
+      "project_path": "Compact/Cases/C898/PairStep08Records.lean",
+      "bytes": 1229156,
+      "sha256": "2187d60b516f3f23e5b81e1c0fa8bb4be950ffd8873fa27eec8168bf1bb8be32"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/PairStep11.lean",
+      "project_path": "Compact/Cases/C898/PairStep11.lean",
+      "bytes": 12905,
+      "sha256": "965820c607c724178fa9c661ea510affef1be8501fc252d1d9f609cf6a44e821"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/PairStep11Records.lean",
+      "project_path": "Compact/Cases/C898/PairStep11Records.lean",
+      "bytes": 402960,
+      "sha256": "47470a8d14d1d6c855755c0b4682d80853a521d6df83b735dc579219f43c44ae"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/PairStep12.lean",
+      "project_path": "Compact/Cases/C898/PairStep12.lean",
+      "bytes": 8431,
+      "sha256": "492e151078e36eb56b8dbe30b24c0f18ab74f25d8a2bd6a1ceb7780562576513"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/PairStep12Records.lean",
+      "project_path": "Compact/Cases/C898/PairStep12Records.lean",
+      "bytes": 176760,
+      "sha256": "2ac2c977aae68e8bc6cb0a4d5e2b240e17a53b247eabb11c99693e28d7339a1e"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/PairStep13.lean",
+      "project_path": "Compact/Cases/C898/PairStep13.lean",
+      "bytes": 11281,
+      "sha256": "c1aedae06764226bc25333607e05527609b42145bbf58dd71055d5299ae49b61"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/PairStep13Records.lean",
+      "project_path": "Compact/Cases/C898/PairStep13Records.lean",
+      "bytes": 435060,
+      "sha256": "9e96f2dec65bdf8773aca66dc32fa95dd2a1b0e0116b75e200e4711776ffb31a"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/PairStep14.lean",
+      "project_path": "Compact/Cases/C898/PairStep14.lean",
+      "bytes": 4623,
+      "sha256": "0643c34f5d710e8521498388727d4ce6346c8ea20a4f26474a8d63c8c231a410"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/PairStep14Cached.lean",
+      "project_path": "Compact/Cases/C898/PairStep14Cached.lean",
+      "bytes": 3916,
+      "sha256": "5e8d5e6f9f8f800845e770e66f3d90be586a64f4df4b8342ae984ca11790018e"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/PairStep14CachedFirst4.lean",
+      "project_path": "Compact/Cases/C898/PairStep14CachedFirst4.lean",
+      "bytes": 392,
+      "sha256": "df0b4eda1a97199ca9641259f04b8f0508d484d875c341b34f92c830458bfbb8"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/PairStep14CachedFirst8.lean",
+      "project_path": "Compact/Cases/C898/PairStep14CachedFirst8.lean",
+      "bytes": 450,
+      "sha256": "a34010b7d5ba27675ade4b7781a1b8b6996da27fcd0afc11a8f1cbbd9b001bd9"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/PairStep14CachedFirstContext.lean",
+      "project_path": "Compact/Cases/C898/PairStep14CachedFirstContext.lean",
+      "bytes": 403,
+      "sha256": "65581263153bef6f106f7233b6fe30fe64bbbf79091acdeb0ddd5693f0023a67"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/PairStep14CachedPilot.lean",
+      "project_path": "Compact/Cases/C898/PairStep14CachedPilot.lean",
+      "bytes": 11530,
+      "sha256": "ac3184d18fc5fd8aa0704674d6de7b778367a0450ea1e78e66768c6295210e16"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/PairStep14FanData.lean",
+      "project_path": "Compact/Cases/C898/PairStep14FanData.lean",
+      "bytes": 21297,
+      "sha256": "06f2b97082615d07dccb14ac9c04c224a46b6243b208c40b4a3c4134adb8c82f"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/PairStep14FanFirst4.lean",
+      "project_path": "Compact/Cases/C898/PairStep14FanFirst4.lean",
+      "bytes": 238,
+      "sha256": "7605adf8270b6f53f2020b7bcb01db0af5fabb8521267cda0c020acf25b5d355"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/PairStep14FanPilot.lean",
+      "project_path": "Compact/Cases/C898/PairStep14FanPilot.lean",
+      "bytes": 11724,
+      "sha256": "7cecfd6c0d596cffa44585c94280f5542b4794224335e5040cf95524c36e7a33"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/PairStep14Records.lean",
+      "project_path": "Compact/Cases/C898/PairStep14Records.lean",
+      "bytes": 127560,
+      "sha256": "9611cda9e7fa0ebb7dd816047db12a29c1ac38b5d89c0dd6183c8525f2d4545b"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/PairSyntax.lean",
+      "project_path": "Compact/Cases/C898/PairSyntax.lean",
+      "bytes": 3596,
+      "sha256": "8e3a2b7b13c026632967cb36cd0e8304e3b921bbce2d80abcfec8646127ef413"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/RecipeInitial/BatchCommandPilot.lean",
+      "project_path": "Compact/Cases/C898/RecipeInitial/BatchCommandPilot.lean",
+      "bytes": 888,
+      "sha256": "cb4d0f0eeabd5e22c948dff9e76028f9fac8be67923bb9d42868d261398d0ddd"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/RecipeInitial/CommandPilot.lean",
+      "project_path": "Compact/Cases/C898/RecipeInitial/CommandPilot.lean",
+      "bytes": 2063,
+      "sha256": "17b82744051e2762c9b5cd01ec07d296bd0db00e417d64f37178cd9d616bb7c8"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/RecipeInitial/FirstCacheDiagnostic.lean",
+      "project_path": "Compact/Cases/C898/RecipeInitial/FirstCacheDiagnostic.lean",
+      "bytes": 844,
+      "sha256": "2bf60b3cb1af92a552f4c8973a63c23595cf081a89e24270ca16925eb4a7e5c0"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/RecipeInitial/Pilot.lean",
+      "project_path": "Compact/Cases/C898/RecipeInitial/Pilot.lean",
+      "bytes": 1228,
+      "sha256": "645ba46eecdd6ef8ef2dcff00e254d9db8bf02f5f22e544ba45317bffffaf3bd"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/RecipeInitial/Pool00.lean",
+      "project_path": "Compact/Cases/C898/RecipeInitial/Pool00.lean",
+      "bytes": 3822,
+      "sha256": "2c151d0cedb088be2949cc380955623521b9da599cb5aacc26413d6ceb93b22f"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/RecipeInitial/Prefix02.lean",
+      "project_path": "Compact/Cases/C898/RecipeInitial/Prefix02.lean",
+      "bytes": 355,
+      "sha256": "7b05e176474d61e19995be274b499c73c921eb4a58bafdd1c83974fbc3bdb0e1"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/RecipeInitial/Prefix02Data.lean",
+      "project_path": "Compact/Cases/C898/RecipeInitial/Prefix02Data.lean",
+      "bytes": 564,
+      "sha256": "1979d6fecd4d0eb788d2bfd0d69c8fa08015e326520039192939c659891bf296"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/RecipeInitial/Prefix04.lean",
+      "project_path": "Compact/Cases/C898/RecipeInitial/Prefix04.lean",
+      "bytes": 355,
+      "sha256": "0ed83c9e21295fd11d71d8d70aba90c29ab382af7e086bd8039902edf79043a8"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/RecipeInitial/Prefix04Data.lean",
+      "project_path": "Compact/Cases/C898/RecipeInitial/Prefix04Data.lean",
+      "bytes": 674,
+      "sha256": "cd9c8be96719cd6b03e3bd4f04bc0f71eca0739075f5b254309f8ad565755bda"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/RecipeInitial/Prefix08.lean",
+      "project_path": "Compact/Cases/C898/RecipeInitial/Prefix08.lean",
+      "bytes": 355,
+      "sha256": "f3f966398b8bd7ff7f5e81f9219853ffd3771b475639b8f05083e9282b6e5697"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/RecipeInitial/Prefix08Data.lean",
+      "project_path": "Compact/Cases/C898/RecipeInitial/Prefix08Data.lean",
+      "bytes": 894,
+      "sha256": "529baf16696ed416953f8317b4b67c32cbce5b8e64e7c2a2e9c93b21e2084aa0"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/RecipeInitial/Single01Active.lean",
+      "project_path": "Compact/Cases/C898/RecipeInitial/Single01Active.lean",
+      "bytes": 516,
+      "sha256": "79269c8870ec2f261cb699f709ad75b394e54b1678739ec7b01ce222696d12f7"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/RecipeInitial/Single01Base.lean",
+      "project_path": "Compact/Cases/C898/RecipeInitial/Single01Base.lean",
+      "bytes": 399,
+      "sha256": "19f23a7d11d4585e8d543af441921eaa666de02307cb018d3bee856fa14ab175"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/RecipeInitial/Single01Data.lean",
+      "project_path": "Compact/Cases/C898/RecipeInitial/Single01Data.lean",
+      "bytes": 712,
+      "sha256": "568bee23f250e15018e6784ce4c0e3ad2c4adec146621152f5975083463644a0"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/RecipeInitial/Single01EntryCheck.lean",
+      "project_path": "Compact/Cases/C898/RecipeInitial/Single01EntryCheck.lean",
+      "bytes": 314,
+      "sha256": "049315eefb3974fbb1d7d4f821ac5b8a91bd54069065553eef72386789ff571d"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/RecipeInitial/Single01Equalities.lean",
+      "project_path": "Compact/Cases/C898/RecipeInitial/Single01Equalities.lean",
+      "bytes": 769,
+      "sha256": "6624028a197357f247254d61679a911313496624c902707298a71147a6a6bb86"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/RecipeInitial/Single01Forbidden.lean",
+      "project_path": "Compact/Cases/C898/RecipeInitial/Single01Forbidden.lean",
+      "bytes": 416,
+      "sha256": "9dc605b4c676f5b24bd990e314b5edcd7195f41fb8d0dd45936a18cb1d1a896c"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/RecipeInitial/Single01Hinted.lean",
+      "project_path": "Compact/Cases/C898/RecipeInitial/Single01Hinted.lean",
+      "bytes": 950,
+      "sha256": "ebc584b93dd48f79c23297accbcd6822749042744da0dd28f4ef7c621a256f63"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/RecipeInitial/Single01LiteralCheck.lean",
+      "project_path": "Compact/Cases/C898/RecipeInitial/Single01LiteralCheck.lean",
+      "bytes": 520,
+      "sha256": "4063cb3f3cd084aab2d05443706c0b128729366a938f2359ac8f38b37fa310cf"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/RecipeInitial/Single01Recipe.lean",
+      "project_path": "Compact/Cases/C898/RecipeInitial/Single01Recipe.lean",
+      "bytes": 601,
+      "sha256": "245df293e68be0af7b813a6b74bf6cc4857acea536d8a68b3bf888ce2df4ed5f"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/RecipeInitial/Single01Targets.lean",
+      "project_path": "Compact/Cases/C898/RecipeInitial/Single01Targets.lean",
+      "bytes": 421,
+      "sha256": "6d3c45000e876e7de7cd23946b3f9cec29965473a7dc18410079660b2774e351"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/RecipeInitial/TargetPoolDiagnostic.lean",
+      "project_path": "Compact/Cases/C898/RecipeInitial/TargetPoolDiagnostic.lean",
+      "bytes": 3847,
+      "sha256": "eb40550d0ac12d104e8ae86826abee89977f34d788f3287a9092967e1e5b4b7e"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Relaxation/All.lean",
+      "project_path": "Compact/Cases/C898/Relaxation/All.lean",
+      "bytes": 159827,
+      "sha256": "1d02ba091d138a7eb627d6b5c3dca22a9832ac40f0527812b415d664c803296e"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Relaxation/Links.lean",
+      "project_path": "Compact/Cases/C898/Relaxation/Links.lean",
+      "bytes": 2678,
+      "sha256": "ef7ddf82de1195a18adff4bd26542c12241dfc4443cb328638639dbcf8144998"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Relaxation/Links00.lean",
+      "project_path": "Compact/Cases/C898/Relaxation/Links00.lean",
+      "bytes": 7636,
+      "sha256": "aa9ed8215b14fc40641eb69451e9d1ec11a29e6752ceda9b4542444b68319bd1"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Relaxation/Links01.lean",
+      "project_path": "Compact/Cases/C898/Relaxation/Links01.lean",
+      "bytes": 8372,
+      "sha256": "26b6ce625a2c33abb56681e79526f6e9780e98a57d6de3c4834204edc781914e"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Relaxation/Links02.lean",
+      "project_path": "Compact/Cases/C898/Relaxation/Links02.lean",
+      "bytes": 8282,
+      "sha256": "591f795a5a00ea0fcf06ade398682ece23887d3434bb5fc9333781e523ec3e1e"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Relaxation/Links03.lean",
+      "project_path": "Compact/Cases/C898/Relaxation/Links03.lean",
+      "bytes": 9734,
+      "sha256": "2dc8c93248c91f1183f8244ce51092b467e33f5b00afd2fc84c1e66f0cc674d1"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Relaxation/Links04.lean",
+      "project_path": "Compact/Cases/C898/Relaxation/Links04.lean",
+      "bytes": 10136,
+      "sha256": "0a397267260ced0c039521fc8789b04b3fd21bc513106c14458dc4641b88628b"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Relaxation/Links05.lean",
+      "project_path": "Compact/Cases/C898/Relaxation/Links05.lean",
+      "bytes": 9860,
+      "sha256": "42fab8972ef57ee9972570e97efd3735fb31703a3f36b3cc624e7346e456e411"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Relaxation/Links06.lean",
+      "project_path": "Compact/Cases/C898/Relaxation/Links06.lean",
+      "bytes": 9434,
+      "sha256": "781c087c7884e186176bdbc2a20d0b1dee8c47a0c48dd1a4288f91f2854b34d4"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Relaxation/Links07.lean",
+      "project_path": "Compact/Cases/C898/Relaxation/Links07.lean",
+      "bytes": 8768,
+      "sha256": "b2ae785ef409afdebe3eb7c2b3b52601ef8745e93bd08a40307ebf1e20bc8649"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Relaxation/Links08.lean",
+      "project_path": "Compact/Cases/C898/Relaxation/Links08.lean",
+      "bytes": 9562,
+      "sha256": "64a3440d4c5e5043097b523273a10aa2a60f96cf7d944c503f1546f5db24dfb6"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Relaxation/Links09.lean",
+      "project_path": "Compact/Cases/C898/Relaxation/Links09.lean",
+      "bytes": 8416,
+      "sha256": "831ce20ba2b8ca7fb7e5155aa4f5e97848df8c357a73042c39c3f3585ba8d3fb"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Relaxation/Links10.lean",
+      "project_path": "Compact/Cases/C898/Relaxation/Links10.lean",
+      "bytes": 9029,
+      "sha256": "775c48f312a7dbd33f25566db79d10d976a4bf0b03565a0383d9fdbbde6642d1"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Relaxation/Links11.lean",
+      "project_path": "Compact/Cases/C898/Relaxation/Links11.lean",
+      "bytes": 11036,
+      "sha256": "72fc85ca9a4a566d90a6f4be027f77f06dda24776e13fef0ed4f87723772a643"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Relaxation/Links12.lean",
+      "project_path": "Compact/Cases/C898/Relaxation/Links12.lean",
+      "bytes": 11358,
+      "sha256": "599692991a686adb97871b27b68bb97585c4feee083ed1c7e4970e3c4d008e18"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Relaxation/Links13.lean",
+      "project_path": "Compact/Cases/C898/Relaxation/Links13.lean",
+      "bytes": 10525,
+      "sha256": "2efed3354a095a1528a3d36eba7afb54b647d5116ddd59ea5151415e05c8abf5"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Relaxation/Links14.lean",
+      "project_path": "Compact/Cases/C898/Relaxation/Links14.lean",
+      "bytes": 10497,
+      "sha256": "ae76bed33c64f9e514109eddd193b7aa8f3b076134a136393891b53370ae2662"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Relaxation/Links15.lean",
+      "project_path": "Compact/Cases/C898/Relaxation/Links15.lean",
+      "bytes": 10910,
+      "sha256": "8f53a95f5caf7284d7b832e3f7e01055aaae4ec463f0e52f4af22555d4526af1"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Relaxation/Rules.lean",
+      "project_path": "Compact/Cases/C898/Relaxation/Rules.lean",
+      "bytes": 2828,
+      "sha256": "13c8fc69ea578fe9843327a5b7e8c485ff628782128ead42033eb17292be1106"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Relaxation/Supports00.lean",
+      "project_path": "Compact/Cases/C898/Relaxation/Supports00.lean",
+      "bytes": 27240,
+      "sha256": "379324cbfeca40787e461094354faea7c64cb58ada3b1e9b307d5a0b2e9d8503"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Relaxation/Supports01.lean",
+      "project_path": "Compact/Cases/C898/Relaxation/Supports01.lean",
+      "bytes": 27941,
+      "sha256": "ebf131f812b5ed14116569f7ea6ae50fe823cb91594eadce03e23b268daad039"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Relaxation/Supports02.lean",
+      "project_path": "Compact/Cases/C898/Relaxation/Supports02.lean",
+      "bytes": 28062,
+      "sha256": "30ad2cc560cbaa8f3090593fc05d120ffc37f9f42810468cdba7ae34b4b7f42a"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Relaxation/Supports03.lean",
+      "project_path": "Compact/Cases/C898/Relaxation/Supports03.lean",
+      "bytes": 28156,
+      "sha256": "6ef331a93e5737f81bf4613e9698b015840254054440e1a74835bdcdf3c2d59d"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Relaxation/Supports04.lean",
+      "project_path": "Compact/Cases/C898/Relaxation/Supports04.lean",
+      "bytes": 28198,
+      "sha256": "2448d1d6ebb788967af6dec2970272e80fa88745761cd3ecabda993e227c8985"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Relaxation/Supports05.lean",
+      "project_path": "Compact/Cases/C898/Relaxation/Supports05.lean",
+      "bytes": 29232,
+      "sha256": "db2181c16e5f509b67e84bc68c477d06524c86f520afa45679da554857b852a6"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Relaxation/Supports06.lean",
+      "project_path": "Compact/Cases/C898/Relaxation/Supports06.lean",
+      "bytes": 29879,
+      "sha256": "2afd80ad2206326d2800d5e3532e361b01bd08d2f9131ce4f29f04e085220057"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Relaxation/Supports07.lean",
+      "project_path": "Compact/Cases/C898/Relaxation/Supports07.lean",
+      "bytes": 29844,
+      "sha256": "4712a4b06948da8d3809c84ae021180748fb2c87312c7fc17d48b6f95f229a47"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Relaxation/Supports08.lean",
+      "project_path": "Compact/Cases/C898/Relaxation/Supports08.lean",
+      "bytes": 30224,
+      "sha256": "2c79e08891b71f352ed986d2fb5a6dae615ff844a5541c38032980ccfbfac5a8"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Relaxation/Supports09.lean",
+      "project_path": "Compact/Cases/C898/Relaxation/Supports09.lean",
+      "bytes": 30252,
+      "sha256": "b32f6a10fab7548fa9564c3c96d3cd80d6e2139ca70b48a7892e6d8137278631"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Relaxation/Supports10.lean",
+      "project_path": "Compact/Cases/C898/Relaxation/Supports10.lean",
+      "bytes": 30252,
+      "sha256": "f450bf503d8d1422a761ef05ab985d1c63ce00536b3f6f69c78c1b4e79cd6532"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Relaxation/Supports11.lean",
+      "project_path": "Compact/Cases/C898/Relaxation/Supports11.lean",
+      "bytes": 30252,
+      "sha256": "be1fc6102514e114979b3ddf74f94d0587da405cac858e8f403272e34517c9e1"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Relaxation/Supports12.lean",
+      "project_path": "Compact/Cases/C898/Relaxation/Supports12.lean",
+      "bytes": 30252,
+      "sha256": "bbbfe37b0822e3203375d208d206b0f3b1c0e605bac6ac4e44ffb3d43fff6f24"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Relaxation/Supports13.lean",
+      "project_path": "Compact/Cases/C898/Relaxation/Supports13.lean",
+      "bytes": 30252,
+      "sha256": "00a30dd199d7e2bee2a185a17b4285bfd4aab5b0c7d2d395eebfc325f2674e6e"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Relaxation/Supports14.lean",
+      "project_path": "Compact/Cases/C898/Relaxation/Supports14.lean",
+      "bytes": 30252,
+      "sha256": "c65d09adc889c133d5ca744cc0f3642fa4bb767235da65a798452ee2fe94768b"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/Relaxation/Supports15.lean",
+      "project_path": "Compact/Cases/C898/Relaxation/Supports15.lean",
+      "bytes": 4730,
+      "sha256": "6c552342c5d6c481460781e541815b6e86fa611efba7415a9b38b32dc0770e3e"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/RelaxationPilot.lean",
+      "project_path": "Compact/Cases/C898/RelaxationPilot.lean",
+      "bytes": 881,
+      "sha256": "eea9bf6fccb5f533eba9889b90877c762f5936e2dbc90cd99aacf5ab02ad1703"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/RetainedRelaxation/All.lean",
+      "project_path": "Compact/Cases/C898/RetainedRelaxation/All.lean",
+      "bytes": 74596,
+      "sha256": "25d292f5bf108121469c03afd17217c2b62704cefe24307808080480c149f976"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/RetainedRelaxation/Links.lean",
+      "project_path": "Compact/Cases/C898/RetainedRelaxation/Links.lean",
+      "bytes": 1647,
+      "sha256": "2493a4013331f16313569e3e0a16c56c1b7aca8f5210e76f60c4e5023ea09ee2"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/RetainedRelaxation/Links00.lean",
+      "project_path": "Compact/Cases/C898/RetainedRelaxation/Links00.lean",
+      "bytes": 9159,
+      "sha256": "9e50a5ecb591536027aef0a293fd4612328e2e116512f9a18f2e6efee1779167"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/RetainedRelaxation/Links01.lean",
+      "project_path": "Compact/Cases/C898/RetainedRelaxation/Links01.lean",
+      "bytes": 10078,
+      "sha256": "511790e87b9f090073b4e6ab150484fcf4e8459dcc4533fc9773bd8003a616e2"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/RetainedRelaxation/Links02.lean",
+      "project_path": "Compact/Cases/C898/RetainedRelaxation/Links02.lean",
+      "bytes": 10930,
+      "sha256": "d6f6fdeaabb029a25641450bf4dca352ed838ec68982156cb05b7bc1b56ba10d"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/RetainedRelaxation/Links03.lean",
+      "project_path": "Compact/Cases/C898/RetainedRelaxation/Links03.lean",
+      "bytes": 11782,
+      "sha256": "2b7c47aebf54b4849daea88a345f03d2bdcea6592eb6d6805b048cd5b55f0c33"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/RetainedRelaxation/Links04.lean",
+      "project_path": "Compact/Cases/C898/RetainedRelaxation/Links04.lean",
+      "bytes": 11392,
+      "sha256": "7cf06ef8768f35ff74ad0e08637e654d4c21e9bdfeed814316aec3ef2b555a5f"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/RetainedRelaxation/Links05.lean",
+      "project_path": "Compact/Cases/C898/RetainedRelaxation/Links05.lean",
+      "bytes": 10678,
+      "sha256": "fba3cf60e205572f7c4ab2fe4a51f974bf40dccf3b0df22401b11d64c9e8c72b"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/RetainedRelaxation/Links06.lean",
+      "project_path": "Compact/Cases/C898/RetainedRelaxation/Links06.lean",
+      "bytes": 11434,
+      "sha256": "eeb2cd7ba1bbbb1f65ea855cc23a37a6b3ce89232909e7abd82367da45b09be6"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/RetainedRelaxation/Links07.lean",
+      "project_path": "Compact/Cases/C898/RetainedRelaxation/Links07.lean",
+      "bytes": 3380,
+      "sha256": "0f13ccc7f21be4b58a9fc67a3d95b0204d42587e390873c27ec255f2abc43e14"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/RetainedRelaxation/Rules.lean",
+      "project_path": "Compact/Cases/C898/RetainedRelaxation/Rules.lean",
+      "bytes": 2686,
+      "sha256": "f1f6841d92a7368c630e07a20b76217aefb49e56261c46c4f0a8f96e2c24c687"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/RetainedRelaxation/Supports00.lean",
+      "project_path": "Compact/Cases/C898/RetainedRelaxation/Supports00.lean",
+      "bytes": 20632,
+      "sha256": "22a1d62e34e194ab0cae3b4fc7da8591c134583dbfb37ed4d43fa11da9e6903c"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/RetainedRelaxation/Supports01.lean",
+      "project_path": "Compact/Cases/C898/RetainedRelaxation/Supports01.lean",
+      "bytes": 20632,
+      "sha256": "d3d0e4114d33c9f5670d762e048c4bb9daa4759b8d93b039768a3148c0cfa357"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/RetainedRelaxation/Supports02.lean",
+      "project_path": "Compact/Cases/C898/RetainedRelaxation/Supports02.lean",
+      "bytes": 20632,
+      "sha256": "14ff8b1031202566374800d958851ef71d1dfccedcdb1d7cc40a9b3b6ec9fc6d"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/RetainedRelaxation/Supports03.lean",
+      "project_path": "Compact/Cases/C898/RetainedRelaxation/Supports03.lean",
+      "bytes": 20632,
+      "sha256": "cd17730b3246933c8f4cf03a30f62d4e616b218f66f08c5a9bfb52e8fd23bbb9"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/RetainedRelaxation/Supports04.lean",
+      "project_path": "Compact/Cases/C898/RetainedRelaxation/Supports04.lean",
+      "bytes": 20632,
+      "sha256": "6e7bb5cee2fca0d5a30b26aeab34e601743cdbe52228300069d3a1148cf1a806"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/RetainedRelaxation/Supports05.lean",
+      "project_path": "Compact/Cases/C898/RetainedRelaxation/Supports05.lean",
+      "bytes": 20632,
+      "sha256": "1c05c29f17f7d12a9eba94cdd3d4f28270abc7232acf188d1a09f247d9459712"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/RetainedRelaxation/Supports06.lean",
+      "project_path": "Compact/Cases/C898/RetainedRelaxation/Supports06.lean",
+      "bytes": 20632,
+      "sha256": "d3dd86f5079daca8e0cd6251edffd5114e735b26e8463c271e4792911b60c706"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/RetainedRelaxation/Supports07.lean",
+      "project_path": "Compact/Cases/C898/RetainedRelaxation/Supports07.lean",
+      "bytes": 20632,
+      "sha256": "60ecf15010fc46c31a3a907d574ead3269d4772c36aed1eebfcc9d7ef41cb912"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/RetainedRelaxation/Supports08.lean",
+      "project_path": "Compact/Cases/C898/RetainedRelaxation/Supports08.lean",
+      "bytes": 20632,
+      "sha256": "af0d6b3b3442ab36c5a78463420aed9097bfd14bbb74c4c8a982fdf6d568111e"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/RetainedRelaxation/Supports09.lean",
+      "project_path": "Compact/Cases/C898/RetainedRelaxation/Supports09.lean",
+      "bytes": 20632,
+      "sha256": "ddadc49c91588e90839273f5efb930131125227953da6915808e32e1a1e61e4e"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/RetainedRelaxation/Supports10.lean",
+      "project_path": "Compact/Cases/C898/RetainedRelaxation/Supports10.lean",
+      "bytes": 20632,
+      "sha256": "c2b9c9be05c6f893f418fd17cc09f9217073b1211c8f81ebca36c0fd0f8b4572"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/RetainedRelaxation/Supports11.lean",
+      "project_path": "Compact/Cases/C898/RetainedRelaxation/Supports11.lean",
+      "bytes": 20632,
+      "sha256": "4398d6dded8fb689e5586062f754264d40fb5a2cd92067be57f4ad288855f03d"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/RetainedRelaxation/Supports12.lean",
+      "project_path": "Compact/Cases/C898/RetainedRelaxation/Supports12.lean",
+      "bytes": 20632,
+      "sha256": "288347120689baa2f15d8332506e6a7aa2f5b8b5f347310b8dc66bfb5b698fb7"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Cases/C898/RetainedRelaxation/Supports13.lean",
+      "project_path": "Compact/Cases/C898/RetainedRelaxation/Supports13.lean",
+      "bytes": 17478,
+      "sha256": "11c41652f9eb5439c0f135bdc416681e347635e37d5ae7299ee40fa75297d551"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C1092/MMMP/CornerSignScalars.lean",
+      "project_path": "Compact/Completion/C1092/MMMP/CornerSignScalars.lean",
+      "bytes": 3069,
+      "sha256": "85e52d0e4076341a42d7ed35c3514fae29e73b84c08d5dff7018f37ff1b32830"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C1092/MMMP/WideRightConflict.lean",
+      "project_path": "Compact/Completion/C1092/MMMP/WideRightConflict.lean",
+      "bytes": 3420,
+      "sha256": "d24f3f2033accae226a1a070b86ab368a5228efb46730542747dca665d339d64"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C1092/MMMPFinalScalars.lean",
+      "project_path": "Compact/Completion/C1092/MMMPFinalScalars.lean",
+      "bytes": 7216,
+      "sha256": "0e21593842ae24406a6d7344e900f44b5043245c4192ae3afc58fa3ae55e3d55"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/CoverageMasks/Identities00.lean",
+      "project_path": "Compact/Completion/C981/CoverageMasks/Identities00.lean",
+      "bytes": 1559,
+      "sha256": "be535d324a3d9f79f73a1d0263ae665c63d8055adedd0d533fc182b958bc977b"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/CoverageMasks/Identities01.lean",
+      "project_path": "Compact/Completion/C981/CoverageMasks/Identities01.lean",
+      "bytes": 1621,
+      "sha256": "3aa7d6a1660e622bb96ccb5992625efd6ce7ed642e53994e26c8f0f28fbbedae"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/CoverageMasks/Identities02.lean",
+      "project_path": "Compact/Completion/C981/CoverageMasks/Identities02.lean",
+      "bytes": 1677,
+      "sha256": "460d7ce9e50bafb3d9e46b5d080d450d45b8a3ce5a6e25aff63d1f166fd9a55a"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/CoverageMasks/Identities03.lean",
+      "project_path": "Compact/Completion/C981/CoverageMasks/Identities03.lean",
+      "bytes": 1648,
+      "sha256": "6e7b84f2b8ad161a26d371c22f145dd56ffcd1f473909a710f9ad61e7ebcd1c4"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/CoverageMasks/Identities04.lean",
+      "project_path": "Compact/Completion/C981/CoverageMasks/Identities04.lean",
+      "bytes": 1579,
+      "sha256": "bb31b26f4bd73de70556d724952c3f0ac4247a660f0ed663c2c410d645133e2d"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/CoverageMasks/Identities05.lean",
+      "project_path": "Compact/Completion/C981/CoverageMasks/Identities05.lean",
+      "bytes": 601,
+      "sha256": "eac6af6686e2e6a06e27fd478cd23eb9a6e4501fa71f480f775fdafb7ea8ca3b"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/CoverageMasks/Step10Codes32.lean",
+      "project_path": "Compact/Completion/C981/CoverageMasks/Step10Codes32.lean",
+      "bytes": 11827,
+      "sha256": "7d5fff42d79ccf241da6ef56f46a017cbbb0878ab5e144832afa57dae7cc7c0d"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/CoveragePilot/Step10First08.lean",
+      "project_path": "Compact/Completion/C981/CoveragePilot/Step10First08.lean",
+      "bytes": 1174,
+      "sha256": "4e27d174444c8a0600ee760069393c67e004cc2ddc1eb76ec86f72ac03475394"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/CoveragePilot/Step10First32.lean",
+      "project_path": "Compact/Completion/C981/CoveragePilot/Step10First32.lean",
+      "bytes": 1183,
+      "sha256": "6b27029480582c8e67a8fbac36c1ccf54852a239e8b096dde367c4408525460f"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/CoveragePilot/Step10Masks08.lean",
+      "project_path": "Compact/Completion/C981/CoveragePilot/Step10Masks08.lean",
+      "bytes": 10005,
+      "sha256": "211facc21f0381c3023fa83ce4741847813275e135678fbe680d997e3dc0e684"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/CoveragePilot/Step10Masks32.lean",
+      "project_path": "Compact/Completion/C981/CoveragePilot/Step10Masks32.lean",
+      "bytes": 15074,
+      "sha256": "172db560169ebfa8b5c216769257a8a508492ea8ce5ba896d58a22fa643538f7"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/CoveragePilot/Step10Masks32Check.lean",
+      "project_path": "Compact/Completion/C981/CoveragePilot/Step10Masks32Check.lean",
+      "bytes": 3369,
+      "sha256": "c77a00a142ac200a23340fd8719464d07a72ceeb79a8a0587345ac8187ab0789"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/NorthArmPair.lean",
+      "project_path": "Compact/Completion/C981/NorthArmPair.lean",
+      "bytes": 8049,
+      "sha256": "1df1b492c96c1ccb93a962dc4b5037238be4ed04612df7cbcf8337ef6ac3bafc"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/NorthArmScalars.lean",
+      "project_path": "Compact/Completion/C981/NorthArmScalars.lean",
+      "bytes": 1810,
+      "sha256": "12663e93aeab3966dd8cdb7086828de3edb695b9e446ffe2441a2a33414de1e0"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/Geometry.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/Geometry.lean",
+      "bytes": 49263,
+      "sha256": "5f9be6265bfcad379d49fbbb7d62468ecd28e2fe6fb8f97290aff9908ec204fa"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/Initial0.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/Initial0.lean",
+      "bytes": 145826,
+      "sha256": "383337cfcc64f8849710ecfc96bcab70dc2e4d86694bda4f226b6e5ae0ed5503"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/Initial1.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/Initial1.lean",
+      "bytes": 194382,
+      "sha256": "3840278bc628be02b2cb64d692784a1bc8829a216bea3cf9c4818e4a98cbb3ac"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/Initial2.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/Initial2.lean",
+      "bytes": 694844,
+      "sha256": "3537fd2ac863ceb6c96e2405ac2c2a438d6dea09f8485c1326aee4ac5b065e93"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/Initial3.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/Initial3.lean",
+      "bytes": 724917,
+      "sha256": "403be7385d9679c3bb49149fe6e3efe05313b7aebba81a7d083a7b1e54cd5d63"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/Initial4.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/Initial4.lean",
+      "bytes": 134795,
+      "sha256": "2eea024dd5dd1858de64aa6c7c2cb8c2551f4c22590a78f80fb6abf0a688a30a"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/Initial5.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/Initial5.lean",
+      "bytes": 193858,
+      "sha256": "e29ef0fc00e5e9cef6a66d6aeb0674113dcd0d73d590cecc4489452c57ac74fe"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InitialAssembly.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/InitialAssembly.lean",
+      "bytes": 4742,
+      "sha256": "1c38fdaec690c117240105b52b5b7ade8cd036c4b64e8a10af19c7bf58e3bea8"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InputAtoms/Basis00.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/InputAtoms/Basis00.lean",
+      "bytes": 58487,
+      "sha256": "784458421c2dda1bf9bc76f643c2edaa62f5f5c6e1ccda869034f95cad1ba771"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InputAtoms/Basis01.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/InputAtoms/Basis01.lean",
+      "bytes": 32119,
+      "sha256": "e87677b4f304af953e1ec1d60bae907ef0027c4e38c455553dfe001263f82cc1"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InputAtoms/Den00.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/InputAtoms/Den00.lean",
+      "bytes": 17203,
+      "sha256": "2710978c2617ee34c6f9c0754bddd84bade9fa519828e935674e0a92224b4069"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InputAtoms/Den01.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/InputAtoms/Den01.lean",
+      "bytes": 20152,
+      "sha256": "a5d4ff7defad80bdc47f734369f78d89a6eb088911df837f4918eeb2bbc76190"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InputAtoms/Den02.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/InputAtoms/Den02.lean",
+      "bytes": 20790,
+      "sha256": "e7657f470930aa40c53306a4c6a6e2d530f167a890e93b80138d9361319d085d"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InputAtoms/Den03.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/InputAtoms/Den03.lean",
+      "bytes": 21156,
+      "sha256": "87ff3e96f817ae9f465fdf7177b1b66775fc0c726bd3f0187e43d27631f38ec0"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InputAtoms/Den04.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/InputAtoms/Den04.lean",
+      "bytes": 21188,
+      "sha256": "74e477f9c1c276318e421ca09e54a2a661fca25e8c0df0aad16eba4a6fd34025"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InputAtoms/Den05.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/InputAtoms/Den05.lean",
+      "bytes": 6662,
+      "sha256": "0451372e5ebce8458939c343bb84927cc9dc4f1bf754c3ebc9b3c630412c9a45"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InputAtoms/Row00.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/InputAtoms/Row00.lean",
+      "bytes": 34764,
+      "sha256": "e4311acf2ac9607ed6b5d1ae5cb5cec398d677ada63a13501564ee84998702cb"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InputAtoms/Row01.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/InputAtoms/Row01.lean",
+      "bytes": 35573,
+      "sha256": "617df5d568d852ae73ffa31b02ac0e6f38963b66ae377f5f34637f0db3be3b2d"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InputAtoms/Row02.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/InputAtoms/Row02.lean",
+      "bytes": 35846,
+      "sha256": "e5ba6219f7be1b5776e42eb2f86152435f9eeb101132f42521d3d7ea25433036"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InputAtoms/Row03.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/InputAtoms/Row03.lean",
+      "bytes": 36866,
+      "sha256": "0b03bdb0f7585b70a65b28bc985b061f07932ca82c3e951a67164210aa1c9438"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InputAtoms/Row04.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/InputAtoms/Row04.lean",
+      "bytes": 37023,
+      "sha256": "6819968e303126897541635b5118476a4adef8587683933e32bfa034f5580b28"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InputAtoms/Row05.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/InputAtoms/Row05.lean",
+      "bytes": 37739,
+      "sha256": "32e55d0c4c567b8bcb26d1d6999a2f4aa15665ee7881a24e64f97b491c2d6a67"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InputAtoms/Row06.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/InputAtoms/Row06.lean",
+      "bytes": 35552,
+      "sha256": "3ce67a8f0fbc6fd64438de8d7df13bfcdfb10d37b2cb4f40c9306faf2bf6dbd0"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InputAtoms/Row07.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/InputAtoms/Row07.lean",
+      "bytes": 37879,
+      "sha256": "24d2b73771ae700edace084a8452ad0c061f401604692bbcbf4987b668864f55"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InputAtoms/Row08.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/InputAtoms/Row08.lean",
+      "bytes": 37387,
+      "sha256": "c0b5c59febddf90b450aef825065793dc7fb30c594b48fdbaab39c59570e5f08"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InputAtoms/Row09.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/InputAtoms/Row09.lean",
+      "bytes": 37688,
+      "sha256": "b2710ad9913b2dc85a72ba6a91e122e2304763c9332eb4c236266775513938c7"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InputAtoms/Row10.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/InputAtoms/Row10.lean",
+      "bytes": 37142,
+      "sha256": "13579b2044fa0f44119b374458883dbabebe4a15e10f8320d77326df68444a56"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InputAtoms/Row11.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/InputAtoms/Row11.lean",
+      "bytes": 37741,
+      "sha256": "98bba9206c1814c305278f74642dacc38f57f71892c7c478d8cea231caaf740b"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InputAtoms/Row12.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/InputAtoms/Row12.lean",
+      "bytes": 37070,
+      "sha256": "c984dafa75cc67e3380b1e35b7a4daec35ed37fd1f8610138d5bc68e69868b44"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InputAtoms/Row13.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/InputAtoms/Row13.lean",
+      "bytes": 37985,
+      "sha256": "3eb38c8de88e3e42fb2edc8ab16dcf36807cd4e74a112225e404255077f20b0c"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InputAtoms/Row14.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/InputAtoms/Row14.lean",
+      "bytes": 38041,
+      "sha256": "0f1ecf9e1d10e960a7f319109aee198cdcc63bbcf1e2184d6d3d27b56dd2313d"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InputAtoms/Row15.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/InputAtoms/Row15.lean",
+      "bytes": 38217,
+      "sha256": "ec01f56c301ae7b991886c2dfcab512c279632de5290e5093bf5b896858c3b91"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InputAtoms/Row16.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/InputAtoms/Row16.lean",
+      "bytes": 38069,
+      "sha256": "c11c557daa5bc675cfcd2a65049cd8bfd9bf876ff8780e3fbe7c98245697f08a"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InputAtoms/Row17.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/InputAtoms/Row17.lean",
+      "bytes": 38702,
+      "sha256": "7cb59f19579ec017e40e026e1450e949217c69cd0d79d417ec2afeb5bc6e47de"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InputAtoms/Row18.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/InputAtoms/Row18.lean",
+      "bytes": 38602,
+      "sha256": "a781640d09c982346d5c55e36bb90325a9b349fbc93beba9decd2bc004a04bc3"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InputAtoms/Row19.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/InputAtoms/Row19.lean",
+      "bytes": 39087,
+      "sha256": "47a4a5bc1efa8fb8c564b66d9e013643d68bcf9120f075084005c2862b853110"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InputAtoms/Row20.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/InputAtoms/Row20.lean",
+      "bytes": 37252,
+      "sha256": "438d6cf530fdfe5b2f5ada188d7f10ddee31fcd7ec0efa5ca8b27c059a88347e"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InputAtoms/Row21.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/InputAtoms/Row21.lean",
+      "bytes": 37689,
+      "sha256": "ac3596f576e9be80fdf9ec5ed86c2a69d0d35ba45d934b4b3a37e8575fc3cec3"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InputAtoms/Row22.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/InputAtoms/Row22.lean",
+      "bytes": 37543,
+      "sha256": "ac2d1a6ebdb4ee3ad393af6629956266bc09dd64dd9918525eba97ed83367de0"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InputAtoms/Row23.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/InputAtoms/Row23.lean",
+      "bytes": 37645,
+      "sha256": "120966602bd8e4f716f3dc626550ec991fa45620e271e2057f1e0a2d9f6d7328"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InputAtoms/Row24.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/InputAtoms/Row24.lean",
+      "bytes": 38627,
+      "sha256": "06d6f37b54c14ff9c75fc8fd7813d7ce4cf74c8c45af9ca311c9a66781ebb088"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InputAtoms/Row25.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/InputAtoms/Row25.lean",
+      "bytes": 45327,
+      "sha256": "2fc33f222ffd9fce6fb43a100883506ba0310e3861ae8a568ffd8ed874bd3c5a"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InputAtoms/Row26.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/InputAtoms/Row26.lean",
+      "bytes": 46931,
+      "sha256": "f98738db71c52a2bd0ddf2b14c6745a5ba616c6db10839f558b76efe4b10176f"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InputAtoms/Row27.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/InputAtoms/Row27.lean",
+      "bytes": 47344,
+      "sha256": "4dbc32ae9a04822abfec574e1f768ac4f2b354ca7f71bb70d24795bbb82ea261"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InputAtoms/Row28.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/InputAtoms/Row28.lean",
+      "bytes": 46596,
+      "sha256": "46c058f2a7241d882ee11f5be501675c2228731fcb6ed52eb6b1c53adf460e48"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InputAtoms/Row29.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/InputAtoms/Row29.lean",
+      "bytes": 47406,
+      "sha256": "60c7d28a8844c5e452a65d6942d2c5741a07ca6581c6dcd11ce8db3183b978a9"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InputAtoms/Row30.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/InputAtoms/Row30.lean",
+      "bytes": 47955,
+      "sha256": "5e33ab3b89ad0e9919cdea5c791edcb248fe125ff63cff37d3001aa0bba41738"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InputAtoms/Row31.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/InputAtoms/Row31.lean",
+      "bytes": 48267,
+      "sha256": "334b8d22b54b83f4d96c3f3328a431a5472aa648138ccaaf7c1aa1129006bc2d"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InputAtoms/Row32.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/InputAtoms/Row32.lean",
+      "bytes": 47994,
+      "sha256": "a4ba9cc342a59b9806ce31ad425c30e9a2b49d5e55432297b54b20b12b217564"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InputAtoms/Row33.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/InputAtoms/Row33.lean",
+      "bytes": 48769,
+      "sha256": "9c70f3a442efb356fd035761d6743cfd14b8e8e14506b9c32c106129ae84f8aa"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InputAtoms/Row34.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/InputAtoms/Row34.lean",
+      "bytes": 50069,
+      "sha256": "4c592a31377badb4f133d40fee04294f624a58bb8a3bd0d243bf26945929dc5f"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InputAtoms/Row35.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/InputAtoms/Row35.lean",
+      "bytes": 6500,
+      "sha256": "a9605d6f8ad6687693091545fe02df4dfa159aaa302975555e7e43ca84fcaed7"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InputMetadata.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/InputMetadata.lean",
+      "bytes": 16081,
+      "sha256": "ba4c105555cd54c46a7d8f94e0444fa471afb263da8af69cb062e0dd5867f1e0"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/Inputs.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/Inputs.lean",
+      "bytes": 3016,
+      "sha256": "9392fd0ebe37b9a93bc0e4aeeedab6afbb235fac1e5156279e485edf49dbdf7e"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/Neighbors.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/Neighbors.lean",
+      "bytes": 59790,
+      "sha256": "f609e51f70e644e24bb7390c1f545beb450b5cd6896969651a85b7ed76650fd2"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/Original.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/Original.lean",
+      "bytes": 19570,
+      "sha256": "76f36e9d214047e29385fff732f00a7d7eed27f4fda43dc6aa64e8e01a88cbcb"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/Pairs1_0.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/Pairs1_0.lean",
+      "bytes": 34118,
+      "sha256": "2d6fdfc5c92d41f139707c9e9fbf76b918f04e8fa8ff06cafa8f82033cee3fbc"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/Pairs1_1.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/Pairs1_1.lean",
+      "bytes": 38428,
+      "sha256": "5560e23d92849f87c38d936646665925c6948e0114b33cc7973a3d4bd0c1be24"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/Pairs1_2.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/Pairs1_2.lean",
+      "bytes": 34667,
+      "sha256": "293e9be2a66a84b5cd7fa69c5adcf17f321805ea08651e088b89f15b9125c46a"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/Pairs1_3.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/Pairs1_3.lean",
+      "bytes": 38481,
+      "sha256": "cb723bac32c0cd477eae886c21dcb4861d0f76e3f5083ccb5d01566f28e7011f"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/Pairs2_0.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/Pairs2_0.lean",
+      "bytes": 2234,
+      "sha256": "b2e0b185a07394dbc0dfdc709ca55905e237223b11b80fa66244a211efaaecf5"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/Pairs2_1.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/Pairs2_1.lean",
+      "bytes": 4798,
+      "sha256": "62b71a10cc7e79eddb4f26df4e3335ad220415c41a11b68518070b51bafcdb73"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/Stage1.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/Stage1.lean",
+      "bytes": 985197,
+      "sha256": "4b0203266e4f67a2eae9eb38555a05c992928000dc09a5a69d72df392f5bbd97"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/Stage2.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificate54/Stage2.lean",
+      "bytes": 144781,
+      "sha256": "f775009eac379494ba9ec8c434088d891e2e86acf2e7a963c2efdc414ca65f60"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificateBridge.lean",
+      "project_path": "Compact/Completion/C981/ShortCertificateBridge.lean",
+      "bytes": 8878,
+      "sha256": "6f66109e3cc335019fbf9649f2f0a55dac90ec7e5e110a189cd5f0f494e8ebb9"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/C981/ShortChordBridge.lean",
+      "project_path": "Compact/Completion/C981/ShortChordBridge.lean",
+      "bytes": 10245,
+      "sha256": "39bffbbdfa81e11af308be4fbc3c80b9ad0df9daa18ba8c74119bb8455299eb1"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/FiniteCases/C896NortheastSelection.lean",
+      "project_path": "Compact/Completion/FiniteCases/C896NortheastSelection.lean",
+      "bytes": 5667,
+      "sha256": "f7cace7ca7f364f3f47eca2a40a78828897abca0ee1340715f8b17b0991807ef"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/FiniteCases/C972NegativeSingleton.lean",
+      "project_path": "Compact/Completion/FiniteCases/C972NegativeSingleton.lean",
+      "bytes": 5560,
+      "sha256": "e3cabf21f404e74083ea116c357f2c1ec93db287ab8e44760cf377164eb214c6"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/FiniteCases/C972PositiveSingletonEnding.lean",
+      "project_path": "Compact/Completion/FiniteCases/C972PositiveSingletonEnding.lean",
+      "bytes": 5573,
+      "sha256": "07291f4008768c926576e5d5a1b63c0281278c02154f1d59d21bf9bb98921cde"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/FiniteCases/C972SouthwestFloor.lean",
+      "project_path": "Compact/Completion/FiniteCases/C972SouthwestFloor.lean",
+      "bytes": 7235,
+      "sha256": "200612d5fbb1bab3a93e4a97b817725309df707d7dd720fbec30eded30c785d0"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/FiniteCases/C972SouthwestFloorConsequences.lean",
+      "project_path": "Compact/Completion/FiniteCases/C972SouthwestFloorConsequences.lean",
+      "bytes": 4184,
+      "sha256": "27fd67b89eb6228727f883cc2ffb8892d2e9a5f8c883b544c8d02ec67a16544b"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/FiniteCases/C972SouthwestFloorScalars.lean",
+      "project_path": "Compact/Completion/FiniteCases/C972SouthwestFloorScalars.lean",
+      "bytes": 1676,
+      "sha256": "297b00593375009245f32316ffee77ff0dc7a785e80f4839f95c384c52a047b5"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/FiniteCases/C972SouthwestLeftFace.lean",
+      "project_path": "Compact/Completion/FiniteCases/C972SouthwestLeftFace.lean",
+      "bytes": 2020,
+      "sha256": "1e76f1e4d7ec4a8d985be2d1658532fd6ae812b3c0457031070f63a3297746c5"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/OtherCases/C976MergedLeft/Ending.lean",
+      "project_path": "Compact/Completion/OtherCases/C976MergedLeft/Ending.lean",
+      "bytes": 7180,
+      "sha256": "072284ffc0c46a262f1fb09832397b10c1f8a71968e17138654e5a45e600d1ad"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/OtherCases/C983/F4NegativeBoundScalars.lean",
+      "project_path": "Compact/Completion/OtherCases/C983/F4NegativeBoundScalars.lean",
+      "bytes": 2195,
+      "sha256": "4458ec6d8175fdb440ab8b533522813748bc975b98060612db9b4e8b704365c6"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/OtherCases/C983/F4NegativeBounds.lean",
+      "project_path": "Compact/Completion/OtherCases/C983/F4NegativeBounds.lean",
+      "bytes": 2855,
+      "sha256": "d62dfb48afbceda6f552a4e9cd370d01967710a169eae480d8a8a5aa45a2248d"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/OtherCases/C983/F4TopOnlyFrame.lean",
+      "project_path": "Compact/Completion/OtherCases/C983/F4TopOnlyFrame.lean",
+      "bytes": 2104,
+      "sha256": "af2285f6208999a131b27814b730b92aaa5c854e32420256a6e52a03a150c2c8"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/OtherCases/MergedPending/C700FullCornerFaces.lean",
+      "project_path": "Compact/Completion/OtherCases/MergedPending/C700FullCornerFaces.lean",
+      "bytes": 4898,
+      "sha256": "c19aa79f5a6c4d9b7226892502bd66e33c506e7fdb907ad4bdcc4e1c2cb7fc63"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/OtherCases/MergedPending/C700FullCornerTilt.lean",
+      "project_path": "Compact/Completion/OtherCases/MergedPending/C700FullCornerTilt.lean",
+      "bytes": 6469,
+      "sha256": "1c6ab3bcda3a183c31fed4f662cbb4b08f4bb0786ba8f72ef52343c4b12fdd99"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/OtherCases/MergedPending/C700LowerRightFaces.lean",
+      "project_path": "Compact/Completion/OtherCases/MergedPending/C700LowerRightFaces.lean",
+      "bytes": 3250,
+      "sha256": "87f4ec8d71f5c7ae7bbc19d5efc879a6812ca5f4ba2d92e8b7e95dd3a06412eb"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/OtherCases/MergedPending/C700NegativeSouthwest.lean",
+      "project_path": "Compact/Completion/OtherCases/MergedPending/C700NegativeSouthwest.lean",
+      "bytes": 14423,
+      "sha256": "11482dc0a8b076c2a11fb417c75c90bbdaaafcdf2deee7c63aa621a99fca4d41"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/OtherCases/MergedPending/C700PositiveFaces.lean",
+      "project_path": "Compact/Completion/OtherCases/MergedPending/C700PositiveFaces.lean",
+      "bytes": 8660,
+      "sha256": "a92553fb5b24c5d51e04f2d1a008e54c7264729ba06a23fdb75c8c5f3265aff2"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/OtherCases/MergedPending/C700PositiveSouthwest.lean",
+      "project_path": "Compact/Completion/OtherCases/MergedPending/C700PositiveSouthwest.lean",
+      "bytes": 6927,
+      "sha256": "ffb0a8cd92e47cbe3445717e1c2e6215adf1ee02205cb9714d230362912db26f"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/OtherCases/MergedPending/C700RightProfile.lean",
+      "project_path": "Compact/Completion/OtherCases/MergedPending/C700RightProfile.lean",
+      "bytes": 5829,
+      "sha256": "9b6b126d9ac3fae9557b98f9ad51e7bcc25b9b46cc72c40922714e9aa219716a"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/OtherCases/MergedPending/C700SharpPoints.lean",
+      "project_path": "Compact/Completion/OtherCases/MergedPending/C700SharpPoints.lean",
+      "bytes": 4920,
+      "sha256": "48ced7b1dd6e41989748fce0415597257544729d36e31c1c97bac2433d41777d"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/OtherCases/MergedPending/NegativeUpperTopSeparation.lean",
+      "project_path": "Compact/Completion/OtherCases/MergedPending/NegativeUpperTopSeparation.lean",
+      "bytes": 5506,
+      "sha256": "ff597ff27d55f8d65681e085666c30a0c33fde63e3e22de94af0e13de9e68f47"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Core/C696Pose117.lean",
+      "project_path": "Compact/Core/C696Pose117.lean",
+      "bytes": 4249,
+      "sha256": "0287682878da0220a1187575a08a7b514ff6ae8cc874875b80d02ce7c9c5b1c0"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Core/C696SupportFixture.lean",
+      "project_path": "Compact/Core/C696SupportFixture.lean",
+      "bytes": 3906,
+      "sha256": "7281aca2ac02d8c61488e5ead40fd0f6cbdcfe17a0f14cf33a6d2847fc00741e"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Core/C898EmptyLeaf.lean",
+      "project_path": "Compact/Core/C898EmptyLeaf.lean",
+      "bytes": 1446,
+      "sha256": "bf7c104e3f8b7b1d7c0ad78dc146f38e4b3c8ac4ca503a73d7f7b70cf64ac242"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Core/RegionTraversal.lean",
+      "project_path": "Compact/Core/RegionTraversal.lean",
+      "bytes": 7342,
+      "sha256": "de5b7619c652cf73baf8dedbb4fa1f31fe7fee0f9d3a3760f10a0c3a4fc844bf"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Core/RowSubsetSyntax.lean",
+      "project_path": "Compact/Core/RowSubsetSyntax.lean",
+      "bytes": 3213,
+      "sha256": "1c5d685664c06adb06c9a80c62cf96bca1e49de96d4c814878cb81c40f5f3dee"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Core/SupportEnvelope.lean",
+      "project_path": "Compact/Core/SupportEnvelope.lean",
+      "bytes": 6214,
+      "sha256": "4256afa0a7594fc3bc89b973a5af082599078e696fcfc1c77d608d8e143f6caf"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Core/SupportMargin.lean",
+      "project_path": "Compact/Core/SupportMargin.lean",
+      "bytes": 6806,
+      "sha256": "956d75f0c13f3c280cecb5389c4a2606a88d4e98a6127ee59064b5f65a8d5829"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Diagnostics/AngleData64Checks.lean",
+      "project_path": "Compact/Diagnostics/AngleData64Checks.lean",
+      "bytes": 12999,
+      "sha256": "c2a4d24c60db198d28b2f567732551fd2334da4bfe983ed2713a0b093f458173"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Diagnostics/AngleImportOnly.lean",
+      "project_path": "Compact/Diagnostics/AngleImportOnly.lean",
+      "bytes": 136,
+      "sha256": "eeed5928b0b32968010db395608ce05eb109bbe19d90d108235205ff0f3fea87"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Diagnostics/AngleKernelCheck.lean",
+      "project_path": "Compact/Diagnostics/AngleKernelCheck.lean",
+      "bytes": 855,
+      "sha256": "022b3e09f569a5bba696402ee6a73683774ef941bc9f5e08c9f242043be2b3b2"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Diagnostics/C713QueriesNew.lean",
+      "project_path": "Compact/Diagnostics/C713QueriesNew.lean",
+      "bytes": 1950,
+      "sha256": "59a0fbe3bbd60f4fa46b1c2b52799e16df1f9b82b8b19ef6169333069ac2903a"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Diagnostics/C713QueriesShared.lean",
+      "project_path": "Compact/Diagnostics/C713QueriesShared.lean",
+      "bytes": 8648,
+      "sha256": "e01d55b4603217a3816730b78d777d4126a4a19139c1f7bf5e955b40c83ab3d9"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Diagnostics/FamilyTransportCacheDecode.lean",
+      "project_path": "Compact/Diagnostics/FamilyTransportCacheDecode.lean",
+      "bytes": 7741,
+      "sha256": "054454477b12c1552d422eabdb0540aa345ce5c1e731807aff8637cb76348940"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Diagnostics/FamilyTransportCacheImage.lean",
+      "project_path": "Compact/Diagnostics/FamilyTransportCacheImage.lean",
+      "bytes": 7932,
+      "sha256": "832f0d3589cf897351ca2886018f073605d1d20ed9d3b967090cd106fa5badea"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Diagnostics/FamilyTransportCacheMask.lean",
+      "project_path": "Compact/Diagnostics/FamilyTransportCacheMask.lean",
+      "bytes": 6219,
+      "sha256": "51655774b2e59fc0f48ac124b93beef4522dfcb4ec92c4bdc7a822d94fb11b50"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Diagnostics/FamilyTransportDefinitions.lean",
+      "project_path": "Compact/Diagnostics/FamilyTransportDefinitions.lean",
+      "bytes": 451,
+      "sha256": "944630c79ebbb011dee68a7b24c8bb73fed18a196e22502cdf57dc600d92642e"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Diagnostics/FamilyTransportDistinct.lean",
+      "project_path": "Compact/Diagnostics/FamilyTransportDistinct.lean",
+      "bytes": 1357,
+      "sha256": "86240bb415d9457f8ced807cb3f14f60885781a9298ec6b544ba22e9bfacec24"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Diagnostics/FamilyTransportGeneric.lean",
+      "project_path": "Compact/Diagnostics/FamilyTransportGeneric.lean",
+      "bytes": 145,
+      "sha256": "e9de31fd0d7fb9cfe7abf359035fc38c92cb1f351d9a99baaf22c4821ccf4676"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Diagnostics/FamilyTransportGenericChecked.lean",
+      "project_path": "Compact/Diagnostics/FamilyTransportGenericChecked.lean",
+      "bytes": 4777,
+      "sha256": "ea7b6b5d4586426e52ba4790b0205da2d60ca8fa32be8c0c3bfddd00e9f3a0b6"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Diagnostics/FamilyTransportGenericPerm.lean",
+      "project_path": "Compact/Diagnostics/FamilyTransportGenericPerm.lean",
+      "bytes": 4245,
+      "sha256": "8175c13916a43bca43a94b77ac7fe1b79a45309d384347e4bb812c01b0d79ef0"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Diagnostics/FamilyTransportGenericPermDecide.lean",
+      "project_path": "Compact/Diagnostics/FamilyTransportGenericPermDecide.lean",
+      "bytes": 4333,
+      "sha256": "8673ad5b0a8ebf67a23626f309b570a4d18ae78bebd79f9eb9d33994aa7b3944"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Diagnostics/FamilyTransportImports.lean",
+      "project_path": "Compact/Diagnostics/FamilyTransportImports.lean",
+      "bytes": 254,
+      "sha256": "4429bd813f6ddd4e98caeebf2931500b61d3487f08d7a13aa45d703f65e3d627"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Diagnostics/FamilyTransportPerm.lean",
+      "project_path": "Compact/Diagnostics/FamilyTransportPerm.lean",
+      "bytes": 4826,
+      "sha256": "02ad8baf4c68d16b9c47f2b7079c99ba4d1e5f168a4b53dd3036ee80ab382b34"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Diagnostics/FamilyTransportSignature.lean",
+      "project_path": "Compact/Diagnostics/FamilyTransportSignature.lean",
+      "bytes": 2171,
+      "sha256": "11ee4dcfe458c8c334160f1b8496f26c4f0a20927792bc9cb4d6e70eb972dd79"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Diagnostics/FamilyTransportSupport.lean",
+      "project_path": "Compact/Diagnostics/FamilyTransportSupport.lean",
+      "bytes": 30618,
+      "sha256": "775b13c3392a74d9cc11e6bdb08ab2d259eb7bc213d79d8a79c0829f0e15cc0a"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Geometry/C1092WallRelaxation.lean",
+      "project_path": "Compact/Geometry/C1092WallRelaxation.lean",
+      "bytes": 3947,
+      "sha256": "348f17cffb6cf2a18aa4663d1165d9a4e0d3f6aa0478bfef322ec447431dd3bc"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Geometry/C1092WindmillGap.lean",
+      "project_path": "Compact/Geometry/C1092WindmillGap.lean",
+      "bytes": 7292,
+      "sha256": "952b4b1a3229aaf8526d90456e2180b9352e77ae15b1e41183cfa243d9ed2d48"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Geometry/C898ForcedRow.lean",
+      "project_path": "Compact/Geometry/C898ForcedRow.lean",
+      "bytes": 5009,
+      "sha256": "12b95e2c91ee1b176f33e72ec113a22e82d7392fbd8e570ad2ba7e15a7215993"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Geometry/C981CoupledSector.lean",
+      "project_path": "Compact/Geometry/C981CoupledSector.lean",
+      "bytes": 5550,
+      "sha256": "9007ab1a9af9dc902d85fa9e3bb39aa23a21f27fdf7d473224d32315ee05a6b4"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Geometry/CentralBarTwoRows.lean",
+      "project_path": "Compact/Geometry/CentralBarTwoRows.lean",
+      "bytes": 3675,
+      "sha256": "ff64b2cfcd3d67ac7d5635371e531252034917e0360749dec4fde86faa58bee0"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Geometry/CentralOpposedCornerChain.lean",
+      "project_path": "Compact/Geometry/CentralOpposedCornerChain.lean",
+      "bytes": 5701,
+      "sha256": "96f4353475fccd35ef0b9a0ee4bc8ecbfdb1f87d09f877c4bdc4a8abb4242130"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Geometry/CentralPairPoint.lean",
+      "project_path": "Compact/Geometry/CentralPairPoint.lean",
+      "bytes": 3560,
+      "sha256": "0b8c65646c17f21eb2530233216f99ea919eb3ff546a3de3b71d67facda2612c"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Geometry/CentralSteeperNegativeBottom.lean",
+      "project_path": "Compact/Geometry/CentralSteeperNegativeBottom.lean",
+      "bytes": 11228,
+      "sha256": "4e76d46ca50f96576bd48a5a9e772c8ad8254d5f9b29766ad2547417aa00f3ad"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Geometry/CornerWallLastPositive.lean",
+      "project_path": "Compact/Geometry/CornerWallLastPositive.lean",
+      "bytes": 15177,
+      "sha256": "af7172b46863968b9c5ec4cb08a3edcd2715de9dfaca78986054fe0fd9ba5bca"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Geometry/CornerWallMixedAxis.lean",
+      "project_path": "Compact/Geometry/CornerWallMixedAxis.lean",
+      "bytes": 5803,
+      "sha256": "18596ebb8e8844d567eefd7cd0fd7bb325d6634896764bec3472500d30cffd43"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Geometry/CornerWallNegativeLarge.lean",
+      "project_path": "Compact/Geometry/CornerWallNegativeLarge.lean",
+      "bytes": 18509,
+      "sha256": "65fddcc76568f3438413498b7083745aa55b48eb9e7603e6f372e2195e9189a8"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Geometry/CornerWallNegativeLargeBounds.lean",
+      "project_path": "Compact/Geometry/CornerWallNegativeLargeBounds.lean",
+      "bytes": 9252,
+      "sha256": "2de4a2bcfec03ec740caa929532c20d2558ffecc4e5abb1f3a7b887cf6276970"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Geometry/CornerWallNegativeLeftMargin.lean",
+      "project_path": "Compact/Geometry/CornerWallNegativeLeftMargin.lean",
+      "bytes": 5661,
+      "sha256": "5ea20e919587c6d0abad41fb6ac8ae7dae3a6d25fa6f329a3f574d0b280bd86c"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Geometry/CornerWallOrderedCycle.lean",
+      "project_path": "Compact/Geometry/CornerWallOrderedCycle.lean",
+      "bytes": 9018,
+      "sha256": "7254549aefe364ed3a8fd0812d1d8375cc4e3934e62bb705781a907572ab6c6e"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Geometry/CornerWallOtherMixed.lean",
+      "project_path": "Compact/Geometry/CornerWallOtherMixed.lean",
+      "bytes": 7722,
+      "sha256": "448ebc7c3e3ca418496f7c4c85e945d4f3adcdbbb98e92188e53946bdd085fab"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Geometry/CornerWallPositiveLongitudinalBounds.lean",
+      "project_path": "Compact/Geometry/CornerWallPositiveLongitudinalBounds.lean",
+      "bytes": 8523,
+      "sha256": "a525f60c362be77d7e4edf0208c52fbfa9cf2c86c51e95b6f0553a6d1a6bde8a"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Geometry/DiagonalWallTopPoint.lean",
+      "project_path": "Compact/Geometry/DiagonalWallTopPoint.lean",
+      "bytes": 4026,
+      "sha256": "c88e824c12781b1b62b1ddce11c5a77dcb2a55da75f66f96715501425f5e990a"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Geometry/FourSquareA.lean",
+      "project_path": "Compact/Geometry/FourSquareA.lean",
+      "bytes": 4065,
+      "sha256": "8765f440e9c912ab967a166fff8d94807c775dc9e61f0aa4ff32e879547f9103"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Geometry/FourSquareALower.lean",
+      "project_path": "Compact/Geometry/FourSquareALower.lean",
+      "bytes": 3741,
+      "sha256": "23c22d05a9767ac8d9478fe827cfae3afdb849e60bdd240016a3f6734e3abf34"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Geometry/FourSquareAPolynomial.lean",
+      "project_path": "Compact/Geometry/FourSquareAPolynomial.lean",
+      "bytes": 3983,
+      "sha256": "f2ca012e29313282836736a2b03beea5a627c4572086a261a42e678df0511fe5"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Geometry/FourSquareAUpper.lean",
+      "project_path": "Compact/Geometry/FourSquareAUpper.lean",
+      "bytes": 5417,
+      "sha256": "a7d24c0af9a2ef4919a7372fa4a155f2e0f7cf1433a6e37c19c841704f9e8097"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Geometry/FullAuxWallLeftMargins.lean",
+      "project_path": "Compact/Geometry/FullAuxWallLeftMargins.lean",
+      "bytes": 6455,
+      "sha256": "38ecd8223c67de4c403a953a30b1419b35485112d7cd760667b0c95c70cf17e7"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Geometry/FullAuxWallLeftOrder.lean",
+      "project_path": "Compact/Geometry/FullAuxWallLeftOrder.lean",
+      "bytes": 9719,
+      "sha256": "8a1cfedc336c8198b1219588a48fc6e400b835c2f2bee91dee9d09b25f2dd175"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Geometry/FullAuxWallPositiveUpperAxes.lean",
+      "project_path": "Compact/Geometry/FullAuxWallPositiveUpperAxes.lean",
+      "bytes": 6216,
+      "sha256": "3641bb71f2b35e87dc5cc6856a4f5f12496ae433c33bb6ee5697bb1afeb69cca"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Geometry/LeftSingletonNegativeWallLongitudinal.lean",
+      "project_path": "Compact/Geometry/LeftSingletonNegativeWallLongitudinal.lean",
+      "bytes": 5874,
+      "sha256": "5f6ec905a3fac113d87f0f87d90b30d0bacc2344907880fb986758d8113c4699"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Geometry/LeftWallTopSeed.lean",
+      "project_path": "Compact/Geometry/LeftWallTopSeed.lean",
+      "bytes": 860,
+      "sha256": "f200b52f36964d0c88c0a1d59252707a7f3531dbe620ad1c1293e9308cd3c436"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Geometry/NegativeCornerRightShiftAxes.lean",
+      "project_path": "Compact/Geometry/NegativeCornerRightShiftAxes.lean",
+      "bytes": 9842,
+      "sha256": "9ec359f0e0a3da3462b4ffe770acccb8d1bdf4647123e9ff77fdfaec7e5abcfe"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Geometry/OuterTopElbowCentralReach.lean",
+      "project_path": "Compact/Geometry/OuterTopElbowCentralReach.lean",
+      "bytes": 10816,
+      "sha256": "294412eb81c99bce17b3bb615a03efd4e574f5c58920139ba1045be2c4f452ea"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Geometry/OuterTopElbowFaces.lean",
+      "project_path": "Compact/Geometry/OuterTopElbowFaces.lean",
+      "bytes": 5925,
+      "sha256": "12c00b779795927eb80bca23e2a6e1d4cdfeaa12693ab95aadf453a807013db3"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Geometry/OuterTopElbowOpposite.lean",
+      "project_path": "Compact/Geometry/OuterTopElbowOpposite.lean",
+      "bytes": 8122,
+      "sha256": "83f479fb57993ee5a179436818b26448f5f329b9d79e2f4f8b4eebc1030d3f69"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Geometry/OuterTopElbowReach.lean",
+      "project_path": "Compact/Geometry/OuterTopElbowReach.lean",
+      "bytes": 5434,
+      "sha256": "66adc4eaff81fb2e80429896f594ac170100e0343825f0943481544ec3cb45a2"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Geometry/OwnedWestNegativeLeft.lean",
+      "project_path": "Compact/Geometry/OwnedWestNegativeLeft.lean",
+      "bytes": 6985,
+      "sha256": "56823f08a7badb75d8791e03057040951ca632d786a7f9f7edaa3865d6d9a1b8"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Geometry/OwnedWestNegativeLeftTilt.lean",
+      "project_path": "Compact/Geometry/OwnedWestNegativeLeftTilt.lean",
+      "bytes": 4701,
+      "sha256": "8b3bc4e839417b4ce9c0c2f51919edb5937e5332f09bdda802412313fea67ef5"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Geometry/PositiveWallNegativeLeftCycle.lean",
+      "project_path": "Compact/Geometry/PositiveWallNegativeLeftCycle.lean",
+      "bytes": 12403,
+      "sha256": "5fc0fd9834dbb33a75503fbea831b62867cce25edcd7a1061ba66abd532f4c41"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Geometry/PositiveWallNegativeLeftMargins.lean",
+      "project_path": "Compact/Geometry/PositiveWallNegativeLeftMargins.lean",
+      "bytes": 8529,
+      "sha256": "216f2be890bea0ca4b2883f12f7073cba1c5237a297153d142508a433c06559d"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Geometry/PositiveWallTransverse.lean",
+      "project_path": "Compact/Geometry/PositiveWallTransverse.lean",
+      "bytes": 5982,
+      "sha256": "17abe6de00c3204445da5f9c563a2234509bfa9824e53f20b89192f1ca0ad5f9"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Geometry/PositiveWallUpperUNegativeLeft.lean",
+      "project_path": "Compact/Geometry/PositiveWallUpperUNegativeLeft.lean",
+      "bytes": 11691,
+      "sha256": "e5d48a92d40c93802d2c8c314b09e741608d111343ced0cc66079267cd2919d2"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Geometry/ReentrantCorridor.lean",
+      "project_path": "Compact/Geometry/ReentrantCorridor.lean",
+      "bytes": 6133,
+      "sha256": "dcba2666d9a02dae57002959fe880a6430626bb53630506a159f495a716e6282"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Geometry/TwoSections.lean",
+      "project_path": "Compact/Geometry/TwoSections.lean",
+      "bytes": 1904,
+      "sha256": "08d8e3f05e47278b5bc3a7031cad45e4e0eeb3548e2d55dea5d8c892bb2eae6f"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Geometry/WallCornerReach.lean",
+      "project_path": "Compact/Geometry/WallCornerReach.lean",
+      "bytes": 4426,
+      "sha256": "6bcc93ed1fc4faef93a832a8b1665375a136ddc933b68b32917933e770043b92"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalCommon/All.lean",
+      "project_path": "Compact/HistoricalCommon/All.lean",
+      "bytes": 5222,
+      "sha256": "7d336ebadd6e1d0cc589e7db19f15f24dd6cfb3e0f29cb825ea318b05dadcc2a"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/BoxPilot.lean",
+      "project_path": "Compact/HistoricalData/BoxPilot.lean",
+      "bytes": 82675,
+      "sha256": "25aca8acf19db3a9d43e7191b808a1a0654493964f88b5d7329f1fa16d9d9042"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/PosesChunks/Part001765.lean",
+      "project_path": "Compact/HistoricalData/PosesChunks/Part001765.lean",
+      "bytes": 138296,
+      "sha256": "9cb429588c498b43f0ee5a8c5088a2db7ff1bffb409bbdd60d9c18028fc13bbd"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/PosesChunks/Part003530.lean",
+      "project_path": "Compact/HistoricalData/PosesChunks/Part003530.lean",
+      "bytes": 134773,
+      "sha256": "909812f1bddc8aa50ebaa019d77fec53879759547229ac7e5cc349c55ce5604c"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/PosesChunks/Part005295.lean",
+      "project_path": "Compact/HistoricalData/PosesChunks/Part005295.lean",
+      "bytes": 143404,
+      "sha256": "292a825869bdaf0561128fcf97495a76073698beee4bcee4fdd070ab88d1538d"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/PosesChunks/Part007059.lean",
+      "project_path": "Compact/HistoricalData/PosesChunks/Part007059.lean",
+      "bytes": 146353,
+      "sha256": "3484bcb3581d93fd24e8d6d4dca1cc1668f2febc99c8d6bdb749d82bc12ddc79"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/PosesChunks/Part008824.lean",
+      "project_path": "Compact/HistoricalData/PosesChunks/Part008824.lean",
+      "bytes": 139790,
+      "sha256": "17053a9a5fbeb7cbbfc757620f129afa5e01742d18252c22961c640095ed3cfb"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/PosesChunks/Part010589.lean",
+      "project_path": "Compact/HistoricalData/PosesChunks/Part010589.lean",
+      "bytes": 150625,
+      "sha256": "e0b6eeaf44bc497aa0b313431f8b110cdf758b41f6ab3896027361edd7d88ace"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/PosesChunks/Part012354.lean",
+      "project_path": "Compact/HistoricalData/PosesChunks/Part012354.lean",
+      "bytes": 155081,
+      "sha256": "92912828b6759a57067df92fb0c162dd2cba318fcfbf5b797ce6106139547589"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/PosesChunks/Part014118.lean",
+      "project_path": "Compact/HistoricalData/PosesChunks/Part014118.lean",
+      "bytes": 196532,
+      "sha256": "264b341f9e1010fd86d3c6f4c810f9c09bc0f7547e801f26566284bcf147700b"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/PosesChunks/Part015883.lean",
+      "project_path": "Compact/HistoricalData/PosesChunks/Part015883.lean",
+      "bytes": 188119,
+      "sha256": "37f325b422a4b740256655942508119d50d95e1e6f915bdfed952ddb9a4c9fa9"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/PosesChunks/Part017648.lean",
+      "project_path": "Compact/HistoricalData/PosesChunks/Part017648.lean",
+      "bytes": 189144,
+      "sha256": "22b37e7c7254338c8d453cb56f24cc6fb2c249154375283eb499cb63a3d18825"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/PosesChunks/Part019413.lean",
+      "project_path": "Compact/HistoricalData/PosesChunks/Part019413.lean",
+      "bytes": 203981,
+      "sha256": "21631e611812014c807dddfcd93f79693d8634fabe99f7361acfbf6764ad1e77"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/PosesChunks/Part021177.lean",
+      "project_path": "Compact/HistoricalData/PosesChunks/Part021177.lean",
+      "bytes": 212284,
+      "sha256": "0f53a7a9bc004db721f61a1abc08d3a32627c201b738c42576aeb1ae6cdc86b0"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/PosesChunks/Part022942.lean",
+      "project_path": "Compact/HistoricalData/PosesChunks/Part022942.lean",
+      "bytes": 205313,
+      "sha256": "270ee6ef856f6a9b936629747a7b9b894ae7e8624aede80b22fadc2d4e4baae6"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/PosesChunks/Part024707.lean",
+      "project_path": "Compact/HistoricalData/PosesChunks/Part024707.lean",
+      "bytes": 173147,
+      "sha256": "96c531f07ac441a4a9d014db2a4a3a7f38f781fed3c209743739009eeaf54509"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/PosesChunks/Part026472.lean",
+      "project_path": "Compact/HistoricalData/PosesChunks/Part026472.lean",
+      "bytes": 173780,
+      "sha256": "7312a43ad3b83ba1c796d3b24579154628427c20a47a075ea46d8af935d11e11"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part001789.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part001789.lean",
+      "bytes": 106793,
+      "sha256": "392f46de53f0397a4917cb232a1b0a563c335cd66e8acd686fa1ba97749d0cc8"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part003578.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part003578.lean",
+      "bytes": 100159,
+      "sha256": "4b39cffc8d79bb6c61fcd9345827ce9074091b21b957c9a46813d4f5dded8b50"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part005367.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part005367.lean",
+      "bytes": 100289,
+      "sha256": "2fffc1105e82286862ab83f927e057a9163bcceb4597dcab3a194d799f0efa70"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part007155.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part007155.lean",
+      "bytes": 105570,
+      "sha256": "1d0eaa2d11a0efdf17fc6a1479cf4523bf615c217153367ba365f52c00d88afc"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part008944.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part008944.lean",
+      "bytes": 106786,
+      "sha256": "8c1891f6f724a91ebb1faeaea74abafec2a55be04a299ff27324c129e3100ea4"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part010732.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part010732.lean",
+      "bytes": 107370,
+      "sha256": "4c6c62f77da7ea37c80ca53e61ce9972d733426898ba010934da5f320507da05"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part012521.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part012521.lean",
+      "bytes": 107204,
+      "sha256": "a6253eb832186809252911301555405a3b3524b9dcd53ec565cc7cdbf1da00ad"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part014309.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part014309.lean",
+      "bytes": 103477,
+      "sha256": "ef46ca5e2ed4d5a3290c22f9121c052547d74de1c7a520df41ce5339c89d0a35"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part016098.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part016098.lean",
+      "bytes": 104975,
+      "sha256": "e1a1d45623300b38261e666c3706ffa65bfbb9d8472d513b0510b990d2fedfa5"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part017886.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part017886.lean",
+      "bytes": 102493,
+      "sha256": "d95c96c8532e5e812257d48df5e29d629a54a1abff916d6a13d070e9146399e0"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part019675.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part019675.lean",
+      "bytes": 107341,
+      "sha256": "57906405e6132e2186c1c18cb9e292b7b78929723b7708d42ac58498946493b5"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part021463.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part021463.lean",
+      "bytes": 107757,
+      "sha256": "5409d100f659e5885fd178738ffe60136f19599d496cebc8247c7be9b1b4ad16"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part023252.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part023252.lean",
+      "bytes": 107603,
+      "sha256": "82e6f7f8b4c67c10d2afb53f64d02f0dd1e4884ff77e5ea7314ec7c2add9017d"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part025040.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part025040.lean",
+      "bytes": 107967,
+      "sha256": "4dea7cedb855ae7f5ef0f77c6c2c90c91d580d50add75e80a38cb9bbd577550f"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part026829.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part026829.lean",
+      "bytes": 104309,
+      "sha256": "fd879e99805d0fa767ec68665c5c446d5cb50224ddd6de54539b805ed4969ed3"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part028617.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part028617.lean",
+      "bytes": 104438,
+      "sha256": "eed0a7e8133b52ce7081ef6fe4772037c53a27cd66ed9dbe6e67165791bb23f8"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part030406.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part030406.lean",
+      "bytes": 102943,
+      "sha256": "17735916772e70b859d832d35c2980e0a31b1155bf0fd2aaf4cf4e2019ae186f"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part032194.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part032194.lean",
+      "bytes": 103328,
+      "sha256": "1cf14942501dad4bf206245dff40c8e1aa38b2d370de43eb56eff8f0b30b5eea"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part033983.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part033983.lean",
+      "bytes": 111476,
+      "sha256": "2c01220507dc65bfcd355e3a764a461265be929150ff6c950cf4593d3721753a"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part035771.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part035771.lean",
+      "bytes": 111682,
+      "sha256": "9a08c977e1a7b8c097921744da400b4c66bbaaf4e0e12c80e32ebfbab7cf3cbb"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part037560.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part037560.lean",
+      "bytes": 111904,
+      "sha256": "055517904bb70a24bc9914c03072f9ab261a628626c39f2473617a4fe5b0e8cf"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part039348.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part039348.lean",
+      "bytes": 111660,
+      "sha256": "417caedbaed3d6658a5ab65b2fe026c703a82a086cf69f603c9ee62453a1ce86"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part041137.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part041137.lean",
+      "bytes": 107737,
+      "sha256": "35e1e93b981880542793b7487b25790dfb02891c37f125daec0e660a1c30c2cb"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part042925.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part042925.lean",
+      "bytes": 106035,
+      "sha256": "b43694839acbdd7bc6873faacd91d1ff97e2badac5b97b00a6518d3d1d18c950"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part044714.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part044714.lean",
+      "bytes": 108506,
+      "sha256": "3d81db9fd8c49daaa5e1053bbf45ed5d06c1014362a8f530e9e374b63a210971"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part046502.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part046502.lean",
+      "bytes": 108220,
+      "sha256": "e652e9ef65288cc881d6eceac19e12ba96eadf3d5a0f6bc600497afc67f0e134"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part048291.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part048291.lean",
+      "bytes": 112551,
+      "sha256": "e9722adf796d4222c9f0d9f386c4fd2f9cb9c262116f322404b59a8a7014004c"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part050079.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part050079.lean",
+      "bytes": 110329,
+      "sha256": "eef3d5c41748d3ac7aa4c274e6983a00f41d5625a5cf20660b4c35bc42d72968"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part051868.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part051868.lean",
+      "bytes": 108099,
+      "sha256": "e0b58e549494f86d82532f8322e614ab4dd683c4ce7523a1fd02299eb7901fff"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part053656.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part053656.lean",
+      "bytes": 107614,
+      "sha256": "2f44c417960f3ce6a063219fe1acbbad6c8cb41a69f32057fdc6bae814640758"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part055445.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part055445.lean",
+      "bytes": 108635,
+      "sha256": "20c8a824b74db806a329c44ac1079431813f5a90d3982187c01dee8d27e66764"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part057233.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part057233.lean",
+      "bytes": 109293,
+      "sha256": "1491fcf7740e790b9090e039581339c0fc742da525e004f42c07b12fd15699c7"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part059022.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part059022.lean",
+      "bytes": 109264,
+      "sha256": "8f7a0c1747c2aced0f09a8723c07a187486926bf116568553c2186d909dc2b71"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part060811.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part060811.lean",
+      "bytes": 110867,
+      "sha256": "194238d8413b0671cec0af34e6e2406fae51a576170cbf00cd15cbaed6e1b811"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part062600.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part062600.lean",
+      "bytes": 108941,
+      "sha256": "fe919f21e1b4d0626e1998c86bf54d73bc312cae90a8671349e7cb4057975014"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part064388.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part064388.lean",
+      "bytes": 116875,
+      "sha256": "1a6977d9e86fc63f79d6c9dc37b5b769acea47350f59e81bdc2eba934bdf73c4"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part066177.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part066177.lean",
+      "bytes": 111565,
+      "sha256": "16a8d57073a37f39d8e345dca8c16f925f6bd500245ac11a50a10585bf3c98a5"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part067965.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part067965.lean",
+      "bytes": 115754,
+      "sha256": "1eb5eb2685c1cf157734e42164095e5de6a0b229de0455b1b235e6e7eeac2951"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part069754.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part069754.lean",
+      "bytes": 106249,
+      "sha256": "f5fe1333cb44e3f5b34b083feb3ad388873c8baf392710e83162c8580641507d"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part071542.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part071542.lean",
+      "bytes": 109270,
+      "sha256": "588a5e204c08c41c600a327d236a2cc7d05eafca3039b936a5892aea8f65fff8"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part073331.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part073331.lean",
+      "bytes": 109972,
+      "sha256": "71f91a37fe44175680fd9dbf5b2e9c870ddcd87ca309def86a1c35eb45debd52"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part075119.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part075119.lean",
+      "bytes": 109370,
+      "sha256": "de6d1b5d2a25f6d334703d5269c43267d58fc1940d73617772bca0166ad364ff"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part076908.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part076908.lean",
+      "bytes": 104979,
+      "sha256": "e4ac953a4470ef98c9cb6506f410fc2183c19c3bcbcc7843bb744e19684d8f0d"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part078696.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part078696.lean",
+      "bytes": 106827,
+      "sha256": "b61be2747e9155ab6f5543eadfd3b6eb4a6a2f94077849dcfbeae61301b82843"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part080485.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part080485.lean",
+      "bytes": 106055,
+      "sha256": "228045f3ce96928f8ba543dfdb45a7b1e42af67b29ee6a1161ce25ccbca3f332"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part082273.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part082273.lean",
+      "bytes": 106167,
+      "sha256": "820b0a4f4ccc49fab1951ccb4f5c4525ce7ff20f165eb0bd721e85d956e6b35c"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part084062.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part084062.lean",
+      "bytes": 115552,
+      "sha256": "04b503fae0b3e99a0de4d1efb57ab2bd735f162cacc79a61eedbe57692482714"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part085850.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part085850.lean",
+      "bytes": 120108,
+      "sha256": "7020d638a89b8cad0479551aa3c145ed453d9f70b1bc1d634bdb2fba8d251b27"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part087639.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part087639.lean",
+      "bytes": 119727,
+      "sha256": "aa7653abfc7a2b085f119af661e2cb4c61ef378826c51444e14106e748e82dbf"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part089427.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part089427.lean",
+      "bytes": 120032,
+      "sha256": "dc5f8990db54091e57982695050cff1e548219222401d3773b403ad3056cd6ee"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part091216.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part091216.lean",
+      "bytes": 119506,
+      "sha256": "e2ca0b75d6ef434a45be99195f4ea4a77cdf0961e90d5c30551681d9f58fe1be"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part093004.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part093004.lean",
+      "bytes": 116653,
+      "sha256": "056d8589d3de009efc4add9a97d67bb8938cb60c8983bd2ebece685632f2cf90"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part094793.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part094793.lean",
+      "bytes": 115252,
+      "sha256": "142b0af0a046990be86012ae0397563c744a610f265b4b0973f29c28a71c75cf"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part096581.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part096581.lean",
+      "bytes": 115943,
+      "sha256": "427973824887718471f5a01037c3776b29861363fd9e3be8df20a9e76d6f9438"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part098370.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part098370.lean",
+      "bytes": 115396,
+      "sha256": "6068cae9bdb50a1ff0fbef5227488579316d93d8304b895f060cf39100693e1e"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part100158.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part100158.lean",
+      "bytes": 116901,
+      "sha256": "d40640cbfa95cfee7ca491661ec0b3025a7553d39ebaf11c4f0a1c3ef4bc3a22"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part101947.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part101947.lean",
+      "bytes": 120580,
+      "sha256": "77436e93050df919f2d6b4df286cf03f18a6b5768ca7a8fd0aebddacf0c964d9"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part103735.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part103735.lean",
+      "bytes": 116108,
+      "sha256": "5ccef1b6856f513104de9e5d6979b61fb11936588cf5ce80b418801c0155ff0c"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part105524.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part105524.lean",
+      "bytes": 119653,
+      "sha256": "30c2f9fdeb4198836dd9f1bded21ced46a81fe62d6e853663014df89e81b726f"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part107312.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part107312.lean",
+      "bytes": 119543,
+      "sha256": "228f66c32ae1bb7780e0dd6d495bcc2596286d52a1fe4700cdc2669ac8805213"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part109101.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part109101.lean",
+      "bytes": 119508,
+      "sha256": "c14303081e42368cb178e302aa1808e67fd3e47a2293e3ff325420fb55ef5019"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part110889.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part110889.lean",
+      "bytes": 116369,
+      "sha256": "9e2460c7c5c618e0500ff2e90c25436b6d0310475e0f804dad73966d8655a38a"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/RowsChunks/Part112678.lean",
+      "project_path": "Compact/HistoricalData/RowsChunks/Part112678.lean",
+      "bytes": 120174,
+      "sha256": "5922d364194bb29f3fa4cf45af2d99ec26e7a2d4110325455aa6ce49ca3d5759"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalData/StripPilot.lean",
+      "project_path": "Compact/HistoricalData/StripPilot.lean",
+      "bytes": 82595,
+      "sha256": "e07b48bc1c5a23ae1242da685fd037fe6cb06d9076bbcbec88e55a74e61e86f2"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalDirectPruning.lean",
+      "project_path": "Compact/HistoricalDirectPruning.lean",
+      "bytes": 418,
+      "sha256": "96fc2ae73fc1b7678fb7db26f8a25935bf7695904e22ad7486dd61b117e9be9d"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalFans/C701_713_717_973_978_979/FusedPilot.lean",
+      "project_path": "Compact/HistoricalFans/C701_713_717_973_978_979/FusedPilot.lean",
+      "bytes": 908,
+      "sha256": "c26b11901d4931ce55f8994757b907887b5e5600ebd404ec9955a2d5a2415098"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalFans/C701_713_717_973_978_979/NamedPilot.lean",
+      "project_path": "Compact/HistoricalFans/C701_713_717_973_978_979/NamedPilot.lean",
+      "bytes": 645,
+      "sha256": "918416453528c0a8296823a6dc4bc27d6524bc7c77dad1018255b263bdd23bd6"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/HistoricalFans/C701_713_717_973_978_979/RecipeBank.lean",
+      "project_path": "Compact/HistoricalFans/C701_713_717_973_978_979/RecipeBank.lean",
+      "bytes": 622,
+      "sha256": "86c19ac3490d63c8ce0936f57ba391acf2f5bcd4fc8ff1bd7b16e9a904c33483"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Preservation/C713.lean",
+      "project_path": "Compact/Preservation/C713.lean",
+      "bytes": 20417,
+      "sha256": "07b32bacefef626db8157d3d7431d9d55a5f38093c1be0d9d70face66d25fdde"
+    },
+    {
+      "path": "projects/n12-refactored/Completion/Cases/C696/CornerReduction.lean",
+      "project_path": "Completion/Cases/C696/CornerReduction.lean",
+      "bytes": 7693,
+      "sha256": "2b723c7469493fb575b6c162b194d84485f5ce4beefdaf977cd388c5f7b09e2a"
+    },
+    {
+      "path": "projects/n12-refactored/Completion/Cases/C696/RootZeroSymmetry.lean",
+      "project_path": "Completion/Cases/C696/RootZeroSymmetry.lean",
+      "bytes": 6688,
+      "sha256": "3a2505c2c7feec0ff1a07b6865d83998a015476e2d4681f2c8f82a65d2265db8"
+    },
+    {
+      "path": "projects/n12-refactored/Completion/Cases/C977/PoseEnclosure.lean",
+      "project_path": "Completion/Cases/C977/PoseEnclosure.lean",
+      "bytes": 3697,
+      "sha256": "2b6cf487790e94ef00b17a78c8ebfaee7e137455d2e407a283fe6c45bf3ad682"
+    }
+  ],
+  "historical_variant_review": "handoff/N12-ARCHIVED-VARIANTS-2026-10-15.json",
+  "branch_archive_map": "handoff/N12-BRANCH-ARCHIVE-2026-10-15.json",
+  "remote_branch_check_timestamp_utc": "2026-10-15T15:54:25.541769+00:00",
+  "active_n12_remote_branches": [
+    "n12"
+  ],
+  "retired_remote_branch_count": 111,
+  "non_n12_remote_branches_verified_unchanged": 10,
+  "original_remote_tags_verified_unchanged": true,
+  "repository_default_branch_unchanged": "main",
+  "published_cleanup_commit": "d39e4a999363645859e99b3f6b2c5e9671f1aec9"
+}

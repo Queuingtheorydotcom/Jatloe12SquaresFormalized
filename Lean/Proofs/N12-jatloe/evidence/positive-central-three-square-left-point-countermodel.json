@@ -1,0 +1,162 @@
+{
+  "scope": "Exact verification of a hand-supplied local O/L/A counterexample; not a twelve-square packing or Lean replay.",
+  "side": "100000001/100000000",
+  "squares": {
+    "O": {
+      "frame": [
+        "39999/40001",
+        "-400/40001",
+        "3963139959999/4000100000000",
+        "31852960/1599999999"
+      ],
+      "unit": true,
+      "contained": true,
+      "markers": [
+        0
+      ],
+      "auxiliary": [
+        2,
+        12
+      ],
+      "required": [
+        {
+          "point": [
+            "28/25",
+            "1"
+          ],
+          "strict": true
+        },
+        {
+          "point": [
+            "87/50",
+            "1"
+          ],
+          "strict": true
+        },
+        {
+          "point": [
+            "187/100",
+            "19/25"
+          ],
+          "strict": true
+        }
+      ],
+      "corner": false,
+      "center": false,
+      "left_point": false
+    },
+    "L": {
+      "frame": [
+        "1",
+        "0",
+        "0",
+        "23/25"
+      ],
+      "unit": true,
+      "contained": true,
+      "markers": [
+        1
+      ],
+      "auxiliary": [
+        0,
+        10
+      ],
+      "required": [
+        {
+          "point": [
+            "1",
+            "1"
+          ],
+          "strict": true
+        },
+        {
+          "point": [
+            "1",
+            "28/25"
+          ],
+          "strict": true
+        },
+        {
+          "point": [
+            "1",
+            "87/50"
+          ],
+          "strict": true
+        },
+        {
+          "point": [
+            "19/25",
+            "187/100"
+          ],
+          "strict": true
+        }
+      ],
+      "corner": true,
+      "center": false,
+      "left_point": false
+    },
+    "A": {
+      "frame": [
+        "1591/1609",
+        "240/1609",
+        "205299998391/160900000000",
+        "133299998391/160900000000"
+      ],
+      "unit": true,
+      "contained": true,
+      "markers": [
+        8
+      ],
+      "auxiliary": [
+        4,
+        13
+      ],
+      "required": [
+        {
+          "point": [
+            "2",
+            "3/2"
+          ],
+          "strict": true
+        },
+        {
+          "point": [
+            "3/2",
+            "2"
+          ],
+          "strict": true
+        }
+      ],
+      "corner": false,
+      "center": false,
+      "left_point": false
+    }
+  },
+  "separators": {
+    "OL": [
+      {
+        "frame": "first",
+        "axis": "U",
+        "direction": "second-before-first",
+        "gap": "499/50001250"
+      }
+    ],
+    "OA": [
+      {
+        "frame": "first",
+        "axis": "V",
+        "direction": "first-before-second",
+        "gap": "194789047932405733201/207110479870555950000000"
+      }
+    ],
+    "LA": [
+      {
+        "frame": "second",
+        "axis": "U",
+        "direction": "first-before-second",
+        "gap": "1499957/2011250000"
+      }
+    ]
+  },
+  "full_local_claim_refuted": true
+}

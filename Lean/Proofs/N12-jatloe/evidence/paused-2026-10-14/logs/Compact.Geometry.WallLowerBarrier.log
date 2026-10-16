@@ -1,0 +1,1 @@
+'N12Compact.WallLowerBarrier.left_positive_point' depends on axioms: [propext, Classical.choice, Quot.sound]

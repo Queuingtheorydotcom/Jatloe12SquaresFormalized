@@ -1,0 +1,26 @@
+/Users/macintosh/Documents/Codex/2026-10-13/plz/work/ben-continuation/projects/n12-refactored/Compact/Completion/C981/OppositeOffset.lean:36:5: error: unknown tactic
+/Users/macintosh/Documents/Codex/2026-10-13/plz/work/ben-continuation/projects/n12-refactored/Compact/Completion/C981/OppositeOffset.lean:35:36: error: unsolved goals
+c s : ℝ
+hc : 0 < c
+hs : 0 ≤ s
+unit : c ^ 2 + s ^ 2 = 1
+wide : 50 / 37 < c + s
+bounds : 23 / 50 < c ∧ 23 / 50 < s
+cOne : c ≤ 1
+sOne : s ≤ 1
+⊢ (1 + c) * (17 / 500 * c + 13 / 50 * s ^ 2 - (1 - c) * (1 - s)) =
+    (1 + c) * (17 / 500 * c - 1 / 25 * s ^ 2) + s ^ 2 * (3 / 10 * (1 + c) - (1 - s))
+/Users/macintosh/Documents/Codex/2026-10-13/plz/work/ben-continuation/projects/n12-refactored/Compact/Completion/C981/OppositeOffset.lean:29:46: error: unsolved goals
+c s : ℝ
+hc : 0 < c
+hs : 0 ≤ s
+unit : c ^ 2 + s ^ 2 = 1
+wide : 50 / 37 < c + s
+bounds : 23 / 50 < c ∧ 23 / 50 < s
+cOne : c ≤ 1
+sOne : s ≤ 1
+identity :
+  (1 + c) * (17 / 500 * c + 13 / 50 * s ^ 2 - (1 - c) * (1 - s)) =
+    (1 + c) * (17 / 500 * c - 1 / 25 * s ^ 2) + s ^ 2 * (3 / 10 * (1 + c) - (1 - s))
+⊢ 0 < 17 / 500 * c + 13 / 50 * s ^ 2 - (1 - c) * (1 - s)
+'N12Compact.C981CompletionOppositeOffset.bounds' depends on axioms: [propext, sorryAx, Classical.choice, Quot.sound]

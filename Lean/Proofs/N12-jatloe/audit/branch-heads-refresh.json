@@ -1,0 +1,165 @@
+{
+  "queried_at_utc": "2026-10-11T02:53:46.627Z",
+  "branches": [
+    {
+      "name": "codex/complete-twelve-squares",
+      "commit": {
+        "sha": "c5c6144349a141e56ac43c81ed732f731c591eac",
+        "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/commits/c5c6144349a141e56ac43c81ed732f731c591eac"
+      },
+      "protected": false
+    },
+    {
+      "name": "codex/fix-canonical-axiom-reports",
+      "commit": {
+        "sha": "1bf942a7af1ea330e95489d8997deebd4227ca71",
+        "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/commits/1bf942a7af1ea330e95489d8997deebd4227ca71"
+      },
+      "protected": false
+    },
+    {
+      "name": "codex/global-uniqueness",
+      "commit": {
+        "sha": "47749e8dcda1f0459ad4d39bc6fa6f72af680c5d",
+        "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/commits/47749e8dcda1f0459ad4d39bc6fa6f72af680c5d"
+      },
+      "protected": false
+    },
+    {
+      "name": "codex/native-numerical-certificates-20261004",
+      "commit": {
+        "sha": "de8bbbdfd5b3d1321212fe105a8b1b1ebb5db92f",
+        "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/commits/de8bbbdfd5b3d1321212fe105a8b1b1ebb5db92f"
+      },
+      "protected": false
+    },
+    {
+      "name": "feat/n11-comparator",
+      "commit": {
+        "sha": "60c9d0709fb72fabfdb4a88e6d7c6619e1fdb49d",
+        "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/commits/60c9d0709fb72fabfdb4a88e6d7c6619e1fdb49d"
+      },
+      "protected": false
+    },
+    {
+      "name": "main",
+      "commit": {
+        "sha": "1a6d67e01b99f900fb8c7f2ff7994c9d60eb7828",
+        "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/commits/1a6d67e01b99f900fb8c7f2ff7994c9d60eb7828"
+      },
+      "protected": false
+    },
+    {
+      "name": "n12-coordination",
+      "commit": {
+        "sha": "730e829b6dd7d032cc8b03fa5d04646fe2958b62",
+        "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/commits/730e829b6dd7d032cc8b03fa5d04646fe2958b62"
+      },
+      "protected": false
+    },
+    {
+      "name": "n12/c1089-app-draft-20261009",
+      "commit": {
+        "sha": "f1d927c914bbaf915bfa979c16c1a07ecbd2f8f0",
+        "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/commits/f1d927c914bbaf915bfa979c16c1a07ecbd2f8f0"
+      },
+      "protected": false
+    },
+    {
+      "name": "n12/formalize-normalization",
+      "commit": {
+        "sha": "44f32f60ebfbdf7ae7fa932da369dcb5f81fa49b",
+        "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/commits/44f32f60ebfbdf7ae7fa932da369dcb5f81fa49b"
+      },
+      "protected": false
+    },
+    {
+      "name": "n12/lean-4.19",
+      "commit": {
+        "sha": "e122bc2b9329da8057ca208343436a380ab97c59",
+        "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/commits/e122bc2b9329da8057ca208343436a380ab97c59"
+      },
+      "protected": false
+    },
+    {
+      "name": "n12/ledger-4.19",
+      "commit": {
+        "sha": "2f2dad9fa6e81f69dca0f9b9cd4d54bc5e9b0471",
+        "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/commits/2f2dad9fa6e81f69dca0f9b9cd4d54bc5e9b0471"
+      },
+      "protected": false
+    },
+    {
+      "name": "n12/worker-ben-c696-row-20261010",
+      "commit": {
+        "sha": "efa9c88582b9ab86b2e8c314028ba920da7c3757",
+        "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/commits/efa9c88582b9ab86b2e8c314028ba920da7c3757"
+      },
+      "protected": false
+    },
+    {
+      "name": "n12/worker-ben-c1090-route-preservation-20261010",
+      "commit": {
+        "sha": "80220fca8a8ca90f4df2c3aea8cf7468dc1285cb",
+        "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/commits/80220fca8a8ca90f4df2c3aea8cf7468dc1285cb"
+      },
+      "protected": false
+    },
+    {
+      "name": "n12/worker-ben-codex-20261008",
+      "commit": {
+        "sha": "672f72ef1761bdefad978eeefa3524fc513dc09c",
+        "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/commits/672f72ef1761bdefad978eeefa3524fc513dc09c"
+      },
+      "protected": false
+    },
+    {
+      "name": "n12/worker-codex-898-20261008",
+      "commit": {
+        "sha": "af965a97a388eb7d6a4720e74f6068a4c57e3e47",
+        "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/commits/af965a97a388eb7d6a4720e74f6068a4c57e3e47"
+      },
+      "protected": false
+    },
+    {
+      "name": "n12/worker-codex-976-20261009",
+      "commit": {
+        "sha": "e521280b37b39610d830a421d83f29b3702009ae",
+        "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/commits/e521280b37b39610d830a421d83f29b3702009ae"
+      },
+      "protected": false
+    },
+    {
+      "name": "n12/worker-codex-c977-20261010",
+      "commit": {
+        "sha": "cbe674ec39981107208d84d4c15eb29754fe897e",
+        "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/commits/cbe674ec39981107208d84d4c15eb29754fe897e"
+      },
+      "protected": false
+    },
+    {
+      "name": "recovery/n12-lean-september-2026",
+      "commit": {
+        "sha": "98ddf88a36d0a227d1a94e1c7e0ed64d1c840de8",
+        "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/commits/98ddf88a36d0a227d1a94e1c7e0ed64d1c840de8"
+      },
+      "protected": false
+    },
+    {
+      "name": "refactor/squares-library",
+      "commit": {
+        "sha": "04a6f6b9cb91a2ee25bf78c4a7b15a9b2712b201",
+        "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/commits/04a6f6b9cb91a2ee25bf78c4a7b15a9b2712b201"
+      },
+      "protected": false
+    },
+    {
+      "name": "style/comparator-lean",
+      "commit": {
+        "sha": "e2f3d563ad63cc2280b542f80437cdfdd63e9458",
+        "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/commits/e2f3d563ad63cc2280b542f80437cdfdd63e9458"
+      },
+      "protected": false
+    }
+  ]
+}

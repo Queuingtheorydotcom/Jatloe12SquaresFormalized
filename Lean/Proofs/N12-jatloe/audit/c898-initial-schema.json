@@ -1,0 +1,26 @@
+{
+  "owners": 11,
+  "roots": 704,
+  "nodes": {
+    "cut": 14088,
+    "empty": 10149,
+    "leaf": 1121,
+    "forbidden": 3522
+  },
+  "empty_certificate_arities": {
+    "4": 5656,
+    "3": 4493
+  },
+  "unique_exact_row_encodings": 23432,
+  "unique_empty_certificate_encodings": 9911,
+  "weight_occurrences": 64279,
+  "distinct_weights": 21155,
+  "forbidden_nodes": 3522,
+  "forbidden_direct_candidate_count": 3522,
+  "initial_surviving_leaves": 1121,
+  "scope": "Initial owner cover only, not the subsequent propagation or whole-case exclusion",
+  "forbidden_ancestor_membership": {
+    "forbidden": 3522,
+    "all_block_rows_are_ancestor_positive_tests": 3522
+  }
+}

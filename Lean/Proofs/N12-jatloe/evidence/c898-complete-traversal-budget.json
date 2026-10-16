@@ -1,0 +1,7 @@
+{
+  "root": "Compact.Cases.C898.Complete",
+  "modules": 266,
+  "bytes": 16877527,
+  "lines": 164526,
+  "validation": "Source dependency closure only; whole C898 Lean replay is pending."
+}

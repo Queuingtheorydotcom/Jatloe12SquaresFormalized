@@ -1,0 +1,1 @@
+'S12.vertex_overlap_extends' depends on axioms: [propext, Classical.choice, Quot.sound]

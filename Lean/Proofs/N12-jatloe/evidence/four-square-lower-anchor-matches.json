@@ -1,0 +1,906 @@
+{
+  "scope": "Exact rational point matching only. Recorded hull and outside facts still require their original packing entrance proofs. No numerical propagation or Lean compilation is performed.",
+  "coordinate_scale": 1000,
+  "seconds": 0.147,
+  "right_anchor_height": "113/50",
+  "peak_rss_bytes_macos": 19922944,
+  "requested_cases": 76,
+  "missing_inputs": [
+    84,
+    982
+  ],
+  "matches": [
+    {
+      "case": 445,
+      "transform": [
+        false,
+        false,
+        false
+      ],
+      "owners": [
+        6,
+        7,
+        8,
+        10
+      ],
+      "right_barrier": "lower",
+      "gaps": [],
+      "interpolated_positive": []
+    },
+    {
+      "case": 454,
+      "transform": [
+        false,
+        false,
+        false
+      ],
+      "owners": [
+        6,
+        7,
+        8,
+        10
+      ],
+      "right_barrier": "lower",
+      "gaps": [],
+      "interpolated_positive": []
+    },
+    {
+      "case": 577,
+      "transform": [
+        false,
+        false,
+        false
+      ],
+      "owners": [
+        6,
+        7,
+        8,
+        10
+      ],
+      "right_barrier": "lower",
+      "gaps": [],
+      "interpolated_positive": []
+    },
+    {
+      "case": 585,
+      "transform": [
+        false,
+        false,
+        false
+      ],
+      "owners": [
+        6,
+        7,
+        8,
+        10
+      ],
+      "right_barrier": "lower",
+      "gaps": [],
+      "interpolated_positive": []
+    },
+    {
+      "case": 862,
+      "transform": [
+        false,
+        false,
+        false
+      ],
+      "owners": [
+        11,
+        7,
+        8,
+        10
+      ],
+      "right_barrier": "lower",
+      "gaps": [],
+      "interpolated_positive": []
+    },
+    {
+      "case": 864,
+      "transform": [
+        false,
+        false,
+        false
+      ],
+      "owners": [
+        11,
+        7,
+        8,
+        10
+      ],
+      "right_barrier": "lower",
+      "gaps": [],
+      "interpolated_positive": [
+        {
+          "role": "R",
+          "point": [
+            3000,
+            2260
+          ],
+          "hull": [
+            [
+              3000,
+              2250
+            ],
+            [
+              3086,
+              2000
+            ],
+            [
+              3086,
+              3000
+            ],
+            [
+              3000,
+              2750
+            ]
+          ],
+          "weights": [
+            [
+              0,
+              "49/50"
+            ],
+            [
+              3,
+              "1/50"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "case": 992,
+      "transform": [
+        false,
+        false,
+        false
+      ],
+      "owners": [
+        6,
+        7,
+        8,
+        10
+      ],
+      "right_barrier": "lower",
+      "gaps": [],
+      "interpolated_positive": [
+        {
+          "role": "L",
+          "point": [
+            1000,
+            2400
+          ],
+          "hull": [
+            [
+              914,
+              2000
+            ],
+            [
+              1000,
+              2250
+            ],
+            [
+              1000,
+              3086
+            ],
+            [
+              914,
+              3000
+            ]
+          ],
+          "weights": [
+            [
+              1,
+              "343/418"
+            ],
+            [
+              2,
+              "75/418"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "case": 995,
+      "transform": [
+        true,
+        false,
+        false
+      ],
+      "owners": [
+        6,
+        5,
+        9,
+        11
+      ],
+      "right_barrier": "lower",
+      "gaps": [],
+      "interpolated_positive": []
+    },
+    {
+      "case": 998,
+      "transform": [
+        false,
+        false,
+        false
+      ],
+      "owners": [
+        6,
+        7,
+        8,
+        10
+      ],
+      "right_barrier": "lower",
+      "gaps": [],
+      "interpolated_positive": []
+    },
+    {
+      "case": 1001,
+      "transform": [
+        false,
+        false,
+        false
+      ],
+      "owners": [
+        6,
+        7,
+        8,
+        10
+      ],
+      "right_barrier": "lower",
+      "gaps": [],
+      "interpolated_positive": []
+    },
+    {
+      "case": 1002,
+      "transform": [
+        false,
+        false,
+        false
+      ],
+      "owners": [
+        6,
+        7,
+        8,
+        10
+      ],
+      "right_barrier": "lower",
+      "gaps": [],
+      "interpolated_positive": [
+        {
+          "role": "R",
+          "point": [
+            3000,
+            2260
+          ],
+          "hull": [
+            [
+              3000,
+              2250
+            ],
+            [
+              3086,
+              2000
+            ],
+            [
+              3086,
+              3000
+            ],
+            [
+              3000,
+              2750
+            ]
+          ],
+          "weights": [
+            [
+              0,
+              "49/50"
+            ],
+            [
+              3,
+              "1/50"
+            ]
+          ]
+        }
+      ]
+    }
+  ],
+  "near": [
+    {
+      "case": 78,
+      "transform": [
+        false,
+        false,
+        false
+      ],
+      "owners": [
+        6,
+        7,
+        8,
+        10
+      ],
+      "right_barrier": "lower",
+      "gaps": [
+        {
+          "role": "A",
+          "point": [
+            2350,
+            1650
+          ]
+        }
+      ],
+      "interpolated_positive": []
+    },
+    {
+      "case": 841,
+      "transform": [
+        false,
+        false,
+        false
+      ],
+      "owners": [
+        7,
+        8,
+        9,
+        11
+      ],
+      "right_barrier": "lower",
+      "gaps": [
+        {
+          "role": "B",
+          "point": [
+            2000,
+            3086
+          ]
+        }
+      ],
+      "interpolated_positive": []
+    },
+    {
+      "case": 842,
+      "transform": [
+        false,
+        false,
+        false
+      ],
+      "owners": [
+        7,
+        8,
+        9,
+        11
+      ],
+      "right_barrier": "lower",
+      "gaps": [
+        {
+          "role": "B",
+          "point": [
+            2000,
+            3086
+          ]
+        }
+      ],
+      "interpolated_positive": [
+        {
+          "role": "R",
+          "point": [
+            3000,
+            2260
+          ],
+          "hull": [
+            [
+              3000,
+              2250
+            ],
+            [
+              3086,
+              2000
+            ],
+            [
+              3086,
+              3000
+            ],
+            [
+              3000,
+              2750
+            ]
+          ],
+          "weights": [
+            [
+              0,
+              "49/50"
+            ],
+            [
+              3,
+              "1/50"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "case": 849,
+      "transform": [
+        false,
+        false,
+        false
+      ],
+      "owners": [
+        7,
+        11,
+        8,
+        10
+      ],
+      "right_barrier": "lower",
+      "gaps": [
+        {
+          "role": "B",
+          "point": [
+            2000,
+            3086
+          ]
+        }
+      ],
+      "interpolated_positive": [
+        {
+          "role": "B",
+          "point": [
+            1740,
+            3000
+          ],
+          "hull": [
+            [
+              1600,
+              3000
+            ],
+            [
+              1650,
+              2350
+            ],
+            [
+              2000,
+              3086
+            ]
+          ],
+          "weights": [
+            [
+              0,
+              "8063/13215"
+            ],
+            [
+              1,
+              "602/13215"
+            ],
+            [
+              2,
+              "910/2643"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "case": 851,
+      "transform": [
+        false,
+        false,
+        false
+      ],
+      "owners": [
+        7,
+        11,
+        8,
+        10
+      ],
+      "right_barrier": "lower",
+      "gaps": [
+        {
+          "role": "B",
+          "point": [
+            2000,
+            3086
+          ]
+        }
+      ],
+      "interpolated_positive": [
+        {
+          "role": "B",
+          "point": [
+            1740,
+            3000
+          ],
+          "hull": [
+            [
+              1600,
+              3000
+            ],
+            [
+              1650,
+              2350
+            ],
+            [
+              2000,
+              3086
+            ]
+          ],
+          "weights": [
+            [
+              0,
+              "8063/13215"
+            ],
+            [
+              1,
+              "602/13215"
+            ],
+            [
+              2,
+              "910/2643"
+            ]
+          ]
+        },
+        {
+          "role": "R",
+          "point": [
+            3000,
+            2260
+          ],
+          "hull": [
+            [
+              3000,
+              2250
+            ],
+            [
+              3086,
+              2000
+            ],
+            [
+              3086,
+              3000
+            ],
+            [
+              3000,
+              2750
+            ]
+          ],
+          "weights": [
+            [
+              0,
+              "49/50"
+            ],
+            [
+              3,
+              "1/50"
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "case": 997,
+      "transform": [
+        true,
+        false,
+        false
+      ],
+      "owners": [
+        6,
+        5,
+        9,
+        11
+      ],
+      "right_barrier": "missing",
+      "gaps": [
+        {
+          "role": "R",
+          "point": [
+            1870,
+            3240
+          ],
+          "alternative": [
+            1740,
+            3000
+          ]
+        }
+      ],
+      "interpolated_positive": []
+    }
+  ],
+  "input_files": [
+    {
+      "path": "evidence/historical/data/case48-input.json",
+      "sha256": "519ded0ad7f16e55a1b8ee89252afcc0e21e7e5064da76bd3a82fe143d6dc6df"
+    },
+    {
+      "path": "evidence/historical/data/case71-input.json",
+      "sha256": "8897777227a4eb73faa205dee387c94de73a43afc08648ac27d9183b9f0ffc07"
+    },
+    {
+      "path": "evidence/historical/data/case78-input.json",
+      "sha256": "02805f8e7c0d8f3a2897836c604e6414e473d430fabf8725cf30887b41660ad8"
+    },
+    {
+      "path": "evidence/historical/data/case80-input.json",
+      "sha256": "1ba7df09b226795a5ed0eddc0115150fec7e8d790a0e666c13fd190c994b59b7"
+    },
+    {
+      "path": "evidence/historical/data/case445-input.json",
+      "sha256": "873b35cbbd32021af1c72b711bfb7d08513735fb49c4e4a1312b726283222818"
+    },
+    {
+      "path": "evidence/historical/data/case454-input.json",
+      "sha256": "403daf3f247806a949d69d825e3c2653ad8b13c34c5304f7efcfd7dcd932ee75"
+    },
+    {
+      "path": "evidence/historical/data/case573-input.json",
+      "sha256": "334fd66b438d1464aa34c35e0dd3edacd42e44a01e320943348ae90d744194b8"
+    },
+    {
+      "path": "evidence/historical/data/case574-input.json",
+      "sha256": "836d5bb554001bd854ea3cc4a667ac4eb8b0a207ecf9acfaa5ab0bab1469137a"
+    },
+    {
+      "path": "evidence/historical/data/case577-input.json",
+      "sha256": "42dd88c9aac9dd8cee9f9b2e2954e81ed3779d7f766001a8ad074ea220e4eb9a"
+    },
+    {
+      "path": "evidence/historical/data/case580-input.json",
+      "sha256": "197b6b9312c5fbbf301c9a5bca7605519f6d4f77f394ed732a8a230bf6db9d36"
+    },
+    {
+      "path": "evidence/historical/data/case581-input.json",
+      "sha256": "926f7a60ae2600e966b527a302a3258bae1ede2a98e4559c872871abb12e20c8"
+    },
+    {
+      "path": "evidence/historical/data/case585-input.json",
+      "sha256": "539319e71a27736f641f621b79d83007642881a228cc44e137a94f69d2d6eb69"
+    },
+    {
+      "path": "evidence/historical/data/case589-input.json",
+      "sha256": "83684fad448f47218008ab10c544ca6ae66be496aea2c1322ccb7c6e4050321e"
+    },
+    {
+      "path": "evidence/historical/data/case590-input.json",
+      "sha256": "1669739ab2b7cca7b4449eeb12f6390a004e8a41c980de188de48b43e7f1ba53"
+    },
+    {
+      "path": "evidence/historical/data/case669-input.json",
+      "sha256": "7e2f9eeab7a471ac3f24adc3a3acc00b0dcb3b8a888efeed962d86eca05d4a54"
+    },
+    {
+      "path": "evidence/historical/data/case670-input.json",
+      "sha256": "27543e3ecfc983a66b25b551bdeb8a84f41a387a4bbb6d53debc651132f7e2a9"
+    },
+    {
+      "path": "evidence/historical/data/case673-input.json",
+      "sha256": "ebcf3d594c2d9706bf1682b7d6a08d05127b169b4cccb0d625430a777244a655"
+    },
+    {
+      "path": "evidence/historical/data/case674-input.json",
+      "sha256": "2ebdddd52404679795310f53f4421525a30fc429423e4c7cfeb55c746225318d"
+    },
+    {
+      "path": "evidence/historical/data/case675-input.json",
+      "sha256": "dbbbc7ff99b8223fd860875c008622177238a16599e398366313922f54cca0e6"
+    },
+    {
+      "path": "evidence/historical/data/case678-input.json",
+      "sha256": "b8a7d96995c54bdd5e8ae7543ad5c31c7c4134bc065d08327d826f4814cea668"
+    },
+    {
+      "path": "evidence/historical/data/case680-input.json",
+      "sha256": "cfec2d7fe27463976d4146110bcf65e7d965753afdff2df01ee3c2547fba7cbd"
+    },
+    {
+      "path": "evidence/historical/data/case683-input.json",
+      "sha256": "9a6724f814302776a71a14fa50963264003d56b094af483f47d539c44ef630fc"
+    },
+    {
+      "path": "evidence/historical/data/case684-input.json",
+      "sha256": "5f2e5fc4c6a254bd56c347a5f84e36c026940d9141df83db4d7d4130ced7f20e"
+    },
+    {
+      "path": "evidence/historical/data/case690-input.json",
+      "sha256": "9e85d00a4f1746154ed9655af2a95c7ab712f319c6650bca64404b5ca9fda0ab"
+    },
+    {
+      "path": "evidence/historical/data/case691-input.json",
+      "sha256": "da96a1d2abb9a286d670e51525f5c0ee94c68bfcaa3ba618a00fb22c8422b1e6"
+    },
+    {
+      "path": "evidence/historical/data/case694-input.json",
+      "sha256": "61c9481545c4c3f6e00dd2b5a7f3381df386f15228ed16b717c8ac8ff9443387"
+    },
+    {
+      "path": "evidence/historical/data/case697-input.json",
+      "sha256": "d7de5745965bed231af627169977e3879b26be484b5e17459aaaa3544dcb65fc"
+    },
+    {
+      "path": "evidence/historical/data/case698-input.json",
+      "sha256": "51dde2950ccb9620f9aa03de77265bd5864b7756213c10944a721f3b647c0612"
+    },
+    {
+      "path": "evidence/historical/data/case699-input.json",
+      "sha256": "f87066f3bdb19112feeb65a4c1c83eaeb801774afd9b0f2030742db876c05b69"
+    },
+    {
+      "path": "evidence/historical/data/case700-input.json",
+      "sha256": "13bcef0e4e90bcd07adee2d41152860103c131e96f73ebe42fce5fb512c3f5d2"
+    },
+    {
+      "path": "evidence/historical/data/case702-input.json",
+      "sha256": "28f542e7129247bd4860c5db21f848554b87acdb6a2eafeb42e9a1fc529eca68"
+    },
+    {
+      "path": "evidence/historical/data/case705-input.json",
+      "sha256": "25fedb3beb2152767cafe9a38bb89503be77b6230af27db065ff1fad7ad0ccba"
+    },
+    {
+      "path": "evidence/historical/data/case711-input.json",
+      "sha256": "00af897c9d1a6fdb36ade930894fca21e2a656a19e76953a0a850fb1ec3afdac"
+    },
+    {
+      "path": "evidence/historical/data/case715-input.json",
+      "sha256": "bf3bf8f778e995d4656c51ab42d0c23c1e6b9fb73e87314a8c7f7208cda14b78"
+    },
+    {
+      "path": "evidence/historical/data/case716-input.json",
+      "sha256": "f0a3500b55cb15e5eb58c42766b2ce4763cb52d0db50a5723b46660336afded6"
+    },
+    {
+      "path": "evidence/historical/data/case841-input.json",
+      "sha256": "e22f6e7d2ea8f982f5dbf1ec932ca7bd99447b5e03324fe5e2f92936b269ebc8"
+    },
+    {
+      "path": "evidence/historical/data/case842-input.json",
+      "sha256": "c9a2e25537640614e6ad5e04e4a6db1277aa3d8c0e308a6fd3937ba938952922"
+    },
+    {
+      "path": "evidence/historical/data/case846-input.json",
+      "sha256": "21c0fed117423a71d31f2039f4aba9e15e1ec0c0f70a66153d692e1efdc0d8df"
+    },
+    {
+      "path": "evidence/historical/data/case847-input.json",
+      "sha256": "704e4092c7fe210b1dedc47ad47b3c04be8bedf8f1446ec3c78ce2adfa54da87"
+    },
+    {
+      "path": "evidence/historical/data/case848-input.json",
+      "sha256": "6345de06dbffad7a6fc3cb628d56b44f92fda9fc7a3403c7968c55a4bb0c3813"
+    },
+    {
+      "path": "evidence/historical/data/case849-input.json",
+      "sha256": "215cead7f59eaa6d110b94c0586ca0c2a530286c7dfa2b16b49cccea9de3b875"
+    },
+    {
+      "path": "evidence/historical/data/case850-input.json",
+      "sha256": "344dbba1429179f11f139f48d8df90e988b18c36a8d4c475a6c62a4b71fe5d72"
+    },
+    {
+      "path": "evidence/historical/data/case851-input.json",
+      "sha256": "39309e85a4cfbe512cf3e92893d9f5feab1fea02caf774f26cec8c34a37ad8eb"
+    },
+    {
+      "path": "evidence/historical/data/case852-input.json",
+      "sha256": "f10e5d1fce52a3ec21e8673ab3c04ec128d9aacef88fb5e5feee4942053465c1"
+    },
+    {
+      "path": "evidence/historical/data/case853-input.json",
+      "sha256": "6e10a72c13b03e16380fe764f4e8cbdd944c7c26d6392119b7511c96c2416264"
+    },
+    {
+      "path": "evidence/historical/data/case862-input.json",
+      "sha256": "725fdffd0fbaa115c6a7bbd56760519b87fae875298e2f1cee6032f1ed33ea94"
+    },
+    {
+      "path": "evidence/historical/data/case864-input.json",
+      "sha256": "85be773460160f7397e8fcfdd824546c71c18dc11000a3f5af86dc4d524ef517"
+    },
+    {
+      "path": "evidence/historical/data/case867-input.json",
+      "sha256": "a508465a5c153f07da01edff0f41010dc063ec4e53819bbaeac638e24c372a10"
+    },
+    {
+      "path": "evidence/historical/data/case868-input.json",
+      "sha256": "ce2a8fe7dd8004bdc049f6fae1833ec578f1ccbce619ca928cb9451c405c4fa4"
+    },
+    {
+      "path": "evidence/historical/data/case882-input.json",
+      "sha256": "b6f55db72b0a57ce3ecdd39c24c6fa8aa2ed89b5c544a9854abf8131f4a297f6"
+    },
+    {
+      "path": "evidence/historical/data/case886-input.json",
+      "sha256": "e5c6851104287f4c76a1f25fd615aab3a90337e42c3835eeb475071b84666310"
+    },
+    {
+      "path": "evidence/historical/data/case887-input.json",
+      "sha256": "e9626b36d526ceaaac3131c7ab0cb07b1e7a45efae8b30fc425b79be40f261cc"
+    },
+    {
+      "path": "evidence/historical/data/case888-input.json",
+      "sha256": "3a97cadbb4d20beda0417e10098fdba5277e33b81661ee0634259df3d5c2bf0a"
+    },
+    {
+      "path": "evidence/historical/data/case889-input.json",
+      "sha256": "3e587475036d878390e933cf98b60a2da9adb3c205efd3b36d6b2e9d61730a09"
+    },
+    {
+      "path": "evidence/historical/data/case890-input.json",
+      "sha256": "f8aca26f58299be680e7a38079764a3a1c720dae9ebc69f17fe074acd83d7144"
+    },
+    {
+      "path": "evidence/historical/data/case893-input.json",
+      "sha256": "e803af1419ea04b517f00dcb20c1c6ff1a9b01fad15f9df3b066e94035a83f4e"
+    },
+    {
+      "path": "evidence/historical/data/case896-input.json",
+      "sha256": "aef06e7f560c4eae2424956f0fb798f8fff616b76ecc89e1b8ff18773f9cf946"
+    },
+    {
+      "path": "evidence/historical/data/case972-input.json",
+      "sha256": "66bd82d7196335b95d1475e2f1607cf8a8f31ddb19487e4428f77ebb00dc536e"
+    },
+    {
+      "path": "evidence/historical/data/case975-input.json",
+      "sha256": "7c6a91d2e92abfdd3455fd5a1276da7893d9adfb1a05ff64d66c09406c333ccf"
+    },
+    {
+      "path": "evidence/historical/data/case992-input.json",
+      "sha256": "60b406fa77dc54731cc818b0f1581b4bc1456652179e47df23164baf6e871ad3"
+    },
+    {
+      "path": "evidence/historical/data/case995-input.json",
+      "sha256": "78b943363336d724618c4e8acf6dcb24374e141bf555f192eb591447111bb9b4"
+    },
+    {
+      "path": "evidence/historical/data/case997-input.json",
+      "sha256": "815ab322dd990b3010708b1de111a8ab6e5483a781d7065ec6a5c3608de3e7e4"
+    },
+    {
+      "path": "evidence/historical/data/case998-input.json",
+      "sha256": "57e77e288fc9e10580f0c0e9114680065588560ff3afe80df72667d927af170a"
+    },
+    {
+      "path": "evidence/historical/data/case1001-input.json",
+      "sha256": "ad53b290ca2b6d3a33cf4207de2bc7783695ea4f4ab83b4dec25615e96852b8a"
+    },
+    {
+      "path": "evidence/historical/data/case1002-input.json",
+      "sha256": "dc7784de0ee8701ac27c6cf5410f69641ea0012b6a8518cdfb9bff65bf25e3fa"
+    },
+    {
+      "path": "evidence/historical/data/case1072-input.json",
+      "sha256": "4a2731179f1d3369dfe3c20f46df203ac25414972682f08ae94fe7af78eeba67"
+    },
+    {
+      "path": "evidence/historical/data/case1073-input.json",
+      "sha256": "e80f09222838ef209b6fd946a57f5455c6caa2c2ae41529fda4f8bceeb731022"
+    },
+    {
+      "path": "evidence/historical/data/case1074-input.json",
+      "sha256": "61f014a29b7d6b103319d968f25688fa552e291ca1bad94d4eb04749b630e0e9"
+    },
+    {
+      "path": "evidence/historical/data/case1075-input.json",
+      "sha256": "39135928d5be358f4175fde71a0d6ef0eb99ac100d150b1ab3a5cb7aa8ad5515"
+    },
+    {
+      "path": "evidence/historical/data/case1077-input.json",
+      "sha256": "fbac85e19bda11088ab5c7689d1154a58f87010efb94077c328a2c21c04fec33"
+    },
+    {
+      "path": "evidence/historical/data/case1078-input.json",
+      "sha256": "f05eb513fd10642530abe41a0616a8b5a9c642ade09c49b87a0e548c0b0016b8"
+    },
+    {
+      "path": "evidence/historical/data/case1081-input.json",
+      "sha256": "61ef76f229221019ed27449455ec660340854b46abf7ed69d4d182a38ca52752"
+    },
+    {
+      "path": "evidence/historical/data/case1083-input.json",
+      "sha256": "8c7d0467d72f70bb960092cf4395bc36ea62ee38e48761934cab9ac35cdf6f50"
+    },
+    {
+      "path": "evidence/historical/data/case1084-input.json",
+      "sha256": "00f1d77c106e54d95fb8db14721d0c42c77ab76633466bb2fe1eea805a70bcc2"
+    }
+  ]
+}

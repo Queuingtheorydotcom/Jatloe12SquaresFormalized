@@ -1,0 +1,82 @@
+{
+  "scope": "Source literal/accounting audit only, not Lean replay.",
+  "whole_source_entries": 83,
+  "pending_cases": [
+    48,
+    84,
+    573,
+    574,
+    580,
+    581,
+    683,
+    696,
+    700,
+    702,
+    705,
+    715,
+    716,
+    867,
+    868,
+    888,
+    889,
+    893,
+    896,
+    972,
+    974,
+    975,
+    976,
+    977,
+    981,
+    982,
+    983,
+    997,
+    1072,
+    1084,
+    1089,
+    1090,
+    1091,
+    1092
+  ],
+  "pending_count": 34,
+  "new_case_rows_verified": [
+    {
+      "id": 709,
+      "row": 390
+    },
+    {
+      "id": 882,
+      "row": 469
+    },
+    {
+      "id": 890,
+      "row": 477
+    },
+    {
+      "id": 1075,
+      "row": 559
+    },
+    {
+      "id": 1077,
+      "row": 561
+    },
+    {
+      "id": 1078,
+      "row": 562
+    },
+    {
+      "id": 1081,
+      "row": 565
+    },
+    {
+      "id": 1083,
+      "row": 567
+    }
+  ],
+  "source_sha256": {
+    "Compact/Assembly/SymbolicRegistry.lean": "bc6befba829df17935d4b5a9784f11850a32fc0f57aeb62e476e2f662e51edb6",
+    "Compact/Assembly/SourceAssembly.lean": "1ca55fc71f22b07319f2b0221dcaa518e8bcd9bf0d7831176855f0662fa55fd3",
+    "Compact/Assembly/OppositeCentralWalls.lean": "cf461dbe351d87189c9957760c655901d2d3e4f32046f520605d552f97842e54",
+    "Compact/Cases/OppositeCentralWalls/Ownership.lean": "06371e39dd0931b4291ba2055c39e31874e8845afc41465d2979c7b0f58a7a08",
+    "Compact/Cases/OppositeCentralWalls/Complete.lean": "672d94c9a9fd9a7acef35409c397df13d82a3d899f1b4665f17d5647159ef5ec"
+  }
+}

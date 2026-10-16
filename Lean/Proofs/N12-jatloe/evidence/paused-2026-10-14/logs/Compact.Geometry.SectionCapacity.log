@@ -1,0 +1,2 @@
+'N12Compact.SectionCapacity.multi_cut_capacity' depends on axioms: [propext, Classical.choice, Quot.sound]
+'N12Compact.SectionCapacity.seven_on_two_cuts' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,37 @@
+{
+  "kind": "exact_declaration_source_factorization",
+  "base_commit": "46e0067e3aa72d1001a1bf2b95c8f7e4575c368a",
+  "original_source_sha256": "af46d6291a85213885ec306edd7c09b8885506300c31fe2e87dd9d303e93be22",
+  "added_modules": 4,
+  "declarations": [
+    {
+      "module": "S12.ShortCluster.Projections",
+      "declaration": "S12.short_projections",
+      "declaration_sha256": "85e86de9a47d50af64d6456bf05b57bea9b82548eda70f62e1959df008813ae6",
+      "source_sha256": "4392d858563a074c627fb4b2ae4c835bd7e4010cc94ced790b896217c24cbc10",
+      "body_and_type_unchanged": true
+    },
+    {
+      "module": "S12.ShortCluster.FivePointLeft",
+      "declaration": "S12.five_point_left",
+      "declaration_sha256": "1d46ee9aa9aae9734b67f9cde0ff06019ddb3d695f666d1c713fc9cde55fa897",
+      "source_sha256": "dabfd8e2624a42d2c3a5a714ecae5fa41b87700eae663bd384f2e97d42a3fedb",
+      "body_and_type_unchanged": true
+    },
+    {
+      "module": "S12.ShortCluster.FivePointRight",
+      "declaration": "S12.five_point_right",
+      "declaration_sha256": "dcb85967886bd1de74a050cb156a68d254033e283663a3922187b1961307773c",
+      "source_sha256": "5f517af89437e6145297ea9e6aa075c560ef4d677304d5739336a122b05504ce",
+      "body_and_type_unchanged": true
+    },
+    {
+      "module": "S12.ShortCluster.SideSixPoint",
+      "declaration": "S12.side_six_point",
+      "declaration_sha256": "0e9b62904388e53cad4fd9276430c6e7abca53d731a4f3ee71a5f103710ed82e",
+      "source_sha256": "014966f94dae6916c6a08a33900f4f8cdcf45ec32f2c7264ece9270b9e6a19cc",
+      "body_and_type_unchanged": true
+    }
+  ],
+  "global_optimality_proved": false
+}

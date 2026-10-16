@@ -1,0 +1,14 @@
+{
+  "scope": "Exact rational reconstruction only; Lean checks and original-model assembly remain required.",
+  "counts": {
+    "links": 2048,
+    "old_weight_bytes": 4424239,
+    "target_occurrences": 26174,
+    "two_row": 24126,
+    "aliases": 2048,
+    "distinct_two_row_checks": 15504
+  },
+  "failures": [],
+  "seconds": 1.8189913329988485,
+  "peak_rss_bytes": 52248576
+}

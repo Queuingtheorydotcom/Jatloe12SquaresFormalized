@@ -1,0 +1,88 @@
+SOURCE CONTINUATION: C868 AND C972 RESIDUALS, 2026-10-15
+
+Continue the active goal on codex/n12-initial-programs-2026-10-14 in
+projects/n12-refactored. This checkpoint extends414f58d with31 reviewed
+new mathematical Lean modules and two narrow shared API changes.
+No local Lean/Lake, certificate replay, numerical search or CI was run.
+No complete additional original case is claimed. SourceAssembly remains
+112/117 with exact pending683,700,867,868,972. The global theorem is open.
+All six specifically requested cases and C580/C581 remain source-registered.
+
+C868
+
+NonnegativeSector.lean now excludes every nonnegative canonical merged-upper
+frame, using actual SW/H support and four exact scalar margins. LowerNegative
+handles all three transposed negative-SW modes. Both angle endpoints remain.
+
+UpperNegativeInwardCenter.lean excludes the entire inward southeast branch
+without frame assumptions. Five actual foreign omissions force H3072 to own
+the near point(1.95,1.95), also strictly in the actual SW256. The raw
+merged_inward_low_points is reused for C683/C867 in MergedPending/
+SoutheastOutward.lean. Their actual SE512 is therefore outward and negative.
+
+For negative H, UpperNegativeNear.lean derives its true near-point lower-V
+face and the two genuine singleton16 G7 exits. Inward, OutwardProfile,
+OutwardSeparation, OutwardScalars, OutwardRemainingScalars and OutwardEnding
+close the lower-U top-marker exit against the same physical SE512. Exact
+finite differences compare its genuine outward span endpoint; no sampled
+angles are assumed. The public C868.negative_upper_top_cap is unconditional.
+The remaining C868 work is the upper-V top-marker branch, using the actual
+top and SW squares, not an independently movable upper strip.
+
+C683/C700/C867
+
+MergedPending has five further reviewed modules: UpperNegative,
+NegativeUpperFaces, NegativeUpperActual, NegativeUpperTopSeparation and
+SoutheastOutward. UpperNegative transfers the nonnegative-H exclusion and
+the literal C700 transpose. NegativeUpperTopSeparation retains all actual
+top-square support alternatives, including its negative longitudinal face.
+All remaining case endings must preserve their literal families; C700's
+actual1536 is never split into separate SE and NE owners.
+
+C972
+
+NorthwestForward strengthens NW with a genuine upper anchor and proves its
+missing origin. NorthwestHalfpoint handles all signs and both endpoints;
+UpperEnding obtains the actual NE origin, NW outer halfpoint, L origin,
+singleton1 corner, singleton0 missing corner and missing SE lower halfpoint.
+There is still no top32768 owner; original marker15 remains globally absent.
+
+SoutheastNegativeHalfpoint excludes all nonpositive SE frames using the true
+right origin and two distinct SW points. SoutheastPositive supplies a
+strictly positive actual SE frame and its existing complete support profile.
+SoutheastSeparation retains the two longitudinal axes and the signed steep
+transverse alternative. SoutheastCentered excludes a center-owning SW in
+all canonical signs. SouthwestCenters supplies the actual negative-SW
+center, so SouthwestPositive forces the remaining SW positive and imports
+the shared inward profile from literal owned/omitted coordinates.
+
+ResidualFaces obtains actual SE mixed point(2.16,1.58), simultaneous SW
+sharp caps, the actual left-origin cap, and SE's lower-V floor and positive
+upper-V. These are full actual-square consequences, not an assumed final
+configuration. The final positiveSW/positiveSE residual remains open.
+The exact local counterexample in research/C972-LOCAL-HALFPOINT-BOUNDARY-
+2026-10-15.txt explains why a broader point-only SE halfpoint shortcut fails.
+It is not a counterexample to C972 or a Lean theorem.
+
+PRESERVATION AND RESOURCES
+
+All259 recorded mathematical source documents retain their SHA256 and size.
+The changed shared NorthwestSharpPoint API returns a second anchor while
+preserving its existing APIs; C983.F4SoutheastSign.entrance is now public
+without a changed body. All33 changed/new Lean files received independent
+source review. No new admission, axiom, unsafe oracle or native site was added.
+Inherited finite-classification compiler trust remains as previously recorded.
+
+The exact selected stable closure has5452 project+3234 external=8686 modules,
+509129 project source lines. Including cache tools, runtime entry modules,
+compiled Lake package configurations and their whole dependency union:8815.
+The hard10000 cap is met; preferred8000 is exceeded. Future source and later
+concurrent work are not included. Retained historical alternatives still have
+missing sources and do not have a complete certified inventory.
+Evidence: evidence/residual-reductions-source-2026-10-15.json.
+
+Continue mathematical source work, review each actual-owner join, then add an
+original-case registry entry only when all its branches close. Recount the
+selected+setup union before the eventual GitHub compilation. The manual
+workflow from handoff/GITHUB-REPLAY.txt is prepared but has not been launched.
+Do not supply Final.lean until all five original case obligations are proved.

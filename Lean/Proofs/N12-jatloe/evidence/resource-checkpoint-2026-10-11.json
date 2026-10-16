@@ -1,0 +1,18 @@
+{
+  "status": "read-only local resource checkpoint; no proof acceptance",
+  "disk_used_kib": {
+    "N12-refactor": 2734452,
+    "C696-completion": 390864,
+    "SquaresLean-efficient": 30156,
+    "pinned_Lean_4.19.0": 1529068
+  },
+  "sum_counted_gib": 4.467525482177734,
+  "scope": "three task checkouts including active caches andprovenance, plus pinned toolchain; shared symlink targets not counted twice",
+  "filesystem_free_kib_last_df": 6720000,
+  "ps_check": "no lean,lake,leanc,python3 orzstd process running at checkpoint",
+  "compilation_this_work_period": false,
+  "last_two_serial_source_producers_seconds": [
+    0.6634014579976792,
+    0.5952795830016839
+  ]
+}

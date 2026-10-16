@@ -1,0 +1,26 @@
+{
+  "scope": "Case-index metadata only; no geometric replay or certificate counting.",
+  "indexed_cases": 59,
+  "pair_operation_selectors": 2421,
+  "shared_template_cases": [
+    28,
+    537,
+    556,
+    565,
+    567,
+    569,
+    570,
+    575,
+    576,
+    1085,
+    1086,
+    1087
+  ],
+  "pair_selectors_replaced_by_template": 507,
+  "other_47_pair_selectors": 1914,
+  "shared_template_pair_selectors": 5,
+  "single_cut_cases": 52,
+  "two_cut_cases": 7,
+  "semantic_certificate_cost_known": false,
+  "selectors_after_template_sharing": 1919
+}

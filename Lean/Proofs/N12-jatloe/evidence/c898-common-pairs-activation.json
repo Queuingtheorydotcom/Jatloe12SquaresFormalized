@@ -1,0 +1,69 @@
+{
+  "scope": "exact source activation only; complete candidate route assembled, no new Lean acceptance",
+  "proposal_manifest_sha256": "c074f9ac61de09e027a45122147776e6fe64f6351b450bd0b21975b3169b33f2",
+  "proposal": "evidence/proposals/C898CommonPairs",
+  "backup": "evidence/retired/C898BeforeCommonGroups/c074f9ac61de09e0",
+  "changed": [
+    {
+      "path": "Compact/Cases/C898/CachedPairs/Step00Metadata.lean",
+      "before_sha256": "bcdde84312d38f3cfc49f6bf69f4368824d97eac2eac442bc1315f5b4baa6959",
+      "after_sha256": "22714ebda401c3ee0ad56790649c92a71c86a54607de94d00dfd41def241b387"
+    },
+    {
+      "path": "Compact/Cases/C898/CachedPairs/Step01Metadata.lean",
+      "before_sha256": "cb13009cd499bc0ff443a51e61d12051a9577f0e368de0e8cd5a2fee355e2193",
+      "after_sha256": "a4dbb184000059575547a55b9ddd755e74e53efe270f97f4437ee622d25d168c"
+    },
+    {
+      "path": "Compact/Cases/C898/CachedPairs/Step02Metadata.lean",
+      "before_sha256": "2e55b82befa582b992e67f5ade5668b868165d4466def02c879bbcf1b42c5440",
+      "after_sha256": "91aad6e16ef177e0eb68a254c0ff369e4015351d6a83cd279ebdc56e26facae0"
+    },
+    {
+      "path": "Compact/Cases/C898/CachedPairs/Step03Metadata.lean",
+      "before_sha256": "07d0499f1bc92fec36366fc9a906cf87d6055b52f00eb25b5603e6bc587df950",
+      "after_sha256": "c376fc72c78e9dd242cbc7330e5dbdc8c79e03d7c3dea8e8ac2b618376efd800"
+    },
+    {
+      "path": "Compact/Cases/C898/CachedPairs/Step05Metadata.lean",
+      "before_sha256": "7fa4b06ea9974d3a13fe3e0c370e73e770e3e62faaf4546825d9b3729ef23492",
+      "after_sha256": "5c8f5af694b3979405d27f5c674f706b5024cade1aa0f8556b1329fff68046eb"
+    },
+    {
+      "path": "Compact/Cases/C898/CachedPairs/Step06Metadata.lean",
+      "before_sha256": "1a75e648d672c74f8d63272bbc58986a66068042f7cc12bee1149298c54d9047",
+      "after_sha256": "26d565c5d41bf9c8a3d1c2ddd7f845cb3742a79048b00a947318967deb010b95"
+    },
+    {
+      "path": "Compact/Cases/C898/CachedPairs/Step07Metadata.lean",
+      "before_sha256": "a4e9c664e2b868fe320bbb4d445f96448faea64007f61b6782b6998dda716714",
+      "after_sha256": "c290667aa5d557bda03611106f428dc14c6b4fa5ea4161f37bd4f7575b7d34f5"
+    },
+    {
+      "path": "Compact/Cases/C898/CachedPairs/Step08Metadata.lean",
+      "before_sha256": "a01a554adbb6e46b60777ed4e1bb2c5a02952405644568daaa176e99655995e2",
+      "after_sha256": "068f8f332c5250d25523ab06a4ec79f30e223c98561b509259081d1beac09db0"
+    },
+    {
+      "path": "Compact/Cases/C898/CachedPairs/Step11Metadata.lean",
+      "before_sha256": "8fcb433f2d9de3a113c698a622dc975196ab2dac350b57277e93ba47168780a9",
+      "after_sha256": "e1708cc24d864d879f4784f0b0076a040b6ff576c93bff28ace85b78beaaef4b"
+    },
+    {
+      "path": "Compact/Cases/C898/CachedPairs/Step12Metadata.lean",
+      "before_sha256": "68c50dd10b94ccc76c0be33ef0df995e41bf9ec76d09044622503ef903020e6b",
+      "after_sha256": "2c9ee9cc76ef96929ef61a017af1acbdd36e520a9fbff2077d06a87b83d50454"
+    },
+    {
+      "path": "Compact/Cases/C898/CachedPairs/Step13Metadata.lean",
+      "before_sha256": "36689607902d4cb24e840f46c1c630bf830070493c865f6d087de0e3c79d514a",
+      "after_sha256": "36dab09ca0ebf1ae14e9607a2cfedb086de43fb27d0d7d38923ccf6d47cc106a"
+    }
+  ],
+  "unchanged_terminal_sha256": "8baccc1612958fb02a9c28653b1ff3a26cd4cd413a889ada23eaf2bb77fad6a7",
+  "candidate_root": "Compact.Cases.C898.CompleteCached",
+  "object_files_modified": false,
+  "elapsed_seconds": 0.055206999997608364,
+  "previous_receipt_sha256": "4886cee30384e727ffede9e6b093641c9b868350c3402f8450c1f601b2a52203",
+  "previous_receipt_path": "evidence/retired/C898ActivationReceipts/4886cee30384e727ffede9e6b093641c9b868350c3402f8450c1f601b2a52203.json"
+}

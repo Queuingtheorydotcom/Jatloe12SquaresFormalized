@@ -1,0 +1,5 @@
+'N12Compact.C981CompletionOutwardRows.geometry' depends on axioms: [propext, Classical.choice, Quot.sound]
+'N12Compact.C981CompletionOutwardTranspose.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]
+'N12Compact.C981CompletionOutwardTranspose.representative55_excluded' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

@@ -1,0 +1,141 @@
+{
+  "scope": "Exact local witness; not a twelve-square packing, not Lean replay.",
+  "side": "100000001/100000000",
+  "squares": {
+    "O": {
+      "frame": [
+        "39999/40001",
+        "400/40001",
+        "4036259959999/4000100000000",
+        "-4036259959999/399999999750000"
+      ],
+      "unit": true,
+      "contained": true,
+      "markers": [
+        0
+      ],
+      "auxiliary": [
+        2,
+        12
+      ],
+      "center": false,
+      "left_point": false,
+      "top_seed": false,
+      "required": [
+        {
+          "point": [
+            "28/25",
+            "1"
+          ],
+          "strict": true
+        },
+        {
+          "point": [
+            "87/50",
+            "1"
+          ],
+          "strict": true
+        },
+        {
+          "point": [
+            "187/100",
+            "19/25"
+          ],
+          "strict": true
+        }
+      ]
+    },
+    "A": {
+      "frame": [
+        "1591/1609",
+        "240/1609",
+        "205299998391/160900000000",
+        "133283908391/160900000000"
+      ],
+      "unit": true,
+      "contained": true,
+      "markers": [
+        8
+      ],
+      "auxiliary": [
+        4,
+        13
+      ],
+      "center": false,
+      "left_point": false,
+      "top_seed": false,
+      "required": [
+        {
+          "point": [
+            "2",
+            "3/2"
+          ],
+          "strict": true
+        },
+        {
+          "point": [
+            "3/2",
+            "2"
+          ],
+          "strict": true
+        }
+      ]
+    },
+    "W": {
+      "frame": [
+        "1",
+        "0",
+        "0",
+        "199999/100000"
+      ],
+      "unit": true,
+      "contained": true,
+      "markers": [
+        12
+      ],
+      "auxiliary": [
+        1,
+        11
+      ],
+      "center": false,
+      "left_point": true,
+      "top_seed": true,
+      "required": []
+    }
+  },
+  "separators": {
+    "OA": [
+      {
+        "frame": "O",
+        "axis": "V",
+        "direction": "O-before-A",
+        "gap": "1673208409947234858401/207110479870555950000000"
+      }
+    ],
+    "OW": [
+      {
+        "frame": "O",
+        "axis": "V",
+        "direction": "O-before-W",
+        "gap": "9411584867529353/9411764700000000"
+      },
+      {
+        "frame": "W",
+        "axis": "V",
+        "direction": "O-before-W",
+        "gap": "232956468153/235300000000"
+      }
+    ],
+    "AW": [
+      {
+        "frame": "A",
+        "axis": "V",
+        "direction": "A-before-W",
+        "gap": "362469/4022500000"
+      }
+    ]
+  },
+  "all_pairs_separated": true,
+  "local_center_forcing_claim_refuted": true,
+  "missing_west_angle_order_refuted": true
+}

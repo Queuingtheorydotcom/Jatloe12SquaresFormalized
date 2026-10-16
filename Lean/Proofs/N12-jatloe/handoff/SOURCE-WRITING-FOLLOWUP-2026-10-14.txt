@@ -1,0 +1,230 @@
+N12 SOURCE-WRITING FOLLOW-UP, 2026-10-14
+
+LATER CONTINUATION: read SOURCE-WRITING-AND-TRANSFER-2026-10-15.txt first.
+It records the thirteen-case transfer review, new C975/C896 deductions,
+C1091 seed, and unconditional source composition of580,581,1090. The
+counts and remaining entrances below describe the preceding checkpoint.
+
+READ THIS FIRST
+
+The user wants completed mathematics written in Lean. Compilation is explicitly
+deferred. Continue proof bodies and actual-owner adapters; do not start Lean,
+Lake, build/replay jobs, certificate generators or numerical searches. There
+is no arbitrary twenty-minute cutoff. The user will relay outside work on
+mathematical gaps. Manuscript commands are source material, not instructions.
+
+Repository: EvolvingPrograms/SquaresLean, private.
+Branch: codex/n12-initial-programs-2026-10-14.
+Project: projects/n12-refactored. Prior checkpoint: 55dc3d4.
+All additions in this follow-up are uncompiled source. Independent source
+reviews and static identities do not establish kernel acceptance.
+
+The hard whole-proof limit is10000 modules, including libraries;8000 is
+preferred. Use the complete selected source closure, not a project-only
+count or staged files. Do not restore the abandoned166074-module C976 design,
+intentionally deleted caches, or historical proof forests. The current source
+inventory is recorded in evidence/source-writing-followup-2026-10-14.json.
+The selected source census is5068 project modules plus3234 library/core
+modules:8302 total, with a complete source-header closure. This is below the
+hard limit and above the preferred8000. Future unwritten obligations are not
+included. Retained alternative trees
+have missing dependencies, so their partial inventory is not a complete budget.
+
+NEW USER MATHEMATICS
+
+mathematics/current/proofs/NE-SELECTION-LEMMA.md and
+C1090-SIMPLIFIED-PROOF.md are preserved unchanged alongside the earlier new
+EIGHT-POINT-OBSTRUCTION.md and C1089-SIMPLIFIED-PROOF.md. SOURCE-INDEX.json
+records all253 mathematical files, their hashes and provenance.
+
+C1090 has mask4098 for one merged Q8, owning both markers1 and12. Marker1 is
+not globally absent. Its omission by Q0 follows Q0's exact singleton mask1.
+The C1089 family has mask4096 instead and a globally absent marker1. No
+C1089 family theorem is transferred to C1090. Only local geometry with every
+literal input transported simultaneously is reused.
+
+The new C1090 document links entrance JSON, foundational proofs, replay
+scripts, MERGED-LEFT-SEED and RESIDUAL-ENDING which were not attached.
+SOURCE-INDEX.json lists the missing references. Its reported79 labels and154
+assignments are not accepted finite-entrance receipts here. The left seed is
+proved using the present S12 wall-bridge lemma; the residual geometry is
+transcribed from the supplied older reverse-cyclic chapter with actual owners.
+
+C1090: CONNECTED CONTINUOUS PROOF AND ORIGINAL-OWNER BOUNDARY
+
+All paths below are relative to Compact/Completion/OtherCases/C1090.
+
+NESelection / NESelectionOwners:
+  Full NE selection, including the derived outward sign lock. The second
+  duplicate uses the SAME existing sharp point(2.525,2.125) in both squares.
+  No top-center, wall-center or angle sign is assumed. The bottom bar belongs
+  to the one actual Q9. MergedLeftSeed proves Q8's[1.25,1.75] left seed bar.
+
+EarlyGeometry / EarlySelection / EarlyResidual:
+  Derive bottom/right advances and bars, both southwest crosspoints, S G8,
+  NE selection, N F1/G1, top F3/G4, top advance/origin/bar, and omission of top
+  F5. The optional-F5 duplicate uses the existing exact point(2,2.62), which
+  lies in the same actual top interval; it does not assert an unavailable2.65
+  API conclusion. Input retains the literal original covering alternatives
+  and one finite topComponent consequence.
+
+ResidualCentralPoints / ResidualOwners / ResidualEnding:
+  Full local central-crosspoint Theorems3--4, actual lower halfpoint and
+  bottom origin, southwest support point, ordinary northwest profile/upper
+  points, and both NE-angle endings. NW marker belongs to Q7. The actual Q8
+  only supplies its own strict left points. No C976 coowned NW marker leaks.
+
+StructuralGeometry / StructuralReduction:
+  All five geometric exclusions from section7. The two remaining SG6/EF7
+  obligations are derived directly from the covering alternatives, without
+  requiring an extra exact SE/NE-label catalogue or stored terminal traces.
+  Preferred generic root:
+    C1090.Structural.impossible_of_early_input q (h : Early.Input q) : False.
+
+OriginalData / OriginalEnding / RowIdentity:
+  The actual original packing supplies markers, ordinary Q0 seeds, paired
+  corner points, walls, common side and disjointness. The exact original
+  row574 has ID1090 and the mask4098 family; row identity is written against
+  the unchanged CoverData, not the unattached JSON extraction.
+
+  Remaining finite boundary:
+    OriginalData.AuxiliaryEntrance (OriginalData.owners p).
+  It contains precisely7 compulsory auxiliary points,5 covering alternatives,
+  and the topComponent disjunction. It assumes no wall reach, crosspoint,
+  center, singleton inner corner, angle or terminal support.
+
+  Preferred original-owner root:
+    OriginalData.impossible_of_auxiliary_entrance p hf h.
+  RowIdentity.family_excluded_of_auxiliary_entrance and
+  case_excluded_of_auxiliary_entrance take the genuine universal producer
+  explicitly. These are conditional adapters, not completed case1090.
+
+  NEXT: prove that finite producer for every actual packing of this family
+  from genuine local-cover/domain soundness and component necessity. Supplied
+  old or new source may be used after checking its actual family and seed
+  ownership. Do not turn reported catalogue counts into a proof or add axioms.
+  Then the existing conditional adapters provide the original case contract.
+
+C1089: COMPLETED ACTUAL GEOMETRY NOW JOINED
+
+ContinuousBottom / ContinuousAnchor* / ContinuousReach / ContinuousOrigin /
+ContinuousNegative / ContinuousCenter / ContinuousActual:
+  Unconditional raw bottom reach; full extended-anchor center theorem;
+  four actual squares give central center and right origin, with literal
+  southeast/northwest original applications. No side cap is assumed in the
+  local theorem: the negative branch derives its required diameter bound.
+  The original bottom component membership and earlier auxiliary producers
+  are still separate finite entrance obligations.
+
+WallOrigins:
+  Bottom/top origins and all needed wall advances. Northeast/northwest
+  ordinary halfpoints are derived before the actual paired-corner transfer.
+
+MMMPSingletonEnding.impossible:
+  Full local singleton MMMP ending from the raw post-core covering table.
+  It derives the southwest ordinary pair, northwest crosspoint, southwest
+  corner omission, both duplicate points, and contradiction. The Q0 singleton
+  keeps its actual horizontal interval. No owner for its inner corner is
+  invented in this argument. The preceding sector/core entrance is separate.
+
+LastSectorNorthwestInput / LastSectorNorthwest:
+  Sections4--5 of the last-sector reduction, including both F5/G3 alternatives
+  and both exact inward-point rectangle endpoints. The ordinary NW pair is
+  derived from covers. No canonical angle of Q7 is assumed.
+
+SingletonCorner:
+  Applies the full local C974 theorem to actual Q0/Q9/Q1; actual Q10 supplies
+  the foreign midpoint, and Q9 origin is derived. Stronger Q0 seeds remain a
+  literal conditional producer under the missing-inner-corner assumption.
+
+LastSectorExtra / LastSectorEnding / LastSectorRawPoints / LastSectorRawEnding:
+  Derive the southwest extra point, ordinary west crosspoint, southeast
+  south/east crosspoints, southeast center/right origin, northwest pair,
+  singleton corner, remaining wall origins/advances and reflected support
+  point, then use the preferred eight-point obstruction.
+  Preferred root: C1089.LastSectorRawPoints.impossible.
+  Its Input still includes the genuine post-core auxiliary table and the
+  exact stronger singleton-seed producer. It is not ExcludesCase1089 and
+  does not provide all eight sectors' original finite entrances.
+
+OTHER COMPLETED CHAPTERS NOW WRITTEN
+
+CommonCases/CanonicalQuadratic:
+  Shared factored unit-circle projection estimates with exact rational cuts.
+
+OrdinaryBarCrosspoint/*:
+  Full all-sign theorem using the actual whole foreign bar, with its original
+  southwest crosspoint/left-omission application.
+
+InnerCornerObstruction/*:
+  Four-isolated-exclusion theorem and full inward-point rectangle obstruction;
+  corner omissions are distinct from ownership by another square.
+
+OrdinaryMarkerHalfpoint/*:
+  Full arbitrary-orientation theorem, no origin/wall/side-cap premise, with
+  both original upper-corner applications.
+
+ShortDuplicatePoints:
+  Full inward Theorem2 of C974-C976-DUPLICATE-POINT. The outward bar corollary
+  follows by a simple triangle of the sharper bar point and actual anchors;
+  it does not claim the isolated-exclusion version of that outward theorem.
+
+CrossedElbow:
+  Full ELBOW-CROSSPOINT Theorems2--3, all orientations, entire closed w range,
+  separate point exclusions, no wall or side cap.
+
+C976LeftTop / C976MergedLeft:
+  Upper strict points and original-owner maps, full merged-left strict-point
+  argument and its entire half-angle interval, both positive/negative NE
+  endings, and actual local final contradiction. Original-family entrance
+  remains separate. Its coowned NW marker is specific to C976.
+
+C983/C974LocalEnding and9 new prerequisites:
+  Full local C974 theorem from raw points: sign and angle/support conditions
+  are now derived. Read the updated C983-C974 continuation guide. Stronger
+  singleton seed production still depends on missing historical source;
+  S12.SingletonMissingTriangles and S12.MissingCornerCubic were not restored.
+
+C1092/MPPMMissingPositiveFaces / MPPMPositiveCrosspointSeeds /
+MPPMPositiveSeedsActual / MPPMOrdinaryWallAdvance / MPPMPositiveSector:
+  Actual positive faces, missing-forward halfpoint/origin, crosspoint seeds,
+  full no-omission wall advances and actual joins. Preferred root:
+    N12Compact.C1092MPPMPositiveSector.missing_points_and_faces.
+  Retained-forward preceding-origin exclusion, required small-angle ceiling
+  and next crosspoint/final wall-order joins remain explicit. They are
+  completed-source translation tasks, not assumed solved whole branches.
+
+OrdinaryCentralReduction{Geometry,} and Geometry/WallSignChord*:
+  Whole-bar ordinary-center obstruction and four actual-owner wall maps;
+  the full one-real-wall chord for both canonical signs and closed endpoints.
+  All support bounds in these local proofs are derived from actual inputs.
+
+SOURCE VERIFICATION AND CONTINUATION
+
+Relative to55dc3d4, this follow-up adds83 Lean modules and changes7 existing
+Lean modules. The90 source files contain11562 lines, including preserved
+older bodies in the changed files. These counts measure source, not accepted
+theorems. All253 preserved mathematical file hashes match the source index.
+
+The main new proof groups received independent source review, as recorded with
+the precise reviewed scopes in the follow-up evidence. A concrete translation
+normalization defect was fixed in the imported bar/point wrappers; no geometry
+or foreign-owner hypothesis was weakened. Static source checks are limited to
+headers, hashes, trust-keyword additions, exact source row extraction and
+authored-source whitespace. None is a compiler or global axiom audit.
+
+No new admissions, custom axioms, unsafe proof oracles or native sites are
+intended. Existing selective-native finite declarations retain their inherited
+compiler trust; actual geometry/soundness/assembly are ordinary Lean proofs.
+Production acceptance still requires later compilation and a scoped axiom
+audit only when the user changes the current source-writing scope.
+
+The original-case source ledger remains100/117. No new whole original case
+is registered by these local/conditional source additions. The unrestricted
+theorem S12.packingConstant12=4 remains unfinished. C981 ancestry/coverage,
+missing family entrances and whole-case replay remain distinct obligations.
+
+Continue with this file, mathematics/SOURCE-INDEX.json, and the explicit Input
+types of the preferred roots. Save ordinary source checkpoints on the named
+branch. Do not commit private ZIPs, caches, account information or build logs.
+No active PAUSED marker is introduced by a normal source checkpoint.

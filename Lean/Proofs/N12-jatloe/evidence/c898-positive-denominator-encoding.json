@@ -1,0 +1,28 @@
+{
+  "scope": "Exact denominator representation change; no Lean compilation performed. Both row sequences and their indices are unchanged after decoding.",
+  "changes": [
+    {
+      "path": "Compact/Cases/C898/SharedRows.lean",
+      "entries": 26026,
+      "before_sha256": "aa6c651ccca2121d9a60d32ed55e28a94092ff8ebc24e79f4a96f73c6e7645e8",
+      "after_sha256": "31b6c51f3c2118cb36269a999842786a6b352b2b777cd6090b710223c7c9d929",
+      "decoded_row_sequence_sha256": "3c8c3a536f911712fce03c83c747ea67a68a00ad82b59eead6269430650e1c34",
+      "bytes_delta": -2078,
+      "lines_delta": 1,
+      "all_row_values_and_indices_preserved": true
+    },
+    {
+      "path": "Compact/Cases/C898/Initial/Rows.lean",
+      "entries": 14281,
+      "before_sha256": "0eff6d6d396d8453cd3a644430f9e9d341b6e3798ac2cecc2f7ad44e605de2cf",
+      "after_sha256": "46a78730f071551a3cb2ddcd618918dc4c32bb43e94f2f4a43cb665f2548b0c6",
+      "decoded_row_sequence_sha256": "66cb4fc667e5cc73b38fab8cf5edaf440b47d8b1f8d7669d4c1abf604cabfb90",
+      "bytes_delta": 92,
+      "lines_delta": 3,
+      "all_row_values_and_indices_preserved": true
+    }
+  ],
+  "seconds": 0.207,
+  "full_generator_rerun": false,
+  "validation": "Source ready for parent Lean replay."
+}

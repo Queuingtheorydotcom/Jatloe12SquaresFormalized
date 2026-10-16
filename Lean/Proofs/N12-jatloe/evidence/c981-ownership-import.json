@@ -1,0 +1,7 @@
+{
+  "path": "Completion/Cases/C981/Ownership.lean",
+  "adaptation": "remove unused ConditionalEnclosure import only; every declaration and proof byte unchanged",
+  "before_sha256": "7b704a2f0979cf49d8e9a1640fc9678a57fc6ea19e19f16c7e4c384788fb475d",
+  "after_sha256": "4a74387c4c48131967c813f094320e8a13597f46af9ba56953bea3a0ac583f33",
+  "resident_dependency_evidence": "RowIdentity -> Completion.Contracts -> S12.PackingConstant -> Normalization -> To117 closure already contains CoreExclusion.ownerIndex/spec, CombinedPacking.nat_combined_exact, LocalQuery.queryInsidePoints/queryOutsidePoints/query soundness, HullBridge.coded_exact"
+}

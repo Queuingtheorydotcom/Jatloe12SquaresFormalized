@@ -1,0 +1,4345 @@
+{
+  "status": "complete exact finite audit; Lean instances pending",
+  "source_count": 108,
+  "lean_checked": false,
+  "hypothesis": "actual original source owns top point and three distinct foreign owners own the closed y=87/50 row points",
+  "height_cut": "centerY > 87/50 + original certified angle radius",
+  "closed_relaxation_used": true,
+  "container_box_added": true,
+  "targets": {
+    "continuousScout713Domain7_6": {
+      "passed": 108,
+      "empty": 12,
+      "failed": [],
+      "roots": [
+        {
+          "source": 3188,
+          "angle": 0,
+          "target": null,
+          "feasible_vertices": 0,
+          "height": "44642577/20000000"
+        },
+        {
+          "source": 3189,
+          "angle": 15,
+          "target": 3296,
+          "feasible_vertices": 8,
+          "height": "105455621/50000000"
+        },
+        {
+          "source": 3190,
+          "angle": 16,
+          "target": 3297,
+          "feasible_vertices": 8,
+          "height": "105060247/50000000"
+        },
+        {
+          "source": 3191,
+          "angle": 17,
+          "target": 3298,
+          "feasible_vertices": 8,
+          "height": "4186813/2000000"
+        },
+        {
+          "source": 3192,
+          "angle": 18,
+          "target": 3299,
+          "feasible_vertices": 8,
+          "height": "52143211/25000000"
+        },
+        {
+          "source": 3193,
+          "angle": 19,
+          "target": 3300,
+          "feasible_vertices": 8,
+          "height": "207818171/100000000"
+        },
+        {
+          "source": 3194,
+          "angle": 20,
+          "target": 3301,
+          "feasible_vertices": 8,
+          "height": "41415537/20000000"
+        },
+        {
+          "source": 3195,
+          "angle": 21,
+          "target": 3302,
+          "feasible_vertices": 8,
+          "height": "51588099/25000000"
+        },
+        {
+          "source": 3196,
+          "angle": 22,
+          "target": 3303,
+          "feasible_vertices": 8,
+          "height": "20564327/10000000"
+        },
+        {
+          "source": 3197,
+          "angle": 23,
+          "target": 3304,
+          "feasible_vertices": 8,
+          "height": "51237807/25000000"
+        },
+        {
+          "source": 3198,
+          "angle": 24,
+          "target": 3305,
+          "feasible_vertices": 8,
+          "height": "102138571/50000000"
+        },
+        {
+          "source": 3199,
+          "angle": 25,
+          "target": 3306,
+          "feasible_vertices": 9,
+          "height": "2545273/1250000"
+        },
+        {
+          "source": 3200,
+          "angle": 26,
+          "target": 3307,
+          "feasible_vertices": 9,
+          "height": "202986099/100000000"
+        },
+        {
+          "source": 3201,
+          "angle": 27,
+          "target": 3308,
+          "feasible_vertices": 8,
+          "height": "25296331/12500000"
+        },
+        {
+          "source": 3202,
+          "angle": 28,
+          "target": 3309,
+          "feasible_vertices": 8,
+          "height": "40355233/20000000"
+        },
+        {
+          "source": 3203,
+          "angle": 29,
+          "target": 3310,
+          "feasible_vertices": 8,
+          "height": "201203279/100000000"
+        },
+        {
+          "source": 3204,
+          "angle": 30,
+          "target": 3311,
+          "feasible_vertices": 8,
+          "height": "20065257/10000000"
+        },
+        {
+          "source": 3205,
+          "angle": 31,
+          "target": 3312,
+          "feasible_vertices": 8,
+          "height": "200124567/100000000"
+        },
+        {
+          "source": 3206,
+          "angle": 33,
+          "target": 3313,
+          "feasible_vertices": 8,
+          "height": "99569271/50000000"
+        },
+        {
+          "source": 3207,
+          "angle": 34,
+          "target": 3314,
+          "feasible_vertices": 8,
+          "height": "198681329/100000000"
+        },
+        {
+          "source": 3208,
+          "angle": 35,
+          "target": 3315,
+          "feasible_vertices": 8,
+          "height": "99124219/50000000"
+        },
+        {
+          "source": 3209,
+          "angle": 36,
+          "target": 3316,
+          "feasible_vertices": 9,
+          "height": "197840153/100000000"
+        },
+        {
+          "source": 3210,
+          "angle": 37,
+          "target": 3317,
+          "feasible_vertices": 9,
+          "height": "197456707/100000000"
+        },
+        {
+          "source": 3211,
+          "angle": 38,
+          "target": 3318,
+          "feasible_vertices": 9,
+          "height": "197098287/100000000"
+        },
+        {
+          "source": 3212,
+          "angle": 39,
+          "target": 3319,
+          "feasible_vertices": 11,
+          "height": "39353007/20000000"
+        },
+        {
+          "source": 3213,
+          "angle": 40,
+          "target": 3320,
+          "feasible_vertices": 11,
+          "height": "24557131/12500000"
+        },
+        {
+          "source": 3214,
+          "angle": 41,
+          "target": 3321,
+          "feasible_vertices": 11,
+          "height": "24521797/12500000"
+        },
+        {
+          "source": 3215,
+          "angle": 42,
+          "target": 3322,
+          "feasible_vertices": 11,
+          "height": "19591703/10000000"
+        },
+        {
+          "source": 3216,
+          "angle": 43,
+          "target": 3323,
+          "feasible_vertices": 11,
+          "height": "195684979/100000000"
+        },
+        {
+          "source": 3217,
+          "angle": 44,
+          "target": 3324,
+          "feasible_vertices": 11,
+          "height": "195478149/100000000"
+        },
+        {
+          "source": 3218,
+          "angle": 45,
+          "target": 3325,
+          "feasible_vertices": 11,
+          "height": "19529643/10000000"
+        },
+        {
+          "source": 3219,
+          "angle": 46,
+          "target": 3326,
+          "feasible_vertices": 11,
+          "height": "195139673/100000000"
+        },
+        {
+          "source": 3220,
+          "angle": 47,
+          "target": 3327,
+          "feasible_vertices": 11,
+          "height": "195007693/100000000"
+        },
+        {
+          "source": 3221,
+          "angle": 48,
+          "target": 3328,
+          "feasible_vertices": 11,
+          "height": "194900273/100000000"
+        },
+        {
+          "source": 3222,
+          "angle": 49,
+          "target": 3329,
+          "feasible_vertices": 11,
+          "height": "194817159/100000000"
+        },
+        {
+          "source": 3223,
+          "angle": 50,
+          "target": 3330,
+          "feasible_vertices": 10,
+          "height": "19475807/10000000"
+        },
+        {
+          "source": 3224,
+          "angle": 51,
+          "target": 3331,
+          "feasible_vertices": 9,
+          "height": "194722691/100000000"
+        },
+        {
+          "source": 3225,
+          "angle": 52,
+          "target": 3332,
+          "feasible_vertices": 9,
+          "height": "97355341/50000000"
+        },
+        {
+          "source": 3226,
+          "angle": 53,
+          "target": 3333,
+          "feasible_vertices": 9,
+          "height": "97355319/50000000"
+        },
+        {
+          "source": 3227,
+          "angle": 54,
+          "target": 3334,
+          "feasible_vertices": 9,
+          "height": "7788867/4000000"
+        },
+        {
+          "source": 3228,
+          "angle": 55,
+          "target": 3335,
+          "feasible_vertices": 8,
+          "height": "194755277/100000000"
+        },
+        {
+          "source": 3229,
+          "angle": 56,
+          "target": 3336,
+          "feasible_vertices": 8,
+          "height": "3043923/1562500"
+        },
+        {
+          "source": 3230,
+          "angle": 57,
+          "target": 3337,
+          "feasible_vertices": 8,
+          "height": "97444311/50000000"
+        },
+        {
+          "source": 3231,
+          "angle": 58,
+          "target": 3338,
+          "feasible_vertices": 8,
+          "height": "19498747/10000000"
+        },
+        {
+          "source": 3232,
+          "angle": 59,
+          "target": 3339,
+          "feasible_vertices": 7,
+          "height": "97553569/50000000"
+        },
+        {
+          "source": 3233,
+          "angle": 60,
+          "target": 3340,
+          "feasible_vertices": 9,
+          "height": "195247133/100000000"
+        },
+        {
+          "source": 3234,
+          "angle": 61,
+          "target": 3341,
+          "feasible_vertices": 10,
+          "height": "97703473/50000000"
+        },
+        {
+          "source": 3235,
+          "angle": 62,
+          "target": 3342,
+          "feasible_vertices": 10,
+          "height": "97793027/50000000"
+        },
+        {
+          "source": 3236,
+          "angle": 63,
+          "target": 3343,
+          "feasible_vertices": 10,
+          "height": "195783921/100000000"
+        },
+        {
+          "source": 3237,
+          "angle": 64,
+          "target": 3344,
+          "feasible_vertices": 10,
+          "height": "49/25"
+        },
+        {
+          "source": 3238,
+          "angle": 65,
+          "target": 3345,
+          "feasible_vertices": 10,
+          "height": "98116867/50000000"
+        },
+        {
+          "source": 3239,
+          "angle": 66,
+          "target": 3346,
+          "feasible_vertices": 10,
+          "height": "196484559/100000000"
+        },
+        {
+          "source": 3240,
+          "angle": 67,
+          "target": 3347,
+          "feasible_vertices": 10,
+          "height": "196751903/100000000"
+        },
+        {
+          "source": 3241,
+          "angle": 68,
+          "target": 3348,
+          "feasible_vertices": 10,
+          "height": "197035187/100000000"
+        },
+        {
+          "source": 3242,
+          "angle": 69,
+          "target": 3349,
+          "feasible_vertices": 10,
+          "height": "24666729/12500000"
+        },
+        {
+          "source": 3243,
+          "angle": 70,
+          "target": 3350,
+          "feasible_vertices": 10,
+          "height": "197647249/100000000"
+        },
+        {
+          "source": 3244,
+          "angle": 71,
+          "target": 3351,
+          "feasible_vertices": 10,
+          "height": "197974853/100000000"
+        },
+        {
+          "source": 3245,
+          "angle": 72,
+          "target": 3352,
+          "feasible_vertices": 10,
+          "height": "99158027/50000000"
+        },
+        {
+          "source": 3246,
+          "angle": 73,
+          "target": 3353,
+          "feasible_vertices": 10,
+          "height": "24833783/12500000"
+        },
+        {
+          "source": 3247,
+          "angle": 74,
+          "target": 3354,
+          "feasible_vertices": 9,
+          "height": "39807379/20000000"
+        },
+        {
+          "source": 3248,
+          "angle": 75,
+          "target": 3355,
+          "feasible_vertices": 9,
+          "height": "199415361/100000000"
+        },
+        {
+          "source": 3249,
+          "angle": 76,
+          "target": 3356,
+          "feasible_vertices": 9,
+          "height": "4995127/2500000"
+        },
+        {
+          "source": 3250,
+          "angle": 77,
+          "target": 3357,
+          "feasible_vertices": 9,
+          "height": "6256421/3125000"
+        },
+        {
+          "source": 3251,
+          "angle": 78,
+          "target": 3358,
+          "feasible_vertices": 9,
+          "height": "100307981/50000000"
+        },
+        {
+          "source": 3252,
+          "angle": 79,
+          "target": 3359,
+          "feasible_vertices": 9,
+          "height": "201035981/100000000"
+        },
+        {
+          "source": 3253,
+          "angle": 80,
+          "target": 3360,
+          "feasible_vertices": 9,
+          "height": "100732483/50000000"
+        },
+        {
+          "source": 3254,
+          "angle": 81,
+          "target": 3361,
+          "feasible_vertices": 9,
+          "height": "5047559/2500000"
+        },
+        {
+          "source": 3255,
+          "angle": 82,
+          "target": 3362,
+          "feasible_vertices": 8,
+          "height": "50586903/25000000"
+        },
+        {
+          "source": 3256,
+          "angle": 83,
+          "target": 3363,
+          "feasible_vertices": 8,
+          "height": "101400091/50000000"
+        },
+        {
+          "source": 3257,
+          "angle": 84,
+          "target": 3364,
+          "feasible_vertices": 8,
+          "height": "203259537/100000000"
+        },
+        {
+          "source": 3258,
+          "angle": 85,
+          "target": 3365,
+          "feasible_vertices": 8,
+          "height": "4074503/2000000"
+        },
+        {
+          "source": 3259,
+          "angle": 86,
+          "target": 3366,
+          "feasible_vertices": 8,
+          "height": "51049127/25000000"
+        },
+        {
+          "source": 3260,
+          "angle": 87,
+          "target": 3367,
+          "feasible_vertices": 8,
+          "height": "12792069/6250000"
+        },
+        {
+          "source": 3261,
+          "angle": 88,
+          "target": 3368,
+          "feasible_vertices": 8,
+          "height": "51288611/25000000"
+        },
+        {
+          "source": 3262,
+          "angle": 89,
+          "target": 3369,
+          "feasible_vertices": 8,
+          "height": "205640041/100000000"
+        },
+        {
+          "source": 3263,
+          "angle": 90,
+          "target": 3370,
+          "feasible_vertices": 8,
+          "height": "103064711/50000000"
+        },
+        {
+          "source": 3264,
+          "angle": 91,
+          "target": 3371,
+          "feasible_vertices": 8,
+          "height": "51655531/25000000"
+        },
+        {
+          "source": 3265,
+          "angle": 92,
+          "target": 3372,
+          "feasible_vertices": 8,
+          "height": "51779423/25000000"
+        },
+        {
+          "source": 3266,
+          "angle": 93,
+          "target": 3373,
+          "feasible_vertices": 8,
+          "height": "25951961/12500000"
+        },
+        {
+          "source": 3267,
+          "angle": 94,
+          "target": 3374,
+          "feasible_vertices": 8,
+          "height": "208115681/100000000"
+        },
+        {
+          "source": 3268,
+          "angle": 95,
+          "target": 3375,
+          "feasible_vertices": 8,
+          "height": "104308627/50000000"
+        },
+        {
+          "source": 3269,
+          "angle": 96,
+          "target": 3376,
+          "feasible_vertices": 8,
+          "height": "1307/625"
+        },
+        {
+          "source": 3270,
+          "angle": 97,
+          "target": 3377,
+          "feasible_vertices": 8,
+          "height": "52405881/25000000"
+        },
+        {
+          "source": 3271,
+          "angle": 98,
+          "target": 3378,
+          "feasible_vertices": 8,
+          "height": "105063723/50000000"
+        },
+        {
+          "source": 3272,
+          "angle": 99,
+          "target": 3379,
+          "feasible_vertices": 8,
+          "height": "210631393/100000000"
+        },
+        {
+          "source": 3273,
+          "angle": 100,
+          "target": 3380,
+          "feasible_vertices": 8,
+          "height": "211135007/100000000"
+        },
+        {
+          "source": 3274,
+          "angle": 101,
+          "target": 3381,
+          "feasible_vertices": 8,
+          "height": "105818971/50000000"
+        },
+        {
+          "source": 3275,
+          "angle": 102,
+          "target": 3382,
+          "feasible_vertices": 8,
+          "height": "106069931/50000000"
+        },
+        {
+          "source": 3276,
+          "angle": 103,
+          "target": 3383,
+          "feasible_vertices": 8,
+          "height": "53160111/25000000"
+        },
+        {
+          "source": 3277,
+          "angle": 104,
+          "target": 3384,
+          "feasible_vertices": 8,
+          "height": "213139377/100000000"
+        },
+        {
+          "source": 3278,
+          "angle": 105,
+          "target": 3385,
+          "feasible_vertices": 8,
+          "height": "5340909/2500000"
+        },
+        {
+          "source": 3279,
+          "angle": 106,
+          "target": 3386,
+          "feasible_vertices": 8,
+          "height": "6691597/3125000"
+        },
+        {
+          "source": 3280,
+          "angle": 107,
+          "target": 3387,
+          "feasible_vertices": 8,
+          "height": "107311667/50000000"
+        },
+        {
+          "source": 3281,
+          "angle": 108,
+          "target": 3388,
+          "feasible_vertices": 8,
+          "height": "107556391/50000000"
+        },
+        {
+          "source": 3282,
+          "angle": 109,
+          "target": 3389,
+          "feasible_vertices": 8,
+          "height": "107799597/50000000"
+        },
+        {
+          "source": 3283,
+          "angle": 110,
+          "target": 3390,
+          "feasible_vertices": 8,
+          "height": "8643293/4000000"
+        },
+        {
+          "source": 3284,
+          "angle": 111,
+          "target": 3391,
+          "feasible_vertices": 8,
+          "height": "216561943/100000000"
+        },
+        {
+          "source": 3285,
+          "angle": 117,
+          "target": 3392,
+          "feasible_vertices": 0,
+          "height": "54838529/25000000"
+        },
+        {
+          "source": 3286,
+          "angle": 118,
+          "target": 3393,
+          "feasible_vertices": 0,
+          "height": "219803473/100000000"
+        },
+        {
+          "source": 3287,
+          "angle": 119,
+          "target": 3394,
+          "feasible_vertices": 0,
+          "height": "110123907/50000000"
+        },
+        {
+          "source": 3288,
+          "angle": 120,
+          "target": 3395,
+          "feasible_vertices": 0,
+          "height": "44137399/20000000"
+        },
+        {
+          "source": 3289,
+          "angle": 121,
+          "target": 3396,
+          "feasible_vertices": 0,
+          "height": "221120879/100000000"
+        },
+        {
+          "source": 3290,
+          "angle": 122,
+          "target": 3397,
+          "feasible_vertices": 0,
+          "height": "221549337/100000000"
+        },
+        {
+          "source": 3291,
+          "angle": 123,
+          "target": null,
+          "feasible_vertices": 0,
+          "height": "221972251/100000000"
+        },
+        {
+          "source": 3292,
+          "angle": 124,
+          "target": null,
+          "feasible_vertices": 0,
+          "height": "55597377/25000000"
+        },
+        {
+          "source": 3293,
+          "angle": 125,
+          "target": null,
+          "feasible_vertices": 0,
+          "height": "55700251/25000000"
+        },
+        {
+          "source": 3294,
+          "angle": 126,
+          "target": null,
+          "feasible_vertices": 0,
+          "height": "111603321/50000000"
+        },
+        {
+          "source": 3295,
+          "angle": 127,
+          "target": null,
+          "feasible_vertices": 0,
+          "height": "44721267/20000000"
+        }
+      ]
+    },
+    "continuousScout713Domain7_7": {
+      "passed": 55,
+      "empty": 12,
+      "failed": [
+        {
+          "source": 3232,
+          "angle": 59,
+          "target": 3441,
+          "feasible_vertices": 7,
+          "height": "97553569/50000000",
+          "reason": "target row fails",
+          "row": 24332,
+          "strict": false,
+          "point": [
+            "801328962465809/524388560000000",
+            "97553569/50000000"
+          ],
+          "value": "-30029001554243552193/13109714"
+        },
+        {
+          "source": 3233,
+          "angle": 60,
+          "target": 3442,
+          "feasible_vertices": 9,
+          "height": "195247133/100000000",
+          "reason": "target row fails",
+          "row": 24341,
+          "strict": false,
+          "point": [
+            "83696423633/54917187500",
+            "195247133/100000000"
+          ],
+          "value": "-1138403616926863660/35147"
+        },
+        {
+          "source": 3234,
+          "angle": 61,
+          "target": 3443,
+          "feasible_vertices": 10,
+          "height": "97703473/50000000",
+          "reason": "target row fails",
+          "row": 24350,
+          "strict": false,
+          "point": [
+            "75955693/50000000",
+            "196090081/100000000"
+          ],
+          "value": "-68844736795423/16"
+        },
+        {
+          "source": 3235,
+          "angle": 62,
+          "target": 3444,
+          "feasible_vertices": 10,
+          "height": "97793027/50000000",
+          "reason": "target row fails",
+          "row": 24360,
+          "strict": false,
+          "point": [
+            "641828521021763/417248400000000",
+            "97793027/50000000"
+          ],
+          "value": "-289653032631302545003/8344968"
+        },
+        {
+          "source": 3236,
+          "angle": 63,
+          "target": 3445,
+          "feasible_vertices": 10,
+          "height": "195783921/100000000",
+          "reason": "target row fails",
+          "row": 24370,
+          "strict": false,
+          "point": [
+            "1262809058661631/819225100000000",
+            "195783921/100000000"
+          ],
+          "value": "-600906165190128825074/8192251"
+        },
+        {
+          "source": 3237,
+          "angle": 64,
+          "target": 3446,
+          "feasible_vertices": 10,
+          "height": "49/25",
+          "reason": "target row fails",
+          "row": 24380,
+          "strict": false,
+          "point": [
+            "51443626151549/33449150000000",
+            "49/25"
+          ],
+          "value": "-13475187430725037467/668983"
+        },
+        {
+          "source": 3238,
+          "angle": 65,
+          "target": 3447,
+          "feasible_vertices": 10,
+          "height": "98116867/50000000",
+          "reason": "target row fails",
+          "row": 24390,
+          "strict": false,
+          "point": [
+            "6055183/4000000",
+            "99106103/50000000"
+          ],
+          "value": "-84298048392680"
+        },
+        {
+          "source": 3239,
+          "angle": 66,
+          "target": 3448,
+          "feasible_vertices": 10,
+          "height": "196484559/100000000",
+          "reason": "target row fails",
+          "row": 24400,
+          "strict": false,
+          "point": [
+            "151243039/100000000",
+            "198730097/100000000"
+          ],
+          "value": "-14654190894373/4"
+        },
+        {
+          "source": 3240,
+          "angle": 67,
+          "target": 3449,
+          "feasible_vertices": 10,
+          "height": "196751903/100000000",
+          "reason": "target row fails",
+          "row": 24410,
+          "strict": false,
+          "point": [
+            "151105201/100000000",
+            "3984863/2000000"
+          ],
+          "value": "-91445276007497/64"
+        },
+        {
+          "source": 3241,
+          "angle": 68,
+          "target": 3450,
+          "feasible_vertices": 10,
+          "height": "197035187/100000000",
+          "reason": "target row fails",
+          "row": 24420,
+          "strict": false,
+          "point": [
+            "14470567037947/9333450000000",
+            "197035187/100000000"
+          ],
+          "value": "-8560890726422859983/2986704"
+        },
+        {
+          "source": 3242,
+          "angle": 69,
+          "target": 3451,
+          "feasible_vertices": 10,
+          "height": "24666729/12500000",
+          "reason": "target row fails",
+          "row": 24430,
+          "strict": false,
+          "point": [
+            "13222132862503/8481579600000",
+            "24666729/12500000"
+          ],
+          "value": "-900221717557814465566/21203949"
+        },
+        {
+          "source": 3243,
+          "angle": 70,
+          "target": 3452,
+          "feasible_vertices": 10,
+          "height": "197647249/100000000",
+          "reason": "target row fails",
+          "row": 24440,
+          "strict": false,
+          "point": [
+            "52207599662153/33553080000000",
+            "197647249/100000000"
+          ],
+          "value": "-141111090238664002103/1677654"
+        },
+        {
+          "source": 3244,
+          "angle": 71,
+          "target": 3453,
+          "feasible_vertices": 10,
+          "height": "197974853/100000000",
+          "reason": "target row fails",
+          "row": 24450,
+          "strict": false,
+          "point": [
+            "8551939157603/5486998437500",
+            "197974853/100000000"
+          ],
+          "value": "-282400382416273765744/3511679"
+        },
+        {
+          "source": 3245,
+          "angle": 72,
+          "target": 3454,
+          "feasible_vertices": 10,
+          "height": "99158027/50000000",
+          "reason": "target row fails",
+          "row": 24460,
+          "strict": false,
+          "point": [
+            "37599577/25000000",
+            "201739187/100000000"
+          ],
+          "value": "-76762079691166"
+        },
+        {
+          "source": 3246,
+          "angle": 73,
+          "target": 3455,
+          "feasible_vertices": 10,
+          "height": "24833783/12500000",
+          "reason": "target row fails",
+          "row": 24470,
+          "strict": false,
+          "point": [
+            "360934046160059/230123650000000",
+            "24833783/12500000"
+          ],
+          "value": "-1113736287153792039/115061825"
+        },
+        {
+          "source": 3247,
+          "angle": 74,
+          "target": 3456,
+          "feasible_vertices": 9,
+          "height": "39807379/20000000",
+          "reason": "target row fails",
+          "row": 24480,
+          "strict": false,
+          "point": [
+            "4742587214101/3029078125000",
+            "39807379/20000000"
+          ],
+          "value": "-67367105518698167003/1938610"
+        },
+        {
+          "source": 3248,
+          "angle": 75,
+          "target": 3457,
+          "feasible_vertices": 9,
+          "height": "199415361/100000000",
+          "reason": "target row fails",
+          "row": 24489,
+          "strict": false,
+          "point": [
+            "149961569/100000000",
+            "50796163/25000000"
+          ],
+          "value": "-4390453735894"
+        },
+        {
+          "source": 3249,
+          "angle": 76,
+          "target": 3458,
+          "feasible_vertices": 9,
+          "height": "4995127/2500000",
+          "reason": "target row fails",
+          "row": 24498,
+          "strict": false,
+          "point": [
+            "634403432910851/404133100000000",
+            "4995127/2500000"
+          ],
+          "value": "-13897093697736837428/4041331"
+        },
+        {
+          "source": 3250,
+          "angle": 77,
+          "target": 3459,
+          "feasible_vertices": 9,
+          "height": "6256421/3125000",
+          "reason": "target row fails",
+          "row": 24507,
+          "strict": false,
+          "point": [
+            "161152314631739/102537500000000",
+            "6256421/3125000"
+          ],
+          "value": "-36664108552032214546/1025375"
+        },
+        {
+          "source": 3251,
+          "angle": 78,
+          "target": 3460,
+          "feasible_vertices": 9,
+          "height": "100307981/50000000",
+          "reason": "target row fails",
+          "row": 24516,
+          "strict": false,
+          "point": [
+            "18689559/12500000",
+            "51148383/25000000"
+          ],
+          "value": "-10675704759035"
+        },
+        {
+          "source": 3252,
+          "angle": 79,
+          "target": 3461,
+          "feasible_vertices": 9,
+          "height": "201035981/100000000",
+          "reason": "target row fails",
+          "row": 24525,
+          "strict": false,
+          "point": [
+            "37341591/25000000",
+            "41011099/20000000"
+          ],
+          "value": "-25870055744796"
+        },
+        {
+          "source": 3253,
+          "angle": 80,
+          "target": 3462,
+          "feasible_vertices": 9,
+          "height": "100732483/50000000",
+          "reason": "target row fails",
+          "row": 24534,
+          "strict": false,
+          "point": [
+            "74607709/50000000",
+            "20551371/10000000"
+          ],
+          "value": "-11492762384541"
+        },
+        {
+          "source": 3254,
+          "angle": 81,
+          "target": 3463,
+          "feasible_vertices": 9,
+          "height": "5047559/2500000",
+          "reason": "target row fails",
+          "row": 24543,
+          "strict": false,
+          "point": [
+            "2981273/2000000",
+            "102984223/50000000"
+          ],
+          "value": "-83242692506675"
+        },
+        {
+          "source": 3255,
+          "angle": 82,
+          "target": 3464,
+          "feasible_vertices": 8,
+          "height": "50586903/25000000",
+          "reason": "target row fails",
+          "row": 24552,
+          "strict": false,
+          "point": [
+            "148911077/100000000",
+            "103209583/50000000"
+          ],
+          "value": "-15591307934324"
+        },
+        {
+          "source": 3256,
+          "angle": 83,
+          "target": 3465,
+          "feasible_vertices": 8,
+          "height": "101400091/50000000",
+          "reason": "target row fails",
+          "row": 24560,
+          "strict": false,
+          "point": [
+            "331507619398577/209823950000000",
+            "101400091/50000000"
+          ],
+          "value": "-321273352378736701479/4196479"
+        },
+        {
+          "source": 3257,
+          "angle": 84,
+          "target": 3466,
+          "feasible_vertices": 8,
+          "height": "203259537/100000000",
+          "reason": "target row fails",
+          "row": 24568,
+          "strict": false,
+          "point": [
+            "164949429802907/104343350000000",
+            "203259537/100000000"
+          ],
+          "value": "-164132361898642779061/267118976"
+        },
+        {
+          "source": 3258,
+          "angle": 85,
+          "target": 3467,
+          "feasible_vertices": 8,
+          "height": "4074503/2000000",
+          "reason": "target row fails",
+          "row": 24576,
+          "strict": false,
+          "point": [
+            "218341984213601/138051700000000",
+            "4074503/2000000"
+          ],
+          "value": "-911756808301927389/2761034"
+        },
+        {
+          "source": 3259,
+          "angle": 86,
+          "target": 3468,
+          "feasible_vertices": 8,
+          "height": "51049127/25000000",
+          "reason": "target row fails",
+          "row": 24584,
+          "strict": false,
+          "point": [
+            "926831/625000",
+            "208188119/100000000"
+          ],
+          "value": "-30445827211446/5"
+        },
+        {
+          "source": 3260,
+          "angle": 87,
+          "target": 3469,
+          "feasible_vertices": 8,
+          "height": "12792069/6250000",
+          "reason": "target row fails",
+          "row": 24592,
+          "strict": false,
+          "point": [
+            "148136523/100000000",
+            "208621859/100000000"
+          ],
+          "value": "-94586619501696"
+        },
+        {
+          "source": 3261,
+          "angle": 88,
+          "target": 3470,
+          "feasible_vertices": 8,
+          "height": "51288611/25000000",
+          "reason": "target row fails",
+          "row": 24600,
+          "strict": false,
+          "point": [
+            "147979339/100000000",
+            "1672417/800000"
+          ],
+          "value": "-97782966411035"
+        },
+        {
+          "source": 3262,
+          "angle": 89,
+          "target": 3471,
+          "feasible_vertices": 8,
+          "height": "205640041/100000000",
+          "reason": "target row fails",
+          "row": 24608,
+          "strict": false,
+          "point": [
+            "36955353/25000000",
+            "209479369/100000000"
+          ],
+          "value": "-50456716850545/2"
+        },
+        {
+          "source": 3263,
+          "angle": 90,
+          "target": 3472,
+          "feasible_vertices": 8,
+          "height": "103064711/50000000",
+          "reason": "target row fails",
+          "row": 24616,
+          "strict": false,
+          "point": [
+            "1028538988302319/648499300000000",
+            "103064711/50000000"
+          ],
+          "value": "-559842079468878165720/6484993"
+        },
+        {
+          "source": 3264,
+          "angle": 91,
+          "target": 3473,
+          "feasible_vertices": 8,
+          "height": "51655531/25000000",
+          "reason": "target row fails",
+          "row": 24624,
+          "strict": false,
+          "point": [
+            "654503016204629/412712300000000",
+            "51655531/25000000"
+          ],
+          "value": "-360400768277366016869/412712300"
+        },
+        {
+          "source": 3265,
+          "angle": 92,
+          "target": 3474,
+          "feasible_vertices": 8,
+          "height": "51779423/25000000",
+          "reason": "target row fails",
+          "row": 24632,
+          "strict": false,
+          "point": [
+            "3683701/2500000",
+            "8429633/4000000"
+          ],
+          "value": "-109774761694883/2"
+        },
+        {
+          "source": 3266,
+          "angle": 93,
+          "target": 3475,
+          "feasible_vertices": 8,
+          "height": "25951961/12500000",
+          "reason": "target row fails",
+          "row": 24640,
+          "strict": false,
+          "point": [
+            "147453989/100000000",
+            "422141/200000"
+          ],
+          "value": "-13723266202389"
+        },
+        {
+          "source": 3267,
+          "angle": 94,
+          "target": 3476,
+          "feasible_vertices": 8,
+          "height": "208115681/100000000",
+          "reason": "target row fails",
+          "row": 24648,
+          "strict": false,
+          "point": [
+            "147558903/100000000",
+            "211403211/100000000"
+          ],
+          "value": "-15629755016793/8"
+        },
+        {
+          "source": 3268,
+          "angle": 95,
+          "target": 3477,
+          "feasible_vertices": 8,
+          "height": "104308627/50000000",
+          "reason": "target row fails",
+          "row": 24656,
+          "strict": false,
+          "point": [
+            "73831323/50000000",
+            "42347781/20000000"
+          ],
+          "value": "-108683317875777/2"
+        },
+        {
+          "source": 3269,
+          "angle": 96,
+          "target": 3478,
+          "feasible_vertices": 8,
+          "height": "1307/625",
+          "reason": "target row fails",
+          "row": 24664,
+          "strict": false,
+          "point": [
+            "4617659/3125000",
+            "106038763/50000000"
+          ],
+          "value": "-51938753736219/2"
+        },
+        {
+          "source": 3270,
+          "angle": 97,
+          "target": 3479,
+          "feasible_vertices": 8,
+          "height": "52405881/25000000",
+          "reason": "target row fails",
+          "row": 24671,
+          "strict": false,
+          "point": [
+            "18483263/12500000",
+            "212419011/100000000"
+          ],
+          "value": "-13506760109796"
+        },
+        {
+          "source": 3271,
+          "angle": 98,
+          "target": 3480,
+          "feasible_vertices": 8,
+          "height": "105063723/50000000",
+          "reason": "target row fails",
+          "row": 24678,
+          "strict": false,
+          "point": [
+            "36991393/25000000",
+            "26595387/12500000"
+          ],
+          "value": "-39503385026163"
+        },
+        {
+          "source": 3272,
+          "angle": 99,
+          "target": 3481,
+          "feasible_vertices": 8,
+          "height": "210631393/100000000",
+          "reason": "target row fails",
+          "row": 24685,
+          "strict": false,
+          "point": [
+            "74999651/50000000",
+            "862171/390625"
+          ],
+          "value": "-1345452935695/2"
+        },
+        {
+          "source": 3273,
+          "angle": 100,
+          "target": 3482,
+          "feasible_vertices": 8,
+          "height": "211135007/100000000",
+          "reason": "target row fails",
+          "row": 24692,
+          "strict": false,
+          "point": [
+            "149870377/100000000",
+            "220465347/100000000"
+          ],
+          "value": "-713867330351/64"
+        },
+        {
+          "source": 3274,
+          "angle": 101,
+          "target": 3483,
+          "feasible_vertices": 8,
+          "height": "105818971/50000000",
+          "reason": "target row fails",
+          "row": 24699,
+          "strict": false,
+          "point": [
+            "29650711/20000000",
+            "53453019/25000000"
+          ],
+          "value": "-911508020802"
+        },
+        {
+          "source": 3275,
+          "angle": 102,
+          "target": 3484,
+          "feasible_vertices": 8,
+          "height": "106069931/50000000",
+          "reason": "target row fails",
+          "row": 24706,
+          "strict": false,
+          "point": [
+            "60986705085279/38710160000000",
+            "106069931/50000000"
+          ],
+          "value": "-347400622969524452/483877"
+        },
+        {
+          "source": 3276,
+          "angle": 103,
+          "target": 3485,
+          "feasible_vertices": 8,
+          "height": "53160111/25000000",
+          "reason": "target row fails",
+          "row": 24713,
+          "strict": false,
+          "point": [
+            "148435801/100000000",
+            "214524099/100000000"
+          ],
+          "value": "-6156454928047"
+        },
+        {
+          "source": 3277,
+          "angle": 104,
+          "target": 3486,
+          "feasible_vertices": 8,
+          "height": "213139377/100000000",
+          "reason": "target row fails",
+          "row": 24720,
+          "strict": false,
+          "point": [
+            "149465743/100000000",
+            "109747679/50000000"
+          ],
+          "value": "-5654562486678/5"
+        },
+        {
+          "source": 3278,
+          "angle": 105,
+          "target": 3487,
+          "feasible_vertices": 8,
+          "height": "5340909/2500000",
+          "reason": "target row fails",
+          "row": 24727,
+          "strict": false,
+          "point": [
+            "37152339/25000000",
+            "107622781/50000000"
+          ],
+          "value": "-3305521923337"
+        },
+        {
+          "source": 3279,
+          "angle": 106,
+          "target": 3488,
+          "feasible_vertices": 8,
+          "height": "6691597/3125000",
+          "reason": "target row fails",
+          "row": 24734,
+          "strict": false,
+          "point": [
+            "58749856106237/37494800000000",
+            "6691597/3125000"
+          ],
+          "value": "-191529270737846359/374948"
+        },
+        {
+          "source": 3280,
+          "angle": 107,
+          "target": 3489,
+          "feasible_vertices": 8,
+          "height": "107311667/50000000",
+          "reason": "target row fails",
+          "row": 24741,
+          "strict": false,
+          "point": [
+            "42919549191049/27427580000000",
+            "107311667/50000000"
+          ],
+          "value": "-296245470891214483/13713790"
+        },
+        {
+          "source": 3281,
+          "angle": 108,
+          "target": 3490,
+          "feasible_vertices": 8,
+          "height": "107556391/50000000",
+          "reason": "target row fails",
+          "row": 24748,
+          "strict": false,
+          "point": [
+            "273764972669/175073984375",
+            "107556391/50000000"
+          ],
+          "value": "-494774981398565045/2240947"
+        },
+        {
+          "source": 3282,
+          "angle": 109,
+          "target": 3491,
+          "feasible_vertices": 8,
+          "height": "107799597/50000000",
+          "reason": "target row fails",
+          "row": 24755,
+          "strict": false,
+          "point": [
+            "74463853/50000000",
+            "27089273/12500000"
+          ],
+          "value": "-1156093003099/4"
+        },
+        {
+          "source": 3283,
+          "angle": 110,
+          "target": 3492,
+          "feasible_vertices": 8,
+          "height": "8643293/4000000",
+          "reason": "target row fails",
+          "row": 24762,
+          "strict": false,
+          "point": [
+            "14900087/10000000",
+            "108543099/50000000"
+          ],
+          "value": "-3732043983658"
+        },
+        {
+          "source": 3284,
+          "angle": 111,
+          "target": 3493,
+          "feasible_vertices": 8,
+          "height": "216561943/100000000",
+          "reason": "target row fails",
+          "row": 24770,
+          "strict": false,
+          "point": [
+            "9321177/6250000",
+            "108973859/50000000"
+          ],
+          "value": "-3139474064433"
+        }
+      ],
+      "roots": [
+        {
+          "source": 3188,
+          "angle": 0,
+          "target": null,
+          "feasible_vertices": 0,
+          "height": "44642577/20000000"
+        },
+        {
+          "source": 3189,
+          "angle": 15,
+          "target": 3398,
+          "feasible_vertices": 8,
+          "height": "105455621/50000000"
+        },
+        {
+          "source": 3190,
+          "angle": 16,
+          "target": 3399,
+          "feasible_vertices": 8,
+          "height": "105060247/50000000"
+        },
+        {
+          "source": 3191,
+          "angle": 17,
+          "target": 3400,
+          "feasible_vertices": 8,
+          "height": "4186813/2000000"
+        },
+        {
+          "source": 3192,
+          "angle": 18,
+          "target": 3401,
+          "feasible_vertices": 8,
+          "height": "52143211/25000000"
+        },
+        {
+          "source": 3193,
+          "angle": 19,
+          "target": 3402,
+          "feasible_vertices": 8,
+          "height": "207818171/100000000"
+        },
+        {
+          "source": 3194,
+          "angle": 20,
+          "target": 3403,
+          "feasible_vertices": 8,
+          "height": "41415537/20000000"
+        },
+        {
+          "source": 3195,
+          "angle": 21,
+          "target": 3404,
+          "feasible_vertices": 8,
+          "height": "51588099/25000000"
+        },
+        {
+          "source": 3196,
+          "angle": 22,
+          "target": 3405,
+          "feasible_vertices": 8,
+          "height": "20564327/10000000"
+        },
+        {
+          "source": 3197,
+          "angle": 23,
+          "target": 3406,
+          "feasible_vertices": 8,
+          "height": "51237807/25000000"
+        },
+        {
+          "source": 3198,
+          "angle": 24,
+          "target": 3407,
+          "feasible_vertices": 8,
+          "height": "102138571/50000000"
+        },
+        {
+          "source": 3199,
+          "angle": 25,
+          "target": 3408,
+          "feasible_vertices": 9,
+          "height": "2545273/1250000"
+        },
+        {
+          "source": 3200,
+          "angle": 26,
+          "target": 3409,
+          "feasible_vertices": 9,
+          "height": "202986099/100000000"
+        },
+        {
+          "source": 3201,
+          "angle": 27,
+          "target": 3410,
+          "feasible_vertices": 8,
+          "height": "25296331/12500000"
+        },
+        {
+          "source": 3202,
+          "angle": 28,
+          "target": 3411,
+          "feasible_vertices": 8,
+          "height": "40355233/20000000"
+        },
+        {
+          "source": 3203,
+          "angle": 29,
+          "target": 3412,
+          "feasible_vertices": 8,
+          "height": "201203279/100000000"
+        },
+        {
+          "source": 3204,
+          "angle": 30,
+          "target": 3413,
+          "feasible_vertices": 8,
+          "height": "20065257/10000000"
+        },
+        {
+          "source": 3205,
+          "angle": 31,
+          "target": 3414,
+          "feasible_vertices": 8,
+          "height": "200124567/100000000"
+        },
+        {
+          "source": 3206,
+          "angle": 33,
+          "target": 3415,
+          "feasible_vertices": 8,
+          "height": "99569271/50000000"
+        },
+        {
+          "source": 3207,
+          "angle": 34,
+          "target": 3416,
+          "feasible_vertices": 8,
+          "height": "198681329/100000000"
+        },
+        {
+          "source": 3208,
+          "angle": 35,
+          "target": 3417,
+          "feasible_vertices": 8,
+          "height": "99124219/50000000"
+        },
+        {
+          "source": 3209,
+          "angle": 36,
+          "target": 3418,
+          "feasible_vertices": 9,
+          "height": "197840153/100000000"
+        },
+        {
+          "source": 3210,
+          "angle": 37,
+          "target": 3419,
+          "feasible_vertices": 9,
+          "height": "197456707/100000000"
+        },
+        {
+          "source": 3211,
+          "angle": 38,
+          "target": 3420,
+          "feasible_vertices": 9,
+          "height": "197098287/100000000"
+        },
+        {
+          "source": 3212,
+          "angle": 39,
+          "target": 3421,
+          "feasible_vertices": 11,
+          "height": "39353007/20000000"
+        },
+        {
+          "source": 3213,
+          "angle": 40,
+          "target": 3422,
+          "feasible_vertices": 11,
+          "height": "24557131/12500000"
+        },
+        {
+          "source": 3214,
+          "angle": 41,
+          "target": 3423,
+          "feasible_vertices": 11,
+          "height": "24521797/12500000"
+        },
+        {
+          "source": 3215,
+          "angle": 42,
+          "target": 3424,
+          "feasible_vertices": 11,
+          "height": "19591703/10000000"
+        },
+        {
+          "source": 3216,
+          "angle": 43,
+          "target": 3425,
+          "feasible_vertices": 11,
+          "height": "195684979/100000000"
+        },
+        {
+          "source": 3217,
+          "angle": 44,
+          "target": 3426,
+          "feasible_vertices": 11,
+          "height": "195478149/100000000"
+        },
+        {
+          "source": 3218,
+          "angle": 45,
+          "target": 3427,
+          "feasible_vertices": 11,
+          "height": "19529643/10000000"
+        },
+        {
+          "source": 3219,
+          "angle": 46,
+          "target": 3428,
+          "feasible_vertices": 11,
+          "height": "195139673/100000000"
+        },
+        {
+          "source": 3220,
+          "angle": 47,
+          "target": 3429,
+          "feasible_vertices": 11,
+          "height": "195007693/100000000"
+        },
+        {
+          "source": 3221,
+          "angle": 48,
+          "target": 3430,
+          "feasible_vertices": 11,
+          "height": "194900273/100000000"
+        },
+        {
+          "source": 3222,
+          "angle": 49,
+          "target": 3431,
+          "feasible_vertices": 11,
+          "height": "194817159/100000000"
+        },
+        {
+          "source": 3223,
+          "angle": 50,
+          "target": 3432,
+          "feasible_vertices": 10,
+          "height": "19475807/10000000"
+        },
+        {
+          "source": 3224,
+          "angle": 51,
+          "target": 3433,
+          "feasible_vertices": 9,
+          "height": "194722691/100000000"
+        },
+        {
+          "source": 3225,
+          "angle": 52,
+          "target": 3434,
+          "feasible_vertices": 9,
+          "height": "97355341/50000000"
+        },
+        {
+          "source": 3226,
+          "angle": 53,
+          "target": 3435,
+          "feasible_vertices": 9,
+          "height": "97355319/50000000"
+        },
+        {
+          "source": 3227,
+          "angle": 54,
+          "target": 3436,
+          "feasible_vertices": 9,
+          "height": "7788867/4000000"
+        },
+        {
+          "source": 3228,
+          "angle": 55,
+          "target": 3437,
+          "feasible_vertices": 8,
+          "height": "194755277/100000000"
+        },
+        {
+          "source": 3229,
+          "angle": 56,
+          "target": 3438,
+          "feasible_vertices": 8,
+          "height": "3043923/1562500"
+        },
+        {
+          "source": 3230,
+          "angle": 57,
+          "target": 3439,
+          "feasible_vertices": 8,
+          "height": "97444311/50000000"
+        },
+        {
+          "source": 3231,
+          "angle": 58,
+          "target": 3440,
+          "feasible_vertices": 8,
+          "height": "19498747/10000000"
+        },
+        {
+          "source": 3232,
+          "angle": 59,
+          "target": 3441,
+          "feasible_vertices": 7,
+          "height": "97553569/50000000"
+        },
+        {
+          "source": 3233,
+          "angle": 60,
+          "target": 3442,
+          "feasible_vertices": 9,
+          "height": "195247133/100000000"
+        },
+        {
+          "source": 3234,
+          "angle": 61,
+          "target": 3443,
+          "feasible_vertices": 10,
+          "height": "97703473/50000000"
+        },
+        {
+          "source": 3235,
+          "angle": 62,
+          "target": 3444,
+          "feasible_vertices": 10,
+          "height": "97793027/50000000"
+        },
+        {
+          "source": 3236,
+          "angle": 63,
+          "target": 3445,
+          "feasible_vertices": 10,
+          "height": "195783921/100000000"
+        },
+        {
+          "source": 3237,
+          "angle": 64,
+          "target": 3446,
+          "feasible_vertices": 10,
+          "height": "49/25"
+        },
+        {
+          "source": 3238,
+          "angle": 65,
+          "target": 3447,
+          "feasible_vertices": 10,
+          "height": "98116867/50000000"
+        },
+        {
+          "source": 3239,
+          "angle": 66,
+          "target": 3448,
+          "feasible_vertices": 10,
+          "height": "196484559/100000000"
+        },
+        {
+          "source": 3240,
+          "angle": 67,
+          "target": 3449,
+          "feasible_vertices": 10,
+          "height": "196751903/100000000"
+        },
+        {
+          "source": 3241,
+          "angle": 68,
+          "target": 3450,
+          "feasible_vertices": 10,
+          "height": "197035187/100000000"
+        },
+        {
+          "source": 3242,
+          "angle": 69,
+          "target": 3451,
+          "feasible_vertices": 10,
+          "height": "24666729/12500000"
+        },
+        {
+          "source": 3243,
+          "angle": 70,
+          "target": 3452,
+          "feasible_vertices": 10,
+          "height": "197647249/100000000"
+        },
+        {
+          "source": 3244,
+          "angle": 71,
+          "target": 3453,
+          "feasible_vertices": 10,
+          "height": "197974853/100000000"
+        },
+        {
+          "source": 3245,
+          "angle": 72,
+          "target": 3454,
+          "feasible_vertices": 10,
+          "height": "99158027/50000000"
+        },
+        {
+          "source": 3246,
+          "angle": 73,
+          "target": 3455,
+          "feasible_vertices": 10,
+          "height": "24833783/12500000"
+        },
+        {
+          "source": 3247,
+          "angle": 74,
+          "target": 3456,
+          "feasible_vertices": 9,
+          "height": "39807379/20000000"
+        },
+        {
+          "source": 3248,
+          "angle": 75,
+          "target": 3457,
+          "feasible_vertices": 9,
+          "height": "199415361/100000000"
+        },
+        {
+          "source": 3249,
+          "angle": 76,
+          "target": 3458,
+          "feasible_vertices": 9,
+          "height": "4995127/2500000"
+        },
+        {
+          "source": 3250,
+          "angle": 77,
+          "target": 3459,
+          "feasible_vertices": 9,
+          "height": "6256421/3125000"
+        },
+        {
+          "source": 3251,
+          "angle": 78,
+          "target": 3460,
+          "feasible_vertices": 9,
+          "height": "100307981/50000000"
+        },
+        {
+          "source": 3252,
+          "angle": 79,
+          "target": 3461,
+          "feasible_vertices": 9,
+          "height": "201035981/100000000"
+        },
+        {
+          "source": 3253,
+          "angle": 80,
+          "target": 3462,
+          "feasible_vertices": 9,
+          "height": "100732483/50000000"
+        },
+        {
+          "source": 3254,
+          "angle": 81,
+          "target": 3463,
+          "feasible_vertices": 9,
+          "height": "5047559/2500000"
+        },
+        {
+          "source": 3255,
+          "angle": 82,
+          "target": 3464,
+          "feasible_vertices": 8,
+          "height": "50586903/25000000"
+        },
+        {
+          "source": 3256,
+          "angle": 83,
+          "target": 3465,
+          "feasible_vertices": 8,
+          "height": "101400091/50000000"
+        },
+        {
+          "source": 3257,
+          "angle": 84,
+          "target": 3466,
+          "feasible_vertices": 8,
+          "height": "203259537/100000000"
+        },
+        {
+          "source": 3258,
+          "angle": 85,
+          "target": 3467,
+          "feasible_vertices": 8,
+          "height": "4074503/2000000"
+        },
+        {
+          "source": 3259,
+          "angle": 86,
+          "target": 3468,
+          "feasible_vertices": 8,
+          "height": "51049127/25000000"
+        },
+        {
+          "source": 3260,
+          "angle": 87,
+          "target": 3469,
+          "feasible_vertices": 8,
+          "height": "12792069/6250000"
+        },
+        {
+          "source": 3261,
+          "angle": 88,
+          "target": 3470,
+          "feasible_vertices": 8,
+          "height": "51288611/25000000"
+        },
+        {
+          "source": 3262,
+          "angle": 89,
+          "target": 3471,
+          "feasible_vertices": 8,
+          "height": "205640041/100000000"
+        },
+        {
+          "source": 3263,
+          "angle": 90,
+          "target": 3472,
+          "feasible_vertices": 8,
+          "height": "103064711/50000000"
+        },
+        {
+          "source": 3264,
+          "angle": 91,
+          "target": 3473,
+          "feasible_vertices": 8,
+          "height": "51655531/25000000"
+        },
+        {
+          "source": 3265,
+          "angle": 92,
+          "target": 3474,
+          "feasible_vertices": 8,
+          "height": "51779423/25000000"
+        },
+        {
+          "source": 3266,
+          "angle": 93,
+          "target": 3475,
+          "feasible_vertices": 8,
+          "height": "25951961/12500000"
+        },
+        {
+          "source": 3267,
+          "angle": 94,
+          "target": 3476,
+          "feasible_vertices": 8,
+          "height": "208115681/100000000"
+        },
+        {
+          "source": 3268,
+          "angle": 95,
+          "target": 3477,
+          "feasible_vertices": 8,
+          "height": "104308627/50000000"
+        },
+        {
+          "source": 3269,
+          "angle": 96,
+          "target": 3478,
+          "feasible_vertices": 8,
+          "height": "1307/625"
+        },
+        {
+          "source": 3270,
+          "angle": 97,
+          "target": 3479,
+          "feasible_vertices": 8,
+          "height": "52405881/25000000"
+        },
+        {
+          "source": 3271,
+          "angle": 98,
+          "target": 3480,
+          "feasible_vertices": 8,
+          "height": "105063723/50000000"
+        },
+        {
+          "source": 3272,
+          "angle": 99,
+          "target": 3481,
+          "feasible_vertices": 8,
+          "height": "210631393/100000000"
+        },
+        {
+          "source": 3273,
+          "angle": 100,
+          "target": 3482,
+          "feasible_vertices": 8,
+          "height": "211135007/100000000"
+        },
+        {
+          "source": 3274,
+          "angle": 101,
+          "target": 3483,
+          "feasible_vertices": 8,
+          "height": "105818971/50000000"
+        },
+        {
+          "source": 3275,
+          "angle": 102,
+          "target": 3484,
+          "feasible_vertices": 8,
+          "height": "106069931/50000000"
+        },
+        {
+          "source": 3276,
+          "angle": 103,
+          "target": 3485,
+          "feasible_vertices": 8,
+          "height": "53160111/25000000"
+        },
+        {
+          "source": 3277,
+          "angle": 104,
+          "target": 3486,
+          "feasible_vertices": 8,
+          "height": "213139377/100000000"
+        },
+        {
+          "source": 3278,
+          "angle": 105,
+          "target": 3487,
+          "feasible_vertices": 8,
+          "height": "5340909/2500000"
+        },
+        {
+          "source": 3279,
+          "angle": 106,
+          "target": 3488,
+          "feasible_vertices": 8,
+          "height": "6691597/3125000"
+        },
+        {
+          "source": 3280,
+          "angle": 107,
+          "target": 3489,
+          "feasible_vertices": 8,
+          "height": "107311667/50000000"
+        },
+        {
+          "source": 3281,
+          "angle": 108,
+          "target": 3490,
+          "feasible_vertices": 8,
+          "height": "107556391/50000000"
+        },
+        {
+          "source": 3282,
+          "angle": 109,
+          "target": 3491,
+          "feasible_vertices": 8,
+          "height": "107799597/50000000"
+        },
+        {
+          "source": 3283,
+          "angle": 110,
+          "target": 3492,
+          "feasible_vertices": 8,
+          "height": "8643293/4000000"
+        },
+        {
+          "source": 3284,
+          "angle": 111,
+          "target": 3493,
+          "feasible_vertices": 8,
+          "height": "216561943/100000000"
+        },
+        {
+          "source": 3285,
+          "angle": 117,
+          "target": 3494,
+          "feasible_vertices": 0,
+          "height": "54838529/25000000"
+        },
+        {
+          "source": 3286,
+          "angle": 118,
+          "target": 3495,
+          "feasible_vertices": 0,
+          "height": "219803473/100000000"
+        },
+        {
+          "source": 3287,
+          "angle": 119,
+          "target": 3496,
+          "feasible_vertices": 0,
+          "height": "110123907/50000000"
+        },
+        {
+          "source": 3288,
+          "angle": 120,
+          "target": 3497,
+          "feasible_vertices": 0,
+          "height": "44137399/20000000"
+        },
+        {
+          "source": 3289,
+          "angle": 121,
+          "target": 3498,
+          "feasible_vertices": 0,
+          "height": "221120879/100000000"
+        },
+        {
+          "source": 3290,
+          "angle": 122,
+          "target": 3499,
+          "feasible_vertices": 0,
+          "height": "221549337/100000000"
+        },
+        {
+          "source": 3291,
+          "angle": 123,
+          "target": null,
+          "feasible_vertices": 0,
+          "height": "221972251/100000000"
+        },
+        {
+          "source": 3292,
+          "angle": 124,
+          "target": null,
+          "feasible_vertices": 0,
+          "height": "55597377/25000000"
+        },
+        {
+          "source": 3293,
+          "angle": 125,
+          "target": null,
+          "feasible_vertices": 0,
+          "height": "55700251/25000000"
+        },
+        {
+          "source": 3294,
+          "angle": 126,
+          "target": null,
+          "feasible_vertices": 0,
+          "height": "111603321/50000000"
+        },
+        {
+          "source": 3295,
+          "angle": 127,
+          "target": null,
+          "feasible_vertices": 0,
+          "height": "44721267/20000000"
+        }
+      ]
+    },
+    "continuousScout713Domain7_8": {
+      "passed": 12,
+      "empty": 12,
+      "failed": [
+        {
+          "source": 3189,
+          "angle": 15,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "105455621/50000000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "157234303/100000000",
+            "43005269/20000000"
+          ]
+        },
+        {
+          "source": 3190,
+          "angle": 16,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "105060247/50000000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "3944659/2500000",
+            "215246469/100000000"
+          ]
+        },
+        {
+          "source": 3191,
+          "angle": 17,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "4186813/2000000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "158750969/100000000",
+            "214017127/100000000"
+          ]
+        },
+        {
+          "source": 3192,
+          "angle": 18,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "52143211/25000000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "169335141/100000000",
+            "43337151/20000000"
+          ]
+        },
+        {
+          "source": 3193,
+          "angle": 19,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "207818171/100000000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "168937993/100000000",
+            "43258281/20000000"
+          ]
+        },
+        {
+          "source": 3194,
+          "angle": 20,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "41415537/20000000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "8377193/5000000",
+            "109460763/50000000"
+          ]
+        },
+        {
+          "source": 3195,
+          "angle": 21,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "51588099/25000000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "168139221/100000000",
+            "107745839/50000000"
+          ]
+        },
+        {
+          "source": 3196,
+          "angle": 22,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "20564327/10000000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "80527987/50000000",
+            "108606491/50000000"
+          ]
+        },
+        {
+          "source": 3197,
+          "angle": 23,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "51237807/25000000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "161582401/100000000",
+            "54411649/25000000"
+          ]
+        },
+        {
+          "source": 3198,
+          "angle": 24,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "102138571/50000000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "162100391/100000000",
+            "109054563/50000000"
+          ]
+        },
+        {
+          "source": 3199,
+          "angle": 25,
+          "target": null,
+          "feasible_vertices": 9,
+          "height": "2545273/1250000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "3997563/2500000",
+            "5278091/2500000"
+          ]
+        },
+        {
+          "source": 3200,
+          "angle": 26,
+          "target": null,
+          "feasible_vertices": 9,
+          "height": "202986099/100000000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "160558211/100000000",
+            "211011491/100000000"
+          ]
+        },
+        {
+          "source": 3201,
+          "angle": 27,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "25296331/12500000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "8244911/5000000",
+            "6712553/3125000"
+          ]
+        },
+        {
+          "source": 3202,
+          "angle": 28,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "40355233/20000000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "164065057/100000000",
+            "26900981/12500000"
+          ]
+        },
+        {
+          "source": 3203,
+          "angle": 29,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "201203279/100000000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "164901239/100000000",
+            "42423079/20000000"
+          ]
+        },
+        {
+          "source": 3204,
+          "angle": 30,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "20065257/10000000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "20294793/12500000",
+            "53974261/25000000"
+          ]
+        },
+        {
+          "source": 3205,
+          "angle": 31,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "200124567/100000000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "80623153/50000000",
+            "5401323/2500000"
+          ]
+        },
+        {
+          "source": 3206,
+          "angle": 33,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "99569271/50000000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "180125067/100000000",
+            "231328569/100000000"
+          ]
+        },
+        {
+          "source": 3207,
+          "angle": 34,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "198681329/100000000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "89741633/50000000",
+            "9269253/4000000"
+          ]
+        },
+        {
+          "source": 3208,
+          "angle": 35,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "99124219/50000000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "89973293/50000000",
+            "46048003/20000000"
+          ]
+        },
+        {
+          "source": 3209,
+          "angle": 36,
+          "target": null,
+          "feasible_vertices": 9,
+          "height": "197840153/100000000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "162085211/100000000",
+            "55027967/25000000"
+          ]
+        },
+        {
+          "source": 3210,
+          "angle": 37,
+          "target": null,
+          "feasible_vertices": 9,
+          "height": "197456707/100000000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "35484239/20000000",
+            "232836357/100000000"
+          ]
+        },
+        {
+          "source": 3211,
+          "angle": 38,
+          "target": null,
+          "feasible_vertices": 9,
+          "height": "197098287/100000000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "81176479/50000000",
+            "221718677/100000000"
+          ]
+        },
+        {
+          "source": 3212,
+          "angle": 39,
+          "target": null,
+          "feasible_vertices": 11,
+          "height": "39353007/20000000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "35889047/20000000",
+            "228340481/100000000"
+          ]
+        },
+        {
+          "source": 3213,
+          "angle": 40,
+          "target": null,
+          "feasible_vertices": 11,
+          "height": "24557131/12500000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "80229971/50000000",
+            "25861227/12500000"
+          ]
+        },
+        {
+          "source": 3214,
+          "angle": 41,
+          "target": null,
+          "feasible_vertices": 11,
+          "height": "24521797/12500000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "1189179/781250",
+            "200688727/100000000"
+          ]
+        },
+        {
+          "source": 3215,
+          "angle": 42,
+          "target": null,
+          "feasible_vertices": 11,
+          "height": "19591703/10000000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "678024/390625",
+            "58572637/25000000"
+          ]
+        },
+        {
+          "source": 3216,
+          "angle": 43,
+          "target": null,
+          "feasible_vertices": 11,
+          "height": "195684979/100000000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "86375369/50000000",
+            "117258831/50000000"
+          ]
+        },
+        {
+          "source": 3217,
+          "angle": 44,
+          "target": null,
+          "feasible_vertices": 11,
+          "height": "195478149/100000000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "71527/40000",
+            "225991047/100000000"
+          ]
+        },
+        {
+          "source": 3218,
+          "angle": 45,
+          "target": null,
+          "feasible_vertices": 11,
+          "height": "19529643/10000000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "171703431/100000000",
+            "234110839/100000000"
+          ]
+        },
+        {
+          "source": 3219,
+          "angle": 46,
+          "target": null,
+          "feasible_vertices": 11,
+          "height": "195139673/100000000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "155143669/100000000",
+            "201211699/100000000"
+          ]
+        },
+        {
+          "source": 3220,
+          "angle": 47,
+          "target": null,
+          "feasible_vertices": 11,
+          "height": "195007693/100000000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "34332127/20000000",
+            "116232543/50000000"
+          ]
+        },
+        {
+          "source": 3221,
+          "angle": 48,
+          "target": null,
+          "feasible_vertices": 11,
+          "height": "194900273/100000000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "156276119/100000000",
+            "201622433/100000000"
+          ]
+        },
+        {
+          "source": 3222,
+          "angle": 49,
+          "target": null,
+          "feasible_vertices": 11,
+          "height": "194817159/100000000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "89095953/50000000",
+            "223650843/100000000"
+          ]
+        },
+        {
+          "source": 3223,
+          "angle": 50,
+          "target": null,
+          "feasible_vertices": 10,
+          "height": "19475807/10000000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "89033831/50000000",
+            "111591093/50000000"
+          ]
+        },
+        {
+          "source": 3224,
+          "angle": 51,
+          "target": null,
+          "feasible_vertices": 9,
+          "height": "194722691/100000000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "31478233/20000000",
+            "101490213/50000000"
+          ]
+        },
+        {
+          "source": 3225,
+          "angle": 52,
+          "target": 3500,
+          "feasible_vertices": 9,
+          "height": "97355341/50000000",
+          "reason": "target row fails",
+          "row": 24820,
+          "strict": false,
+          "point": [
+            "38220421/25000000",
+            "208393441/100000000"
+          ],
+          "value": "-23299204/5"
+        },
+        {
+          "source": 3226,
+          "angle": 53,
+          "target": 3501,
+          "feasible_vertices": 9,
+          "height": "97355319/50000000",
+          "reason": "target row fails",
+          "row": 24828,
+          "strict": false,
+          "point": [
+            "15894437/10000000",
+            "101556889/50000000"
+          ],
+          "value": "-14425942"
+        },
+        {
+          "source": 3227,
+          "angle": 54,
+          "target": null,
+          "feasible_vertices": 9,
+          "height": "7788867/4000000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "38278111/25000000",
+            "5239341/2500000"
+          ]
+        },
+        {
+          "source": 3228,
+          "angle": 55,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "194755277/100000000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "6128879/4000000",
+            "105081721/50000000"
+          ]
+        },
+        {
+          "source": 3229,
+          "angle": 56,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "3043923/1562500",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "6416087/4000000",
+            "204300757/100000000"
+          ]
+        },
+        {
+          "source": 3230,
+          "angle": 57,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "97444311/50000000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "32171951/20000000",
+            "5118521/2500000"
+          ]
+        },
+        {
+          "source": 3231,
+          "angle": 58,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "19498747/10000000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "8754937/5000000",
+            "110570919/50000000"
+          ]
+        },
+        {
+          "source": 3232,
+          "angle": 59,
+          "target": null,
+          "feasible_vertices": 7,
+          "height": "97553569/50000000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "174598749/100000000",
+            "110472593/50000000"
+          ]
+        },
+        {
+          "source": 3233,
+          "angle": 60,
+          "target": null,
+          "feasible_vertices": 9,
+          "height": "195247133/100000000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "83696423633/54917187500",
+            "195247133/100000000"
+          ]
+        },
+        {
+          "source": 3234,
+          "angle": 61,
+          "target": null,
+          "feasible_vertices": 10,
+          "height": "97703473/50000000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "30758987/20000000",
+            "106849541/50000000"
+          ]
+        },
+        {
+          "source": 3235,
+          "angle": 62,
+          "target": null,
+          "feasible_vertices": 10,
+          "height": "97793027/50000000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "165154437/100000000",
+            "28593721/12500000"
+          ]
+        },
+        {
+          "source": 3236,
+          "angle": 63,
+          "target": null,
+          "feasible_vertices": 10,
+          "height": "195783921/100000000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "83282223/50000000",
+            "113531887/50000000"
+          ]
+        },
+        {
+          "source": 3237,
+          "angle": 64,
+          "target": null,
+          "feasible_vertices": 10,
+          "height": "49/25",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "10423151/6250000",
+            "28293649/12500000"
+          ]
+        },
+        {
+          "source": 3238,
+          "angle": 65,
+          "target": null,
+          "feasible_vertices": 10,
+          "height": "98116867/50000000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "6679641/4000000",
+            "112827611/50000000"
+          ]
+        },
+        {
+          "source": 3239,
+          "angle": 66,
+          "target": null,
+          "feasible_vertices": 10,
+          "height": "196484559/100000000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "16240149/10000000",
+            "57092823/25000000"
+          ]
+        },
+        {
+          "source": 3240,
+          "angle": 67,
+          "target": null,
+          "feasible_vertices": 10,
+          "height": "196751903/100000000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "170518411/100000000",
+            "218912871/100000000"
+          ]
+        },
+        {
+          "source": 3241,
+          "angle": 68,
+          "target": null,
+          "feasible_vertices": 10,
+          "height": "197035187/100000000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "14470567037947/9333450000000",
+            "197035187/100000000"
+          ]
+        },
+        {
+          "source": 3242,
+          "angle": 69,
+          "target": null,
+          "feasible_vertices": 10,
+          "height": "24666729/12500000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "13222132862503/8481579600000",
+            "24666729/12500000"
+          ]
+        },
+        {
+          "source": 3243,
+          "angle": 70,
+          "target": null,
+          "feasible_vertices": 10,
+          "height": "197647249/100000000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "52207599662153/33553080000000",
+            "197647249/100000000"
+          ]
+        },
+        {
+          "source": 3244,
+          "angle": 71,
+          "target": 3502,
+          "feasible_vertices": 10,
+          "height": "197974853/100000000",
+          "reason": "target row fails",
+          "row": 24836,
+          "strict": false,
+          "point": [
+            "8551939157603/5486998437500",
+            "197974853/100000000"
+          ],
+          "value": "-20787123/8"
+        },
+        {
+          "source": 3245,
+          "angle": 72,
+          "target": 3503,
+          "feasible_vertices": 10,
+          "height": "99158027/50000000",
+          "reason": "target row fails",
+          "row": 24844,
+          "strict": false,
+          "point": [
+            "37599577/25000000",
+            "201739187/100000000"
+          ],
+          "value": "-16510029/256"
+        },
+        {
+          "source": 3246,
+          "angle": 73,
+          "target": 3504,
+          "feasible_vertices": 10,
+          "height": "24833783/12500000",
+          "reason": "target row fails",
+          "row": 24852,
+          "strict": false,
+          "point": [
+            "360934046160059/230123650000000",
+            "24833783/12500000"
+          ],
+          "value": "-2373110"
+        },
+        {
+          "source": 3247,
+          "angle": 74,
+          "target": 3505,
+          "feasible_vertices": 9,
+          "height": "39807379/20000000",
+          "reason": "target row fails",
+          "row": 24860,
+          "strict": false,
+          "point": [
+            "4742587214101/3029078125000",
+            "39807379/20000000"
+          ],
+          "value": "-17928921/8"
+        },
+        {
+          "source": 3248,
+          "angle": 75,
+          "target": 3506,
+          "feasible_vertices": 9,
+          "height": "199415361/100000000",
+          "reason": "target row fails",
+          "row": 24868,
+          "strict": false,
+          "point": [
+            "149961569/100000000",
+            "50796163/25000000"
+          ],
+          "value": "-12979457"
+        },
+        {
+          "source": 3249,
+          "angle": 76,
+          "target": 3507,
+          "feasible_vertices": 9,
+          "height": "4995127/2500000",
+          "reason": "target row fails",
+          "row": 24876,
+          "strict": false,
+          "point": [
+            "634403432910851/404133100000000",
+            "4995127/2500000"
+          ],
+          "value": "-15423637"
+        },
+        {
+          "source": 3250,
+          "angle": 77,
+          "target": 3508,
+          "feasible_vertices": 9,
+          "height": "6256421/3125000",
+          "reason": "target row fails",
+          "row": 24884,
+          "strict": false,
+          "point": [
+            "161152314631739/102537500000000",
+            "6256421/3125000"
+          ],
+          "value": "-6963635"
+        },
+        {
+          "source": 3251,
+          "angle": 78,
+          "target": 3509,
+          "feasible_vertices": 9,
+          "height": "100307981/50000000",
+          "reason": "target row fails",
+          "row": 24892,
+          "strict": false,
+          "point": [
+            "18689559/12500000",
+            "51148383/25000000"
+          ],
+          "value": "-2062043/2"
+        },
+        {
+          "source": 3252,
+          "angle": 79,
+          "target": 3510,
+          "feasible_vertices": 9,
+          "height": "201035981/100000000",
+          "reason": "target row fails",
+          "row": 24900,
+          "strict": false,
+          "point": [
+            "37341591/25000000",
+            "41011099/20000000"
+          ],
+          "value": "-380693849313/2"
+        },
+        {
+          "source": 3253,
+          "angle": 80,
+          "target": 3511,
+          "feasible_vertices": 9,
+          "height": "100732483/50000000",
+          "reason": "target row fails",
+          "row": 24909,
+          "strict": false,
+          "point": [
+            "74607709/50000000",
+            "20551371/10000000"
+          ],
+          "value": "-4267766207407"
+        },
+        {
+          "source": 3254,
+          "angle": 81,
+          "target": 3512,
+          "feasible_vertices": 9,
+          "height": "5047559/2500000",
+          "reason": "target row fails",
+          "row": 24918,
+          "strict": false,
+          "point": [
+            "2981273/2000000",
+            "102984223/50000000"
+          ],
+          "value": "-2464183526565"
+        },
+        {
+          "source": 3255,
+          "angle": 82,
+          "target": 3513,
+          "feasible_vertices": 8,
+          "height": "50586903/25000000",
+          "reason": "target row fails",
+          "row": 24927,
+          "strict": false,
+          "point": [
+            "148911077/100000000",
+            "103209583/50000000"
+          ],
+          "value": "-2117266737744/25"
+        },
+        {
+          "source": 3256,
+          "angle": 83,
+          "target": 3514,
+          "feasible_vertices": 8,
+          "height": "101400091/50000000",
+          "reason": "target row fails",
+          "row": 24935,
+          "strict": false,
+          "point": [
+            "331507619398577/209823950000000",
+            "101400091/50000000"
+          ],
+          "value": "-23219041606711318961/4196479"
+        },
+        {
+          "source": 3257,
+          "angle": 84,
+          "target": 3515,
+          "feasible_vertices": 8,
+          "height": "203259537/100000000",
+          "reason": "target row fails",
+          "row": 24943,
+          "strict": false,
+          "point": [
+            "164949429802907/104343350000000",
+            "203259537/100000000"
+          ],
+          "value": "-9372612575213700133/33389872"
+        },
+        {
+          "source": 3258,
+          "angle": 85,
+          "target": 3516,
+          "feasible_vertices": 8,
+          "height": "4074503/2000000",
+          "reason": "target row fails",
+          "row": 24951,
+          "strict": false,
+          "point": [
+            "218341984213601/138051700000000",
+            "4074503/2000000"
+          ],
+          "value": "-17056492546322673271/2761034"
+        },
+        {
+          "source": 3259,
+          "angle": 86,
+          "target": 3517,
+          "feasible_vertices": 8,
+          "height": "51049127/25000000",
+          "reason": "target row fails",
+          "row": 24959,
+          "strict": false,
+          "point": [
+            "926831/625000",
+            "208188119/100000000"
+          ],
+          "value": "-17352343404253/20"
+        },
+        {
+          "source": 3260,
+          "angle": 87,
+          "target": 3518,
+          "feasible_vertices": 8,
+          "height": "12792069/6250000",
+          "reason": "target row fails",
+          "row": 24967,
+          "strict": false,
+          "point": [
+            "148136523/100000000",
+            "208621859/100000000"
+          ],
+          "value": "-21225993369971/2"
+        },
+        {
+          "source": 3261,
+          "angle": 88,
+          "target": 3519,
+          "feasible_vertices": 8,
+          "height": "51288611/25000000",
+          "reason": "target row fails",
+          "row": 24975,
+          "strict": false,
+          "point": [
+            "147979339/100000000",
+            "1672417/800000"
+          ],
+          "value": "-25116390203676"
+        },
+        {
+          "source": 3262,
+          "angle": 89,
+          "target": 3520,
+          "feasible_vertices": 8,
+          "height": "205640041/100000000",
+          "reason": "target row fails",
+          "row": 24983,
+          "strict": false,
+          "point": [
+            "36955353/25000000",
+            "209479369/100000000"
+          ],
+          "value": "-29016597632767/4"
+        },
+        {
+          "source": 3263,
+          "angle": 90,
+          "target": 3521,
+          "feasible_vertices": 8,
+          "height": "103064711/50000000",
+          "reason": "target row fails",
+          "row": 24991,
+          "strict": false,
+          "point": [
+            "1028538988302319/648499300000000",
+            "103064711/50000000"
+          ],
+          "value": "-177263687305834493325/12969986"
+        },
+        {
+          "source": 3264,
+          "angle": 91,
+          "target": 3522,
+          "feasible_vertices": 8,
+          "height": "51655531/25000000",
+          "reason": "target row fails",
+          "row": 24999,
+          "strict": false,
+          "point": [
+            "654503016204629/412712300000000",
+            "51655531/25000000"
+          ],
+          "value": "-6530793561030328151/1086085"
+        },
+        {
+          "source": 3265,
+          "angle": 92,
+          "target": 3523,
+          "feasible_vertices": 8,
+          "height": "51779423/25000000",
+          "reason": "target row fails",
+          "row": 25007,
+          "strict": false,
+          "point": [
+            "3683701/2500000",
+            "8429633/4000000"
+          ],
+          "value": "-40661505846949/8"
+        },
+        {
+          "source": 3266,
+          "angle": 93,
+          "target": 3524,
+          "feasible_vertices": 8,
+          "height": "25951961/12500000",
+          "reason": "target row fails",
+          "row": 25015,
+          "strict": false,
+          "point": [
+            "147453989/100000000",
+            "422141/200000"
+          ],
+          "value": "-41832269892442"
+        },
+        {
+          "source": 3267,
+          "angle": 94,
+          "target": 3525,
+          "feasible_vertices": 8,
+          "height": "208115681/100000000",
+          "reason": "target row fails",
+          "row": 25023,
+          "strict": false,
+          "point": [
+            "147558903/100000000",
+            "211403211/100000000"
+          ],
+          "value": "-42821163446091/4"
+        },
+        {
+          "source": 3268,
+          "angle": 95,
+          "target": 3526,
+          "feasible_vertices": 8,
+          "height": "104308627/50000000",
+          "reason": "target row fails",
+          "row": 25031,
+          "strict": false,
+          "point": [
+            "73831323/50000000",
+            "42347781/20000000"
+          ],
+          "value": "-43635988408237"
+        },
+        {
+          "source": 3269,
+          "angle": 96,
+          "target": 3527,
+          "feasible_vertices": 8,
+          "height": "1307/625",
+          "reason": "target row fails",
+          "row": 25039,
+          "strict": false,
+          "point": [
+            "4617659/3125000",
+            "106038763/50000000"
+          ],
+          "value": "-10156343076545/4"
+        },
+        {
+          "source": 3270,
+          "angle": 97,
+          "target": 3528,
+          "feasible_vertices": 8,
+          "height": "52405881/25000000",
+          "reason": "target row fails",
+          "row": 25046,
+          "strict": false,
+          "point": [
+            "18483263/12500000",
+            "212419011/100000000"
+          ],
+          "value": "-1906229892964"
+        },
+        {
+          "source": 3271,
+          "angle": 98,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "105063723/50000000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "36991393/25000000",
+            "26595387/12500000"
+          ]
+        },
+        {
+          "source": 3272,
+          "angle": 99,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "210631393/100000000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "74999651/50000000",
+            "862171/390625"
+          ]
+        },
+        {
+          "source": 3273,
+          "angle": 100,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "211135007/100000000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "149870377/100000000",
+            "220465347/100000000"
+          ]
+        },
+        {
+          "source": 3274,
+          "angle": 101,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "105818971/50000000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "159194197/100000000",
+            "109004053/50000000"
+          ]
+        },
+        {
+          "source": 3275,
+          "angle": 102,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "106069931/50000000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "158840423/100000000",
+            "3404909/1562500"
+          ]
+        },
+        {
+          "source": 3276,
+          "angle": 103,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "53160111/25000000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "148435801/100000000",
+            "214524099/100000000"
+          ]
+        },
+        {
+          "source": 3277,
+          "angle": 104,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "213139377/100000000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "149465743/100000000",
+            "109747679/50000000"
+          ]
+        },
+        {
+          "source": 3278,
+          "angle": 105,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "5340909/2500000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "37152339/25000000",
+            "107622781/50000000"
+          ]
+        },
+        {
+          "source": 3279,
+          "angle": 106,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "6691597/3125000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "58749856106237/37494800000000",
+            "6691597/3125000"
+          ]
+        },
+        {
+          "source": 3280,
+          "angle": 107,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "107311667/50000000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "42919549191049/27427580000000",
+            "107311667/50000000"
+          ]
+        },
+        {
+          "source": 3281,
+          "angle": 108,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "107556391/50000000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "273764972669/175073984375",
+            "107556391/50000000"
+          ]
+        },
+        {
+          "source": 3282,
+          "angle": 109,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "107799597/50000000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "156394063/100000000",
+            "4344767/2000000"
+          ]
+        },
+        {
+          "source": 3283,
+          "angle": 110,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "8643293/4000000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "14900087/10000000",
+            "108543099/50000000"
+          ]
+        },
+        {
+          "source": 3284,
+          "angle": 111,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "216561943/100000000",
+          "reason": "absent target has feasible closed center",
+          "point": [
+            "9321177/6250000",
+            "108973859/50000000"
+          ]
+        }
+      ],
+      "roots": [
+        {
+          "source": 3188,
+          "angle": 0,
+          "target": null,
+          "feasible_vertices": 0,
+          "height": "44642577/20000000"
+        },
+        {
+          "source": 3189,
+          "angle": 15,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "105455621/50000000"
+        },
+        {
+          "source": 3190,
+          "angle": 16,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "105060247/50000000"
+        },
+        {
+          "source": 3191,
+          "angle": 17,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "4186813/2000000"
+        },
+        {
+          "source": 3192,
+          "angle": 18,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "52143211/25000000"
+        },
+        {
+          "source": 3193,
+          "angle": 19,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "207818171/100000000"
+        },
+        {
+          "source": 3194,
+          "angle": 20,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "41415537/20000000"
+        },
+        {
+          "source": 3195,
+          "angle": 21,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "51588099/25000000"
+        },
+        {
+          "source": 3196,
+          "angle": 22,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "20564327/10000000"
+        },
+        {
+          "source": 3197,
+          "angle": 23,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "51237807/25000000"
+        },
+        {
+          "source": 3198,
+          "angle": 24,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "102138571/50000000"
+        },
+        {
+          "source": 3199,
+          "angle": 25,
+          "target": null,
+          "feasible_vertices": 9,
+          "height": "2545273/1250000"
+        },
+        {
+          "source": 3200,
+          "angle": 26,
+          "target": null,
+          "feasible_vertices": 9,
+          "height": "202986099/100000000"
+        },
+        {
+          "source": 3201,
+          "angle": 27,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "25296331/12500000"
+        },
+        {
+          "source": 3202,
+          "angle": 28,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "40355233/20000000"
+        },
+        {
+          "source": 3203,
+          "angle": 29,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "201203279/100000000"
+        },
+        {
+          "source": 3204,
+          "angle": 30,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "20065257/10000000"
+        },
+        {
+          "source": 3205,
+          "angle": 31,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "200124567/100000000"
+        },
+        {
+          "source": 3206,
+          "angle": 33,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "99569271/50000000"
+        },
+        {
+          "source": 3207,
+          "angle": 34,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "198681329/100000000"
+        },
+        {
+          "source": 3208,
+          "angle": 35,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "99124219/50000000"
+        },
+        {
+          "source": 3209,
+          "angle": 36,
+          "target": null,
+          "feasible_vertices": 9,
+          "height": "197840153/100000000"
+        },
+        {
+          "source": 3210,
+          "angle": 37,
+          "target": null,
+          "feasible_vertices": 9,
+          "height": "197456707/100000000"
+        },
+        {
+          "source": 3211,
+          "angle": 38,
+          "target": null,
+          "feasible_vertices": 9,
+          "height": "197098287/100000000"
+        },
+        {
+          "source": 3212,
+          "angle": 39,
+          "target": null,
+          "feasible_vertices": 11,
+          "height": "39353007/20000000"
+        },
+        {
+          "source": 3213,
+          "angle": 40,
+          "target": null,
+          "feasible_vertices": 11,
+          "height": "24557131/12500000"
+        },
+        {
+          "source": 3214,
+          "angle": 41,
+          "target": null,
+          "feasible_vertices": 11,
+          "height": "24521797/12500000"
+        },
+        {
+          "source": 3215,
+          "angle": 42,
+          "target": null,
+          "feasible_vertices": 11,
+          "height": "19591703/10000000"
+        },
+        {
+          "source": 3216,
+          "angle": 43,
+          "target": null,
+          "feasible_vertices": 11,
+          "height": "195684979/100000000"
+        },
+        {
+          "source": 3217,
+          "angle": 44,
+          "target": null,
+          "feasible_vertices": 11,
+          "height": "195478149/100000000"
+        },
+        {
+          "source": 3218,
+          "angle": 45,
+          "target": null,
+          "feasible_vertices": 11,
+          "height": "19529643/10000000"
+        },
+        {
+          "source": 3219,
+          "angle": 46,
+          "target": null,
+          "feasible_vertices": 11,
+          "height": "195139673/100000000"
+        },
+        {
+          "source": 3220,
+          "angle": 47,
+          "target": null,
+          "feasible_vertices": 11,
+          "height": "195007693/100000000"
+        },
+        {
+          "source": 3221,
+          "angle": 48,
+          "target": null,
+          "feasible_vertices": 11,
+          "height": "194900273/100000000"
+        },
+        {
+          "source": 3222,
+          "angle": 49,
+          "target": null,
+          "feasible_vertices": 11,
+          "height": "194817159/100000000"
+        },
+        {
+          "source": 3223,
+          "angle": 50,
+          "target": null,
+          "feasible_vertices": 10,
+          "height": "19475807/10000000"
+        },
+        {
+          "source": 3224,
+          "angle": 51,
+          "target": null,
+          "feasible_vertices": 9,
+          "height": "194722691/100000000"
+        },
+        {
+          "source": 3225,
+          "angle": 52,
+          "target": 3500,
+          "feasible_vertices": 9,
+          "height": "97355341/50000000"
+        },
+        {
+          "source": 3226,
+          "angle": 53,
+          "target": 3501,
+          "feasible_vertices": 9,
+          "height": "97355319/50000000"
+        },
+        {
+          "source": 3227,
+          "angle": 54,
+          "target": null,
+          "feasible_vertices": 9,
+          "height": "7788867/4000000"
+        },
+        {
+          "source": 3228,
+          "angle": 55,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "194755277/100000000"
+        },
+        {
+          "source": 3229,
+          "angle": 56,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "3043923/1562500"
+        },
+        {
+          "source": 3230,
+          "angle": 57,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "97444311/50000000"
+        },
+        {
+          "source": 3231,
+          "angle": 58,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "19498747/10000000"
+        },
+        {
+          "source": 3232,
+          "angle": 59,
+          "target": null,
+          "feasible_vertices": 7,
+          "height": "97553569/50000000"
+        },
+        {
+          "source": 3233,
+          "angle": 60,
+          "target": null,
+          "feasible_vertices": 9,
+          "height": "195247133/100000000"
+        },
+        {
+          "source": 3234,
+          "angle": 61,
+          "target": null,
+          "feasible_vertices": 10,
+          "height": "97703473/50000000"
+        },
+        {
+          "source": 3235,
+          "angle": 62,
+          "target": null,
+          "feasible_vertices": 10,
+          "height": "97793027/50000000"
+        },
+        {
+          "source": 3236,
+          "angle": 63,
+          "target": null,
+          "feasible_vertices": 10,
+          "height": "195783921/100000000"
+        },
+        {
+          "source": 3237,
+          "angle": 64,
+          "target": null,
+          "feasible_vertices": 10,
+          "height": "49/25"
+        },
+        {
+          "source": 3238,
+          "angle": 65,
+          "target": null,
+          "feasible_vertices": 10,
+          "height": "98116867/50000000"
+        },
+        {
+          "source": 3239,
+          "angle": 66,
+          "target": null,
+          "feasible_vertices": 10,
+          "height": "196484559/100000000"
+        },
+        {
+          "source": 3240,
+          "angle": 67,
+          "target": null,
+          "feasible_vertices": 10,
+          "height": "196751903/100000000"
+        },
+        {
+          "source": 3241,
+          "angle": 68,
+          "target": null,
+          "feasible_vertices": 10,
+          "height": "197035187/100000000"
+        },
+        {
+          "source": 3242,
+          "angle": 69,
+          "target": null,
+          "feasible_vertices": 10,
+          "height": "24666729/12500000"
+        },
+        {
+          "source": 3243,
+          "angle": 70,
+          "target": null,
+          "feasible_vertices": 10,
+          "height": "197647249/100000000"
+        },
+        {
+          "source": 3244,
+          "angle": 71,
+          "target": 3502,
+          "feasible_vertices": 10,
+          "height": "197974853/100000000"
+        },
+        {
+          "source": 3245,
+          "angle": 72,
+          "target": 3503,
+          "feasible_vertices": 10,
+          "height": "99158027/50000000"
+        },
+        {
+          "source": 3246,
+          "angle": 73,
+          "target": 3504,
+          "feasible_vertices": 10,
+          "height": "24833783/12500000"
+        },
+        {
+          "source": 3247,
+          "angle": 74,
+          "target": 3505,
+          "feasible_vertices": 9,
+          "height": "39807379/20000000"
+        },
+        {
+          "source": 3248,
+          "angle": 75,
+          "target": 3506,
+          "feasible_vertices": 9,
+          "height": "199415361/100000000"
+        },
+        {
+          "source": 3249,
+          "angle": 76,
+          "target": 3507,
+          "feasible_vertices": 9,
+          "height": "4995127/2500000"
+        },
+        {
+          "source": 3250,
+          "angle": 77,
+          "target": 3508,
+          "feasible_vertices": 9,
+          "height": "6256421/3125000"
+        },
+        {
+          "source": 3251,
+          "angle": 78,
+          "target": 3509,
+          "feasible_vertices": 9,
+          "height": "100307981/50000000"
+        },
+        {
+          "source": 3252,
+          "angle": 79,
+          "target": 3510,
+          "feasible_vertices": 9,
+          "height": "201035981/100000000"
+        },
+        {
+          "source": 3253,
+          "angle": 80,
+          "target": 3511,
+          "feasible_vertices": 9,
+          "height": "100732483/50000000"
+        },
+        {
+          "source": 3254,
+          "angle": 81,
+          "target": 3512,
+          "feasible_vertices": 9,
+          "height": "5047559/2500000"
+        },
+        {
+          "source": 3255,
+          "angle": 82,
+          "target": 3513,
+          "feasible_vertices": 8,
+          "height": "50586903/25000000"
+        },
+        {
+          "source": 3256,
+          "angle": 83,
+          "target": 3514,
+          "feasible_vertices": 8,
+          "height": "101400091/50000000"
+        },
+        {
+          "source": 3257,
+          "angle": 84,
+          "target": 3515,
+          "feasible_vertices": 8,
+          "height": "203259537/100000000"
+        },
+        {
+          "source": 3258,
+          "angle": 85,
+          "target": 3516,
+          "feasible_vertices": 8,
+          "height": "4074503/2000000"
+        },
+        {
+          "source": 3259,
+          "angle": 86,
+          "target": 3517,
+          "feasible_vertices": 8,
+          "height": "51049127/25000000"
+        },
+        {
+          "source": 3260,
+          "angle": 87,
+          "target": 3518,
+          "feasible_vertices": 8,
+          "height": "12792069/6250000"
+        },
+        {
+          "source": 3261,
+          "angle": 88,
+          "target": 3519,
+          "feasible_vertices": 8,
+          "height": "51288611/25000000"
+        },
+        {
+          "source": 3262,
+          "angle": 89,
+          "target": 3520,
+          "feasible_vertices": 8,
+          "height": "205640041/100000000"
+        },
+        {
+          "source": 3263,
+          "angle": 90,
+          "target": 3521,
+          "feasible_vertices": 8,
+          "height": "103064711/50000000"
+        },
+        {
+          "source": 3264,
+          "angle": 91,
+          "target": 3522,
+          "feasible_vertices": 8,
+          "height": "51655531/25000000"
+        },
+        {
+          "source": 3265,
+          "angle": 92,
+          "target": 3523,
+          "feasible_vertices": 8,
+          "height": "51779423/25000000"
+        },
+        {
+          "source": 3266,
+          "angle": 93,
+          "target": 3524,
+          "feasible_vertices": 8,
+          "height": "25951961/12500000"
+        },
+        {
+          "source": 3267,
+          "angle": 94,
+          "target": 3525,
+          "feasible_vertices": 8,
+          "height": "208115681/100000000"
+        },
+        {
+          "source": 3268,
+          "angle": 95,
+          "target": 3526,
+          "feasible_vertices": 8,
+          "height": "104308627/50000000"
+        },
+        {
+          "source": 3269,
+          "angle": 96,
+          "target": 3527,
+          "feasible_vertices": 8,
+          "height": "1307/625"
+        },
+        {
+          "source": 3270,
+          "angle": 97,
+          "target": 3528,
+          "feasible_vertices": 8,
+          "height": "52405881/25000000"
+        },
+        {
+          "source": 3271,
+          "angle": 98,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "105063723/50000000"
+        },
+        {
+          "source": 3272,
+          "angle": 99,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "210631393/100000000"
+        },
+        {
+          "source": 3273,
+          "angle": 100,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "211135007/100000000"
+        },
+        {
+          "source": 3274,
+          "angle": 101,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "105818971/50000000"
+        },
+        {
+          "source": 3275,
+          "angle": 102,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "106069931/50000000"
+        },
+        {
+          "source": 3276,
+          "angle": 103,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "53160111/25000000"
+        },
+        {
+          "source": 3277,
+          "angle": 104,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "213139377/100000000"
+        },
+        {
+          "source": 3278,
+          "angle": 105,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "5340909/2500000"
+        },
+        {
+          "source": 3279,
+          "angle": 106,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "6691597/3125000"
+        },
+        {
+          "source": 3280,
+          "angle": 107,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "107311667/50000000"
+        },
+        {
+          "source": 3281,
+          "angle": 108,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "107556391/50000000"
+        },
+        {
+          "source": 3282,
+          "angle": 109,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "107799597/50000000"
+        },
+        {
+          "source": 3283,
+          "angle": 110,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "8643293/4000000"
+        },
+        {
+          "source": 3284,
+          "angle": 111,
+          "target": null,
+          "feasible_vertices": 8,
+          "height": "216561943/100000000"
+        },
+        {
+          "source": 3285,
+          "angle": 117,
+          "target": null,
+          "feasible_vertices": 0,
+          "height": "54838529/25000000"
+        },
+        {
+          "source": 3286,
+          "angle": 118,
+          "target": null,
+          "feasible_vertices": 0,
+          "height": "219803473/100000000"
+        },
+        {
+          "source": 3287,
+          "angle": 119,
+          "target": null,
+          "feasible_vertices": 0,
+          "height": "110123907/50000000"
+        },
+        {
+          "source": 3288,
+          "angle": 120,
+          "target": null,
+          "feasible_vertices": 0,
+          "height": "44137399/20000000"
+        },
+        {
+          "source": 3289,
+          "angle": 121,
+          "target": null,
+          "feasible_vertices": 0,
+          "height": "221120879/100000000"
+        },
+        {
+          "source": 3290,
+          "angle": 122,
+          "target": null,
+          "feasible_vertices": 0,
+          "height": "221549337/100000000"
+        },
+        {
+          "source": 3291,
+          "angle": 123,
+          "target": null,
+          "feasible_vertices": 0,
+          "height": "221972251/100000000"
+        },
+        {
+          "source": 3292,
+          "angle": 124,
+          "target": null,
+          "feasible_vertices": 0,
+          "height": "55597377/25000000"
+        },
+        {
+          "source": 3293,
+          "angle": 125,
+          "target": null,
+          "feasible_vertices": 0,
+          "height": "55700251/25000000"
+        },
+        {
+          "source": 3294,
+          "angle": 126,
+          "target": null,
+          "feasible_vertices": 0,
+          "height": "111603321/50000000"
+        },
+        {
+          "source": 3295,
+          "angle": 127,
+          "target": null,
+          "feasible_vertices": 0,
+          "height": "44721267/20000000"
+        }
+      ]
+    }
+  },
+  "sources": {
+    "evidence/historical-compact-data/manifest.json": "f20009fcf353dc46a22907d2c1dc78a23a5e8499f569ab549d94bb31ba6d53ca",
+    "evidence/historical-compact-data/C713.json": "7ed7f008778113b87e979da105f25ab8c412258bf99cd01dac16e58755424e3a",
+    "evidence/historical-compact-data/poses.json": "faeaf04102217cc07ceccc576ecfed41a9c7ed164a41bfc516c415ce95226908",
+    "evidence/historical-compact-data/rows.json": "5652be93ba32352a8fdc393c028424cf9d454a2fefa7798e55723e5da8027215"
+  },
+  "radius_source_sha256": "e23fb19b0d1361ab38c550d03e4fc1aa7774424f731198fb868ad587afd1db0f",
+  "boundary_pairs": 7773,
+  "elapsed_seconds": 0.24525091699979384
+}

@@ -1,0 +1,102 @@
+{
+  "status": "Source-only syntax repairs; parent replay pending. Case424 proof body previously passed, with only its trailing namespace end rejected.",
+  "count": 14,
+  "files": [
+    {
+      "path": "Compact/Cases/FourSquareConvex/Case864.lean",
+      "before_sha256": "4fcd12cb2e27ca58550301a72c7b922108565d3907a47919b20e222ce85d2179",
+      "after_sha256": "62446f709ee5b5ec7dc6c942abf067068f8dbc3f0c5794d162f38c1898dc391e",
+      "change": "Added anonymous end before existing namespace end; no declaration changes."
+    },
+    {
+      "path": "Compact/Cases/FourSquareConvex/Case995.lean",
+      "before_sha256": "5e1f6ed9d7e69b4ed7c633369597d2cd3e6a49efd62ce6fad4f31696a6239988",
+      "after_sha256": "44394266a80b5d510b002a455f1f36dc5c152a701525429bab20e989a405af82",
+      "change": "Added anonymous end before existing namespace end; no declaration changes."
+    },
+    {
+      "path": "Compact/Cases/FourSquareConvex/Case1001.lean",
+      "before_sha256": "2d9d845931a92d208e04e8de426eacbaba2aef7a6db0e1c0020f17da968d7aa5",
+      "after_sha256": "fa99a79b5b389bb82e7441392d585c0e75b0dfa7c7ed4c90391d1f19128358d0",
+      "change": "Added anonymous end before existing namespace end; no declaration changes."
+    },
+    {
+      "path": "Compact/Cases/FourSquareConvex/Case445.lean",
+      "before_sha256": "9cb6ae74bfeeeb4ed133d7e8292fd1e4ca5894d42f9df46a988708af4e333b31",
+      "after_sha256": "38a94f1b004be91afb688b83556b1e935689027ffe0ab1d93727ee531557b8d9",
+      "change": "Added anonymous end before existing namespace end; no declaration changes."
+    },
+    {
+      "path": "Compact/Cases/FourSquareConvex/Case998.lean",
+      "before_sha256": "452710ea3d2bc3f5d460e25ef26eec8629bd3251e6b8a4ccaa95ade514bf8e4c",
+      "after_sha256": "09da9219f9feaf23445c142ba8f4d5132b9c92e26e1b4416e8bd70666aac6ed4",
+      "change": "Added anonymous end before existing namespace end; no declaration changes."
+    },
+    {
+      "path": "Compact/Cases/FourSquareConvex/Case454.lean",
+      "before_sha256": "61b46d8f0dca9950828e4d11cf67e165b0d9c0fff577d8b5e29b534e0a63710a",
+      "after_sha256": "5c957a6346ac1bd8c4766c323665d9001ed63743da90316c64e036842a48375c",
+      "change": "Added anonymous end before existing namespace end; no declaration changes."
+    },
+    {
+      "path": "Compact/Cases/FourSquareConvex/Case862.lean",
+      "before_sha256": "9fbdeac15215943eb12547c2a8cd313a63c23a035bfba147625af14d56d6772e",
+      "after_sha256": "c9c5f04b6ef10de4c511e89e08531e66d313e6df1e016e678d3609996ed5efbe",
+      "change": "Added anonymous end before existing namespace end; no declaration changes."
+    },
+    {
+      "path": "Compact/Cases/FourSquareConvex/Case992.lean",
+      "before_sha256": "a68943d0dcc4a3b5ce3901b4a9e09adbf977d5bb2c138836d9ba8726cbddccae",
+      "after_sha256": "29847df55bbb107850ba206e11bc28f4e403271033f4634d67acf6cceb903023",
+      "change": "Added anonymous end before existing namespace end; no declaration changes."
+    },
+    {
+      "path": "Compact/Cases/FourSquareConvex/Case1002.lean",
+      "before_sha256": "fe978fdedb822bb2fcada49526aaf6632a266681f100ac4d3e9ddf2548c059bd",
+      "after_sha256": "2dc5785413de0c24bb35e7a3ff333226380aa167584e173302c4ffcc11eef8b7",
+      "change": "Added anonymous end before existing namespace end; no declaration changes."
+    },
+    {
+      "path": "Compact/Cases/FourSquareVariant/Case994.lean",
+      "before_sha256": "9418e2382dc51b9fa6cd4f8a255e963cd56a59fa724eb553f5404fa54b9e87bc",
+      "after_sha256": "55aaabb55db21549ecf01b09f9aab6ec8d4ec98a907f23c23de89714890ea9b3",
+      "change": "Added anonymous end before existing namespace end; no declaration changes."
+    },
+    {
+      "path": "Compact/Cases/FourSquareVariant/Case424.lean",
+      "before_sha256": "2e3e839331138287fd70603b34798499131ed86fc44303820b371be8ce7347be",
+      "after_sha256": "c942c61426dde8c349f7d8f7bd48c9f5b64541e8399322fa8a4e72181cb664da",
+      "change": "Added anonymous end before existing namespace end; no declaration changes."
+    },
+    {
+      "path": "Compact/Cases/FourSquareVariant/Case993.lean",
+      "before_sha256": "a068f46ed1caf80c1fe3ce91ec3f3ebd96a2044cf62b08c4284f660428166a7e",
+      "after_sha256": "bf383c4b7d701adfafcd3d44381902056ff8c902169bb3899d5de39ff2979440",
+      "change": "Added anonymous end before existing namespace end; no declaration changes."
+    },
+    {
+      "path": "Compact/Cases/FourSquareUnused/Case842.lean",
+      "before_sha256": "26f7b0a5204d3f231e6edced14a0911c10368ce32de8575d0c8a710cf15e77a9",
+      "after_sha256": "614ee4de5b0621b0800d63a37176a529152c2f3a2a56f21d8be653864eb43969",
+      "change": "Added anonymous end before existing namespace end; no declaration changes."
+    },
+    {
+      "path": "Compact/Cases/FourSquareUnused/Case841.lean",
+      "before_sha256": "6b235e751d42fddaa8df8f7929c71caa064f4249ef85b106961d7bf706ffc12d",
+      "after_sha256": "27a18ac8fa04eaf4db8a7d1c50ec492e8be3808a988249d516af16ff5e292536",
+      "change": "Added anonymous end before existing namespace end; no declaration changes."
+    }
+  ],
+  "generator_repairs": [
+    {
+      "path": "audit/assemble_four_square_convex_sources.py",
+      "sha256": "4879f16ecea6190b549b5c4ab2394dfb45bc008f9ac7128db81b1121b59834fa",
+      "change": "Emit anonymous section end before namespace end in case files; generator not run."
+    },
+    {
+      "path": "audit/assemble_four_square_unused_sources.py",
+      "sha256": "d4aa79fa61102da892ab916d8dfea179a61a55652ca91419d341c9ffe032d57c",
+      "change": "Emit anonymous section end before namespace end in case files; generator not run."
+    }
+  ]
+}

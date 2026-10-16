@@ -1,0 +1,2 @@
+'N12Compact.CentralWallPairAxes.wall_angle_order' depends on axioms: [propext, Classical.choice, Quot.sound]
+'N12Compact.CentralWallPairAxes.alternatives' depends on axioms: [propext, Classical.choice, Quot.sound]

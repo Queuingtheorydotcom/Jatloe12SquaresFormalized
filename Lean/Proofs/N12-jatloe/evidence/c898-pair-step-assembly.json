@@ -1,0 +1,164 @@
+{
+  "scope": "Entire13 pairwise transitions assembled, including all-source/all-neighbor coverage and exact named relaxation links. Source only until Lean replay.",
+  "steps": {
+    "0": [
+      "continuousScout898Domain1_0",
+      "continuousScout898Domain8_0",
+      "continuousScout898Domain1_1"
+    ],
+    "1": [
+      "continuousScout898Domain2_0",
+      "continuousScout898Domain10_0",
+      "continuousScout898Domain2_2"
+    ],
+    "2": [
+      "continuousScout898Domain3_0",
+      "continuousScout898Domain11_0",
+      "continuousScout898Domain3_3"
+    ],
+    "3": [
+      "continuousScout898Domain6_0",
+      "continuousScout898Domain3_3",
+      "continuousScout898Domain6_4"
+    ],
+    "4": [
+      "continuousScout898Domain6_4",
+      "continuousScout898Domain10_0",
+      "continuousScout898Domain6_5"
+    ],
+    "5": [
+      "continuousScout898Domain7_0",
+      "continuousScout898Domain6_5",
+      "continuousScout898Domain7_6"
+    ],
+    "6": [
+      "continuousScout898Domain7_6",
+      "continuousScout898Domain11_0",
+      "continuousScout898Domain7_7"
+    ],
+    "7": [
+      "continuousScout898Domain9_0",
+      "continuousScout898Domain2_2",
+      "continuousScout898Domain9_8"
+    ],
+    "8": [
+      "continuousScout898Domain0_0",
+      "continuousScout898Domain1_1",
+      "continuousScout898Domain0_9"
+    ],
+    "11": [
+      "continuousScout898Domain5_11",
+      "continuousScout898Domain0_9",
+      "continuousScout898Domain5_12"
+    ],
+    "12": [
+      "continuousScout898Domain5_12",
+      "continuousScout898Domain6_5",
+      "continuousScout898Domain5_13"
+    ],
+    "13": [
+      "continuousScout898Domain5_13",
+      "continuousScout898Domain7_7",
+      "continuousScout898Domain5_14"
+    ],
+    "14": [
+      "continuousScout898Domain5_14",
+      "continuousScout898Domain9_8",
+      "continuousScout898Domain5_15"
+    ]
+  },
+  "plans": 601,
+  "pieces": 826,
+  "files": [
+    {
+      "path": "Compact/Cases/C898/SharedDomains.lean",
+      "bytes": 11777,
+      "lines": 84,
+      "sha256": "eb86805cdeb6911c88628e20d675cba81fa609b7ae58d83000a88e297831bcc4"
+    },
+    {
+      "path": "Compact/Cases/C898/PairComplements.lean",
+      "bytes": 89611,
+      "lines": 111,
+      "sha256": "3c3a8c023a8462bc054b5db40b12d6a35d3f0ff2b8d8b8149920db25350d251d"
+    },
+    {
+      "path": "Compact/Cases/C898/PairStep00.lean",
+      "bytes": 24490,
+      "lines": 113,
+      "sha256": "c132908faa3a35fe4449ab72636bf63f4ef18f50efff8bab8ba908d16790f34d"
+    },
+    {
+      "path": "Compact/Cases/C898/PairStep01.lean",
+      "bytes": 31193,
+      "lines": 113,
+      "sha256": "d49fd1e0b14746f603f86d3e798895523e8dd19f2f178ae918f3f3509b8a5bea"
+    },
+    {
+      "path": "Compact/Cases/C898/PairStep02.lean",
+      "bytes": 23615,
+      "lines": 113,
+      "sha256": "da64189ac0f8d742cf208e9fd154bd1ac3e873f8045703adb4ff196726b24f1b"
+    },
+    {
+      "path": "Compact/Cases/C898/PairStep03.lean",
+      "bytes": 5428,
+      "lines": 65,
+      "sha256": "a312e4b73857d92bf5deef6201e4c28eb88d89726c1e36ba2daf6d66803a2c8e"
+    },
+    {
+      "path": "Compact/Cases/C898/PairStep04.lean",
+      "bytes": 5275,
+      "lines": 63,
+      "sha256": "1c6705bced0aa8077403c1580ca2eb1994049be8e3fd10782e095e515b8bc546"
+    },
+    {
+      "path": "Compact/Cases/C898/PairStep05.lean",
+      "bytes": 10376,
+      "lines": 113,
+      "sha256": "9480e13d525b8b948ab88a1c6ecac9cd4cee0aa73f30b42cc2291a8ca6c2a7d8"
+    },
+    {
+      "path": "Compact/Cases/C898/PairStep06.lean",
+      "bytes": 27780,
+      "lines": 112,
+      "sha256": "e683e64844d3cd2d2f994694dd8d7943648607761af4ee2a3e58732cc2bbe36c"
+    },
+    {
+      "path": "Compact/Cases/C898/PairStep07.lean",
+      "bytes": 24844,
+      "lines": 108,
+      "sha256": "67babb2f15e0eee7591667518052d6a694ed4c2482be83f8293086dbbaf4bbd9"
+    },
+    {
+      "path": "Compact/Cases/C898/PairStep08.lean",
+      "bytes": 31830,
+      "lines": 113,
+      "sha256": "9be951f833c0d3fca050bee9cc743b6c35759347222fe3071ef04b341309dcac"
+    },
+    {
+      "path": "Compact/Cases/C898/PairStep11.lean",
+      "bytes": 12905,
+      "lines": 98,
+      "sha256": "965820c607c724178fa9c661ea510affef1be8501fc252d1d9f609cf6a44e821"
+    },
+    {
+      "path": "Compact/Cases/C898/PairStep12.lean",
+      "bytes": 8431,
+      "lines": 98,
+      "sha256": "492e151078e36eb56b8dbe30b24c0f18ab74f25d8a2bd6a1ceb7780562576513"
+    },
+    {
+      "path": "Compact/Cases/C898/PairStep13.lean",
+      "bytes": 11281,
+      "lines": 72,
+      "sha256": "c1aedae06764226bc25333607e05527609b42145bbf58dd71055d5299ae49b61"
+    },
+    {
+      "path": "Compact/Cases/C898/PairStep14.lean",
+      "bytes": 4623,
+      "lines": 57,
+      "sha256": "0643c34f5d710e8521498388727d4ce6346c8ea20a4f26474a8d63c8c231a410"
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+'S12.pruning_cover_sound' depends on axioms: [propext, Classical.choice, Quot.sound]

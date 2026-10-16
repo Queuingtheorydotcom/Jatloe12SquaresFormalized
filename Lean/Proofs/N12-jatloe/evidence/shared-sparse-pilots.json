@@ -1,0 +1,166 @@
+{
+  "scope": "One complete C696 pose-row implication and one complete C898 empty leaf",
+  "validation": "Exact Python integer/rational identities; Lean replay is separate",
+  "c696": {
+    "source": "LOCAL_PATH/RootOneStep000Data.lean",
+    "sha256": "eeb35d62dc16d42451289957e7cc34d9eecec11fbc0effcb1753f929980d7925",
+    "source_pose": 0,
+    "target_pose": 117,
+    "angle_unchanged": 0,
+    "source_row_occurrences": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      6,
+      7,
+      1,
+      3,
+      8
+    ],
+    "target_row_occurrences": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      802,
+      803,
+      804,
+      805,
+      6,
+      6,
+      7,
+      1,
+      3,
+      8
+    ],
+    "distinct_source_rows": 9,
+    "new_target_rows": 4,
+    "shared_row_dictionary_entries": 13,
+    "old_support_records": 15,
+    "new_numerical_checks": 4,
+    "eliminated_alias_checks": 11,
+    "check_count_reduction_fraction": "11/15",
+    "old_support_term_occurrences": 21,
+    "new_weighted_term_occurrences": 10,
+    "relations": {
+      "802": {
+        "terms": [
+          [
+            1605785,
+            4
+          ],
+          [
+            891537427849,
+            5
+          ]
+        ],
+        "scale": 608202928986
+      },
+      "803": {
+        "terms": [
+          [
+            656950,
+            4
+          ],
+          [
+            495217798702,
+            5
+          ],
+          [
+            15713834974746789,
+            8
+          ]
+        ],
+        "scale": 506835774155
+      },
+      "804": {
+        "terms": [
+          [
+            17298,
+            4
+          ],
+          [
+            89322744434,
+            5
+          ],
+          [
+            30272996688813657,
+            8
+          ]
+        ],
+        "scale": 506835774155
+      },
+      "805": {
+        "terms": [
+          [
+            15286,
+            5
+          ],
+          [
+            2113551,
+            6
+          ]
+        ],
+        "scale": 37073
+      }
+    },
+    "important_limit": "The old rawRows already shared these 13 literal rows. Measured improvement is elimination of 11 redundant support checks and rational Cramer reconstruction, not a claim of a smaller original row table."
+  },
+  "c898": {
+    "source": "evidence/C898/raw/data/region898.json",
+    "sha256": "a266c789f036f9b67c92a631e254185c47dde24f913aac8e37ee887c35e6d442",
+    "owner": 0,
+    "angular_root": 0,
+    "branch_path": "YYYNYYN",
+    "rows": [
+      [
+        -1064896000,
+        68149184250,
+        -100734397431,
+        68157503750,
+        false
+      ],
+      [
+        -136298368500,
+        -2129792000,
+        193823557059,
+        136315007500,
+        true
+      ],
+      [
+        212979200,
+        -13629836850,
+        8340732447,
+        13631500750,
+        false
+      ],
+      [
+        32766000,
+        512000,
+        -45005901,
+        32770000,
+        true
+      ]
+    ],
+    "weights": [
+      8813680499,
+      78707646928,
+      44068402495,
+      327404134308748
+    ],
+    "integer_sum": [
+      0,
+      0,
+      0
+    ],
+    "strict_positive_source": true,
+    "important_limit": "Only the identified empty leaf is migrated. Its initial ancestry and 15 later propagation rounds are not established by this pilot."
+  },
+  "runtime_seconds": 0.10271033299977717,
+  "max_rss_bytes_macos": 110133248
+}

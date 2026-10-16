@@ -7,8 +7,10 @@ on:
         description: N12 verification target
         type: choice
         required: true
-        default: n12-final
+        default: N12-jatloe
         options:
+          - N12-jatloe
+          - '12'
           - n12-final
           - n12
           - n12-selected
@@ -25,9 +27,12 @@ on:
         type: boolean
         default: false
       resume_run:
-        description: Checkpoint run ID, auto for latest compatible run, or none
-        type: string
+        description: Restore the latest compatible build cache, or start without it
+        type: choice
         default: auto
+        options:
+          - auto
+          - none
 
 permissions:
   contents: read
@@ -41,7 +46,7 @@ jobs:
   n12:
     uses: ./.github/workflows/n12.yml
     with:
-      profile: ${{ inputs.target == 'n12-final' && 'final' || inputs.target == 'n12-selected' && 'selected' || 'registered' }}
+      profile: ${{ inputs.target == 'n12-selected' && 'selected' || 'final' }}
       jobs: ${{ inputs.jobs }}
       runner: ${{ inputs.runner }}
       fresh: ${{ inputs.fresh }}

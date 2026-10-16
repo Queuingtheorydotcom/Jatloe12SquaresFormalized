@@ -1,0 +1,2 @@
+'S12.pair_budget' depends on axioms: [propext, Classical.choice, Quot.sound]
+'S12.individual_budget' depends on axioms: [propext, Classical.choice, Quot.sound]

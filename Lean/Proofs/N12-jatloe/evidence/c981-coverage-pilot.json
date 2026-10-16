@@ -1,0 +1,74 @@
+{
+  "original_commit": "46e0067e3aa72d1001a1bf2b95c8f7e4575c368a",
+  "prefixes": [
+    {
+      "source": "Completion/Cases/C981/Coverage/Prefix09.lean",
+      "data_module": "Completion/Cases/C981/Coverage/Data/Prefix09.lean",
+      "original_sha256": "367677f870ecc4a7a3c36262f2e0a5526427e5e21d3794b1695363c68da9e3fb",
+      "declaration_sha256": "1175ab34847013a23f6b51577fef762fbc3ccb00f9c83c13b215c4ce4dbd2dc5",
+      "row_count": 2148,
+      "inverse_sha256": "367677f870ecc4a7a3c36262f2e0a5526427e5e21d3794b1695363c68da9e3fb"
+    },
+    {
+      "source": "Completion/Cases/C981/Coverage/Prefix10.lean",
+      "data_module": "Completion/Cases/C981/Coverage/Data/Prefix10.lean",
+      "original_sha256": "16e26b6d362d5b63da18b5f32dc9e1221885b4394e360ca708acbd8d517cb441",
+      "declaration_sha256": "2b8025125e53e56707a1fd9d4e543597174350ba088a6212b5cf8bc7a5699230",
+      "row_count": 3143,
+      "inverse_sha256": "16e26b6d362d5b63da18b5f32dc9e1221885b4394e360ca708acbd8d517cb441"
+    }
+  ],
+  "original_allowed_data_sha256": "c7a155235d8b8297a4c89bda35c0ddb5202d33030f5042e9cbec781de0009479",
+  "allowed5_declaration_sha256": "1dee49be77edd6897a687d1e5d084f4bd46d50dd04daabfb386a394e4cecbdc6",
+  "files": [
+    {
+      "path": "Completion/Cases/C981/Coverage/Data/Prefix09.lean",
+      "sha256": "ef245d7d61ce195f5f55d0d48f2c2068e437f44aef075a1444e9cb66f9472b40"
+    },
+    {
+      "path": "Completion/Cases/C981/Coverage/Prefix09.lean",
+      "sha256": "5d124ecf007cca11fa0e433049c11a3fbaed0c03d1b53304fa5387619262ead1"
+    },
+    {
+      "path": "Completion/Cases/C981/Coverage/Data/Prefix10.lean",
+      "sha256": "59795e6ffade7d1eaac6405d6382ca62964ac813b811b4cd46093260e2ed0485"
+    },
+    {
+      "path": "Completion/Cases/C981/Coverage/Prefix10.lean",
+      "sha256": "efe04173196feda9605a9f371835b99088a831598c95dcfd0242c7837b547c28"
+    },
+    {
+      "path": "Completion/Cases/C981/Coverage/Data/Allowed05.lean",
+      "sha256": "274ab7d94325c17b777c9b75e2a5c86934c213b59de871ecb158aa4ce8d4ff00"
+    },
+    {
+      "path": "Completion/Cases/C981/Coverage/Allowed/Owner05.lean",
+      "sha256": "0fbb207215eb90f4c040342735657a07ed52f92e79796663959ce0da845cfca2"
+    },
+    {
+      "path": "Compact/Completion/C981/CoveragePilot/Step10First32.lean",
+      "sha256": "6b27029480582c8e67a8fbac36c1ccf54852a239e8b096dde367c4408525460f"
+    }
+  ],
+  "pilot_front_count": 32,
+  "choice_count": 64,
+  "candidate_pairs": 2048,
+  "compatible_extensions": 172,
+  "witness": "List.range 172",
+  "checked_target_slice": {
+    "original": "prefix10",
+    "start": 0,
+    "count": 172
+  },
+  "full_target_count": 3143,
+  "lift_to_full_target": "stepCheck_mono_after / List.mem_of_mem_take",
+  "added_lean_modules": 4,
+  "additional_native_sites": 0,
+  "original_declarations_and_proofs_byte_identical": false,
+  "prefix_data_representation_changes": [
+    "Completion/Cases/C981/Coverage/Data/Prefix09.lean",
+    "Completion/Cases/C981/Coverage/Data/Prefix10.lean"
+  ],
+  "original_prefix_values_and_proof_bodies_preserved": true,
+  "lean_replay_performed_by_this_script": false
+}

@@ -1,0 +1,6 @@
+{
+  "scope": "source factor only, same declarations and theorem bodies; no replay claim",
+  "old_sha256": "3f1e9e2e6356afd7b2f5d41cd39f4effefcf800be8f22a0bce62454ae00da692",
+  "metadata_sha256": "27f32e7a57afe237a2d39d48c09c4b50ae121ee9f0daf04ceee65e8c3a3af5f6",
+  "wrapper_sha256": "cb9e51ac633eb5fd491c812ab55645620917ed834fd57c1744a7d3aeda0795bc"
+}

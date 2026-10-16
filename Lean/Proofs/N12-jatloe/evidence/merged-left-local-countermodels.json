@@ -1,0 +1,77 @@
+{
+  "scope": "Exact hand-chosen counterexamples to weakened local statements. Neither is a full packing or a Lean proof.",
+  "side": "1001/1000",
+  "merged_left_and_wall": {
+    "A": {
+      "frame": [
+        "4/5",
+        "3/5",
+        "1799/1000",
+        "-101/1000"
+      ],
+      "unit": true,
+      "contained": true,
+      "markers": [
+        8,
+        11
+      ],
+      "auxiliary": [
+        0,
+        4,
+        13
+      ],
+      "center": false
+    },
+    "W": {
+      "frame": [
+        "4/5",
+        "3/5",
+        "5703/4000",
+        "9/10"
+      ],
+      "unit": true,
+      "contained": true,
+      "markers": [
+        12
+      ],
+      "auxiliary": [
+        1,
+        11
+      ],
+      "center": false
+    },
+    "separators": [
+      {
+        "frame": "first",
+        "axis": "V",
+        "direction": "first-before-second",
+        "gap": "0"
+      },
+      {
+        "frame": "second",
+        "axis": "V",
+        "direction": "first-before-second",
+        "gap": "0"
+      }
+    ]
+  },
+  "single_merged_left_with_one_F": {
+    "frame": [
+      "24/25",
+      "7/25",
+      "1479/1000",
+      "799/1000"
+    ],
+    "unit": true,
+    "contained": true,
+    "markers": [
+      8,
+      11
+    ],
+    "auxiliary": [
+      4,
+      13
+    ],
+    "center": false
+  }
+}

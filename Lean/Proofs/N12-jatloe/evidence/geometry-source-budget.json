@@ -1,0 +1,1747 @@
+{
+  "roots": [
+    "Compact"
+  ],
+  "scope": "entire resolved local import closure",
+  "closure": {
+    "modules": 30,
+    "lines": 3470,
+    "bytes": 153172,
+    "lexical_items": 49118,
+    "files": [
+      {
+        "path": "Compact/Bridge/BorderEndpoint.lean",
+        "bytes": 4569,
+        "lines": 100,
+        "lexical_items": 1282,
+        "largest_line_bytes": 96,
+        "sha256": "7261c140b2227e4178d7b1c4601d44ba220864bd048c2234ffde5bde1e6917c4"
+      },
+      {
+        "path": "Compact/Bridge/CongruentSAT.lean",
+        "bytes": 5600,
+        "lines": 140,
+        "lexical_items": 1960,
+        "largest_line_bytes": 82,
+        "sha256": "63a42a9aff506ec1ef51b06142a77d546a7026fa5372d0983015b8d2371ef860"
+      },
+      {
+        "path": "Compact/Core/Dag.lean",
+        "bytes": 4927,
+        "lines": 114,
+        "lexical_items": 1364,
+        "largest_line_bytes": 83,
+        "sha256": "1dfbc266c2304782c3ae9ec52007ea0e6aa676449d9bb99b920fa8bd1da6e9d0"
+      },
+      {
+        "path": "Compact/Core/DirectLinear.lean",
+        "bytes": 4317,
+        "lines": 93,
+        "lexical_items": 1035,
+        "largest_line_bytes": 85,
+        "sha256": "0e4d0f626a776aecde0d3fbe50c0f5c8af2dd08bc2681ef2a64e47b4588f790c"
+      },
+      {
+        "path": "Compact/Core/IntegerSupport.lean",
+        "bytes": 6298,
+        "lines": 144,
+        "lexical_items": 2009,
+        "largest_line_bytes": 82,
+        "sha256": "bdee09e248e431af2cae3a24d800acd16376b66d86b68ce9d8a17cef96134e91"
+      },
+      {
+        "path": "Compact/Core/IntegerSupportCase.lean",
+        "bytes": 1517,
+        "lines": 36,
+        "lexical_items": 312,
+        "largest_line_bytes": 80,
+        "sha256": "349f0c9eb5510e4033c14ecfcd9c05033e07cd6d8cc4ea95cd0ae9c405f8130f"
+      },
+      {
+        "path": "Compact/Core/LinearCombination.lean",
+        "bytes": 5778,
+        "lines": 127,
+        "lexical_items": 1335,
+        "largest_line_bytes": 91,
+        "sha256": "77115a18e051654cd84a47ba66d4dac7f903f3aa945e7ff5f1d918303cf00969"
+      },
+      {
+        "path": "Compact/Geometry/BorderEndpoint.lean",
+        "bytes": 9579,
+        "lines": 221,
+        "lexical_items": 3257,
+        "largest_line_bytes": 85,
+        "sha256": "d797d0fbd54983573e52e795493cb5e64d155ce16dcbc54dc590f69446cee36c"
+      },
+      {
+        "path": "Compact/Geometry/C696Symmetry.lean",
+        "bytes": 2726,
+        "lines": 64,
+        "lexical_items": 741,
+        "largest_line_bytes": 79,
+        "sha256": "95c70b95df1e7192e4cdad8c9d9ae5cf202ce1b23b87728bb4ec4c9452461f75"
+      },
+      {
+        "path": "Compact/Geometry/C977ChainBridge.lean",
+        "bytes": 7919,
+        "lines": 186,
+        "lexical_items": 2557,
+        "largest_line_bytes": 90,
+        "sha256": "d6e61f86f4f6b7a6369184f79c3add188eac57b5c17a463dfc025bd09531bfb2"
+      },
+      {
+        "path": "Compact/Geometry/ChordRadius.lean",
+        "bytes": 1744,
+        "lines": 46,
+        "lexical_items": 493,
+        "largest_line_bytes": 76,
+        "sha256": "c7f2e1b8beacc10e05f401928b5890f9f4bec091dfff8a15fd97a0ca2788865a"
+      },
+      {
+        "path": "Compact/Geometry/FourSquareAnchors.lean",
+        "bytes": 5588,
+        "lines": 125,
+        "lexical_items": 2360,
+        "largest_line_bytes": 90,
+        "sha256": "a1cf015ffa0ed45db2ff48ddf7ad00a59f364337dc57e68b3ff87a400d5f4304"
+      },
+      {
+        "path": "Compact/Geometry/LongSection.lean",
+        "bytes": 7326,
+        "lines": 181,
+        "lexical_items": 2330,
+        "largest_line_bytes": 79,
+        "sha256": "d5940c530e6de0fc123db6730d7ddbec19be0a17b460e695e489e1c104e2d8f6"
+      },
+      {
+        "path": "Compact/Geometry/ScalarSATIntervals.lean",
+        "bytes": 4153,
+        "lines": 82,
+        "lexical_items": 1906,
+        "largest_line_bytes": 94,
+        "sha256": "e74847b6eea0903d0c16fee57ba94291f0d6e2f8d68523d9b0a0c27a1eb7a9b9"
+      },
+      {
+        "path": "Compact/Geometry/ScalarSATPositive.lean",
+        "bytes": 3927,
+        "lines": 84,
+        "lexical_items": 1523,
+        "largest_line_bytes": 92,
+        "sha256": "966b4ac73e76e357e64118cd3f31e89900655487d4ccc4c85a127c98998f7fdc"
+      },
+      {
+        "path": "Compact/Geometry/ScalarSATSigned.lean",
+        "bytes": 2966,
+        "lines": 70,
+        "lexical_items": 1020,
+        "largest_line_bytes": 85,
+        "sha256": "7e330ca2ef5ab38b3bab654fe8a5bb4670dbe6d0a326aa1a2add793dbfc1276c"
+      },
+      {
+        "path": "Compact/Geometry/SectionCapacity.lean",
+        "bytes": 4199,
+        "lines": 100,
+        "lexical_items": 1361,
+        "largest_line_bytes": 88,
+        "sha256": "ef1d5a7a8fba96c4f45ed9225951aaf7bb29b429085c52b790f55d08b81d6b40"
+      },
+      {
+        "path": "Compact/Geometry/ThreeSquareForcedPoint.lean",
+        "bytes": 8219,
+        "lines": 183,
+        "lexical_items": 2744,
+        "largest_line_bytes": 86,
+        "sha256": "97205b5080965e2053cd8493879621c4cd16067eb1a9c6bcf454c23326962bc8"
+      },
+      {
+        "path": "Compact/Geometry/ThreeSquareOriginal.lean",
+        "bytes": 12973,
+        "lines": 245,
+        "lexical_items": 4093,
+        "largest_line_bytes": 95,
+        "sha256": "bd7b055148b9f93e16aaa2051846b104bbcacb13d9844580ff04551b77e80fba"
+      },
+      {
+        "path": "Compact/Geometry/ThreeSquareRadius.lean",
+        "bytes": 3011,
+        "lines": 56,
+        "lexical_items": 811,
+        "largest_line_bytes": 84,
+        "sha256": "58106573ced6810af5898a478c3db26338ca2fafad6a5fe7c71fd9e3220ea171"
+      },
+      {
+        "path": "Compact/Geometry/ThreeSquareSupport.lean",
+        "bytes": 6748,
+        "lines": 146,
+        "lexical_items": 2231,
+        "largest_line_bytes": 95,
+        "sha256": "a4ee11c18f184e0758adcaf6ccc25deb1181d4f128d9a48f4f3927cd91b0bb71"
+      },
+      {
+        "path": "Compact/Geometry/WallChain.lean",
+        "bytes": 6176,
+        "lines": 154,
+        "lexical_items": 2034,
+        "largest_line_bytes": 82,
+        "sha256": "601bc9f396d8b62c700e1f9c3585635bbf2077ca2a5633865176547625970bfd"
+      },
+      {
+        "path": "Compact.lean",
+        "bytes": 1116,
+        "lines": 24,
+        "lexical_items": 169,
+        "largest_line_bytes": 82,
+        "sha256": "8b7c0b5bf5a308c814b555fd729f9e27e2758e70e83a2b792972258c3809dc8a"
+      },
+      {
+        "path": "Completion/Cases/C977/WallChains.lean",
+        "bytes": 7580,
+        "lines": 161,
+        "lexical_items": 2379,
+        "largest_line_bytes": 92,
+        "sha256": "a99a517ddb61c8bf62ecb67e13b909de6cf75749c83891f00df982ccb41ebf5d"
+      },
+      {
+        "path": "source/S12/Container.lean",
+        "bytes": 1738,
+        "lines": 38,
+        "lexical_items": 507,
+        "largest_line_bytes": 104,
+        "sha256": "645387a0b344970b27864bfc72160b8e65ae9f574087ac17d277cf15cd2acb15"
+      },
+      {
+        "path": "source/S12/Diagonal.lean",
+        "bytes": 9709,
+        "lines": 228,
+        "lexical_items": 3008,
+        "largest_line_bytes": 92,
+        "sha256": "829bdc2553ec36b8ecf529fab6f0d372ecf1003b9695089dd864996b2851e8f6"
+      },
+      {
+        "path": "source/S12/LinearCertificate.lean",
+        "bytes": 4616,
+        "lines": 108,
+        "lexical_items": 1454,
+        "largest_line_bytes": 100,
+        "sha256": "7205eea5f44b2deb332281f1359c129571a1e29614a89977f0f6e0e95de83cbb"
+      },
+      {
+        "path": "source/S12/SquareFrame.lean",
+        "bytes": 1742,
+        "lines": 40,
+        "lexical_items": 672,
+        "largest_line_bytes": 93,
+        "sha256": "49e1855ce4de71f8a0791f6c2b57c5af88c2fa9102e5324fc67ddfd80f0341f6"
+      },
+      {
+        "path": "source/S12/SymmetryBase.lean",
+        "bytes": 2458,
+        "lines": 79,
+        "lexical_items": 820,
+        "largest_line_bytes": 87,
+        "sha256": "649d5ae978e0f8733ab32c512ebf081c7d5b9c577b6ad25971df959a8600fdb1"
+      },
+      {
+        "path": "source/S12/WallGeometry.lean",
+        "bytes": 3953,
+        "lines": 95,
+        "lexical_items": 1351,
+        "largest_line_bytes": 93,
+        "sha256": "a803ce2d86bc423f74007e0ea036eea0deaa785facb2b25c6698160500e4558e"
+      }
+    ]
+  },
+  "all_resident_active_and_draft_source": {
+    "modules": 184,
+    "lines": 17402,
+    "bytes": 1499881,
+    "lexical_items": 657539,
+    "files": [
+      {
+        "path": "Compact/Assembly/Frontier.lean",
+        "bytes": 2843,
+        "lines": 66,
+        "lexical_items": 607,
+        "largest_line_bytes": 86,
+        "sha256": "04f5ea9c45e5f4d7ba5b40cb0f1bc911f222b59cbadb3cec3e2e1b9074502297"
+      },
+      {
+        "path": "Compact/Bridge/BorderEndpoint.lean",
+        "bytes": 4569,
+        "lines": 100,
+        "lexical_items": 1282,
+        "largest_line_bytes": 96,
+        "sha256": "7261c140b2227e4178d7b1c4601d44ba220864bd048c2234ffde5bde1e6917c4"
+      },
+      {
+        "path": "Compact/Bridge/C977DisjointChain.lean",
+        "bytes": 3048,
+        "lines": 66,
+        "lexical_items": 938,
+        "largest_line_bytes": 90,
+        "sha256": "e636c65da8bf96f4a5bb3d5bfd94b65b02f64fc4e818a76d7a0c6a36c0ffb1e1"
+      },
+      {
+        "path": "Compact/Bridge/CongruentSAT.lean",
+        "bytes": 5600,
+        "lines": 140,
+        "lexical_items": 1960,
+        "largest_line_bytes": 82,
+        "sha256": "63a42a9aff506ec1ef51b06142a77d546a7026fa5372d0983015b8d2371ef860"
+      },
+      {
+        "path": "Compact/Cases/C981.lean",
+        "bytes": 4222,
+        "lines": 89,
+        "lexical_items": 1103,
+        "largest_line_bytes": 94,
+        "sha256": "18c93c76319d28cc5659544558cb0ce17bed3ff54fff336ffbe3b56d189c430c"
+      },
+      {
+        "path": "Compact/Cases/C981V116.lean",
+        "bytes": 1514,
+        "lines": 38,
+        "lexical_items": 364,
+        "largest_line_bytes": 87,
+        "sha256": "aad60a25ce4cb71db8234130e2b430ed5810b833ee8c9977cf6a6c7aafa8dfb1"
+      },
+      {
+        "path": "Compact/Core/C696SupportFixture.lean",
+        "bytes": 3906,
+        "lines": 95,
+        "lexical_items": 865,
+        "largest_line_bytes": 91,
+        "sha256": "7281aca2ac02d8c61488e5ead40fd0f6cbdcfe17a0f14cf33a6d2847fc00741e"
+      },
+      {
+        "path": "Compact/Core/Dag.lean",
+        "bytes": 4927,
+        "lines": 114,
+        "lexical_items": 1364,
+        "largest_line_bytes": 83,
+        "sha256": "1dfbc266c2304782c3ae9ec52007ea0e6aa676449d9bb99b920fa8bd1da6e9d0"
+      },
+      {
+        "path": "Compact/Core/DirectLinear.lean",
+        "bytes": 4317,
+        "lines": 93,
+        "lexical_items": 1035,
+        "largest_line_bytes": 85,
+        "sha256": "0e4d0f626a776aecde0d3fbe50c0f5c8af2dd08bc2681ef2a64e47b4588f790c"
+      },
+      {
+        "path": "Compact/Core/IntegerSupport.lean",
+        "bytes": 6298,
+        "lines": 144,
+        "lexical_items": 2009,
+        "largest_line_bytes": 82,
+        "sha256": "bdee09e248e431af2cae3a24d800acd16376b66d86b68ce9d8a17cef96134e91"
+      },
+      {
+        "path": "Compact/Core/IntegerSupportCase.lean",
+        "bytes": 1517,
+        "lines": 36,
+        "lexical_items": 312,
+        "largest_line_bytes": 80,
+        "sha256": "349f0c9eb5510e4033c14ecfcd9c05033e07cd6d8cc4ea95cd0ae9c405f8130f"
+      },
+      {
+        "path": "Compact/Core/LinearCombination.lean",
+        "bytes": 5778,
+        "lines": 127,
+        "lexical_items": 1335,
+        "largest_line_bytes": 91,
+        "sha256": "77115a18e051654cd84a47ba66d4dac7f903f3aa945e7ff5f1d918303cf00969"
+      },
+      {
+        "path": "Compact/Geometry/BorderEndpoint.lean",
+        "bytes": 9579,
+        "lines": 221,
+        "lexical_items": 3257,
+        "largest_line_bytes": 85,
+        "sha256": "d797d0fbd54983573e52e795493cb5e64d155ce16dcbc54dc590f69446cee36c"
+      },
+      {
+        "path": "Compact/Geometry/C696Symmetry.lean",
+        "bytes": 2726,
+        "lines": 64,
+        "lexical_items": 741,
+        "largest_line_bytes": 79,
+        "sha256": "95c70b95df1e7192e4cdad8c9d9ae5cf202ce1b23b87728bb4ec4c9452461f75"
+      },
+      {
+        "path": "Compact/Geometry/C977ChainBridge.lean",
+        "bytes": 7919,
+        "lines": 186,
+        "lexical_items": 2557,
+        "largest_line_bytes": 90,
+        "sha256": "d6e61f86f4f6b7a6369184f79c3add188eac57b5c17a463dfc025bd09531bfb2"
+      },
+      {
+        "path": "Compact/Geometry/C981Midpoint.lean",
+        "bytes": 3470,
+        "lines": 75,
+        "lexical_items": 1122,
+        "largest_line_bytes": 77,
+        "sha256": "304274cf6a408c64970d67aff9dadb0db31e6d996b81f3438e2a95e1843dff02"
+      },
+      {
+        "path": "Compact/Geometry/ChordRadius.lean",
+        "bytes": 1744,
+        "lines": 46,
+        "lexical_items": 493,
+        "largest_line_bytes": 76,
+        "sha256": "c7f2e1b8beacc10e05f401928b5890f9f4bec091dfff8a15fd97a0ca2788865a"
+      },
+      {
+        "path": "Compact/Geometry/FourSquareAnchors.lean",
+        "bytes": 5588,
+        "lines": 125,
+        "lexical_items": 2360,
+        "largest_line_bytes": 90,
+        "sha256": "a1cf015ffa0ed45db2ff48ddf7ad00a59f364337dc57e68b3ff87a400d5f4304"
+      },
+      {
+        "path": "Compact/Geometry/LongSection.lean",
+        "bytes": 7326,
+        "lines": 181,
+        "lexical_items": 2330,
+        "largest_line_bytes": 79,
+        "sha256": "d5940c530e6de0fc123db6730d7ddbec19be0a17b460e695e489e1c104e2d8f6"
+      },
+      {
+        "path": "Compact/Geometry/ScalarSATIntervals.lean",
+        "bytes": 4153,
+        "lines": 82,
+        "lexical_items": 1906,
+        "largest_line_bytes": 94,
+        "sha256": "e74847b6eea0903d0c16fee57ba94291f0d6e2f8d68523d9b0a0c27a1eb7a9b9"
+      },
+      {
+        "path": "Compact/Geometry/ScalarSATPositive.lean",
+        "bytes": 3927,
+        "lines": 84,
+        "lexical_items": 1523,
+        "largest_line_bytes": 92,
+        "sha256": "966b4ac73e76e357e64118cd3f31e89900655487d4ccc4c85a127c98998f7fdc"
+      },
+      {
+        "path": "Compact/Geometry/ScalarSATSigned.lean",
+        "bytes": 2966,
+        "lines": 70,
+        "lexical_items": 1020,
+        "largest_line_bytes": 85,
+        "sha256": "7e330ca2ef5ab38b3bab654fe8a5bb4670dbe6d0a326aa1a2add793dbfc1276c"
+      },
+      {
+        "path": "Compact/Geometry/SectionCapacity.lean",
+        "bytes": 4199,
+        "lines": 100,
+        "lexical_items": 1361,
+        "largest_line_bytes": 88,
+        "sha256": "ef1d5a7a8fba96c4f45ed9225951aaf7bb29b429085c52b790f55d08b81d6b40"
+      },
+      {
+        "path": "Compact/Geometry/SeparatingAxes.lean",
+        "bytes": 4423,
+        "lines": 108,
+        "lexical_items": 1154,
+        "largest_line_bytes": 86,
+        "sha256": "4f86ae6bb4270302226182e27afd55eeee5ff7a6f735c4581ec29e30f7f9bb54"
+      },
+      {
+        "path": "Compact/Geometry/ThreeSquareForcedPoint.lean",
+        "bytes": 8219,
+        "lines": 183,
+        "lexical_items": 2744,
+        "largest_line_bytes": 86,
+        "sha256": "97205b5080965e2053cd8493879621c4cd16067eb1a9c6bcf454c23326962bc8"
+      },
+      {
+        "path": "Compact/Geometry/ThreeSquareOriginal.lean",
+        "bytes": 12973,
+        "lines": 245,
+        "lexical_items": 4093,
+        "largest_line_bytes": 95,
+        "sha256": "bd7b055148b9f93e16aaa2051846b104bbcacb13d9844580ff04551b77e80fba"
+      },
+      {
+        "path": "Compact/Geometry/ThreeSquareRadius.lean",
+        "bytes": 3011,
+        "lines": 56,
+        "lexical_items": 811,
+        "largest_line_bytes": 84,
+        "sha256": "58106573ced6810af5898a478c3db26338ca2fafad6a5fe7c71fd9e3220ea171"
+      },
+      {
+        "path": "Compact/Geometry/ThreeSquareSupport.lean",
+        "bytes": 6748,
+        "lines": 146,
+        "lexical_items": 2231,
+        "largest_line_bytes": 95,
+        "sha256": "a4ee11c18f184e0758adcaf6ccc25deb1181d4f128d9a48f4f3927cd91b0bb71"
+      },
+      {
+        "path": "Compact/Geometry/WallChain.lean",
+        "bytes": 6176,
+        "lines": 154,
+        "lexical_items": 2034,
+        "largest_line_bytes": 82,
+        "sha256": "601bc9f396d8b62c700e1f9c3585635bbf2077ca2a5633865176547625970bfd"
+      },
+      {
+        "path": "Compact.lean",
+        "bytes": 1116,
+        "lines": 24,
+        "lexical_items": 169,
+        "largest_line_bytes": 82,
+        "sha256": "8b7c0b5bf5a308c814b555fd729f9e27e2758e70e83a2b792972258c3809dc8a"
+      },
+      {
+        "path": "Completion/Cases/C977/Anchors.lean",
+        "bytes": 4106,
+        "lines": 82,
+        "lexical_items": 1142,
+        "largest_line_bytes": 88,
+        "sha256": "e4ff9fe85164e1b1d022177d5c15073113b6666bab95b642b46eb17ca9b98fa2"
+      },
+      {
+        "path": "Completion/Cases/C977/AuxiliaryContext.lean",
+        "bytes": 3551,
+        "lines": 75,
+        "lexical_items": 780,
+        "largest_line_bytes": 85,
+        "sha256": "f4cde2ec6e683a2d460f7b98163c6eee01a149c3c595c337c26725b69e3d7ee0"
+      },
+      {
+        "path": "Completion/Cases/C977/AuxiliaryVectors.lean",
+        "bytes": 25724,
+        "lines": 502,
+        "lexical_items": 8395,
+        "largest_line_bytes": 532,
+        "sha256": "e3ff858ec840a57af8716f4b512a7454581151c1b9f0ca83a132d57b4f4668e7"
+      },
+      {
+        "path": "Completion/Cases/C977/BorderPoints.lean",
+        "bytes": 5535,
+        "lines": 123,
+        "lexical_items": 1757,
+        "largest_line_bytes": 82,
+        "sha256": "61446d7ec93c47619e12691a07de5c84d6c7c0dc80337035917d3e5c5b22d5dd"
+      },
+      {
+        "path": "Completion/Cases/C977/Context.lean",
+        "bytes": 3547,
+        "lines": 71,
+        "lexical_items": 858,
+        "largest_line_bytes": 80,
+        "sha256": "d73987aa090d60d9ab27c9714bf8924c14038e35c893420f75e3667a0916f52f"
+      },
+      {
+        "path": "Completion/Cases/C977/CornerRoots.lean",
+        "bytes": 9048,
+        "lines": 189,
+        "lexical_items": 2542,
+        "largest_line_bytes": 88,
+        "sha256": "b3deb6d21887db97fe57f73743c77f790a694b869025970edea62e3acf68a18e"
+      },
+      {
+        "path": "Completion/Cases/C977/InteriorFaces.lean",
+        "bytes": 8418,
+        "lines": 177,
+        "lexical_items": 2519,
+        "largest_line_bytes": 89,
+        "sha256": "406b7c168fc8a9c6ff896a48557e8defcdc4841a1f13a32af636f09582710921"
+      },
+      {
+        "path": "Completion/Cases/C977/MissingCornerBounds.lean",
+        "bytes": 9887,
+        "lines": 189,
+        "lexical_items": 2907,
+        "largest_line_bytes": 90,
+        "sha256": "8ea25e0283d24f217a36378d3ac3714b4c4741e692c8242cffb028215da2a275"
+      },
+      {
+        "path": "Completion/Cases/C977/MissingCornerGeometry.lean",
+        "bytes": 5982,
+        "lines": 122,
+        "lexical_items": 1767,
+        "largest_line_bytes": 78,
+        "sha256": "2af40c758efa17c416d176a36c6a6e24054c2e00259f61b31710664902725ea5"
+      },
+      {
+        "path": "Completion/Cases/C977/MissingCornerPoints.lean",
+        "bytes": 4235,
+        "lines": 86,
+        "lexical_items": 1021,
+        "largest_line_bytes": 89,
+        "sha256": "96595739a751ccd6848c51579be280b7096a177244b2b1cd7e2a67bfd9d4cc73"
+      },
+      {
+        "path": "Completion/Cases/C977/PoseEnclosure.lean",
+        "bytes": 3697,
+        "lines": 89,
+        "lexical_items": 1398,
+        "largest_line_bytes": 173,
+        "sha256": "2b6cf487790e94ef00b17a78c8ebfaee7e137455d2e407a283fe6c45bf3ad682"
+      },
+      {
+        "path": "Completion/Cases/C977/RowIdentity.lean",
+        "bytes": 1073,
+        "lines": 33,
+        "lexical_items": 251,
+        "largest_line_bytes": 84,
+        "sha256": "c3b184ed9ce7ff0aff7244a50e24674c662e5713b56c600c8a9c1e625ff64192"
+      },
+      {
+        "path": "Completion/Cases/C977/SwapReduction.lean",
+        "bytes": 6209,
+        "lines": 131,
+        "lexical_items": 1486,
+        "largest_line_bytes": 96,
+        "sha256": "43b78df05c67c563383e6195a19478e6145f24e7f0b90f9334a84d5bd5fa3c35"
+      },
+      {
+        "path": "Completion/Cases/C977/UnusedMarkerDistance.lean",
+        "bytes": 3076,
+        "lines": 67,
+        "lexical_items": 886,
+        "largest_line_bytes": 80,
+        "sha256": "3e42562e62da90e39a297f047ec47fc542fbb84fa81964826b4f26ddc868792f"
+      },
+      {
+        "path": "Completion/Cases/C977/WallBranches.lean",
+        "bytes": 3998,
+        "lines": 94,
+        "lexical_items": 1023,
+        "largest_line_bytes": 96,
+        "sha256": "b81f9b5c5fa38385ef6fe33fb850794499eb179e6e906a95e11d58f5c05cc7ca"
+      },
+      {
+        "path": "Completion/Cases/C977/WallChains.lean",
+        "bytes": 7580,
+        "lines": 161,
+        "lexical_items": 2379,
+        "largest_line_bytes": 92,
+        "sha256": "a99a517ddb61c8bf62ecb67e13b909de6cf75749c83891f00df982ccb41ebf5d"
+      },
+      {
+        "path": "Completion/Cases/C981/CaseVectors.lean",
+        "bytes": 3427,
+        "lines": 84,
+        "lexical_items": 716,
+        "largest_line_bytes": 97,
+        "sha256": "7233c1496840cbefc3edcfa064655730891598570832b2a801fbae3d854365fe"
+      },
+      {
+        "path": "Completion/Cases/C981/CornerReduction.lean",
+        "bytes": 3323,
+        "lines": 77,
+        "lexical_items": 815,
+        "largest_line_bytes": 85,
+        "sha256": "83081b5c9cd23eddc8c402be5e1583f799e856d01e8ac2ede52f31381ec36c99"
+      },
+      {
+        "path": "Completion/Cases/C981/DiagonalAuxiliary.lean",
+        "bytes": 6659,
+        "lines": 142,
+        "lexical_items": 1711,
+        "largest_line_bytes": 102,
+        "sha256": "15784f3c6e15e576bfbd017983153cad3595c5237bc9266d6720a290507afe25"
+      },
+      {
+        "path": "Completion/Cases/C981/DomainReuse.lean",
+        "bytes": 1307,
+        "lines": 29,
+        "lexical_items": 371,
+        "largest_line_bytes": 86,
+        "sha256": "a4b2e21eee2c189f0466d0d57382edaada9b0c1b2d9163ee4c29d86c503fbbc5"
+      },
+      {
+        "path": "Completion/Cases/C981/Geometry.lean",
+        "bytes": 3031,
+        "lines": 73,
+        "lexical_items": 873,
+        "largest_line_bytes": 79,
+        "sha256": "d4b02ef70feed4d2f7619cf865cc109ff532f1c67c84ba20c4209dd3540c0609"
+      },
+      {
+        "path": "Completion/Cases/C981/Ownership.lean",
+        "bytes": 3596,
+        "lines": 79,
+        "lexical_items": 940,
+        "largest_line_bytes": 90,
+        "sha256": "4a74387c4c48131967c813f094320e8a13597f46af9ba56953bea3a0ac583f33"
+      },
+      {
+        "path": "Completion/Cases/C981/OwnershipDomains.lean",
+        "bytes": 6111,
+        "lines": 118,
+        "lexical_items": 1232,
+        "largest_line_bytes": 89,
+        "sha256": "c38379fb9001e7ca73aba514b26e65f8982f7a2f49b814730f326de5406e9078"
+      },
+      {
+        "path": "Completion/Cases/C981/RowIdentity.lean",
+        "bytes": 937,
+        "lines": 31,
+        "lexical_items": 217,
+        "largest_line_bytes": 80,
+        "sha256": "ab2849f265b2d85eff6c80dca0d333e27946f69ba6f7125fd5eb6771d2faa20a"
+      },
+      {
+        "path": "Completion/Cases/C981/VectorData.lean",
+        "bytes": 10604,
+        "lines": 137,
+        "lexical_items": 8381,
+        "largest_line_bytes": 93,
+        "sha256": "a8917162236714146a042e3dacfcc508c41e48af867cba3a9d82ed59a9325b5d"
+      },
+      {
+        "path": "Completion/Contracts.lean",
+        "bytes": 687,
+        "lines": 16,
+        "lexical_items": 149,
+        "largest_line_bytes": 79,
+        "sha256": "f9f918063f3b14f829a157ec55f729ec50665c08a865e749a319df3dd814a680"
+      },
+      {
+        "path": "adapters/C696SymmetryOriginal.lean",
+        "bytes": 1740,
+        "lines": 43,
+        "lexical_items": 365,
+        "largest_line_bytes": 76,
+        "sha256": "2d9b06f876bfb089a3e8d1dc99d008bb161c167ca596b5ab7aa1e8dd1927fec6"
+      },
+      {
+        "path": "adapters/ThreeSquareOriginal.lean",
+        "bytes": 5990,
+        "lines": 126,
+        "lexical_items": 1658,
+        "largest_line_bytes": 82,
+        "sha256": "eb55209a60a76af4e3105b89061be3737c3ae44f47b81abcce96695031db8d78"
+      },
+      {
+        "path": "source/S12/AuxCoverBase.lean",
+        "bytes": 7577,
+        "lines": 170,
+        "lexical_items": 2874,
+        "largest_line_bytes": 109,
+        "sha256": "c2acf52689ab81354890005d0fbc846136a5928e39764b13e30dcacc6443e0be"
+      },
+      {
+        "path": "source/S12/AuxCoverGeometry.lean",
+        "bytes": 7857,
+        "lines": 151,
+        "lexical_items": 2532,
+        "largest_line_bytes": 98,
+        "sha256": "06d1ebc7c2f3f362536ab7edc171be61ed4baa053a92dd57970e62bbca12f46b"
+      },
+      {
+        "path": "source/S12/AuxPacking.lean",
+        "bytes": 5938,
+        "lines": 134,
+        "lexical_items": 1740,
+        "largest_line_bytes": 116,
+        "sha256": "4445ffd311df269e11096c0cc2845d2e70522d6d6f7647304e2008e33a3d443b"
+      },
+      {
+        "path": "source/S12/AuxPairCover.lean",
+        "bytes": 3731,
+        "lines": 86,
+        "lexical_items": 990,
+        "largest_line_bytes": 103,
+        "sha256": "34317976060846742f064ab0e245b0fda92fc340e4140e1df4e7593564208fe4"
+      },
+      {
+        "path": "source/S12/AuxiliaryPoints.lean",
+        "bytes": 507,
+        "lines": 12,
+        "lexical_items": 289,
+        "largest_line_bytes": 153,
+        "sha256": "6705c4aec708f3e5dc9ea16a10efd8dcb4c475125b5b6c92752f215a039cc4f2"
+      },
+      {
+        "path": "source/S12/BatchedPush701.lean",
+        "bytes": 1472,
+        "lines": 57,
+        "lexical_items": 228,
+        "largest_line_bytes": 25,
+        "sha256": "a1da5db522190cbf24499a88002daf66be18b548406a698ed818fe73478fb11c"
+      },
+      {
+        "path": "source/S12/BatchedPush713.lean",
+        "bytes": 2408,
+        "lines": 93,
+        "lexical_items": 372,
+        "largest_line_bytes": 25,
+        "sha256": "f9b4b67b3678a60ae5fa75dd1233cdbecc2854490c4b800539a374acf07486e2"
+      },
+      {
+        "path": "source/S12/BatchedPush898.lean",
+        "bytes": 1706,
+        "lines": 66,
+        "lexical_items": 264,
+        "largest_line_bytes": 25,
+        "sha256": "b5cfe6b70c306828e6853f06e2e546121d2d82f0f41b0a0378bffa2eac43c7fc"
+      },
+      {
+        "path": "source/S12/BatchedPush973.lean",
+        "bytes": 1940,
+        "lines": 75,
+        "lexical_items": 300,
+        "largest_line_bytes": 25,
+        "sha256": "ceafe544a890e6ae78c1fe2a435797150b44a193a8a3e8c9f0bda7b5c9616bdb"
+      },
+      {
+        "path": "source/S12/BatchedPush978.lean",
+        "bytes": 1914,
+        "lines": 74,
+        "lexical_items": 296,
+        "largest_line_bytes": 25,
+        "sha256": "895e1630620b66f4984a7a3ea1496c2b6a69e6543c24cff8f67795eccb8ccdaf"
+      },
+      {
+        "path": "source/S12/Budget.lean",
+        "bytes": 3250,
+        "lines": 77,
+        "lexical_items": 926,
+        "largest_line_bytes": 90,
+        "sha256": "4612b651fd09375ae1f0f7c96189cb1e6f0c37970d870b644af241ca582fa9fa"
+      },
+      {
+        "path": "source/S12/CachedEnumeration.lean",
+        "bytes": 1706,
+        "lines": 39,
+        "lexical_items": 470,
+        "largest_line_bytes": 92,
+        "sha256": "e4f52edb41c5e60aabad5bcb5af67617282f16602a2b9c93cca89078eb16a44b"
+      },
+      {
+        "path": "source/S12/CenterLocalization.lean",
+        "bytes": 1539,
+        "lines": 38,
+        "lexical_items": 513,
+        "largest_line_bytes": 91,
+        "sha256": "855adc72d1fcf086c7ea993053e404746abadcda2c03f25288493b3ad0f53597"
+      },
+      {
+        "path": "source/S12/Cliques.lean",
+        "bytes": 1919,
+        "lines": 49,
+        "lexical_items": 541,
+        "largest_line_bytes": 98,
+        "sha256": "2174e9695c051434f829fd120de3b4c41a2c2102f1702a0459407c9549655c1d"
+      },
+      {
+        "path": "source/S12/CombinedPacking.lean",
+        "bytes": 2510,
+        "lines": 66,
+        "lexical_items": 731,
+        "largest_line_bytes": 89,
+        "sha256": "bd19112f897ce96a5deaeda7424176d7889c55fdc3a805c112b88499dacaaaf0"
+      },
+      {
+        "path": "source/S12/Container.lean",
+        "bytes": 1738,
+        "lines": 38,
+        "lexical_items": 507,
+        "largest_line_bytes": 104,
+        "sha256": "645387a0b344970b27864bfc72160b8e65ae9f574087ac17d277cf15cd2acb15"
+      },
+      {
+        "path": "source/S12/Convex.lean",
+        "bytes": 2647,
+        "lines": 68,
+        "lexical_items": 952,
+        "largest_line_bytes": 130,
+        "sha256": "a8a7bb8a862018110e0b515a9918dc1898204c19ae02992f5af8177f540c7171"
+      },
+      {
+        "path": "source/S12/CoreData.lean",
+        "bytes": 155890,
+        "lines": 845,
+        "lexical_items": 35494,
+        "largest_line_bytes": 16593,
+        "sha256": "bae1b3e9d9f14bbba3d11e781272d993feb57b9e7a902e0561ba4de837442725"
+      },
+      {
+        "path": "source/S12/CoreExclusion.lean",
+        "bytes": 4490,
+        "lines": 103,
+        "lexical_items": 1241,
+        "largest_line_bytes": 106,
+        "sha256": "848315573b94715036d221c0a7f48a2ef7e738ccf9993bb31bfe06bf328485a3"
+      },
+      {
+        "path": "source/S12/CornerCover.lean",
+        "bytes": 3096,
+        "lines": 72,
+        "lexical_items": 1127,
+        "largest_line_bytes": 76,
+        "sha256": "e3210052f7175c66c86b454b67dc99e08db40d85d8552241eb6e09cea9284a17"
+      },
+      {
+        "path": "source/S12/CornerForcing.lean",
+        "bytes": 1268,
+        "lines": 29,
+        "lexical_items": 413,
+        "largest_line_bytes": 76,
+        "sha256": "9eb135505276c2e4032e1e98a05e5f0aac0785be4fba73bcc4022a0b6d454eae"
+      },
+      {
+        "path": "source/S12/Cover.lean",
+        "bytes": 1068,
+        "lines": 29,
+        "lexical_items": 305,
+        "largest_line_bytes": 80,
+        "sha256": "14c0a56c9cff9ab00c1b8ef36c1b2f3d4f2a08c7c6ad875cffa896bf8b413360"
+      },
+      {
+        "path": "source/S12/CoverData.lean",
+        "bytes": 199146,
+        "lines": 86,
+        "lexical_items": 163653,
+        "largest_line_bytes": 41247,
+        "sha256": "663a4e43053099d3781da982ca148dfec3402da0ba33a603859f19fa20f5e7f4"
+      },
+      {
+        "path": "source/S12/CurrentReduction.lean",
+        "bytes": 665,
+        "lines": 13,
+        "lexical_items": 147,
+        "largest_line_bytes": 95,
+        "sha256": "d8e1535c260c2077401e7412d97b72996afe7a8ed128818d8557b3373b4bab2a"
+      },
+      {
+        "path": "source/S12/Diagonal.lean",
+        "bytes": 9709,
+        "lines": 228,
+        "lexical_items": 3008,
+        "largest_line_bytes": 92,
+        "sha256": "829bdc2553ec36b8ecf529fab6f0d372ecf1003b9695089dd864996b2851e8f6"
+      },
+      {
+        "path": "source/S12/DiagonalPacking.lean",
+        "bytes": 875,
+        "lines": 26,
+        "lexical_items": 244,
+        "largest_line_bytes": 105,
+        "sha256": "5719e81ff0bcb94c07062b6800af24323901df80bf89e0cddd5ba2df6f586bdf"
+      },
+      {
+        "path": "source/S12/Diameter.lean",
+        "bytes": 1319,
+        "lines": 39,
+        "lexical_items": 531,
+        "largest_line_bytes": 69,
+        "sha256": "8ee3fcaa8bea000bcdcf6ffdeb39435b2eaae2c611a095c1bc1f906221ed47ae"
+      },
+      {
+        "path": "source/S12/DiameterClassification.lean",
+        "bytes": 631,
+        "lines": 21,
+        "lexical_items": 153,
+        "largest_line_bytes": 82,
+        "sha256": "be071cb22eeac5fee2d77badcc61c758a689301af6a67bbfc5e22e452610cd53"
+      },
+      {
+        "path": "source/S12/DomainSearch.lean",
+        "bytes": 2252,
+        "lines": 57,
+        "lexical_items": 601,
+        "largest_line_bytes": 88,
+        "sha256": "b7630cc110a82bf70a95b34e280325b23005437d7b76c17b29f852e140b947ce"
+      },
+      {
+        "path": "source/S12/DomainSpecData.lean",
+        "bytes": 30363,
+        "lines": 263,
+        "lexical_items": 12002,
+        "largest_line_bytes": 1017,
+        "sha256": "56ec0a294b96cd62cbf44b5030f9a9bff7926204d22e236f23a02afc14c7200d"
+      },
+      {
+        "path": "source/S12/DomainSpecs.lean",
+        "bytes": 4395,
+        "lines": 100,
+        "lexical_items": 1252,
+        "largest_line_bytes": 100,
+        "sha256": "1dce7346190e1014cfba7bd9ad6fa6c225ec5be945863f47f78753908396f077"
+      },
+      {
+        "path": "source/S12/Enumeration.lean",
+        "bytes": 5328,
+        "lines": 123,
+        "lexical_items": 1540,
+        "largest_line_bytes": 121,
+        "sha256": "0e1ffbaeeeba55a5190ba577bad3f180afe043d662c8d210c6d810d8d13abfd1"
+      },
+      {
+        "path": "source/S12/FamilyTransport.lean",
+        "bytes": 4791,
+        "lines": 96,
+        "lexical_items": 1241,
+        "largest_line_bytes": 127,
+        "sha256": "f2c0f00cba16f02fc994a89554209cfa5fe2e8ece0cc7cd5469b482115db90a7"
+      },
+      {
+        "path": "source/S12/FourPointCertificate.lean",
+        "bytes": 5704,
+        "lines": 137,
+        "lexical_items": 1961,
+        "largest_line_bytes": 120,
+        "sha256": "a0c9f93591cbdc1b6036b9aa7bf96685d099b0364df44e79f173b8aa56eac921"
+      },
+      {
+        "path": "source/S12/FourPointData.lean",
+        "bytes": 172961,
+        "lines": 234,
+        "lexical_items": 98804,
+        "largest_line_bytes": 3799,
+        "sha256": "bdc5996afa2507d01e0e7ac58386c2824581fe826aba19a2b86ba442e7abd916"
+      },
+      {
+        "path": "source/S12/GeneralWall.lean",
+        "bytes": 4958,
+        "lines": 113,
+        "lexical_items": 1848,
+        "largest_line_bytes": 89,
+        "sha256": "fe809d7975dcbc51deaeac14db1089e12c58c94dc0792f5f052dc0a5115f1649"
+      },
+      {
+        "path": "source/S12/GeneralWallSegments.lean",
+        "bytes": 1783,
+        "lines": 39,
+        "lexical_items": 709,
+        "largest_line_bytes": 84,
+        "sha256": "23dbfd7ab0fed8c57bda12376878bc5468b78975c41a94205182a45cbbde1169"
+      },
+      {
+        "path": "source/S12/HullBridge.lean",
+        "bytes": 3733,
+        "lines": 84,
+        "lexical_items": 1071,
+        "largest_line_bytes": 108,
+        "sha256": "c443326b0dfd6da11463a3d8f6ebcc428251790ba5f49c29205ba47cfade20a2"
+      },
+      {
+        "path": "source/S12/HullCertificates.lean",
+        "bytes": 1298,
+        "lines": 32,
+        "lexical_items": 406,
+        "largest_line_bytes": 138,
+        "sha256": "27c6b43a73de882b7796c57396a95276c9bd90002f346bcf1448dc80e3447dde"
+      },
+      {
+        "path": "source/S12/HullData.lean",
+        "bytes": 15165,
+        "lines": 83,
+        "lexical_items": 7625,
+        "largest_line_bytes": 446,
+        "sha256": "eb65e61fe91d9d7c00aa8c4901ee332a195730813a61ea7f21b1513316ea2138"
+      },
+      {
+        "path": "source/S12/LinearCertificate.lean",
+        "bytes": 4616,
+        "lines": 108,
+        "lexical_items": 1454,
+        "largest_line_bytes": 100,
+        "sha256": "7205eea5f44b2deb332281f1359c129571a1e29614a89977f0f6e0e95de83cbb"
+      },
+      {
+        "path": "source/S12/LocalQuery.lean",
+        "bytes": 3195,
+        "lines": 67,
+        "lexical_items": 962,
+        "largest_line_bytes": 106,
+        "sha256": "56925f1b9b1f556aa3e6b8f97a090518f7173452f1e339645620fad4d32f1273"
+      },
+      {
+        "path": "source/S12/LocalQueryData.lean",
+        "bytes": 272280,
+        "lines": 1805,
+        "lexical_items": 136441,
+        "largest_line_bytes": 789,
+        "sha256": "3ccca2b4ff0eeaccea4f9755598fe1eb800fe3d3321c34a497d8120054030cf7"
+      },
+      {
+        "path": "source/S12/LocalRejection.lean",
+        "bytes": 5816,
+        "lines": 122,
+        "lexical_items": 1948,
+        "largest_line_bytes": 104,
+        "sha256": "656817b960c96243198cd74ea632be5ab33c0e78260d890cc9326f1b21af4746"
+      },
+      {
+        "path": "source/S12/MarkerAdjacency.lean",
+        "bytes": 7155,
+        "lines": 160,
+        "lexical_items": 1620,
+        "largest_line_bytes": 91,
+        "sha256": "5fad8b0d1b2e3743cdca5e7e2b14704e4dbc26df702ba27e2d5ef9d649e979c9"
+      },
+      {
+        "path": "source/S12/MarkerClassification.lean",
+        "bytes": 4726,
+        "lines": 104,
+        "lexical_items": 1221,
+        "largest_line_bytes": 98,
+        "sha256": "e202157cb61046ad692f3f83845914b1628417c6140d1900b2b530080c3caf60"
+      },
+      {
+        "path": "source/S12/MarkerCliques.lean",
+        "bytes": 10955,
+        "lines": 214,
+        "lexical_items": 5108,
+        "largest_line_bytes": 126,
+        "sha256": "316e12fe872939e0370ba6b0ed387aa616b6ab1c832e0019bcf01f5c3fec9109"
+      },
+      {
+        "path": "source/S12/MarkerCoverGeometry.lean",
+        "bytes": 4367,
+        "lines": 96,
+        "lexical_items": 1315,
+        "largest_line_bytes": 98,
+        "sha256": "a11458ac6976c1005cc6d9d6474e293bbfbccbcc9f6b5a0e13292a2428b615e9"
+      },
+      {
+        "path": "source/S12/MarkerCoverGeometryBase.lean",
+        "bytes": 4852,
+        "lines": 142,
+        "lexical_items": 1742,
+        "largest_line_bytes": 102,
+        "sha256": "403de00f55936383399e1982d37ebb2d99ee2b3d14c8321b802725e73aa3cf97"
+      },
+      {
+        "path": "source/S12/Markers.lean",
+        "bytes": 2344,
+        "lines": 37,
+        "lexical_items": 1172,
+        "largest_line_bytes": 1084,
+        "sha256": "77fb03343863564fc98fb1ee9a82d6154c89bd42bc448708b1050ff3fc960c1e"
+      },
+      {
+        "path": "source/S12/Normalization.lean",
+        "bytes": 3205,
+        "lines": 76,
+        "lexical_items": 1099,
+        "largest_line_bytes": 99,
+        "sha256": "1fdc2d9a05a6861116dd23207510763a8925a1c7e4cfae7a7df1a2026106dc05"
+      },
+      {
+        "path": "source/S12/Packing.lean",
+        "bytes": 3590,
+        "lines": 84,
+        "lexical_items": 883,
+        "largest_line_bytes": 99,
+        "sha256": "3278b8f219615ba4733b33d982ee22b8131994732e6666c394167927fc6987c1"
+      },
+      {
+        "path": "source/S12/PackingBridge.lean",
+        "bytes": 2915,
+        "lines": 68,
+        "lexical_items": 625,
+        "largest_line_bytes": 94,
+        "sha256": "e91d1c3923b0102e99dd4aed5bd79c79548b68389f785ab5aa4f13f96ec9d2cf"
+      },
+      {
+        "path": "source/S12/PackingBudget.lean",
+        "bytes": 6135,
+        "lines": 124,
+        "lexical_items": 1804,
+        "largest_line_bytes": 126,
+        "sha256": "ba27adc3ea45d3c5051cc1163ce33b44909776b9982852cbc9762153ed1c8494"
+      },
+      {
+        "path": "source/S12/PackingConstant.lean",
+        "bytes": 3158,
+        "lines": 82,
+        "lexical_items": 958,
+        "largest_line_bytes": 91,
+        "sha256": "ce5a9c103f5d26f0873da8bea28e2ca58b41311c1a33a8551dc392c4efa83cfd"
+      },
+      {
+        "path": "source/S12/Raw.lean",
+        "bytes": 2817,
+        "lines": 68,
+        "lexical_items": 700,
+        "largest_line_bytes": 102,
+        "sha256": "627081ade701dcfa4d7ec8c67552735964570f522ffa60ecd5044112addb4ebe"
+      },
+      {
+        "path": "source/S12/RawData.lean",
+        "bytes": 2317,
+        "lines": 16,
+        "lexical_items": 1034,
+        "largest_line_bytes": 545,
+        "sha256": "80bf6d2f33b7de9f5f1708fafe0a13182de0764feb7064d0a11609919708d11c"
+      },
+      {
+        "path": "source/S12/Seeds.lean",
+        "bytes": 4978,
+        "lines": 95,
+        "lexical_items": 1558,
+        "largest_line_bytes": 109,
+        "sha256": "57ac6d15b401ce05c60832bbfa63424185abfe21f07047180be320fb4a90021a"
+      },
+      {
+        "path": "source/S12/SharedCase1089.lean",
+        "bytes": 400,
+        "lines": 11,
+        "lexical_items": 67,
+        "largest_line_bytes": 114,
+        "sha256": "b584adccd63a030d29d6988bba708c44a53f706a13758afdd81705aa0fdb301c"
+      },
+      {
+        "path": "source/S12/ShortCluster.lean",
+        "bytes": 3944,
+        "lines": 91,
+        "lexical_items": 1437,
+        "largest_line_bytes": 80,
+        "sha256": "d321f4ab40cee82d261c331bd72cbc1580da6feee0591b7d8039474b3d083576"
+      },
+      {
+        "path": "source/S12/SingletonForcing.lean",
+        "bytes": 5494,
+        "lines": 105,
+        "lexical_items": 1653,
+        "largest_line_bytes": 95,
+        "sha256": "0c7d4c02d71dfea858c4139bab08662bdc1d1897a0eb262a321525babf3637b1"
+      },
+      {
+        "path": "source/S12/SingletonTriangles.lean",
+        "bytes": 49448,
+        "lines": 880,
+        "lexical_items": 16552,
+        "largest_line_bytes": 228,
+        "sha256": "e899264e7fa67e9ec0bc50eec5f83c458a1d60079f165be21a8e420dd9d257f3"
+      },
+      {
+        "path": "source/S12/SpecPacking.lean",
+        "bytes": 2190,
+        "lines": 44,
+        "lexical_items": 671,
+        "largest_line_bytes": 95,
+        "sha256": "45d58fbd03b165f8d195cac37657da5271013029f49fb2e975e51f67f2da0ed2"
+      },
+      {
+        "path": "source/S12/SquareFrame.lean",
+        "bytes": 1742,
+        "lines": 40,
+        "lexical_items": 672,
+        "largest_line_bytes": 93,
+        "sha256": "49e1855ce4de71f8a0791f6c2b57c5af88c2fa9102e5324fc67ddfd80f0341f6"
+      },
+      {
+        "path": "source/S12/Symmetry.lean",
+        "bytes": 1223,
+        "lines": 32,
+        "lexical_items": 380,
+        "largest_line_bytes": 81,
+        "sha256": "8a5651289837924c73b854dac4781dab8e0d9ceece4df3aef5b386bcfbb57806"
+      },
+      {
+        "path": "source/S12/SymmetryBase.lean",
+        "bytes": 2458,
+        "lines": 79,
+        "lexical_items": 820,
+        "largest_line_bytes": 87,
+        "sha256": "649d5ae978e0f8733ab32c512ebf081c7d5b9c577b6ad25971df959a8600fdb1"
+      },
+      {
+        "path": "source/S12/To100.lean",
+        "bytes": 865,
+        "lines": 19,
+        "lexical_items": 213,
+        "largest_line_bytes": 115,
+        "sha256": "be797fd53313ad2bdb188ccf75af4faf02b600bac1c0a6fbf7cf1ae2630c8553"
+      },
+      {
+        "path": "source/S12/To101.lean",
+        "bytes": 867,
+        "lines": 19,
+        "lexical_items": 213,
+        "largest_line_bytes": 116,
+        "sha256": "7b4e5db1d576011ac3f7e2ff86cf284df13a6bf60dbe9701e45c856419a39504"
+      },
+      {
+        "path": "source/S12/To102.lean",
+        "bytes": 1175,
+        "lines": 24,
+        "lexical_items": 298,
+        "largest_line_bytes": 118,
+        "sha256": "16191135f9f3be4599658e32da4cad44ff262d0965339f5f1025154f6f787d50"
+      },
+      {
+        "path": "source/S12/To104.lean",
+        "bytes": 867,
+        "lines": 19,
+        "lexical_items": 213,
+        "largest_line_bytes": 115,
+        "sha256": "8fa46698d56dc6f339f8ba8301240b2e9e2acd0e281509b1c652788795ec24e3"
+      },
+      {
+        "path": "source/S12/To105.lean",
+        "bytes": 879,
+        "lines": 19,
+        "lexical_items": 213,
+        "largest_line_bytes": 121,
+        "sha256": "81bea3ac4435e3cc016746e4f8c4ffb12a68a7154008c49ce55ab505c1abb646"
+      },
+      {
+        "path": "source/S12/To106.lean",
+        "bytes": 1563,
+        "lines": 32,
+        "lexical_items": 339,
+        "largest_line_bytes": 149,
+        "sha256": "3554a3e9d086d3124f3148eefa8c2b1b05a403f31bd2f6e5abb9f47d93da6527"
+      },
+      {
+        "path": "source/S12/To110.lean",
+        "bytes": 1434,
+        "lines": 30,
+        "lexical_items": 323,
+        "largest_line_bytes": 137,
+        "sha256": "b895a89d2b62d087e622527b998d0fd379306c5d0a1283936916cebb0c255f6f"
+      },
+      {
+        "path": "source/S12/To113.lean",
+        "bytes": 869,
+        "lines": 20,
+        "lexical_items": 213,
+        "largest_line_bytes": 115,
+        "sha256": "b0a8e2ac3879abcd7462e2573ce777ab7e39a434c39e303d7774fea615c27c0d"
+      },
+      {
+        "path": "source/S12/To114.lean",
+        "bytes": 869,
+        "lines": 20,
+        "lexical_items": 213,
+        "largest_line_bytes": 115,
+        "sha256": "ec69fbc0d70b1f230a33cf4d4427ff97c966c0ab6e0bc8062da1d4c864643ff3"
+      },
+      {
+        "path": "source/S12/To115.lean",
+        "bytes": 867,
+        "lines": 20,
+        "lexical_items": 213,
+        "largest_line_bytes": 114,
+        "sha256": "079ed257b17cbbbcdf72f6975cb9763e8178f8e1f6381bab6d3395911127ba6a"
+      },
+      {
+        "path": "source/S12/To116.lean",
+        "bytes": 866,
+        "lines": 21,
+        "lexical_items": 213,
+        "largest_line_bytes": 112,
+        "sha256": "87814a8593fe99319ba3f6bd69d6a5c66a1d86923a39a2e93d6371ee4f02e24a"
+      },
+      {
+        "path": "source/S12/To117.lean",
+        "bytes": 1842,
+        "lines": 40,
+        "lexical_items": 454,
+        "largest_line_bytes": 99,
+        "sha256": "00c1635e964b976b38aae7e9a9cdfd90567aa40cf5bde4e75aa9e7b5cb3ec017"
+      },
+      {
+        "path": "source/S12/To18.lean",
+        "bytes": 1267,
+        "lines": 22,
+        "lexical_items": 298,
+        "largest_line_bytes": 128,
+        "sha256": "09071f8f078675791c94ee744a6c9771f4549f2334c447312ad84c1c608770f5"
+      },
+      {
+        "path": "source/S12/To20.lean",
+        "bytes": 1267,
+        "lines": 22,
+        "lexical_items": 298,
+        "largest_line_bytes": 128,
+        "sha256": "e2e14a342be33f1e3f953cc5ca1b4270c637702ca637a248b1dfc479b87c13e3"
+      },
+      {
+        "path": "source/S12/To22.lean",
+        "bytes": 920,
+        "lines": 17,
+        "lexical_items": 213,
+        "largest_line_bytes": 127,
+        "sha256": "0a64a0cf5b592bfdf46cefc060dc93677511400050e9b65d1183b490198d577b"
+      },
+      {
+        "path": "source/S12/To23.lean",
+        "bytes": 918,
+        "lines": 17,
+        "lexical_items": 213,
+        "largest_line_bytes": 128,
+        "sha256": "dcf91cd2f5ca36ec2952c5e9f7c224e53020213b0ced4646158c6a5c8998d5f7"
+      },
+      {
+        "path": "source/S12/To24.lean",
+        "bytes": 924,
+        "lines": 17,
+        "lexical_items": 213,
+        "largest_line_bytes": 129,
+        "sha256": "64c84c605461e287f933ea11f551754a330a3983b831fdbd582bc816106291c6"
+      },
+      {
+        "path": "source/S12/To25.lean",
+        "bytes": 1290,
+        "lines": 22,
+        "lexical_items": 298,
+        "largest_line_bytes": 133,
+        "sha256": "357fd4e3a985ead8121041c598535775123531555f07276b096d624c9b774a8f"
+      },
+      {
+        "path": "source/S12/To27.lean",
+        "bytes": 1950,
+        "lines": 31,
+        "lexical_items": 452,
+        "largest_line_bytes": 179,
+        "sha256": "bcb91f565aa3f38631547154363a2efcba9a64c27233d7b012b36cfbabb7231a"
+      },
+      {
+        "path": "source/S12/To30.lean",
+        "bytes": 906,
+        "lines": 17,
+        "lexical_items": 213,
+        "largest_line_bytes": 130,
+        "sha256": "6b35d94775d41362a3b1d425ea75e9d11e1b1cac5b72187db48b972b1a76bf3e"
+      },
+      {
+        "path": "source/S12/To31.lean",
+        "bytes": 1662,
+        "lines": 27,
+        "lexical_items": 377,
+        "largest_line_bytes": 164,
+        "sha256": "d63adc76203d9964ef88d706d390c12f49591f18570475895c4e6a5eb1a1792e"
+      },
+      {
+        "path": "source/S12/To34.lean",
+        "bytes": 1056,
+        "lines": 29,
+        "lexical_items": 213,
+        "largest_line_bytes": 77,
+        "sha256": "ef336284fadffc9e5727a72c8f6942f2b9857b837787888ef18c70f6db5e9855"
+      },
+      {
+        "path": "source/S12/To35.lean",
+        "bytes": 987,
+        "lines": 17,
+        "lexical_items": 213,
+        "largest_line_bytes": 141,
+        "sha256": "73b94381147e4a7b885f5504ec8a2ff5cda838dd0cc90157876ae6063c61ef2b"
+      },
+      {
+        "path": "source/S12/To36.lean",
+        "bytes": 988,
+        "lines": 17,
+        "lexical_items": 213,
+        "largest_line_bytes": 139,
+        "sha256": "dbdeb2a59ebf2416af2157d4e83aadd1b0d0b0bd5e813f9f31240fbf247c2d42"
+      },
+      {
+        "path": "source/S12/To37.lean",
+        "bytes": 1346,
+        "lines": 22,
+        "lexical_items": 298,
+        "largest_line_bytes": 148,
+        "sha256": "3a8e0f30717de8f65f9f1f8a9b623ba6bab9b67e624f311d3842dd78d4715d10"
+      },
+      {
+        "path": "source/S12/To39.lean",
+        "bytes": 2697,
+        "lines": 42,
+        "lexical_items": 614,
+        "largest_line_bytes": 233,
+        "sha256": "22c32a09be46941916d488fbfb1ed130e0e26c8029d83340ce2343e5836636c0"
+      },
+      {
+        "path": "source/S12/To45.lean",
+        "bytes": 1969,
+        "lines": 32,
+        "lexical_items": 456,
+        "largest_line_bytes": 179,
+        "sha256": "c7f5f5a76f69b92018e57320ca66250e351ceabfb2886b32511d38f923e17827"
+      },
+      {
+        "path": "source/S12/To49.lean",
+        "bytes": 2295,
+        "lines": 37,
+        "lexical_items": 535,
+        "largest_line_bytes": 200,
+        "sha256": "dc9c77e67754693584d94306592b81332c1a5cf727e4ea67259f67d1ca449129"
+      },
+      {
+        "path": "source/S12/To54.lean",
+        "bytes": 1248,
+        "lines": 22,
+        "lexical_items": 298,
+        "largest_line_bytes": 126,
+        "sha256": "15cbd2aa4b403c39ed17a0083aab50ab8f2cd5a189ce9b7b13ebfe89c5d18c95"
+      },
+      {
+        "path": "source/S12/To56.lean",
+        "bytes": 1285,
+        "lines": 22,
+        "lexical_items": 298,
+        "largest_line_bytes": 133,
+        "sha256": "5fc3a52dac080e763da9fa7f89a6b9c7f2d59da7ad4dd1e46c5da5acc096bf26"
+      },
+      {
+        "path": "source/S12/To58.lean",
+        "bytes": 1296,
+        "lines": 22,
+        "lexical_items": 298,
+        "largest_line_bytes": 132,
+        "sha256": "b57eff94e8b9fac36538d2903f51fa046662b9f5764c84ca516d596ea0f8c9d1"
+      },
+      {
+        "path": "source/S12/To60.lean",
+        "bytes": 1272,
+        "lines": 22,
+        "lexical_items": 298,
+        "largest_line_bytes": 129,
+        "sha256": "b1c939a4e9bc085c3d3b2d5127fe5e5ab09ae982411e519dd2750686395c5647"
+      },
+      {
+        "path": "source/S12/To62.lean",
+        "bytes": 4959,
+        "lines": 77,
+        "lexical_items": 1167,
+        "largest_line_bytes": 379,
+        "sha256": "a5b94fd380b47375a23da227d17f41884e67467ee7aec6efc50bd8e7ac8b61a5"
+      },
+      {
+        "path": "source/S12/To75.lean",
+        "bytes": 927,
+        "lines": 17,
+        "lexical_items": 213,
+        "largest_line_bytes": 133,
+        "sha256": "2c1a608d9db72162389f392c65f50322a6b9a98148d99c5658e0894b6c145781"
+      },
+      {
+        "path": "source/S12/To76.lean",
+        "bytes": 1290,
+        "lines": 22,
+        "lexical_items": 298,
+        "largest_line_bytes": 130,
+        "sha256": "72c965c977fd149fdd50460f5820e31fb13ccb383f16c9d6ada0031ae33de00d"
+      },
+      {
+        "path": "source/S12/To78.lean",
+        "bytes": 1261,
+        "lines": 22,
+        "lexical_items": 298,
+        "largest_line_bytes": 128,
+        "sha256": "7ef8d25da0e1b6e73341eb93b903d0556578e9d427f9ff6fec701657905ae0f1"
+      },
+      {
+        "path": "source/S12/To80.lean",
+        "bytes": 935,
+        "lines": 17,
+        "lexical_items": 213,
+        "largest_line_bytes": 133,
+        "sha256": "1ba27e039d679ee04fef5a5b6449eb39fa44aaa0fe8fcfdcbdb1cbd43986c894"
+      },
+      {
+        "path": "source/S12/To81.lean",
+        "bytes": 1623,
+        "lines": 27,
+        "lexical_items": 377,
+        "largest_line_bytes": 155,
+        "sha256": "85028df7325b7ec8e405dcdbecdfbd47f4afc846afb68c933d687ad8d5c5c787"
+      },
+      {
+        "path": "source/S12/To84.lean",
+        "bytes": 1958,
+        "lines": 32,
+        "lexical_items": 456,
+        "largest_line_bytes": 178,
+        "sha256": "156bee1d0b0813bdee2644de09dd3573ebd70b512a7ca0b31cf05f82eb989613"
+      },
+      {
+        "path": "source/S12/To88.lean",
+        "bytes": 2301,
+        "lines": 37,
+        "lexical_items": 535,
+        "largest_line_bytes": 199,
+        "sha256": "0bf6de889ec55e33b3944d172c5cca6bbecfea9b6ca00eadce9850936757348d"
+      },
+      {
+        "path": "source/S12/To89.lean",
+        "bytes": 1626,
+        "lines": 38,
+        "lexical_items": 377,
+        "largest_line_bytes": 89,
+        "sha256": "331487c1cfb45e4c694f7c4ced24e3a7c3a6d6bb86c19d422e587f8b923daf35"
+      },
+      {
+        "path": "source/S12/To91.lean",
+        "bytes": 872,
+        "lines": 17,
+        "lexical_items": 213,
+        "largest_line_bytes": 119,
+        "sha256": "eca6be1532eaf328480bc16946d7d652e10d5a6c989a8bcaaf807481e31eee67"
+      },
+      {
+        "path": "source/S12/To92.lean",
+        "bytes": 870,
+        "lines": 17,
+        "lexical_items": 213,
+        "largest_line_bytes": 118,
+        "sha256": "f19d1acbc86ea0bc391888b44272669921274413111c9e3f4e10f38dc3b83ac3"
+      },
+      {
+        "path": "source/S12/To93.lean",
+        "bytes": 856,
+        "lines": 17,
+        "lexical_items": 213,
+        "largest_line_bytes": 114,
+        "sha256": "3f6c82d5de584afb9ac3210a8f61585ee1b6d0c47015c0f0466449711a0c3b63"
+      },
+      {
+        "path": "source/S12/To94.lean",
+        "bytes": 846,
+        "lines": 17,
+        "lexical_items": 213,
+        "largest_line_bytes": 112,
+        "sha256": "ecfcd8874cc633a5219ce1f9bb59ebf854b8faaaf65f342120bb02a151020418"
+      },
+      {
+        "path": "source/S12/To95.lean",
+        "bytes": 858,
+        "lines": 17,
+        "lexical_items": 213,
+        "largest_line_bytes": 115,
+        "sha256": "098e69a919b98b916d52b9e104a705500529acef8c096946522342ced89ac1c1"
+      },
+      {
+        "path": "source/S12/To96.lean",
+        "bytes": 858,
+        "lines": 17,
+        "lexical_items": 213,
+        "largest_line_bytes": 115,
+        "sha256": "fc23ef820de6c45b73906d1c95da307cf4a2d59b426050c997d87226fddaa2b9"
+      },
+      {
+        "path": "source/S12/To97.lean",
+        "bytes": 860,
+        "lines": 17,
+        "lexical_items": 213,
+        "largest_line_bytes": 116,
+        "sha256": "95edbf2d862f6dc28bb55412f144a0aa16997157bcd87cc99592d2ac7de1d316"
+      },
+      {
+        "path": "source/S12/To98.lean",
+        "bytes": 870,
+        "lines": 17,
+        "lexical_items": 213,
+        "largest_line_bytes": 118,
+        "sha256": "4ba257372aca132140d619ab51f43d577fa370988dec339b6072be591e421a99"
+      },
+      {
+        "path": "source/S12/To99.lean",
+        "bytes": 860,
+        "lines": 17,
+        "lexical_items": 213,
+        "largest_line_bytes": 115,
+        "sha256": "e0bcdcae80238174cb03f25beebb280435168214858d69fe33b378076ed2e871"
+      },
+      {
+        "path": "source/S12/TransformFacts.lean",
+        "bytes": 3043,
+        "lines": 68,
+        "lexical_items": 866,
+        "largest_line_bytes": 102,
+        "sha256": "63a8bd4368c46913b501175b94d2d8ddf2613f194e042b38ea40bd58db75131b"
+      },
+      {
+        "path": "source/S12/TriangleCover.lean",
+        "bytes": 4561,
+        "lines": 101,
+        "lexical_items": 1689,
+        "largest_line_bytes": 90,
+        "sha256": "591ef2530815cea9c499e0c84d0ae6dfff4254616bfac4c19355eecbaea0377a"
+      },
+      {
+        "path": "source/S12/TwoHeightWall.lean",
+        "bytes": 5081,
+        "lines": 116,
+        "lexical_items": 1802,
+        "largest_line_bytes": 81,
+        "sha256": "922d2208cc83c8b8dcb47a9a0a07679bed7e621ef89baf7c8d1d06a22bfc767f"
+      },
+      {
+        "path": "source/S12/WallBridge.lean",
+        "bytes": 4541,
+        "lines": 104,
+        "lexical_items": 1591,
+        "largest_line_bytes": 93,
+        "sha256": "45d0ba39219fc65ca32d75656667bba5f90a47d1f27b132bb4c11c0a4ca4abc8"
+      },
+      {
+        "path": "source/S12/WallCubicData.lean",
+        "bytes": 6493,
+        "lines": 146,
+        "lexical_items": 3236,
+        "largest_line_bytes": 199,
+        "sha256": "66061eb84afed7a0f962851556ca03b997e28c39e190b63bb490a1df352edcf9"
+      },
+      {
+        "path": "source/S12/WallGeometry.lean",
+        "bytes": 3953,
+        "lines": 95,
+        "lexical_items": 1351,
+        "largest_line_bytes": 93,
+        "sha256": "a803ce2d86bc423f74007e0ea036eea0deaa785facb2b25c6698160500e4558e"
+      },
+      {
+        "path": "source/S12/WallNormalBounds.lean",
+        "bytes": 3303,
+        "lines": 73,
+        "lexical_items": 1295,
+        "largest_line_bytes": 89,
+        "sha256": "378b62422c0540d8923f3c82d01b38a13ac66939276aa0de3639cf4dd9a302e6"
+      },
+      {
+        "path": "source/S12/WallRowCover.lean",
+        "bytes": 4321,
+        "lines": 105,
+        "lexical_items": 1581,
+        "largest_line_bytes": 84,
+        "sha256": "cd3fe45c437300f8d675f8b72adbf5e67c8b6b17bcff4cae41c2a0b871524961"
+      },
+      {
+        "path": "source/S12/WideWallRow.lean",
+        "bytes": 3898,
+        "lines": 91,
+        "lexical_items": 1420,
+        "largest_line_bytes": 86,
+        "sha256": "25d52c34322667f594ec173fc1a07a82fbe6a812c608996d2e6c5fe81438b70f"
+      },
+      {
+        "path": "source/S12.lean",
+        "bytes": 104,
+        "lines": 3,
+        "lexical_items": 14,
+        "largest_line_bytes": 48,
+        "sha256": "72abe2b85f0d1e291ca6742203500bae31f1d28a1b9f7100394a1af3f98c381b"
+      }
+    ]
+  },
+  "excluded_from_source_count": [
+    "pinned external Lean/Mathlib libraries",
+    "immutable duplicate vendor provenance; included if imported",
+    "old proof archives, which are NOT dependencies of these roots"
+  ],
+  "limits": {
+    "lean_lines": 300000,
+    "source_bytes": 40000000
+  },
+  "within_current_source_limits": true,
+  "full_original_proof_assembled": false,
+  "eventual_submillion_bound_established": false,
+  "note": "The seven historical exclusions and baseline replacement still need compact certificates. Their cost cannot be omitted from a final proof-size claim."
+}

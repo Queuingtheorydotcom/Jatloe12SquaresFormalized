@@ -1,0 +1,5 @@
+'S12.transport_to_representative' depends on axioms: [propext, Classical.choice, Quot.sound]
+'S12.packing_reduction_to_577_representatives' depends on axioms: [propext,
+ Classical.choice,
+ Lean.ofReduceBool,
+ Quot.sound]

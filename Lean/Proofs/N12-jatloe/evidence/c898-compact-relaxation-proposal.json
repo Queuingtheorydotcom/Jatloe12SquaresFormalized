@@ -1,0 +1,106 @@
+{
+  "scope": "all 927 retained C898 links; source proposal only, not Lean acceptance",
+  "namespace": "N12Compact.C898CompactRelaxation",
+  "production_module": "Compact.Cases.C898.CompactRelaxation",
+  "links": 927,
+  "unchanged_link_ids": true,
+  "removed_source_support_rule_records": 7086,
+  "serialized_support_lists": 0,
+  "serialized_row_coefficients": 0,
+  "source_pairs": 927,
+  "module_count": 16,
+  "lines": 4728,
+  "bytes": 112386,
+  "entries_per_module": 64,
+  "numeric_batch_size": 8,
+  "input_sha256": {
+    "witnesses": "e6296e45cd804bdb2d568bf5204e99c59fcabc8a2ddaef10d84795ef02980557",
+    "retained_map": "4ced6e68aee7ff76d228c56a942e9cc8334c902fa69abc0b051636786fb9ca16"
+  },
+  "outputs": {
+    "Data00.lean": {
+      "lines": 320,
+      "bytes": 7500,
+      "sha256": "d0e408189ddffbbc6fac15eeabf209779e8926238f6c14ff1ea0aee406fa0bba"
+    },
+    "Data01.lean": {
+      "lines": 320,
+      "bytes": 7500,
+      "sha256": "58dc679054ed5728a8dd543b26fd55b5a411cada38d3d687c835864cbf2622d1"
+    },
+    "Data02.lean": {
+      "lines": 320,
+      "bytes": 7500,
+      "sha256": "408b7d764607f8c4acda290cc54893a90a9b6eee0fc0ae575b8a678462bf92da"
+    },
+    "Data03.lean": {
+      "lines": 320,
+      "bytes": 7500,
+      "sha256": "34408232723ec527e7355fa2c638bbf49c7dcb8dfa90de8f45bdd512504b1d66"
+    },
+    "Data04.lean": {
+      "lines": 320,
+      "bytes": 7500,
+      "sha256": "66af8c2984bfb8690c49f80fa1401e767098c7efca7a619253937c8c0175792d"
+    },
+    "Data05.lean": {
+      "lines": 320,
+      "bytes": 7500,
+      "sha256": "23226db9c119777a33e3052057c6f0491fe86ab664a132d71e1b7e2b7fb46b2d"
+    },
+    "Data06.lean": {
+      "lines": 320,
+      "bytes": 7500,
+      "sha256": "0a158d89d31ebf98d1eb05647b34e5c991c14bff6f7a6489c263e8471a575abc"
+    },
+    "Data07.lean": {
+      "lines": 320,
+      "bytes": 7500,
+      "sha256": "95b64a87aa5fcdaed5da9b363cf65fc22bd2005a3a911a7bfd9279831e8f7857"
+    },
+    "Data08.lean": {
+      "lines": 320,
+      "bytes": 7500,
+      "sha256": "505f9fd4dc847e5e9781efea4b5036338d468e7cfc5bb5dd12544c281c0886c6"
+    },
+    "Data09.lean": {
+      "lines": 320,
+      "bytes": 7500,
+      "sha256": "e9340e2e210111b0c724f23de5b459ce79344d982901bb9ef2524ad1e495a1cb"
+    },
+    "Data10.lean": {
+      "lines": 320,
+      "bytes": 7500,
+      "sha256": "c262e878d2983b33f03c666eae19b00dceac0e1ceb59a0f6617c35534af49d9f"
+    },
+    "Data11.lean": {
+      "lines": 320,
+      "bytes": 7500,
+      "sha256": "b28b1d9579a96bcbe5fc9109d6c667abaa2d8b97e631a4eff7b64d66cfd82ec4"
+    },
+    "Data12.lean": {
+      "lines": 320,
+      "bytes": 7500,
+      "sha256": "b4725d8f418c4da109dc313953696b3df7b9609ad0b1d9963c7d117e203439d7"
+    },
+    "Data13.lean": {
+      "lines": 320,
+      "bytes": 7500,
+      "sha256": "97e40a8fc5521fb73c3195edd73834dfff0d9e7db93b62aa828b2054f56327cc"
+    },
+    "Data14.lean": {
+      "lines": 172,
+      "bytes": 4133,
+      "sha256": "0a46649ac582d3672be2adb49f38acc909428a2bd118b361fbd10a25623846a2"
+    },
+    "All.lean": {
+      "lines": 76,
+      "bytes": 3253,
+      "sha256": "4dea409eb30c014cd0c673cdba0fd9ee410acaaf12d1a7dcda8f441906caf8e9"
+    }
+  },
+  "link_map_sha256": "3b37c3f5b0df0cb8097d0208acdf75d636c75ca230b23461dbc8ad6eec8ddbc2",
+  "integration": "After acceptance, change RetainedRelaxation.All import and namespace to CompactRelaxation.All; links.source, links.target, link IDs and link_sound remain exact. No old IndexedRelaxation.Link.Check is assumed.",
+  "remaining_validation": "The full materializer run must succeed within its row/candidate bounds, every numeric check must pass, and original pair/chord consumers must replay. The authentic first link already passed separately.",
+  "elapsed_seconds": 0.014025041000422789
+}

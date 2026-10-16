@@ -1,0 +1,59 @@
+{
+  "scope": "Original exact auxiliary signature; ordinary Lean query checks remain pending.",
+  "catalogue_sha256": "a8917162236714146a042e3dacfcc508c41e48af867cba3a9d82ed59a9325b5d",
+  "bridge_sha256": "e2bcde65b752f8d2873cfe9de963f96c3e00730b9780f86c023a5630d4b0d952",
+  "rows": 117,
+  "required_auxiliary": {
+    "5": [
+      4,
+      16
+    ],
+    "6": [
+      7,
+      17
+    ],
+    "7": [
+      5,
+      13
+    ],
+    "8": [
+      11
+    ],
+    "9": [
+      6
+    ],
+    "10": [
+      19
+    ],
+    "11": [
+      3,
+      14
+    ]
+  },
+  "excluded_auxiliary": {
+    "5": [
+      18
+    ],
+    "8": [
+      0
+    ],
+    "9": [
+      12
+    ],
+    "11": [
+      17
+    ]
+  },
+  "top_alternative": {
+    "owner": 10,
+    "any_of": [
+      8,
+      18
+    ]
+  },
+  "matched_ids": [
+    3,
+    4,
+    6
+  ]
+}

@@ -1,0 +1,1 @@
+'S12.CoreProof.sound' depends on axioms: [propext, Classical.choice, Lean.ofReduceBool, Quot.sound]

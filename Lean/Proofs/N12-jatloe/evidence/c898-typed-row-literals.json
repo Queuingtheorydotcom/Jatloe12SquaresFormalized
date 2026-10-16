@@ -1,0 +1,25 @@
+{
+  "applied": true,
+  "kernel_check_status": "pending",
+  "transformation": "fully typed transparent constructor terms via RowSyntax",
+  "tables": [
+    {
+      "path": "Compact/Cases/C898/SharedRows.lean",
+      "rows": 26026,
+      "before_sha256": "31b6c51f3c2118cb36269a999842786a6b352b2b777cd6090b710223c7c9d929",
+      "after_sha256": "b653d218bfc5e51b041a469daaf1566cfb6a760806431ec38827ec1b032600e6",
+      "bytes_before": 1967861,
+      "bytes_after": 1707670,
+      "all_literal_fields_and_order_identical": true
+    },
+    {
+      "path": "Compact/Cases/C898/Initial/Rows.lean",
+      "rows": 14281,
+      "before_sha256": "46a78730f071551a3cb2ddcd618918dc4c32bb43e94f2f4a43cb665f2548b0c6",
+      "after_sha256": "1b1cf57375834359da3967bcfdd6bec07df5d003db323958c12e41882adfff92",
+      "bytes_before": 1200992,
+      "bytes_after": 1058222,
+      "all_literal_fields_and_order_identical": true
+    }
+  ]
+}

@@ -1,0 +1,40 @@
+{
+  "scope": "source provenance; parent controls serial Lean acceptance",
+  "commit": "c5c6144349a141e56ac43c81ed732f731c591eac",
+  "files": [
+    {
+      "path": "Compact/Geometry/ScalarSATIntervals.lean",
+      "bytes": 4153,
+      "lines": 82,
+      "sha256": "e74847b6eea0903d0c16fee57ba94291f0d6e2f8d68523d9b0a0c27a1eb7a9b9",
+      "upstream": "Lean/Squares/Separation/Intervals.lean",
+      "upstreamGitBlob": "2cada9fb660c1e88e6a45a7ddc5fd550b38af2e4",
+      "adaptation": "narrow imports, namespace, provenance comment only"
+    },
+    {
+      "path": "Compact/Geometry/ScalarSATPositive.lean",
+      "bytes": 3927,
+      "lines": 84,
+      "sha256": "966b4ac73e76e357e64118cd3f31e89900655487d4ccc4c85a127c98998f7fdc",
+      "upstream": "Lean/Squares/Separation/Positive.lean",
+      "upstreamGitBlob": "33c8d03e41d2578647bae524b51d197f771b61bf",
+      "adaptation": "narrow imports, namespace, provenance comment only"
+    },
+    {
+      "path": "Compact/Geometry/ScalarSATSigned.lean",
+      "bytes": 2966,
+      "lines": 70,
+      "sha256": "7e330ca2ef5ab38b3bab654fe8a5bb4670dbe6d0a326aa1a2add793dbfc1276c",
+      "upstream": "Lean/Squares/Separation/Signed.lean",
+      "upstreamGitBlob": "bccb40b81cb68407c3bf30cdaaae0465690bd88d",
+      "adaptation": "narrow imports, namespace, provenance comment only"
+    },
+    {
+      "path": "Compact/Bridge/CongruentSAT.lean",
+      "bytes": 5592,
+      "lines": 140,
+      "sha256": "0fdf184af39f3e45dce0aaa3a609525a8b929e90e7926273958cab6c4ca81efd",
+      "adaptation": "new direct geometric bridge to original OpenSquare"
+    }
+  ]
+}

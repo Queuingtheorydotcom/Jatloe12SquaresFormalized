@@ -1,0 +1,9 @@
+{
+  "scope": "Only close the anonymous noncomputable section before the existing namespace end; declarations unchanged.",
+  "source": "Compact/Cases/C898/FusedContextPilot.lean",
+  "old_sha256": "9553aad629473a31af1cecba0857ee66fecaa2b40e40cac1da4de854a5f1ad59",
+  "new_sha256": "a70bc3ae80bcfeac879fa7d0c21d374efc13d3684619868e6ebf784ffeb66ff4",
+  "replayed": false,
+  "prior_log_sha256": "3fced86c97489e4b2084cd1c4d564fb90a673e6803a37922e1185fe3c0ef26ab",
+  "prior_log_scope": "Both authentic data checks and both numeric identities reported only propext; whole module failed at namespace closing."
+}

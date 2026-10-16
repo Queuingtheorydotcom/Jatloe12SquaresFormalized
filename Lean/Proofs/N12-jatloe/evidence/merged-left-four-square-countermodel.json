@@ -1,0 +1,160 @@
+{
+  "scope": "Exact rational local four-square countermodel; not a twelve-square packing and not Lean acceptance.",
+  "side": "1001/1000",
+  "squares": {
+    "A": {
+      "frame": [
+        "572/653",
+        "315/653",
+        "1120347/653000",
+        "1708623/6530000"
+      ],
+      "unit": true,
+      "contained": true,
+      "markers": [
+        8,
+        11
+      ],
+      "auxiliary": [
+        4,
+        13
+      ],
+      "center": false
+    },
+    "L": {
+      "frame": [
+        "1",
+        "0",
+        "0",
+        "499/250"
+      ],
+      "unit": true,
+      "contained": true,
+      "markers": [
+        12
+      ],
+      "auxiliary": [
+        1,
+        11
+      ],
+      "center": false
+    },
+    "E": {
+      "frame": [
+        "1",
+        "0",
+        "0",
+        "1499/500"
+      ],
+      "unit": true,
+      "contained": true,
+      "markers": [
+        6,
+        7
+      ],
+      "auxiliary": [],
+      "center": false
+    },
+    "T": {
+      "frame": [
+        "1",
+        "0",
+        "6/5",
+        "29/10"
+      ],
+      "unit": true,
+      "contained": true,
+      "markers": [
+        15
+      ],
+      "auxiliary": [
+        3,
+        14
+      ],
+      "center": false
+    }
+  },
+  "separators": {
+    "AL": [
+      {
+        "axis_owner": "A",
+        "axis": "V",
+        "direction": "A-before-L",
+        "gap": "18817/6530000"
+      }
+    ],
+    "AE": [
+      {
+        "axis_owner": "A",
+        "axis": "V",
+        "direction": "A-before-E",
+        "gap": "5750257/6530000"
+      },
+      {
+        "axis_owner": "E",
+        "axis": "V",
+        "direction": "A-before-E",
+        "gap": "154963394/266505625"
+      }
+    ],
+    "AT": [
+      {
+        "axis_owner": "A",
+        "axis": "V",
+        "direction": "A-before-T",
+        "gap": "1409697/6530000"
+      },
+      {
+        "axis_owner": "T",
+        "axis": "V",
+        "direction": "A-before-T",
+        "gap": "515383371/1066022500"
+      }
+    ],
+    "LE": [
+      {
+        "axis_owner": "L",
+        "axis": "V",
+        "direction": "L-before-E",
+        "gap": "1/1000"
+      },
+      {
+        "axis_owner": "E",
+        "axis": "V",
+        "direction": "L-before-E",
+        "gap": "1/1000"
+      }
+    ],
+    "LT": [
+      {
+        "axis_owner": "L",
+        "axis": "U",
+        "direction": "L-before-T",
+        "gap": "199/1000"
+      },
+      {
+        "axis_owner": "T",
+        "axis": "U",
+        "direction": "L-before-T",
+        "gap": "199/1000"
+      }
+    ],
+    "ET": [
+      {
+        "axis_owner": "E",
+        "axis": "U",
+        "direction": "E-before-T",
+        "gap": "199/1000"
+      },
+      {
+        "axis_owner": "T",
+        "axis": "U",
+        "direction": "E-before-T",
+        "gap": "199/1000"
+      }
+    ]
+  },
+  "marker_source_sha256": "77fb03343863564fc98fb1ee9a82d6154c89bd42bc448708b1050ff3fc960c1e",
+  "auxiliary_source_sha256": "6705c4aec708f3e5dc9ea16a10efd8dcb4c475125b5b6c92752f215a039cc4f2",
+  "full_local_claim_refuted": true
+}

@@ -1,0 +1,98 @@
+{
+  "original_commit": "46e0067e3aa72d1001a1bf2b95c8f7e4575c368a",
+  "original_path": "source/S12/DomainSpecData.lean",
+  "original_sha256": "56ec0a294b96cd62cbf44b5030f9a9bff7926204d22e236f23a02afc14c7200d",
+  "inverse_sha256": "56ec0a294b96cd62cbf44b5030f9a9bff7926204d22e236f23a02afc14c7200d",
+  "inverse_matches_original": true,
+  "wrapper_sha256": "516cde96edcf23c0ec82e6a4b583d83c8c911449922d81aa69b7bbad223f645b",
+  "helper_modules": [
+    {
+      "path": "source/S12/DomainSpecDataChunks/Chunk00.lean",
+      "first_declaration": "singleSpec0",
+      "last_declaration": "singleSpec15",
+      "definition_count": 16,
+      "native_check_count": 16,
+      "earlier_helper_imports": [],
+      "sha256": "8585e837c0870e6723d268d5015eecafbcf1e0ee1945f64607648b0d0ab2a6d8"
+    },
+    {
+      "path": "source/S12/DomainSpecDataChunks/Chunk01.lean",
+      "first_declaration": "singleSpec16",
+      "last_declaration": "singleSpec31",
+      "definition_count": 16,
+      "native_check_count": 16,
+      "earlier_helper_imports": [],
+      "sha256": "49820c20a491940aa5be840461662cadaf9f0f3abc5ef07964a9bea732b7ca77"
+    },
+    {
+      "path": "source/S12/DomainSpecDataChunks/Chunk02.lean",
+      "first_declaration": "singleSpec32",
+      "last_declaration": "singleSpec47",
+      "definition_count": 16,
+      "native_check_count": 16,
+      "earlier_helper_imports": [],
+      "sha256": "8f3af67e823c3e3dd202b984fd16bc0a7baa6232af17bf3d273848516b1a5fd9"
+    },
+    {
+      "path": "source/S12/DomainSpecDataChunks/Chunk03.lean",
+      "first_declaration": "singleSpec48",
+      "last_declaration": "singleSpec63",
+      "definition_count": 16,
+      "native_check_count": 16,
+      "earlier_helper_imports": [],
+      "sha256": "7d74c4a1ad8939b2ebaee980b33d7876b31d537617e1628c8b9244dd0383e017"
+    },
+    {
+      "path": "source/S12/DomainSpecDataChunks/Chunk04.lean",
+      "first_declaration": "singleSpec64",
+      "last_declaration": "singleSpec79",
+      "definition_count": 16,
+      "native_check_count": 16,
+      "earlier_helper_imports": [],
+      "sha256": "0f68c2990e60b624d8e9896bc9569bfabaf247bccd6cec3f644456dc2a43a45a"
+    },
+    {
+      "path": "source/S12/DomainSpecDataChunks/Chunk05.lean",
+      "first_declaration": "singleSpec80",
+      "last_declaration": "singleSpec95",
+      "definition_count": 16,
+      "native_check_count": 16,
+      "earlier_helper_imports": [],
+      "sha256": "9d69031d0a30da26fe38b0495692d7cb8fbcacd6cde71898890d6b9502191cd4"
+    },
+    {
+      "path": "source/S12/DomainSpecDataChunks/Chunk06.lean",
+      "first_declaration": "singleSpec96",
+      "last_declaration": "combinedSpec8",
+      "definition_count": 16,
+      "native_check_count": 16,
+      "earlier_helper_imports": [
+        0,
+        1
+      ],
+      "sha256": "97aa9342b4034843f17eb69f98847efa9c111640d6be17fa413d46714fcd76d6"
+    },
+    {
+      "path": "source/S12/DomainSpecDataChunks/Chunk07.lean",
+      "first_declaration": "combinedSpec9",
+      "last_declaration": "combinedSpec24",
+      "definition_count": 16,
+      "native_check_count": 16,
+      "earlier_helper_imports": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "sha256": "4e0cef847361948dff57d1321f653acb4df63a758b270670fcd4fb526e24976a"
+    }
+  ],
+  "preserved_definitions": 128,
+  "preserved_theorems": 128,
+  "preserved_native_sites": 128,
+  "additional_native_sites": 0,
+  "added_lean_modules": 8,
+  "public_declaration_bodies_byte_identical": true,
+  "lean_replay_performed_by_this_script": false
+}

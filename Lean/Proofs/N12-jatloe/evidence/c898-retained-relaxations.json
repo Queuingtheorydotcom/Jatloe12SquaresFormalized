@@ -1,0 +1,380 @@
+{
+  "scope": "retained927 pair/chord links; source assembled, no Lean acceptance",
+  "removed_incoming_links": 1121,
+  "retained_links": 927,
+  "support_rules": 7086,
+  "removed_support_rules": 8418,
+  "support_batch_size": 8,
+  "namespace": "N12Compact.C898RetainedRelaxation",
+  "rule_chunk_size": 512,
+  "link_chunk_size": 128,
+  "input_sha256": {
+    "evidence/c898-relaxation-two-index-witnesses.json": "e6296e45cd804bdb2d568bf5204e99c59fcabc8a2ddaef10d84795ef02980557",
+    "evidence/c898-relaxation-link-map.json": "4c00f7f0919d41a50b7ff12da287111ea72edf48db63cec37d301755d4b59a4f"
+  },
+  "chord_callers": [
+    {
+      "step": 9,
+      "original": "Compact/Cases/C898/ChordStep9.lean",
+      "original_sha256": "a1f55f80c678778552f2dddd70f82d3a9238e5383289d43ce7ad88ffec109401",
+      "output": "Compact/Cases/C898/ChordStep9Retained.lean",
+      "old_ids": [
+        1864,
+        1865,
+        1866,
+        1867,
+        1868,
+        1869,
+        1870,
+        1871,
+        1872,
+        1873,
+        1874,
+        1875,
+        1876,
+        1877,
+        1878,
+        1879,
+        1880,
+        1881,
+        1882,
+        1883,
+        1884,
+        1885,
+        1886,
+        1887,
+        1888,
+        1889,
+        1890,
+        1891,
+        1892,
+        1893,
+        1894,
+        1895,
+        1896,
+        1897,
+        1898,
+        1899,
+        1900,
+        1901,
+        1902,
+        1903,
+        1904,
+        1905,
+        1906,
+        1907,
+        1908,
+        1909,
+        1910,
+        1911,
+        1912,
+        1913,
+        1914,
+        1915
+      ],
+      "new_ids": [
+        743,
+        744,
+        745,
+        746,
+        747,
+        748,
+        749,
+        750,
+        751,
+        752,
+        753,
+        754,
+        755,
+        756,
+        757,
+        758,
+        759,
+        760,
+        761,
+        762,
+        763,
+        764,
+        765,
+        766,
+        767,
+        768,
+        769,
+        770,
+        771,
+        772,
+        773,
+        774,
+        775,
+        776,
+        777,
+        778,
+        779,
+        780,
+        781,
+        782,
+        783,
+        784,
+        785,
+        786,
+        787,
+        788,
+        789,
+        790,
+        791,
+        792,
+        793,
+        794
+      ],
+      "changes": "only relaxation import/namespace and bijective link-ID replacement; all geometry and theorem declarations preserved"
+    },
+    {
+      "step": 10,
+      "original": "Compact/Cases/C898/ChordStep10.lean",
+      "original_sha256": "fbbd169dcc7e7ac45c36348f7ed596b0a4823b830417fe7d2024a6a70644df5a",
+      "output": "Compact/Cases/C898/ChordStep10Retained.lean",
+      "old_ids": [
+        1916,
+        1917,
+        1918,
+        1919,
+        1920,
+        1921,
+        1922,
+        1923,
+        1924,
+        1925,
+        1926,
+        1927,
+        1928,
+        1929,
+        1930,
+        1931,
+        1932,
+        1933,
+        1934,
+        1935,
+        1936,
+        1937,
+        1938,
+        1939,
+        1940,
+        1941,
+        1942,
+        1943,
+        1944,
+        1945,
+        1946,
+        1947,
+        1948,
+        1949,
+        1950,
+        1951,
+        1952,
+        1953,
+        1954,
+        1955,
+        1956,
+        1957,
+        1958,
+        1959,
+        1960,
+        1961,
+        1962,
+        1963,
+        1964
+      ],
+      "new_ids": [
+        795,
+        796,
+        797,
+        798,
+        799,
+        800,
+        801,
+        802,
+        803,
+        804,
+        805,
+        806,
+        807,
+        808,
+        809,
+        810,
+        811,
+        812,
+        813,
+        814,
+        815,
+        816,
+        817,
+        818,
+        819,
+        820,
+        821,
+        822,
+        823,
+        824,
+        825,
+        826,
+        827,
+        828,
+        829,
+        830,
+        831,
+        832,
+        833,
+        834,
+        835,
+        836,
+        837,
+        838,
+        839,
+        840,
+        841,
+        842,
+        843
+      ],
+      "changes": "only relaxation import/namespace and bijective link-ID replacement; all geometry and theorem declarations preserved"
+    }
+  ],
+  "outputs": {
+    "Compact/Cases/C898/RetainedRelaxation/Supports00.lean": {
+      "bytes": 20632,
+      "lines": 797,
+      "sha256": "22a1d62e34e194ab0cae3b4fc7da8591c134583dbfb37ed4d43fa11da9e6903c"
+    },
+    "Compact/Cases/C898/RetainedRelaxation/Supports01.lean": {
+      "bytes": 20632,
+      "lines": 797,
+      "sha256": "d3d0e4114d33c9f5670d762e048c4bb9daa4759b8d93b039768a3148c0cfa357"
+    },
+    "Compact/Cases/C898/RetainedRelaxation/Supports02.lean": {
+      "bytes": 20632,
+      "lines": 797,
+      "sha256": "14ff8b1031202566374800d958851ef71d1dfccedcdb1d7cc40a9b3b6ec9fc6d"
+    },
+    "Compact/Cases/C898/RetainedRelaxation/Supports03.lean": {
+      "bytes": 20632,
+      "lines": 797,
+      "sha256": "cd17730b3246933c8f4cf03a30f62d4e616b218f66f08c5a9bfb52e8fd23bbb9"
+    },
+    "Compact/Cases/C898/RetainedRelaxation/Supports04.lean": {
+      "bytes": 20632,
+      "lines": 797,
+      "sha256": "6e7bb5cee2fca0d5a30b26aeab34e601743cdbe52228300069d3a1148cf1a806"
+    },
+    "Compact/Cases/C898/RetainedRelaxation/Supports05.lean": {
+      "bytes": 20632,
+      "lines": 797,
+      "sha256": "1c05c29f17f7d12a9eba94cdd3d4f28270abc7232acf188d1a09f247d9459712"
+    },
+    "Compact/Cases/C898/RetainedRelaxation/Supports06.lean": {
+      "bytes": 20632,
+      "lines": 797,
+      "sha256": "d3dd86f5079daca8e0cd6251edffd5114e735b26e8463c271e4792911b60c706"
+    },
+    "Compact/Cases/C898/RetainedRelaxation/Supports07.lean": {
+      "bytes": 20632,
+      "lines": 797,
+      "sha256": "60ecf15010fc46c31a3a907d574ead3269d4772c36aed1eebfcc9d7ef41cb912"
+    },
+    "Compact/Cases/C898/RetainedRelaxation/Supports08.lean": {
+      "bytes": 20632,
+      "lines": 797,
+      "sha256": "af0d6b3b3442ab36c5a78463420aed9097bfd14bbb74c4c8a982fdf6d568111e"
+    },
+    "Compact/Cases/C898/RetainedRelaxation/Supports09.lean": {
+      "bytes": 20632,
+      "lines": 797,
+      "sha256": "ddadc49c91588e90839273f5efb930131125227953da6915808e32e1a1e61e4e"
+    },
+    "Compact/Cases/C898/RetainedRelaxation/Supports10.lean": {
+      "bytes": 20632,
+      "lines": 797,
+      "sha256": "c2b9c9be05c6f893f418fd17cc09f9217073b1211c8f81ebca36c0fd0f8b4572"
+    },
+    "Compact/Cases/C898/RetainedRelaxation/Supports11.lean": {
+      "bytes": 20632,
+      "lines": 797,
+      "sha256": "4398d6dded8fb689e5586062f754264d40fb5a2cd92067be57f4ad288855f03d"
+    },
+    "Compact/Cases/C898/RetainedRelaxation/Supports12.lean": {
+      "bytes": 20632,
+      "lines": 797,
+      "sha256": "288347120689baa2f15d8332506e6a7aa2f5b8b5f347310b8dc66bfb5b698fb7"
+    },
+    "Compact/Cases/C898/RetainedRelaxation/Supports13.lean": {
+      "bytes": 17478,
+      "lines": 675,
+      "sha256": "11c41652f9eb5439c0f135bdc416681e347635e37d5ae7299ee40fa75297d551"
+    },
+    "Compact/Cases/C898/RetainedRelaxation/Rules.lean": {
+      "bytes": 2686,
+      "lines": 60,
+      "sha256": "f1f6841d92a7368c630e07a20b76217aefb49e56261c46c4f0a8f96e2c24c687"
+    },
+    "Compact/Cases/C898/RetainedRelaxation/Links00.lean": {
+      "bytes": 9159,
+      "lines": 221,
+      "sha256": "9e50a5ecb591536027aef0a293fd4612328e2e116512f9a18f2e6efee1779167"
+    },
+    "Compact/Cases/C898/RetainedRelaxation/Links01.lean": {
+      "bytes": 10078,
+      "lines": 221,
+      "sha256": "511790e87b9f090073b4e6ab150484fcf4e8459dcc4533fc9773bd8003a616e2"
+    },
+    "Compact/Cases/C898/RetainedRelaxation/Links02.lean": {
+      "bytes": 10930,
+      "lines": 221,
+      "sha256": "d6f6fdeaabb029a25641450bf4dca352ed838ec68982156cb05b7bc1b56ba10d"
+    },
+    "Compact/Cases/C898/RetainedRelaxation/Links03.lean": {
+      "bytes": 11782,
+      "lines": 221,
+      "sha256": "2b7c47aebf54b4849daea88a345f03d2bdcea6592eb6d6805b048cd5b55f0c33"
+    },
+    "Compact/Cases/C898/RetainedRelaxation/Links04.lean": {
+      "bytes": 11392,
+      "lines": 221,
+      "sha256": "7cf06ef8768f35ff74ad0e08637e654d4c21e9bdfeed814316aec3ef2b555a5f"
+    },
+    "Compact/Cases/C898/RetainedRelaxation/Links05.lean": {
+      "bytes": 10678,
+      "lines": 221,
+      "sha256": "fba3cf60e205572f7c4ab2fe4a51f974bf40dccf3b0df22401b11d64c9e8c72b"
+    },
+    "Compact/Cases/C898/RetainedRelaxation/Links06.lean": {
+      "bytes": 11434,
+      "lines": 221,
+      "sha256": "eeb2cd7ba1bbbb1f65ea855cc23a37a6b3ce89232909e7abd82367da45b09be6"
+    },
+    "Compact/Cases/C898/RetainedRelaxation/Links07.lean": {
+      "bytes": 3380,
+      "lines": 76,
+      "sha256": "0f13ccc7f21be4b58a9fc67a3d95b0204d42587e390873c27ec255f2abc43e14"
+    },
+    "Compact/Cases/C898/RetainedRelaxation/Links.lean": {
+      "bytes": 1647,
+      "lines": 42,
+      "sha256": "2493a4013331f16313569e3e0a16c56c1b7aca8f5210e76f60c4e5023ea09ee2"
+    },
+    "Compact/Cases/C898/RetainedRelaxation/All.lean": {
+      "bytes": 74596,
+      "lines": 947,
+      "sha256": "25d292f5bf108121469c03afd17217c2b62704cefe24307808080480c149f976"
+    },
+    "Compact/Cases/C898/ChordStep9Retained.lean": {
+      "bytes": 13730,
+      "lines": 303,
+      "sha256": "ec99fd409a40804a56289f6c216c5c057fc3a5e022cf16da6449efba1977aafc"
+    },
+    "Compact/Cases/C898/ChordStep10Retained.lean": {
+      "bytes": 11645,
+      "lines": 248,
+      "sha256": "2b1d1b58b1048e951eddd9f79be68780fc63b524bda71f27c03a96f8c4e3b7e8"
+    }
+  },
+  "elapsed_seconds": 0.03059137500167708,
+  "integration": "all13 cached pair steps consume the retained map; final mixed assembly must import ChordStep9Retained/10Retained instead of old chord callers; old incoming route stays inactive provenance"
+}

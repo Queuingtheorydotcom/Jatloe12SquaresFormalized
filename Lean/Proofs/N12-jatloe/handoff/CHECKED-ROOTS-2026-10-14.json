@@ -1,0 +1,279 @@
+{
+  "kind": "historical_focused_checks",
+  "global_optimality_proved": false,
+  "fresh_end_to_end_replay": false,
+  "authenticated_cached_dependencies_were_used": true,
+  "objects_and_machine_logs_excluded_from_git_push": true,
+  "records": [
+    {
+      "module": "Compact.Completion.CommonCases.C48Rows",
+      "historical_record": {
+        "module": "Compact.Completion.CommonCases.C48Rows",
+        "source_sha256": "54893f59d37c6cea36698937f8cd77202775c1a7f3e744a3621fac98b6212d50",
+        "elapsed_seconds": 15.573,
+        "returncode": 0,
+        "lean_returncode": 0,
+        "rejected_admission": false,
+        "log_sha256": "91047be4d7977d4d0e7e1df8a90cb556b81d4985e449a36e8cb20958ad2d2244"
+      },
+      "current_source_sha256": "54893f59d37c6cea36698937f8cd77202775c1a7f3e744a3621fac98b6212d50",
+      "current_source_matches_record": true,
+      "dependency_graph_not_revalidated_for_this_packaging": true
+    },
+    {
+      "module": "Compact.Completion.CommonCases.C702",
+      "historical_record": {
+        "module": "Compact.Completion.CommonCases.C702",
+        "source_sha256": "d010b32f5d4587925a2c84fde1f38de92f09f7131ea3284ad50282ea6ac02dac",
+        "elapsed_seconds": 31.194,
+        "returncode": 0,
+        "lean_returncode": 0,
+        "rejected_admission": false,
+        "log_sha256": "ac8b0e433ed8738dfea9d11f5a986193aaac791edd3c5bde34d94ef30853f674"
+      },
+      "current_source_sha256": "d010b32f5d4587925a2c84fde1f38de92f09f7131ea3284ad50282ea6ac02dac",
+      "current_source_matches_record": true,
+      "dependency_graph_not_revalidated_for_this_packaging": true
+    },
+    {
+      "module": "Compact.Completion.CommonCases.C888C889",
+      "historical_record": {
+        "module": "Compact.Completion.CommonCases.C888C889",
+        "source_sha256": "a7e47a73a95ec0f3dd9d9a1d04b5d2320616f1a9fb5741f4b136d77eb250e046",
+        "elapsed_seconds": 5.661,
+        "returncode": 0,
+        "lean_returncode": 0,
+        "rejected_admission": false,
+        "log_sha256": "895b03c1f986461e16515c0f69757ee6c63438f03adf8a7acf3ac036623aa73f"
+      },
+      "current_source_sha256": "a7e47a73a95ec0f3dd9d9a1d04b5d2320616f1a9fb5741f4b136d77eb250e046",
+      "current_source_matches_record": true,
+      "dependency_graph_not_revalidated_for_this_packaging": true
+    },
+    {
+      "module": "Compact.Completion.CommonCases.C893",
+      "historical_record": {
+        "module": "Compact.Completion.CommonCases.C893",
+        "source_sha256": "6e34fa72d65fd041c73ebb949fe75682e365ca28529637a892e8aa8c9effe9f1",
+        "elapsed_seconds": 7.168,
+        "returncode": 0,
+        "lean_returncode": 0,
+        "rejected_admission": false,
+        "log_sha256": "b336164506f8c60a5a171c116b7cc9d75b9dcff62b2c5c9480cf98d80386d4e1"
+      },
+      "current_source_sha256": "6e34fa72d65fd041c73ebb949fe75682e365ca28529637a892e8aa8c9effe9f1",
+      "current_source_matches_record": true,
+      "dependency_graph_not_revalidated_for_this_packaging": true
+    },
+    {
+      "module": "Compact.Completion.CommonCases.C982",
+      "historical_record": {
+        "module": "Compact.Completion.CommonCases.C982",
+        "source_sha256": "09e10963c29c317ba2c0cb19cbbeb49069aac0faf458569e821017249e36fb32",
+        "elapsed_seconds": 13.923,
+        "returncode": 0,
+        "lean_returncode": 0,
+        "rejected_admission": false,
+        "log_sha256": "e164afdbf12fce9cbc0eb6a1dba61d38612c1e60bcb72d72c0f6943204e01ced"
+      },
+      "current_source_sha256": "09e10963c29c317ba2c0cb19cbbeb49069aac0faf458569e821017249e36fb32",
+      "current_source_matches_record": true,
+      "dependency_graph_not_revalidated_for_this_packaging": true
+    },
+    {
+      "module": "Compact.Completion.CommonCases.C1072",
+      "historical_record": {
+        "module": "Compact.Completion.CommonCases.C1072",
+        "source_sha256": "fd8838394f0300d0cfb5be25359d4f589aa0a875337fd600534822bf05dd3d47",
+        "elapsed_seconds": 7.299,
+        "returncode": 0,
+        "lean_returncode": 0,
+        "rejected_admission": false,
+        "log_sha256": "b1b852800ffd94ecd3240a7b046b0df6ab41c3fc0de5c1da285cd8cc5b17ea07"
+      },
+      "current_source_sha256": "fd8838394f0300d0cfb5be25359d4f589aa0a875337fd600534822bf05dd3d47",
+      "current_source_matches_record": true,
+      "dependency_graph_not_revalidated_for_this_packaging": true
+    },
+    {
+      "module": "Compact.Completion.CommonCases.C1084",
+      "historical_record": {
+        "module": "Compact.Completion.CommonCases.C1084",
+        "source_sha256": "0bbbebcad907c912f21e9a14b66966c5b1a50f44ad53811b899261f0e114be91",
+        "elapsed_seconds": 7.791,
+        "returncode": 0,
+        "lean_returncode": 0,
+        "rejected_admission": false,
+        "log_sha256": "b1fbde2866c9945c5201a81aabe67a383b1b8ba3bfdc1c1c7751ff93165f13dc"
+      },
+      "current_source_sha256": "0bbbebcad907c912f21e9a14b66966c5b1a50f44ad53811b899261f0e114be91",
+      "current_source_matches_record": true,
+      "dependency_graph_not_revalidated_for_this_packaging": true
+    },
+    {
+      "module": "Compact.Completion.FiniteCases.C997",
+      "historical_record": {
+        "module": "Compact.Completion.FiniteCases.C997",
+        "source_sha256": "b1e755347ebed509bbbb73716a0e14cc1c7f2e99ea6e5c789d641436a7fa3bf8",
+        "elapsed_seconds": 11.614,
+        "returncode": 0,
+        "lean_returncode": 0,
+        "rejected_admission": false,
+        "log_sha256": "053c84228b666b7f28d1cf88bf526c87d714a48cef446dfa21afedf23cccb626"
+      },
+      "current_source_sha256": "b1e755347ebed509bbbb73716a0e14cc1c7f2e99ea6e5c789d641436a7fa3bf8",
+      "current_source_matches_record": true,
+      "dependency_graph_not_revalidated_for_this_packaging": true
+    },
+    {
+      "module": "Compact.Completion.OtherCases.C715.WholeCase",
+      "historical_record": {
+        "module": "Compact.Completion.OtherCases.C715.WholeCase",
+        "source_sha256": "10f23f03b12dfaef77944d4d3a9f238601349b1e704f0440de60e0eaaa41927f",
+        "elapsed_seconds": 46.414,
+        "returncode": 0,
+        "lean_returncode": 0,
+        "rejected_admission": false,
+        "log_sha256": "92a21472bd47b0d2503dabd8a4ee951682c7fdc00602800127496f035b0e1fc1"
+      },
+      "current_source_sha256": "10f23f03b12dfaef77944d4d3a9f238601349b1e704f0440de60e0eaaa41927f",
+      "current_source_matches_record": true,
+      "dependency_graph_not_revalidated_for_this_packaging": true
+    },
+    {
+      "module": "Compact.Assembly.NewCases",
+      "historical_record": {
+        "module": "Compact.Assembly.NewCases",
+        "source_sha256": "0dc74b7406a7f29244942e2cf95ed6b7818298b3cc6be2cfe9286144f0056ad4",
+        "elapsed_seconds": 21.837,
+        "returncode": 0,
+        "lean_returncode": 0,
+        "rejected_admission": false,
+        "log_sha256": "19006e2f87873f5c2509d1bbe726c9bc9b97dee29de8bfcd6a4ce34fa1be4c12"
+      },
+      "current_source_sha256": "303b9807911bb3cd85fc3ae2bd9191e16fc373302ecd84fc2652bc90ecc34a36",
+      "current_source_matches_record": false,
+      "dependency_graph_not_revalidated_for_this_packaging": true
+    },
+    {
+      "module": "Compact.Assembly.C981Progress",
+      "historical_record": {
+        "module": "Compact.Assembly.C981Progress",
+        "source_sha256": "9ce5071728446876aaef4cff3bd6eff871512fe78b3dcf4bd3310c5a8b39e307",
+        "elapsed_seconds": 1.447,
+        "returncode": 0,
+        "lean_returncode": 0,
+        "rejected_admission": false,
+        "log_sha256": "ee9145e863d56101c42b3faf5c8ecebcfc07cc45cd07c87ad9407b3a97cd5962"
+      },
+      "current_source_sha256": "9ce5071728446876aaef4cff3bd6eff871512fe78b3dcf4bd3310c5a8b39e307",
+      "current_source_matches_record": true,
+      "dependency_graph_not_revalidated_for_this_packaging": true
+    },
+    {
+      "module": "Compact.Completion.C1092.OppositePair",
+      "historical_record": {
+        "module": "Compact.Completion.C1092.OppositePair",
+        "source_sha256": "1b6c7efadd8bca4b7fa6f03ea1062611e2dc0138bc8d5aa74fe2f925a898cace",
+        "elapsed_seconds": 18.018,
+        "returncode": 0,
+        "lean_returncode": 0,
+        "rejected_admission": false,
+        "log_sha256": "8a68970e17f383432c31139c7317f1ee2cfb96dd5d0b8eeacbe4abc6a94e2c27"
+      },
+      "current_source_sha256": "1b6c7efadd8bca4b7fa6f03ea1062611e2dc0138bc8d5aa74fe2f925a898cace",
+      "current_source_matches_record": true,
+      "dependency_graph_not_revalidated_for_this_packaging": true
+    },
+    {
+      "module": "Compact.Cases.C1092Compact",
+      "historical_record": {
+        "module": "Compact.Cases.C1092Compact",
+        "source_sha256": "6b30ab5377bf65e88d52f34ce46382e1c399671bc040c6835638f7263e03b978",
+        "elapsed_seconds": 10.977,
+        "returncode": 0,
+        "lean_returncode": 0,
+        "rejected_admission": false,
+        "log_sha256": "0efc477030575e9a1367664d97218bd25c3d8277caa4b06835f2e419f22103ac"
+      },
+      "current_source_sha256": "6b30ab5377bf65e88d52f34ce46382e1c399671bc040c6835638f7263e03b978",
+      "current_source_matches_record": true,
+      "dependency_graph_not_revalidated_for_this_packaging": true
+    },
+    {
+      "module": "Compact.Completion.FiniteCases.WallHighFromMarker",
+      "historical_record": {
+        "module": "Compact.Completion.FiniteCases.WallHighFromMarker",
+        "source_sha256": "d89199b8e34589409643dd09f3ba45d86ead7dd56fa458d0e689b43534252a9e",
+        "elapsed_seconds": 1.777,
+        "returncode": 0,
+        "lean_returncode": 0,
+        "rejected_admission": false,
+        "log_sha256": "551312b32f7b956061f3fe90c93bed60db21aed7d11a1ca35003ad7601fe215a"
+      },
+      "current_source_sha256": "d89199b8e34589409643dd09f3ba45d86ead7dd56fa458d0e689b43534252a9e",
+      "current_source_matches_record": true,
+      "dependency_graph_not_revalidated_for_this_packaging": true
+    },
+    {
+      "module": "Compact.Bridge.PrefixCoverage",
+      "historical_record": {
+        "module": "Compact.Bridge.PrefixCoverage",
+        "source_sha256": "6caf1cd228e860282fb3d85d9c589672030f227ede2adeff36c14ca5d93aad22",
+        "elapsed_seconds": 10.287,
+        "returncode": 0,
+        "lean_returncode": 0,
+        "rejected_admission": false,
+        "log_sha256": "e372bc5532c9f82713a71d94143fe052e900bf4fec4e62931bf767df8c5507fa"
+      },
+      "current_source_sha256": "6caf1cd228e860282fb3d85d9c589672030f227ede2adeff36c14ca5d93aad22",
+      "current_source_matches_record": true,
+      "dependency_graph_not_revalidated_for_this_packaging": true
+    },
+    {
+      "module": "Compact.Bridge.CoverageReorder",
+      "historical_record": {
+        "module": "Compact.Bridge.CoverageReorder",
+        "source_sha256": "dfca537e4f149a3059fa8f3d7464131113cfec2f8eb397467c39fc99879c6901",
+        "elapsed_seconds": 9.929,
+        "returncode": 0,
+        "lean_returncode": 0,
+        "rejected_admission": false,
+        "log_sha256": "4130542f051de59b386faf35469684f60f471d3838f3ec7971a673808b28f311"
+      },
+      "current_source_sha256": "dfca537e4f149a3059fa8f3d7464131113cfec2f8eb397467c39fc99879c6901",
+      "current_source_matches_record": true,
+      "dependency_graph_not_revalidated_for_this_packaging": true
+    },
+    {
+      "module": "Compact.Completion.C981.NegativePoint",
+      "historical_record": {
+        "module": "Compact.Completion.C981.NegativePoint",
+        "source_sha256": "8729f971bcade39fc8dca32c8e6452f18b257929ef8208e25dc018c6d48ce539",
+        "elapsed_seconds": 7.451,
+        "returncode": 0,
+        "lean_returncode": 0,
+        "rejected_admission": false,
+        "log_sha256": "ad20bb9f87a4fa6048eb7fa616506b4e61c744b7fbcbe98e9da8fa5081dde3ee"
+      },
+      "current_source_sha256": "8729f971bcade39fc8dca32c8e6452f18b257929ef8208e25dc018c6d48ce539",
+      "current_source_matches_record": true,
+      "dependency_graph_not_revalidated_for_this_packaging": true
+    },
+    {
+      "module": "Compact.Completion.C981.NegativePair",
+      "historical_record": {
+        "module": "Compact.Completion.C981.NegativePair",
+        "source_sha256": "3b127f0b8fcaacb3f8392ab518378b3c445f534b79b17ba5fb0715414f89d0ab",
+        "elapsed_seconds": 27.809,
+        "returncode": 0,
+        "lean_returncode": 0,
+        "rejected_admission": false,
+        "log_sha256": "c6f8756a9355fba962575e34276766f472b5a51b704f603c0766b6a5b8da815c"
+      },
+      "current_source_sha256": "3b127f0b8fcaacb3f8392ab518378b3c445f534b79b17ba5fb0715414f89d0ab",
+      "current_source_matches_record": true,
+      "dependency_graph_not_revalidated_for_this_packaging": true
+    }
+  ]
+}

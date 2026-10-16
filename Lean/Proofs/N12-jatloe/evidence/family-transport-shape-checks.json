@@ -1,0 +1,44 @@
+{
+  "scope": "Bound the row-shape check using the 24 original CoverData chunks; no new geometric cases or production modules. Eight production permutation equalities use decide +kernel.",
+  "before": {
+    "sha256": "06dccf181610d0888e59a9d1a8a8f67fd4e45a35222876a102ee35893c26402c",
+    "bytes": 8552,
+    "lines": 176
+  },
+  "after": {
+    "sha256": "cca99ae8cf7660a837ea1e525553b3f87f8af9a0e08c1e80bee38f96b5d8d02f",
+    "bytes": 11778,
+    "lines": 261
+  },
+  "permutation_diagnostic": {
+    "sha256": "8673ad5b0a8ebf67a23626f309b570a4d18ae78bebd79f9eb9d33994aa7b3944",
+    "bytes": 4333,
+    "lines": 91
+  },
+  "new_native_checks": 0,
+  "status": "Parent reports final production FamilyTransport PASS in 29.156 seconds; all statements preserved.",
+  "after_chunking_before_permutation_change": {
+    "sha256": "1d36f86b27e08d3707f5aa2b630d3c20f6ae02aa79c3070de0b1fed35a36b14c",
+    "bytes": 11690,
+    "lines": 261
+  },
+  "performance_diagnostics": [
+    {
+      "module": "Compact.Diagnostics.FamilyTransportGenericPerm",
+      "permutation_proofs": "rfl",
+      "seconds": 24.307,
+      "result": "parent reports PASS"
+    },
+    {
+      "module": "Compact.Diagnostics.FamilyTransportGenericPermDecide",
+      "permutation_proofs": "decide +kernel",
+      "seconds": 6.235,
+      "result": "parent reports PASS"
+    },
+    {
+      "module": "Compact.Diagnostics.FamilyTransportGenericChecked",
+      "seconds": 21.699,
+      "result": "parent reports PASS"
+    }
+  ]
+}

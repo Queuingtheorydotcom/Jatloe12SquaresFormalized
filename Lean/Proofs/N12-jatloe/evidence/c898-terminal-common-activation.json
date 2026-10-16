@@ -1,0 +1,12 @@
+{
+  "scope": "production alias now reuses accepted original terminal common-point theorem; original public theorem type unchanged",
+  "before_sha256": "2843134a278e40b7756531bd0ce3f43e1aa626cf581874385ac257ec7b5d3e77",
+  "after_sha256": "8baccc1612958fb02a9c28653b1ff3a26cd4cd413a889ada23eaf2bb77fad6a7",
+  "accepted_root": "Compact.Cases.C898.PairStep14CommonPoint",
+  "root_source_sha256": "088fbafe35ab7c087475038890d90c7083e53df17b77478e64be8471a02082ab",
+  "parent_reported_elapsed_seconds": 10.396,
+  "remaining_production_axis_fallback_pairs": 6583,
+  "production_point_checks": 3817,
+  "production_scalar_comparisons": 67932,
+  "complete_C898_replay_passed": false
+}

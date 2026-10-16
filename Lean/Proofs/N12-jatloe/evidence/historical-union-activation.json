@@ -1,0 +1,457 @@
+{
+  "scope": "Source activation of exact complete shared bank and original conditional graphs; no Lean acceptance claimed",
+  "modules": 90,
+  "lines": 146304,
+  "outputs": [
+    {
+      "path": "Compact/HistoricalData/Counts.lean",
+      "sha256": "ca652127610ce9fd6fbb43037ee2cf6ac250bcf1855b4d1ad70a1aaa765a6824",
+      "lines": 4
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part000000.lean",
+      "sha256": "b7bb85c19e9e025003a0e430679813ad54cfde7d11796677db034bee51ac82af",
+      "lines": 1796
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part001789.lean",
+      "sha256": "392f46de53f0397a4917cb232a1b0a563c335cd66e8acd686fa1ba97749d0cc8",
+      "lines": 1796
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part003578.lean",
+      "sha256": "4b39cffc8d79bb6c61fcd9345827ce9074091b21b957c9a46813d4f5dded8b50",
+      "lines": 1796
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part005367.lean",
+      "sha256": "2fffc1105e82286862ab83f927e057a9163bcceb4597dcab3a194d799f0efa70",
+      "lines": 1795
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part007155.lean",
+      "sha256": "1d0eaa2d11a0efdf17fc6a1479cf4523bf615c217153367ba365f52c00d88afc",
+      "lines": 1796
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part008944.lean",
+      "sha256": "8c1891f6f724a91ebb1faeaea74abafec2a55be04a299ff27324c129e3100ea4",
+      "lines": 1795
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part010732.lean",
+      "sha256": "4c6c62f77da7ea37c80ca53e61ce9972d733426898ba010934da5f320507da05",
+      "lines": 1796
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part012521.lean",
+      "sha256": "a6253eb832186809252911301555405a3b3524b9dcd53ec565cc7cdbf1da00ad",
+      "lines": 1795
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part014309.lean",
+      "sha256": "ef46ca5e2ed4d5a3290c22f9121c052547d74de1c7a520df41ce5339c89d0a35",
+      "lines": 1796
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part016098.lean",
+      "sha256": "e1a1d45623300b38261e666c3706ffa65bfbb9d8472d513b0510b990d2fedfa5",
+      "lines": 1795
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part017886.lean",
+      "sha256": "d95c96c8532e5e812257d48df5e29d629a54a1abff916d6a13d070e9146399e0",
+      "lines": 1796
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part019675.lean",
+      "sha256": "57906405e6132e2186c1c18cb9e292b7b78929723b7708d42ac58498946493b5",
+      "lines": 1795
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part021463.lean",
+      "sha256": "5409d100f659e5885fd178738ffe60136f19599d496cebc8247c7be9b1b4ad16",
+      "lines": 1796
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part023252.lean",
+      "sha256": "82e6f7f8b4c67c10d2afb53f64d02f0dd1e4884ff77e5ea7314ec7c2add9017d",
+      "lines": 1795
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part025040.lean",
+      "sha256": "4dea7cedb855ae7f5ef0f77c6c2c90c91d580d50add75e80a38cb9bbd577550f",
+      "lines": 1796
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part026829.lean",
+      "sha256": "fd879e99805d0fa767ec68665c5c446d5cb50224ddd6de54539b805ed4969ed3",
+      "lines": 1795
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part028617.lean",
+      "sha256": "eed0a7e8133b52ce7081ef6fe4772037c53a27cd66ed9dbe6e67165791bb23f8",
+      "lines": 1796
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part030406.lean",
+      "sha256": "17735916772e70b859d832d35c2980e0a31b1155bf0fd2aaf4cf4e2019ae186f",
+      "lines": 1795
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part032194.lean",
+      "sha256": "1cf14942501dad4bf206245dff40c8e1aa38b2d370de43eb56eff8f0b30b5eea",
+      "lines": 1796
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part033983.lean",
+      "sha256": "2c01220507dc65bfcd355e3a764a461265be929150ff6c950cf4593d3721753a",
+      "lines": 1795
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part035771.lean",
+      "sha256": "9a08c977e1a7b8c097921744da400b4c66bbaaf4e0e12c80e32ebfbab7cf3cbb",
+      "lines": 1796
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part037560.lean",
+      "sha256": "055517904bb70a24bc9914c03072f9ab261a628626c39f2473617a4fe5b0e8cf",
+      "lines": 1795
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part039348.lean",
+      "sha256": "417caedbaed3d6658a5ab65b2fe026c703a82a086cf69f603c9ee62453a1ce86",
+      "lines": 1796
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part041137.lean",
+      "sha256": "35e1e93b981880542793b7487b25790dfb02891c37f125daec0e660a1c30c2cb",
+      "lines": 1795
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part042925.lean",
+      "sha256": "b43694839acbdd7bc6873faacd91d1ff97e2badac5b97b00a6518d3d1d18c950",
+      "lines": 1796
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part044714.lean",
+      "sha256": "3d81db9fd8c49daaa5e1053bbf45ed5d06c1014362a8f530e9e374b63a210971",
+      "lines": 1795
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part046502.lean",
+      "sha256": "e652e9ef65288cc881d6eceac19e12ba96eadf3d5a0f6bc600497afc67f0e134",
+      "lines": 1796
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part048291.lean",
+      "sha256": "e9722adf796d4222c9f0d9f386c4fd2f9cb9c262116f322404b59a8a7014004c",
+      "lines": 1795
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part050079.lean",
+      "sha256": "eef3d5c41748d3ac7aa4c274e6983a00f41d5625a5cf20660b4c35bc42d72968",
+      "lines": 1796
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part051868.lean",
+      "sha256": "e0b58e549494f86d82532f8322e614ab4dd683c4ce7523a1fd02299eb7901fff",
+      "lines": 1795
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part053656.lean",
+      "sha256": "2f44c417960f3ce6a063219fe1acbbad6c8cb41a69f32057fdc6bae814640758",
+      "lines": 1796
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part055445.lean",
+      "sha256": "20c8a824b74db806a329c44ac1079431813f5a90d3982187c01dee8d27e66764",
+      "lines": 1795
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part057233.lean",
+      "sha256": "1491fcf7740e790b9090e039581339c0fc742da525e004f42c07b12fd15699c7",
+      "lines": 1796
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part059022.lean",
+      "sha256": "8f7a0c1747c2aced0f09a8723c07a187486926bf116568553c2186d909dc2b71",
+      "lines": 1796
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part060811.lean",
+      "sha256": "194238d8413b0671cec0af34e6e2406fae51a576170cbf00cd15cbaed6e1b811",
+      "lines": 1796
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part062600.lean",
+      "sha256": "fe919f21e1b4d0626e1998c86bf54d73bc312cae90a8671349e7cb4057975014",
+      "lines": 1795
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part064388.lean",
+      "sha256": "1a6977d9e86fc63f79d6c9dc37b5b769acea47350f59e81bdc2eba934bdf73c4",
+      "lines": 1796
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part066177.lean",
+      "sha256": "16a8d57073a37f39d8e345dca8c16f925f6bd500245ac11a50a10585bf3c98a5",
+      "lines": 1795
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part067965.lean",
+      "sha256": "1eb5eb2685c1cf157734e42164095e5de6a0b229de0455b1b235e6e7eeac2951",
+      "lines": 1796
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part069754.lean",
+      "sha256": "f5fe1333cb44e3f5b34b083feb3ad388873c8baf392710e83162c8580641507d",
+      "lines": 1795
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part071542.lean",
+      "sha256": "588a5e204c08c41c600a327d236a2cc7d05eafca3039b936a5892aea8f65fff8",
+      "lines": 1796
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part073331.lean",
+      "sha256": "71f91a37fe44175680fd9dbf5b2e9c870ddcd87ca309def86a1c35eb45debd52",
+      "lines": 1795
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part075119.lean",
+      "sha256": "de6d1b5d2a25f6d334703d5269c43267d58fc1940d73617772bca0166ad364ff",
+      "lines": 1796
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part076908.lean",
+      "sha256": "e4ac953a4470ef98c9cb6506f410fc2183c19c3bcbcc7843bb744e19684d8f0d",
+      "lines": 1795
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part078696.lean",
+      "sha256": "b61be2747e9155ab6f5543eadfd3b6eb4a6a2f94077849dcfbeae61301b82843",
+      "lines": 1796
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part080485.lean",
+      "sha256": "228045f3ce96928f8ba543dfdb45a7b1e42af67b29ee6a1161ce25ccbca3f332",
+      "lines": 1795
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part082273.lean",
+      "sha256": "820b0a4f4ccc49fab1951ccb4f5c4525ce7ff20f165eb0bd721e85d956e6b35c",
+      "lines": 1796
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part084062.lean",
+      "sha256": "04b503fae0b3e99a0de4d1efb57ab2bd735f162cacc79a61eedbe57692482714",
+      "lines": 1795
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part085850.lean",
+      "sha256": "7020d638a89b8cad0479551aa3c145ed453d9f70b1bc1d634bdb2fba8d251b27",
+      "lines": 1796
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part087639.lean",
+      "sha256": "aa7653abfc7a2b085f119af661e2cb4c61ef378826c51444e14106e748e82dbf",
+      "lines": 1795
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part089427.lean",
+      "sha256": "dc5f8990db54091e57982695050cff1e548219222401d3773b403ad3056cd6ee",
+      "lines": 1796
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part091216.lean",
+      "sha256": "e2ca0b75d6ef434a45be99195f4ea4a77cdf0961e90d5c30551681d9f58fe1be",
+      "lines": 1795
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part093004.lean",
+      "sha256": "056d8589d3de009efc4add9a97d67bb8938cb60c8983bd2ebece685632f2cf90",
+      "lines": 1796
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part094793.lean",
+      "sha256": "142b0af0a046990be86012ae0397563c744a610f265b4b0973f29c28a71c75cf",
+      "lines": 1795
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part096581.lean",
+      "sha256": "427973824887718471f5a01037c3776b29861363fd9e3be8df20a9e76d6f9438",
+      "lines": 1796
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part098370.lean",
+      "sha256": "6068cae9bdb50a1ff0fbef5227488579316d93d8304b895f060cf39100693e1e",
+      "lines": 1795
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part100158.lean",
+      "sha256": "d40640cbfa95cfee7ca491661ec0b3025a7553d39ebaf11c4f0a1c3ef4bc3a22",
+      "lines": 1796
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part101947.lean",
+      "sha256": "77436e93050df919f2d6b4df286cf03f18a6b5768ca7a8fd0aebddacf0c964d9",
+      "lines": 1795
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part103735.lean",
+      "sha256": "5ccef1b6856f513104de9e5d6979b61fb11936588cf5ce80b418801c0155ff0c",
+      "lines": 1796
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part105524.lean",
+      "sha256": "30c2f9fdeb4198836dd9f1bded21ced46a81fe62d6e853663014df89e81b726f",
+      "lines": 1795
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part107312.lean",
+      "sha256": "228f66c32ae1bb7780e0dd6d495bcc2596286d52a1fe4700cdc2669ac8805213",
+      "lines": 1796
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part109101.lean",
+      "sha256": "c14303081e42368cb178e302aa1808e67fd3e47a2293e3ff325420fb55ef5019",
+      "lines": 1795
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part110889.lean",
+      "sha256": "9e2460c7c5c618e0500ff2e90c25436b6d0310475e0f804dad73966d8655a38a",
+      "lines": 1796
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part112678.lean",
+      "sha256": "5922d364194bb29f3fa4cf45af2d99ec26e7a2d4110325455aa6ce49ca3d5759",
+      "lines": 1795
+    },
+    {
+      "path": "Compact/HistoricalData/PosesChunks/Part000000.lean",
+      "sha256": "5160c837a0c512569e7299b76df7dfb618795c5f4884dbf254b7270077396bc3",
+      "lines": 1772
+    },
+    {
+      "path": "Compact/HistoricalData/PosesChunks/Part001765.lean",
+      "sha256": "9cb429588c498b43f0ee5a8c5088a2db7ff1bffb409bbdd60d9c18028fc13bbd",
+      "lines": 1772
+    },
+    {
+      "path": "Compact/HistoricalData/PosesChunks/Part003530.lean",
+      "sha256": "909812f1bddc8aa50ebaa019d77fec53879759547229ac7e5cc349c55ce5604c",
+      "lines": 1772
+    },
+    {
+      "path": "Compact/HistoricalData/PosesChunks/Part005295.lean",
+      "sha256": "292a825869bdaf0561128fcf97495a76073698beee4bcee4fdd070ab88d1538d",
+      "lines": 1771
+    },
+    {
+      "path": "Compact/HistoricalData/PosesChunks/Part007059.lean",
+      "sha256": "3484bcb3581d93fd24e8d6d4dca1cc1668f2febc99c8d6bdb749d82bc12ddc79",
+      "lines": 1772
+    },
+    {
+      "path": "Compact/HistoricalData/PosesChunks/Part008824.lean",
+      "sha256": "17053a9a5fbeb7cbbfc757620f129afa5e01742d18252c22961c640095ed3cfb",
+      "lines": 1772
+    },
+    {
+      "path": "Compact/HistoricalData/PosesChunks/Part010589.lean",
+      "sha256": "e0b6eeaf44bc497aa0b313431f8b110cdf758b41f6ab3896027361edd7d88ace",
+      "lines": 1772
+    },
+    {
+      "path": "Compact/HistoricalData/PosesChunks/Part012354.lean",
+      "sha256": "92912828b6759a57067df92fb0c162dd2cba318fcfbf5b797ce6106139547589",
+      "lines": 1771
+    },
+    {
+      "path": "Compact/HistoricalData/PosesChunks/Part014118.lean",
+      "sha256": "264b341f9e1010fd86d3c6f4c810f9c09bc0f7547e801f26566284bcf147700b",
+      "lines": 1772
+    },
+    {
+      "path": "Compact/HistoricalData/PosesChunks/Part015883.lean",
+      "sha256": "37f325b422a4b740256655942508119d50d95e1e6f915bdfed952ddb9a4c9fa9",
+      "lines": 1772
+    },
+    {
+      "path": "Compact/HistoricalData/PosesChunks/Part017648.lean",
+      "sha256": "22b37e7c7254338c8d453cb56f24cc6fb2c249154375283eb499cb63a3d18825",
+      "lines": 1772
+    },
+    {
+      "path": "Compact/HistoricalData/PosesChunks/Part019413.lean",
+      "sha256": "21631e611812014c807dddfcd93f79693d8634fabe99f7361acfbf6764ad1e77",
+      "lines": 1771
+    },
+    {
+      "path": "Compact/HistoricalData/PosesChunks/Part021177.lean",
+      "sha256": "0f53a7a9bc004db721f61a1abc08d3a32627c201b738c42576aeb1ae6cdc86b0",
+      "lines": 1772
+    },
+    {
+      "path": "Compact/HistoricalData/PosesChunks/Part022942.lean",
+      "sha256": "270ee6ef856f6a9b936629747a7b9b894ae7e8624aede80b22fadc2d4e4baae6",
+      "lines": 1772
+    },
+    {
+      "path": "Compact/HistoricalData/PosesChunks/Part024707.lean",
+      "sha256": "96c531f07ac441a4a9d014db2a4a3a7f38f781fed3c209743739009eeaf54509",
+      "lines": 1772
+    },
+    {
+      "path": "Compact/HistoricalData/PosesChunks/Part026472.lean",
+      "sha256": "7312a43ad3b83ba1c796d3b24579154628427c20a47a075ea46d8af935d11e11",
+      "lines": 1771
+    },
+    {
+      "path": "Compact/HistoricalData/SharedRows.lean",
+      "sha256": "dad6af17e64cec0d78793fd2cbf195963db9fcb7841a0ef76e8c48c4632c99b8",
+      "lines": 204
+    },
+    {
+      "path": "Compact/HistoricalData/SharedPoses.lean",
+      "sha256": "d73f9d74cd18db6d84dae843a0fd99d03557b0bf47dc8e3740cc4629bbfe8c2c",
+      "lines": 62
+    },
+    {
+      "path": "Compact/Preservation/HistoricalDictionary.lean",
+      "sha256": "ecdb287e0aa999cf73efb02a4fec332d8435b6d1ace1e28e3efd48027fc211ac",
+      "lines": 7
+    },
+    {
+      "path": "Compact/Preservation/C701.lean",
+      "sha256": "b9a9a10790bc261446d86e70732e9e71e99cc312212736969c2d94605837a505",
+      "lines": 530
+    },
+    {
+      "path": "Compact/Preservation/C713.lean",
+      "sha256": "07b32bacefef626db8157d3d7431d9d55a5f38093c1be0d9d70face66d25fdde",
+      "lines": 306
+    },
+    {
+      "path": "Compact/Preservation/C717.lean",
+      "sha256": "861e479f05a1a0973768dab6c3d473ccae0c04dcb7151e0d20e5b64d4a50678e",
+      "lines": 456
+    },
+    {
+      "path": "Compact/Preservation/C973.lean",
+      "sha256": "f8e1f83909ddb61cc8fc48b700f3c4089bb98937114a6166f145b224692d5f33",
+      "lines": 503
+    },
+    {
+      "path": "Compact/Preservation/C978.lean",
+      "sha256": "ab982e124fafae7d0749767c07020954eb9313c12d0d5ad2692c8272a619ed29",
+      "lines": 320
+    },
+    {
+      "path": "Compact/Preservation/C979.lean",
+      "sha256": "ef976cdf4996c5d15efd7620c01029789b12d16fe56480d6c927ec328106e844",
+      "lines": 650
+    }
+  ]
+}

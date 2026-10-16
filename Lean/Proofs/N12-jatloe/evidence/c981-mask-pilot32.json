@@ -1,0 +1,97 @@
+{
+  "original_commit": "46e0067e3aa72d1001a1bf2b95c8f7e4575c368a",
+  "original_table_audit": [
+    {
+      "source": "Completion/Cases/C981/Coverage/Prefix09.lean",
+      "data": "Completion/Cases/C981/Coverage/Data/Prefix09.lean",
+      "original_sha256": "367677f870ecc4a7a3c36262f2e0a5526427e5e21d3794b1695363c68da9e3fb",
+      "inverse_sha256": "367677f870ecc4a7a3c36262f2e0a5526427e5e21d3794b1695363c68da9e3fb",
+      "declaration_sha256": "1175ab34847013a23f6b51577fef762fbc3ccb00f9c83c13b215c4ce4dbd2dc5"
+    },
+    {
+      "source": "Completion/Cases/C981/Coverage/Prefix10.lean",
+      "data": "Completion/Cases/C981/Coverage/Data/Prefix10.lean",
+      "original_sha256": "16e26b6d362d5b63da18b5f32dc9e1221885b4394e360ca708acbd8d517cb441",
+      "inverse_sha256": "16e26b6d362d5b63da18b5f32dc9e1221885b4394e360ca708acbd8d517cb441",
+      "declaration_sha256": "2b8025125e53e56707a1fd9d4e543597174350ba088a6212b5cf8bc7a5699230"
+    },
+    {
+      "source": "Completion/Cases/C981/Coverage/Allowed/Owner05.lean",
+      "data": "Completion/Cases/C981/Coverage/Data/Allowed05.lean",
+      "original_sha256": "852a3fb8f794274257465a07ceb0940fba078e63eb7a838fcc5405b8d510447c",
+      "inverse_sha256": "852a3fb8f794274257465a07ceb0940fba078e63eb7a838fcc5405b8d510447c",
+      "declaration_sha256": "1dee49be77edd6897a687d1e5d084f4bd46d50dd04daabfb386a394e4cecbdc6"
+    }
+  ],
+  "reused_identity_manifest": "evidence/c981-mask-pilot8.json",
+  "front_count": 32,
+  "choice_count": 64,
+  "candidate_pairs": 2048,
+  "compatible_extensions": 172,
+  "target_slice_start": 0,
+  "target_slice_count": 172,
+  "original_row_order_preserved": true,
+  "additional_identity_masks": [
+    8,
+    16424,
+    147584,
+    655488
+  ],
+  "identity_namespace": "S12Completion.C981.Coverage.MaskIdentities",
+  "added_lean_modules": 4,
+  "additional_native_sites": 0,
+  "lean_replay_performed": false,
+  "combined_pilot_sha256": "06759509d2caefceb7e1bad0826b64aa4d973bf859f646706c768dfc11fc218c",
+  "historical_combined_source_reconstruction_exact": true,
+  "data_declarations_preserved": true,
+  "correspondence_declarations_preserved": true,
+  "intentional_proof_changes": [
+    "single indexed decision replaced by four8front decisions and structural composition",
+    "final adapter now consumes the combined MaskStepCheck"
+  ],
+  "integer_decision_parts": [
+    {
+      "front_offset": 0,
+      "target_start": 0,
+      "target_count": 46,
+      "checks_entire_remaining_suffix": false
+    },
+    {
+      "front_offset": 8,
+      "target_start": 46,
+      "target_count": 46,
+      "checks_entire_remaining_suffix": false
+    },
+    {
+      "front_offset": 16,
+      "target_start": 92,
+      "target_count": 42,
+      "checks_entire_remaining_suffix": false
+    },
+    {
+      "front_offset": 24,
+      "target_start": 134,
+      "target_count": 38,
+      "checks_entire_remaining_suffix": true
+    }
+  ],
+  "generic_chunk_bridge": "Compact.Bridge.PrefixCoverageMaskChunks",
+  "files": [
+    {
+      "path": "Compact/Completion/C981/CoverageMasks/Identities05.lean",
+      "sha256": "eac6af6686e2e6a06e27fd478cd23eb9a6e4501fa71f480f775fdafb7ea8ca3b"
+    },
+    {
+      "path": "Compact/Completion/C981/CoverageMasks/Step10Codes32.lean",
+      "sha256": "7d5fff42d79ccf241da6ef56f46a017cbbb0878ab5e144832afa57dae7cc7c0d"
+    },
+    {
+      "path": "Compact/Completion/C981/CoveragePilot/Step10Masks32Check.lean",
+      "sha256": "c77a00a142ac200a23340fd8719464d07a72ceeb79a8a0587345ac8187ab0789"
+    },
+    {
+      "path": "Compact/Completion/C981/CoveragePilot/Step10Masks32.lean",
+      "sha256": "172db560169ebfa8b5c216769257a8a508492ea8ce5ba896d58a22fa643538f7"
+    }
+  ]
+}

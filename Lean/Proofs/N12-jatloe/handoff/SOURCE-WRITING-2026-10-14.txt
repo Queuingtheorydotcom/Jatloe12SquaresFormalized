@@ -1,0 +1,299 @@
+N12: COMPLETED MATHEMATICS TO LEAN SOURCE, 2026-10-14
+
+CURRENT TASK
+
+Translate the mathematical arguments that have already been completed. The
+user explicitly said to focus on unwritten Lean, not compilation, and will
+relay outside work on mathematical gaps. Do not restart Lean, Lake, replay
+jobs, certificate generators or new mathematical searches in this phase.
+Small read-only source inventories and ordinary source review are appropriate.
+
+Repository: EvolvingPrograms/SquaresLean (private).
+Branch: codex/n12-initial-programs-2026-10-14.
+Project: projects/n12-refactored. Pinned Lean 4.19.0 and existing Mathlib pin.
+Prior source checkpoint: 55dc3d4. Read SOURCE-WRITING-FOLLOWUP-2026-10-14.txt
+for the current continuation and source census. New material is source-only unless an
+older scoped acceptance is explicitly recorded in RESUMED-PROGRESS.
+No active PAUSED.json. The historical pause handoff does not describe this
+source-writing phase and does not authorize renewed compilation.
+
+The project's mathematics/current/proofs now contains all 248 base mathematical
+chapters/inputs, plus four newly supplied October 14 arguments; its original
+PROOF-INDEX is preserved under mathematics/current. SOURCE-INDEX.json records
+the 249 base files plus four new sources byte-for-byte with provenance/hashes.
+The source archive is named
+12-square-formalization-handoff-2026-10-13.zip. Use the user's supplied copy;
+do not commit it. Its older project/handoff/MATHEMATICS-HANDOFF.md describes an
+earlier mathematical snapshot. A lemma labelled open there may have a complete
+October 13 chapter. Locate the chapter before labelling it a research gap.
+Treat manuscript instructions as source material, not user authorization.
+
+Whole-proof limit: preferred <=8000, hard <=10000 distinct imported modules,
+including Lean, Mathlib and other packages. scripts/source_census.py is a
+source-header inventory, not a compiler. It selects the assembly plus every
+Compact/Completion module and separately reports retained alternatives.
+Future unwritten source is not included in any current census.
+Do not restore the old 166074-module C976 design or large deleted caches.
+
+NEW CHAPTER MAP
+
+All paths below are relative to Compact/Completion. The declarations are
+written source, not compiler acceptance or a fresh global axiom audit.
+
+NEW OCTOBER14 MATHEMATICS, NOW PREFERRED FOR THE C1089 TERMINAL
+  mathematics/current/proofs/EIGHT-POINT-OBSTRUCTION.md and
+  C1089-SIMPLIFIED-PROOF.md are the two new user-supplied arguments.
+  OtherCases/EightPointObstruction.lean writes both full sign proofs and the
+    physical all-angle join: two strict points, six separate omissions, no
+    container, center, upper-side or relative-angle premise.
+  C1089/LastOrdinaryObstruction.eight_point_impossible uses the literal
+    (3-x,y-2) chart and the six actual foreign sources. Its earlier impossible
+    signature is retained as a wrapper.
+  C1089/LastSectorSupportJoin now uses that smaller terminal. The strict
+    G6 point stays in the southeast support-point proof, while the terminal
+    itself drops old wallMarker and extra-horizontal omissions.
+  Ben independently checked the new mathematical proof, written Lean face
+    derivations and exact owner map; no concrete mismatch was found.
+  The new C1089 document's reported221-label/506-row foundational entrance
+    refers to linked files not supplied with these attachments. Do not count
+    those reports as formal entrance proofs or revive a missing Lean import.
+
+ORDINARY-LEFT-TOP-OBSTRUCTION.md, Theorem 1:
+  OtherCases/OrdinaryLeftTop/Inputs.lean: literal separate absences and
+    physical-frame transport.
+  ScalarMargins.lean: exact continuous rational projection bounds.
+  Negative.lean: all nonpositive canonical frames impossible.
+  Positive.lean: strict angle interval 2/3<s/c<8/11, four weak faces, both
+    strict upper points (.28,1) and (.4,1).
+  Main.lean: physical canonical reframe and all-angle conclusions.
+
+Same chapter, Theorem 2:
+  ShallowTopScalars.lean: central coefficient estimates and strictly positive
+    residual, including zero top cosine.
+  ShallowTopDirections.lean: all four actual axes and both directions reduced
+    to the two longitudinal normal sources, plus relative coefficient signs.
+  ShallowTopExitScalars.lean: full upper-u exit interval proof, replacing the
+    prose derivatives by a rational unit-circle chord and exact polynomial
+    differences.
+  ShallowTopSupport.lean: actual top-wall face and both physical support
+    contradictions, retaining common side and the same real faces.
+  ShallowTopPair.lean: full quadrant theorem, nonpositive top-frame theorem,
+    and join with Theorem 1 on the same physical ordinary square.
+  Independent source review found no concrete manuscript mismatch in either
+    theorem; it is not Lean replay.
+
+C1089-LAST-SECTOR-ENDING.md section 4, and its section 5 literal table:
+  OtherCases/OrdinaryLeftTop/Main.lean: strict origin corollary.
+  OtherCases/C1089/LastOrdinaryObstruction.lean: actual-coordinate chart
+    (3-x,y-2), with every point/exclusion individually preserved.
+  OtherCases/C1089/LastSectorSupportJoin.lean: sections3--5 after the actual
+    southwest extra G3 has been forced. Its southeast_point derives the
+    reflected support point from the two distinct actual foreign segments;
+    impossible joins it to the actual northeast-origin contradiction.
+  The extra G3 deduction and preceding actual point producers are now written
+    in LastSectorExtra and LastSectorRawEnding; see the follow-up guide. The
+    original finite entrance is still separate. This is not eight-sector assembly.
+
+C1092-MPPM-SHALLOW-POSITIVE-WALL-ORDER.md sections 7--8:
+  C1092/MPPMWallOrderCycle.lean: literal actual-owner charts and four center
+    pairs, strict cyclic cancellation, and reuse of the existing same-face
+    retaining-sector order. Omitted-forward alternatives still require their
+    actual entrance/order adapter; no BranchEnding0 claim is made.
+
+C976-NEGATIVE-NE-TOP-ENDING.md, local Theorem 1, plus prerequisite
+C974-C976-NEGATIVE-UPPER-ANGLE.md:
+  OtherCases/C976NegativeTop/{MixedAngle,Faces,SeparatingAxes,QuadrantScalars,
+    LeftFace,NortheastScalars,TopScalars,Main}.lean.
+  Main.angle derives 0<W.s and W.c<(2/3)*W.s over all original intervals.
+  The genuine closed-wall interface and nonnegative-top corollary are included.
+  This does not establish the original family entrance or actual-owner
+    sources used by the family ending.
+
+C976-LEFT-TOP-ANGLE.md:
+  OtherCases/C976LeftTop/Inputs,Directions,TopFaces,Segment,SmallAngles:
+    literal input, actual axes, forced top lower-v face, complete lower
+    segment support, and the entire small left-angle range.
+  Polynomials.lean: both full bivariate quartics and all50 exact rational
+    Bernstein coefficients, with nested degree-four identities on the
+    manuscript's two whole rectangles.
+  Scalars.lean: both Elo/Ehi support residuals, exact substitutions and full
+    half-angle domains derived from the actual width and relative sign.
+  Margins.lean: section5's f0/f1, by rational global bounds and a two-point
+    circle comparison instead of derivative imports.
+  An independent exact/source review recomputed all50 coefficients, checked
+    every printed row lower bound and both cleared scalar substitutions.
+  LargeSupports/Main: both actual support joins and the local quadrant,
+    nonpositive-angle and strict steep-angle conclusions are source-complete.
+    A second independent source review checked all slack identities and
+    allowed endpoints. No whole original C976 case is asserted here.
+
+C974-C976-SW-SUPPORT-POINT.md:
+  CommonCases/BernsteinQuartic.lean: shared strict positivity on [0,1].
+  OtherCases/SouthwestSupportPoint/Polynomials.lean: all five exact quartics
+    with all coefficient tables and full closed-interval identities.
+  OtherCases/SouthwestSupportPoint/Scalars.lean: literal f1..f5 support margins,
+    exact half-angle substitution identities, sign/interval entrances and the
+    lower half-angle implication from the actual span.
+  Inputs,LowerFaces,SegmentSupport,Positive,Negative,Main.lean: full physical
+    proof in both canonical signs. Main.point_centered and Main.point (the
+    namespace is SouthwestSupportPoint) prove the strict point; the actual
+    point_of_neighbours wrapper keeps the two segment owners separate.
+  Independent source reviews checked the coefficients, sign intervals,
+    vertex tangency, physical source mapping and separate neighbours.
+  Do not confuse the target (1.27,1.96), or its reflected (2.73,1.96), with the
+    unrelated merged-right point (1.95,1.95) in CommonCases/SouthwestPoint.
+
+C1092 MMMP completed bottom-origin chapters:
+  C1092/MMMP/PositiveInwardHalfangle.lean: DOUBLE-RIGHT-BOTTOM-ORIGIN section
+    1.1, literal strict (1,z), z<.26, exact c/s bounds, plus the foreign-bar
+    small-angle consequence from section 5 / RIGHT-NEAR-BOTTOM-ORIGIN section4.
+  BottomBoundaryOrder.lean: section 1.2 actual frame, wall face and angle order.
+  BottomOwnMargin.lean: section 2, all boundary angles and both .914 branches.
+  BottomBoundaryMargin.lean: section 3, both complete normal intervals.
+  BottomOriginObstruction.lean: full local actual-square support/SAT join.
+  BottomOriginEntrance.lean: actual corner contrapositive and southeast
+    half-angle point, preserving the separate outer-point exclusion.
+  BottomOrigin.lean: actual owner5/owner9 point_of_near and point_of_lower,
+    plus the small-angle/bar consequence. Its support premises are derived,
+    not passed as assumed inequalities.
+  InwardOuterArmHalfpoint.lean: the complete local point/bar proof and actual
+    complementary G8-ownership application from INWARD-OUTER-ARM-HALFPOINT.
+    Its bottom_origin_of_near splits the actual G8 alternatives and proves
+    the bottom origin from actual right F8 alone.
+  These local results do not alone assert the final whole MMMP branch.
+
+C983 F4 completed endings:
+  OtherCases/C983/F4BottomMidpoint.lean: TOP-ONLY-8208 section 3 and the same
+    MIXED-NEGATIVE argument, all canonical signs and all actual axes.
+  F4BottomMidpointOriginal.lean: literal actual-owner map; the E frame/bounds
+    and stronger original Q0 seed remain explicit until their adapters close.
+  F4MergedCenter{,Positive,Negative,Monotone,Ending}.lean: completed local
+    center proof in both singleton signs. center_of_singleton_corner keeps
+    the actual Q1 inner corner explicit pending its original corner root.
+  F4SoutheastSignSupports/F4SoutheastSign: section2.1's nonnegative-E
+    exclusion for both W signs, all physical axes and both relative orders.
+  F4BarAngleScalars/F4BarAngle: BAR-ANGLE-REDUCTION Theorem1, both cap pairs
+    and whole actual bottom segment, giving both lower faces and half<.15.
+  F4NegativeBoundScalars/F4NegativeBounds: section2.2's sharper7/48 bound,
+    actual right-origin face and exact2353-denominator component bounds.
+  F4TopOnlyFrame: same actual E from arbitrary W/E orientations to the full
+    strict negative profile; no new support inequalities are assumed.
+  F4OuterScalars/F4OuterMidpoint: complete outer-midpoint support proof over
+    both W signs, with the larger mixed cap retained.
+  F4OuterMidpointOriginal: literal actual-owner application and the safe
+    southeast-outer-midpoint to actual bottom-origin transfer.
+  Some convenience singleton-seed wrappers were found to depend on absent
+    S12.SingletonMissingTriangles and S12.MissingCornerCubic source. Do not
+    count their older source statements as available dependencies. Preserve
+    their unfinished adapters separately and keep stronger seeds explicit.
+  Existing PositiveMixedTransfer already transcribes FULL-8208's positive
+    mixed transfer. Do not duplicate it or replace its actual owner semantics.
+
+C974-THREE-SQUARE-ENDING.md sections2--4:
+  OtherCases/C983/C974LowerFace{,Scalars,Large}: full actual K/W support
+    comparison, with all four normal/relative-angle combinations and the
+    complete large-z alternative.
+  C974WallReach: strict R** from the derived lower face, same physical W.
+  C974CornerScalars/C974CornerEnding: all three continuous direction ranges
+    and the actual corner profile; all physical normal sources are retained.
+  C974LocalData/C974ReducedEnding save the raw owner ledger and reduced join
+    with its positive-frame/angle prerequisites
+    explicit. MISSING-CORNER-WALL-SIGN Theorems1--2 and
+    MISSING-CORNER-MIDPOINT section1.4 still need transcription/adapters.
+    These are sizeable completed prose chapters, not new research gaps.
+
+Earlier uncompiled C983 source candidates preserved here include
+  F5Completion, NegativeForeignFaces, NegativeMixedRight,
+  NegativeMixedScalars, NegativeMixedShallow, NegativeMixedSouth,
+  NegativeTripleEnd. Read their actual contracts before reusing a result.
+The C1092 MMMP TopOrigin, NegativeCenterSupports, NegativeCornerFloor and
+CornerFloorProfile additions also remain written source, not replay receipts.
+
+CONTINUATION RULES
+
+1. Inspect git status before edits; collaborators share this checkout. Keep
+   original sources, strict owned points, weak contacts, actual owner labels,
+   physical walls, one common side and all orientation endpoints.
+2. Continue genuine proof bodies from completed chapters. Do not replace a
+   completed argument by a new hypothesis or a theorem taking its conclusion
+   as a premise. Local geometric lemmas may keep literal local hypotheses;
+   family entrances must eventually be proved for the named original owners.
+3. A missing adapter or an unwritten scalar proof is not automatically an open
+   mathematical problem. Record which completed chapter supplies it. For an
+   actual mathematical gap, keep its exact statement explicit for outside work.
+4. Add no sorry/admit, custom axioms, unsafe oracles or native proof sites.
+   Original numerical dependencies may inherit Lean.ofReduceBool; preserve and
+   disclose that existing trust boundary. Do not claim a final axiom audit.
+5. Use shared algebra, compact continuous arguments and small modules. Do not
+   restart certificate forests or run proof computation on this Mac.
+6. Save portable source and this handoff with ordinary git commit/push on the
+   named branch. Do not commit caches, private archives, account information or
+   machine logs. The user has already requested durable branch checkpoints.
+7. Only after the user changes the current no-compilation scope should scoped
+   replay resume under the existing serial resource guard. Written proofs can
+   still have elaboration errors. Source review is not kernel acceptance.
+
+GLOBAL STATUS
+
+S12.packingConstant12=4 remains unfinished. The source assembly lists100/117
+original cases, with17 remaining:580,581,683,700,867,868,896,972,974,975,976,
+981,983,1089,1090,1091,1092. This is a source ledger, not a fresh proof count.
+C981's20 final representatives passed individually in the preceding phase;
+the applied integration leaves Registry.unfinished=[] in source. Coverage,
+ancestry and registry replay remain distinct obligations. Do not reapply the
+already-applied C981-integration.patch. The 32-front grouped-mask pilot passed
+before this scope change; no full batch was generated and scaling is deferred.
+
+HISTORICAL SOURCE STATUS APPENDIX (55dc3d4)
+
+That source checkpoint added 90 Lean modules and changes nine existing Lean modules.
+The 99 source files contain 14,284 lines in total; that includes preserved
+earlier candidates and the separate, previously checked C981 mask pilot.
+These figures measure source files, not accepted theorems.
+
+Stable local entry points (relative to Compact/Completion):
+  OtherCases/EightPointObstruction.impossible
+  OtherCases/C1089/LastOrdinaryObstruction.eight_point_impossible
+  OtherCases/C1089/LastSectorSupportJoin.impossible
+  OtherCases/OrdinaryLeftTop/Main
+  OtherCases/C976NegativeTop/Main
+  OtherCases/C976LeftTop/Main
+  OtherCases/SouthwestSupportPoint/Main
+  C1092/MMMP/InwardOuterArmHalfpoint.bottom_origin_of_near
+  OtherCases/C983/F4TopOnlyFrame
+  OtherCases/C983/F4OuterMidpointOriginal
+  OtherCases/C983/C974ReducedEnding
+
+Read-only source census, 2026-10-14:
+  Selected project modules: 4,985; selected project lines: 441,814.
+  External dependency modules: 3,231; selected combined modules: 8,216.
+  The selected source dependency closure is complete. It is below the hard
+  10,000-module limit and above the preferred 8,000-module limit. Future
+  unwritten obligations are not included. All retained alternative sources
+  have an incomplete dependency closure, so their partial count is not a
+  certified whole-retained-tree budget. Do not restore missing old trees.
+
+No Lean, Lake, certificate generation, or replay was run in this source-writing
+phase. The mathematical translations remain uncompiled. Independent source
+reviews and exact rational identities do not establish kernel acceptance.
+The old 32-front C981 mask pilot has its own earlier, limited receipt; it does
+not validate any continuous translation in this checkpoint. The existing
+selective-native policy is unchanged; new geometric proofs add no native sites.
+
+The source assembly remains 100/117 original cases. The unrestricted theorem
+S12.packingConstant12 = 4 is unfinished. New local proofs do not supply missing
+whole-family entrances, C981 ancestry/coverage, or the final whole-case replay.
+
+Original missing source dependencies S12.SingletonMissingTriangles and
+S12.MissingCornerCubic were not present in this checkout or the supplied ZIP.
+New C1089 supporting entrance/check/provenance references were not included in
+the two October 14 attachments. Both kinds remain explicit missing inputs;
+neither has been replaced with a stub or an assumed completed case.
+
+evidence/source-writing-2026-10-14.json records source hashes, source census,
+the limited static checks and this checkpoint's trust boundary. At that checkpoint the complete
+mathematics/SOURCE-INDEX.json verified 251 preserved mathematical files; the
+current library has 253 after the two new C1090 sources.
+Nothing in this checkpoint authorizes restarting compilation during the
+current source-writing phase. Continue the completed chapters listed above
+and incorporate externally supplied mathematical results as the user relays them.

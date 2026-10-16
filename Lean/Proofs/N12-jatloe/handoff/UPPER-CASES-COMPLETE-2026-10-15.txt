@@ -1,0 +1,91 @@
+UPPER MERGED CASES COMPLETE IN SOURCE, 2026-10-15
+
+Continue the active N12 source goal in projects/n12-refactored, branch
+codex/n12-initial-programs-2026-10-14, EvolvingPrograms/SquaresLean.
+This phase extends93390ab. No local Lean/Lake, numerical search, certificate
+replay or CI launch was performed. The new source is uncompiled.
+
+SOURCE ASSEMBLY
+
+115/117 original-case contracts are now registered. The exact remaining IDs
+are700 and972. The six specifically requested cases and C580/C581 remain
+registered. The original unrestricted theorem is still conditional; there is
+no Final.lean placeholder, added admission, custom axiom, unsafe proof oracle
+or new native site. Original finite-classification compiler trust is inherited.
+
+New complete contracts:
+  N12Compact.MergedPending.case683_excluded, original row364
+  N12Compact.MergedPending.case867_excluded, original row454
+  N12Compact.C868.case_excluded, original row455
+Roots:
+  Compact.Completion.OtherCases.MergedPending.Completion
+  Compact.Cases.C868.Complete
+
+SIMPLIFIED ENDING
+
+The preceding checkpoint excluded nonnegative merged-upper normals, the whole
+inward southeast branch, and the lower-U top-marker exit. In the surviving
+negative frame(c,-s), the actual SW near point supplies a lower-V floor and
+the same outward SE square's two strict points supply an upper-U cap. The
+actual top marker supplies the upper-V cap. These exact faces give
+  1<.72c+.99s and1<1.136c+.05s.
+
+Six rational full-arc inequalities place the highest closed H vertex at
+x in[-.26,-.04], y in(1.06,1.18), above the exact chord joining the actual
+top square's marker and far point. They also place a closed left-edge point
+at height1.06 in x interval[-.26,-.07].
+
+The actual top square is reindexed into its entire first quadrant. At slope
+at most.4 it strictly contains the first closed H vertex; at larger slopes
+it strictly contains the second closed H point. ClosedPointExclusion forbids
+both, including boundary contact. No separating-axis alternative remains.
+
+The scalar proof uses exact unit endpoints(609,200)/641 and(3901,2340)/4549,
+finite chord differences, and a double-angle endpoint(8,15)/17. It does not
+assume a numerical angle interval. The actual C868 top far point is obtained
+by a full half-turn with the true singleton16 off-row seed. C683/C867 use their
+own already-derived top bar. C683 never acquires a right-wall owner.
+
+REMAINING MATHEMATICS
+
+C700: the actual merged1536 is strictly positive in its canonical frame.
+C700PositiveFaces keeps that same square, genuine singleton32 whole right
+bar and singleton16 top omission, producing both upper faces and a cosine
+bound. C700NegativeSouthwest gives the actual merged right halfpoint(2.5,2)
+unconditionally. For negative SW, the only remaining separator is merged B's
+own U face; its lower-U is positive and its half-angle is below.26. These are
+necessary consequences, not a whole-case ending. The positive SW branch and
+the remaining negative SW configuration still require a contradiction.
+
+C972: all nonpositive SE and SW orientations have already been excluded.
+SouthwestLeftFace improves SW's lower-U using the genuine singleton1 endpoint.
+SouthwestFloor/Scalars/Consequences use singleton0's full strict bar and a
+closed actual vertex: SW sine<51/149, cosine>=140/149, half-angle<3/17.
+For sine>=6/37 the true lowest SW vertex lies above that bar, giving two
+simultaneous face inequalities. NortheastSign/Scalars prove the actual SE
+center and exclude every nonpositive NE normal with all eight directed SAT
+alternatives. The actual positive NE/R coupling and whole singleton0/SW
+comparison remain under study. There is no top32768 owner in C972.
+
+The older exact local positive-SE counterexample remains a diagnostic against
+a false shortcut; it is not a counterexample to C972. The current residual
+cannot be excluded merely by asserting an angle order or desired support.
+
+SCOPE AND CONTINUATION
+
+All16 new stable mathematical modules and shared API/registry changes received
+independent source review. Review corrected one Mathlib factor-side lemma,
+one namespace qualification and an addition-order normalization. None was
+checked by Lean. All259 supplied mathematical files keep their exact hashes
+and byte sizes. See evidence/upper-cases-source-2026-10-15.json for exact module
+selection, source hashes, import DAG, literal registry arithmetic and resource
+census. Stable selection:5468 project+3234 external=8702 modules,511297 source
+lines; including all cache/runtime tools and compiled package configs:8831. Later concurrent WIP is excluded from that checkpoint selection.
+
+Keep the whole proof including libraries and setup under10000 modules;8000 is
+preferred. Recount at each integration. Do not restore old expanded forests.
+Finish both genuine original-case endings before adding their registry terms,
+then supply the unrestricted final theorem. The manual GitHub path remains
+prepared but unlaunched; do not invoke local Lean/Lake or start CI in this phase.
+Ordinary Git commit/push of reviewed source and exact continuation notes remains
+authorized. Continue working after saving; this guide is not a pause request.

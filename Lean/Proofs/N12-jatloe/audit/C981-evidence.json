@@ -1,0 +1,251 @@
+{
+  "format": "n12-refactor-c981-audit-v1",
+  "date": "2026-10-10",
+  "archive": "LOCAL_PATH/C981-progress-2026-10-10.zip",
+  "archive_bytes": 24508614,
+  "archive_sha256": "b51a47bfc4c6c214303c5f016d6f0ad47ae0e9a6cd5fcee468df572059c7434d",
+  "archive_expanded_bytes": 119956768,
+  "manifest_entries_verified": 497,
+  "manifest_failures": [],
+  "verification_scope": "All bytes, SHA256 values and declared Git blob hashes match included manifest; counts independently reparsed from actual Lean source. No Lean or geometry certificate replay.",
+  "c981_lean_files": 136,
+  "c981_lean_newlines": 968001,
+  "c981_lean_bytes": 106652779,
+  "all_resident_lean_files": 292,
+  "all_resident_lean_newlines": 983353,
+  "counts": {
+    "representatives": 117,
+    "unique_assignments": 221,
+    "source_resolved_representatives": 62,
+    "remaining_representatives": 55,
+    "source_resolved_assignments": 118,
+    "remaining_assignments": 103
+  },
+  "independent_source_predicate_recount": "PASS;117/221 total,62/118 source-connected,55/103 pending; diagonal involution yields13fixed representatives",
+  "remaining_representatives": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    7,
+    8,
+    19,
+    20,
+    21,
+    24,
+    26,
+    28,
+    29,
+    30,
+    34,
+    37,
+    39,
+    41,
+    43,
+    44,
+    45,
+    46,
+    47,
+    49,
+    50,
+    51,
+    52,
+    53,
+    56,
+    59,
+    67,
+    68,
+    69,
+    71,
+    72,
+    73,
+    75,
+    76,
+    77,
+    78,
+    79,
+    93,
+    96,
+    103,
+    104,
+    105,
+    107,
+    108,
+    109,
+    111,
+    112,
+    113,
+    114,
+    115
+  ],
+  "new_exclusions": 0,
+  "actual_lean_replay": false,
+  "source_hashes": {
+    "CaseVectors.lean": "12cec78e2c2b46fe4d6ffcc1fcddb2bd216a0a5c50600e76b0ebede9d4ec21c8",
+    "Remaining.lean": "36758317fe197703e161c81cbbf478e5dc29454ee4836480b42eb080c211a7cd",
+    "PartialStripState.lean": "0b5eaf7d89d1c93a8d0d38a1878af1d5de97a4c90534667dca393f15e184364c",
+    "PartialStripTrace.lean": "30fa02d8cdabf756c4bf804dd712df4867f9bafb561d47c9a09d11a7ad4e986d",
+    "PartialStripV108.lean": "fb1a334f2017fef9135fd2f55feb2162a717dd4c97609542e78d4912ec3db10f"
+  },
+  "new_refactor_source": [
+    {
+      "path": "Compact/Geometry/BorderEndpoint.lean",
+      "bytes": 8955,
+      "newline_count": 208,
+      "sha256": "2d56d74bc7070b778f3b6d0844efb2d776983d106a022b113a3469765772d5e5",
+      "lean_checked": false
+    },
+    {
+      "path": "Compact/Cases/C981.lean",
+      "bytes": 4222,
+      "newline_count": 89,
+      "sha256": "18c93c76319d28cc5659544558cb0ce17bed3ff54fff336ffbe3b56d189c430c",
+      "lean_checked": false
+    },
+    {
+      "path": "Compact/Bridge/BorderEndpoint.lean",
+      "bytes": 4578,
+      "newline_count": 100,
+      "sha256": "711c58103b0c33a1cb9e09aef126d118ddc214dce85fc5f423f5dacf81905a71",
+      "lean_checked": false
+    }
+  ],
+  "positive_endpoint": "Ordinary Lean source now includes exact rational half-angle bounds and original OpenSquare membership bridge, including separate zero-angle case. Source not compiled by this agent; no case entrance bounds or complete case exclusion supplied.",
+  "unproven_goal": "S12Completion.C981.excluded",
+  "largest_modules": [
+    {
+      "path": "SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V110Trace.lean",
+      "bytes": 5434909,
+      "newline_count": 88188
+    },
+    {
+      "path": "SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V82Trace.lean",
+      "bytes": 5126828,
+      "newline_count": 84438
+    },
+    {
+      "path": "SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V102Trace.lean",
+      "bytes": 4980321,
+      "newline_count": 82748
+    },
+    {
+      "path": "SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V83Trace.lean",
+      "bytes": 4659070,
+      "newline_count": 76375
+    },
+    {
+      "path": "SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V58Pairs.lean",
+      "bytes": 2847697,
+      "newline_count": 48687
+    },
+    {
+      "path": "SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V98Pairs.lean",
+      "bytes": 1770679,
+      "newline_count": 30191
+    },
+    {
+      "path": "SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V101Pairs.lean",
+      "bytes": 1602000,
+      "newline_count": 27189
+    },
+    {
+      "path": "SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/SharedPairs.lean",
+      "bytes": 802814,
+      "newline_count": 13100
+    }
+  ],
+  "original_bridge_closure": {
+    "modules": 12,
+    "bytes": 52075,
+    "lines": 1246,
+    "all_already_resident": true,
+    "new_source_bytes_copied": 0,
+    "files": [
+      {
+        "module": "S12.MarkerCoverGeometry",
+        "bytes": 5884,
+        "lines": 124,
+        "sha256": "a810cb3aaaf8ff518771cee0c51e8ad5e068cd4a6bab268eafc1dcb9b5f6bdec",
+        "exact_zip_source_match": true
+      },
+      {
+        "module": "S12.MarkerCoverGeometryBase",
+        "bytes": 4827,
+        "lines": 141,
+        "sha256": "5dcb8475286e49a38dde7fb234cb3a8750a4cb6c0f177d032a97cf6e1d14f47e",
+        "exact_zip_source_match": true
+      },
+      {
+        "module": "S12.WallRowCover",
+        "bytes": 4321,
+        "lines": 105,
+        "sha256": "cd3fe45c437300f8d675f8b72adbf5e67c8b6b17bcff4cae41c2a0b871524961",
+        "exact_zip_source_match": true
+      },
+      {
+        "module": "S12.CornerCover",
+        "bytes": 3477,
+        "lines": 80,
+        "sha256": "86b4e5224a6b201d9ae3bd5f96fcf965c5981d705bac9202c992fdff805511d0",
+        "exact_zip_source_match": true
+      },
+      {
+        "module": "S12.Symmetry",
+        "bytes": 3485,
+        "lines": 102,
+        "sha256": "d0ba26ff1b4fd3b1ae6bce9dad5acd4433b96f0acd9a81dfd2e514ddcc20f9f3",
+        "exact_zip_source_match": true
+      },
+      {
+        "module": "S12.ShortCluster",
+        "bytes": 3944,
+        "lines": 91,
+        "sha256": "d321f4ab40cee82d261c331bd72cbc1580da6feee0591b7d8039474b3d083576",
+        "exact_zip_source_match": true
+      },
+      {
+        "module": "S12.Diameter",
+        "bytes": 1783,
+        "lines": 51,
+        "sha256": "9c4caa1a18260c48e910251d0b003f59ad81bfc41fedad0d5ab8933c191e910f",
+        "exact_zip_source_match": true
+      },
+      {
+        "module": "S12.Markers",
+        "bytes": 3042,
+        "lines": 56,
+        "sha256": "f5983312697b11014b9d328d0978f8cb49334fbffb78c6c4a35f0814485a6e7b",
+        "exact_zip_source_match": true
+      },
+      {
+        "module": "S12.Cliques",
+        "bytes": 1919,
+        "lines": 49,
+        "sha256": "2174e9695c051434f829fd120de3b4c41a2c2102f1702a0459407c9549655c1d",
+        "exact_zip_source_match": true
+      },
+      {
+        "module": "S12.Diagonal",
+        "bytes": 9709,
+        "lines": 228,
+        "sha256": "829bdc2553ec36b8ecf529fab6f0d372ecf1003b9695089dd864996b2851e8f6",
+        "exact_zip_source_match": true
+      },
+      {
+        "module": "S12.WallGeometry",
+        "bytes": 3955,
+        "lines": 95,
+        "sha256": "c4349ce9c0b9893731886c67ea5a725da50228d32d2b57fff1a27ba26cf9cb68",
+        "exact_zip_source_match": true
+      },
+      {
+        "module": "S12.TriangleCover",
+        "bytes": 5729,
+        "lines": 124,
+        "sha256": "2ae750605f38c11308bbad688beb5f1686f60390dadb30d09a02c883607b0733",
+        "exact_zip_source_match": true
+      }
+    ]
+  }
+}

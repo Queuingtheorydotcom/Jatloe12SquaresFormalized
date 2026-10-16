@@ -1,0 +1,469 @@
+{
+  "scope": "Lossless compression of inactive duplicate C898 provenance only; exact decompressed-byte verification before removing plain copy",
+  "files": [
+    {
+      "path": "vendor/S12/Push898Chunk0.lean",
+      "compressed_path": "vendor/S12/Push898Chunk0.lean.gz",
+      "source_bytes": 2987900,
+      "compressed_bytes": 448243,
+      "source_sha256": "f660361c2e9e56a5fee617c4cbccbf10fdfc06847709bc10d379bd6023d8f72c"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk1.lean",
+      "compressed_path": "vendor/S12/Push898Chunk1.lean.gz",
+      "source_bytes": 2967987,
+      "compressed_bytes": 409891,
+      "source_sha256": "f553388ac0ec084e03dd4c71a68c50ac00fdcb71a01e9ec9a458fa981fcd20e7"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk10.lean",
+      "compressed_path": "vendor/S12/Push898Chunk10.lean.gz",
+      "source_bytes": 2687291,
+      "compressed_bytes": 623742,
+      "source_sha256": "333f374b86d593152a3b4079ce73926929db9b72ddc0ee25986e75bb4cd79f81"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk11.lean",
+      "compressed_path": "vendor/S12/Push898Chunk11.lean.gz",
+      "source_bytes": 2963501,
+      "compressed_bytes": 661332,
+      "source_sha256": "162800ac9228864b24a326d11c26efb82b9be2c0ca6c1be1e32e09de2c708f3c"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk12.lean",
+      "compressed_path": "vendor/S12/Push898Chunk12.lean.gz",
+      "source_bytes": 2979187,
+      "compressed_bytes": 645457,
+      "source_sha256": "76a9ff5bff0fd37f2e5724b3d1544803fee1a1eecac7830c38be1e8b2a3be688"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk13.lean",
+      "compressed_path": "vendor/S12/Push898Chunk13.lean.gz",
+      "source_bytes": 2914546,
+      "compressed_bytes": 626264,
+      "source_sha256": "c574a2823aedc3c0819b007650eb19b2cb89626ff9e3ff20608269c2783ed0fd"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk14.lean",
+      "compressed_path": "vendor/S12/Push898Chunk14.lean.gz",
+      "source_bytes": 2927766,
+      "compressed_bytes": 643167,
+      "source_sha256": "e85a08f3c01b7bcd055e05991b8f7efc4a2cd18d7362569f9842db7f43ec1c99"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk15.lean",
+      "compressed_path": "vendor/S12/Push898Chunk15.lean.gz",
+      "source_bytes": 2900408,
+      "compressed_bytes": 663677,
+      "source_sha256": "eef5d4a0db390958c1460555ed50b01169cfaa0339c09ea30820b880ee35fa49"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk16.lean",
+      "compressed_path": "vendor/S12/Push898Chunk16.lean.gz",
+      "source_bytes": 2986462,
+      "compressed_bytes": 685537,
+      "source_sha256": "7f753afa5e40e09e5504f747ef70e35272bf9bd2dc61f80b65c92ef3d089050f"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk17.lean",
+      "compressed_path": "vendor/S12/Push898Chunk17.lean.gz",
+      "source_bytes": 2634598,
+      "compressed_bytes": 616752,
+      "source_sha256": "a46b579fdd74ebf38bd51421e8e9578c5fed687047578392a53e6e2314d7a8f9"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk18.lean",
+      "compressed_path": "vendor/S12/Push898Chunk18.lean.gz",
+      "source_bytes": 2581610,
+      "compressed_bytes": 608387,
+      "source_sha256": "d1d3d72990d944cdc9d8b11f46f7d12a5f3703c8da8f03eb5fd45036a2a31939"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk19.lean",
+      "compressed_path": "vendor/S12/Push898Chunk19.lean.gz",
+      "source_bytes": 2990090,
+      "compressed_bytes": 621558,
+      "source_sha256": "6d8a54d3d05a4f5b463ce892e9549274edccb6a3337eaf3b63a1600da6dcb25d"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk2.lean",
+      "compressed_path": "vendor/S12/Push898Chunk2.lean.gz",
+      "source_bytes": 2889143,
+      "compressed_bytes": 473304,
+      "source_sha256": "a5a97fa98a310260757026b1ce8b2d382b8797a0696a31fb6c2daede83a85a92"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk20.lean",
+      "compressed_path": "vendor/S12/Push898Chunk20.lean.gz",
+      "source_bytes": 2893659,
+      "compressed_bytes": 632034,
+      "source_sha256": "988772f4d905ee962a8175990414c260e4d50265fd48038539e43af3ab3bebe2"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk21.lean",
+      "compressed_path": "vendor/S12/Push898Chunk21.lean.gz",
+      "source_bytes": 2796366,
+      "compressed_bytes": 632248,
+      "source_sha256": "71f844be2a379432d9c056b7cc61b70e76e8eee6affb24dc48d676aed4fa1202"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk22.lean",
+      "compressed_path": "vendor/S12/Push898Chunk22.lean.gz",
+      "source_bytes": 2759583,
+      "compressed_bytes": 624561,
+      "source_sha256": "ede01f5d65e2dd5b15b6fd619c4045e788ce6b8a2b1a693ec265a4190a432d79"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk23.lean",
+      "compressed_path": "vendor/S12/Push898Chunk23.lean.gz",
+      "source_bytes": 2715027,
+      "compressed_bytes": 611808,
+      "source_sha256": "2e413968817c1516aeffb31d86b958f2eda4d63990678494385102f1e90140e7"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk24.lean",
+      "compressed_path": "vendor/S12/Push898Chunk24.lean.gz",
+      "source_bytes": 2707770,
+      "compressed_bytes": 618093,
+      "source_sha256": "32fed4176379ced4994599a7ecb7ba6bf3ef597a8003b6edaab1db54f58a07c9"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk25.lean",
+      "compressed_path": "vendor/S12/Push898Chunk25.lean.gz",
+      "source_bytes": 2858046,
+      "compressed_bytes": 681682,
+      "source_sha256": "573cb55c3eb7109186d23c2764f5a6fbf74b5fc32c497c779c17b6406b63a62b"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk26.lean",
+      "compressed_path": "vendor/S12/Push898Chunk26.lean.gz",
+      "source_bytes": 2948728,
+      "compressed_bytes": 694380,
+      "source_sha256": "c3d00d2743019c8889d39d007abbd973ffbbf09619de6225e0c0b7323d46face"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk27.lean",
+      "compressed_path": "vendor/S12/Push898Chunk27.lean.gz",
+      "source_bytes": 2700317,
+      "compressed_bytes": 582573,
+      "source_sha256": "cd8b545e6c862a59262ee577e5f6b4f5944ee35e630449a3111d586f88e6c4ba"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk28.lean",
+      "compressed_path": "vendor/S12/Push898Chunk28.lean.gz",
+      "source_bytes": 2646689,
+      "compressed_bytes": 579718,
+      "source_sha256": "172107c5ce06341b5f2d9fd1d0bfaf6625c632dbc83bf543d97e0a12753f69d8"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk29.lean",
+      "compressed_path": "vendor/S12/Push898Chunk29.lean.gz",
+      "source_bytes": 2971747,
+      "compressed_bytes": 748776,
+      "source_sha256": "796114c5bfee34c92411b18bea3abfb614a3b4bb1f36e407b37a97a208ecb8b9"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk3.lean",
+      "compressed_path": "vendor/S12/Push898Chunk3.lean.gz",
+      "source_bytes": 2778809,
+      "compressed_bytes": 664984,
+      "source_sha256": "d598705d4c77d678ce8fff9b538412816dc8298696dbd53fa7095969ed5e9457"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk30.lean",
+      "compressed_path": "vendor/S12/Push898Chunk30.lean.gz",
+      "source_bytes": 2731120,
+      "compressed_bytes": 782667,
+      "source_sha256": "70d890262f6e791195e4ed385de1fa4dbe8e4f3c2ce2c9044ee6faf833c001f2"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk31.lean",
+      "compressed_path": "vendor/S12/Push898Chunk31.lean.gz",
+      "source_bytes": 2932456,
+      "compressed_bytes": 709340,
+      "source_sha256": "050f219ca1525abe335f0f692731f6b481c7fb9895fbc568b47259997ecde331"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk32.lean",
+      "compressed_path": "vendor/S12/Push898Chunk32.lean.gz",
+      "source_bytes": 2831077,
+      "compressed_bytes": 679923,
+      "source_sha256": "966e49ebd6e21fcf686fb75ac1f36d3abb2027261468ccbc0d58ff94112a0187"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk33.lean",
+      "compressed_path": "vendor/S12/Push898Chunk33.lean.gz",
+      "source_bytes": 2830020,
+      "compressed_bytes": 655452,
+      "source_sha256": "c6d28d075eee473e3e258ef0dbb290bf3958bdbc047a40a06640d6ca1f9ce5cb"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk34.lean",
+      "compressed_path": "vendor/S12/Push898Chunk34.lean.gz",
+      "source_bytes": 2894741,
+      "compressed_bytes": 679701,
+      "source_sha256": "035b3aa99b536e6a1b61d591c22343f0a5035c78a8ce65f88db33e4695e0d061"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk35.lean",
+      "compressed_path": "vendor/S12/Push898Chunk35.lean.gz",
+      "source_bytes": 2963800,
+      "compressed_bytes": 740858,
+      "source_sha256": "2df21bffe80e903cb58b2316cd0c3c75f150792774e2ed6f0f8ab2e532d16d0b"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk36.lean",
+      "compressed_path": "vendor/S12/Push898Chunk36.lean.gz",
+      "source_bytes": 2604055,
+      "compressed_bytes": 612774,
+      "source_sha256": "79a321b77e9445ee536895740eb1642a579f19b2a3574b6f07a32c8c5767dca0"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk37.lean",
+      "compressed_path": "vendor/S12/Push898Chunk37.lean.gz",
+      "source_bytes": 2584468,
+      "compressed_bytes": 596225,
+      "source_sha256": "06456a8720ad29144c83d139eea9f0858909c0a496205cdea5d568552d0e599e"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk38.lean",
+      "compressed_path": "vendor/S12/Push898Chunk38.lean.gz",
+      "source_bytes": 2613292,
+      "compressed_bytes": 603459,
+      "source_sha256": "e56b5bbdb34f741c0c97a2903f80403e8a1b2508484147066b50a10e4b5985c7"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk39.lean",
+      "compressed_path": "vendor/S12/Push898Chunk39.lean.gz",
+      "source_bytes": 2978814,
+      "compressed_bytes": 709048,
+      "source_sha256": "ca806b7dddf7372e6d38cfd4b31317a75dc26b183321005ffb030322982c683f"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk4.lean",
+      "compressed_path": "vendor/S12/Push898Chunk4.lean.gz",
+      "source_bytes": 2809730,
+      "compressed_bytes": 679281,
+      "source_sha256": "0d43a9000f17d5945c8d9120f1d07546e87dc3ed84545960342d36ebf29738c0"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk40.lean",
+      "compressed_path": "vendor/S12/Push898Chunk40.lean.gz",
+      "source_bytes": 2856681,
+      "compressed_bytes": 612179,
+      "source_sha256": "449210a565cc215110044dd792d2804260463fbee5a0e26ed15262c53ffd3580"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk41.lean",
+      "compressed_path": "vendor/S12/Push898Chunk41.lean.gz",
+      "source_bytes": 2840974,
+      "compressed_bytes": 578859,
+      "source_sha256": "500a43311b37be81a78e813ee67ec6611091eb25b02136b969b118d8d830c9c3"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk42.lean",
+      "compressed_path": "vendor/S12/Push898Chunk42.lean.gz",
+      "source_bytes": 2982601,
+      "compressed_bytes": 515118,
+      "source_sha256": "906f50b3e98b7ce2e3a0e5e0fe928d892fbb83343976c2d9aeed41bbf95454b0"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk43.lean",
+      "compressed_path": "vendor/S12/Push898Chunk43.lean.gz",
+      "source_bytes": 2853905,
+      "compressed_bytes": 576307,
+      "source_sha256": "940ced62efdc9eaff6d12ce93a262286bc9fa3bb21799e58fbc0d5661c2213c7"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk44.lean",
+      "compressed_path": "vendor/S12/Push898Chunk44.lean.gz",
+      "source_bytes": 2928551,
+      "compressed_bytes": 613293,
+      "source_sha256": "a82b75fb2898023a49242cb14614ccfb87f9666d02440527a0e72f3855e671e1"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk45.lean",
+      "compressed_path": "vendor/S12/Push898Chunk45.lean.gz",
+      "source_bytes": 2656416,
+      "compressed_bytes": 599446,
+      "source_sha256": "a0066f7bd133fa8ad71c441d3dcdd7b54d687cb819d8c635977482f16225abea"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk46.lean",
+      "compressed_path": "vendor/S12/Push898Chunk46.lean.gz",
+      "source_bytes": 2714257,
+      "compressed_bytes": 622236,
+      "source_sha256": "b2f7bded2e0830e2de2c8691cce52d0e39857fc9d213923a5c89e206e4f002ec"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk47.lean",
+      "compressed_path": "vendor/S12/Push898Chunk47.lean.gz",
+      "source_bytes": 2823284,
+      "compressed_bytes": 657579,
+      "source_sha256": "181b9d55b8e7d9c040632c728fbb33b005549cc7c0d1e5974980c7eb87290490"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk48.lean",
+      "compressed_path": "vendor/S12/Push898Chunk48.lean.gz",
+      "source_bytes": 2674559,
+      "compressed_bytes": 600205,
+      "source_sha256": "75befe0f51f5d666e28ad24c4358ab7e298060ef0e0d76b406e123495017b764"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk49.lean",
+      "compressed_path": "vendor/S12/Push898Chunk49.lean.gz",
+      "source_bytes": 2924644,
+      "compressed_bytes": 690940,
+      "source_sha256": "0e78f0cb6f332c4721d7fe59f174ac8bf1832626e2099fc86eceb25cdace3e4b"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk5.lean",
+      "compressed_path": "vendor/S12/Push898Chunk5.lean.gz",
+      "source_bytes": 2719813,
+      "compressed_bytes": 614333,
+      "source_sha256": "74411aba38bdf160ad0f095cd27ec6a52c7818014e02964e4eb21ea50852a54f"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk50.lean",
+      "compressed_path": "vendor/S12/Push898Chunk50.lean.gz",
+      "source_bytes": 2872741,
+      "compressed_bytes": 632846,
+      "source_sha256": "8a450232a0a6641e90a89f8b2e5fc4cdad0eceb9fcc187ca334cab4ff1e09830"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk51.lean",
+      "compressed_path": "vendor/S12/Push898Chunk51.lean.gz",
+      "source_bytes": 2841232,
+      "compressed_bytes": 588114,
+      "source_sha256": "7d577b7e4aeef413e2c039304eed366a7b802c519dfb13d03598fa4fac9b2110"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk52.lean",
+      "compressed_path": "vendor/S12/Push898Chunk52.lean.gz",
+      "source_bytes": 2893545,
+      "compressed_bytes": 648138,
+      "source_sha256": "a76f1b4147d09ce58551dac379007bf88488f02d396d49e7977a482959353caa"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk53.lean",
+      "compressed_path": "vendor/S12/Push898Chunk53.lean.gz",
+      "source_bytes": 2883143,
+      "compressed_bytes": 599740,
+      "source_sha256": "eb54a93f5345166557567e22296c3b2a9a08e3d46f5f103291405e0aeca79d4c"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk54.lean",
+      "compressed_path": "vendor/S12/Push898Chunk54.lean.gz",
+      "source_bytes": 2981994,
+      "compressed_bytes": 666117,
+      "source_sha256": "6fc704a17517ea604a42a6bdabd6595279885612b80ce4a19716c4db0dc5b939"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk55.lean",
+      "compressed_path": "vendor/S12/Push898Chunk55.lean.gz",
+      "source_bytes": 2643908,
+      "compressed_bytes": 606821,
+      "source_sha256": "10a411776a7b35cc108490c70516efeb68ce0296bddcb9f3546adab17e55bf04"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk56.lean",
+      "compressed_path": "vendor/S12/Push898Chunk56.lean.gz",
+      "source_bytes": 2722065,
+      "compressed_bytes": 573851,
+      "source_sha256": "7c36503c95458e743655d864bb9c70f18f90bb549d73b07c425944c60cefabc5"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk57.lean",
+      "compressed_path": "vendor/S12/Push898Chunk57.lean.gz",
+      "source_bytes": 2814215,
+      "compressed_bytes": 609884,
+      "source_sha256": "bbd0106554234bd78b9f02cc8000818071086e90e3fc46bd6a3be74b1cebe21b"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk58.lean",
+      "compressed_path": "vendor/S12/Push898Chunk58.lean.gz",
+      "source_bytes": 2957555,
+      "compressed_bytes": 649700,
+      "source_sha256": "3d706c326091a6a7891ed5ea2ae6ae6264eca212fefbf0bb47bb70d1c4f25abc"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk59.lean",
+      "compressed_path": "vendor/S12/Push898Chunk59.lean.gz",
+      "source_bytes": 2999095,
+      "compressed_bytes": 658321,
+      "source_sha256": "3fb3091f4c50444a406e70c0b66f47964f774dd2d19cf85919fb37a927da0aa8"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk6.lean",
+      "compressed_path": "vendor/S12/Push898Chunk6.lean.gz",
+      "source_bytes": 2974689,
+      "compressed_bytes": 653366,
+      "source_sha256": "3666f26ecf0c8a6394223e1411689fafe2559920da5caa319f9209b480249344"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk60.lean",
+      "compressed_path": "vendor/S12/Push898Chunk60.lean.gz",
+      "source_bytes": 2980979,
+      "compressed_bytes": 806378,
+      "source_sha256": "6301aeb709924e7c58beb9cf09e08eb983ef5dcfee0a1513055a6752c08d301c"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk61.lean",
+      "compressed_path": "vendor/S12/Push898Chunk61.lean.gz",
+      "source_bytes": 2768188,
+      "compressed_bytes": 661673,
+      "source_sha256": "f67b33aa1e982bf2f5b558b877b73919fd7a61f5baf160e2a7b36cae0cbc9344"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk62.lean",
+      "compressed_path": "vendor/S12/Push898Chunk62.lean.gz",
+      "source_bytes": 2730525,
+      "compressed_bytes": 610738,
+      "source_sha256": "d2718bd5e6737eb48953b026b0d375ac289a7257cbea6905057eaba79ebf8e10"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk63.lean",
+      "compressed_path": "vendor/S12/Push898Chunk63.lean.gz",
+      "source_bytes": 2688288,
+      "compressed_bytes": 559674,
+      "source_sha256": "8a2db1a7304fe2ca5db20f77de693c6aa4c4e9d9f8dabe6a1ae761298c5c6809"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk64.lean",
+      "compressed_path": "vendor/S12/Push898Chunk64.lean.gz",
+      "source_bytes": 2678297,
+      "compressed_bytes": 543926,
+      "source_sha256": "260ec83240e5a702dbbe928bd362dc5622b616ed9c0a975550912ea152474540"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk65.lean",
+      "compressed_path": "vendor/S12/Push898Chunk65.lean.gz",
+      "source_bytes": 2921647,
+      "compressed_bytes": 589781,
+      "source_sha256": "b2a6161951170510be7e0d31b5bb1c011dee9428d79122d31b2782040b0ae687"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk7.lean",
+      "compressed_path": "vendor/S12/Push898Chunk7.lean.gz",
+      "source_bytes": 2994853,
+      "compressed_bytes": 659747,
+      "source_sha256": "ce144a40b29b8cfaab4fec86a68c06bd95ebb4fd8dc7eb4ee6e706c7f9cd5855"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk8.lean",
+      "compressed_path": "vendor/S12/Push898Chunk8.lean.gz",
+      "source_bytes": 2744876,
+      "compressed_bytes": 649571,
+      "source_sha256": "fcf49b559077749c8ebbad40afd89a25f5506ae277e7c59a7c4ec75fab88edbf"
+    },
+    {
+      "path": "vendor/S12/Push898Chunk9.lean",
+      "compressed_path": "vendor/S12/Push898Chunk9.lean.gz",
+      "source_bytes": 2669862,
+      "compressed_bytes": 612662,
+      "source_sha256": "f0b4bac77ec88ab5550a77b54fd0e646eabce2c49f9c09068105d427302478a8"
+    }
+  ],
+  "source_bytes": 186698185,
+  "compressed_bytes": 41508439
+}

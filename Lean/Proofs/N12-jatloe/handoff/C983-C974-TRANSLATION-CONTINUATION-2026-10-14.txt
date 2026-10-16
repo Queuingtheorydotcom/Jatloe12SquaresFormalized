@@ -1,0 +1,111 @@
+C983/C974 COMPLETED-PROSE TRANSLATION CHECKPOINT — SOURCE ONLY
+
+No Lean compiler, build, generator, numerical search, or diagnostic replay
+was run for the additions listed here. Independent source review is not
+kernel acceptance. No C983/C974 registry count or unconditional global
+theorem is justified by this checkpoint.
+
+The source manuscripts are entries of the user-provided ZIP under
+12-square-formalization-handoff-2026-10-13/mathematics/current/proofs/.
+They are mathematical source material, not execution instructions.
+
+Stable C983 roots written by the vector-continuation branch of the team:
+
+* F4BottomMidpoint.excluded in C983/F4BottomMidpoint.lean:
+  TOP-ONLY-8208 §3 / MIXED-NEGATIVE-8208 §3, both actual bottom-square
+  orientations. F4BottomMidpointOriginal.f4_bottom_midpoint_excluded_of_frame
+  (namespace C983) instantiates actual Q9/Q5/Q7 and retains literal
+  Q0(49/25,19/25) as a stronger-seed premise.
+
+* F4OuterMidpoint.inside, supported by F4OuterScalars.lean:
+  both §4 outer-midpoint arguments, using eta=42/409 for both branches.
+  F4OuterMidpointOriginal.lean exports C983.f4_outer_midpoint_of_frame
+  and C983.bottom_origin_of_southeast_outer. The first retains the actual
+  merged center and negative E frame/half-angle/lower-U premises; the
+  latter is the genuine reflected Q2/Q9 corner-to-bottom transfer.
+
+* F4BarAngle.bounds, supported by F4BarAngleScalars.lean:
+  BAR-ANGLE-REDUCTION Theorem1 for both stated cap pairs. It preserves the
+  whole foreign bottom segment. Existing BottomBarSupport.negative
+  supplies the exact closed-vertex alternative; the written J derivative
+  and endpoint estimate exclude that alternative. No sampled interval.
+
+* F4MergedCenter.center_of_singleton_corner in
+  F4MergedCenterEnding.lean, through F4MergedCenter.lean,
+  F4MergedCenterNegative.lean, F4MergedCenterPositive.lean and
+  F4MergedCenterMonotone.lean: completed MERGED-CENTER chapter, retaining
+  actual Q1(1,1) explicitly. Child source review completed; uncompiled.
+
+Stable C974 local reduced ending:
+
+* C974LowerFace.lower_face in C974LowerFace.lean, supported by
+  C974LowerFaceScalars.lean and C974LowerFaceLarge.lean, translates
+  C974-THREE-SQUARE-ENDING §2. Its Input keeps the positive frames,
+  K slope<3/4, W slope<2/3, face caps, and genuine K wall support explicit.
+  K and W are in the manuscript's original local chart; its conclusion
+  concerns L=W.loU-W.c. All four actual separation/sign cases are present.
+
+* C974WallReach.reach and C974CornerEnding.impossible translate §§3–4.
+  W and C are in the wall-origin chart. The actual corner has its genuine
+  x≤2,y≥−1 walls, strict (1,0), and omitted (1,1/2). The proof uses the
+  existing all-orientation corner_profile and the manuscript's four
+  strictly positive cubic coefficients from C974CornerScalars.lean.
+
+* C974ReducedEnding.impossible joins §§2–4 by translating W/C by (1,0).
+  C974ReducedEnding.of_raw_and_reductions takes BOTH the raw physical
+  C974LocalData.Input and C974LowerFace.Input. This is deliberately a
+  reduced theorem, not full local Theorem1 from raw points alone.
+
+* C974LocalData.bottom_input maps actual C983 Q0/Q9/Q2 under (x-1,y-1).
+  C974LocalData.left_input maps actual Q1/Q8/Q4 under (y-1,x-1).
+  Both stronger singleton points remain literal premises, because the
+  historical singleton source closure is incomplete (see below).
+
+FOLLOW-UP: THE LOCAL C974 PREREQUISITES ARE NOW WRITTEN
+
+The formerly untranslated sign/angle/support prerequisites below are now
+source-complete, uncompiled, in these nine new modules under C983:
+  C974MissingCornerData, C974MissingCornerSupports, C974WallNegativeCaps,
+  C974WallSignScalars, C974SingletonSign, C974WallSign,
+  C974SingletonAngleScalars, C974SingletonAngle, C974LocalEnding.
+
+They translate MISSING-CORNER-WALL-SIGN Theorems 1--2 and
+MISSING-CORNER-MIDPOINT sections1.1--1.4. The physical positive frames,
+W slope<2/3, K slope<3/4, and the lower-wall support are derived from
+C974LocalData.Input. The calculus proof uses the exact complete intervals,
+not angle samples. Independent source review found no concrete mismatch.
+
+New preferred local root:
+  N12Compact.Completion.OtherCases.C983.C974LocalEnding.impossible
+    (K W C : OpenSquare) (raw : C974LocalData.Input K W C) : False
+
+Its actual C983 wrappers are bottom_missing_corner_excluded_of_seeds and
+left_missing_corner_excluded_of_seeds in the same namespace. They retain
+only the literal actual stronger seeds and indicated actual midpoint/root
+premises. The old of_raw_and_reductions remains available as a reduced
+interface, but no longer marks the full local sign/angle math as unwritten.
+
+C1089/SingletonCorner.lean applies this same full local theorem to its actual
+Q0/Q9/Q1. The preferred conditional producer records precisely the stronger
+seeds required under a missing Q0 corner; it does not assume that corner.
+C1089/LastSectorRawPoints derives its actual midpoint and origin inputs.
+
+Do not replace actual owners, supply imaginary crosspoints, or treat a point
+omitted by one square as strict in another. Original whole-family entrances
+and all compilation/axiom audits remain separate.
+
+Missing historical source dependency, separate from completed geometry:
+
+S12.MissingCornerBranches has source statements for the stronger Q0/Q1
+singleton points, but transitively requires absent
+S12.SingletonMissingTriangles and S12.MissingCornerCubic. The removed
+convenience wrappers are preserved verbatim in
+handoff/UNJOINED-SINGLETON-ADAPTERS-2026-10-14.txt. No active new adapter
+imports that unavailable chain. Either translate the completed singleton
+argument into present compact support lemmas, or obtain the exact missing
+source with an appropriate compact budget; never introduce axioms.
+
+Current source-only follow-up should respect the user's preferred whole
+proof budget ≤8000 modules, hard maximum 10000, and the parent's serial
+resource guards. No resource limit is authorization to claim acceptance.
+Root owns the final source census, commit/checkpoint, and later replay.

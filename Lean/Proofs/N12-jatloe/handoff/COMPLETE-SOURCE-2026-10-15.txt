@@ -1,0 +1,93 @@
+COMPLETE N12 LEAN SOURCE, 2026-10-15
+
+DELIVERABLE
+Repository: https://github.com/EvolvingPrograms/SquaresLean
+Branch: n12
+Project directory: projects/n12-refactored
+Public entry: Compact/Assembly/Final.lean
+Theorem: N12Compact.Final.optimality : S12.packingConstant12 = 4
+Top-level Compact.lean imports this theorem and the reusable rules.
+
+All117 original case obligations are registered as actual ExcludesCase proof
+terms. SourceAssembly.pendingIds is empty, pending_closed supplies the old
+interface, and Final.optimality has no remaining mathematical hypotheses.
+The original arbitrary-orientation square model, strict interior disjointness,
+legal boundary contact, normalization, finite classification and attaining
+4-by-3 grid construction are retained.
+
+VERIFICATION STATUS
+The source is complete as written, but has not been compiled. The user asked
+for full source without compilation. No local Lean/Lake command, certificate
+replay, numerical search or GitHub workflow was run in this final phase.
+Independent source reviews and Python integrity/import/count checks are not
+Lean acceptance. Compile and repair any elaboration issues before treating
+this as a machine-checked theorem. The original native_decide certificates
+retain native compiler trust; no new native proof site was added.
+
+FINAL SIMPLIFICATION
+C700, original row381, is excluded by actual singleton1 and singleton2 both
+strictly containing(1,1). Each ownership follows by contradiction from the
+same complete C974LocalEnding.impossible theorem, instantiated with its own
+actual ordinary wall square and paired corner. Real paired corners12/192 and
+opposite wall bars give the two needed wall origins. The missing singleton
+corner produces its stronger seeds through SingletonMissing. Every input is
+from the original family, with the absent NWmarker used only as an omission.
+No southwest orientation split, extra NW owner or merged-square split remains.
+
+New C700 source chain:
+  MergedPending/C700FullCornerOrigin: actual D/R origins, simplified imports
+  MergedPending/C700OppositeOrigins: actual L/T origins
+  MergedPending/C700FullCornerSingleton: actual singleton1 owns(1,1)
+  MergedPending/C700LeftCornerSingleton: actual singleton2 owns(1,1)
+  MergedPending/C700Completion: original family and all retained rows of C700
+All these paths are below Compact/Completion/OtherCases.
+The signed-angle C700 reductions are preserved in the pre-cleanup archive;
+the final C700 ending does not depend on them.
+
+C972, original row503, was completed in the preceding pause checkpoint:
+  Compact/Completion/FiniteCases/C972NortheastPositiveFaces
+  Compact/Completion/FiniteCases/C972NortheastPositiveScalars
+  Compact/Completion/FiniteCases/C972NortheastPositiveEnding
+  Compact/Completion/FiniteCases/C972Completion
+It closes every directed support axis of the actual positive SE/NE pair,
+including both relative angle orders. The final registry includes it.
+
+SOURCE AND RESOURCE AUDIT
+Final theorem: 5375 project modules + 3234 external = 8609 proof modules;
+478643 project source lines. Including two cache helper entries, compiled
+package configurations, their external dependency union and one final-type
+audit module: 8739 modules.
+The earlier broader selection (8760 proof modules / 8890 including setup)
+is archived. See N12-CONSOLIDATION-2026-10-15.txt for active-source cleanup.
+Hard cap10000 is met; preferred8000 is exceeded. Counts include source headers.
+
+Evidence: evidence/complete-source-2026-10-15.json
+Exact final project-source file hashes: evidence/final-source-manifest-2026-10-15.json
+All259 supplied original mathematical documents remain hash/size-identical.
+No missing project/library imports or import cycles were found in the final
+selected closure. No sorry/admit/custom axiom/unsafe token appears in its
+comment/string-stripped project source. There are2572 inherited native_decide
+sites; the final type/axiom audit is still pending. Unselected historical
+alternatives are archived and are not required by Final.lean.
+
+ENVIRONMENT AND FUTURE VERIFICATION
+Lean: leanprover/lean4:v4.19.0
+Mathlib: c44e0c8ee63ca166450922a373c7409c5d26b00b
+Pinned dependency source/bootstrap/cache tools and the manual GitHub runner
+are already present. Run from the N12 project, not the parent N11 project.
+Reading/validating the plan without compilation:
+  python3 scripts/github_replay.py --plan --profile final
+When compilation is requested, the prepared GitHub command is:
+  gh workflow run verify.yml --repo EvolvingPrograms/SquaresLean \
+    --ref n12 -f target=n12-final -f jobs=auto -f resume_run=auto
+The runner sizes itself to available CPU/RAM and stops after five hours from
+job setup to save completed modules. Repeat that command to resume; see the
+runner guide for checkpoint compatibility, retention and final audit status.
+See handoff/GITHUB-REPLAY.txt for limits and artifact paths.
+No workflow has been dispatched. Final replay must elaborate the exact
+unconditional type and audit the allowed axioms; it must reject admissions.
+Do not weaken the theorem or substitute a historical receipt when repairing.
+
+The earlier PAUSED and continuation notes are historical checkpoints. The user
+resumed and requested this full source assembly; their pending-case counts and
+pause directives no longer describe this revision.

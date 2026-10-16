@@ -1,0 +1,50 @@
+UNJOINED SINGLETON CONVENIENCE ADAPTERS — SOURCE TEXT ONLY
+
+These wrappers were removed from active Lean imports on 2026-10-14.
+The source statement S12.singleton_zero_missing_points exists in
+source/S12/MissingCornerBranches.lean, but its source closure is incomplete:
+S12.SingletonMissingTriangles and S12.MissingCornerCubic are absent from
+the current checkout and supplied handoff ZIP. Do not restore a large
+historical tree, add axioms, or treat the displayed wrappers as accepted.
+
+The active F4BottomMidpointOriginal theorem therefore retains literal
+Q0(49/25,19/25) as its explicit seed premise. C974LocalData.bottom_input
+and left_input retain both exact stronger singleton seed points explicitly.
+No active C983 module imports S12.MissingCornerBranches for these wrappers.
+
+Preserved prospective source, namespace
+N12Compact.Completion.OtherCases.C983, open S12 S12Pilot:
+
+theorem southwest_seeds_of_missing_corner (p : NormalizedPacking)
+    (hf : codedMarkerFamily p=family) (missing : ¬(owners p 0).Inside 1 1) :
+    (owners p 0).Inside (91/50) 1 ∧ (owners p 0).Inside (49/25) (19/25) := by
+  have markers : ExactMarkers (owners p 0) {0} := by
+    have identity : maskSupport (ownerCode 0)=({0} : Finset Marker) := by decide +kernel
+    simpa only [identity] using owners_markers p hf 0
+  exact singleton_zero_missing_points (owners p 0) (owners_side p 0)
+    (owners_cap p 0) (owners_contained p 0) markers missing
+
+theorem southwest_seeds_of_left_corner (p : NormalizedPacking)
+    (hf : codedMarkerFamily p=family) (corner : (owners p 1).Inside 1 1) :
+    (owners p 0).Inside (91/50) 1 ∧ (owners p 0).Inside (49/25) (19/25) :=
+  southwest_seeds_of_missing_corner p hf
+    (fun own => owners_apart p hf 0 1 (by decide +kernel) _ _ ⟨own,corner⟩)
+
+theorem f4_bottom_midpoint_excluded_of_missing_corner (p : NormalizedPacking)
+    (hf : codedMarkerFamily p=family) (f4 : 4∈actual p 7)
+    (E : OpenSquare) (t : ℝ) (shape : E.side=(owners p 5).side)
+    (physical : ∀ x y,E.Inside x y ↔ (owners p 5).Inside (x+2) (y+2))
+    (data : F4BottomMidpoint.SoutheastData E t)
+    (missing : ¬(owners p 0).Inside 1 1) : ¬(owners p 9).Inside 2 (3/2) :=
+  f4_bottom_midpoint_excluded_of_frame p hf f4 E t shape physical data
+    (southwest_seeds_of_missing_corner p hf missing).2
+
+The corresponding Q1 prospective seed application, after its exact
+singleton marker contract has been established, is:
+
+  singleton_one_missing_points (owners p 1) (owners_side p 1)
+    (owners_cap p 1) (owners_contained p 1) exactMarkers missing
+
+with conclusion Q1(1,91/50) and Q1(19/25,49/25). Its closure has the same
+missing source dependencies. This text is a continuation note, not Lean
+source and not a proof certificate.

@@ -1,0 +1,468 @@
+{
+  "schema": "n12-preferred-source-delivery-v1",
+  "snapshot_date": "2026-10-11",
+  "purpose": "Resolve and count the complete retained preferred local source, including independent mathematical progress and explicit remaining contracts. This is not an acceptance receipt or a complete proof.",
+  "roots": [
+    "Compact.Assembly.RefactorInventory",
+    "Compact.Cases.C898.CompleteCached",
+    "Compact.Cases.C713.Assembly",
+    "Compact",
+    "Compact.Assembly.CaseSlots",
+    "Compact.Cases.C898.CachedPairs.Step04Geometric",
+    "Compact.Cases.C898.PairStep14CommonPoint",
+    "Compact.Bridge.IndexedCommonPoint",
+    "Compact.Bridge.DirectPruningPlan",
+    "Compact.Core.SupportEnvelope",
+    "Compact.Core.SupportMargin",
+    "Compact.Core.EmptyContext",
+    "Compact.Core.C696SupportFixture",
+    "Compact.Bridge.IndexedCachedPairPlans",
+    "Compact.Bridge.RegionOwner",
+    "Compact.Bridge.RegionTraversalOwner",
+    "Compact.Geometry.FourSquareA",
+    "Compact.Geometry.C898ForcedRow",
+    "Compact.Geometry.CentralBarTwoRows",
+    "Compact.Geometry.CentralCross",
+    "Compact.Geometry.CentralPairPoint",
+    "Compact.Geometry.CentralSegmentAngle",
+    "Compact.Geometry.ThreeSquareOriginal",
+    "Compact.Geometry.TwoSections",
+    "Completion.Cases.C977.BorderPoints",
+    "Completion.Cases.C977.PoseEnclosure",
+    "Completion.Cases.C981.CaseVectors",
+    "Compact.Bridge.C696WallCycle",
+    "Compact.Bridge.C977OppositeWallCenters",
+    "Compact.Bridge.C977OppositeWallExtras",
+    "Compact.Cases.C981Compact",
+    "Compact.Geometry.C1092WallPhysical",
+    "Compact.Geometry.C849PositiveAbove",
+    "Compact.Bridge.C1092WallCycle",
+    "Compact.Geometry.C1092WallRelaxation",
+    "Compact.Bridge.C977CentralWingReach",
+    "Compact.Assembly.SourceAssembly",
+    "Compact.Assembly.ContinuousRemaining",
+    "Compact.Bridge.C977RightCornerSupport",
+    "Compact.Bridge.C977CenterCaps",
+    "Compact.Geometry.C977CenterPairSeparation",
+    "Compact.Bridge.C977CenterOpposedChains",
+    "Compact.Bridge.C977NortheastShift",
+    "Compact.Geometry.CentralRightIncomingPositive",
+    "Compact.Geometry.CentralRightIncomingOrdered",
+    "Compact.Bridge.C977CenterIncoming",
+    "Compact.Geometry.NegativeCornerRightShiftAxes",
+    "Compact.Geometry.UpperRightNegativeCornerPositiveTop",
+    "Compact.Bridge.C981DiagonalWallElbows",
+    "Compact.Bridge.C977CenterIncomingCorner",
+    "Compact.Geometry.FullAuxWallPositiveUpperAxes",
+    "Compact.Geometry.FullAuxWallLeftResidual",
+    "Compact.Geometry.FullAuxWallRightMargin",
+    "Compact.Cases.C849851.Positive",
+    "Compact.Geometry.ReentrantCorridor",
+    "Compact.Geometry.C1092WindmillGap",
+    "Compact.Geometry.CornerInwardPoint",
+    "Compact.Geometry.C981CoupledSector",
+    "Compact.Geometry.C849NegativeCorner",
+    "Compact.Preservation.Complete.All",
+    "Compact.HistoricalCommon.All",
+    "Compact.HistoricalDirectPruning",
+    "Compact.Cases.C849851.Complete",
+    "Compact.Cases.C1092Compact",
+    "Compact.Bridge.C696CentralReach",
+    "Compact.Bridge.C981CoupledSector",
+    "Compact.Geometry.C977SingletonSeparation",
+    "Compact.Assembly.MergedTopFurther",
+    "Compact.Bridge.C977CornerReach",
+    "Compact.Bridge.C696NegativeCentral",
+    "Compact.Bridge.C981CentralOuter",
+    "Compact.Assembly.OppositeCentralWalls",
+    "Compact.Bridge.C981WallElbows",
+    "Compact.Cases.C868.PositiveSector",
+    "Compact.Cases.C868.NegativeCornerSector",
+    "Compact.Geometry.C868UpperPointNegative",
+    "Compact.Geometry.IncreasingSegmentAvoidance",
+    "Compact.Geometry.PositiveCentralNegativeBottom",
+    "Compact.Geometry.PositiveCentralWallAngleOrder",
+    "Compact.Geometry.LeftSingletonWallSeparation",
+    "Compact.Geometry.PositiveCentralPositiveBottom",
+    "Compact.Geometry.LeftSingletonNegativeWallLongitudinal",
+    "Compact.Geometry.PositiveCentralNegativeFloor",
+    "Compact.Geometry.PositiveWallEscapeFaces",
+    "Compact.Geometry.PositiveWallUpperVImpossible",
+    "Compact.Geometry.NegativeWallTopSeed",
+    "Compact.Geometry.CornerWallSharedAxis",
+    "Compact.Geometry.CornerWallMixedAxis",
+    "Compact.Geometry.CornerWallOtherMixed",
+    "Compact.Geometry.MergedLeftEscapeAux",
+    "Compact.Geometry.CornerBudgetReach",
+    "Compact.Geometry.CornerOuterOrderEndpoint",
+    "Compact.Geometry.CornerOuterOrderMonotone",
+    "Compact.Bridge.C981DoubleWallElbows",
+    "Compact.Geometry.PositiveCentralEscapeOrder",
+    "Compact.Geometry.CornerWallLastPositive",
+    "Compact.Geometry.CornerWallNegativeShared",
+    "Compact.Geometry.CornerWallNegativeMargin",
+    "Compact.Geometry.MergedLeftNegative",
+    "Compact.Bridge.C977PositiveCornerOrder",
+    "Compact.Bridge.C977OwnedWestCorner",
+    "Compact.Bridge.C977NegativeLeftWest",
+    "Compact.Bridge.C977PositiveBottomWest",
+    "Compact.Bridge.C977PositiveWallOwnedWest",
+    "Compact.Bridge.C977OuterWings",
+    "Compact.Bridge.C696GlobalSections",
+    "Compact.Bridge.C696BoundaryChain",
+    "Compact.Bridge.C696PositiveBottomWest",
+    "Compact.Bridge.C696PositiveWallOwnedWest",
+    "Compact.Bridge.C696NextBottomWall",
+    "Compact.Geometry.PositiveWallNegativeLeftCycle",
+    "Compact.Geometry.PositiveWallMarker",
+    "Compact.Geometry.CornerWallMarkerCycle",
+    "Compact.Geometry.CornerWallMarkerNegativeHighBounds",
+    "Compact.Geometry.FullAuxWallEscape",
+    "Compact.Geometry.FullAuxWallLowerCorner",
+    "Compact.Geometry.FullAuxWallLeftMargins",
+    "Compact.Geometry.FullAuxWallLeftOrder",
+    "Compact.Geometry.FullAuxWallOppositeEscape",
+    "Compact.Geometry.FullAuxWallOppositeAxes",
+    "Compact.Geometry.FullAuxWallTopEndpoint",
+    "Compact.Geometry.FullAuxWallSmallTopAngle",
+    "Compact.Geometry.FullAuxWallNegativeCycle",
+    "Compact.Geometry.FullAuxWallPositiveOpposite",
+    "Compact.Geometry.FullAuxWallPositiveMargins",
+    "Compact.Bridge.C981FullAuxNegative",
+    "Compact.Geometry.CornerWallLowerSupportMargin",
+    "Compact.Geometry.PositiveCentralEscapeLeft",
+    "Compact.Geometry.PositiveCentralCrossMargin",
+    "Compact.Geometry.PositiveCentralPositiveLeft",
+    "Compact.Geometry.CornerWallOrderedCycle",
+    "Compact.Geometry.PositiveWallPositiveLeft",
+    "Compact.Geometry.PositiveCornerSmallBottom",
+    "Compact.Geometry.CornerWallNegativeLarge",
+    "Compact.Geometry.CornerWallNegativeMixed",
+    "Compact.Geometry.CornerWallPositiveLongitudinalBounds",
+    "Compact.Geometry.CornerWallNegativeLeftMargin",
+    "Compact.Bridge.C977WallMiddle",
+    "Compact.Bridge.C977NegativeNeighbor",
+    "Compact.Bridge.C977SignedCentralCorner",
+    "Compact.Bridge.C977BottomNegativeExtendedReach",
+    "Compact.Geometry.CentralNegativeBottomAxes",
+    "Compact.Bridge.C48RightBarOwnership",
+    "Compact.Geometry.OuterTopElbowOpposite",
+    "Compact.Geometry.OuterTopElbowReach",
+    "Compact.Geometry.NegativeBottomCentralAxis",
+    "Compact.Geometry.NegativeBottomOwnTransverse",
+    "Compact.Geometry.NegativeBottomNextAxes",
+    "Compact.Bridge.C977CenterClosure",
+    "Compact.Geometry.OuterTopElbowCentralReach"
+  ],
+  "root_groups": [
+    {
+      "role": "Current whole original cases 84, 696 and 977; current C981 partial progress",
+      "roots": [
+        "Compact.Assembly.ContinuousRemaining",
+        "Compact.Assembly.C84",
+        "Compact.Bridge.C977RightCornerSupport",
+        "Compact.Bridge.C977CenterCaps",
+        "Compact.Geometry.C977CenterPairSeparation",
+        "Compact.Bridge.C977CenterOpposedChains",
+        "Compact.Bridge.C977NortheastShift",
+        "Compact.Geometry.CentralRightIncomingPositive",
+        "Compact.Geometry.CentralRightIncomingOrdered",
+        "Compact.Bridge.C977CenterIncoming",
+        "Compact.Geometry.NegativeCornerRightShiftAxes",
+        "Compact.Geometry.UpperRightNegativeCornerPositiveTop",
+        "Compact.Bridge.C981DiagonalWallElbows",
+        "Compact.Bridge.C977CenterIncomingCorner",
+        "Compact.Bridge.C981FullAuxNegative",
+        "Compact.Geometry.FullAuxWallPositiveUpperAxes",
+        "Compact.Geometry.FullAuxWallLeftResidual",
+        "Compact.Geometry.FullAuxWallRightMargin",
+        "Compact.Bridge.C977WallMiddle",
+        "Compact.Bridge.C977NegativeNeighbor",
+        "Compact.Bridge.C977SignedCentralCorner",
+        "Compact.Bridge.C977BottomNegativeExtendedReach",
+        "Compact.Geometry.CentralNegativeBottomAxes",
+        "Compact.Bridge.C977PositiveBottomWallClosure",
+        "Compact.Bridge.C48RightBarOwnership",
+        "Compact.Geometry.OuterTopElbowOpposite",
+        "Compact.Geometry.OuterTopElbowReach",
+        "Compact.Geometry.NegativeBottomCentralAxis",
+        "Compact.Geometry.NegativeBottomOwnTransverse",
+        "Compact.Geometry.NegativeBottomNextAxes"
+      ],
+      "validation": "Source only, uncompiled. SourceAssembly contains 86 whole original-case source entries and 31 pending original cases. C977CenterClosure.excludes covers the entire original case, including every bottom and central sign. C981 has 42 pending whole vectors, including 34 and 41; C1092 has four open whole-packing sectors. New outer-top geometry is partial, not a whole-vector exclusion. Earlier groups below are historical checkpoints."
+    },
+    {
+      "role": "76 symbolic whole-case source entries and 41 remaining original symbolic contracts; changed registry uncompiled",
+      "roots": [
+        "Compact.Assembly.RefactorInventory"
+      ],
+      "validation": "Historical 58-case registry passed earlier. Eighteen further source entries now cover 71,80,589,590,684,697,698,699,709,849,851,882,890,1075,1077,1078,1081,1083. The changed 76-case registry and its new dependencies await final replay."
+    },
+    {
+      "role": "preferred whole C898 source candidate",
+      "roots": [
+        "Compact.Cases.C898.CompleteCached"
+      ],
+      "validation": "Whole-case replay remains required. CompleteCached selects the current RecipeInitial, cached pair stages, compact relaxation and fused chord route."
+    },
+    {
+      "role": "preferred conditional C713 assembly and its independent outward-relaxation records (candidate representation replaced)",
+      "roots": [
+        "Compact.Cases.C713.Assembly",
+        "Compact.Preservation.Complete.All"
+      ],
+      "validation": "The actual nine C713 source-to-target pair transitions in the direct-pruning candidate replace their pair-only intermediate relaxation links. The original C713.Assembly and all independent mathematical roots remain. This source replacement requires full stage acceptance before real retirement."
+    },
+    {
+      "role": "all retained six-case cyclic fan contexts (candidate representation replaced)",
+      "roots": [
+        "Compact.Preservation.Complete.All"
+      ],
+      "validation": "The full six-case candidate imports genuine fused fan/common consumers and original packing entrances, all113 pair stages and all21 chord stages. All production fused context outputs are retained separately below even when not reached by a final stage. This is a virtual source replacement, awaiting ordinary replay."
+    },
+    {
+      "role": "independent common-point stage and generic point transfer",
+      "roots": [
+        "Compact.Cases.C898.CachedPairs.Step04Geometric",
+        "Compact.Cases.C898.PairStep14CommonPoint",
+        "Compact.Bridge.IndexedCommonPoint"
+      ],
+      "validation": "Generic CommonPoint, C898 point/plan bridges, Step04 numerical checks and the actual original Step04Geometric transition passed. The Step04 module receipt records 3.466 seconds with propext, Classical.choice and Quot.sound only. The original terminal PairStep14CommonPoint passed in 10.396 seconds and is now the production terminal; it uses 61 point checks in place of 424 pair checks. Whole C898 replay remains pending. Shared dependencies are deduplicated."
+    },
+    {
+      "role": "explicit formal skeleton for the original eighteen late cases",
+      "roots": [
+        "Compact.Assembly.CaseSlots"
+      ],
+      "validation": "Preserves every original ExcludesCase slot, including 696,709,974,976,977,981,983,1089,1090,1091,1092. Its eighteen-case reduction is conditional and is not substituted for the accepted full 117-case remaining interface. No nonexistent Compact.Cases.C696 or Compact.Cases.C709 module is assumed."
+    },
+    {
+      "role": "retained independent mathematical and compact-kernel work",
+      "roots": [
+        "Compact",
+        "Compact.Core.SupportEnvelope",
+        "Compact.Core.SupportMargin",
+        "Compact.Core.EmptyContext",
+        "Compact.Core.C696SupportFixture",
+        "Compact.Bridge.DirectPruningPlan",
+        "Compact.Bridge.IndexedCachedPairPlans",
+        "Compact.Bridge.RegionOwner",
+        "Compact.Bridge.RegionTraversalOwner",
+        "Compact.Geometry.FourSquareA",
+        "Compact.Geometry.C898ForcedRow",
+        "Compact.Geometry.CentralBarTwoRows",
+        "Compact.Geometry.CentralCross",
+        "Compact.Geometry.CentralPairPoint",
+        "Compact.Geometry.CentralSegmentAngle",
+        "Compact.Geometry.ThreeSquareOriginal",
+        "Compact.Geometry.TwoSections"
+      ],
+      "validation": "Retain the actual source and transitive dependencies, including valid independent lemmas not used by the current registry. DirectPruningPlan passed in 7.715 seconds and proves the genuine source-to-target transition without intermediate poses; its concrete instances remain separate. Inclusion is not a blanket claim that every other root has a fresh acceptance receipt."
+    },
+    {
+      "role": "original retained catalogue and local enclosure progress",
+      "roots": [
+        "Completion.Cases.C977.BorderPoints",
+        "Completion.Cases.C977.PoseEnclosure",
+        "Completion.Cases.C981.CaseVectors"
+      ],
+      "validation": "Original strict-point and angle-enclosure interfaces plus C981 complete catalogue source. Catalogue source is retained even though its full finite coverage replay is not claimed."
+    },
+    {
+      "role": "new mathematical simplifications and honest remaining-vector assembly",
+      "roots": [
+        "Compact.Bridge.C696WallCycle",
+        "Compact.Bridge.C977OppositeWallCenters",
+        "Compact.Bridge.C977OppositeWallExtras",
+        "Compact.Cases.C981Compact",
+        "Compact.Geometry.C1092WallPhysical",
+        "Compact.Geometry.C849PositiveAbove"
+      ],
+      "validation": "Source-only; no compiler run. Includes actual C696 wall progress, C977 wall/extra exclusions, C98148shared endings plusV116 with68pending full vectors, C1092all-angle physical wall theorem, and one849/851sector. None of these partial late-case results is a whole-case exclusion."
+    },
+    {
+      "role": "Complete source composition of63symbolic and7historical case exclusions",
+      "roots": [
+        "Compact.Assembly.SourceAssembly"
+      ],
+      "validation": "Source only. The seven historical replacements are imported through their complete original-model theorem assemblies. The combined source registry has70entries and47remaining original-case contracts. C981 is connected to its68remaining full-vector obligations. This does not certify any changed source or claim global completion."
+    },
+    {
+      "role": "Original849/851unique ownership andcompletepositivecanonicalBexclusion",
+      "roots": [
+        "Compact.Cases.C849851.Positive"
+      ],
+      "validation": "Uncompiledsource. Existing checked owner domains andtruepackingbudgets force one whole signature ineachcase. Actual geometry excludes allpositivecanonicalBangles; negativeBremains, with alloriginalsquares retained."
+    },
+    {
+      "role": "Additional continuous geometry, retained without claiming whole-case completion",
+      "roots": [
+        "Compact.Geometry.ReentrantCorridor",
+        "Compact.Geometry.C1092WindmillGap",
+        "Compact.Geometry.CornerInwardPoint",
+        "Compact.Geometry.C981CoupledSector"
+      ],
+      "validation": "Source only. The corridor theorem excludes completion of a prescribed eight-square family, not arbitrary C1092 packings. The corner theorem uses the actual square side. The coupled C981 theorem closes a stated angle sector; no whole vector is removed from its pending set."
+    },
+    {
+      "role": "Whole 849/851 source proofs, actual four-sector C1092 ending contract, and frozen C696/C981/C977 mathematical progress",
+      "roots": [
+        "Compact.Cases.C849851.Complete",
+        "Compact.Cases.C1092Compact",
+        "Compact.Bridge.C696CentralReach",
+        "Compact.Bridge.C981CoupledSector",
+        "Compact.Geometry.C977SingletonSeparation"
+      ],
+      "validation": "Source-only mathematical and independent entrance audits. No Lean compilation. C1092 remains four whole-packing obligations; C696/C977 and the remaining C981 vectors remain open."
+    },
+    {
+      "role": "Three whole merged-top cases and continuous corner orientation reductions",
+      "roots": [
+        "Compact.Assembly.MergedTopFurther",
+        "Compact.Bridge.C977CornerReach",
+        "Compact.Bridge.C696NegativeCentral",
+        "Compact.Bridge.C981CentralOuter"
+      ],
+      "validation": "Whole697\u2013699 source independently reviewed for exact original family, strict points, disjointness and all orientations; uncompiled. C696/C977 corner and C981 central-outer bridges are genuine geometric consequences only; they close no further original case or vector."
+    },
+    {
+      "role": "Continuous opposite-central ending and current coupled corner progress",
+      "roots": [
+        "Compact.Assembly.OppositeCentralWalls",
+        "Compact.Bridge.C981WallElbows",
+        "Compact.Cases.C868.PositiveSector",
+        "Compact.Cases.C868.NegativeCornerSector",
+        "Compact.Geometry.C868UpperPointNegative",
+        "Compact.Geometry.IncreasingSegmentAvoidance",
+        "Compact.Geometry.PositiveCentralNegativeBottom",
+        "Compact.Geometry.PositiveCentralWallAngleOrder",
+        "Compact.Geometry.LeftSingletonWallSeparation"
+      ],
+      "validation": "Source and mathematical review only. Eight new whole-case exclusions and 13 newly closed C981 vectors are integrated. C868 covers explicit orientation and corner sectors; the positive-central corner angle-order still assumes the unproved actual left point. No partial sector is counted as a whole original case."
+    },
+    {
+      "role": "Six additional whole C981 vectors and continuous actual corner/merged-left progress",
+      "roots": [
+        "Compact.Geometry.PositiveCentralPositiveBottom",
+        "Compact.Geometry.LeftSingletonNegativeWallLongitudinal",
+        "Compact.Geometry.PositiveCentralNegativeFloor",
+        "Compact.Geometry.PositiveWallEscapeFaces",
+        "Compact.Geometry.PositiveWallUpperVImpossible",
+        "Compact.Geometry.NegativeWallTopSeed",
+        "Compact.Geometry.CornerWallSharedAxis",
+        "Compact.Geometry.CornerWallMixedAxis",
+        "Compact.Geometry.CornerWallOtherMixed",
+        "Compact.Geometry.MergedLeftEscapeAux",
+        "Compact.Geometry.CornerBudgetReach",
+        "Compact.Geometry.CornerOuterOrderEndpoint",
+        "Compact.Geometry.CornerOuterOrderMonotone",
+        "Compact.Bridge.C981DoubleWallElbows"
+      ],
+      "validation": "Source and mathematical review only; no compilation. C981 now has 49 pending whole vectors. New corner support, endpoint and ordered half-angle identities remain partial geometric obligations and are not counted as additional whole original cases. The current combined assembly retains 83 whole-case source entries and 34 pending original cases."
+    },
+    {
+      "role": "Conditional missing-left-point angle order, positive-singleton cycle completion and negative merged-left sector",
+      "roots": [
+        "Compact.Geometry.PositiveCentralEscapeOrder",
+        "Compact.Geometry.CornerWallLastPositive",
+        "Compact.Geometry.CornerWallNegativeShared",
+        "Compact.Geometry.CornerWallNegativeMargin",
+        "Compact.Geometry.MergedLeftNegative"
+      ],
+      "validation": "Source-only continuous arguments, independently reviewed where recorded in their audits. PositiveCentralEscapeOrder retains the unavailable (1,2.88) exclusion and is not an original-case entrance. Negative-left shared margin closes only its stated ordered sector. No further whole original case or C981 vector is counted. No compiler run."
+    },
+    {
+      "role": "Genuine marker support-cycle repair and coupled original-family geometry",
+      "roots": [
+        "Compact.Bridge.C977PositiveCornerOrder",
+        "Compact.Bridge.C977OwnedWestCorner",
+        "Compact.Bridge.C977NegativeLeftWest",
+        "Compact.Bridge.C977OuterWings",
+        "Compact.Bridge.C696GlobalSections",
+        "Compact.Geometry.PositiveWallNegativeLeftCycle",
+        "Compact.Geometry.PositiveWallMarker",
+        "Compact.Geometry.CornerWallMarkerCycle",
+        "Compact.Geometry.CornerWallMarkerNegativeHighBounds",
+        "Compact.Geometry.FullAuxWallEscape",
+        "Compact.Geometry.PositiveCentralEscapeLeft"
+      ],
+      "validation": "Uncompiled source with independent mathematical reviews. Genuine (.914,3) and northwest marker bounds replace the unavailable (1,2.88) bound in the new ordered cycle. Its angle order remains an explicit hypothesis until original-family binding. The C977 outer wings and C696 occupied-section cuts are unconditional original-family consequences, not exclusions. The source registry remains 83 whole cases, with 34 cases and 49 C981 vectors pending."
+    }
+  ],
+  "unresolved_retained_draft_files": [
+    {
+      "path": "adapters/C696SymmetryOriginal.lean",
+      "reason": "RootZeroSymmetry andsix immediate entrance modules restored from authenticated original source. Stronger corner facts still depend on two missing original helpers. Preserve this adapter andpresentdependencyclosure as explicit uncompiled draft.",
+      "missing_imports": [
+        "S12.SingletonMissingTriangles",
+        "S12.MissingCornerCubic"
+      ]
+    },
+    {
+      "path": "adapters/C981CornerSeedsOriginal.lean",
+      "missing_imports": [
+        "S12.SingletonMissingTriangles",
+        "S12.MissingCornerCubic"
+      ],
+      "reason": "The stronger original corner_seed_split theorem was moved byte-for-byte out of catalogue geometry. It is not needed by the catalogue. Retain and count this draft and all of its present dependencies; the two absent original helper hashes are recorded in evidence/c981-catalogue-dependency-factor.json. No missing theorem is assumed."
+    },
+    {
+      "path": "adapters/C696WallCycleRoots.lean",
+      "missing_imports": [
+        "S12.SingletonMissingTriangles",
+        "S12.MissingCornerCubic"
+      ],
+      "reason": "Original two-root finishing contract requires stronger original corner lemmas. The separate active wall-cycle theorem uses only actual family/auxiliary facts andis independent of these helpers. Both whole roots remain open."
+    }
+  ],
+  "superseded_or_diagnostic_source_policy": {
+    "retain_as_evidence_not_preferred_build_roots": [
+      "Old C898 Complete/Mixed/legacy entrance and dense initial proof routes",
+      "Raw/Bool performance benchmark variants and diagnostic prefix modules",
+      "evidence/source-archive and unactivated evidence/proposals trees"
+    ],
+    "rule": "Do not silently omit resident .lean files from the resident-source/disk report. Do not import conflicting alternative C898 entry declarations together. Needed original DirectInitial.Inputs, RawSupportFanBool (a current transitive dependency of the common-point support cache), and all genuine fallback support helpers remain in the preferred transitive closure. The slower standalone Bool benchmark data may be omitted; its genuinely imported generic source may not."
+  },
+  "latest_scoped_measurement": {
+    "report": "evidence/current-assembled-source-budget.json",
+    "measured_roots": [
+      "Compact.Assembly.RefactorInventory",
+      "Compact.Cases.C898.CompleteCached",
+      "Compact.Cases.C713.Assembly",
+      "Compact.HistoricalFans.C701_713_717_973_978_979.All"
+    ],
+    "local_modules": 979,
+    "lean_lines": 298422,
+    "source_bytes": 19108128,
+    "all_resident_active_and_draft_modules": 1390,
+    "all_resident_active_and_draft_lines": 500326,
+    "all_resident_active_and_draft_bytes": 34594255,
+    "limitation": "The measurement is a proper subset of this preferred root set; it is not the complete delivery census or a final sub-300000-line result."
+  },
+  "next_census": {
+    "tool": "scripts/source_budget.py",
+    "root_argument_source": "roots",
+    "required_extra_accounting": [
+      "unresolved_retained_draft_files",
+      "all resident legacy/draft Lean",
+      "external Lean/Mathlib dependency closure",
+      "compiler cache and all actual local disk usage"
+    ],
+    "run_policy": "Parent runs the existing census after production common-point activation. This manifest does not run Lean, generators or numerical jobs."
+  },
+  "whole_original_proof_accepted": false,
+  "complete_preferred_source_under_300000_established": false,
+  "eventual_submillion_bound_established": false,
+  "explicitly_retained_production_roots": [
+    "Compact.HistoricalCommon.All",
+    "Compact.HistoricalDirectPruning"
+  ],
+  "candidate_activation": {
+    "virtual_report_sha256": "5b5eb3771667d9bb82160a515922a599c79cc3db9a2634e5fc820aaebeeef886",
+    "lines": 295523,
+    "all_candidate_modules_accepted": false,
+    "unverified_source_assembly": true,
+    "accepted_registry_changed": false,
+    "note": "UNVERIFIED SOURCE ASSEMBLY: no pilot gates were required and no Lean acceptance or new trust assumption is asserted; full fresh ordinary verification is required."
+  }
+}

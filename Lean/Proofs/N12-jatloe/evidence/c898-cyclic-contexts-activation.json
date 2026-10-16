@@ -1,0 +1,91 @@
+{
+  "scope": "Exact source activation; concrete Lean replay pending",
+  "lean_lines": 9403,
+  "outputs": {
+    "Compact/Cases/C898/CachedPairs/CyclicDirections.lean": {
+      "sha256": "736071c694399b9b2add15f13a5a29cb496c028c6ff132c811003700f1bf586c",
+      "lines": 271,
+      "bytes": 6291
+    },
+    "Compact/Cases/C898/CachedPairs/Contexts00.lean": {
+      "sha256": "766c5c1d567114c29be6b26017d2dd1a23e03d8823cb006b4beafed8746ff210",
+      "lines": 523,
+      "bytes": 26849
+    },
+    "Compact/Cases/C898/CachedPairs/Contexts01.lean": {
+      "sha256": "28d1e9b061240d5aee157bd3a49a223de7fb1fcfe231d617ce4cc0c1b0383c0d",
+      "lines": 690,
+      "bytes": 43538
+    },
+    "Compact/Cases/C898/CachedPairs/Contexts02.lean": {
+      "sha256": "7ec2577a45f30b0792bb6cf6e605cc209ab32661721176a23d0044775662f342",
+      "lines": 641,
+      "bytes": 38757
+    },
+    "Compact/Cases/C898/CachedPairs/Contexts03.lean": {
+      "sha256": "755c9d616a87ebc821078963decdaaa9292f891885310c231d1b28e1c9f6936e",
+      "lines": 632,
+      "bytes": 37832
+    },
+    "Compact/Cases/C898/CachedPairs/Contexts04.lean": {
+      "sha256": "d2d778101cd0bfcbd90fe583effe7dbcb92b3df993ebdc6e374c374e1a577cb2",
+      "lines": 515,
+      "bytes": 26810
+    },
+    "Compact/Cases/C898/CachedPairs/Contexts05.lean": {
+      "sha256": "97b11b6b73ed4f74f33eb9b39279d434be5d00dc6ad994ef192482a0179e8469",
+      "lines": 515,
+      "bytes": 26168
+    },
+    "Compact/Cases/C898/CachedPairs/Contexts06.lean": {
+      "sha256": "59a7bf32b0f3a0dc09c281bcb7a2f638e4f4f2aeaf2762ff8dbb109b2247b30e",
+      "lines": 544,
+      "bytes": 29187
+    },
+    "Compact/Cases/C898/CachedPairs/Contexts07.lean": {
+      "sha256": "3a2262365da9b7ee4a8f2d3b29d09e126bfd8998d8fffa4bba0ae87093704137",
+      "lines": 712,
+      "bytes": 45314
+    },
+    "Compact/Cases/C898/CachedPairs/Contexts08.lean": {
+      "sha256": "7bf1ddfdeb5648496ea363963bd4438147e513dd3a89f53d6302102ff171bbe4",
+      "lines": 522,
+      "bytes": 27220
+    },
+    "Compact/Cases/C898/CachedPairs/Contexts09.lean": {
+      "sha256": "84ecfff6f6085851d09e12d2d476f5298652f0c2fd42f2e640a8ccde511ebfd4",
+      "lines": 522,
+      "bytes": 27223
+    },
+    "Compact/Cases/C898/CachedPairs/Contexts10.lean": {
+      "sha256": "44dd601b1cce6de963799529a652e3f1a2297bf656824b51b8709c90aa32f6d7",
+      "lines": 567,
+      "bytes": 31400
+    },
+    "Compact/Cases/C898/CachedPairs/Contexts11.lean": {
+      "sha256": "319bd598e39b84db1f4f34a49e9e05c6444763e7335bc9e80a2d16e0b0f15d15",
+      "lines": 576,
+      "bytes": 32949
+    },
+    "Compact/Cases/C898/CachedPairs/Contexts12.lean": {
+      "sha256": "fbc02e8c762f21c8092e68fd7d8c86360b4cf4f0a308d448836efb8e4db76e8f",
+      "lines": 548,
+      "bytes": 29821
+    },
+    "Compact/Cases/C898/CachedPairs/Contexts13.lean": {
+      "sha256": "bb3f3792da15efe9ee6a501765cde452e9238195ff3f6f9c146c26535ff645fd",
+      "lines": 732,
+      "bytes": 48047
+    },
+    "Compact/Cases/C898/CachedPairs/Contexts14.lean": {
+      "sha256": "ab2acf3a3eac781748ff143bb328ef9b83c051194788c560844ca2b07788d1fa",
+      "lines": 542,
+      "bytes": 29265
+    },
+    "Compact/Cases/C898/CachedPairs/Contexts15.lean": {
+      "sha256": "e6da04f135d428707837ac0ce13b9fdb97a9a0abc0b0f6536f6ad31422caae31",
+      "lines": 351,
+      "bytes": 17863
+    }
+  }
+}

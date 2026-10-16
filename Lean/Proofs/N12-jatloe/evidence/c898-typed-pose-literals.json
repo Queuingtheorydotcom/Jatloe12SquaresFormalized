@@ -1,0 +1,10 @@
+{
+  "status": "source assembled; kernel replay pending",
+  "poses": 3317,
+  "angles_and_row_ids_match_authenticated_source_map": true,
+  "chunk_size": 256,
+  "chunks": 13,
+  "before_sha256": "23a27ab7897118625a8fbd1ded991a68c6a0bfb3bf35b1103104f6d6e755185e",
+  "after_sha256": "999590d1d60aeee50685445e09bb54b31745872328800af985285e9a653e8204",
+  "payload_sha256": "d9d6ee2604f422d717fa6479ecb990c0d41ee1cdb9db78ec1beeda9bd695872a"
+}

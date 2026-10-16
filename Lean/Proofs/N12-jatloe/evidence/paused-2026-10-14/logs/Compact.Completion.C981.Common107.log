@@ -1,0 +1,7 @@
+/Users/macintosh/Documents/Codex/2026-10-13/plz/work/ben-continuation/projects/n12-refactored/Compact/Completion/C981/Common107.lean:60:33: warning: 'norm_num [C981DoubleWallElbows.placements, transpose, Transform.apply]' tactic does nothing
+note: this linter can be disabled with `set_option linter.unusedTactic false`
+/Users/macintosh/Documents/Codex/2026-10-13/plz/work/ben-continuation/projects/n12-refactored/Compact/Completion/C981/Common107.lean:60:33: warning: this tactic is never executed
+note: this linter can be disabled with `set_option linter.unreachableTactic false`
+'N12Compact.C981CompletionCommon107.representative107_excluded' depends on axioms: [propext,
+ Classical.choice,
+ Quot.sound]

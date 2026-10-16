@@ -1,0 +1,2 @@
+'S12.reduction_to_577' depends on axioms: [propext, Classical.choice, Lean.ofReduceBool, Quot.sound]
+'S12.finite_reduction_to_117' depends on axioms: [propext, Classical.choice, Lean.ofReduceBool, Quot.sound]

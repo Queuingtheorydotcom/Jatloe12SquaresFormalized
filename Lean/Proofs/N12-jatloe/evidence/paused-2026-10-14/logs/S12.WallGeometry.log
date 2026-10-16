@@ -1,0 +1,6 @@
+/Users/macintosh/Documents/Codex/N12-refactor/source/S12/WallGeometry.lean:63:53: warning: unused variable `hc`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+/Users/macintosh/Documents/Codex/N12-refactor/source/S12/WallGeometry.lean:63:66: warning: unused variable `hs`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+'S12.exists_positive_frame' depends on axioms: [propext, Classical.choice, Quot.sound]
+'S12.positive_frame_wall_bounds' depends on axioms: [propext, Classical.choice, Quot.sound]

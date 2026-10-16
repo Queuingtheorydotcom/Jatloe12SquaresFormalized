@@ -1,0 +1,24 @@
+{
+  "scope": "Exact rational literal query-premise scan for C981WallElbows.Check; not Lean compilation or catalogue coverage proof. All queried masks are singleton central or wall markers, with no extra seed rules.",
+  "catalogue_sha256": "a8917162236714146a042e3dacfcc508c41e48af867cba3a9d82ed59a9325b5d",
+  "rows": 117,
+  "matched_ids": [
+    0,
+    7,
+    8,
+    19,
+    22,
+    44,
+    50,
+    52,
+    53,
+    66,
+    110,
+    111,
+    113,
+    114,
+    115,
+    116
+  ],
+  "count": 16
+}

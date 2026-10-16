@@ -1,0 +1,2507 @@
+{
+  "status": "complete exact fan audit; Lean replay pending",
+  "cases": [
+    701,
+    713,
+    717,
+    973,
+    978,
+    979
+  ],
+  "lean_checked": false,
+  "whole_cases_proved": false,
+  "failures": [],
+  "empty_contexts": [],
+  "sources": {
+    "evidence/historical-compact-data/manifest.json": "f20009fcf353dc46a22907d2c1dc78a23a5e8499f569ab549d94bb31ba6d53ca",
+    "evidence/historical-compact-data/rows.json": "5652be93ba32352a8fdc393c028424cf9d454a2fefa7798e55723e5da8027215",
+    "evidence/historical-compact-data/poses.json": "faeaf04102217cc07ceccc576ecfed41a9c7ed164a41bfc516c415ce95226908",
+    "evidence/historical-compact-data/blocks.json": "229f22acc26ca633375a7f8f53dd7cd147158bc573fb8f3aa64f96049541608e",
+    "evidence/historical-compact-data/contexts.json": "93721f24cf17a21e03b8dc3edb6bac6d9f7309abdc440d543a936959464443d5",
+    "evidence/historical-compact-data/references.json": "98ea24eb82ed29fabdc69c34efc30eb314015535afbffddc0f31ca65537afb70",
+    "evidence/historical-compact-data/C701.json": "6723e8797c91294ea344f8401980930449535b2fb06c4668e2e41810becb8c90",
+    "evidence/historical-compact-data/C713.json": "7ed7f008778113b87e979da105f25ab8c412258bf99cd01dac16e58755424e3a",
+    "evidence/historical-compact-data/C717.json": "97de7a3f49746eb39d645eb905f669ce26f4ecea9932b7b8b31f1b13c289e1f8",
+    "evidence/historical-compact-data/C973.json": "5431135cc2ce7bfac80fcfb8110da4001bd9b166b7841b07124aa2d2ebb38612",
+    "evidence/historical-compact-data/C978.json": "54cbc6e78920b25ac5eaa71dcfea16278f318f6448a0b145f4405458f6600431",
+    "evidence/historical-compact-data/C979.json": "5e49e7bd7308b6183ffdcba652edd1543cdb585f8c5cfe431d0d314e9b5d786d"
+  },
+  "derived_bases": false,
+  "boundary_cycles": true,
+  "limits": {
+    "rss_mib": 256,
+    "seconds": 120,
+    "output_mib": 32
+  },
+  "requested_pairs": 639066,
+  "verified_pairs": 639045,
+  "pairs_closed_by_empty_certificate": 21,
+  "requested_contexts": 12933,
+  "fan_contexts": 12932,
+  "empty_context_count": 1,
+  "all_selected_pairs_pass": true,
+  "failure_count": 0,
+  "cycle_fallback_reasons": {},
+  "statistics": {
+    "line_intersections": 497683,
+    "fan_entries": 96768,
+    "vertex_basis_candidates": 97939,
+    "support_requests": 4243684,
+    "cyclic_contexts": 12932,
+    "boundary_row_identifiers": 97744,
+    "derived_cycle_entries": 110676,
+    "legacy_fallback_contexts": 0
+  },
+  "elapsed_seconds": 37.97401970800274,
+  "files": [
+    {
+      "path": "fans.json",
+      "lines": 1,
+      "bytes": 11281710,
+      "sha256": "02f30f2af07317b5c3789f1876ca8c5b9c3be6b7176f87ad8fd2ce4ddbed1498"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Directions.lean",
+      "lines": 774,
+      "bytes": 18493,
+      "sha256": "40cf20a6a764a5d16807b7dd8bb04190a49507de0a95b7173b92ae61b620a072"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts000.lean",
+      "lines": 111,
+      "bytes": 7734,
+      "sha256": "818fddf1e9648a1f9c11c7f88139a197090c924d17c9f35744b46c4f2043c118"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts001.lean",
+      "lines": 111,
+      "bytes": 8118,
+      "sha256": "cbba4282f1b20a59db15cd2e1d2a16e0c77e27c642f4b387ba379cbc50c8e552"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts002.lean",
+      "lines": 111,
+      "bytes": 7191,
+      "sha256": "3eec946dff802064183242ede3a66acc1fb15155bc5f0dc3f2eb2ddcece514a0"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts003.lean",
+      "lines": 111,
+      "bytes": 7104,
+      "sha256": "efb434ccba71e1299cce6496b231ee7f1c3e0f77351144c3aae411c76492fb8b"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts004.lean",
+      "lines": 111,
+      "bytes": 8032,
+      "sha256": "1c498c051e1e05063f5cf66053ee8b04e841d337acb7a15c0e50d8e9f0dd091c"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts005.lean",
+      "lines": 111,
+      "bytes": 7605,
+      "sha256": "197fa103f917a7ee77d73a878975db30bf099e6a8d3612701c47f30160fa08a9"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts006.lean",
+      "lines": 111,
+      "bytes": 7574,
+      "sha256": "467eef9505a9b728e9850a06b725ad2eeeddb3adb229292972f9cf5b25dfb312"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts007.lean",
+      "lines": 111,
+      "bytes": 7802,
+      "sha256": "5800e274c65ea2301bc94516eb9b5395591004d54166a4b24c76bb0f3da54c0e"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts008.lean",
+      "lines": 111,
+      "bytes": 8229,
+      "sha256": "41e081546ce1f222894a49c19a7acf94cf99e3980bfe6107d3a6c442c7c6f7b0"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts009.lean",
+      "lines": 111,
+      "bytes": 8512,
+      "sha256": "6c9dba1ab583f7e6270602ab0ea240635d013c0ffcfb249de610f48fc0e5503c"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts010.lean",
+      "lines": 111,
+      "bytes": 7910,
+      "sha256": "a45ea6a62903baeef1fb429682671791866b1730fc608e30e5dc567976462bc6"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts011.lean",
+      "lines": 111,
+      "bytes": 8214,
+      "sha256": "37e3e35d44f1f91fe502ab0acf24fcbafedc073cbcf51ac9059cd6f87917039e"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts012.lean",
+      "lines": 111,
+      "bytes": 8155,
+      "sha256": "3ce9fb1e4ae701122fcda986799c2d6dd79a0b61cfc1e54bdc9cf076a0c981f2"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts013.lean",
+      "lines": 111,
+      "bytes": 7991,
+      "sha256": "82d8bf525fb9cea3fbb19ac8b8354f08ebba363bd9c2ec0cf05d55e7843ce3cc"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts014.lean",
+      "lines": 111,
+      "bytes": 7588,
+      "sha256": "fdd464e0c13d349447574c35847bc87c462d8115f5904fbd4a9a8a8c3016e0b0"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts015.lean",
+      "lines": 111,
+      "bytes": 7702,
+      "sha256": "1396e2c1d837cb407975c65577fe7bfa6ef2d526fba62948b0149f6a8ec3f604"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts016.lean",
+      "lines": 111,
+      "bytes": 7882,
+      "sha256": "2fa50283d261a21879616643597918d1f3775ebe152572f92300f68f6aed036f"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts017.lean",
+      "lines": 111,
+      "bytes": 8103,
+      "sha256": "efbba9dfe908a15b885f236cc611e91301b3b511c2d9f6a296ef7ef702e1573f"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts018.lean",
+      "lines": 111,
+      "bytes": 8031,
+      "sha256": "345c3a721669b4a2cbb454843ff8f4735951964598e4e496e3e8948c682bec5b"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts019.lean",
+      "lines": 111,
+      "bytes": 8080,
+      "sha256": "8d2e28c9c55f3ea21cd551ed248f84740d757b362d473903033979cfc5a4b12c"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts020.lean",
+      "lines": 111,
+      "bytes": 8072,
+      "sha256": "ccd50c2db6406234f84513c79b8b6f3b493bcede474cb56d5d47857fe38c9bb7"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts021.lean",
+      "lines": 111,
+      "bytes": 6982,
+      "sha256": "17f1f19c89a75c82bb5ff8cd222934e7ed33e2e946b7a0eae8221e8b3f2cced4"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts022.lean",
+      "lines": 111,
+      "bytes": 7739,
+      "sha256": "dc0c4dcd39e4014a9a013740b186d227078b857d3815fa0e26ecdd0195cc4583"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts023.lean",
+      "lines": 111,
+      "bytes": 8359,
+      "sha256": "f883d7c422ae4a336164200d1670cbda051d9daca2fd880d208769105e9eddea"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts024.lean",
+      "lines": 111,
+      "bytes": 7533,
+      "sha256": "ccd74245ba836c9ee8fb89ae633fb2e9a275005bf19bea352da3197168443790"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts025.lean",
+      "lines": 111,
+      "bytes": 7187,
+      "sha256": "2cfabdce11f30e8b0991bbf75472fc2288314e2f3ca1602522ff9c80af8acca3"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts026.lean",
+      "lines": 111,
+      "bytes": 7564,
+      "sha256": "36fe168871d6d0c0eb475b9452ff27d64f38bdac7da75b866763bf89012d78ef"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts027.lean",
+      "lines": 111,
+      "bytes": 7271,
+      "sha256": "11a292a9e0da64763de09dd90557a332e63c36c42f50fe24d5cf7ecdd958bc4d"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts028.lean",
+      "lines": 111,
+      "bytes": 7635,
+      "sha256": "ea92fd08d2e34119fb2796bd4386ea83d3e944070e1e0de589c806db0fa9c27c"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts029.lean",
+      "lines": 111,
+      "bytes": 8159,
+      "sha256": "3eb88cd5bb8cd2aef920884b6f49069778ceefd2ba7db9bd8b46f06a7e94aa51"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts030.lean",
+      "lines": 111,
+      "bytes": 7075,
+      "sha256": "2ab728df2b1bc2f38d21ede06a3fe9b1ad98856a371cd97159ad7dda4469ac77"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts031.lean",
+      "lines": 111,
+      "bytes": 7122,
+      "sha256": "69cbc963b9ca3b6d9bfbe4a2c1f9b87c9efd8234678758d78c1ad73fbe9673a8"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts032.lean",
+      "lines": 111,
+      "bytes": 7853,
+      "sha256": "9fdc858d09d54a48a2e9820eada5089bbf77dc371de73549297be4fd272864c9"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts033.lean",
+      "lines": 111,
+      "bytes": 7767,
+      "sha256": "78a8616b38d070d84fc3c1f147af35e03596daa7d7475007870a3be8a79d1be8"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts034.lean",
+      "lines": 111,
+      "bytes": 7865,
+      "sha256": "82568600c6d8a1a5a4388bba9c85cf8480d13b2b544a61af104c5a8122ca4901"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts035.lean",
+      "lines": 111,
+      "bytes": 7630,
+      "sha256": "5f51d3beb8d0f997c267b6c9ff8783fdbb97417d39cc227fd54568d496f79a99"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts036.lean",
+      "lines": 111,
+      "bytes": 7216,
+      "sha256": "0247cef8a96c225aca4385250ecd1b50e800175a898c71a3a8f540caaba09b44"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts037.lean",
+      "lines": 111,
+      "bytes": 7647,
+      "sha256": "35b14e533a33804e30431cc0cb082daf5b8d3d29f5393c7a1c914fc606708130"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts038.lean",
+      "lines": 111,
+      "bytes": 7413,
+      "sha256": "b2f31e41c2efcc57a8dbbb99d1e0a317a15a341072401915754a71a3e15dd6ea"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts039.lean",
+      "lines": 111,
+      "bytes": 7617,
+      "sha256": "dc47d0fc202c8e12c9c2f47cf6db0e55e8b26cf58782c42578364f34e65799b1"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts040.lean",
+      "lines": 111,
+      "bytes": 7314,
+      "sha256": "82f11d65514f3d5a087615f0b88b9157eeaef4c78d0d305cb45d5dd1c07f5291"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts041.lean",
+      "lines": 111,
+      "bytes": 7147,
+      "sha256": "c268e99c97b514ac3314caca28b43a85e41881ef8993a70049bc7f3cb61bbaee"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts042.lean",
+      "lines": 111,
+      "bytes": 7541,
+      "sha256": "c77e780761ea8c020d2e46b60468e43b79de2468a8aab5dfda69ec9f47b73926"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts043.lean",
+      "lines": 111,
+      "bytes": 7971,
+      "sha256": "37fcf2876f5ee12bd89eb8c59e7a6bd28f91cac4fd6cdbd2d3596e3881a53da2"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts044.lean",
+      "lines": 111,
+      "bytes": 7731,
+      "sha256": "4369bc9c5d8369b06646da935f256d0f960578d120c6b22789f12610a9c6cccc"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts045.lean",
+      "lines": 111,
+      "bytes": 8221,
+      "sha256": "07a84f2b737482f8da1da76ff758da49ffd36f1c8775df06aa8239a481538f39"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts046.lean",
+      "lines": 111,
+      "bytes": 8286,
+      "sha256": "111fa9ec018a4d97bfe53b80f3b76b7fba1a816ecf4eda9cae844ebe9ba366d9"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts047.lean",
+      "lines": 111,
+      "bytes": 8262,
+      "sha256": "d8bcd7127b904609558c92fab8cf477b0315fa8a00a7fdb2b7cb37ba225696e7"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts048.lean",
+      "lines": 111,
+      "bytes": 8489,
+      "sha256": "0e40c387df9fb45206a4382d13cab308e5681ca1d3e399199d0d351b40f8218a"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts049.lean",
+      "lines": 111,
+      "bytes": 7093,
+      "sha256": "afcdfecd5cc9482b0744f03985ea6b2c2c80d8b10b48e6c0a3f9104f745ddfb3"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts050.lean",
+      "lines": 111,
+      "bytes": 7485,
+      "sha256": "e2206e5abab388c39e4bad678bb9cc1ea8b05329fab737b3132479ee6ecbe36c"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts051.lean",
+      "lines": 111,
+      "bytes": 7966,
+      "sha256": "d90edeccecef63cb5cb74557a9e6c7539f1a8d75301fa3a2e1adf89d9d01001f"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts052.lean",
+      "lines": 111,
+      "bytes": 7912,
+      "sha256": "d2c892fa0509dbc08fba6b712a8c6c41f645915fd175eaf9be48e69cf0bc65ae"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts053.lean",
+      "lines": 111,
+      "bytes": 8103,
+      "sha256": "8f2fcf138fb0b2f573e79b91a9be0dc6b4537312599ccbde474744b7c0ecce28"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts054.lean",
+      "lines": 111,
+      "bytes": 8472,
+      "sha256": "2faac4b89a37be5c43622a08191a5c6473be44323dfbe88a70e2ca7dd77bfccd"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts055.lean",
+      "lines": 111,
+      "bytes": 8653,
+      "sha256": "48233f8083e381c4c11a1e31cf3ee49c977cd3656e29905a6a34905e08bde08d"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts056.lean",
+      "lines": 111,
+      "bytes": 8412,
+      "sha256": "f84defa8a7e638d4f4a25bf828ee9290978abf10af66382dfc423084d3794543"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts057.lean",
+      "lines": 111,
+      "bytes": 8111,
+      "sha256": "668a8e4b94a05834797b02d2959e4796287542733c15f4a446e054057bdf4a5d"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts058.lean",
+      "lines": 111,
+      "bytes": 8304,
+      "sha256": "ea433c7bd150797123a5373a7c0a5f52b49bf67770fa1091df74c8d60b24b970"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts059.lean",
+      "lines": 111,
+      "bytes": 8237,
+      "sha256": "e264681688863889c2c00e6ad13cf694d81d96818221e363c0cb6fecf8491d34"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts060.lean",
+      "lines": 111,
+      "bytes": 7587,
+      "sha256": "69fdf712fd0779ebbbaa3cb134eb5d23594246c0bf3c2583b2f8f54643b0cfb3"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts061.lean",
+      "lines": 111,
+      "bytes": 7705,
+      "sha256": "0a3d2b64c5da61ba78e99e666fcc85c4b5706e5c9940d61359e92483446047b9"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts062.lean",
+      "lines": 111,
+      "bytes": 8193,
+      "sha256": "c278aa8778cf4f318cd78f52227f40765118cc7885d80cb5ae7595de485b6de9"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts063.lean",
+      "lines": 111,
+      "bytes": 9532,
+      "sha256": "ae4cfffd028ee8b1043c1bf059d45debc126ffbb0e6f479b9ecdc35a420b4149"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts064.lean",
+      "lines": 111,
+      "bytes": 8271,
+      "sha256": "1023a36b363fda1f9f2088fd1f8df7c8dd9103e2b378084c7506f9fb87d67b80"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts065.lean",
+      "lines": 111,
+      "bytes": 7929,
+      "sha256": "8c94b91dec0df6a93120941137822190c74a1a14f70d46d2c7883bdb33a4fe41"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts066.lean",
+      "lines": 111,
+      "bytes": 8185,
+      "sha256": "181806cd0087f89913621c01a064d3b3c0bbb96a95993b88bb005b7822764bc1"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts067.lean",
+      "lines": 111,
+      "bytes": 8497,
+      "sha256": "ca0851fd43f6fce7d1f61dbde5a846cfa0da455c922bd4bc7db94ea9e2ba0ef0"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts068.lean",
+      "lines": 111,
+      "bytes": 8225,
+      "sha256": "29c9f8a604222cb8d5d437fb904234b081a5ab02745067c03dadbabe7f78301f"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts069.lean",
+      "lines": 111,
+      "bytes": 8044,
+      "sha256": "5f3c8d9fd044a02c26796304ad85fa7b22ecfe0989d392a4f1454c9fd13e12c9"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts070.lean",
+      "lines": 111,
+      "bytes": 8286,
+      "sha256": "481eb6ececb7a4ac50b0c2c88798c4ea91c7ddad8a1636fd54211ede014c9baa"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts071.lean",
+      "lines": 111,
+      "bytes": 8001,
+      "sha256": "c1e499b7a93d12b9178f70d6560235a19c779fa3f67e4f554a8d35224bfaed2d"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts072.lean",
+      "lines": 111,
+      "bytes": 7733,
+      "sha256": "bf7a13b775e6cbbf826fd1acb4a3aa36c06d2c6b4c7dc02de322992032f18deb"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts073.lean",
+      "lines": 111,
+      "bytes": 8084,
+      "sha256": "63b0f2ff3d0fb8c5383957fc6070eab2da570edf4e3bf070431d71de6cf9f7e7"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts074.lean",
+      "lines": 111,
+      "bytes": 8092,
+      "sha256": "314bbc5b73ee6d96082afbab7765e64249af1501bcef55746699513c2600fa1f"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts075.lean",
+      "lines": 111,
+      "bytes": 8218,
+      "sha256": "aa516a00c0db0ddac914b7ef2978c8ae953b1cb7ed68eaa9c059654ffa85db41"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts076.lean",
+      "lines": 111,
+      "bytes": 8523,
+      "sha256": "285c7e54742d77121ce01985c2788bcd928b3a097b9978e0f9a05a933d71c709"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts077.lean",
+      "lines": 111,
+      "bytes": 8417,
+      "sha256": "12a1d8edebb9dbb18afaee8567047f9e29cf73c4e4bef16232e5e6137c32cc39"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts078.lean",
+      "lines": 111,
+      "bytes": 8228,
+      "sha256": "7a7984de86b8785a1d6a5e8d67b6a4a417e2ab946decb26875678c95112d778b"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts079.lean",
+      "lines": 111,
+      "bytes": 7655,
+      "sha256": "47d42853ca3c11fda0e82e0619cab10a5e0d2a003eab97d9e6761c5fc6dd2c86"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts080.lean",
+      "lines": 111,
+      "bytes": 9452,
+      "sha256": "7c8c177477e90572d5c1794c1d017de52633d35362f005a9889243c1ea229661"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts081.lean",
+      "lines": 111,
+      "bytes": 8360,
+      "sha256": "fa0e84f0841d28eaca6b7b8aa266ea4b53bfd6743fb067babb1cc60a8563d1f1"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts082.lean",
+      "lines": 111,
+      "bytes": 8277,
+      "sha256": "1779fc8439f0a0ba4d2357951a93f5d77c2278aca036c1918f84922befbd6a30"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts083.lean",
+      "lines": 111,
+      "bytes": 8124,
+      "sha256": "d44145241684007ae0ba20397c2cee7ca398fb8702da08436cbdfed6c8c1a6e0"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts084.lean",
+      "lines": 111,
+      "bytes": 8185,
+      "sha256": "4dd2231d62b355c04ea7842258fed7a2dd058b662dde595ab9fdceaf7821b54c"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts085.lean",
+      "lines": 111,
+      "bytes": 8652,
+      "sha256": "253d221198ee6d53f4e5031e449075ed3a3d679c61477790da50f6c3818bfb97"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts086.lean",
+      "lines": 111,
+      "bytes": 8558,
+      "sha256": "d6cc86f21bf24bbcbcec6dc5bbaf6838e83a1e97db1eab791cf3df592b73a047"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts087.lean",
+      "lines": 111,
+      "bytes": 8889,
+      "sha256": "214403d9168ec9eb45b92223a6f8030c5a93ba958c0b0ea5f83cf25d64790069"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts088.lean",
+      "lines": 111,
+      "bytes": 8249,
+      "sha256": "746517f07eff69b3a4734b9dd5129e31d890f8cb14fdcd7cff491dc31744d02a"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts089.lean",
+      "lines": 111,
+      "bytes": 7660,
+      "sha256": "daab6ef60303c0abcaa03cf88d63d01c79ff7b745694b7e1e2fd85f8a7579fa1"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts090.lean",
+      "lines": 111,
+      "bytes": 8328,
+      "sha256": "7be5454c909ef95471b0190746fd311403a36650b855970f881dbc18d00ff433"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts091.lean",
+      "lines": 111,
+      "bytes": 10908,
+      "sha256": "4a6b1ac0462e1e8cedacab3e9feac5fe43966662ffe229b8afff5d2fb1a0ed03"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts092.lean",
+      "lines": 111,
+      "bytes": 8888,
+      "sha256": "854b2839f8bce7a6f74b32eacf883de3e88d108b253995a1fe0551ca0b0b9320"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts093.lean",
+      "lines": 111,
+      "bytes": 8561,
+      "sha256": "2c68fc76e5656c4cfe007a5fb1d7fd40b65cfb7f2fea0edd02a0e7ef060a711d"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts094.lean",
+      "lines": 111,
+      "bytes": 8472,
+      "sha256": "7ad76c05c0c0dde298ff385e84ce4aa7cb108408477f47050740d12cb630254e"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts095.lean",
+      "lines": 111,
+      "bytes": 8688,
+      "sha256": "91d1555db61a84b3c1c2887515d99f7d06195b4e0037168214e27a8b07cca0b3"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts096.lean",
+      "lines": 111,
+      "bytes": 9023,
+      "sha256": "9f5d9ee8d278cafeadde8429c0c1c0aa69d5cb81715a4e8f251171d1028f146c"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts097.lean",
+      "lines": 111,
+      "bytes": 8755,
+      "sha256": "6fc243d2ad072b1dddf9b089bc007fb191e9ec78c6bf5a4b74a9a2a6ab059af4"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts098.lean",
+      "lines": 111,
+      "bytes": 8167,
+      "sha256": "7cd5ffaa55b50b81daae4696cee0c30e0158ff20803f506e314a08a16d304de6"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts099.lean",
+      "lines": 111,
+      "bytes": 7600,
+      "sha256": "e31807f9d141be70ad0ccc1ba6efa22651d8ac958ed0c721318325db5d1d4dfa"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts100.lean",
+      "lines": 111,
+      "bytes": 7348,
+      "sha256": "f142e66c674c67f01d287b139397974b1eefb84d9083b7bb5d94b93a79e94fdf"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts101.lean",
+      "lines": 111,
+      "bytes": 7903,
+      "sha256": "462d89e4ca8fcabef1e0ebd733253be8d9137b3b03544a9a4d7f9150ca799bc1"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts102.lean",
+      "lines": 111,
+      "bytes": 8251,
+      "sha256": "ab66f95c22d2fb3410b1df68d2f3836db0ed041316ed8ed066b89f9d0284e7fa"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts103.lean",
+      "lines": 111,
+      "bytes": 8359,
+      "sha256": "c796a5724295abc5e7624c97c08bb8c88b35b4f40a558efe3dcc66e81fec4ec1"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts104.lean",
+      "lines": 111,
+      "bytes": 8654,
+      "sha256": "e77291ae0c3146285ff4379fea4f1bd0a064e395aac867a7a563649667111257"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts105.lean",
+      "lines": 111,
+      "bytes": 8370,
+      "sha256": "d38f258f56ed0c1e428f81807695d3b71ef36dc47846f33247728163bacdc5bf"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts106.lean",
+      "lines": 111,
+      "bytes": 8562,
+      "sha256": "46ddce739247ab47997f20909174933d15e2468f4bbf374ba0cdccd6ee83567e"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts107.lean",
+      "lines": 111,
+      "bytes": 8119,
+      "sha256": "8924254ea99dd41beb938557a2b9e47be7485163b63bdca353b0dbd7ee2d97b2"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts108.lean",
+      "lines": 111,
+      "bytes": 8364,
+      "sha256": "dfda3a93a990ab3b42be1fc2164faf2866196d6b0a34db23e6097f9356b30c60"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts109.lean",
+      "lines": 111,
+      "bytes": 7886,
+      "sha256": "b6ad214d6ad94aba4a004562241caa6a27d5cd11969cd1c826adbc5c94aaddc2"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts110.lean",
+      "lines": 111,
+      "bytes": 7634,
+      "sha256": "081d31085878ea5bf12e9f382bca83883b4e3d6554cb35d46f5e8667b8304632"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts111.lean",
+      "lines": 111,
+      "bytes": 8142,
+      "sha256": "d5deef62fb137164fe1e81c0796d476b1d2ec6111a1ceab48ba9851ad59ec06f"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts112.lean",
+      "lines": 111,
+      "bytes": 8551,
+      "sha256": "7916556c7a7e073e4b29bc97237e36debb32ca85a39ce7a9e8aff0e1e9d1edcc"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts113.lean",
+      "lines": 111,
+      "bytes": 13032,
+      "sha256": "28d39e01f66edfd04873f865cc3dc8a2578b89e0f183b276963ab7531bc858ee"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts114.lean",
+      "lines": 111,
+      "bytes": 10096,
+      "sha256": "ce6bf46b8fe53fa2ddf46380670b3546940d92352d5e4829108561bf07ff2174"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts115.lean",
+      "lines": 111,
+      "bytes": 8588,
+      "sha256": "809bf40d06fe4f8d61a40c6c35e4696a4d5460a8814b0f124c9b7269ee4804cb"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts116.lean",
+      "lines": 111,
+      "bytes": 7905,
+      "sha256": "75f61c1c9591b03a3fceb473042fa92ef610e3a8280ebda83cae875376726670"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts117.lean",
+      "lines": 111,
+      "bytes": 7359,
+      "sha256": "b87d5f0448ec37cc63a693eefb531877f3368eb13e8d281d084509b967b60569"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts118.lean",
+      "lines": 111,
+      "bytes": 7600,
+      "sha256": "42034b2730fa08dbc84512d679d6a1388f7e695ad2379b7cd6433da2577825a3"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts119.lean",
+      "lines": 111,
+      "bytes": 8085,
+      "sha256": "04c5ab890bf6c5c6274fe74afa2ec6a44b1162af8870a9ab603e336c3d4b2509"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts120.lean",
+      "lines": 111,
+      "bytes": 8377,
+      "sha256": "a2525e28f5ef373d9bb519e631d61497cfc73ae6e6b5605dc1f730b239c7452a"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts121.lean",
+      "lines": 111,
+      "bytes": 8253,
+      "sha256": "f61729f11f7de1cd1db25b7a24c8208e27aa0084f64d41a0ac80c1f5c9f137b5"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts122.lean",
+      "lines": 111,
+      "bytes": 8387,
+      "sha256": "c5cf81607868fc3b617b87645161d1d35f3a10c2208ecc9445e393431e86cac4"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts123.lean",
+      "lines": 111,
+      "bytes": 8115,
+      "sha256": "29cd1839901ec9d93d1cb873a2953212db7dad312645407ccddef1d67f3769f0"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts124.lean",
+      "lines": 111,
+      "bytes": 8592,
+      "sha256": "848505f62cf221fad937a6d4661e9cbddcec503f6a3a0aa56c7a9232efae2dc0"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts125.lean",
+      "lines": 111,
+      "bytes": 8408,
+      "sha256": "e0bc9cd9f38d3dad8f2785d9fa13d3c46b4b1c89dddc4a86c60aa8c2fb88fd31"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts126.lean",
+      "lines": 111,
+      "bytes": 8397,
+      "sha256": "29117b51bf29841b9ac4af54a3fd9cb048bdad4e187e7177665e520479494794"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts127.lean",
+      "lines": 111,
+      "bytes": 7678,
+      "sha256": "ea1f973d99bb43c7a8201ff5006fa5bce0fb7af749775323bc4e4ba141d325ed"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts128.lean",
+      "lines": 111,
+      "bytes": 7645,
+      "sha256": "2d30d412ae153d7595d1afd3386d6deac6bb8bc5dbe37eee10bf9495b1994c8a"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts129.lean",
+      "lines": 111,
+      "bytes": 8345,
+      "sha256": "932a785cac5099e05a2ba12be03d74d7a4de92781d9767d0ca85e4e5ff29e9fd"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts130.lean",
+      "lines": 111,
+      "bytes": 8358,
+      "sha256": "84aa57b22ab8593a1e7dad14e90a107f645e963b91bc11829e938b6975566969"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts131.lean",
+      "lines": 111,
+      "bytes": 8717,
+      "sha256": "619cf73ea170f0e2a342261ade0cfd3e06ccf0d0b9a7916f2937a1e91e82c3c6"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts132.lean",
+      "lines": 111,
+      "bytes": 8160,
+      "sha256": "3d0f4a8ba9daada88d670b6f93d83e8db2e2f7ba5234e5ac97d6eb927a1d0767"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts133.lean",
+      "lines": 111,
+      "bytes": 7972,
+      "sha256": "bced3b98e09ad95fcf5703d22847431ac268269a477db7e58b97f9d838429706"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts134.lean",
+      "lines": 111,
+      "bytes": 8031,
+      "sha256": "e2e2ee7715ef176517e17ac5f9f867c11865cbf7e8dab94a72071a38a14c38a3"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts135.lean",
+      "lines": 111,
+      "bytes": 7765,
+      "sha256": "7f39a85095cc7fd17ad4f3d7282ebe96b9bb5a8a2e7ac6233b660eb2738cdcfc"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts136.lean",
+      "lines": 111,
+      "bytes": 7720,
+      "sha256": "678c1d77553e787d1e0bd9f98ea4e6614b3a91a5d62fb94a065f0b51a3374992"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts137.lean",
+      "lines": 111,
+      "bytes": 8154,
+      "sha256": "ae43f73136f2ff386fbf13365a69f71f0360dc742a9e1dd472ab713cc8365132"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts138.lean",
+      "lines": 111,
+      "bytes": 8242,
+      "sha256": "095ec33fdd7c60e75ac2fb6e0e7b4ad5c16306951624036f1e1f1c1bf25aef15"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts139.lean",
+      "lines": 111,
+      "bytes": 7665,
+      "sha256": "beac14c523b76e40036eb9a52004f76623be444ae33fb5edaa6ff8869fdf067b"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts140.lean",
+      "lines": 111,
+      "bytes": 7728,
+      "sha256": "69bc2b5e80edc813accfb1d1cb5d46eededeea5958810b07ae42d6582f845fd4"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts141.lean",
+      "lines": 111,
+      "bytes": 8423,
+      "sha256": "ed7b9e91f79d9fc86eeb8170ac23173528c73ba43b4ff04b947b588722e6a904"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts142.lean",
+      "lines": 111,
+      "bytes": 8965,
+      "sha256": "4e023180c031ba7c7f7b2a62b1315dc35a040446f7dedbf2e22b734032bfb472"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts143.lean",
+      "lines": 111,
+      "bytes": 8245,
+      "sha256": "7662a2f02d13544e6f846cf8040ac42396f381ec74d8676d895c48d8bd4730b1"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts144.lean",
+      "lines": 111,
+      "bytes": 8116,
+      "sha256": "c94d1479b85256e92362e2c28b76cb6ce52e3bd708e8571344620a3016c5d50b"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts145.lean",
+      "lines": 111,
+      "bytes": 8012,
+      "sha256": "cb10d63414aacca41542aeb08de91f1eb581ec7fc5f56a3285addbd8e0f71242"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts146.lean",
+      "lines": 111,
+      "bytes": 8146,
+      "sha256": "b00c4132c01e726270eb42862df889076e395397bef263e4b5b262ca78f02345"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts147.lean",
+      "lines": 111,
+      "bytes": 7783,
+      "sha256": "2549cf1b6b6def0e54c2a468bbcee443aec8460b71a1d0c7eb1496605bf80873"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts148.lean",
+      "lines": 111,
+      "bytes": 7738,
+      "sha256": "b140f50411114152b3cc2588e0dd0d7b5a8f4494e384ce2f8ca9c63685e4c319"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts149.lean",
+      "lines": 111,
+      "bytes": 8130,
+      "sha256": "ee9c215b056c6d8bdc000171f8bd9178e1c2bd0d3ebac12ef570ff301342e932"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts150.lean",
+      "lines": 111,
+      "bytes": 8991,
+      "sha256": "ed077a134f114d842432a314d7420dc26cd3983f31cfa380f3ab9386eeb868d6"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts151.lean",
+      "lines": 111,
+      "bytes": 8058,
+      "sha256": "1f09e436577e2febd2dc0fe97444646fe9628a04f66d0dce363d35a56978a231"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts152.lean",
+      "lines": 111,
+      "bytes": 8381,
+      "sha256": "827761a1680c6b73b4100992a8cd3cb4e0d463f2395cc2bc10e44703730d10f5"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts153.lean",
+      "lines": 111,
+      "bytes": 8401,
+      "sha256": "8fac8a849aab67ef9d0d13a582cd3986bf6538cb8a0e800c70e620c9ba328683"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts154.lean",
+      "lines": 111,
+      "bytes": 8631,
+      "sha256": "cc49ed77642a7baad7bd7a7442c2a298dbfcffc62d689c64a30a25993e40f72b"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts155.lean",
+      "lines": 111,
+      "bytes": 8320,
+      "sha256": "dfd914076e80ae3b31543a1b679f3a56fc5218be33876194ad81a13baabc54d5"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts156.lean",
+      "lines": 111,
+      "bytes": 7719,
+      "sha256": "78923854a50294d103d265365b6c079e54401e01a9906d7c67798a109daf6d50"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts157.lean",
+      "lines": 111,
+      "bytes": 8325,
+      "sha256": "8f9ab43e560da9faba1afe203fbfea55617a550d413d0da05d768325017b540e"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts158.lean",
+      "lines": 111,
+      "bytes": 7783,
+      "sha256": "6934d1ca337ee4a28a0dfd6347c0e9cc5343251aef280fb6aa96006695e52d19"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts159.lean",
+      "lines": 111,
+      "bytes": 7631,
+      "sha256": "f44f002a7362810575d06f305253dc9d4c0cbed3282afa3fb5fb4cbdf5c6eec0"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts160.lean",
+      "lines": 111,
+      "bytes": 8220,
+      "sha256": "389c2316151a582d393c5079b85b751817e5c63ba2cc54535faf19a4600e1c01"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts161.lean",
+      "lines": 111,
+      "bytes": 8820,
+      "sha256": "7e1ca69856bb94bf60574dc9902c799bc77f9fb1bb003a0add52e68b0779eecd"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts162.lean",
+      "lines": 111,
+      "bytes": 13050,
+      "sha256": "5afb3e34de076fdc87453497f1ad4f53ff45f1cce53f69cab63b0f1b93c889e9"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts163.lean",
+      "lines": 111,
+      "bytes": 9902,
+      "sha256": "489048b00c6859e5d3c540f9e4e73495658cdd67c1402a7a09e760ef9c89c122"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts164.lean",
+      "lines": 111,
+      "bytes": 8671,
+      "sha256": "605d88573c8c291c7f0a407855066b284de96d72238af8104c3abb62c5c7043d"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts165.lean",
+      "lines": 111,
+      "bytes": 8990,
+      "sha256": "b0f937f1477a22a6d8094a587e3f8d9c2faf8ab66e5c032b99ce15085cd15b48"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts166.lean",
+      "lines": 111,
+      "bytes": 8053,
+      "sha256": "5b3aa0aba0365bce40789149925deba11b7cbee82b486673b5ab8ed06f0afa6a"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts167.lean",
+      "lines": 111,
+      "bytes": 8419,
+      "sha256": "b1f64b338a84201ae87c59b42ab4178a8e57fa35574c686b3cd5ae2f32d1fdb8"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts168.lean",
+      "lines": 111,
+      "bytes": 8102,
+      "sha256": "e2175ed32d982355fd79935a7734b0f129c059b7f7282cd30d4e3def4aec009c"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts169.lean",
+      "lines": 111,
+      "bytes": 7591,
+      "sha256": "8c5465e631f9a3994c45f6b1408859956d7740e3805aed8631060ba77a2d6a64"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts170.lean",
+      "lines": 111,
+      "bytes": 7720,
+      "sha256": "e233fdd0136fe03c953b92602fefa081755c3645cb72781cd070f0fe74f60877"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts171.lean",
+      "lines": 111,
+      "bytes": 8228,
+      "sha256": "49b2c40e981105a5b38c0cab42b753ee7f40c29a51b7377e52b2328773486ac9"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts172.lean",
+      "lines": 111,
+      "bytes": 11387,
+      "sha256": "478633bfcab20947ded238834ee102b72a9d71289d7b0f16f5f27cfa5a56fb76"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts173.lean",
+      "lines": 111,
+      "bytes": 10045,
+      "sha256": "6d16a8e9ad5429197796e6452bb502cb734f23d71757d06c8612cfcb23af90ed"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts174.lean",
+      "lines": 111,
+      "bytes": 8833,
+      "sha256": "8cc361a8127d0992a872ce695de1df0cb0e8e4e6e30efef635af4ce55156f7d1"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts175.lean",
+      "lines": 111,
+      "bytes": 9230,
+      "sha256": "884589dd1624c0eeea0e31ae564ac035ed8e6ea3d31918d9f96a3193aec70713"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts176.lean",
+      "lines": 111,
+      "bytes": 10173,
+      "sha256": "de1d94fc0d50b1f8d6a378c8f486b10d0fa6cf42cb2042ea610714830a291b57"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts177.lean",
+      "lines": 111,
+      "bytes": 9446,
+      "sha256": "d113b14dd2d7700c766b8072791fd94b6403b7fcde6ab3e18d6b39121b264fbf"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts178.lean",
+      "lines": 111,
+      "bytes": 8868,
+      "sha256": "27be433bc96a90b102791ecfe14a5a1bad5ec7a2f494e76d84fced02199e01a2"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts179.lean",
+      "lines": 111,
+      "bytes": 8826,
+      "sha256": "282022e1a4cad3d29ead39bdd8ec3660ee8f0ef67c1f1b399ef8d805665a1e96"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts180.lean",
+      "lines": 111,
+      "bytes": 9554,
+      "sha256": "7ef8d01822979bb5f4849968a91ac6cf1ec635f243f31b51fa0e9e9627084b2e"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts181.lean",
+      "lines": 111,
+      "bytes": 9954,
+      "sha256": "5ce3ec07a79516e3c13c5dbffd06458fc51cfeb1ab4cb75061a0a4a3fa56c1ee"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts182.lean",
+      "lines": 111,
+      "bytes": 9259,
+      "sha256": "c82b24a57db775461ef2adca0365bcc8a91c6ffa40439747ccee6407e77726d8"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts183.lean",
+      "lines": 111,
+      "bytes": 8485,
+      "sha256": "75031ded48e53e487d4062311528a7fc8a7cfb9883e004a02eeffcbd4c8415a3"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts184.lean",
+      "lines": 111,
+      "bytes": 8421,
+      "sha256": "9500955650e970924fc5ae8e6d19daba96d4e1a23fa5d0e1e1e8aa63fc4d9bf7"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts185.lean",
+      "lines": 111,
+      "bytes": 7674,
+      "sha256": "50597523f9a9a08f89bed6ee5bea272a78ff06764b68030c136dfbcb04f5faf8"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts186.lean",
+      "lines": 111,
+      "bytes": 7632,
+      "sha256": "bcc768e5476fb7101ef6a95eb1fe58d54f3b7cf64fe8a5e1e3c7528ae7325877"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts187.lean",
+      "lines": 111,
+      "bytes": 8009,
+      "sha256": "ff5aebce2e2786375a386ebddcfafb840b7440a27a9e0498969717a0f049cce7"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts188.lean",
+      "lines": 111,
+      "bytes": 9713,
+      "sha256": "053155c1d2f27ea48a5d12f4aa771144599accef89f48f171a69c854032df391"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts189.lean",
+      "lines": 111,
+      "bytes": 11424,
+      "sha256": "24a22a2692ea6dbab71827974c1cbe04c00109fe13a50e3d0f59880600cf7b4e"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts190.lean",
+      "lines": 111,
+      "bytes": 8925,
+      "sha256": "a0b9f5eec5e57b0e6a7cbaaf25012a98e192ec63f4ff1c36a6efed71c516d3ad"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts191.lean",
+      "lines": 111,
+      "bytes": 8905,
+      "sha256": "9cde6ade19d063c1d20725dc2ad06cd8997c69bbe20026c68a0fa3498808eabf"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts192.lean",
+      "lines": 111,
+      "bytes": 8952,
+      "sha256": "8fbfd8c2a1c1a519cedcc0a57125fc22cf5d4fd46d735b23be0c948e29a5b8ec"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts193.lean",
+      "lines": 111,
+      "bytes": 9922,
+      "sha256": "7c8539d3e2254b8e4841a7f9780cc08abee9f2791055a6f3b826200467f4be88"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts194.lean",
+      "lines": 111,
+      "bytes": 9618,
+      "sha256": "c76a48b8a3b85f4a4eb7b8b3498b55a36a5cdc89fd484f91e8d887e90d556fad"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts195.lean",
+      "lines": 111,
+      "bytes": 7957,
+      "sha256": "225cee1e89f41016c58365730d453e86e7fa647c1654d7cc5b78d094d4799bfb"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts196.lean",
+      "lines": 111,
+      "bytes": 7278,
+      "sha256": "fea8ac15dcdb431fc1fba97903aab233152bc6c8fae23a8500cb102b44c7916d"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts197.lean",
+      "lines": 111,
+      "bytes": 8553,
+      "sha256": "9008efeebc75db29796c502207b5c91ff03e52dae00cc17e0f70190967001f43"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts198.lean",
+      "lines": 111,
+      "bytes": 9034,
+      "sha256": "13a97ec821a2b996d6b8c718e49d0a0416ee431d53557b188b53a1a303f072ea"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts199.lean",
+      "lines": 111,
+      "bytes": 8685,
+      "sha256": "628de9cb18b1084fd22ae91b48c83ee6b76ffbfb1e47d90d5b87ba439a0805e5"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts200.lean",
+      "lines": 111,
+      "bytes": 8506,
+      "sha256": "824cedce0b224f7800abb20aae6f17bb2b9f749c482fd5b23094230e8ef43275"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts201.lean",
+      "lines": 111,
+      "bytes": 8679,
+      "sha256": "9aff9a720f9c32b47b986cd8ea9760301df2e1700684a7b90d297ff0051d1849"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts202.lean",
+      "lines": 111,
+      "bytes": 8354,
+      "sha256": "4b2acc44760364a77cf024b69ddb9800d4901ece354fd53b50502a9e1a7e611e"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts203.lean",
+      "lines": 111,
+      "bytes": 7903,
+      "sha256": "612047c64a1769471f3d7c00235b839939eff571d6c1e51841303c895320b6d2"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts204.lean",
+      "lines": 111,
+      "bytes": 8035,
+      "sha256": "8979d84fc2f5133c12aa0066e7f2bcd810d11d8a0140385d5492ff9d5be213f5"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts205.lean",
+      "lines": 111,
+      "bytes": 7629,
+      "sha256": "ec97d5c1bc8a48c0578a21cbd5608ebf452fb24dbc8ef2def840d7e0d570598f"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts206.lean",
+      "lines": 111,
+      "bytes": 7666,
+      "sha256": "01c1426f4cda436b56e7fdc3df0fde523ba84623eeee71044928060c0662b2f9"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts207.lean",
+      "lines": 111,
+      "bytes": 8427,
+      "sha256": "fb9a43fe1cff92105866aa7ee95065930ad39d9a4a4d2c73a636e554c82f5fbb"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts208.lean",
+      "lines": 111,
+      "bytes": 8373,
+      "sha256": "767446a0187a56732c8dbce27ade5725aef35b8fbce682906036abb17e0dfb99"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts209.lean",
+      "lines": 111,
+      "bytes": 8088,
+      "sha256": "35177a2e43d5a843ffcd31366438aefa84598c5165c57b9999c34b8f42171981"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts210.lean",
+      "lines": 111,
+      "bytes": 8169,
+      "sha256": "1e1ec71127740330e4335bba63357df559fc225f5ba91423869a02585eda7e04"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts211.lean",
+      "lines": 111,
+      "bytes": 7795,
+      "sha256": "4b24d0cff2fda80cff37151d920a018ad7c26611b68ce450b481d8bc44ffdaca"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts212.lean",
+      "lines": 111,
+      "bytes": 8222,
+      "sha256": "ca43625002f243fc9fb269cd6fbdd831b8f63783a0784134caaf90960938cf3b"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts213.lean",
+      "lines": 111,
+      "bytes": 7440,
+      "sha256": "2bc980105b31a0d4589e3015416c09a1251cff130f174744fecb469db241a88c"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts214.lean",
+      "lines": 111,
+      "bytes": 7598,
+      "sha256": "abec736eca06eda99d3e42b9ab568348500a61c36545f5234d3044568fb8ec45"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts215.lean",
+      "lines": 111,
+      "bytes": 8212,
+      "sha256": "a53640e2e732ba9c70d177adc7ce7f4938f54bb8991f4d566609e83f1bb63a14"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts216.lean",
+      "lines": 111,
+      "bytes": 8338,
+      "sha256": "f8e1eaaeb1dce41edbea8d764cafdb8eb0fb93f27043bd1aac43fa3a78b9ac26"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts217.lean",
+      "lines": 111,
+      "bytes": 8473,
+      "sha256": "7890c94783407653289a93423a7b841124c9d37017ec4c6b04d0f2f0e1dd03c4"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts218.lean",
+      "lines": 111,
+      "bytes": 7621,
+      "sha256": "8754ac296ba9370a26b29cd88e7980447021eb1d91dca4f8a6df57f7c447efa1"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts219.lean",
+      "lines": 111,
+      "bytes": 7226,
+      "sha256": "60129b8b6f28ce5f799d7dcb6370b80ebe11f7206c00a31417af5f9b50ffc640"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts220.lean",
+      "lines": 111,
+      "bytes": 7374,
+      "sha256": "2e4f9120a50e4391e180691ac2d44c048728a9b85855e9637c4a7b25a6fc9d91"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts221.lean",
+      "lines": 111,
+      "bytes": 7597,
+      "sha256": "9115ceb56394549b75be02e01f80ea61c04de7c1c44d7556fa58727ba615b521"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts222.lean",
+      "lines": 111,
+      "bytes": 8326,
+      "sha256": "abe2231511765cd07a94a135d34a43631bc4c38c3229c819dcc19896aaeaccc3"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts223.lean",
+      "lines": 111,
+      "bytes": 8149,
+      "sha256": "f0765602745af2ec5170cfa6be8cb9bc0a96c37cae67d35c57585c5250e80673"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts224.lean",
+      "lines": 111,
+      "bytes": 7807,
+      "sha256": "94428af88a25743047d1ed2799f18f7edbb91a2e3a622ea8cec9ac256120791a"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts225.lean",
+      "lines": 111,
+      "bytes": 8938,
+      "sha256": "b88ac19afd90b3ec4b34661dfed045d8ed3c019092d2a0aed5767c003a3f03c9"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts226.lean",
+      "lines": 111,
+      "bytes": 9476,
+      "sha256": "35972eaece86099fa07530f46cf1f4854a31d99b6c74e189ab545b92f72977e0"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts227.lean",
+      "lines": 111,
+      "bytes": 7402,
+      "sha256": "7dcfe8e58b5e0bd4cd292e2e57838ff27331591dd45dc3eb625766221ad59f3f"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts228.lean",
+      "lines": 111,
+      "bytes": 7951,
+      "sha256": "d053b8f404dd120394ea91c6a2bc5165c3d07d861a6d982c0507ee4ca9478b20"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts229.lean",
+      "lines": 111,
+      "bytes": 8284,
+      "sha256": "f351a646dba18c4f889669e729a27535a4e21a8a6945bb979a63bf6a690dcb59"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts230.lean",
+      "lines": 111,
+      "bytes": 8385,
+      "sha256": "6b7f4f90b025eefe0a2358d653269316d33e4ed36395badee0976ad31f5068a2"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts231.lean",
+      "lines": 111,
+      "bytes": 8416,
+      "sha256": "ee0d6f6ec62ee9234fcc09e0dee5b9f4a63e35da6f98e263063c2abe6bfad4e3"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts232.lean",
+      "lines": 111,
+      "bytes": 8442,
+      "sha256": "9cedfc554295221f64e4c5200fe2c6ab5026cbdc8b5923314d56f30163f6d9b2"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts233.lean",
+      "lines": 111,
+      "bytes": 9037,
+      "sha256": "d5fa922607e23fecb622dcfdbbbcec38957741f05bfd6ff9fac86826136aa107"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts234.lean",
+      "lines": 111,
+      "bytes": 8414,
+      "sha256": "f14decb0363c1755faec6c84971937403c8536cd7e502cf920cad40bca7423e1"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts235.lean",
+      "lines": 111,
+      "bytes": 9632,
+      "sha256": "6758fdf85092924e3ccafa7116988802fb3120773867c1a6bb0e0e8c0dd37626"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts236.lean",
+      "lines": 111,
+      "bytes": 9809,
+      "sha256": "6ff5dcf2ff688f02d0a6a6c8d91e5ec31c402b77c24a6eb141c99dafd19d2942"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts237.lean",
+      "lines": 111,
+      "bytes": 8450,
+      "sha256": "f78fc49747319d87c2e8b3a505c15d76e88b05b194c8332d20f80134bcea2736"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts238.lean",
+      "lines": 111,
+      "bytes": 7863,
+      "sha256": "ef8c08bf2171abf8967512a900c5bae54f61e7fac3e2e2fe5ee0759d51d27fa8"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts239.lean",
+      "lines": 111,
+      "bytes": 8179,
+      "sha256": "3304a720b56eeb8939a854ef86a81b4a658a6513bf927cb4d618873036a87e42"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts240.lean",
+      "lines": 111,
+      "bytes": 8737,
+      "sha256": "8901a0646bcee1a79b3f54df7fe7c8187a8ae6f1fbef827ce6c29a500606519b"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts241.lean",
+      "lines": 111,
+      "bytes": 7893,
+      "sha256": "665df776727f66f3565fb72bdaf6c74408fcb2f718a9f209124a00239698370b"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts242.lean",
+      "lines": 111,
+      "bytes": 8045,
+      "sha256": "5de9eaa7b927aae371c468946e1140b52d601678d74b0c93e32b654b1bf5a7ff"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts243.lean",
+      "lines": 111,
+      "bytes": 8370,
+      "sha256": "88fec5f62ef2e9ed23699c62533780a3ccfa68d9c13d5fcde22625bad3f3ec47"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts244.lean",
+      "lines": 111,
+      "bytes": 7768,
+      "sha256": "a54d89543c08ffcad57b03c8786455899b8616d6c1b3d774a22002d3732fd257"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts245.lean",
+      "lines": 111,
+      "bytes": 8956,
+      "sha256": "31204b35886bfc40318803ecb3633e3bd128ae7684bef2e7d2261a07a66e3a17"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts246.lean",
+      "lines": 111,
+      "bytes": 8610,
+      "sha256": "54de51c391bd0141015b53d4a08bbfb726f1858c4d263b4a5ab86ff5a1f8df51"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts247.lean",
+      "lines": 111,
+      "bytes": 10534,
+      "sha256": "399f1d78e40c8e82117b262e1712a18258b2cb8126de9141ba18ee917c62b62a"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts248.lean",
+      "lines": 111,
+      "bytes": 14433,
+      "sha256": "6fb93721ce1c095384ff9f53e032cb6907fb58c80ec04b686b07b4ae6b96ee78"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts249.lean",
+      "lines": 111,
+      "bytes": 9287,
+      "sha256": "8cf4c5995ba92a90684c8e14befa5b5beff03cd81f3a6b5d069da28380035aee"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts250.lean",
+      "lines": 111,
+      "bytes": 8129,
+      "sha256": "98e6013f84248db8cd0bee1fb91f1c477fecb1010fa9cf4d34bb98bf0b539437"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts251.lean",
+      "lines": 111,
+      "bytes": 8850,
+      "sha256": "c412c0949ab50e580e4cd3646f7b5828ae5b359678d423f92f4b7413ae446985"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts252.lean",
+      "lines": 111,
+      "bytes": 11817,
+      "sha256": "76c725047a38df874f3c4c1e62cfbe71e7f534f33534e20921a98f4bf94d0b9a"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts253.lean",
+      "lines": 111,
+      "bytes": 8674,
+      "sha256": "c82ffdb414064ff01da03cd4f11af08980ef14725c0c59864ba69cfc8284dbb9"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts254.lean",
+      "lines": 111,
+      "bytes": 8693,
+      "sha256": "3d0f12f8650457a9042ed836cc2fea6989ab745a6c1a1f1be6719074525d2e4a"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts255.lean",
+      "lines": 111,
+      "bytes": 8258,
+      "sha256": "45d3f01809ad8df30286f5aeb687368b561697734d9a27801e5e14b6ee00c4fe"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts256.lean",
+      "lines": 111,
+      "bytes": 8563,
+      "sha256": "8aaa6ba6f7d245821aee4d3ec49ff1cc4cfaac83312cd5520706c24371f8d2d9"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts257.lean",
+      "lines": 111,
+      "bytes": 8952,
+      "sha256": "e67496be30c93ce92729bf098bbaeaf8ed56b9874373f0b6ca201cc49d539880"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts258.lean",
+      "lines": 111,
+      "bytes": 8977,
+      "sha256": "3ec82ae52e340898dc7ef54b563963c8f04c59a2523be7faf0343d21c1e427e5"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts259.lean",
+      "lines": 111,
+      "bytes": 8048,
+      "sha256": "284d8d2c56dffbdf51f35f97d0d68524c77ac8893103fd89f981a7d5a9d6da9f"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts260.lean",
+      "lines": 111,
+      "bytes": 8346,
+      "sha256": "c2dc5e3be7fbf759575bda3ff4b8484b8fa27147a790b6a3401bdb3d9b9557fc"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts261.lean",
+      "lines": 111,
+      "bytes": 8544,
+      "sha256": "a730909a2fe920a0727f99ce0730582c6d880a259fcf5f11468d5b91b47c875f"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts262.lean",
+      "lines": 111,
+      "bytes": 8469,
+      "sha256": "eae17df4add4137d0bfe07315eb3bcb306cce420a9d97f547f799752723871f9"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts263.lean",
+      "lines": 111,
+      "bytes": 8376,
+      "sha256": "e4c5df33bfbfb7b2d23951ecf32966540152f7eee6a54876a9d89116585efa08"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts264.lean",
+      "lines": 111,
+      "bytes": 8334,
+      "sha256": "8761516654a22ff14fcfb4458f9abc10d80d5dea7774d19b5d85093ce46a31ff"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts265.lean",
+      "lines": 111,
+      "bytes": 8086,
+      "sha256": "3b79e93455df17f90f32631c831024dc25113a2bcddb037c29c1a8296b70fad3"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts266.lean",
+      "lines": 111,
+      "bytes": 7589,
+      "sha256": "710a89b5d212d0efe6c6b3416179dd5739257598dbb7193e97bf78b20cb72d7b"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts267.lean",
+      "lines": 111,
+      "bytes": 7939,
+      "sha256": "2e9693beaad1a389db71d396f221bb88d56c5babb30676cdd94427d2dbc261ce"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts268.lean",
+      "lines": 111,
+      "bytes": 7476,
+      "sha256": "30ab89c06805b8c6d5df01d30ceb99df3c3844f001d7c20e3c99ad0bb92ba896"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts269.lean",
+      "lines": 111,
+      "bytes": 10183,
+      "sha256": "b610b68a44c7cb976d1f168c071f6e8065eda9a9f1873abce0ba7f7bf9240202"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts270.lean",
+      "lines": 111,
+      "bytes": 10811,
+      "sha256": "50a79d228114f72e2eaa69357dada02cd4aecc800146e319f2345635bf9b257d"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts271.lean",
+      "lines": 111,
+      "bytes": 7757,
+      "sha256": "72bf591ea87ac05250805698ce496507589da04ab950d26ea487d2929a840b2c"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts272.lean",
+      "lines": 111,
+      "bytes": 8181,
+      "sha256": "3e8a97e3ad57db3159c3e89b129bf96060c0e39d3c9167b52af2cabb5c0c7447"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts273.lean",
+      "lines": 111,
+      "bytes": 8806,
+      "sha256": "630423e0750d775370a5ff55f5202522cfb8d211c7d494d3e70a9fce8e9d3064"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts274.lean",
+      "lines": 111,
+      "bytes": 9579,
+      "sha256": "a96a101d88d705fa239059309571ed772553743dae7dd0bcf2db87db6686368c"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts275.lean",
+      "lines": 111,
+      "bytes": 8171,
+      "sha256": "541e0bdf0f3a46b2218649a0fd34dabe377b0911a614c777c3172d7b54293b0c"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts276.lean",
+      "lines": 111,
+      "bytes": 8606,
+      "sha256": "5d11c53deca19ec3fad93f46c1231ea04bd2fd214444daa00b409e444a04390e"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts277.lean",
+      "lines": 111,
+      "bytes": 8592,
+      "sha256": "26304ee516976878a70a66b20d33a0f1e6452663ffdf12286c224264cf02b89a"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts278.lean",
+      "lines": 111,
+      "bytes": 8909,
+      "sha256": "66019f6eca75072a1dc5cd5f78771bfb8856b99bbee1d24a8963135724d9b4e7"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts279.lean",
+      "lines": 111,
+      "bytes": 7952,
+      "sha256": "43bdb9e188f749ed08c7efb14e74d0e159f08fc8bcd096e9f54516c7f707d917"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts280.lean",
+      "lines": 111,
+      "bytes": 7569,
+      "sha256": "ab015c445a1782ea7b87c4f53b580ba57833393f14c3616b664eed473d3e5405"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts281.lean",
+      "lines": 111,
+      "bytes": 7966,
+      "sha256": "27ed63704ed68023753c0bcc1c4388ef6f2e819a5babeb07eae2fb605f4dedcb"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts282.lean",
+      "lines": 111,
+      "bytes": 8824,
+      "sha256": "02f519016aa4bf3f83f7ca5f08e2f380a6d126f74205ed9d5cdf8c227b58ad06"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts283.lean",
+      "lines": 111,
+      "bytes": 8405,
+      "sha256": "10c077f14e8e941075567181b7d7889ec928a155558bb7d76111640aa79cb724"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts284.lean",
+      "lines": 111,
+      "bytes": 8655,
+      "sha256": "68b2d4c3f8315ee7ecca81f26868598892ec7f7ccff1c62af191473e35d2b872"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts285.lean",
+      "lines": 111,
+      "bytes": 8978,
+      "sha256": "613609ab3ab286a53eb269fbd099a23a8ad92d2162a0eee994eeb4f663703889"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts286.lean",
+      "lines": 111,
+      "bytes": 8152,
+      "sha256": "b908fcb99cf5bde248b93d8f994154c84e33917efca1b31e647a52658e4437da"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts287.lean",
+      "lines": 111,
+      "bytes": 8510,
+      "sha256": "63cd7110f6c5bc9ac301b38432a0ac38004f3bd8bdf688df411c946829957e9c"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts288.lean",
+      "lines": 111,
+      "bytes": 7897,
+      "sha256": "6ed4bf043868139f25523f9adb7ff48120fc883533a6a998f99f95bc34146985"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts289.lean",
+      "lines": 111,
+      "bytes": 7604,
+      "sha256": "8c460d6f66012d9685eebca577ecc996b3b31fb8ef605b63a7cc26f0fe750ad1"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts290.lean",
+      "lines": 111,
+      "bytes": 8240,
+      "sha256": "acc939974e1699378044135275fdfbd8272cd71c89078fef5822a13dd30e3045"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts291.lean",
+      "lines": 111,
+      "bytes": 8486,
+      "sha256": "9e85fad5d59868527f8d56d64389e213b505e52b7d5ba634a1c88e4aed3d6fd8"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts292.lean",
+      "lines": 111,
+      "bytes": 8465,
+      "sha256": "c95000e2dc4f0cf8665c6913779d5b0b1067b04aacf647f4f56e966f558f9610"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts293.lean",
+      "lines": 111,
+      "bytes": 10136,
+      "sha256": "e6e4f14840bb08889ab99c7cadad1e13d6fdab4837b481999257376ec06a97da"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts294.lean",
+      "lines": 111,
+      "bytes": 10868,
+      "sha256": "90e376a0b4bc4e48c1be240d6598a2d4ead4aa355cd3a71c570232514e0adbde"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts295.lean",
+      "lines": 111,
+      "bytes": 8780,
+      "sha256": "19bf186eb7cba6e5a9e3518c0eaba3fea4eb22d217ab65ae44b4dd6ac1a3ea4b"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts296.lean",
+      "lines": 111,
+      "bytes": 8521,
+      "sha256": "7d8463975ce5d031400c023e669a100dedc3fbd2ab8b1679e28fb95f857f23d4"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts297.lean",
+      "lines": 111,
+      "bytes": 8026,
+      "sha256": "0f78c9fa7487b7c7e99859eaab6dfa5b434d8b492687b98238901f9f1498d970"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts298.lean",
+      "lines": 111,
+      "bytes": 7633,
+      "sha256": "f70a9f31f445937ee97956f69440995463570adb267a23ac5a335a725624c89f"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts299.lean",
+      "lines": 111,
+      "bytes": 7547,
+      "sha256": "96ec993e087da01599f6400c1fdb0e7d5f0570f8e9392825bcfe29ecd3d64eca"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts300.lean",
+      "lines": 111,
+      "bytes": 7212,
+      "sha256": "17ab2bfebe6eef3e8a818a6c8317f310ddde64f91184348619275520de422e3a"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts301.lean",
+      "lines": 111,
+      "bytes": 8242,
+      "sha256": "cee55b59309335bb675648b19a5f61fa1b99e4052cabf02949dc71f4a98c7aa0"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts302.lean",
+      "lines": 111,
+      "bytes": 8814,
+      "sha256": "3589f2158f6acae5666110d8860ed14c285ff2b6a07a8c8ac0f0004d6bbc9d8e"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts303.lean",
+      "lines": 111,
+      "bytes": 8473,
+      "sha256": "25e2bad55166ec4d104647a1d41fcd483bbaf777b036a7484c41077293533b0c"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts304.lean",
+      "lines": 111,
+      "bytes": 8503,
+      "sha256": "7e5b81c1ca7616d9eb7ac848db9c762a5f9ef31348b432ff7315b750af19c5bc"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts305.lean",
+      "lines": 111,
+      "bytes": 13104,
+      "sha256": "77ffff6eb1d95b7843ad04a7bb5aa5c58a8e3bca01ee11429e739ea5e4a8f89e"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts306.lean",
+      "lines": 111,
+      "bytes": 9365,
+      "sha256": "a88e3e817959d409f11da5fad73f88b783de04f5a9305a6765fa608491c3cf21"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts307.lean",
+      "lines": 111,
+      "bytes": 8596,
+      "sha256": "981a140a37a8cf00c63f715804fed7c2d8764d5d5707989fce7b9b634616aad1"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts308.lean",
+      "lines": 111,
+      "bytes": 9158,
+      "sha256": "dc9001fdc3ec710dc44f7450f41c3652bc3c2fdad36f4732851883e56d6246d7"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts309.lean",
+      "lines": 111,
+      "bytes": 8982,
+      "sha256": "1e9271bebe0ca12c4c5d3c83c96e605b874dd85430b0612367b64e2afd268e85"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts310.lean",
+      "lines": 111,
+      "bytes": 8749,
+      "sha256": "07246f3d76e25f5739253b105bb60daf3bce57dd280bdbf13ea500cedd4de11c"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts311.lean",
+      "lines": 111,
+      "bytes": 9110,
+      "sha256": "d351e8e3b927fb1803abe0115591f9b3319cf85ef0dc9008837faa1a4815f1d7"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts312.lean",
+      "lines": 111,
+      "bytes": 9333,
+      "sha256": "58075f0377e8122166e053072643e13defe51573f3e8b3b02eb7807d06af4b46"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts313.lean",
+      "lines": 111,
+      "bytes": 8882,
+      "sha256": "f70e9b3f54301cc839af3c79414bcccf96197341b90a57b0f797f95564d6fda2"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts314.lean",
+      "lines": 111,
+      "bytes": 8459,
+      "sha256": "3c81b1d7373f4aab20830def3e1129bf0b8532f5d43685be7dd285c2529e792e"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts315.lean",
+      "lines": 111,
+      "bytes": 8716,
+      "sha256": "f9ca0a1bfed045f1cfb3af440e3201f5a736dbf6d26768c230c749734a8c3973"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts316.lean",
+      "lines": 111,
+      "bytes": 8287,
+      "sha256": "0eb4c72fa04032dbe5d23568e3b271a7003908111f94a44f2b7234ca5c3e87e1"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts317.lean",
+      "lines": 111,
+      "bytes": 8353,
+      "sha256": "29739e4bd31f53b60ce2b79e20db7db521febb63aa5695c9ca483b8124ff8761"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts318.lean",
+      "lines": 111,
+      "bytes": 8461,
+      "sha256": "a141dd654fb7f957890954d4f09f822ae7d8360096f2ad5a31555de0fb6c7f5c"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts319.lean",
+      "lines": 111,
+      "bytes": 8631,
+      "sha256": "cda39f87f3ce1f090ed0c264c3a0bf88fb171ff8a15f2d754e7dea066823e4a3"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts320.lean",
+      "lines": 111,
+      "bytes": 8061,
+      "sha256": "181698916a25f9325b19a2e60cde932d2c2406afaa486bf004053734ec3cfae7"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts321.lean",
+      "lines": 111,
+      "bytes": 8458,
+      "sha256": "1076543ddf981f987b0989368c019581ce5330eff5507744e52c1050edd44064"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts322.lean",
+      "lines": 111,
+      "bytes": 8818,
+      "sha256": "e26c36a2b47956a28388b3a634f7fa70c0d500828ee4e8fd8a19a4f7d93dc4bb"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts323.lean",
+      "lines": 111,
+      "bytes": 8482,
+      "sha256": "c7c87f8fd7dabaa8677c9374828582eca033d9d119d3329e35189db49e545046"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts324.lean",
+      "lines": 111,
+      "bytes": 8468,
+      "sha256": "4b59f5fb15d0177031853476b7d12e25dcafc82ccab5d715441fe7ba1f551688"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts325.lean",
+      "lines": 111,
+      "bytes": 9061,
+      "sha256": "cb5799b50d867d341493b3b0e55be737775e74c979d12677787459243f93f491"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts326.lean",
+      "lines": 111,
+      "bytes": 9237,
+      "sha256": "72855af5b04cea51cb34f72ec4137ca2155be2b8c846614fa783af19734e6519"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts327.lean",
+      "lines": 111,
+      "bytes": 9244,
+      "sha256": "2abffbb7b45a3fc459a77c97ec4dcb922226120efea2b5b823683d4184218406"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts328.lean",
+      "lines": 111,
+      "bytes": 8992,
+      "sha256": "7700131c5414b981be71a354819e795c7859d3b94258f9e4ee8dfc4e4520152b"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts329.lean",
+      "lines": 111,
+      "bytes": 8225,
+      "sha256": "0e2b2082da29ed6d990bbccfd580492b08ae8eddf791fd1e95c1de5b108f56c1"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts330.lean",
+      "lines": 111,
+      "bytes": 8423,
+      "sha256": "735cbabee840157917ed411e0cfa3190ccefd43218325f00f07481773494abc1"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts331.lean",
+      "lines": 111,
+      "bytes": 8607,
+      "sha256": "117baa2e41043c91a5e244232689b4b9c48501fbc4d6948106ac44616ca317bc"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts332.lean",
+      "lines": 111,
+      "bytes": 8851,
+      "sha256": "6146b2c89a339e86c170ad2ca062c1e7a204f508aa324e5ad409b5a1a504fad0"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts333.lean",
+      "lines": 111,
+      "bytes": 8479,
+      "sha256": "bb9b295fa46b3d84d972220f4d753a3c5ca97de4e3198d39e2524497c7ef8b0d"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts334.lean",
+      "lines": 111,
+      "bytes": 8413,
+      "sha256": "4ab743504c6f5de39d412492608829f92c17187b7952149c08c16d70265f6280"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts335.lean",
+      "lines": 111,
+      "bytes": 8582,
+      "sha256": "ee138f6c14b313c66f56e52c5d95a06299033dc17d32056c8e4f37594b699e75"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts336.lean",
+      "lines": 111,
+      "bytes": 8872,
+      "sha256": "fb5e62eee6deb64d7c4fbc2304474291af6b86b86d61f2d8b16ce0c00d681cbf"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts337.lean",
+      "lines": 111,
+      "bytes": 8146,
+      "sha256": "abc385818c52231cfd9cf9f589469361e2ba73704e696dbcddebecb2d015657c"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts338.lean",
+      "lines": 111,
+      "bytes": 7865,
+      "sha256": "cbb7ddfb8f155fb21b3cdd4a3114ae29aaf488f743e0106768dfa2b70c96a711"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts339.lean",
+      "lines": 111,
+      "bytes": 8230,
+      "sha256": "38c9296b496b565e84793a4656c2a568e0886633d77ee974a63480ecff7f0a35"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts340.lean",
+      "lines": 111,
+      "bytes": 8810,
+      "sha256": "9f012e1bf2adff3413a9a4edbc22f34a94e74731c5e13e65357315ba955f9909"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts341.lean",
+      "lines": 111,
+      "bytes": 8881,
+      "sha256": "38628f2d5c9ea08c7bcf4b5e47345d631df801adb2ce2e66cafd655954332ada"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts342.lean",
+      "lines": 111,
+      "bytes": 8971,
+      "sha256": "8aa462d35e22d996cffa6194865bd651314050d70d94830b56d3649017cdff77"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts343.lean",
+      "lines": 111,
+      "bytes": 9205,
+      "sha256": "c6f4fe5f6cf06efdd39d78da5abd0551ad397d6487c33eb601469ec03d7f17fc"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts344.lean",
+      "lines": 111,
+      "bytes": 9884,
+      "sha256": "b60a56e442f36960898f67235b37fbd5eda23086990e514dec56316fdfcb4e0e"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts345.lean",
+      "lines": 111,
+      "bytes": 7788,
+      "sha256": "3b8b4b1394eee355aac4ca2576d8e9af435ac62a69f71692c6d3ff6bd5de25f1"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts346.lean",
+      "lines": 111,
+      "bytes": 8993,
+      "sha256": "fc15f226c40d5230f0ad5057d479283930312d9de25ac0a7b83d5e6598008366"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts347.lean",
+      "lines": 111,
+      "bytes": 8976,
+      "sha256": "4fe0d0ce44072cb07c454c6981115d30707640c00873210e93947f9fcae5cd9d"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts348.lean",
+      "lines": 111,
+      "bytes": 8169,
+      "sha256": "eb461f13c1ddbf95bc571aae78dea1c605f699b3b7a8c29a659ffbb1e5d5518e"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts349.lean",
+      "lines": 111,
+      "bytes": 8294,
+      "sha256": "cdd88e56782ba90ccf80b6dff8db2f8a0f5be0cd6571e9557fcb32e141203322"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts350.lean",
+      "lines": 111,
+      "bytes": 8144,
+      "sha256": "48b6292ce3f3809ba10868e5382cf62cf34dba25d2126d5fdf7642455cc4e5d4"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts351.lean",
+      "lines": 111,
+      "bytes": 7915,
+      "sha256": "68e1c4753a0b29a5cf24b288563b3047912eab17a88edfd778e14c2957015527"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts352.lean",
+      "lines": 111,
+      "bytes": 7898,
+      "sha256": "891481fa08fd5169d2e4363ca921ad1e5f505e1df789af61fbfda99943c38a75"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts353.lean",
+      "lines": 111,
+      "bytes": 8386,
+      "sha256": "d78a3226a3816b2fb87dddc01aad15ee37c47d6f113adef15b02a90a24249770"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts354.lean",
+      "lines": 111,
+      "bytes": 8429,
+      "sha256": "11695f2174609114f43042f224ce48257270d8e2300ff28559d9c1f2a80ea1c8"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts355.lean",
+      "lines": 111,
+      "bytes": 8122,
+      "sha256": "26589d30ee8b5b4d20864b0976d921e9a5340b0574cd580cce26976eb2202f61"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts356.lean",
+      "lines": 111,
+      "bytes": 8403,
+      "sha256": "bb53fba595c5dd623f31f095d89037cb3c5e2264aa1d810f250ac916e185e7d4"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts357.lean",
+      "lines": 111,
+      "bytes": 8239,
+      "sha256": "a6e9860e3e33aaaf273990f3e986093ad28e4d55c7d2c65dff3d4ca7fc7c1ab4"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts358.lean",
+      "lines": 111,
+      "bytes": 7684,
+      "sha256": "d9aee1f72434f2b3f6e9ce4dd23a55610b58dca3f16f27c8932c79303326ec3f"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts359.lean",
+      "lines": 111,
+      "bytes": 7696,
+      "sha256": "f5b068d94f253dbb6c1022701e7b0f1b91b3ca807d4380fc3a03d694917222ed"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts360.lean",
+      "lines": 111,
+      "bytes": 8156,
+      "sha256": "c8eee2912435176a7c0885a822ec570816d7c427928b7278a767f2456e6c40ba"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts361.lean",
+      "lines": 111,
+      "bytes": 8377,
+      "sha256": "33e74aa2c2779bef124881435b287790ef7b67d9d537b8c5624a3164914ec94f"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts362.lean",
+      "lines": 111,
+      "bytes": 7747,
+      "sha256": "dd9741f4ceea5ff23b002202ed070af8bbd1c2317049011c15862a212fb66f2c"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts363.lean",
+      "lines": 111,
+      "bytes": 7450,
+      "sha256": "29e31b1c499ca7d217e8e7bf37c69ee0757c77681fe02f99e57181c04918bf75"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts364.lean",
+      "lines": 111,
+      "bytes": 8182,
+      "sha256": "fe1b5153c794987e18e2ba0aac9da2aa3db1a89e869d67aa0a90545f1d0acd44"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts365.lean",
+      "lines": 111,
+      "bytes": 8112,
+      "sha256": "b12205e831f765f821ec3e78af8553a3de5d8a8eec9a0e3162579a9f53669cf8"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts366.lean",
+      "lines": 111,
+      "bytes": 8316,
+      "sha256": "60a392feb5c0aad1d73481f955794bc98608e658779e3f5751340f1ea4dd74b3"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts367.lean",
+      "lines": 111,
+      "bytes": 8547,
+      "sha256": "02579061dc42bdfa8298475e8c283f24b9d607a38fc122b12b8f342d57f9b934"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts368.lean",
+      "lines": 111,
+      "bytes": 11091,
+      "sha256": "691cd1ef32f59ff3aa5d883ef98134b2549e1b990deb05011a43c6405e0fb860"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts369.lean",
+      "lines": 111,
+      "bytes": 10293,
+      "sha256": "0924cf7cd5c8757fcc72acfebd190b9ec33601519c4c22abec9c51c103914d0c"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts370.lean",
+      "lines": 111,
+      "bytes": 9258,
+      "sha256": "121d38abccd822f2d6d2207a5ffd458d2d71511c65c2904739176a466bb048c8"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts371.lean",
+      "lines": 111,
+      "bytes": 9124,
+      "sha256": "7537878e3da3db6c3c1598c2b0b11b4643433c33f91a1b08dc299774a709ab6c"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts372.lean",
+      "lines": 111,
+      "bytes": 9058,
+      "sha256": "86d2b3e8a7fdbf5c05ec9fc33fb1f27e91e12705c0dd8b0734465c2efff147ed"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts373.lean",
+      "lines": 111,
+      "bytes": 8445,
+      "sha256": "8de997bb2f3ced657631a50a640d6d681ac524ee8fdb5123997ece0e84ecf91c"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts374.lean",
+      "lines": 111,
+      "bytes": 8664,
+      "sha256": "95076fbe35ff7793df5e35ea0557ffee0e4b4896b9f9516d5aa498e081364cba"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts375.lean",
+      "lines": 111,
+      "bytes": 8962,
+      "sha256": "a9a8eacb330c5c42b89059107be967bd1bea9c1943316d4763f75703a153e0f4"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts376.lean",
+      "lines": 111,
+      "bytes": 8816,
+      "sha256": "99d271ab0f746ba2e1c66520709381632062294f93cf2ebdf1c843caf4ff8468"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts377.lean",
+      "lines": 111,
+      "bytes": 9116,
+      "sha256": "d99a4b39bb67863d98193b2195de14735c1c416cd0f5487fa8330d2f7c52dce2"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts378.lean",
+      "lines": 111,
+      "bytes": 9130,
+      "sha256": "0de4be80c94ea4b211be48fccec3785e1020a0010b9cd41b00195c28b1e07d5b"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts379.lean",
+      "lines": 111,
+      "bytes": 8699,
+      "sha256": "1a050cabb9107b0cbfe67f0a7cdfc609a1e1e38a6718a3a7ca474680e28d29a4"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts380.lean",
+      "lines": 111,
+      "bytes": 8523,
+      "sha256": "0790abcc95479b1d7d92b2fcebeba84ce255f2d4efeeb1a4e347d1d65f3ae842"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts381.lean",
+      "lines": 111,
+      "bytes": 8231,
+      "sha256": "9e1441f9ec86f857595284511e9b80618e1cbac2c590380bfb0e7779b3af2de7"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts382.lean",
+      "lines": 111,
+      "bytes": 8743,
+      "sha256": "5e66e8f51c7f0a43720c86ee001c9c84e6767bcb2f7359cd75cf0da8e791dbf4"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts383.lean",
+      "lines": 111,
+      "bytes": 8507,
+      "sha256": "79114ba5828396c0f256c75457c436206ea364185ceb709784610f3486424d83"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts384.lean",
+      "lines": 111,
+      "bytes": 8547,
+      "sha256": "380e8ad5b31ce2562a71967010c9eada6e471c49398c690c0f0b0e03ab05e7f6"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts385.lean",
+      "lines": 111,
+      "bytes": 8535,
+      "sha256": "4f15562362a2715c4aa327aeb50a0ead2a94deed927d56419ce1b0ad79871d8f"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts386.lean",
+      "lines": 111,
+      "bytes": 7495,
+      "sha256": "95951741c271f51a50dfc21ca0962c1ca9ac08009ee4401904c9735ee0bd2625"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts387.lean",
+      "lines": 111,
+      "bytes": 8016,
+      "sha256": "1f78ebbe0fd3f281ca25dede9a0d200f9546fd5ac1c6bf52444293ddea3a04ea"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts388.lean",
+      "lines": 111,
+      "bytes": 8028,
+      "sha256": "e686f635147fc88d32f5ecd32d2d02d2d87971d26b3abf116c59d276e4ee5dcc"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts389.lean",
+      "lines": 111,
+      "bytes": 8102,
+      "sha256": "9183618a76129f5ef01d572d9800b5fb6ded719c263f319e2146c9daafea67e2"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts390.lean",
+      "lines": 111,
+      "bytes": 8858,
+      "sha256": "0035e20488b1c95c87a98be7448388a0a345288d741ea1d56e00b9322a0dd272"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts391.lean",
+      "lines": 111,
+      "bytes": 8916,
+      "sha256": "9113449e84412573da7eae3b8c21211d716c6654d9c3cfb87400c5ebe7e747b1"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts392.lean",
+      "lines": 111,
+      "bytes": 8619,
+      "sha256": "10be44340768b48bf773d8de941c06d097596ec17d0d7ff263735e85d4abf9fb"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts393.lean",
+      "lines": 111,
+      "bytes": 8442,
+      "sha256": "1ae5974addfbe96c961bfbb2b0eac6301e0f448381c49ee6363ffd9bf329f4da"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts394.lean",
+      "lines": 111,
+      "bytes": 9239,
+      "sha256": "b4db6767aac2220e3d12285d64d8550be30a00e700f941bc7688afd8c5094e5d"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts395.lean",
+      "lines": 111,
+      "bytes": 8405,
+      "sha256": "63ffb9273ce561b46055cf4319275b13d5410bde81eff224268dfa2d8e9b2712"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts396.lean",
+      "lines": 111,
+      "bytes": 8066,
+      "sha256": "d7213c362a6c5004a4d0ee22146606ae1c9e46976bf807d5e5abe97c3eb666e2"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts397.lean",
+      "lines": 111,
+      "bytes": 8057,
+      "sha256": "fd940bc7afe99de595a5def040e72b70e198137f7ec7b4163b03dd49ca4e8366"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts398.lean",
+      "lines": 111,
+      "bytes": 7731,
+      "sha256": "b16c69df7f9617dfbfddbcfb6270004c0d4b64d7b94a30a9d4ab7d6ed0a43709"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts399.lean",
+      "lines": 111,
+      "bytes": 7583,
+      "sha256": "08f2b39e1a9af4bbdb8c53a81b295b3bdf074012e5845be59f70b342599747a5"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts400.lean",
+      "lines": 111,
+      "bytes": 8674,
+      "sha256": "ffb3a5ec2803cee39f3aa1bed0391547aec4e44b763bb200410e4c2acd3175af"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts401.lean",
+      "lines": 111,
+      "bytes": 8535,
+      "sha256": "0adafc2ce3143c8f282c226184fe91f8c52d85627fe2b5a7b2ade7a6201fe0ac"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts402.lean",
+      "lines": 111,
+      "bytes": 8628,
+      "sha256": "40e04abca9aea74f7858ec592078041e966bba1488f71d20891cd09009c143a8"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts403.lean",
+      "lines": 111,
+      "bytes": 8729,
+      "sha256": "8276ccb01598c60a03ec53f660a9c999afd67ce6b2c616cd120a0d6774cd58b0"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C701_713_717_973_978_979/Contexts404.lean",
+      "lines": 27,
+      "bytes": 1594,
+      "sha256": "f59004b52499f3c7384fc9cec397117e04f9cd1a705253c111ad746f837ef544"
+    }
+  ],
+  "lean_lines": 45645,
+  "lean_modules": 406,
+  "remaining": [
+    "Lean checks of all emitted context tables and empty certificates",
+    "all original pair checks and exact global ID/angle/reference adapters",
+    "all relaxation, pruning-cover, chord and original-entrance obligations"
+  ]
+}

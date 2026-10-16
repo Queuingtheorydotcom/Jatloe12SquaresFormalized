@@ -1,0 +1,131 @@
+{
+  "format": "n12-source-repetition-v1",
+  "complete": true,
+  "scope": "local C696 **/*Data.lean",
+  "files_selected": 305,
+  "source_bytes": 243903387,
+  "source_lines": 2486236,
+  "files_completed": 305,
+  "trust": "source-byte audit, not a Lean verification",
+  "entry_tables": {
+    "angles": {
+      "occurrences": 19200,
+      "distinct_exact_entries": 192,
+      "literal_bytes": 704434,
+      "distinct_literal_bytes": 7375,
+      "duplicate_literal_bytes": 697059,
+      "duplicate_occurrence_fraction": 0.99
+    },
+    "directions": {
+      "occurrences": 28196,
+      "distinct_exact_entries": 290,
+      "literal_bytes": 423184,
+      "distinct_literal_bytes": 4389,
+      "duplicate_literal_bytes": 418795,
+      "duplicate_occurrence_fraction": 0.9897148531706625
+    },
+    "nodes": {
+      "occurrences": 96009,
+      "distinct_exact_entries": 86151,
+      "literal_bytes": 27389481,
+      "distinct_literal_bytes": 22801649,
+      "duplicate_literal_bytes": 4587832,
+      "duplicate_occurrence_fraction": 0.10267787394931727
+    },
+    "rawPoses": {
+      "occurrences": 59198,
+      "distinct_exact_entries": 30826,
+      "literal_bytes": 3913399,
+      "distinct_literal_bytes": 2030294,
+      "duplicate_literal_bytes": 1883105,
+      "duplicate_occurrence_fraction": 0.47927294841041923
+    },
+    "rawRows": {
+      "occurrences": 1398394,
+      "distinct_exact_entries": 503684,
+      "literal_bytes": 90425021,
+      "distinct_literal_bytes": 33880638,
+      "duplicate_literal_bytes": 56544383,
+      "duplicate_occurrence_fraction": 0.6398125277997474,
+      "illustrative_shared_table_plus_8_byte_references": 45067790,
+      "estimate_excludes": "table wrappers, adapters, proof terms and compiled objects"
+    },
+    "supports": {
+      "occurrences": 574008,
+      "distinct_exact_entries": 102351,
+      "literal_bytes": 11049727,
+      "distinct_literal_bytes": 2001218,
+      "duplicate_literal_bytes": 9048509,
+      "duplicate_occurrence_fraction": 0.8216906384580006
+    }
+  },
+  "sqlite_peak_bytes": 90165248,
+  "declarations": {
+    "occurrences": 43879,
+    "bytes": 243690015,
+    "unique": 28036,
+    "unique_bytes": 224549855,
+    "duplicate_bytes": 19140160,
+    "duplicate_lines": 290057,
+    "largest_duplicates": [
+      {
+        "name": "rawRows",
+        "bytes": 978919,
+        "first": "RootOneStep018Data.lean",
+        "repeat": "RootZeroPrefixN64Step018Data.lean"
+      },
+      {
+        "name": "rawRows",
+        "bytes": 712608,
+        "first": "RootOneStep006Data.lean",
+        "repeat": "RootZeroPrefixN64Step006Data.lean"
+      },
+      {
+        "name": "rawRows",
+        "bytes": 596201,
+        "first": "RootOneStep005Data.lean",
+        "repeat": "RootZeroPrefixN64Step005Data.lean"
+      },
+      {
+        "name": "rawRows",
+        "bytes": 526584,
+        "first": "RootOneStep001Data.lean",
+        "repeat": "RootZeroPrefixN64Step001Data.lean"
+      },
+      {
+        "name": "rawRows",
+        "bytes": 496286,
+        "first": "RootOneStep004Data.lean",
+        "repeat": "RootZeroPrefixN64Step004Data.lean"
+      },
+      {
+        "name": "nodes",
+        "bytes": 405220,
+        "first": "RootOneStep018Data.lean",
+        "repeat": "RootZeroPrefixN64Step018Data.lean"
+      },
+      {
+        "name": "supports",
+        "bytes": 288060,
+        "first": "RootOneStep018Data.lean",
+        "repeat": "RootZeroPrefixN64Step018Data.lean"
+      },
+      {
+        "name": "nodes",
+        "bytes": 282998,
+        "first": "RootOneStep006Data.lean",
+        "repeat": "RootZeroPrefixN64Step006Data.lean"
+      }
+    ]
+  },
+  "manifest_sha256": "e20dde08a4d2ec5d9a404e8b8743465da0a7e81e871f20404fc0f7e4e5c294fd",
+  "elapsed_seconds": 11.161,
+  "peak_rss_bytes": 36814848,
+  "limitations": [
+    "Entry equality is exact source bytes excluding newline; no mathematical canonicalization.",
+    "Whole declaration duplicates were compared byte-for-byte after hash lookup.",
+    "Expressions with local table indices require dependency rebasing before semantic sharing.",
+    "Entry and whole-declaration savings overlap and must not be added.",
+    "No Lean proof, compilation speedup or final completed-proof size follows from this audit."
+  ]
+}

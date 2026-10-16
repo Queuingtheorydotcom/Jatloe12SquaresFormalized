@@ -1,0 +1,22 @@
+{
+  "recovered_this_attempt": 814,
+  "recovered_bytes": 203025761,
+  "remaining_files": 2161,
+  "remaining_bytes": 1318832455,
+  "remaining_S12": [],
+  "free_bytes": 7086080000,
+  "target_component_max": 247,
+  "cleanup_receipt": {
+    "command": [
+      "python3",
+      "scripts/restore_c898_records.py",
+      "audit/C898_COMPLETE_RECOVERY_MANIFEST.json"
+    ],
+    "returncode": 1,
+    "stop_reason": null,
+    "elapsed_seconds": 430.09,
+    "peak_group_rss_kib": 266976,
+    "cleanup_errors": [],
+    "remaining_processes": []
+  }
+}

@@ -1,0 +1,229 @@
+{
+  "original_commit": "46e0067e3aa72d1001a1bf2b95c8f7e4575c368a",
+  "original_path": "source/S12/CoreData.lean",
+  "original_sha256": "bae1b3e9d9f14bbba3d11e781272d993feb57b9e7a902e0561ba4de837442725",
+  "inverse_sha256": "bae1b3e9d9f14bbba3d11e781272d993feb57b9e7a902e0561ba4de837442725",
+  "inverse_matches_original": true,
+  "wrapper_sha256": "f2733eb6781effe337a04b2a1bc7ec906c5f4058f6207760198a0c8a44c64a17",
+  "helper_modules": [
+    {
+      "path": "source/S12/CoreDataChunks/Chunk00.lean",
+      "core_proof_start": 0,
+      "definition_count": 32,
+      "native_check_count": 32,
+      "domain_helper_imports": [
+        "S12.DomainSpecDataChunks.Chunk02",
+        "S12.DomainSpecDataChunks.Chunk03"
+      ],
+      "sha256": "62428ce728371acfa302b9ba340008c73df5e75b43d46e0a8046d662540fe3b9"
+    },
+    {
+      "path": "source/S12/CoreDataChunks/Chunk01.lean",
+      "core_proof_start": 32,
+      "definition_count": 32,
+      "native_check_count": 32,
+      "domain_helper_imports": [
+        "S12.DomainSpecDataChunks.Chunk00",
+        "S12.DomainSpecDataChunks.Chunk01",
+        "S12.DomainSpecDataChunks.Chunk02",
+        "S12.DomainSpecDataChunks.Chunk03",
+        "S12.DomainSpecDataChunks.Chunk04",
+        "S12.DomainSpecDataChunks.Chunk05"
+      ],
+      "sha256": "a423d22eb006732d531b7b9c1fdd537c4af16405cb47908e1c0bc38f421bc9c8"
+    },
+    {
+      "path": "source/S12/CoreDataChunks/Chunk02.lean",
+      "core_proof_start": 64,
+      "definition_count": 32,
+      "native_check_count": 32,
+      "domain_helper_imports": [
+        "S12.DomainSpecDataChunks.Chunk00",
+        "S12.DomainSpecDataChunks.Chunk01",
+        "S12.DomainSpecDataChunks.Chunk04",
+        "S12.DomainSpecDataChunks.Chunk05"
+      ],
+      "sha256": "c040e777a11434cf26acd7420124f4f400fd584136ebb01f782d6069e00be0fc"
+    },
+    {
+      "path": "source/S12/CoreDataChunks/Chunk03.lean",
+      "core_proof_start": 96,
+      "definition_count": 32,
+      "native_check_count": 32,
+      "domain_helper_imports": [
+        "S12.DomainSpecDataChunks.Chunk00",
+        "S12.DomainSpecDataChunks.Chunk01",
+        "S12.DomainSpecDataChunks.Chunk02",
+        "S12.DomainSpecDataChunks.Chunk03",
+        "S12.DomainSpecDataChunks.Chunk04",
+        "S12.DomainSpecDataChunks.Chunk05",
+        "S12.DomainSpecDataChunks.Chunk06"
+      ],
+      "sha256": "f4c13263513a0bb36a965e1922b0a79f29e601ed4f14ffe72523a97026915144"
+    },
+    {
+      "path": "source/S12/CoreDataChunks/Chunk04.lean",
+      "core_proof_start": 128,
+      "definition_count": 32,
+      "native_check_count": 32,
+      "domain_helper_imports": [
+        "S12.DomainSpecDataChunks.Chunk00",
+        "S12.DomainSpecDataChunks.Chunk01",
+        "S12.DomainSpecDataChunks.Chunk03",
+        "S12.DomainSpecDataChunks.Chunk04",
+        "S12.DomainSpecDataChunks.Chunk05",
+        "S12.DomainSpecDataChunks.Chunk06"
+      ],
+      "sha256": "00b15642348a03ee53e0e8b4f65dc98422857cb2e0504a96d78020a2dda457cb"
+    },
+    {
+      "path": "source/S12/CoreDataChunks/Chunk05.lean",
+      "core_proof_start": 160,
+      "definition_count": 32,
+      "native_check_count": 32,
+      "domain_helper_imports": [
+        "S12.DomainSpecDataChunks.Chunk00",
+        "S12.DomainSpecDataChunks.Chunk01",
+        "S12.DomainSpecDataChunks.Chunk02",
+        "S12.DomainSpecDataChunks.Chunk03",
+        "S12.DomainSpecDataChunks.Chunk04",
+        "S12.DomainSpecDataChunks.Chunk05",
+        "S12.DomainSpecDataChunks.Chunk06"
+      ],
+      "sha256": "5a91004f88d27a8036b1b20da95cc38e9da29e29018eec007e119bb3d810f5db"
+    },
+    {
+      "path": "source/S12/CoreDataChunks/Chunk06.lean",
+      "core_proof_start": 192,
+      "definition_count": 32,
+      "native_check_count": 32,
+      "domain_helper_imports": [
+        "S12.DomainSpecDataChunks.Chunk00",
+        "S12.DomainSpecDataChunks.Chunk01",
+        "S12.DomainSpecDataChunks.Chunk04",
+        "S12.DomainSpecDataChunks.Chunk05"
+      ],
+      "sha256": "d32b452346900666fdf8f9af8a6d5b45d330fcc863330ab8dd4cfa272fc26dd8"
+    },
+    {
+      "path": "source/S12/CoreDataChunks/Chunk07.lean",
+      "core_proof_start": 224,
+      "definition_count": 32,
+      "native_check_count": 32,
+      "domain_helper_imports": [
+        "S12.DomainSpecDataChunks.Chunk00",
+        "S12.DomainSpecDataChunks.Chunk01",
+        "S12.DomainSpecDataChunks.Chunk02",
+        "S12.DomainSpecDataChunks.Chunk03",
+        "S12.DomainSpecDataChunks.Chunk04",
+        "S12.DomainSpecDataChunks.Chunk05",
+        "S12.DomainSpecDataChunks.Chunk06"
+      ],
+      "sha256": "a20d935c74cd5b5d3803950f7c7fa9bf93d1545675f844eb63698ab3626f30f3"
+    },
+    {
+      "path": "source/S12/CoreDataChunks/Chunk08.lean",
+      "core_proof_start": 256,
+      "definition_count": 32,
+      "native_check_count": 32,
+      "domain_helper_imports": [
+        "S12.DomainSpecDataChunks.Chunk00",
+        "S12.DomainSpecDataChunks.Chunk01",
+        "S12.DomainSpecDataChunks.Chunk03",
+        "S12.DomainSpecDataChunks.Chunk04",
+        "S12.DomainSpecDataChunks.Chunk05",
+        "S12.DomainSpecDataChunks.Chunk06"
+      ],
+      "sha256": "4edb99bc12a0a423499700aa36745ed411cecdb0b3a46e463883e53cd8b9ede9"
+    },
+    {
+      "path": "source/S12/CoreDataChunks/Chunk09.lean",
+      "core_proof_start": 288,
+      "definition_count": 32,
+      "native_check_count": 32,
+      "domain_helper_imports": [
+        "S12.DomainSpecDataChunks.Chunk00",
+        "S12.DomainSpecDataChunks.Chunk01",
+        "S12.DomainSpecDataChunks.Chunk02",
+        "S12.DomainSpecDataChunks.Chunk03",
+        "S12.DomainSpecDataChunks.Chunk04",
+        "S12.DomainSpecDataChunks.Chunk05",
+        "S12.DomainSpecDataChunks.Chunk06"
+      ],
+      "sha256": "604223c3f5604925850d6d175a1fcc66e0be9fdb029b92bada365c25ed325b09"
+    },
+    {
+      "path": "source/S12/CoreDataChunks/Chunk10.lean",
+      "core_proof_start": 320,
+      "definition_count": 32,
+      "native_check_count": 32,
+      "domain_helper_imports": [
+        "S12.DomainSpecDataChunks.Chunk00",
+        "S12.DomainSpecDataChunks.Chunk01",
+        "S12.DomainSpecDataChunks.Chunk02",
+        "S12.DomainSpecDataChunks.Chunk03",
+        "S12.DomainSpecDataChunks.Chunk04",
+        "S12.DomainSpecDataChunks.Chunk05",
+        "S12.DomainSpecDataChunks.Chunk06",
+        "S12.DomainSpecDataChunks.Chunk07"
+      ],
+      "sha256": "e47c457e9d2ab98e809f641a57df37f09685eb113f1045c764150fa570ff1daa"
+    },
+    {
+      "path": "source/S12/CoreDataChunks/Chunk11.lean",
+      "core_proof_start": 352,
+      "definition_count": 32,
+      "native_check_count": 32,
+      "domain_helper_imports": [
+        "S12.DomainSpecDataChunks.Chunk00",
+        "S12.DomainSpecDataChunks.Chunk01",
+        "S12.DomainSpecDataChunks.Chunk02",
+        "S12.DomainSpecDataChunks.Chunk03",
+        "S12.DomainSpecDataChunks.Chunk04",
+        "S12.DomainSpecDataChunks.Chunk05",
+        "S12.DomainSpecDataChunks.Chunk06",
+        "S12.DomainSpecDataChunks.Chunk07"
+      ],
+      "sha256": "9901eafaa4a4f6374895466fdaf375820c82bc790d814ebb5e3a5b37cf80a0a5"
+    },
+    {
+      "path": "source/S12/CoreDataChunks/Chunk12.lean",
+      "core_proof_start": 384,
+      "definition_count": 32,
+      "native_check_count": 32,
+      "domain_helper_imports": [
+        "S12.DomainSpecDataChunks.Chunk00",
+        "S12.DomainSpecDataChunks.Chunk01",
+        "S12.DomainSpecDataChunks.Chunk02",
+        "S12.DomainSpecDataChunks.Chunk03",
+        "S12.DomainSpecDataChunks.Chunk04",
+        "S12.DomainSpecDataChunks.Chunk05",
+        "S12.DomainSpecDataChunks.Chunk06",
+        "S12.DomainSpecDataChunks.Chunk07"
+      ],
+      "sha256": "a36e0ce2b6e57ae1f7990c3a163651d174da3699cdc94e1f915ea698affc3c8d"
+    },
+    {
+      "path": "source/S12/CoreDataChunks/Chunk13.lean",
+      "core_proof_start": 416,
+      "definition_count": 3,
+      "native_check_count": 3,
+      "domain_helper_imports": [
+        "S12.DomainSpecDataChunks.Chunk00",
+        "S12.DomainSpecDataChunks.Chunk01",
+        "S12.DomainSpecDataChunks.Chunk02",
+        "S12.DomainSpecDataChunks.Chunk03",
+        "S12.DomainSpecDataChunks.Chunk04"
+      ],
+      "sha256": "097cdaf1abb1ec5dcc350151e8cb6860a29d5104810f54a85187b59f0171f388"
+    }
+  ],
+  "preserved_definitions": 419,
+  "preserved_theorems": 419,
+  "preserved_native_sites": 419,
+  "additional_native_sites": 0,
+  "added_lean_modules": 14,
+  "public_declaration_bodies_byte_identical": true,
+  "aggregate_list_byte_identical": true,
+  "lean_replay_performed_by_this_script": false
+}

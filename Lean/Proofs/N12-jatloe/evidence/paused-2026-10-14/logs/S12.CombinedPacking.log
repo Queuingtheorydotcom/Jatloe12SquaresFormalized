@@ -1,0 +1,1 @@
+'S12.nat_combined_exact' depends on axioms: [propext, Classical.choice, Quot.sound]

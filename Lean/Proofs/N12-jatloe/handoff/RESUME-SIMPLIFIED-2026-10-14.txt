@@ -1,0 +1,150 @@
+PAUSED: SIMPLIFIED N12 CONTINUATION, 2026-10-14
+
+HISTORICAL SNAPSHOT: the user subsequently resumed. Read
+handoff/RESUMED-PROGRESS-2026-10-14.txt for current work and status.
+
+Read this first. The user explicitly requested pause and push. Do not launch
+Lean, builds, generators, or proof agents until the user explicitly resumes.
+PAUSED.json enforces the computational pause. All proof workers have exited.
+
+BASELINE AND ENVIRONMENT
+Repository: EvolvingPrograms/SquaresLean (private).
+Local branch at pause: codex/n12-initial-programs-2026-10-14.
+Based on Benjamin Gurevitch commit46e0067e3aa72d1001a1bf2b95c8f7e4575c368a,
+branch codex/c981-short54-input-chunks. This checkpoint continues his work.
+Project: projects/n12-refactored.
+Local checkout: /Users/macintosh/Documents/Codex/2026-10-13/plz/work/ben-continuation.
+Lean4.19.0; Mathlib c44e0c8ee63ca166450922a373c7409c5d26b00b.
+The local .lake/packages is a symlink to the existing N12-refactor packages;
+it is not committed. Use the pinned manifest to prepare dependencies elsewhere.
+Do not restore broad deleted caches or touch the older paused handoff checkout.
+
+RESOURCE LIMITS
+One computational worker, nice10, Lean-j1. Aggregate RSS1536MiB,
+physical footprint450MiB,90seconds per focused invocation,3GiB free-disk
+floor. Task storage below10GB. Do not raise caps: simplify or factor proofs.
+Preferred<=8000modules, hard<=10000 across the intended proof including
+external imports. Run scripts/source_census.py before adding large batches.
+The current selected closure is COMPLETE and has 7305 modules.
+The separate retained historical inventory includes unresolved local imports;
+it is not a certified complete bound. Unwritten future work is not counted.
+
+WHAT ACTUALLY PASSED
+Scoped serial scripts/verify.py replay accepted the following original C981
+full-vector roots, with original ownership/orientation/boundary contracts:
+- CommonRows: IDs2,28,30,34,37,41,43,69,103.
+- Common107: ID107, plus the shared transposed entrance adapter.
+- NewSimpleShortRows: IDs54,56,58,73,109 (11.449s).
+- OutwardRows geometry extraction and OutwardTranspose: ID55 (1.754s wrapper).
+- ShortCentralPair: ordinary geometric helper (1.448s).
+- ShortCentralRows: IDs93,98 (30.427s).
+Thus18of the20previously pending vector proofs have now passed individually.
+The registry and progress counters have NOT yet been changed.
+LastNegativePair (11.832s), LastPositivePair (47.277s), LastPositiveScalars,
+SteepPositivePair and CommonCycle also passed. LastRows29/Last104 wrappers
+remain unaccepted: the first Last104 replay stopped at OppositeOffset's
+missing linear_combination tactic import. A minimal LinearCombination import
+has now been saved in OppositeOffset but NOT replayed.
+
+All new common/short routes use geometric reuse. We removed our abandoned
+96InitialPrograms modules and one Short54DataPilot, and restored Ben's
+original Initial0..5 and emitter exactly. Original certificate sources stay
+preserved, but are unnecessary for54/55 now. Do not expand/replay them merely
+to reprove those rows. Simplifications use endpoint inequalities and explicit
+products instead of expensive nonlinear searches. LastPositivePair also
+corrects the short projection component to c+r, preserving its theorem.
+
+Shared dependency data was factored to fit the cap, and every resulting
+chunk plus wrapper passed: ShortCluster(+4),FourPointData(+7),
+LocalQueryData(+7),DomainSpecData(+8),CoreData(+14).
+Data declarations and existing native-check sites are preserved. Exact
+inverse manifests/scripts are under audit/, evidence/, and scripts/.
+LocalQueryData's aggregate length/all_checked proofs were deliberately
+simplified; its manifest records those differences rather than claiming a
+whole-source byte-exact inverse. S12.PackingConstant, To117, normalization,
+Completion.Contracts, C981 ownership/vector data were accepted in scope.
+This does not prove the global optimality theorem.
+
+COVERAGE WORK: PROVED BRIDGE, UNCOMPILED PILOT
+Compact.Bridge.PrefixCoverageIndexed and PrefixCoverageChunks passed
+(1.053s and0.919s). The indexed checker visits EVERY original front/choice,
+recomputes actual disjointness, consumes an index only for compatible pairs,
+and checks exact target equality. Its ordinary soundness theorem recovers
+the original StepCheck. No hash/native witness oracle was added.
+The four-module pilot is SOURCE ONLY:
+  Completion.Cases.C981.Coverage.Data.Prefix09
+  Completion.Cases.C981.Coverage.Data.Prefix10
+  Completion.Cases.C981.Coverage.Data.Allowed05
+  Compact.Completion.C981.CoveragePilot.Step10First32
+It tests32fronts x64choices, with172compatible extensions. The two full
+prefix data lists may themselves need factoring if elaboration hits caps.
+Allowed.Owner00..11/AllowedData are also source-factored but uncompiled.
+Exact inverse audits passed; scripts/factor_c981_allowed_data.py and
+scripts/factor_c981_coverage_pilot.py are reproducible read-only auditors.
+Do not count pilot membership analysis as accepted Lean coverage.
+All12original step checks are required; Prefix00 is data only. Steps1..9
+have18518candidate pairs total; steps10/11/12 have137472/201152/106752.
+If the32-front pilot passes within caps, heavy steps need68+99+53=220
+chunk proofs total, one already represented by the pilot. Generate only
+after measuring it and checking the updated whole-proof module budget.
+Original step09/step10 proof wrappers have not yet been replaced by chunks.
+
+EXACT NEXT STEPS AFTER EXPLICIT RESUME
+1. Read this file, PAUSED.json, and handoff/C981-SIMPLIFIED-ROUTES-2026-10-14.txt.
+   Clear PAUSED.json only after explicit user resume. Keep all caps.
+2. Replay Compact.Completion.C981.Last104. Its pair arguments already passed,
+   but OppositeOffset's newly added import has not. Remaining arithmetic
+   concentration is LastRightFaces/LastRightWall. Simplify endpoint chains
+   if failures appear; preserve public geometric statements.
+3. Once LastRows29 and Last104 pass, all20new vectors are ready. Apply
+   handoff/C981-integration.patch from repository root with git apply after
+   git apply --check. It upgrades C981Progress22->42, covers exactly20new
+   original indices, empties Registry.unfinished, and proves pending_closed
+   and all_representatives_complete. It is intentionally NOT applied yet.
+   Replay Progress and Registry and their dependencies. In particular old
+   FullAuxNegative/FullAuxWallOppositeAxes require current replay.
+4. Replay CoveragePilot.Step10First32 under the same caps. Then separately
+   validate Allowed.Owner00..11, AllowedData, and Prefix01..09; develop compact
+   indexed chunks for10/11/12 only after the pilot measurement. Required final
+   coverage roots include Coverage.Final, DiagonalAuxiliary, TransposeData,
+   CaseVectors. Finally replay Compact.Cases.C981Compact with a closed registry.
+5. C1092: first check existing Compact.Completion.C1092.MMMM, which already
+   states unconditional adjacentPair : BranchEnding2 but is unregistered and
+   has not been replayed here. New MMMP.ActualProfile is SOURCE ONLY and
+   CONDITIONAL; two entrance facts remain gaps. It extracts actual-owner
+   consequences but does not close MMMP. Wall-data-only strengthening fails
+   for the explicit square recorded in that source; use neighbor interaction.
+6. Only count C981 as a whole original case after all original coverage,
+   symmetry, old registry branches and the final whole-case contract pass.
+   Do not confuse117representative vectors with117original source cases.
+
+GUARDED COMMAND (from projects/n12-refactored, only after explicit resume)
+python3 -B scripts/source_census.py
+nice -n 10 python3 -B scripts/bounded.py --rss-mib 1536 --footprint-mib 450 \
+  --seconds 90 --free-gib 3 --receipt .verification/resume-last104.json -- \
+  python3 -B scripts/verify.py Compact.Completion.C981.Last104
+
+The monitor needs process/footprint access and fails closed in a restrictive
+sandbox; request the normal sandbox escalation for this capped invocation.
+Run one invocation at a time. Completed dependencies are retained on timeout;
+reinvoke serially as needed. Fresh environments must rebuild scoped objects:
+the saved evidence index is historical evidence, not a substitute for objects
+or dependency fingerprints. No .lake binaries/caches are in this push.
+
+GLOBAL STATUS AND TRUST BOUNDARY
+S12.packingConstant12=4 remains UNPROVED. SourceAssembly remains98/117
+source-covered original cases, with19pending:580,581,683,700,705,716,867,868,
+896,972,974,975,976,981,983,1089,1090,1091,1092. Source-covered is not a
+fresh end-to-end replay count. No full global replay or independent global
+axiom audit was performed. No new axioms, sorry/admit, or native-decide sites
+were added. Original historical dependencies use Lean.ofReduceBool; disclose
+that inherited trust separately from new ordinary geometric proofs.
+No conclusion may be strengthened from component replay or source review.
+
+EVIDENCE
+See evidence/paused-2026-10-14/ for scoped index, source hashes, logs,
+resource receipts (including historical failures), last passing replay, and
+module census. The last running job finished before termination reached it;
+ShortCentralRows and both generic coverage bridges passed. Process inspection
+then confirmed no remaining Lean/lake/verifier workers. No computation was
+started after the pause. Only checkpoint inventory and Git operations followed.

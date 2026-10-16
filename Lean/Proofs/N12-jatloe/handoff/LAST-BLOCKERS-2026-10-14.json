@@ -1,0 +1,159 @@
+{
+  "check_group": 25,
+  "complete": false,
+  "global_optimality_proved": false,
+  "root_results": [
+    {
+      "root": "Compact.Completion.C981.CommonRows",
+      "returncode": 1,
+      "dependency_blocked": [],
+      "failures": [
+        {
+          "module": "Compact.Completion.C981.AngularScalars",
+          "source_sha256_at_check": "d71f108fe7afd1760a1ec1c002c0928c50cf41dec71c15e1c841268343b6e292",
+          "error_headings": [
+            "Compact/Completion/C981/AngularScalars.lean:48:4: error: linarith failed to find a contradiction",
+            "Compact/Completion/C981/AngularScalars.lean:68:39: error: linarith failed to find a contradiction",
+            "Compact/Completion/C981/AngularScalars.lean:74:15: error: linarith failed to find a contradiction",
+            "Compact/Completion/C981/AngularScalars.lean:104:37: error: linarith failed to find a contradiction",
+            "Compact/Completion/C981/AngularScalars.lean:105:42: error: linarith failed to find a contradiction",
+            "Compact/Completion/C981/AngularScalars.lean:109:4: error: linarith failed to find a contradiction",
+            "Compact/Completion/C981/AngularScalars.lean:110:2: error: linarith failed to find a contradiction"
+          ]
+        }
+      ]
+    },
+    {
+      "root": "Compact.Completion.C981.Common107",
+      "returncode": 1,
+      "dependency_blocked": [
+        "Compact.Completion.C981.AngularScalars"
+      ],
+      "failures": []
+    },
+    {
+      "root": "Compact.Completion.C981.LastRows",
+      "returncode": 1,
+      "dependency_blocked": [
+        "Compact.Completion.C981.AngularScalars"
+      ],
+      "failures": []
+    },
+    {
+      "root": "Compact.Completion.C981.Last104",
+      "returncode": 1,
+      "dependency_blocked": [
+        "Compact.Completion.C981.AngularScalars"
+      ],
+      "failures": []
+    },
+    {
+      "root": "Compact.Completion.C981.ShortCertificate54.Original",
+      "returncode": 1,
+      "dependency_blocked": [],
+      "failures": [
+        {
+          "module": "Compact.Completion.C981.ShortCertificateBridge",
+          "source_sha256_at_check": "fba57ade4b714d9875027ea396fb4b80b67cfee720fbfca3722a69ce453b0348",
+          "error_headings": [
+            "Compact/Completion/C981/ShortCertificateBridge.lean:22:60: error: application type mismatch",
+            "Compact/Completion/C981/ShortCertificateBridge.lean:48:44: error: application type mismatch"
+          ]
+        }
+      ]
+    },
+    {
+      "root": "Compact.Completion.FiniteCases.WallHighFromMarker",
+      "returncode": 0,
+      "dependency_blocked": [],
+      "failures": []
+    },
+    {
+      "root": "Compact.Completion.FiniteCases.C975IncomingCut",
+      "returncode": 1,
+      "dependency_blocked": [],
+      "failures": [
+        {
+          "module": "Compact.Completion.FiniteCases.C975Entrance",
+          "source_sha256_at_check": "3d328b8e15cb7642374221c36e4c1d0a538502a84f7a071b9cae7f574fd425ff",
+          "error_headings": [
+            "Compact/Completion/FiniteCases/C975Entrance.lean:96:3: error: unknown tactic",
+            "Compact/Completion/FiniteCases/C975Entrance.lean:81:77: error: unsolved goals"
+          ]
+        }
+      ]
+    },
+    {
+      "root": "Compact.Completion.FiniteCases.C975IncomingPair",
+      "returncode": 1,
+      "dependency_blocked": [
+        "Compact.Completion.FiniteCases.C975Entrance"
+      ],
+      "failures": []
+    },
+    {
+      "root": "Compact.Completion.FiniteCases.C580581PilotInputs",
+      "returncode": 1,
+      "dependency_blocked": [],
+      "failures": [
+        {
+          "module": "Compact.Completion.FiniteCases.C580581Entrance",
+          "source_sha256_at_check": "a0e8ab06aa76c53862e53e1e06b6d3e23f4997828ec216205b8f2c466e5acbc3",
+          "error_headings": [
+            "Compact/Completion/FiniteCases/C580581Entrance.lean:36:2: error: tactic 'cases' failed, nested error:",
+            "Compact/Completion/FiniteCases/C580581Entrance.lean:38:10: error: expected type must not contain meta variables",
+            "Compact/Completion/FiniteCases/C580581Entrance.lean:39:2: error: no goals to be solved",
+            "Compact/Completion/FiniteCases/C580581Entrance.lean:112:31: error: tactic 'decide' failed for proposition",
+            "Compact/Completion/FiniteCases/C580581Entrance.lean:112:31: error: tactic 'decide' failed for proposition",
+            "Compact/Completion/FiniteCases/C580581Entrance.lean:189:24: error: expected type must not contain free variables",
+            "Compact/Completion/FiniteCases/C580581Entrance.lean:189:24: error: expected type must not contain free variables",
+            "Compact/Completion/FiniteCases/C580581Entrance.lean:189:24: error: expected type must not contain free variables",
+            "Compact/Completion/FiniteCases/C580581Entrance.lean:189:24: error: expected type must not contain free variables",
+            "Compact/Completion/FiniteCases/C580581Entrance.lean:189:24: error: expected type must not contain free variables",
+            "Compact/Completion/FiniteCases/C580581Entrance.lean:189:24: error: expected type must not contain free variables",
+            "Compact/Completion/FiniteCases/C580581Entrance.lean:189:24: error: expected type must not contain free variables",
+            "Compact/Completion/FiniteCases/C580581Entrance.lean:189:24: error: expected type must not contain free variables",
+            "Compact/Completion/FiniteCases/C580581Entrance.lean:189:24: error: expected type must not contain free variables",
+            "Compact/Completion/FiniteCases/C580581Entrance.lean:189:24: error: expected type must not contain free variables"
+          ]
+        }
+      ]
+    },
+    {
+      "root": "Compact.Cases.C981Registry",
+      "returncode": 1,
+      "dependency_blocked": [],
+      "failures": [
+        {
+          "module": "Compact.Geometry.FullAuxWallOppositeAxes",
+          "source_sha256_at_check": "fe739991a9d491787b3fa29a89c8ff0de095e481f18ac3e6453d8c5409aebadd",
+          "error_headings": [
+            "Compact/Geometry/FullAuxWallOppositeAxes.lean:50:4: error: linarith failed to find a contradiction",
+            "Compact/Geometry/FullAuxWallOppositeAxes.lean:52:11: error: unknown identifier 'lower_in_bands'",
+            "Compact/Geometry/FullAuxWallOppositeAxes.lean:97:9: error: unknown identifier 'pairRadius'",
+            "Compact/Geometry/FullAuxWallOppositeAxes.lean:98:4: error: unknown identifier 'pairRadius'",
+            "Compact/Geometry/FullAuxWallOppositeAxes.lean:99:4: error: unknown identifier 'pairRadius'",
+            "Compact/Geometry/FullAuxWallOppositeAxes.lean:100:4: error: unknown identifier 'pairRadius'",
+            "Compact/Geometry/FullAuxWallOppositeAxes.lean:159:8: error: unknown identifier 'upper_in_bands'",
+            "Compact/Geometry/FullAuxWallOppositeAxes.lean:175:2: error: linarith failed to find a contradiction"
+          ]
+        }
+      ]
+    },
+    {
+      "root": "Compact.Cases.C1092Compact",
+      "returncode": 0,
+      "dependency_blocked": [],
+      "failures": []
+    }
+  ],
+  "not_accepted_or_not_reached_after_interruption": [
+    "Compact.Completion.C1092.MMMM",
+    "Compact.Completion.C1092.MMMP.CenterCrosspoint",
+    "Compact.Completion.OtherCases.C983.ThreeBranches",
+    "Compact.Completion.OtherCases.C705716.WholeCases",
+    "Compact.Completion.C1092.MPPMOmissions",
+    "Completion.Cases.C981.CaseVectors"
+  ],
+  "interpretation": "Historical diagnostics, not acceptance of later edited dependencies."
+}

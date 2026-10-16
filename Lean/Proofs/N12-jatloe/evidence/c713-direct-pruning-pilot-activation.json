@@ -1,0 +1,9 @@
+{
+  "status": "source activation only; pilot replay pending",
+  "path": "Compact/Cases/C713/DirectPruning/Pilot.lean",
+  "sha256": "4e56b48f6b2688e2c6bdecc4e4b91fad0cdf21e1940bcfd01f77d727513047e8",
+  "before_sha256": null,
+  "proposal_manifest_sha256": "12b718fee283eafc74af7facf5b6846b5082c0c4b12cf59d5783fb69bb853f26",
+  "activated_modules": 1,
+  "other_proposal_modules_activated": false
+}

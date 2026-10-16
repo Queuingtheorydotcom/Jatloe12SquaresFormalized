@@ -1,0 +1,1 @@
+'S12.localQueries_checked' depends on axioms: [propext, Classical.choice, Lean.ofReduceBool, Quot.sound]

@@ -1,0 +1,36 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "scripts/verify.py",
+    "Compact.Completion.C981.Common107"
+  ],
+  "returncode": 1,
+  "stop_reason": null,
+  "limits": {
+    "rss_mib": 1536,
+    "physical_footprint_mib": 450,
+    "seconds": 90,
+    "free_gib": 3.0
+  },
+  "elapsed_seconds": 48.64,
+  "minimum_free_bytes": 7302225920,
+  "peak_group_rss_kib": 1288752,
+  "peak_group_physical_footprint_kib": 284533,
+  "peak_group_processes": [
+    {
+      "pid": 7903,
+      "pgid": 7777,
+      "rss_kib": 1282992
+    },
+    {
+      "pid": 7777,
+      "pgid": 7777,
+      "rss_kib": 5760
+    }
+  ],
+  "stop_group_processes": [],
+  "stop_snapshot_error": null,
+  "cleanup_errors": [],
+  "remaining_processes": []
+}

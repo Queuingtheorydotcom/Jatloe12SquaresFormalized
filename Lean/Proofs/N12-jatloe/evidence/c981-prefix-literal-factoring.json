@@ -1,0 +1,185 @@
+{
+  "original_commit": "46e0067e3aa72d1001a1bf2b95c8f7e4575c368a",
+  "rows_per_module": 256,
+  "prefixes": [
+    {
+      "number": 9,
+      "row_count": 2148,
+      "declaration_sha256": "1175ab34847013a23f6b51577fef762fbc3ccb00f9c83c13b215c4ce4dbd2dc5",
+      "inverse_declaration_sha256": "1175ab34847013a23f6b51577fef762fbc3ccb00f9c83c13b215c4ce4dbd2dc5",
+      "wrapper_sha256": "ef245d7d61ce195f5f55d0d48f2c2068e437f44aef075a1444e9cb66f9472b40",
+      "chunks": [
+        {
+          "path": "Completion/Cases/C981/Coverage/Data/Prefix09Chunks/Chunk000.lean",
+          "name": "prefix09Chunk000",
+          "offset": 0,
+          "row_count": 256,
+          "sha256": "43d4e658c54caa8f618b22f0b3cf9c4d54db3c3630ef4527b2e8e5c0b59d993f"
+        },
+        {
+          "path": "Completion/Cases/C981/Coverage/Data/Prefix09Chunks/Chunk001.lean",
+          "name": "prefix09Chunk001",
+          "offset": 256,
+          "row_count": 256,
+          "sha256": "ad56a30cbef50ae39d5c73f78945fcee806d67f79e9cb9035aa2d5f0ef431f28"
+        },
+        {
+          "path": "Completion/Cases/C981/Coverage/Data/Prefix09Chunks/Chunk002.lean",
+          "name": "prefix09Chunk002",
+          "offset": 512,
+          "row_count": 256,
+          "sha256": "73591d95c9abd3b9919a15335c79ca3c500d51ba17b267c753063c809be0a3e6"
+        },
+        {
+          "path": "Completion/Cases/C981/Coverage/Data/Prefix09Chunks/Chunk003.lean",
+          "name": "prefix09Chunk003",
+          "offset": 768,
+          "row_count": 256,
+          "sha256": "ce574cf4e0c1e9ce0e9c11a6a098a7a91111dc468f5e957f3b813d9b64cd2c65"
+        },
+        {
+          "path": "Completion/Cases/C981/Coverage/Data/Prefix09Chunks/Chunk004.lean",
+          "name": "prefix09Chunk004",
+          "offset": 1024,
+          "row_count": 256,
+          "sha256": "66ccacbe287f86a1ba69692b20e6fe14ebfbe6798b94219a6711305715f44a7f"
+        },
+        {
+          "path": "Completion/Cases/C981/Coverage/Data/Prefix09Chunks/Chunk005.lean",
+          "name": "prefix09Chunk005",
+          "offset": 1280,
+          "row_count": 256,
+          "sha256": "a58696560ecefb0804a60e1f5f2a9849d90cd37927f1c7bf479d70e48f0b4ca1"
+        },
+        {
+          "path": "Completion/Cases/C981/Coverage/Data/Prefix09Chunks/Chunk006.lean",
+          "name": "prefix09Chunk006",
+          "offset": 1536,
+          "row_count": 256,
+          "sha256": "89f6b601201976f55f6d7e04544543f9c93b141489842b32659e1c1c6e0ecbab"
+        },
+        {
+          "path": "Completion/Cases/C981/Coverage/Data/Prefix09Chunks/Chunk007.lean",
+          "name": "prefix09Chunk007",
+          "offset": 1792,
+          "row_count": 256,
+          "sha256": "eeee80ba35163c8dadbc74d5a9d7a5ebcfe06879674f23e6b7c6d4208774e538"
+        },
+        {
+          "path": "Completion/Cases/C981/Coverage/Data/Prefix09Chunks/Chunk008.lean",
+          "name": "prefix09Chunk008",
+          "offset": 2048,
+          "row_count": 100,
+          "sha256": "40ad9e7f2090c096d2c394bf870eafbfbc988711af9256e22097c105170ac5b7"
+        }
+      ]
+    },
+    {
+      "number": 10,
+      "row_count": 3143,
+      "declaration_sha256": "2b8025125e53e56707a1fd9d4e543597174350ba088a6212b5cf8bc7a5699230",
+      "inverse_declaration_sha256": "2b8025125e53e56707a1fd9d4e543597174350ba088a6212b5cf8bc7a5699230",
+      "wrapper_sha256": "59795e6ffade7d1eaac6405d6382ca62964ac813b811b4cd46093260e2ed0485",
+      "chunks": [
+        {
+          "path": "Completion/Cases/C981/Coverage/Data/Prefix10Chunks/Chunk000.lean",
+          "name": "prefix10Chunk000",
+          "offset": 0,
+          "row_count": 256,
+          "sha256": "e08bfcc2a58a41e685d84d951603044caa47dcf6998f7a053c252467ba214996"
+        },
+        {
+          "path": "Completion/Cases/C981/Coverage/Data/Prefix10Chunks/Chunk001.lean",
+          "name": "prefix10Chunk001",
+          "offset": 256,
+          "row_count": 256,
+          "sha256": "d7acd915aadb91981535a91bb271030d335a7b6f00b690c1be5412783f8d9fca"
+        },
+        {
+          "path": "Completion/Cases/C981/Coverage/Data/Prefix10Chunks/Chunk002.lean",
+          "name": "prefix10Chunk002",
+          "offset": 512,
+          "row_count": 256,
+          "sha256": "4683958bdc41b722fd559d41fb606a6b2c1c2e003da5509b3f64654cf2a5c582"
+        },
+        {
+          "path": "Completion/Cases/C981/Coverage/Data/Prefix10Chunks/Chunk003.lean",
+          "name": "prefix10Chunk003",
+          "offset": 768,
+          "row_count": 256,
+          "sha256": "d6ec55a5164397680702160e4fc3a909b98347e7050d835968119f5ba39a9323"
+        },
+        {
+          "path": "Completion/Cases/C981/Coverage/Data/Prefix10Chunks/Chunk004.lean",
+          "name": "prefix10Chunk004",
+          "offset": 1024,
+          "row_count": 256,
+          "sha256": "9a2e954e628e9770c842a593df55eb2b1c7a0b1e3114ccc4b0a83a767b77c27e"
+        },
+        {
+          "path": "Completion/Cases/C981/Coverage/Data/Prefix10Chunks/Chunk005.lean",
+          "name": "prefix10Chunk005",
+          "offset": 1280,
+          "row_count": 256,
+          "sha256": "6efc1a71d4c8cadba1c794609df5f2bb6a88585bdfa97b8a1d8d893b99714903"
+        },
+        {
+          "path": "Completion/Cases/C981/Coverage/Data/Prefix10Chunks/Chunk006.lean",
+          "name": "prefix10Chunk006",
+          "offset": 1536,
+          "row_count": 256,
+          "sha256": "a1883025546212b203d5c8295e7ab511c009568606fd7815c9a2305f0d5db2b2"
+        },
+        {
+          "path": "Completion/Cases/C981/Coverage/Data/Prefix10Chunks/Chunk007.lean",
+          "name": "prefix10Chunk007",
+          "offset": 1792,
+          "row_count": 256,
+          "sha256": "e78e6892aadcec9c28f1c3d2f2a652a9d2979c98ec3e2342b2024fa3179a7226"
+        },
+        {
+          "path": "Completion/Cases/C981/Coverage/Data/Prefix10Chunks/Chunk008.lean",
+          "name": "prefix10Chunk008",
+          "offset": 2048,
+          "row_count": 256,
+          "sha256": "bda8d036ecef72550c7aa35cfdf66cc7c6ca3048c3ca51b79f4b47b78f175d4e"
+        },
+        {
+          "path": "Completion/Cases/C981/Coverage/Data/Prefix10Chunks/Chunk009.lean",
+          "name": "prefix10Chunk009",
+          "offset": 2304,
+          "row_count": 256,
+          "sha256": "3ea85be00f9e7402562b45882486a9dc490ecebfdfc28b8f519465ac3be5f617"
+        },
+        {
+          "path": "Completion/Cases/C981/Coverage/Data/Prefix10Chunks/Chunk010.lean",
+          "name": "prefix10Chunk010",
+          "offset": 2560,
+          "row_count": 256,
+          "sha256": "2a763bee481ed6c99e449075523ab13fb051f6cefc4f34b159c8b606bf3e4d68"
+        },
+        {
+          "path": "Completion/Cases/C981/Coverage/Data/Prefix10Chunks/Chunk011.lean",
+          "name": "prefix10Chunk011",
+          "offset": 2816,
+          "row_count": 256,
+          "sha256": "293b6e884bf05967af5dae8f34747b2df5b0d832c6f79d47b80ca7ba5a910e5d"
+        },
+        {
+          "path": "Completion/Cases/C981/Coverage/Data/Prefix10Chunks/Chunk012.lean",
+          "name": "prefix10Chunk012",
+          "offset": 3072,
+          "row_count": 71,
+          "sha256": "eaec7d57d31d4cb9c47159f1170513e1490b77b8d82fa0dc6db259fe1190da03"
+        }
+      ]
+    }
+  ],
+  "added_lean_modules": 22,
+  "public_data_types_unchanged": true,
+  "expanded_rows_byte_identical": true,
+  "row_order_unchanged": true,
+  "new_proofs": 0,
+  "new_native_sites": 0,
+  "lean_replayed": false
+}

@@ -1,0 +1,25 @@
+{
+  "scope": "Exact direct-support preparation; not Lean acceptance.",
+  "source_roots": 53,
+  "target_poses": 49,
+  "empty_angles": [
+    0,
+    1,
+    56,
+    63
+  ],
+  "two_row_supports": 419,
+  "old_chord_branch_plans_replaced": 105,
+  "old_chord_links_replaced": 101,
+  "old_intermediate_relaxed_poses_bypassed": 52,
+  "lean_lines": 1762,
+  "lean_bytes": 147298,
+  "inputs": {
+    "evidence/c898-shared-pose-map.json": "0afbf9a29a2a5b76debf7fe9722655ea41cdd66c145ec4f0e5bec4bf40f7913e",
+    "Compact/Cases/C898/SharedDomains.lean": "90539b6e6ea5a89aeeffaf1b941ba77dd68cf6ca83d6e68a19ff40f53891226d",
+    "Compact/Cases/C898/ChordRadii.lean": "da8347c2a3349141f6ead6fdcb5b615db75473f836109091af13a3e56a6ba765",
+    "Compact/Cases/C898/ChordStep9.lean": "a1f55f80c678778552f2dddd70f82d3a9238e5383289d43ce7ad88ffec109401",
+    "Compact/Cases/C898/ChordStep10.lean": "fbbd169dcc7e7ac45c36348f7ed596b0a4823b830417fe7d2024a6a70644df5a"
+  },
+  "elapsed_seconds": 0.09489362499880372
+}

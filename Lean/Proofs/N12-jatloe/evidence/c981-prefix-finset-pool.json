@@ -1,0 +1,329 @@
+{
+  "original_commit": "46e0067e3aa72d1001a1bf2b95c8f7e4575c368a",
+  "original_literal_manifest": "evidence/c981-prefix-literal-factoring.json",
+  "constants": [
+    {
+      "name": "fs00",
+      "literal": "\u2205"
+    },
+    {
+      "name": "fs01",
+      "literal": "{3}"
+    },
+    {
+      "name": "fs02",
+      "literal": "{7}"
+    },
+    {
+      "name": "fs03",
+      "literal": "{0,10}"
+    },
+    {
+      "name": "fs04",
+      "literal": "{1,11}"
+    },
+    {
+      "name": "fs05",
+      "literal": "{1,3,11}"
+    },
+    {
+      "name": "fs06",
+      "literal": "{2,12}"
+    },
+    {
+      "name": "fs07",
+      "literal": "{1,11,13}"
+    },
+    {
+      "name": "fs08",
+      "literal": "{3,14}"
+    },
+    {
+      "name": "fs09",
+      "literal": "{3,5,14}"
+    },
+    {
+      "name": "fs10",
+      "literal": "{6,15}"
+    },
+    {
+      "name": "fs11",
+      "literal": "{4,6,15}"
+    },
+    {
+      "name": "fs12",
+      "literal": "{4,16}"
+    },
+    {
+      "name": "fs13",
+      "literal": "{4,5,16}"
+    },
+    {
+      "name": "fs14",
+      "literal": "{8,16}"
+    },
+    {
+      "name": "fs15",
+      "literal": "{4,8,16}"
+    },
+    {
+      "name": "fs16",
+      "literal": "{5,8,16}"
+    },
+    {
+      "name": "fs17",
+      "literal": "{4,9,16}"
+    },
+    {
+      "name": "fs18",
+      "literal": "{4,13,16}"
+    },
+    {
+      "name": "fs19",
+      "literal": "{4,5,13,16}"
+    },
+    {
+      "name": "fs20",
+      "literal": "{4,8,13,16}"
+    },
+    {
+      "name": "fs21",
+      "literal": "{4,9,13,16}"
+    },
+    {
+      "name": "fs22",
+      "literal": "{7,17}"
+    },
+    {
+      "name": "fs23",
+      "literal": "{5,7,17}"
+    },
+    {
+      "name": "fs24",
+      "literal": "{3,14,17}"
+    },
+    {
+      "name": "fs25",
+      "literal": "{3,5,14,17}"
+    },
+    {
+      "name": "fs26",
+      "literal": "{7,14,17}"
+    },
+    {
+      "name": "fs27",
+      "literal": "{3,7,14,17}"
+    },
+    {
+      "name": "fs28",
+      "literal": "{5,7,14,17}"
+    },
+    {
+      "name": "fs29",
+      "literal": "{18}"
+    },
+    {
+      "name": "fs30",
+      "literal": "{4,18}"
+    },
+    {
+      "name": "fs31",
+      "literal": "{8,18}"
+    },
+    {
+      "name": "fs32",
+      "literal": "{4,8,18}"
+    },
+    {
+      "name": "fs33",
+      "literal": "{8,9,18}"
+    },
+    {
+      "name": "fs34",
+      "literal": "{6,15,18}"
+    },
+    {
+      "name": "fs35",
+      "literal": "{4,16,18}"
+    },
+    {
+      "name": "fs36",
+      "literal": "{4,5,16,18}"
+    },
+    {
+      "name": "fs37",
+      "literal": "{8,16,18}"
+    },
+    {
+      "name": "fs38",
+      "literal": "{4,8,16,18}"
+    },
+    {
+      "name": "fs39",
+      "literal": "{5,8,16,18}"
+    },
+    {
+      "name": "fs40",
+      "literal": "{8,9,16,18}"
+    },
+    {
+      "name": "fs41",
+      "literal": "{19}"
+    },
+    {
+      "name": "fs42",
+      "literal": "{7,19}"
+    },
+    {
+      "name": "fs43",
+      "literal": "{9,19}"
+    },
+    {
+      "name": "fs44",
+      "literal": "{7,9,19}"
+    },
+    {
+      "name": "fs45",
+      "literal": "{8,9,19}"
+    },
+    {
+      "name": "fs46",
+      "literal": "{9,16,19}"
+    },
+    {
+      "name": "fs47",
+      "literal": "{8,9,16,19}"
+    },
+    {
+      "name": "fs48",
+      "literal": "{7,17,19}"
+    },
+    {
+      "name": "fs49",
+      "literal": "{8,9,18,19}"
+    }
+  ],
+  "pool_path": "Completion/Cases/C981/Coverage/Data/FinsetPool.lean",
+  "pool_sha256": "be5a27fdb900f69c301983ad6da23a97dd27b2aec524e0a43b3d8d3aee1b95d3",
+  "helpers": [
+    {
+      "path": "Completion/Cases/C981/Coverage/Data/Prefix09Chunks/Chunk000.lean",
+      "original_literal_sha256": "43d4e658c54caa8f618b22f0b3cf9c4d54db3c3630ef4527b2e8e5c0b59d993f",
+      "pooled_sha256": "48ccfb894455b1b053771729f21c2dd5c8343ab1faeba9d2ec6cfce044ab5573"
+    },
+    {
+      "path": "Completion/Cases/C981/Coverage/Data/Prefix09Chunks/Chunk001.lean",
+      "original_literal_sha256": "ad56a30cbef50ae39d5c73f78945fcee806d67f79e9cb9035aa2d5f0ef431f28",
+      "pooled_sha256": "baa72c4ca71ad823ad3904ef83cfea4a7b28f93329e9b00785d6fb0241af3b8e"
+    },
+    {
+      "path": "Completion/Cases/C981/Coverage/Data/Prefix09Chunks/Chunk002.lean",
+      "original_literal_sha256": "73591d95c9abd3b9919a15335c79ca3c500d51ba17b267c753063c809be0a3e6",
+      "pooled_sha256": "da4b1f1f8c6183da1414b429eb01033bc562fe723befd3b7d1f40ca8ccd8e36d"
+    },
+    {
+      "path": "Completion/Cases/C981/Coverage/Data/Prefix09Chunks/Chunk003.lean",
+      "original_literal_sha256": "ce574cf4e0c1e9ce0e9c11a6a098a7a91111dc468f5e957f3b813d9b64cd2c65",
+      "pooled_sha256": "1181e5a5a779d5283830bb24431f0c9e108d74af4d9e67df163272ecfee181df"
+    },
+    {
+      "path": "Completion/Cases/C981/Coverage/Data/Prefix09Chunks/Chunk004.lean",
+      "original_literal_sha256": "66ccacbe287f86a1ba69692b20e6fe14ebfbe6798b94219a6711305715f44a7f",
+      "pooled_sha256": "843706cb24956b7dd2cf9fc71acf5c0882dd3749d9cd848f1a5367e7c947b891"
+    },
+    {
+      "path": "Completion/Cases/C981/Coverage/Data/Prefix09Chunks/Chunk005.lean",
+      "original_literal_sha256": "a58696560ecefb0804a60e1f5f2a9849d90cd37927f1c7bf479d70e48f0b4ca1",
+      "pooled_sha256": "4ab429f6443b4850ac0446ca4234c64ac46bee7cdb8e334ada5b4bca852ca453"
+    },
+    {
+      "path": "Completion/Cases/C981/Coverage/Data/Prefix09Chunks/Chunk006.lean",
+      "original_literal_sha256": "89f6b601201976f55f6d7e04544543f9c93b141489842b32659e1c1c6e0ecbab",
+      "pooled_sha256": "0de4825ffec80994a0d3fb0a41e22f035f142fdba6902cf19d5fc74309b73ad0"
+    },
+    {
+      "path": "Completion/Cases/C981/Coverage/Data/Prefix09Chunks/Chunk007.lean",
+      "original_literal_sha256": "eeee80ba35163c8dadbc74d5a9d7a5ebcfe06879674f23e6b7c6d4208774e538",
+      "pooled_sha256": "fa86cf17c63b64cfd1915e5472fcfea722e42eb33b533affac6a336c618866f0"
+    },
+    {
+      "path": "Completion/Cases/C981/Coverage/Data/Prefix09Chunks/Chunk008.lean",
+      "original_literal_sha256": "40ad9e7f2090c096d2c394bf870eafbfbc988711af9256e22097c105170ac5b7",
+      "pooled_sha256": "87fe8a7474e0d5829b570514e4c1e43d6590162211dd26a41a097f84ac356342"
+    },
+    {
+      "path": "Completion/Cases/C981/Coverage/Data/Prefix10Chunks/Chunk000.lean",
+      "original_literal_sha256": "e08bfcc2a58a41e685d84d951603044caa47dcf6998f7a053c252467ba214996",
+      "pooled_sha256": "51d3f94bb572b24ad7f460a573f711668718c6d96924f5d36a6876cfc65bf13d"
+    },
+    {
+      "path": "Completion/Cases/C981/Coverage/Data/Prefix10Chunks/Chunk001.lean",
+      "original_literal_sha256": "d7acd915aadb91981535a91bb271030d335a7b6f00b690c1be5412783f8d9fca",
+      "pooled_sha256": "c4ba4123023a840dcd24a406090e41f2fa210a73c2c1b302b1dff8f33825715d"
+    },
+    {
+      "path": "Completion/Cases/C981/Coverage/Data/Prefix10Chunks/Chunk002.lean",
+      "original_literal_sha256": "4683958bdc41b722fd559d41fb606a6b2c1c2e003da5509b3f64654cf2a5c582",
+      "pooled_sha256": "271aca9f1a7dff7387930483b0cbe4ccb5b3739bb9a522c0928272ced8805cd3"
+    },
+    {
+      "path": "Completion/Cases/C981/Coverage/Data/Prefix10Chunks/Chunk003.lean",
+      "original_literal_sha256": "d6ec55a5164397680702160e4fc3a909b98347e7050d835968119f5ba39a9323",
+      "pooled_sha256": "085d5baff9a762a54065a4f5b95400aca86f06447ff53d0ae2e4ba810d2709b0"
+    },
+    {
+      "path": "Completion/Cases/C981/Coverage/Data/Prefix10Chunks/Chunk004.lean",
+      "original_literal_sha256": "9a2e954e628e9770c842a593df55eb2b1c7a0b1e3114ccc4b0a83a767b77c27e",
+      "pooled_sha256": "75613227189a458899cb807cd7e3468ad86237bfae85bf63fb01b4f28ef613df"
+    },
+    {
+      "path": "Completion/Cases/C981/Coverage/Data/Prefix10Chunks/Chunk005.lean",
+      "original_literal_sha256": "6efc1a71d4c8cadba1c794609df5f2bb6a88585bdfa97b8a1d8d893b99714903",
+      "pooled_sha256": "f4788c61a0f6bb7a2ba9096784178ebff3a7606dae8ff627f98a06fa103219ab"
+    },
+    {
+      "path": "Completion/Cases/C981/Coverage/Data/Prefix10Chunks/Chunk006.lean",
+      "original_literal_sha256": "a1883025546212b203d5c8295e7ab511c009568606fd7815c9a2305f0d5db2b2",
+      "pooled_sha256": "662437ff8bb8c93adbd049a0935c6e0185ad74449dc30c27deed90d1ef6b0a7d"
+    },
+    {
+      "path": "Completion/Cases/C981/Coverage/Data/Prefix10Chunks/Chunk007.lean",
+      "original_literal_sha256": "e78e6892aadcec9c28f1c3d2f2a652a9d2979c98ec3e2342b2024fa3179a7226",
+      "pooled_sha256": "2d824ef0390152f6105c71963ca90e0cf5fe9e9b8f5db54e7eef09ec34fb9e20"
+    },
+    {
+      "path": "Completion/Cases/C981/Coverage/Data/Prefix10Chunks/Chunk008.lean",
+      "original_literal_sha256": "bda8d036ecef72550c7aa35cfdf66cc7c6ca3048c3ca51b79f4b47b78f175d4e",
+      "pooled_sha256": "35014c06a24e6d15e43be0c2e758f79c6d51306942070236203474f2f1c968b8"
+    },
+    {
+      "path": "Completion/Cases/C981/Coverage/Data/Prefix10Chunks/Chunk009.lean",
+      "original_literal_sha256": "3ea85be00f9e7402562b45882486a9dc490ecebfdfc28b8f519465ac3be5f617",
+      "pooled_sha256": "904e8ff4b26f231eff986f394e0fd508a089672b2c9a8d0d537047b55ba365c1"
+    },
+    {
+      "path": "Completion/Cases/C981/Coverage/Data/Prefix10Chunks/Chunk010.lean",
+      "original_literal_sha256": "2a763bee481ed6c99e449075523ab13fb051f6cefc4f34b159c8b606bf3e4d68",
+      "pooled_sha256": "81f48c229c16c3f91ce50af77342ecd5bb3914720e9a34a7e39ee3c9dea929be"
+    },
+    {
+      "path": "Completion/Cases/C981/Coverage/Data/Prefix10Chunks/Chunk011.lean",
+      "original_literal_sha256": "293b6e884bf05967af5dae8f34747b2df5b0d832c6f79d47b80ca7ba5a910e5d",
+      "pooled_sha256": "091d141f31e9987de8d1516cacce9ea518dbe925c44e34ddffc1107a13dfea34"
+    },
+    {
+      "path": "Completion/Cases/C981/Coverage/Data/Prefix10Chunks/Chunk012.lean",
+      "original_literal_sha256": "eaec7d57d31d4cb9c47159f1170513e1490b77b8d82fa0dc6db259fe1190da03",
+      "pooled_sha256": "01de89a4ecfc6999709e3199f17e243bc4f016fe2cbc81a0c268f6592ae0d8c1"
+    }
+  ],
+  "literal_occurrences": 50762,
+  "distinct_literals": 50,
+  "added_lean_modules": 1,
+  "original_rows_preserved": 5291,
+  "exact_literal_expansion": true,
+  "row_order_unchanged": true,
+  "new_proofs": 0,
+  "new_native_sites": 0,
+  "lean_replayed": false
+}

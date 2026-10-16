@@ -1,0 +1,951 @@
+{
+  "scope": "C981 RawSupport tables only; linear RegionTree implications are separately counted but not semantically decoded",
+  "validation": "parser index and positive denominator checks only, not Lean checking or certificate soundness",
+  "counts": {
+    "lean_files": 136,
+    "lean_bytes": 106652779,
+    "lean_lines": 968001,
+    "basis_recipe_occurrences": 218529,
+    "support_basis_arity_2": 149495,
+    "support_sections": 116,
+    "raw_row_occurrences": 193607,
+    "raw_support_occurrences": 149496,
+    "support_basis_arity_1": 1
+  },
+  "unique_exact_rows": 81304,
+  "unique_positive_scale_rows": 81304,
+  "unique_resolved_exact_supports": 74538,
+  "unique_positive_scale_supports": 74538,
+  "largest_member_read_bytes": 5434909,
+  "sections": [
+    {
+      "namespace": "S12Completion.C981.SharedPairs.Pair87",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/SharedPairs.lean",
+      "file_sha256": "d00171998eec4ec05fe11980d71309626c25e6a20524fcdb9ff268c822b9e520",
+      "rows": 4170,
+      "supports": 3200,
+      "distinct_resolved_supports_within_section": 3200
+    },
+    {
+      "namespace": "S12Completion.C981.SharedPairs.Pair106",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/SharedPairs.lean",
+      "file_sha256": "d00171998eec4ec05fe11980d71309626c25e6a20524fcdb9ff268c822b9e520",
+      "rows": 1786,
+      "supports": 896,
+      "distinct_resolved_supports_within_section": 896
+    },
+    {
+      "namespace": "S12Completion.C981.V101Pairs.P4",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V101Pairs.lean",
+      "file_sha256": "5a242486696ecab3ebdd1a584031e3ab1493495bdb1e0bfaaa10e3ca1dfe6b07",
+      "rows": 4435,
+      "supports": 3840,
+      "distinct_resolved_supports_within_section": 3840
+    },
+    {
+      "namespace": "S12Completion.C981.V101Pairs.P5",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V101Pairs.lean",
+      "file_sha256": "5a242486696ecab3ebdd1a584031e3ab1493495bdb1e0bfaaa10e3ca1dfe6b07",
+      "rows": 4376,
+      "supports": 3968,
+      "distinct_resolved_supports_within_section": 3968
+    },
+    {
+      "namespace": "S12Completion.C981.V101Pairs.P10",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V101Pairs.lean",
+      "file_sha256": "5a242486696ecab3ebdd1a584031e3ab1493495bdb1e0bfaaa10e3ca1dfe6b07",
+      "rows": 568,
+      "supports": 228,
+      "distinct_resolved_supports_within_section": 225
+    },
+    {
+      "namespace": "S12Completion.C981.V101Pairs.P11",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V101Pairs.lean",
+      "file_sha256": "5a242486696ecab3ebdd1a584031e3ab1493495bdb1e0bfaaa10e3ca1dfe6b07",
+      "rows": 2135,
+      "supports": 1680,
+      "distinct_resolved_supports_within_section": 1680
+    },
+    {
+      "namespace": "S12Completion.C981.V102Trace.P0",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V102Trace.lean",
+      "file_sha256": "873a62461f90ede228a4e4ee22b08afee62d2bd7823f09b964e8e03ba52d57df",
+      "rows": 801,
+      "supports": 376,
+      "distinct_resolved_supports_within_section": 376
+    },
+    {
+      "namespace": "S12Completion.C981.V102Trace.P1",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V102Trace.lean",
+      "file_sha256": "873a62461f90ede228a4e4ee22b08afee62d2bd7823f09b964e8e03ba52d57df",
+      "rows": 2679,
+      "supports": 2168,
+      "distinct_resolved_supports_within_section": 2168
+    },
+    {
+      "namespace": "S12Completion.C981.V102Trace.P2",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V102Trace.lean",
+      "file_sha256": "873a62461f90ede228a4e4ee22b08afee62d2bd7823f09b964e8e03ba52d57df",
+      "rows": 3236,
+      "supports": 2608,
+      "distinct_resolved_supports_within_section": 2608
+    },
+    {
+      "namespace": "S12Completion.C981.V102Trace.P3",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V102Trace.lean",
+      "file_sha256": "873a62461f90ede228a4e4ee22b08afee62d2bd7823f09b964e8e03ba52d57df",
+      "rows": 3208,
+      "supports": 2648,
+      "distinct_resolved_supports_within_section": 2648
+    },
+    {
+      "namespace": "S12Completion.C981.V102Trace.P6",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V102Trace.lean",
+      "file_sha256": "873a62461f90ede228a4e4ee22b08afee62d2bd7823f09b964e8e03ba52d57df",
+      "rows": 2817,
+      "supports": 2304,
+      "distinct_resolved_supports_within_section": 2304
+    },
+    {
+      "namespace": "S12Completion.C981.V102Trace.P7",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V102Trace.lean",
+      "file_sha256": "873a62461f90ede228a4e4ee22b08afee62d2bd7823f09b964e8e03ba52d57df",
+      "rows": 4521,
+      "supports": 3972,
+      "distinct_resolved_supports_within_section": 3972
+    },
+    {
+      "namespace": "S12Completion.C981.V102Trace.P8",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V102Trace.lean",
+      "file_sha256": "873a62461f90ede228a4e4ee22b08afee62d2bd7823f09b964e8e03ba52d57df",
+      "rows": 4530,
+      "supports": 3972,
+      "distinct_resolved_supports_within_section": 3972
+    },
+    {
+      "namespace": "S12Completion.C981.V102Trace.P12",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V102Trace.lean",
+      "file_sha256": "873a62461f90ede228a4e4ee22b08afee62d2bd7823f09b964e8e03ba52d57df",
+      "rows": 934,
+      "supports": 712,
+      "distinct_resolved_supports_within_section": 712
+    },
+    {
+      "namespace": "S12Completion.C981.V102Trace.P13",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V102Trace.lean",
+      "file_sha256": "873a62461f90ede228a4e4ee22b08afee62d2bd7823f09b964e8e03ba52d57df",
+      "rows": 523,
+      "supports": 364,
+      "distinct_resolved_supports_within_section": 364
+    },
+    {
+      "namespace": "S12Completion.C981.V102Trace.P14",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V102Trace.lean",
+      "file_sha256": "873a62461f90ede228a4e4ee22b08afee62d2bd7823f09b964e8e03ba52d57df",
+      "rows": 632,
+      "supports": 360,
+      "distinct_resolved_supports_within_section": 360
+    },
+    {
+      "namespace": "S12Completion.C981.V102Trace.P15",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V102Trace.lean",
+      "file_sha256": "873a62461f90ede228a4e4ee22b08afee62d2bd7823f09b964e8e03ba52d57df",
+      "rows": 598,
+      "supports": 428,
+      "distinct_resolved_supports_within_section": 428
+    },
+    {
+      "namespace": "S12Completion.C981.V102Trace.P16",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V102Trace.lean",
+      "file_sha256": "873a62461f90ede228a4e4ee22b08afee62d2bd7823f09b964e8e03ba52d57df",
+      "rows": 408,
+      "supports": 208,
+      "distinct_resolved_supports_within_section": 208
+    },
+    {
+      "namespace": "S12Completion.C981.V102Trace.P17",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V102Trace.lean",
+      "file_sha256": "873a62461f90ede228a4e4ee22b08afee62d2bd7823f09b964e8e03ba52d57df",
+      "rows": 386,
+      "supports": 244,
+      "distinct_resolved_supports_within_section": 244
+    },
+    {
+      "namespace": "S12Completion.C981.V102Trace.P18",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V102Trace.lean",
+      "file_sha256": "873a62461f90ede228a4e4ee22b08afee62d2bd7823f09b964e8e03ba52d57df",
+      "rows": 2162,
+      "supports": 1740,
+      "distinct_resolved_supports_within_section": 1740
+    },
+    {
+      "namespace": "S12Completion.C981.V102Trace.P19",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V102Trace.lean",
+      "file_sha256": "873a62461f90ede228a4e4ee22b08afee62d2bd7823f09b964e8e03ba52d57df",
+      "rows": 702,
+      "supports": 384,
+      "distinct_resolved_supports_within_section": 384
+    },
+    {
+      "namespace": "S12Completion.C981.V102Trace.P23",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V102Trace.lean",
+      "file_sha256": "873a62461f90ede228a4e4ee22b08afee62d2bd7823f09b964e8e03ba52d57df",
+      "rows": 3087,
+      "supports": 2608,
+      "distinct_resolved_supports_within_section": 2588
+    },
+    {
+      "namespace": "S12Completion.C981.V102Trace.P24",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V102Trace.lean",
+      "file_sha256": "873a62461f90ede228a4e4ee22b08afee62d2bd7823f09b964e8e03ba52d57df",
+      "rows": 1167,
+      "supports": 640,
+      "distinct_resolved_supports_within_section": 640
+    },
+    {
+      "namespace": "S12Completion.C981.V102Trace.P25",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V102Trace.lean",
+      "file_sha256": "873a62461f90ede228a4e4ee22b08afee62d2bd7823f09b964e8e03ba52d57df",
+      "rows": 730,
+      "supports": 400,
+      "distinct_resolved_supports_within_section": 400
+    },
+    {
+      "namespace": "S12Completion.C981.V110Trace.P0",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V110Trace.lean",
+      "file_sha256": "1a480ed2d098af2b0ff50f173a345177b4e7814839938a09941ff551b5248ab9",
+      "rows": 801,
+      "supports": 376,
+      "distinct_resolved_supports_within_section": 376
+    },
+    {
+      "namespace": "S12Completion.C981.V110Trace.P1",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V110Trace.lean",
+      "file_sha256": "1a480ed2d098af2b0ff50f173a345177b4e7814839938a09941ff551b5248ab9",
+      "rows": 2233,
+      "supports": 1616,
+      "distinct_resolved_supports_within_section": 1616
+    },
+    {
+      "namespace": "S12Completion.C981.V110Trace.P2",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V110Trace.lean",
+      "file_sha256": "1a480ed2d098af2b0ff50f173a345177b4e7814839938a09941ff551b5248ab9",
+      "rows": 2723,
+      "supports": 2168,
+      "distinct_resolved_supports_within_section": 2168
+    },
+    {
+      "namespace": "S12Completion.C981.V110Trace.P3",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V110Trace.lean",
+      "file_sha256": "1a480ed2d098af2b0ff50f173a345177b4e7814839938a09941ff551b5248ab9",
+      "rows": 3273,
+      "supports": 2608,
+      "distinct_resolved_supports_within_section": 2608
+    },
+    {
+      "namespace": "S12Completion.C981.V110Trace.P4",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V110Trace.lean",
+      "file_sha256": "1a480ed2d098af2b0ff50f173a345177b4e7814839938a09941ff551b5248ab9",
+      "rows": 1555,
+      "supports": 996,
+      "distinct_resolved_supports_within_section": 996
+    },
+    {
+      "namespace": "S12Completion.C981.V110Trace.P5",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V110Trace.lean",
+      "file_sha256": "1a480ed2d098af2b0ff50f173a345177b4e7814839938a09941ff551b5248ab9",
+      "rows": 3237,
+      "supports": 2648,
+      "distinct_resolved_supports_within_section": 2648
+    },
+    {
+      "namespace": "S12Completion.C981.V110Trace.P9",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V110Trace.lean",
+      "file_sha256": "1a480ed2d098af2b0ff50f173a345177b4e7814839938a09941ff551b5248ab9",
+      "rows": 719,
+      "supports": 348,
+      "distinct_resolved_supports_within_section": 348
+    },
+    {
+      "namespace": "S12Completion.C981.V110Trace.P11",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V110Trace.lean",
+      "file_sha256": "1a480ed2d098af2b0ff50f173a345177b4e7814839938a09941ff551b5248ab9",
+      "rows": 3305,
+      "supports": 2732,
+      "distinct_resolved_supports_within_section": 2732
+    },
+    {
+      "namespace": "S12Completion.C981.V110Trace.P12",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V110Trace.lean",
+      "file_sha256": "1a480ed2d098af2b0ff50f173a345177b4e7814839938a09941ff551b5248ab9",
+      "rows": 4538,
+      "supports": 3968,
+      "distinct_resolved_supports_within_section": 3968
+    },
+    {
+      "namespace": "S12Completion.C981.V110Trace.P13",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V110Trace.lean",
+      "file_sha256": "1a480ed2d098af2b0ff50f173a345177b4e7814839938a09941ff551b5248ab9",
+      "rows": 3118,
+      "supports": 2732,
+      "distinct_resolved_supports_within_section": 2732
+    },
+    {
+      "namespace": "S12Completion.C981.V110Trace.P14",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V110Trace.lean",
+      "file_sha256": "1a480ed2d098af2b0ff50f173a345177b4e7814839938a09941ff551b5248ab9",
+      "rows": 643,
+      "supports": 0,
+      "distinct_resolved_supports_within_section": 0
+    },
+    {
+      "namespace": "S12Completion.C981.V110Trace.P15",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V110Trace.lean",
+      "file_sha256": "1a480ed2d098af2b0ff50f173a345177b4e7814839938a09941ff551b5248ab9",
+      "rows": 873,
+      "supports": 384,
+      "distinct_resolved_supports_within_section": 384
+    },
+    {
+      "namespace": "S12Completion.C981.V110Trace.P16",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V110Trace.lean",
+      "file_sha256": "1a480ed2d098af2b0ff50f173a345177b4e7814839938a09941ff551b5248ab9",
+      "rows": 642,
+      "supports": 376,
+      "distinct_resolved_supports_within_section": 376
+    },
+    {
+      "namespace": "S12Completion.C981.V110Trace.P17",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V110Trace.lean",
+      "file_sha256": "1a480ed2d098af2b0ff50f173a345177b4e7814839938a09941ff551b5248ab9",
+      "rows": 670,
+      "supports": 484,
+      "distinct_resolved_supports_within_section": 484
+    },
+    {
+      "namespace": "S12Completion.C981.V110Trace.P18",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V110Trace.lean",
+      "file_sha256": "1a480ed2d098af2b0ff50f173a345177b4e7814839938a09941ff551b5248ab9",
+      "rows": 613,
+      "supports": 0,
+      "distinct_resolved_supports_within_section": 0
+    },
+    {
+      "namespace": "S12Completion.C981.V110Trace.P19",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V110Trace.lean",
+      "file_sha256": "1a480ed2d098af2b0ff50f173a345177b4e7814839938a09941ff551b5248ab9",
+      "rows": 1243,
+      "supports": 608,
+      "distinct_resolved_supports_within_section": 608
+    },
+    {
+      "namespace": "S12Completion.C981.V110Trace.P20",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V110Trace.lean",
+      "file_sha256": "1a480ed2d098af2b0ff50f173a345177b4e7814839938a09941ff551b5248ab9",
+      "rows": 755,
+      "supports": 324,
+      "distinct_resolved_supports_within_section": 324
+    },
+    {
+      "namespace": "S12Completion.C981.V110Trace.P21",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V110Trace.lean",
+      "file_sha256": "1a480ed2d098af2b0ff50f173a345177b4e7814839938a09941ff551b5248ab9",
+      "rows": 671,
+      "supports": 484,
+      "distinct_resolved_supports_within_section": 484
+    },
+    {
+      "namespace": "S12Completion.C981.V110Trace.P22",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V110Trace.lean",
+      "file_sha256": "1a480ed2d098af2b0ff50f173a345177b4e7814839938a09941ff551b5248ab9",
+      "rows": 2187,
+      "supports": 1740,
+      "distinct_resolved_supports_within_section": 1740
+    },
+    {
+      "namespace": "S12Completion.C981.V110Trace.P23",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V110Trace.lean",
+      "file_sha256": "1a480ed2d098af2b0ff50f173a345177b4e7814839938a09941ff551b5248ab9",
+      "rows": 1332,
+      "supports": 992,
+      "distinct_resolved_supports_within_section": 977
+    },
+    {
+      "namespace": "S12Completion.C981.V110Trace.P24",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V110Trace.lean",
+      "file_sha256": "1a480ed2d098af2b0ff50f173a345177b4e7814839938a09941ff551b5248ab9",
+      "rows": 802,
+      "supports": 460,
+      "distinct_resolved_supports_within_section": 460
+    },
+    {
+      "namespace": "S12Completion.C981.V25Pairs.P0",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V25Pairs.lean",
+      "file_sha256": "35f47623c232e654faf79e7eafc256efad7f2ae719d937f5cc10509f20c8839a",
+      "rows": 506,
+      "supports": 364,
+      "distinct_resolved_supports_within_section": 364
+    },
+    {
+      "namespace": "S12Completion.C981.V25Pairs.P1",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V25Pairs.lean",
+      "file_sha256": "35f47623c232e654faf79e7eafc256efad7f2ae719d937f5cc10509f20c8839a",
+      "rows": 117,
+      "supports": 64,
+      "distinct_resolved_supports_within_section": 64
+    },
+    {
+      "namespace": "S12Completion.C981.V31Pairs.P0",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V31Pairs.lean",
+      "file_sha256": "042b3f80b002e8af6403b933ef3d7b9a4b03fef4b00b3faf82a7a0c8a6c9fef2",
+      "rows": 896,
+      "supports": 724,
+      "distinct_resolved_supports_within_section": 724
+    },
+    {
+      "namespace": "S12Completion.C981.V31Pairs.P1",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V31Pairs.lean",
+      "file_sha256": "042b3f80b002e8af6403b933ef3d7b9a4b03fef4b00b3faf82a7a0c8a6c9fef2",
+      "rows": 121,
+      "supports": 64,
+      "distinct_resolved_supports_within_section": 64
+    },
+    {
+      "namespace": "S12Completion.C981.V35Pairs.P14",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V35Pairs.lean",
+      "file_sha256": "b21b525f1543ac3e2a6567e737b397f705d08b80c17e04aa91b27afdca3c5f0e",
+      "rows": 587,
+      "supports": 376,
+      "distinct_resolved_supports_within_section": 376
+    },
+    {
+      "namespace": "S12Completion.C981.V40Pairs.P0",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V40Pairs.lean",
+      "file_sha256": "0615f274a74c4d7a21703c5d52e2539406af5a046420646104500fc5cb905a8f",
+      "rows": 506,
+      "supports": 364,
+      "distinct_resolved_supports_within_section": 364
+    },
+    {
+      "namespace": "S12Completion.C981.V40Pairs.P1",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V40Pairs.lean",
+      "file_sha256": "0615f274a74c4d7a21703c5d52e2539406af5a046420646104500fc5cb905a8f",
+      "rows": 117,
+      "supports": 64,
+      "distinct_resolved_supports_within_section": 64
+    },
+    {
+      "namespace": "S12Completion.C981.V42Pairs.P14",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V42Pairs.lean",
+      "file_sha256": "b521f7b64da5cc3f9b9a7c95f19163fda2f1f97f0aa7cb56ce02b137dae78b24",
+      "rows": 590,
+      "supports": 376,
+      "distinct_resolved_supports_within_section": 376
+    },
+    {
+      "namespace": "S12Completion.C981.V54Pairs.P0",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V54Pairs.lean",
+      "file_sha256": "70f4fc01bf19ac238fffb96455d8c0807279b50cdc55a2f2838eba3311936d8f",
+      "rows": 2683,
+      "supports": 2228,
+      "distinct_resolved_supports_within_section": 2228
+    },
+    {
+      "namespace": "S12Completion.C981.V54Pairs.P1",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V54Pairs.lean",
+      "file_sha256": "70f4fc01bf19ac238fffb96455d8c0807279b50cdc55a2f2838eba3311936d8f",
+      "rows": 368,
+      "supports": 224,
+      "distinct_resolved_supports_within_section": 224
+    },
+    {
+      "namespace": "S12Completion.C981.V58Pairs.P0",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V58Pairs.lean",
+      "file_sha256": "efb1287cf6ae4f26d4830eb02fb7d145975ffc85d4dcc364caeafec525298e74",
+      "rows": 3876,
+      "supports": 3328,
+      "distinct_resolved_supports_within_section": 3328
+    },
+    {
+      "namespace": "S12Completion.C981.V58Pairs.P1",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V58Pairs.lean",
+      "file_sha256": "efb1287cf6ae4f26d4830eb02fb7d145975ffc85d4dcc364caeafec525298e74",
+      "rows": 2216,
+      "supports": 1864,
+      "distinct_resolved_supports_within_section": 1864
+    },
+    {
+      "namespace": "S12Completion.C981.V58Pairs.P2",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V58Pairs.lean",
+      "file_sha256": "efb1287cf6ae4f26d4830eb02fb7d145975ffc85d4dcc364caeafec525298e74",
+      "rows": 2681,
+      "supports": 2228,
+      "distinct_resolved_supports_within_section": 2228
+    },
+    {
+      "namespace": "S12Completion.C981.V58Pairs.P3",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V58Pairs.lean",
+      "file_sha256": "efb1287cf6ae4f26d4830eb02fb7d145975ffc85d4dcc364caeafec525298e74",
+      "rows": 354,
+      "supports": 180,
+      "distinct_resolved_supports_within_section": 180
+    },
+    {
+      "namespace": "S12Completion.C981.V58Pairs.P4",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V58Pairs.lean",
+      "file_sha256": "efb1287cf6ae4f26d4830eb02fb7d145975ffc85d4dcc364caeafec525298e74",
+      "rows": 815,
+      "supports": 604,
+      "distinct_resolved_supports_within_section": 604
+    },
+    {
+      "namespace": "S12Completion.C981.V58Pairs.P5",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V58Pairs.lean",
+      "file_sha256": "efb1287cf6ae4f26d4830eb02fb7d145975ffc85d4dcc364caeafec525298e74",
+      "rows": 679,
+      "supports": 376,
+      "distinct_resolved_supports_within_section": 374
+    },
+    {
+      "namespace": "S12Completion.C981.V58Pairs.P6",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V58Pairs.lean",
+      "file_sha256": "efb1287cf6ae4f26d4830eb02fb7d145975ffc85d4dcc364caeafec525298e74",
+      "rows": 1195,
+      "supports": 736,
+      "distinct_resolved_supports_within_section": 736
+    },
+    {
+      "namespace": "S12Completion.C981.V58Pairs.P7",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V58Pairs.lean",
+      "file_sha256": "efb1287cf6ae4f26d4830eb02fb7d145975ffc85d4dcc364caeafec525298e74",
+      "rows": 891,
+      "supports": 624,
+      "distinct_resolved_supports_within_section": 624
+    },
+    {
+      "namespace": "S12Completion.C981.V58Pairs.P8",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V58Pairs.lean",
+      "file_sha256": "efb1287cf6ae4f26d4830eb02fb7d145975ffc85d4dcc364caeafec525298e74",
+      "rows": 431,
+      "supports": 224,
+      "distinct_resolved_supports_within_section": 224
+    },
+    {
+      "namespace": "S12Completion.C981.V58Pairs.P9",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V58Pairs.lean",
+      "file_sha256": "efb1287cf6ae4f26d4830eb02fb7d145975ffc85d4dcc364caeafec525298e74",
+      "rows": 262,
+      "supports": 108,
+      "distinct_resolved_supports_within_section": 108
+    },
+    {
+      "namespace": "S12Completion.C981.V58Pairs.P10",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V58Pairs.lean",
+      "file_sha256": "efb1287cf6ae4f26d4830eb02fb7d145975ffc85d4dcc364caeafec525298e74",
+      "rows": 1322,
+      "supports": 1088,
+      "distinct_resolved_supports_within_section": 1088
+    },
+    {
+      "namespace": "S12Completion.C981.V58Pairs.P11",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V58Pairs.lean",
+      "file_sha256": "efb1287cf6ae4f26d4830eb02fb7d145975ffc85d4dcc364caeafec525298e74",
+      "rows": 3555,
+      "supports": 3104,
+      "distinct_resolved_supports_within_section": 3080
+    },
+    {
+      "namespace": "S12Completion.C981.V58Pairs.P12",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V58Pairs.lean",
+      "file_sha256": "efb1287cf6ae4f26d4830eb02fb7d145975ffc85d4dcc364caeafec525298e74",
+      "rows": 1656,
+      "supports": 1152,
+      "distinct_resolved_supports_within_section": 1152
+    },
+    {
+      "namespace": "S12Completion.C981.V58Pairs.P13",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V58Pairs.lean",
+      "file_sha256": "efb1287cf6ae4f26d4830eb02fb7d145975ffc85d4dcc364caeafec525298e74",
+      "rows": 537,
+      "supports": 360,
+      "distinct_resolved_supports_within_section": 360
+    },
+    {
+      "namespace": "S12Completion.C981.V5Pairs.P0",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V5Pairs.lean",
+      "file_sha256": "714beac4217d7597f86b59ff6ed1ac71da0b926b5f0b68fbf9efdbd532ee86a8",
+      "rows": 1149,
+      "supports": 872,
+      "distinct_resolved_supports_within_section": 872
+    },
+    {
+      "namespace": "S12Completion.C981.V5Pairs.P1",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V5Pairs.lean",
+      "file_sha256": "714beac4217d7597f86b59ff6ed1ac71da0b926b5f0b68fbf9efdbd532ee86a8",
+      "rows": 723,
+      "supports": 500,
+      "distinct_resolved_supports_within_section": 500
+    },
+    {
+      "namespace": "S12Completion.C981.V82Trace.P0",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V82Trace.lean",
+      "file_sha256": "27fe1de2d6d7b7930adf860990b88991953e5de417f48f6677e0210f317b23fd",
+      "rows": 801,
+      "supports": 376,
+      "distinct_resolved_supports_within_section": 376
+    },
+    {
+      "namespace": "S12Completion.C981.V82Trace.P1",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V82Trace.lean",
+      "file_sha256": "27fe1de2d6d7b7930adf860990b88991953e5de417f48f6677e0210f317b23fd",
+      "rows": 775,
+      "supports": 332,
+      "distinct_resolved_supports_within_section": 332
+    },
+    {
+      "namespace": "S12Completion.C981.V82Trace.P2",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V82Trace.lean",
+      "file_sha256": "27fe1de2d6d7b7930adf860990b88991953e5de417f48f6677e0210f317b23fd",
+      "rows": 2705,
+      "supports": 2168,
+      "distinct_resolved_supports_within_section": 2168
+    },
+    {
+      "namespace": "S12Completion.C981.V82Trace.P3",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V82Trace.lean",
+      "file_sha256": "27fe1de2d6d7b7930adf860990b88991953e5de417f48f6677e0210f317b23fd",
+      "rows": 3254,
+      "supports": 2608,
+      "distinct_resolved_supports_within_section": 2608
+    },
+    {
+      "namespace": "S12Completion.C981.V82Trace.P4",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V82Trace.lean",
+      "file_sha256": "27fe1de2d6d7b7930adf860990b88991953e5de417f48f6677e0210f317b23fd",
+      "rows": 3207,
+      "supports": 2648,
+      "distinct_resolved_supports_within_section": 2648
+    },
+    {
+      "namespace": "S12Completion.C981.V82Trace.P7",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V82Trace.lean",
+      "file_sha256": "27fe1de2d6d7b7930adf860990b88991953e5de417f48f6677e0210f317b23fd",
+      "rows": 3111,
+      "supports": 2560,
+      "distinct_resolved_supports_within_section": 2560
+    },
+    {
+      "namespace": "S12Completion.C981.V82Trace.P8",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V82Trace.lean",
+      "file_sha256": "27fe1de2d6d7b7930adf860990b88991953e5de417f48f6677e0210f317b23fd",
+      "rows": 4538,
+      "supports": 3972,
+      "distinct_resolved_supports_within_section": 3972
+    },
+    {
+      "namespace": "S12Completion.C981.V82Trace.P9",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V82Trace.lean",
+      "file_sha256": "27fe1de2d6d7b7930adf860990b88991953e5de417f48f6677e0210f317b23fd",
+      "rows": 4549,
+      "supports": 3972,
+      "distinct_resolved_supports_within_section": 3972
+    },
+    {
+      "namespace": "S12Completion.C981.V82Trace.P13",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V82Trace.lean",
+      "file_sha256": "27fe1de2d6d7b7930adf860990b88991953e5de417f48f6677e0210f317b23fd",
+      "rows": 398,
+      "supports": 232,
+      "distinct_resolved_supports_within_section": 232
+    },
+    {
+      "namespace": "S12Completion.C981.V82Trace.P14",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V82Trace.lean",
+      "file_sha256": "27fe1de2d6d7b7930adf860990b88991953e5de417f48f6677e0210f317b23fd",
+      "rows": 523,
+      "supports": 364,
+      "distinct_resolved_supports_within_section": 364
+    },
+    {
+      "namespace": "S12Completion.C981.V82Trace.P15",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V82Trace.lean",
+      "file_sha256": "27fe1de2d6d7b7930adf860990b88991953e5de417f48f6677e0210f317b23fd",
+      "rows": 716,
+      "supports": 400,
+      "distinct_resolved_supports_within_section": 400
+    },
+    {
+      "namespace": "S12Completion.C981.V82Trace.P16",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V82Trace.lean",
+      "file_sha256": "27fe1de2d6d7b7930adf860990b88991953e5de417f48f6677e0210f317b23fd",
+      "rows": 598,
+      "supports": 428,
+      "distinct_resolved_supports_within_section": 428
+    },
+    {
+      "namespace": "S12Completion.C981.V82Trace.P17",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V82Trace.lean",
+      "file_sha256": "27fe1de2d6d7b7930adf860990b88991953e5de417f48f6677e0210f317b23fd",
+      "rows": 408,
+      "supports": 208,
+      "distinct_resolved_supports_within_section": 208
+    },
+    {
+      "namespace": "S12Completion.C981.V82Trace.P18",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V82Trace.lean",
+      "file_sha256": "27fe1de2d6d7b7930adf860990b88991953e5de417f48f6677e0210f317b23fd",
+      "rows": 386,
+      "supports": 244,
+      "distinct_resolved_supports_within_section": 244
+    },
+    {
+      "namespace": "S12Completion.C981.V82Trace.P19",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V82Trace.lean",
+      "file_sha256": "27fe1de2d6d7b7930adf860990b88991953e5de417f48f6677e0210f317b23fd",
+      "rows": 2161,
+      "supports": 1740,
+      "distinct_resolved_supports_within_section": 1740
+    },
+    {
+      "namespace": "S12Completion.C981.V82Trace.P20",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V82Trace.lean",
+      "file_sha256": "27fe1de2d6d7b7930adf860990b88991953e5de417f48f6677e0210f317b23fd",
+      "rows": 702,
+      "supports": 384,
+      "distinct_resolved_supports_within_section": 384
+    },
+    {
+      "namespace": "S12Completion.C981.V82Trace.P24",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V82Trace.lean",
+      "file_sha256": "27fe1de2d6d7b7930adf860990b88991953e5de417f48f6677e0210f317b23fd",
+      "rows": 3080,
+      "supports": 2608,
+      "distinct_resolved_supports_within_section": 2588
+    },
+    {
+      "namespace": "S12Completion.C981.V82Trace.P25",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V82Trace.lean",
+      "file_sha256": "27fe1de2d6d7b7930adf860990b88991953e5de417f48f6677e0210f317b23fd",
+      "rows": 1183,
+      "supports": 640,
+      "distinct_resolved_supports_within_section": 640
+    },
+    {
+      "namespace": "S12Completion.C981.V82Trace.P26",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V82Trace.lean",
+      "file_sha256": "27fe1de2d6d7b7930adf860990b88991953e5de417f48f6677e0210f317b23fd",
+      "rows": 768,
+      "supports": 416,
+      "distinct_resolved_supports_within_section": 416
+    },
+    {
+      "namespace": "S12Completion.C981.V83Trace.P0",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V83Trace.lean",
+      "file_sha256": "2c47488f31a1882d35f6a10b30b1055159a7841ab25970424c9488d7bd3a0c42",
+      "rows": 801,
+      "supports": 376,
+      "distinct_resolved_supports_within_section": 376
+    },
+    {
+      "namespace": "S12Completion.C981.V83Trace.P1",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V83Trace.lean",
+      "file_sha256": "2c47488f31a1882d35f6a10b30b1055159a7841ab25970424c9488d7bd3a0c42",
+      "rows": 675,
+      "supports": 240,
+      "distinct_resolved_supports_within_section": 240
+    },
+    {
+      "namespace": "S12Completion.C981.V83Trace.P2",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V83Trace.lean",
+      "file_sha256": "2c47488f31a1882d35f6a10b30b1055159a7841ab25970424c9488d7bd3a0c42",
+      "rows": 2705,
+      "supports": 2168,
+      "distinct_resolved_supports_within_section": 2168
+    },
+    {
+      "namespace": "S12Completion.C981.V83Trace.P3",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V83Trace.lean",
+      "file_sha256": "2c47488f31a1882d35f6a10b30b1055159a7841ab25970424c9488d7bd3a0c42",
+      "rows": 3254,
+      "supports": 2608,
+      "distinct_resolved_supports_within_section": 2608
+    },
+    {
+      "namespace": "S12Completion.C981.V83Trace.P4",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V83Trace.lean",
+      "file_sha256": "2c47488f31a1882d35f6a10b30b1055159a7841ab25970424c9488d7bd3a0c42",
+      "rows": 3207,
+      "supports": 2648,
+      "distinct_resolved_supports_within_section": 2648
+    },
+    {
+      "namespace": "S12Completion.C981.V83Trace.P8",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V83Trace.lean",
+      "file_sha256": "2c47488f31a1882d35f6a10b30b1055159a7841ab25970424c9488d7bd3a0c42",
+      "rows": 2975,
+      "supports": 2432,
+      "distinct_resolved_supports_within_section": 2432
+    },
+    {
+      "namespace": "S12Completion.C981.V83Trace.P9",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V83Trace.lean",
+      "file_sha256": "2c47488f31a1882d35f6a10b30b1055159a7841ab25970424c9488d7bd3a0c42",
+      "rows": 4548,
+      "supports": 3972,
+      "distinct_resolved_supports_within_section": 3972
+    },
+    {
+      "namespace": "S12Completion.C981.V83Trace.P10",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V83Trace.lean",
+      "file_sha256": "2c47488f31a1882d35f6a10b30b1055159a7841ab25970424c9488d7bd3a0c42",
+      "rows": 4544,
+      "supports": 3972,
+      "distinct_resolved_supports_within_section": 3972
+    },
+    {
+      "namespace": "S12Completion.C981.V83Trace.P14",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V83Trace.lean",
+      "file_sha256": "2c47488f31a1882d35f6a10b30b1055159a7841ab25970424c9488d7bd3a0c42",
+      "rows": 363,
+      "supports": 220,
+      "distinct_resolved_supports_within_section": 220
+    },
+    {
+      "namespace": "S12Completion.C981.V83Trace.P15",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V83Trace.lean",
+      "file_sha256": "2c47488f31a1882d35f6a10b30b1055159a7841ab25970424c9488d7bd3a0c42",
+      "rows": 585,
+      "supports": 304,
+      "distinct_resolved_supports_within_section": 304
+    },
+    {
+      "namespace": "S12Completion.C981.V83Trace.P16",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V83Trace.lean",
+      "file_sha256": "2c47488f31a1882d35f6a10b30b1055159a7841ab25970424c9488d7bd3a0c42",
+      "rows": 520,
+      "supports": 368,
+      "distinct_resolved_supports_within_section": 368
+    },
+    {
+      "namespace": "S12Completion.C981.V83Trace.P17",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V83Trace.lean",
+      "file_sha256": "2c47488f31a1882d35f6a10b30b1055159a7841ab25970424c9488d7bd3a0c42",
+      "rows": 403,
+      "supports": 208,
+      "distinct_resolved_supports_within_section": 208
+    },
+    {
+      "namespace": "S12Completion.C981.V83Trace.P18",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V83Trace.lean",
+      "file_sha256": "2c47488f31a1882d35f6a10b30b1055159a7841ab25970424c9488d7bd3a0c42",
+      "rows": 386,
+      "supports": 244,
+      "distinct_resolved_supports_within_section": 244
+    },
+    {
+      "namespace": "S12Completion.C981.V83Trace.P19",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V83Trace.lean",
+      "file_sha256": "2c47488f31a1882d35f6a10b30b1055159a7841ab25970424c9488d7bd3a0c42",
+      "rows": 2161,
+      "supports": 1740,
+      "distinct_resolved_supports_within_section": 1740
+    },
+    {
+      "namespace": "S12Completion.C981.V83Trace.P20",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V83Trace.lean",
+      "file_sha256": "2c47488f31a1882d35f6a10b30b1055159a7841ab25970424c9488d7bd3a0c42",
+      "rows": 702,
+      "supports": 384,
+      "distinct_resolved_supports_within_section": 384
+    },
+    {
+      "namespace": "S12Completion.C981.V83Trace.P24",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V83Trace.lean",
+      "file_sha256": "2c47488f31a1882d35f6a10b30b1055159a7841ab25970424c9488d7bd3a0c42",
+      "rows": 1370,
+      "supports": 996,
+      "distinct_resolved_supports_within_section": 989
+    },
+    {
+      "namespace": "S12Completion.C981.V83Trace.P25",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V83Trace.lean",
+      "file_sha256": "2c47488f31a1882d35f6a10b30b1055159a7841ab25970424c9488d7bd3a0c42",
+      "rows": 964,
+      "supports": 512,
+      "distinct_resolved_supports_within_section": 512
+    },
+    {
+      "namespace": "S12Completion.C981.V83Trace.P26",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V83Trace.lean",
+      "file_sha256": "2c47488f31a1882d35f6a10b30b1055159a7841ab25970424c9488d7bd3a0c42",
+      "rows": 249,
+      "supports": 116,
+      "distinct_resolved_supports_within_section": 116
+    },
+    {
+      "namespace": "S12Completion.C981.V89Pairs.P0",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V89Pairs.lean",
+      "file_sha256": "29e9024f66553e862036d5c3dabc35de8ea1c1ca3dd0b910c7063e18f902b351",
+      "rows": 344,
+      "supports": 220,
+      "distinct_resolved_supports_within_section": 220
+    },
+    {
+      "namespace": "S12Completion.C981.V89Pairs.P1",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V89Pairs.lean",
+      "file_sha256": "29e9024f66553e862036d5c3dabc35de8ea1c1ca3dd0b910c7063e18f902b351",
+      "rows": 371,
+      "supports": 168,
+      "distinct_resolved_supports_within_section": 168
+    },
+    {
+      "namespace": "S12Completion.C981.V89Pairs.P2",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V89Pairs.lean",
+      "file_sha256": "29e9024f66553e862036d5c3dabc35de8ea1c1ca3dd0b910c7063e18f902b351",
+      "rows": 454,
+      "supports": 304,
+      "distinct_resolved_supports_within_section": 304
+    },
+    {
+      "namespace": "S12Completion.C981.V98Pairs.P0",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V98Pairs.lean",
+      "file_sha256": "e36fa9dfbc8543bb4e2c0ed73b887de26609318c8b2718898794355fa3cf1d54",
+      "rows": 4435,
+      "supports": 3840,
+      "distinct_resolved_supports_within_section": 3840
+    },
+    {
+      "namespace": "S12Completion.C981.V98Pairs.P1",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V98Pairs.lean",
+      "file_sha256": "e36fa9dfbc8543bb4e2c0ed73b887de26609318c8b2718898794355fa3cf1d54",
+      "rows": 4376,
+      "supports": 3968,
+      "distinct_resolved_supports_within_section": 3968
+    },
+    {
+      "namespace": "S12Completion.C981.V98Pairs.P2",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V98Pairs.lean",
+      "file_sha256": "e36fa9dfbc8543bb4e2c0ed73b887de26609318c8b2718898794355fa3cf1d54",
+      "rows": 568,
+      "supports": 228,
+      "distinct_resolved_supports_within_section": 225
+    },
+    {
+      "namespace": "S12Completion.C981.V98Pairs.P3",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V98Pairs.lean",
+      "file_sha256": "e36fa9dfbc8543bb4e2c0ed73b887de26609318c8b2718898794355fa3cf1d54",
+      "rows": 2548,
+      "supports": 2048,
+      "distinct_resolved_supports_within_section": 2048
+    },
+    {
+      "namespace": "S12Completion.C981.V98Pairs.P4",
+      "file": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/V98Pairs.lean",
+      "file_sha256": "e36fa9dfbc8543bb4e2c0ed73b887de26609318c8b2718898794355fa3cf1d54",
+      "rows": 879,
+      "supports": 724,
+      "distinct_resolved_supports_within_section": 724
+    }
+  ],
+  "unparsed_support_sections": []
+}

@@ -1,0 +1,1 @@
+'S12.PoseRoot.sound' depends on axioms: [propext, Classical.choice, Quot.sound]

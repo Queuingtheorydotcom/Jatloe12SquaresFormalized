@@ -1,0 +1,12 @@
+/Users/macintosh/Documents/Codex/2026-10-13/plz/work/handoff/12-square-formalization-handoff-2026-10-13/project/Compact/Geometry/CentralWallParallelMargin.lean:73:29: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/Users/macintosh/Documents/Codex/2026-10-13/plz/work/handoff/12-square-formalization-handoff-2026-10-13/project/Compact/Geometry/CentralWallParallelMargin.lean:91:29: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/Users/macintosh/Documents/Codex/2026-10-13/plz/work/handoff/12-square-formalization-handoff-2026-10-13/project/Compact/Geometry/CentralWallParallelMargin.lean:105:29: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/Users/macintosh/Documents/Codex/2026-10-13/plz/work/handoff/12-square-formalization-handoff-2026-10-13/project/Compact/Geometry/CentralWallParallelMargin.lean:143:67: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/Users/macintosh/Documents/Codex/2026-10-13/plz/work/handoff/12-square-formalization-handoff-2026-10-13/project/Compact/Geometry/CentralWallParallelMargin.lean:160:36: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/Users/macintosh/Documents/Codex/2026-10-13/plz/work/handoff/12-square-formalization-handoff-2026-10-13/project/Compact/Geometry/CentralWallParallelMargin.lean:165:42: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`

@@ -1,0 +1,1 @@
+'S12.coversInterval_sound' depends on axioms: [propext, Classical.choice, Quot.sound]

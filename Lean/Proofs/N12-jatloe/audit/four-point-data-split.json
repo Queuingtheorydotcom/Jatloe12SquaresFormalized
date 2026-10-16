@@ -1,0 +1,54 @@
+{
+  "original_sha256": "62a9e8f4c7495342b9c600893683f9994b14e7d86ac8a1415c1753eec228301b",
+  "reconstructed_sha256": "62a9e8f4c7495342b9c600893683f9994b14e7d86ac8a1415c1753eec228301b",
+  "declaration_bodies_unchanged": true,
+  "entries": 111,
+  "chunks": [
+    {
+      "module": "S12.FourPointData.Chunk00",
+      "first": 0,
+      "last": 15,
+      "source_sha256": "0757b7abdbdf2c1b6f0ed02913070b0d0adb5fdf90b46134dcda8742d7d32bec"
+    },
+    {
+      "module": "S12.FourPointData.Chunk01",
+      "first": 16,
+      "last": 31,
+      "source_sha256": "cd5da34b1642070fd7ba877c8229350abab6362dd3e559eb9d172f636dd23648"
+    },
+    {
+      "module": "S12.FourPointData.Chunk02",
+      "first": 32,
+      "last": 47,
+      "source_sha256": "9bb6563be1056c8922f1591fe8bea77782e6c01ed1fe71af4f771e535db65c77"
+    },
+    {
+      "module": "S12.FourPointData.Chunk03",
+      "first": 48,
+      "last": 63,
+      "source_sha256": "55426829832d02602538509b0dc3668000c9c7c86de1dd2fa25a84be0105bbee"
+    },
+    {
+      "module": "S12.FourPointData.Chunk04",
+      "first": 64,
+      "last": 79,
+      "source_sha256": "49087c1a870bc0553bd682679212fb5aa1c96f1127123e5b6f28a21c56c3f4dd"
+    },
+    {
+      "module": "S12.FourPointData.Chunk05",
+      "first": 80,
+      "last": 95,
+      "source_sha256": "d971b6719345f96e357648b069f54176f5f91124a689c092dc99605be17f0231"
+    },
+    {
+      "module": "S12.FourPointData.Chunk06",
+      "first": 96,
+      "last": 110,
+      "source_sha256": "2905621b9008c6341e5856549c562433558d2c30f6eee8c1ec26f7e02228dd3a"
+    }
+  ],
+  "added_modules": 7,
+  "native_decide_sites_before": 111,
+  "native_decide_sites_after": 111,
+  "wrapper_sha256": "e539beede20499ba75bfbf438e2829a10e4adeb6927b2a8485a3f522273816fe"
+}

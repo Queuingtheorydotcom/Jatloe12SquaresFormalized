@@ -1,0 +1,52 @@
+{
+  "command": [
+    "/Users/macintosh/.elan/toolchains/leanprover--lean4---v4.19.0/bin/lake",
+    "env",
+    "/Users/macintosh/.elan/toolchains/leanprover--lean4---v4.19.0/bin/lean",
+    "-j1",
+    "-o",
+    ".verification/Owner5Angle00Data.olean",
+    ".verification/Owner5Angle00Data.lean"
+  ],
+  "returncode": -15,
+  "stop_reason": "aggregate_rss_limit",
+  "limits": {
+    "rss_mib": 1536,
+    "physical_footprint_mib": 450,
+    "seconds": 30,
+    "free_gib": 3.0
+  },
+  "elapsed_seconds": 12.846,
+  "minimum_free_bytes": 7617208320,
+  "peak_group_rss_kib": 1609248,
+  "peak_group_physical_footprint_kib": 242154,
+  "peak_group_processes": [
+    {
+      "pid": 7688,
+      "pgid": 7671,
+      "rss_kib": 1291440
+    },
+    {
+      "pid": 7671,
+      "pgid": 7671,
+      "rss_kib": 317808
+    }
+  ],
+  "stop_group_processes": [
+    {
+      "pid": 7688,
+      "pgid": 7671,
+      "rss_kib": 1292304,
+      "comm": "lean"
+    },
+    {
+      "pid": 7671,
+      "pgid": 7671,
+      "rss_kib": 317808,
+      "comm": "lake"
+    }
+  ],
+  "stop_snapshot_error": null,
+  "cleanup_errors": [],
+  "remaining_processes": []
+}

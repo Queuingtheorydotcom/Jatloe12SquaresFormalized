@@ -1,0 +1,1 @@
+'S12.linear_implication_sound' depends on axioms: [propext, Classical.choice, Quot.sound]

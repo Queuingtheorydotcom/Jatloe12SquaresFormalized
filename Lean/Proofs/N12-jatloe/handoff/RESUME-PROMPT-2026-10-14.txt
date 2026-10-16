@@ -1,0 +1,25 @@
+Resume the unfinished twelve-square formalization from the pushed paused
+checkpoint branch codex/n12-paused-checkpoint-2026-10-14 in
+EvolvingPrograms/SquaresLean, project projects/n12-refactored, Lean 4.19.0.
+Read handoff/CONTINUATION-2026-10-14.txt and its status/check/blocker JSON first.
+
+Keep the exact unrestricted S12.packingConstant12 = 4 target and original
+ownership/boundary semantics. Hard maximum 10,000 modules across the whole
+proof including libraries; prefer at most 8,000. Continue our compact support,
+half-angle, shared-query, prefix-coverage and exact-certificate simplifications.
+The whole theorem is still open: the source assembly records 98/117 whole
+cases with 19 remaining; C981 has 20 remaining vectors, C1092 three remaining
+whole sectors. Source candidates are not automatically checked proofs.
+
+This checkpoint was paused because local computation caused lag. Begin only
+after the user explicitly resumes; then inspect host limits and clear
+PAUSED.json. Prefer a stronger host. Use a single bounded compiler group and
+retain receipts; do not silently restore huge caches or raise memory limits.
+Parallel proof reasoning was authorized earlier, but simultaneous local builds
+are not allowed by this handoff's resource policy. Repair the known narrow
+compile blockers, verify the C979 factoring, replay promising C981 common
+vectors/C1092 MMMM/C705-C716 candidates, then close the remaining true geometric
+joins. Keep proposing simplifications instead of expanded legacy proof trees.
+
+Do not claim global completion until all actual Pending fields are supplied
+and an unconditional final theorem receives fresh full replay and axiom audit.

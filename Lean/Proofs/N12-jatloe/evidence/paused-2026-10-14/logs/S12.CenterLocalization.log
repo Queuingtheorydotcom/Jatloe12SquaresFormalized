@@ -1,0 +1,1 @@
+'S12.corner_owner_center' depends on axioms: [propext, Classical.choice, Quot.sound]

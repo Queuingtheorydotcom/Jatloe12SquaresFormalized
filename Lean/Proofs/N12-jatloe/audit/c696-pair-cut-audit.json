@@ -1,0 +1,383 @@
+{
+  "status": "EXACT_RATIONAL_COUNTEREXAMPLE_TO_LOCAL_PAIR_IMPLICATION",
+  "scope": "Two real congruent disjoint contained OpenSquares matching owners7/10 exact marker and auxiliary ownership, state54 strict hulls and pose polygons. This is not a twelve-square packing.",
+  "sources": {
+    "trace_sha256": "ed1804db4b72a359ff9ff93b01e3dfdb950748c39f6feda08298891b60713ebb",
+    "state54_hulls_hash": "af858d77019b3cdb54156f7593998a5d31a825aa6d0fc306083bfe4927acdea3",
+    "markers_sha256": "f5983312697b11014b9d328d0978f8cb49334fbffb78c6c4a35f0814485a6e7b",
+    "auxiliary_sha256": "6705c4aec708f3e5dc9ea16a10efd8dcb4c475125b5b6c92752f215a039cc4f2"
+  },
+  "squares": {
+    "7": {
+      "center": [
+        "9/4",
+        "2499/1000"
+      ],
+      "normal": [
+        "1",
+        "0"
+      ],
+      "side": "1001/1000",
+      "loU": "3499/2000",
+      "loV": "3997/2000",
+      "exact_marker_indices": [
+        10
+      ],
+      "exact_combined_auxiliary_indices": [
+        5,
+        16
+      ],
+      "contained_in_box": true,
+      "state54_domain_hash": "295b5bf313a266b1cbc87ff46eeb4fe8c4ae9cf64f35ca14368a3ef1c4c6fb1f",
+      "minimum_state54_hull_margin": "3/2000"
+    },
+    "10": {
+      "center": [
+        "153/50",
+        "1513/1000"
+      ],
+      "normal": [
+        "9991/10009",
+        "600/10009"
+      ],
+      "side": "1001/1000",
+      "loU": "52941511/20018000",
+      "loV": "16541757/20018000",
+      "exact_marker_indices": [
+        14
+      ],
+      "exact_combined_auxiliary_indices": [
+        8,
+        18
+      ],
+      "contained_in_box": true,
+      "state54_domain_hash": "0614339da418d9f291f1541d18548ab199e0c320882eedbe1b3e0f27e5c52ca8",
+      "minimum_state54_hull_margin": "8631/800720"
+    }
+  },
+  "owner10_half_angle": "3/100",
+  "owner7_axis_endpoint_bins": [
+    0,
+    63
+  ],
+  "separating_normal_from_owner7_to_owner10": [
+    "600/10009",
+    "-9991/10009"
+  ],
+  "strict_projection_gap": "13413/5004500",
+  "violated_target_value": "-2842389643/2504502025",
+  "saved_state_membership_changes": {
+    "7": [
+      {
+        "stage": 54,
+        "preceding_action_index": 53,
+        "action": [
+          "border"
+        ],
+        "compatible_member_bins": [
+          0,
+          63
+        ],
+        "all_saved_hull_points_strictly_inside": true,
+        "minimum_hull_margin": "3/2000",
+        "domain_hash": "295b5bf313a266b1cbc87ff46eeb4fe8c4ae9cf64f35ca14368a3ef1c4c6fb1f"
+      },
+      {
+        "stage": 79,
+        "preceding_action_index": 78,
+        "action": [
+          "wall_chord",
+          7
+        ],
+        "compatible_member_bins": [],
+        "all_saved_hull_points_strictly_inside": true,
+        "minimum_hull_margin": "3/2000",
+        "domain_hash": "4f91ea3b3f800c91c09e5866ffbc97119693ccaf79b66f99c3cf11418501f545"
+      },
+      {
+        "stage": 104,
+        "preceding_action_index": 103,
+        "action": [
+          "kernel"
+        ],
+        "compatible_member_bins": [],
+        "all_saved_hull_points_strictly_inside": false,
+        "minimum_hull_margin": "-101/5000",
+        "domain_hash": "cbe6f6aa3a6d2401046551eeff7a97b3e5b21037335793d4054951f18cc8eba4"
+      }
+    ],
+    "10": [
+      {
+        "stage": 54,
+        "preceding_action_index": 53,
+        "action": [
+          "border"
+        ],
+        "compatible_member_bins": [
+          1
+        ],
+        "all_saved_hull_points_strictly_inside": true,
+        "minimum_hull_margin": "8631/800720",
+        "domain_hash": "0614339da418d9f291f1541d18548ab199e0c320882eedbe1b3e0f27e5c52ca8"
+      },
+      {
+        "stage": 94,
+        "preceding_action_index": 93,
+        "action": [
+          "wall_chord",
+          10
+        ],
+        "compatible_member_bins": [],
+        "all_saved_hull_points_strictly_inside": true,
+        "minimum_hull_margin": "8631/800720",
+        "domain_hash": "01cc0377c589d190d29330e9a8b0ff445673c015e816f413f575444ef25b34dd"
+      },
+      {
+        "stage": 104,
+        "preceding_action_index": 103,
+        "action": [
+          "kernel"
+        ],
+        "compatible_member_bins": [],
+        "all_saved_hull_points_strictly_inside": false,
+        "minimum_hull_margin": "-18655859/500450000",
+        "domain_hash": "3b14fa5f97fb82b5763c20dd50790cd09809ecdbd1daf2d3bbcc1df86d96d87c"
+      }
+    ]
+  },
+  "owner7_vertical_window_changes_neighbors_0_6_11": [
+    {
+      "stage": 54,
+      "action": [
+        "border"
+      ],
+      "lower": "1747195310317/1221025000000",
+      "upper": "63714583452087/36380450000000",
+      "owner_ranges": {
+        "0": [
+          "42350400770681/36380450000000",
+          "63714583452087/36380450000000"
+        ],
+        "6": [
+          "99533115812557/70686050000000",
+          "53546790027/28900000000"
+        ],
+        "11": [
+          "1747195310317/1221025000000",
+          "9355962414401/4884100000000"
+        ]
+      }
+    },
+    {
+      "stage": 57,
+      "action": [
+        "pair",
+        0,
+        9
+      ],
+      "lower": "1747195310317/1221025000000",
+      "upper": "9944017471013/5502005000000",
+      "owner_ranges": {
+        "0": [
+          "125120652530369/110040100000000",
+          "9944017471013/5502005000000"
+        ],
+        "6": [
+          "99533115812557/70686050000000",
+          "53546790027/28900000000"
+        ],
+        "11": [
+          "1747195310317/1221025000000",
+          "9355962414401/4884100000000"
+        ]
+      }
+    }
+  ],
+  "owner10_vertical_window_neighbors_3_7_9_at_stage93": {
+    "lower": "2168018157237619/933552050000000",
+    "upper": "152416798135857/57566450000000",
+    "owner_ranges": {
+      "3": [
+        "2168018157237619/933552050000000",
+        "51878203889727/18190225000000"
+      ],
+      "7": [
+        "117294838169/56180000000",
+        "152416798135857/57566450000000"
+      ],
+      "9": [
+        "108687156795437/53354450000000",
+        "75583020054779/26677225000000"
+      ]
+    }
+  },
+  "owner10_vertical_window_changes_neighbors_3_7_9": [
+    {
+      "stage": 54,
+      "action": [
+        "border"
+      ],
+      "lower": "11605201840279/4884100000000",
+      "upper": "28412159503957/11356900000000",
+      "owner_ranges": {
+        "3": [
+          "11605201840279/4884100000000",
+          "81340064117207/28783225000000"
+        ],
+        "7": [
+          "38271605318573/18190225000000",
+          "28412159503957/11356900000000"
+        ],
+        "9": [
+          "140186162215797/68724100000000",
+          "192607474346103/68724100000000"
+        ]
+      }
+    },
+    {
+      "stage": 65,
+      "action": [
+        "pair",
+        3,
+        4
+      ],
+      "lower": "45050143225659/19228225000000",
+      "upper": "28412159503957/11356900000000",
+      "owner_ranges": {
+        "3": [
+          "45050143225659/19228225000000",
+          "81340064117207/28783225000000"
+        ],
+        "7": [
+          "38271605318573/18190225000000",
+          "28412159503957/11356900000000"
+        ],
+        "9": [
+          "140186162215797/68724100000000",
+          "192607474346103/68724100000000"
+        ]
+      }
+    },
+    {
+      "stage": 67,
+      "action": [
+        "pair",
+        3,
+        11
+      ],
+      "lower": "2168018157237619/933552050000000",
+      "upper": "28412159503957/11356900000000",
+      "owner_ranges": {
+        "3": [
+          "2168018157237619/933552050000000",
+          "51878203889727/18190225000000"
+        ],
+        "7": [
+          "38271605318573/18190225000000",
+          "28412159503957/11356900000000"
+        ],
+        "9": [
+          "140186162215797/68724100000000",
+          "192607474346103/68724100000000"
+        ]
+      }
+    },
+    {
+      "stage": 80,
+      "action": [
+        "pair",
+        7,
+        3
+      ],
+      "lower": "2168018157237619/933552050000000",
+      "upper": "152416798135857/57566450000000",
+      "owner_ranges": {
+        "3": [
+          "2168018157237619/933552050000000",
+          "51878203889727/18190225000000"
+        ],
+        "7": [
+          "38271605318573/18190225000000",
+          "152416798135857/57566450000000"
+        ],
+        "9": [
+          "140186162215797/68724100000000",
+          "192607474346103/68724100000000"
+        ]
+      }
+    }
+  ],
+  "stronger_owner7_capacity_cut_counterexample": {
+    "scope": "State57 owner7/10 local facts plus X7-rho7>9/5, even exceeding the full stage57 common-window upper endpoint, still do not imply the owner10 radius cut.",
+    "squares": {
+      "7": {
+        "center": [
+          "231/100",
+          "4999/2000"
+        ],
+        "normal": [
+          "1",
+          "0"
+        ],
+        "side": "1001/1000",
+        "state57_member_bins": [
+          0,
+          63
+        ],
+        "minimum_state57_hull_margin": "1/1000",
+        "exact_marker_indices": [
+          10
+        ],
+        "exact_combined_auxiliary_indices": [
+          5,
+          16
+        ],
+        "contained_in_box": true
+      },
+      "10": {
+        "center": [
+          "307/100",
+          "189/125"
+        ],
+        "normal": [
+          "9991/10009",
+          "600/10009"
+        ],
+        "side": "1001/1000",
+        "state57_member_bins": [
+          1
+        ],
+        "minimum_state57_hull_margin": "183793/20018000",
+        "exact_marker_indices": [
+          14
+        ],
+        "exact_combined_auxiliary_indices": [
+          8,
+          18
+        ],
+        "contained_in_box": true
+      }
+    },
+    "strict_projection_gap": "189/160144",
+    "violated_target_value": "-775955317/5009004050",
+    "owner7_X_minus_radius": "181/100",
+    "saved_state_first_domain_removals": {
+      "7": {
+        "survives_all_saved_domains_through_stage": 105
+      },
+      "10": {
+        "first_domain_removal_stage": 94,
+        "action_index": 93,
+        "action": [
+          "wall_chord",
+          10
+        ],
+        "domain_hash": "01cc0377c589d190d29330e9a8b0ff445673c015e816f413f575444ef25b34dd"
+      }
+    }
+  },
+  "caveat": "Exact window arithmetic is a candidate source check. No initial coverage, transition ancestry, or Lean replay was performed.",
+  "seconds": 0.18035562499972002,
+  "peak_self_rss_bytes": 23379968,
+  "saved_objects_read": 39
+}

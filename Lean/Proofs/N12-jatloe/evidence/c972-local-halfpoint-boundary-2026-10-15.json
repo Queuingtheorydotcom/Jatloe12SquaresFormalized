@@ -1,0 +1,92 @@
+{
+  "scope": "Hand-derived exact local three-square diagnostic, not a C972 counterexample, Lean theorem, numerical search or certificate.",
+  "lean_compilation_performed": false,
+  "method": "Verify displayed rational memberships, vertices and two strict separators; no parameter search.",
+  "S_centered_frame": {
+    "c": "12/13",
+    "s": "5/13",
+    "side": "1001/1000",
+    "loU": "-2/25",
+    "loV": "-41/50"
+  },
+  "owned_centered_points": {
+    "marker": [
+      "7/20",
+      "-7/20"
+    ],
+    "G6": [
+      "13/50",
+      "0"
+    ],
+    "east": [
+      "1/2",
+      "0"
+    ],
+    "F8": [
+      "1",
+      "-13/50"
+    ],
+    "G8": [
+      "1",
+      "-2/5"
+    ]
+  },
+  "omitted_centered_points": {
+    "SW_F4": [
+      "0",
+      "-13/50"
+    ],
+    "SW_half": [
+      "0",
+      "-1/2"
+    ],
+    "R_origin": [
+      "1",
+      "0"
+    ],
+    "R_marker": [
+      "543/500",
+      "0"
+    ],
+    "corner": [
+      "1",
+      "-1"
+    ],
+    "corner_marker": [
+      "543/500",
+      "-1"
+    ],
+    "NE_marker": [
+      "7/20",
+      "7/20"
+    ],
+    "NW_marker": [
+      "-7/20",
+      "7/20"
+    ],
+    "SW_marker": [
+      "-7/20",
+      "-7/20"
+    ],
+    "desired_half": [
+      "1",
+      "-1/2"
+    ]
+  },
+  "B_global_bounds": [
+    "999/500",
+    "2999/1000",
+    "0",
+    "1001/1000"
+  ],
+  "R_global_bounds": [
+    "2999/1000",
+    "4",
+    "1999/1000",
+    "3"
+  ],
+  "S_B_y_gap": "2747/13000",
+  "S_R_U_gap": "1/1300",
+  "desired_SE_halfpoint": false,
+  "all_displayed_inputs_verified": true
+}

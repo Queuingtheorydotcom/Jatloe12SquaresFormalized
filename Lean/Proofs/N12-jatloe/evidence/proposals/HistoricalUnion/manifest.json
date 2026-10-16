@@ -1,0 +1,661 @@
+{
+  "scope": "Exact complete shared source proposal; Lean replay and activation pending",
+  "row_count": 114465,
+  "pose_count": 28235,
+  "leaf_limit": 2048,
+  "chunks": [
+    {
+      "kind": "Rows",
+      "start": 0,
+      "stop": 1788,
+      "module": "Compact.HistoricalData.RowsChunks.Part000000",
+      "path": "Compact/HistoricalData/RowsChunks/Part000000.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 1789,
+      "stop": 3577,
+      "module": "Compact.HistoricalData.RowsChunks.Part001789",
+      "path": "Compact/HistoricalData/RowsChunks/Part001789.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 3578,
+      "stop": 5366,
+      "module": "Compact.HistoricalData.RowsChunks.Part003578",
+      "path": "Compact/HistoricalData/RowsChunks/Part003578.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 5367,
+      "stop": 7154,
+      "module": "Compact.HistoricalData.RowsChunks.Part005367",
+      "path": "Compact/HistoricalData/RowsChunks/Part005367.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 7155,
+      "stop": 8943,
+      "module": "Compact.HistoricalData.RowsChunks.Part007155",
+      "path": "Compact/HistoricalData/RowsChunks/Part007155.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 8944,
+      "stop": 10731,
+      "module": "Compact.HistoricalData.RowsChunks.Part008944",
+      "path": "Compact/HistoricalData/RowsChunks/Part008944.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 10732,
+      "stop": 12520,
+      "module": "Compact.HistoricalData.RowsChunks.Part010732",
+      "path": "Compact/HistoricalData/RowsChunks/Part010732.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 12521,
+      "stop": 14308,
+      "module": "Compact.HistoricalData.RowsChunks.Part012521",
+      "path": "Compact/HistoricalData/RowsChunks/Part012521.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 14309,
+      "stop": 16097,
+      "module": "Compact.HistoricalData.RowsChunks.Part014309",
+      "path": "Compact/HistoricalData/RowsChunks/Part014309.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 16098,
+      "stop": 17885,
+      "module": "Compact.HistoricalData.RowsChunks.Part016098",
+      "path": "Compact/HistoricalData/RowsChunks/Part016098.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 17886,
+      "stop": 19674,
+      "module": "Compact.HistoricalData.RowsChunks.Part017886",
+      "path": "Compact/HistoricalData/RowsChunks/Part017886.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 19675,
+      "stop": 21462,
+      "module": "Compact.HistoricalData.RowsChunks.Part019675",
+      "path": "Compact/HistoricalData/RowsChunks/Part019675.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 21463,
+      "stop": 23251,
+      "module": "Compact.HistoricalData.RowsChunks.Part021463",
+      "path": "Compact/HistoricalData/RowsChunks/Part021463.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 23252,
+      "stop": 25039,
+      "module": "Compact.HistoricalData.RowsChunks.Part023252",
+      "path": "Compact/HistoricalData/RowsChunks/Part023252.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 25040,
+      "stop": 26828,
+      "module": "Compact.HistoricalData.RowsChunks.Part025040",
+      "path": "Compact/HistoricalData/RowsChunks/Part025040.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 26829,
+      "stop": 28616,
+      "module": "Compact.HistoricalData.RowsChunks.Part026829",
+      "path": "Compact/HistoricalData/RowsChunks/Part026829.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 28617,
+      "stop": 30405,
+      "module": "Compact.HistoricalData.RowsChunks.Part028617",
+      "path": "Compact/HistoricalData/RowsChunks/Part028617.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 30406,
+      "stop": 32193,
+      "module": "Compact.HistoricalData.RowsChunks.Part030406",
+      "path": "Compact/HistoricalData/RowsChunks/Part030406.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 32194,
+      "stop": 33982,
+      "module": "Compact.HistoricalData.RowsChunks.Part032194",
+      "path": "Compact/HistoricalData/RowsChunks/Part032194.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 33983,
+      "stop": 35770,
+      "module": "Compact.HistoricalData.RowsChunks.Part033983",
+      "path": "Compact/HistoricalData/RowsChunks/Part033983.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 35771,
+      "stop": 37559,
+      "module": "Compact.HistoricalData.RowsChunks.Part035771",
+      "path": "Compact/HistoricalData/RowsChunks/Part035771.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 37560,
+      "stop": 39347,
+      "module": "Compact.HistoricalData.RowsChunks.Part037560",
+      "path": "Compact/HistoricalData/RowsChunks/Part037560.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 39348,
+      "stop": 41136,
+      "module": "Compact.HistoricalData.RowsChunks.Part039348",
+      "path": "Compact/HistoricalData/RowsChunks/Part039348.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 41137,
+      "stop": 42924,
+      "module": "Compact.HistoricalData.RowsChunks.Part041137",
+      "path": "Compact/HistoricalData/RowsChunks/Part041137.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 42925,
+      "stop": 44713,
+      "module": "Compact.HistoricalData.RowsChunks.Part042925",
+      "path": "Compact/HistoricalData/RowsChunks/Part042925.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 44714,
+      "stop": 46501,
+      "module": "Compact.HistoricalData.RowsChunks.Part044714",
+      "path": "Compact/HistoricalData/RowsChunks/Part044714.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 46502,
+      "stop": 48290,
+      "module": "Compact.HistoricalData.RowsChunks.Part046502",
+      "path": "Compact/HistoricalData/RowsChunks/Part046502.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 48291,
+      "stop": 50078,
+      "module": "Compact.HistoricalData.RowsChunks.Part048291",
+      "path": "Compact/HistoricalData/RowsChunks/Part048291.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 50079,
+      "stop": 51867,
+      "module": "Compact.HistoricalData.RowsChunks.Part050079",
+      "path": "Compact/HistoricalData/RowsChunks/Part050079.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 51868,
+      "stop": 53655,
+      "module": "Compact.HistoricalData.RowsChunks.Part051868",
+      "path": "Compact/HistoricalData/RowsChunks/Part051868.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 53656,
+      "stop": 55444,
+      "module": "Compact.HistoricalData.RowsChunks.Part053656",
+      "path": "Compact/HistoricalData/RowsChunks/Part053656.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 55445,
+      "stop": 57232,
+      "module": "Compact.HistoricalData.RowsChunks.Part055445",
+      "path": "Compact/HistoricalData/RowsChunks/Part055445.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 57233,
+      "stop": 59021,
+      "module": "Compact.HistoricalData.RowsChunks.Part057233",
+      "path": "Compact/HistoricalData/RowsChunks/Part057233.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 59022,
+      "stop": 60810,
+      "module": "Compact.HistoricalData.RowsChunks.Part059022",
+      "path": "Compact/HistoricalData/RowsChunks/Part059022.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 60811,
+      "stop": 62599,
+      "module": "Compact.HistoricalData.RowsChunks.Part060811",
+      "path": "Compact/HistoricalData/RowsChunks/Part060811.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 62600,
+      "stop": 64387,
+      "module": "Compact.HistoricalData.RowsChunks.Part062600",
+      "path": "Compact/HistoricalData/RowsChunks/Part062600.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 64388,
+      "stop": 66176,
+      "module": "Compact.HistoricalData.RowsChunks.Part064388",
+      "path": "Compact/HistoricalData/RowsChunks/Part064388.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 66177,
+      "stop": 67964,
+      "module": "Compact.HistoricalData.RowsChunks.Part066177",
+      "path": "Compact/HistoricalData/RowsChunks/Part066177.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 67965,
+      "stop": 69753,
+      "module": "Compact.HistoricalData.RowsChunks.Part067965",
+      "path": "Compact/HistoricalData/RowsChunks/Part067965.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 69754,
+      "stop": 71541,
+      "module": "Compact.HistoricalData.RowsChunks.Part069754",
+      "path": "Compact/HistoricalData/RowsChunks/Part069754.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 71542,
+      "stop": 73330,
+      "module": "Compact.HistoricalData.RowsChunks.Part071542",
+      "path": "Compact/HistoricalData/RowsChunks/Part071542.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 73331,
+      "stop": 75118,
+      "module": "Compact.HistoricalData.RowsChunks.Part073331",
+      "path": "Compact/HistoricalData/RowsChunks/Part073331.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 75119,
+      "stop": 76907,
+      "module": "Compact.HistoricalData.RowsChunks.Part075119",
+      "path": "Compact/HistoricalData/RowsChunks/Part075119.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 76908,
+      "stop": 78695,
+      "module": "Compact.HistoricalData.RowsChunks.Part076908",
+      "path": "Compact/HistoricalData/RowsChunks/Part076908.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 78696,
+      "stop": 80484,
+      "module": "Compact.HistoricalData.RowsChunks.Part078696",
+      "path": "Compact/HistoricalData/RowsChunks/Part078696.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 80485,
+      "stop": 82272,
+      "module": "Compact.HistoricalData.RowsChunks.Part080485",
+      "path": "Compact/HistoricalData/RowsChunks/Part080485.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 82273,
+      "stop": 84061,
+      "module": "Compact.HistoricalData.RowsChunks.Part082273",
+      "path": "Compact/HistoricalData/RowsChunks/Part082273.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 84062,
+      "stop": 85849,
+      "module": "Compact.HistoricalData.RowsChunks.Part084062",
+      "path": "Compact/HistoricalData/RowsChunks/Part084062.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 85850,
+      "stop": 87638,
+      "module": "Compact.HistoricalData.RowsChunks.Part085850",
+      "path": "Compact/HistoricalData/RowsChunks/Part085850.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 87639,
+      "stop": 89426,
+      "module": "Compact.HistoricalData.RowsChunks.Part087639",
+      "path": "Compact/HistoricalData/RowsChunks/Part087639.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 89427,
+      "stop": 91215,
+      "module": "Compact.HistoricalData.RowsChunks.Part089427",
+      "path": "Compact/HistoricalData/RowsChunks/Part089427.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 91216,
+      "stop": 93003,
+      "module": "Compact.HistoricalData.RowsChunks.Part091216",
+      "path": "Compact/HistoricalData/RowsChunks/Part091216.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 93004,
+      "stop": 94792,
+      "module": "Compact.HistoricalData.RowsChunks.Part093004",
+      "path": "Compact/HistoricalData/RowsChunks/Part093004.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 94793,
+      "stop": 96580,
+      "module": "Compact.HistoricalData.RowsChunks.Part094793",
+      "path": "Compact/HistoricalData/RowsChunks/Part094793.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 96581,
+      "stop": 98369,
+      "module": "Compact.HistoricalData.RowsChunks.Part096581",
+      "path": "Compact/HistoricalData/RowsChunks/Part096581.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 98370,
+      "stop": 100157,
+      "module": "Compact.HistoricalData.RowsChunks.Part098370",
+      "path": "Compact/HistoricalData/RowsChunks/Part098370.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 100158,
+      "stop": 101946,
+      "module": "Compact.HistoricalData.RowsChunks.Part100158",
+      "path": "Compact/HistoricalData/RowsChunks/Part100158.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 101947,
+      "stop": 103734,
+      "module": "Compact.HistoricalData.RowsChunks.Part101947",
+      "path": "Compact/HistoricalData/RowsChunks/Part101947.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 103735,
+      "stop": 105523,
+      "module": "Compact.HistoricalData.RowsChunks.Part103735",
+      "path": "Compact/HistoricalData/RowsChunks/Part103735.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 105524,
+      "stop": 107311,
+      "module": "Compact.HistoricalData.RowsChunks.Part105524",
+      "path": "Compact/HistoricalData/RowsChunks/Part105524.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 107312,
+      "stop": 109100,
+      "module": "Compact.HistoricalData.RowsChunks.Part107312",
+      "path": "Compact/HistoricalData/RowsChunks/Part107312.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 109101,
+      "stop": 110888,
+      "module": "Compact.HistoricalData.RowsChunks.Part109101",
+      "path": "Compact/HistoricalData/RowsChunks/Part109101.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 110889,
+      "stop": 112677,
+      "module": "Compact.HistoricalData.RowsChunks.Part110889",
+      "path": "Compact/HistoricalData/RowsChunks/Part110889.lean"
+    },
+    {
+      "kind": "Rows",
+      "start": 112678,
+      "stop": 114465,
+      "module": "Compact.HistoricalData.RowsChunks.Part112678",
+      "path": "Compact/HistoricalData/RowsChunks/Part112678.lean"
+    },
+    {
+      "kind": "Poses",
+      "start": 0,
+      "stop": 1764,
+      "module": "Compact.HistoricalData.PosesChunks.Part000000",
+      "path": "Compact/HistoricalData/PosesChunks/Part000000.lean"
+    },
+    {
+      "kind": "Poses",
+      "start": 1765,
+      "stop": 3529,
+      "module": "Compact.HistoricalData.PosesChunks.Part001765",
+      "path": "Compact/HistoricalData/PosesChunks/Part001765.lean"
+    },
+    {
+      "kind": "Poses",
+      "start": 3530,
+      "stop": 5294,
+      "module": "Compact.HistoricalData.PosesChunks.Part003530",
+      "path": "Compact/HistoricalData/PosesChunks/Part003530.lean"
+    },
+    {
+      "kind": "Poses",
+      "start": 5295,
+      "stop": 7058,
+      "module": "Compact.HistoricalData.PosesChunks.Part005295",
+      "path": "Compact/HistoricalData/PosesChunks/Part005295.lean"
+    },
+    {
+      "kind": "Poses",
+      "start": 7059,
+      "stop": 8823,
+      "module": "Compact.HistoricalData.PosesChunks.Part007059",
+      "path": "Compact/HistoricalData/PosesChunks/Part007059.lean"
+    },
+    {
+      "kind": "Poses",
+      "start": 8824,
+      "stop": 10588,
+      "module": "Compact.HistoricalData.PosesChunks.Part008824",
+      "path": "Compact/HistoricalData/PosesChunks/Part008824.lean"
+    },
+    {
+      "kind": "Poses",
+      "start": 10589,
+      "stop": 12353,
+      "module": "Compact.HistoricalData.PosesChunks.Part010589",
+      "path": "Compact/HistoricalData/PosesChunks/Part010589.lean"
+    },
+    {
+      "kind": "Poses",
+      "start": 12354,
+      "stop": 14117,
+      "module": "Compact.HistoricalData.PosesChunks.Part012354",
+      "path": "Compact/HistoricalData/PosesChunks/Part012354.lean"
+    },
+    {
+      "kind": "Poses",
+      "start": 14118,
+      "stop": 15882,
+      "module": "Compact.HistoricalData.PosesChunks.Part014118",
+      "path": "Compact/HistoricalData/PosesChunks/Part014118.lean"
+    },
+    {
+      "kind": "Poses",
+      "start": 15883,
+      "stop": 17647,
+      "module": "Compact.HistoricalData.PosesChunks.Part015883",
+      "path": "Compact/HistoricalData/PosesChunks/Part015883.lean"
+    },
+    {
+      "kind": "Poses",
+      "start": 17648,
+      "stop": 19412,
+      "module": "Compact.HistoricalData.PosesChunks.Part017648",
+      "path": "Compact/HistoricalData/PosesChunks/Part017648.lean"
+    },
+    {
+      "kind": "Poses",
+      "start": 19413,
+      "stop": 21176,
+      "module": "Compact.HistoricalData.PosesChunks.Part019413",
+      "path": "Compact/HistoricalData/PosesChunks/Part019413.lean"
+    },
+    {
+      "kind": "Poses",
+      "start": 21177,
+      "stop": 22941,
+      "module": "Compact.HistoricalData.PosesChunks.Part021177",
+      "path": "Compact/HistoricalData/PosesChunks/Part021177.lean"
+    },
+    {
+      "kind": "Poses",
+      "start": 22942,
+      "stop": 24706,
+      "module": "Compact.HistoricalData.PosesChunks.Part022942",
+      "path": "Compact/HistoricalData/PosesChunks/Part022942.lean"
+    },
+    {
+      "kind": "Poses",
+      "start": 24707,
+      "stop": 26471,
+      "module": "Compact.HistoricalData.PosesChunks.Part024707",
+      "path": "Compact/HistoricalData/PosesChunks/Part024707.lean"
+    },
+    {
+      "kind": "Poses",
+      "start": 26472,
+      "stop": 28235,
+      "module": "Compact.HistoricalData.PosesChunks.Part026472",
+      "path": "Compact/HistoricalData/PosesChunks/Part026472.lean"
+    }
+  ],
+  "sources": {
+    "evidence/historical-compact-data/rows.json": "5652be93ba32352a8fdc393c028424cf9d454a2fefa7798e55723e5da8027215",
+    "evidence/historical-compact-data/poses.json": "faeaf04102217cc07ceccc576ecfed41a9c7ed164a41bfc516c415ce95226908"
+  },
+  "outputs": {
+    "Compact/HistoricalData/Counts.lean": "ca652127610ce9fd6fbb43037ee2cf6ac250bcf1855b4d1ad70a1aaa765a6824",
+    "Compact/HistoricalData/RowsChunks/Part000000.lean": "b7bb85c19e9e025003a0e430679813ad54cfde7d11796677db034bee51ac82af",
+    "Compact/HistoricalData/RowsChunks/Part001789.lean": "392f46de53f0397a4917cb232a1b0a563c335cd66e8acd686fa1ba97749d0cc8",
+    "Compact/HistoricalData/RowsChunks/Part003578.lean": "4b39cffc8d79bb6c61fcd9345827ce9074091b21b957c9a46813d4f5dded8b50",
+    "Compact/HistoricalData/RowsChunks/Part005367.lean": "2fffc1105e82286862ab83f927e057a9163bcceb4597dcab3a194d799f0efa70",
+    "Compact/HistoricalData/RowsChunks/Part007155.lean": "1d0eaa2d11a0efdf17fc6a1479cf4523bf615c217153367ba365f52c00d88afc",
+    "Compact/HistoricalData/RowsChunks/Part008944.lean": "8c1891f6f724a91ebb1faeaea74abafec2a55be04a299ff27324c129e3100ea4",
+    "Compact/HistoricalData/RowsChunks/Part010732.lean": "4c6c62f77da7ea37c80ca53e61ce9972d733426898ba010934da5f320507da05",
+    "Compact/HistoricalData/RowsChunks/Part012521.lean": "a6253eb832186809252911301555405a3b3524b9dcd53ec565cc7cdbf1da00ad",
+    "Compact/HistoricalData/RowsChunks/Part014309.lean": "ef46ca5e2ed4d5a3290c22f9121c052547d74de1c7a520df41ce5339c89d0a35",
+    "Compact/HistoricalData/RowsChunks/Part016098.lean": "e1a1d45623300b38261e666c3706ffa65bfbb9d8472d513b0510b990d2fedfa5",
+    "Compact/HistoricalData/RowsChunks/Part017886.lean": "d95c96c8532e5e812257d48df5e29d629a54a1abff916d6a13d070e9146399e0",
+    "Compact/HistoricalData/RowsChunks/Part019675.lean": "57906405e6132e2186c1c18cb9e292b7b78929723b7708d42ac58498946493b5",
+    "Compact/HistoricalData/RowsChunks/Part021463.lean": "5409d100f659e5885fd178738ffe60136f19599d496cebc8247c7be9b1b4ad16",
+    "Compact/HistoricalData/RowsChunks/Part023252.lean": "82e6f7f8b4c67c10d2afb53f64d02f0dd1e4884ff77e5ea7314ec7c2add9017d",
+    "Compact/HistoricalData/RowsChunks/Part025040.lean": "4dea7cedb855ae7f5ef0f77c6c2c90c91d580d50add75e80a38cb9bbd577550f",
+    "Compact/HistoricalData/RowsChunks/Part026829.lean": "fd879e99805d0fa767ec68665c5c446d5cb50224ddd6de54539b805ed4969ed3",
+    "Compact/HistoricalData/RowsChunks/Part028617.lean": "eed0a7e8133b52ce7081ef6fe4772037c53a27cd66ed9dbe6e67165791bb23f8",
+    "Compact/HistoricalData/RowsChunks/Part030406.lean": "17735916772e70b859d832d35c2980e0a31b1155bf0fd2aaf4cf4e2019ae186f",
+    "Compact/HistoricalData/RowsChunks/Part032194.lean": "1cf14942501dad4bf206245dff40c8e1aa38b2d370de43eb56eff8f0b30b5eea",
+    "Compact/HistoricalData/RowsChunks/Part033983.lean": "2c01220507dc65bfcd355e3a764a461265be929150ff6c950cf4593d3721753a",
+    "Compact/HistoricalData/RowsChunks/Part035771.lean": "9a08c977e1a7b8c097921744da400b4c66bbaaf4e0e12c80e32ebfbab7cf3cbb",
+    "Compact/HistoricalData/RowsChunks/Part037560.lean": "055517904bb70a24bc9914c03072f9ab261a628626c39f2473617a4fe5b0e8cf",
+    "Compact/HistoricalData/RowsChunks/Part039348.lean": "417caedbaed3d6658a5ab65b2fe026c703a82a086cf69f603c9ee62453a1ce86",
+    "Compact/HistoricalData/RowsChunks/Part041137.lean": "35e1e93b981880542793b7487b25790dfb02891c37f125daec0e660a1c30c2cb",
+    "Compact/HistoricalData/RowsChunks/Part042925.lean": "b43694839acbdd7bc6873faacd91d1ff97e2badac5b97b00a6518d3d1d18c950",
+    "Compact/HistoricalData/RowsChunks/Part044714.lean": "3d81db9fd8c49daaa5e1053bbf45ed5d06c1014362a8f530e9e374b63a210971",
+    "Compact/HistoricalData/RowsChunks/Part046502.lean": "e652e9ef65288cc881d6eceac19e12ba96eadf3d5a0f6bc600497afc67f0e134",
+    "Compact/HistoricalData/RowsChunks/Part048291.lean": "e9722adf796d4222c9f0d9f386c4fd2f9cb9c262116f322404b59a8a7014004c",
+    "Compact/HistoricalData/RowsChunks/Part050079.lean": "eef3d5c41748d3ac7aa4c274e6983a00f41d5625a5cf20660b4c35bc42d72968",
+    "Compact/HistoricalData/RowsChunks/Part051868.lean": "e0b58e549494f86d82532f8322e614ab4dd683c4ce7523a1fd02299eb7901fff",
+    "Compact/HistoricalData/RowsChunks/Part053656.lean": "2f44c417960f3ce6a063219fe1acbbad6c8cb41a69f32057fdc6bae814640758",
+    "Compact/HistoricalData/RowsChunks/Part055445.lean": "20c8a824b74db806a329c44ac1079431813f5a90d3982187c01dee8d27e66764",
+    "Compact/HistoricalData/RowsChunks/Part057233.lean": "1491fcf7740e790b9090e039581339c0fc742da525e004f42c07b12fd15699c7",
+    "Compact/HistoricalData/RowsChunks/Part059022.lean": "8f7a0c1747c2aced0f09a8723c07a187486926bf116568553c2186d909dc2b71",
+    "Compact/HistoricalData/RowsChunks/Part060811.lean": "194238d8413b0671cec0af34e6e2406fae51a576170cbf00cd15cbaed6e1b811",
+    "Compact/HistoricalData/RowsChunks/Part062600.lean": "fe919f21e1b4d0626e1998c86bf54d73bc312cae90a8671349e7cb4057975014",
+    "Compact/HistoricalData/RowsChunks/Part064388.lean": "1a6977d9e86fc63f79d6c9dc37b5b769acea47350f59e81bdc2eba934bdf73c4",
+    "Compact/HistoricalData/RowsChunks/Part066177.lean": "16a8d57073a37f39d8e345dca8c16f925f6bd500245ac11a50a10585bf3c98a5",
+    "Compact/HistoricalData/RowsChunks/Part067965.lean": "1eb5eb2685c1cf157734e42164095e5de6a0b229de0455b1b235e6e7eeac2951",
+    "Compact/HistoricalData/RowsChunks/Part069754.lean": "f5fe1333cb44e3f5b34b083feb3ad388873c8baf392710e83162c8580641507d",
+    "Compact/HistoricalData/RowsChunks/Part071542.lean": "588a5e204c08c41c600a327d236a2cc7d05eafca3039b936a5892aea8f65fff8",
+    "Compact/HistoricalData/RowsChunks/Part073331.lean": "71f91a37fe44175680fd9dbf5b2e9c870ddcd87ca309def86a1c35eb45debd52",
+    "Compact/HistoricalData/RowsChunks/Part075119.lean": "de6d1b5d2a25f6d334703d5269c43267d58fc1940d73617772bca0166ad364ff",
+    "Compact/HistoricalData/RowsChunks/Part076908.lean": "e4ac953a4470ef98c9cb6506f410fc2183c19c3bcbcc7843bb744e19684d8f0d",
+    "Compact/HistoricalData/RowsChunks/Part078696.lean": "b61be2747e9155ab6f5543eadfd3b6eb4a6a2f94077849dcfbeae61301b82843",
+    "Compact/HistoricalData/RowsChunks/Part080485.lean": "228045f3ce96928f8ba543dfdb45a7b1e42af67b29ee6a1161ce25ccbca3f332",
+    "Compact/HistoricalData/RowsChunks/Part082273.lean": "820b0a4f4ccc49fab1951ccb4f5c4525ce7ff20f165eb0bd721e85d956e6b35c",
+    "Compact/HistoricalData/RowsChunks/Part084062.lean": "04b503fae0b3e99a0de4d1efb57ab2bd735f162cacc79a61eedbe57692482714",
+    "Compact/HistoricalData/RowsChunks/Part085850.lean": "7020d638a89b8cad0479551aa3c145ed453d9f70b1bc1d634bdb2fba8d251b27",
+    "Compact/HistoricalData/RowsChunks/Part087639.lean": "aa7653abfc7a2b085f119af661e2cb4c61ef378826c51444e14106e748e82dbf",
+    "Compact/HistoricalData/RowsChunks/Part089427.lean": "dc5f8990db54091e57982695050cff1e548219222401d3773b403ad3056cd6ee",
+    "Compact/HistoricalData/RowsChunks/Part091216.lean": "e2ca0b75d6ef434a45be99195f4ea4a77cdf0961e90d5c30551681d9f58fe1be",
+    "Compact/HistoricalData/RowsChunks/Part093004.lean": "056d8589d3de009efc4add9a97d67bb8938cb60c8983bd2ebece685632f2cf90",
+    "Compact/HistoricalData/RowsChunks/Part094793.lean": "142b0af0a046990be86012ae0397563c744a610f265b4b0973f29c28a71c75cf",
+    "Compact/HistoricalData/RowsChunks/Part096581.lean": "427973824887718471f5a01037c3776b29861363fd9e3be8df20a9e76d6f9438",
+    "Compact/HistoricalData/RowsChunks/Part098370.lean": "6068cae9bdb50a1ff0fbef5227488579316d93d8304b895f060cf39100693e1e",
+    "Compact/HistoricalData/RowsChunks/Part100158.lean": "d40640cbfa95cfee7ca491661ec0b3025a7553d39ebaf11c4f0a1c3ef4bc3a22",
+    "Compact/HistoricalData/RowsChunks/Part101947.lean": "77436e93050df919f2d6b4df286cf03f18a6b5768ca7a8fd0aebddacf0c964d9",
+    "Compact/HistoricalData/RowsChunks/Part103735.lean": "5ccef1b6856f513104de9e5d6979b61fb11936588cf5ce80b418801c0155ff0c",
+    "Compact/HistoricalData/RowsChunks/Part105524.lean": "30c2f9fdeb4198836dd9f1bded21ced46a81fe62d6e853663014df89e81b726f",
+    "Compact/HistoricalData/RowsChunks/Part107312.lean": "228f66c32ae1bb7780e0dd6d495bcc2596286d52a1fe4700cdc2669ac8805213",
+    "Compact/HistoricalData/RowsChunks/Part109101.lean": "c14303081e42368cb178e302aa1808e67fd3e47a2293e3ff325420fb55ef5019",
+    "Compact/HistoricalData/RowsChunks/Part110889.lean": "9e2460c7c5c618e0500ff2e90c25436b6d0310475e0f804dad73966d8655a38a",
+    "Compact/HistoricalData/RowsChunks/Part112678.lean": "5922d364194bb29f3fa4cf45af2d99ec26e7a2d4110325455aa6ce49ca3d5759",
+    "Compact/HistoricalData/PosesChunks/Part000000.lean": "5160c837a0c512569e7299b76df7dfb618795c5f4884dbf254b7270077396bc3",
+    "Compact/HistoricalData/PosesChunks/Part001765.lean": "9cb429588c498b43f0ee5a8c5088a2db7ff1bffb409bbdd60d9c18028fc13bbd",
+    "Compact/HistoricalData/PosesChunks/Part003530.lean": "909812f1bddc8aa50ebaa019d77fec53879759547229ac7e5cc349c55ce5604c",
+    "Compact/HistoricalData/PosesChunks/Part005295.lean": "292a825869bdaf0561128fcf97495a76073698beee4bcee4fdd070ab88d1538d",
+    "Compact/HistoricalData/PosesChunks/Part007059.lean": "3484bcb3581d93fd24e8d6d4dca1cc1668f2febc99c8d6bdb749d82bc12ddc79",
+    "Compact/HistoricalData/PosesChunks/Part008824.lean": "17053a9a5fbeb7cbbfc757620f129afa5e01742d18252c22961c640095ed3cfb",
+    "Compact/HistoricalData/PosesChunks/Part010589.lean": "e0b6eeaf44bc497aa0b313431f8b110cdf758b41f6ab3896027361edd7d88ace",
+    "Compact/HistoricalData/PosesChunks/Part012354.lean": "92912828b6759a57067df92fb0c162dd2cba318fcfbf5b797ce6106139547589",
+    "Compact/HistoricalData/PosesChunks/Part014118.lean": "264b341f9e1010fd86d3c6f4c810f9c09bc0f7547e801f26566284bcf147700b",
+    "Compact/HistoricalData/PosesChunks/Part015883.lean": "37f325b422a4b740256655942508119d50d95e1e6f915bdfed952ddb9a4c9fa9",
+    "Compact/HistoricalData/PosesChunks/Part017648.lean": "22b37e7c7254338c8d453cb56f24cc6fb2c249154375283eb499cb63a3d18825",
+    "Compact/HistoricalData/PosesChunks/Part019413.lean": "21631e611812014c807dddfcd93f79693d8634fabe99f7361acfbf6764ad1e77",
+    "Compact/HistoricalData/PosesChunks/Part021177.lean": "0f53a7a9bc004db721f61a1abc08d3a32627c201b738c42576aeb1ae6cdc86b0",
+    "Compact/HistoricalData/PosesChunks/Part022942.lean": "270ee6ef856f6a9b936629747a7b9b894ae7e8624aede80b22fadc2d4e4baae6",
+    "Compact/HistoricalData/PosesChunks/Part024707.lean": "96c531f07ac441a4a9d014db2a4a3a7f38f781fed3c209743739009eeaf54509",
+    "Compact/HistoricalData/PosesChunks/Part026472.lean": "7312a43ad3b83ba1c796d3b24579154628427c20a47a075ea46d8af935d11e11",
+    "Compact/HistoricalData/SharedRows.lean": "dad6af17e64cec0d78793fd2cbf195963db9fcb7841a0ef76e8c48c4632c99b8",
+    "Compact/HistoricalData/SharedPoses.lean": "d73f9d74cd18db6d84dae843a0fd99d03557b0bf47dc8e3740cc4629bbfe8c2c"
+  },
+  "lean_modules": 83,
+  "lean_lines": 143532,
+  "lean_bytes": 9748933,
+  "seconds": 0.5499332910003432
+}

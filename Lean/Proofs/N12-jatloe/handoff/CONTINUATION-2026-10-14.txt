@@ -1,0 +1,375 @@
+TWELVE-SQUARE FORMALIZATION: PAUSED CHECKPOINT, 2026-10-14
+
+START HERE
+
+The user requested a resource pause, saving the source, and pushing a handoff
+for another agent. All five proof agents were interrupted. The last compiler
+process group was terminated; its guard receipt records stop_reason=interrupted,
+remaining_processes=[], and cleanup_errors=[]. No proof computation should start
+until the user explicitly resumes. PAUSED.json blocks the serial verifier and
+the resource guard. Reading source and this handoff does not resume the proof.
+
+This guide supersedes the older progress counts and resource suggestions in
+the supplied October 13 handoff and the repository's older n=12 guides. Those
+documents remain useful for definitions and provenance, but their statements
+about work not yet executed describe the earlier snapshot.
+
+Repository: EvolvingPrograms/SquaresLean.
+Original source branch: 12Refractored.
+Recorded source base: 3013badbf160901b5884fe7a0b37ad440fad641a.
+Paused checkpoint branch: codex/n12-paused-checkpoint-2026-10-14.
+Work in projects/n12-refactored, never the older root/N11 build.
+The local handoff has this project under project/ instead of projects/.
+The checkpoint preserves source candidates that still fail compilation; it is
+an unfinished proof snapshot, not a green build or an optimality certificate.
+
+TARGET AND TRUST BOUNDARY
+
+The target is the unchanged S12.packingConstant12 = 4, for twelve actual unit
+squares with arbitrary orientations and pairwise disjoint strict interiors.
+Container boundaries are closed, and boundary contact is allowed. The existing
+normalization uses actual scaled square side 1 < a <= 1001/1000 in [0,4]^2.
+Keep the original S12 definitions, original marker ownership, all legitimate
+F/G allowances, corner alternatives, and angle and equality boundaries.
+
+The global theorem IS NOT PROVED. Compact.Assembly.SourceAssembly.optimality
+still takes a Pending argument. A source registry, individual lemma, finite
+Python proposal, old receipt, or conditional reduction is not the global
+theorem. The 86 inherited whole-case source terms have not received a fresh
+end-to-end replay here. New individual whole-case contracts passed focused
+checks, often using authenticated reusable dependency objects; the entire
+assembled current source has not passed a fresh replay.
+
+New continuous geometry is intended to use ordinary Lean proofs. Some accepted
+whole-case wrappers inherit Lean.ofReduceBool through the original numerical
+foundation/row identities. Report that inherited compiler trust. Add no custom
+axioms, admissions, unsafe oracles, additional native sites, or altered packing
+semantics. The serial verifier rejects sorryAx and admission warnings, including
+warnings produced by failed elaboration. A failing candidate is never counted.
+
+CURRENT WHOLE-CASE STATUS
+
+Compact/Assembly/NewCases.lean supplies twelve newly completed original-case
+contracts, accepted in focused runs:
+  48, 573, 574, 702, 715, 888, 889, 893, 982, 997, 1072, 1084.
+
+Together with the inherited source terms, SourceAssembly now records 98 of 117
+original cases. This is a source-level assembly count, not 98 freshly replayed
+case proofs. Nineteen original cases remain:
+  580, 581, 683, 700, 705, 716, 867, 868, 896, 972, 974, 975, 976,
+  981, 983, 1089, 1090, 1091, 1092.
+
+C981Progress.lean independently passed with 22 new full original-vector
+exclusions, beyond the supplied handoff:
+  25,31,40,70,32,33,38,57,99,94,95,27,36,106,24,26,39,101,59,105,108,71.
+They are vector indices, not 22 whole original cases. C981Registry still has
+20 remaining original representative vectors:
+  2,28,29,30,34,37,41,43,54,55,56,58,69,73,93,98,103,104,107,109.
+
+C1092 BranchEnding 3 (OppositePair) passed; C1092Compact passed after consuming
+it. C1092Compact.Pending now has three fields for whole branch endings 0,1,2.
+Do not restore the already discharged opposite-pair field.
+
+RESOURCES AND REPRODUCIBLE ENVIRONMENT
+
+Hard acceptance limit: at most 10,000 distinct modules across the WHOLE proof,
+including library/toolchain dependencies. Preferred limit: at most 8,000.
+The source-only census at the pause measured:
+  selected project closure, including every new Compact/Completion module: 4742;
+  external closure, including implicit Init: 2456;
+  combined current closure: 7198;
+  all retained project Lean files: 5270;
+  all project files plus the CURRENT external closure: 7726.
+The last number is an alternate file inventory, not an external-closure audit
+of every unselected alternative. Unwritten future proofs are not included.
+Run scripts/source_census.py before each future build and after adding modules.
+Do not revive the old 166,000-module design. Factoring must remain within the
+whole-proof budget; saving disk by staging does not satisfy a module limit.
+
+Keep total task storage below 10 GB. Inspect actual free space and total source,
+toolchain, dependency, cache, archive, and output usage before setup or replay.
+One local computational process group only. Parallel reasoning is permissible
+after a user resume; it does not authorize simultaneous local compiler jobs.
+
+The last historical run used RSS 3072 MiB / physical footprint 1200 MiB /
+600 seconds / 2 GiB free-space floor. The user experienced unacceptable lag.
+Do not inherit that raised budget. Prefer a stronger host for compilation.
+On this Mac, a conservative proposed starting guard after explicit resume is
+RSS 900 MiB / physical footprint 450 MiB / 90 seconds / 3 GiB free-space floor.
+If a required check cannot fit, simplify it or move it; do not silently raise
+the limits or run several independently bounded jobs. These proposed limits
+are not a guarantee that the host will remain responsive.
+
+Pinned Lean: leanprover/lean4:v4.19.0.
+Pinned Mathlib: c44e0c8ee63ca166450922a373c7409c5d26b00b.
+Other exact revisions: handoff/dependency-pins.json.
+lakefile.toml and lake-manifest.json use local .lake/packages paths.
+The project cache and compiler are excluded from the push/portable archive.
+On the original machine, existing packages are shared read-only; preserve them.
+On a fresh host, provision the pinned sources and trusted compiled dependencies
+within budget. scripts/bootstrap_sources.py downloads sources only and rewrites
+local manifests; review its platform/certificate assumptions before use.
+prepare_cache.py / restore_cache.py involve compiler helpers and network access.
+Avoid a generic setup command that accidentally rebuilds all of Mathlib.
+verify.py and source_census.py use the conventional Elan toolchain location;
+adapt that location deliberately if the new host differs.
+
+FIRST RESUME STEPS (ONLY AFTER USER RESUMES)
+
+1. Read this guide, PAUSED.json, STATUS-2026-10-14.json, and
+   CHECKED-ROOTS-2026-10-14.json. Inspect the receiving checkout for other edits.
+   Keep the older Jatloe and n=11 projects separate from this refactored project.
+   Use a sparse/filtered checkout of the checkpoint branch if downloading from
+   GitHub; avoid the repository's multi-gigabyte history and retained archives.
+2. Establish a host memory/disk/time budget; verify Lean and all dependency pins.
+   On the original machine, retain the existing copied checked objects and logs.
+   On a new host, those objects are absent; focused replay will take longer.
+3. Remove project-root PAUSED.json only after the explicit user resume. Its
+   presence intentionally prevents scripts/verify.py and scripts/bounded.py
+   from launching computation. Source-only --plan and inventories remain usable.
+4. From projects/n12-refactored (or the archive's project/), inspect source only:
+     python3 -B scripts/source_census.py
+     python3 -B scripts/verify.py --plan Compact.Completion.C981.CommonRows
+5. Repair the small known compile blockers listed below, preserving semantics.
+   Start with one narrow check, never the whole project default build:
+     python3 -B scripts/bounded.py --rss-mib 900 --footprint-mib 450 \
+       --seconds 90 --free-gib 3 --receipt .verification/resume-first.json -- \
+       python3 -B scripts/verify.py Compact.Completion.C981.AngularScalars
+   This is a suggested command, not a check executed while packaging the pause.
+   Use the budget selected for the receiving host. Do not treat timeout as proof.
+6. Continue serial focused checks using team_verify.py for independent roots;
+   fix only the affected source/dependencies and preserve receipts. Count a
+   result only after its entire original contract is accepted. Update the
+   registry only with such results; save another handoff before stopping again.
+
+LAST COMPLETE DIAGNOSTICS BEFORE THE PAUSE
+
+Group 25 was interrupted, incomplete, and not all passing. Portable error
+headings are in LAST-BLOCKERS-2026-10-14.json. Full machine logs and previous
+receipts remain locally in .verification/ and the local checkpoint archive.
+
+- C981 CommonRows, Common107, LastRows, Last104: blocked at
+  Compact.Completion.C981.AngularScalars, linarith failures at lines
+  48,68,74,104,105,109,110. NegativePoint and NegativePair passed before it.
+- ShortCertificate54.Original: ShortCertificateBridge application type
+  mismatches at lines 22 and 48. The emitted data has not been accepted.
+- C975IncomingCut and IncomingPair: C975Entrance unknown tactic at line 96
+  and unsolved goals at line 81. The two surviving geometry branches remain
+  real mathematical obligations even after this compile repair.
+- C580581PilotInputs: C580581Entrance cases/metavariable failures near
+  lines 36-39 and failed finite decisions at 112/189. No whole-case proof.
+- C981Registry: FullAuxWallOppositeAxes fails at line 50 and later;
+  unresolved lower_in_bands, upper_in_bands, pairRadius and linarith goals.
+  Do not count the large classification/coverage join as checked.
+- WallHighFromMarker and C1092Compact passed in this interrupted group.
+- MMMM was next/in progress when stopped, with no accepted whole-root result.
+  MMMP.CenterCrosspoint, C983.ThreeBranches, C705716.WholeCases,
+  MPPMOmissions and C981.CaseVectors were not reached in this final group.
+
+Some source files were edited after earlier successful checks. Historical
+receipts are useful evidence of those checks, not acceptance of the entire
+current dependency graph. A successful small helper does not finish its sector.
+
+SIMPLIFICATIONS TO CONTINUE: SHARED FINITE INFRASTRUCTURE
+
+C979 query factorization avoids repeatedly elaborating one large inherited
+ownership domain. scripts/factor_c979_entry_queries.py split the 24 original
+public blocks into EntryQueryChunks/Chunk00..23 plus Imports. Each block now
+imports the shared selectors independently; EntryQueries imports all blocks.
+scripts/factor_c979_selections.py shares 786 IDENTICAL certified_query% terms
+in 50 SharedSelections/Chunk00..49 modules, 16 per module. There are no newly
+invented certificates. cache_c979_check_metadata.py separates the proof of the
+real query signature from a pure literal Check with an empty metadata list;
+the real queries remain in the certificate argument.
+
+The final independence/import edits are not fully checked. C1092AuxiliaryCover
+now imports only Chunk11 (single979_5_1) and Chunk17 (single979_8_1), avoiding
+the unused large first domain. Preserve the original public API and compare
+against the original block hashes before changing this transformation again.
+Original EntryQueries SHA256:
+  51f5fd4bd9647f24d5cec73dd7cec8a7c2902e49916923b4ddb854dc5bab7836.
+The original is also recoverable from the recorded repository base; the local
+backup is .verification/source-backups/C979.EntryQueries.original.txt.
+Earlier unfactored Chunk01 exceeded the then-1200 MiB guard. Check the factored
+closure incrementally after resuming; do not rerun the huge initializer first.
+
+C981 domains: scripts/factor_c981_domains.py extracts exactly 202 selected
+C976 queries into nine chunks plus Subset. This focused factoring passed and
+avoids importing all of the large C976Domains table.
+
+C981 coverage: PrefixCoverage and CoverageReorder generic bridges passed.
+scripts/stage_c981_coverage.py proposes the owner order
+  [0,1,8,9,10,11,2,3,4,5,6,7].
+Domain sizes: 2,2,6,6,6,64,64,64,11,11,11,11.
+Prefix sizes: 1,2,1,3,9,75,532,828,1564,2148,3143,1668,221.
+It checks a proposed 463894 extensions and proposes 221 complete assignments
+covered by 234 representatives/transposes. Generated AllowedData, Prefix00..12,
+Final and TransposeData are NOT fully accepted Lean coverage. AllowedData hit
+an earlier 600 MiB guard. A compact next step is factoring StepCheck into small
+row chunks via the shared appendStepCheck theorem; that change is not written.
+Finite-set Python proposals and counts do not prove the original cover.
+
+SIMPLIFICATIONS TO CONTINUE: C981
+
+Candidate full-vector wrappers exist for CommonRows indices
+  2,28,30,34,37,41,43,69,103;
+Common107; LastRows index 29; Last104 index 104. They are blocked by
+AngularScalars and remain unaccepted. If all twelve are checked and joined,
+the remaining short vectors would be 54,55,56,58,73,93,98,109.
+
+Use StandaloneSupportForms / NegativePoint rather than an unnecessary heavy
+C977 dependency. CommonCycle and SteepPositivePair use genuine all-angle
+support/point cycles. The Last* chain uses exact rational half-angle/chord
+inequalities in place of derivative estimates and includes actual top-origin,
+left strict 1.38, and original Q5-center/transpose obligations. Preserve the
+original ownership adapters when simplifying the scalar algebra.
+
+Rows 54/55 have a compact exact certificate proposal rather than the old giant
+chord tree. short_certificate_pilot.py uses actual owners 5,6,7, all 32 CLOSED
+angle cells, and foreign hulls from all twelve actual owners. It proposed
+initial piece counts 38,130,15, then P(5,6)->15 and P(5,7)->0. This Python
+result is a proposal, not a Lean proof. emit_short54.py generated 19 modules
+plus ShortCertificateBridge, 5,132,875 source bytes including the bridge.
+No rounding was applied. Data lives in ShortCertificate54/; Original.lean
+declares full row 54/55 adapters but is unaccepted.
+
+ShortCertificateBridge adapts the shared RegionOwner/RegionDAG and RawSupportFan
+integer model with eight axes, sparse integer Farkas duals, all cut/complement
+boundary branches, and actual convex ancestry. Repair that bridge first, then
+check the exact data and both original vector wrappers. Row 55's original
+genuine anchors must remain; do not infer a different owner's inside points.
+
+Prepared follow-on proposal engines, NOT RUN:
+  short98_pilot.py: actual owners 2,5,6,9 and five genuine pair updates;
+  short58_local_pilot.py: owners 5,6,7 with P(5,6) and P(5,7);
+  short_pair_pilot.py --row 56|58|73|93|109: optionally two rounds.
+These skip W steps when no chord consequence has been derived. Optional
+ShortChordBridge.lean supplies continuous AxisSection/AngleSection contracts
+but has not passed. Do not resurrect the expanded legacy chord tables.
+NorthArmPair/Scalars exclude only a central sign sector, not a whole vector.
+
+SIMPLIFICATIONS TO CONTINUE: C1092
+
+Canonical Lean branch labels differ from paper labels. Preserve this mapping:
+  0: PMMP, equivalent to paper MPPM, orbit 2, windmill field;
+  1: PPPM, equivalent to paper MMMP, orbit 8, oneExceptional field;
+  2: PMPM, equivalent to paper MMMM, orbit 4, adjacentPair field;
+  3: PPMM, equivalent to paper MMPP, orbit 2, oppositePair (CHECKED).
+Use actual whole-packing rotations/reflections, not a synthetic angle symmetry.
+
+Branch 2 has a complete SOURCE candidate at Compact.Completion.C1092.MMMM.
+WholeSupports, MMMMPairAxes/Scalars, MMMMFirstPair/SecondPair,
+MMMMEntrance/StrictCore/Walls/Ending reduce actual four wall inequalities and
+two support pairs to scalar cancellation. This replaces the large finite
+endgame. Its original BranchEnding 2 is not accepted. Prioritize the factored
+C979 dependency and a focused MMMM replay before claiming this field solved.
+
+Branch 0 MPPM still lacks the whole ending. Source progress includes:
+  MPPMOmissionCenter: actual bottom F2 omission forces the SE center;
+  MPPMOmissions: at most one omission via actual packing rotations;
+  MixedWideCrossing/Crosspoint: genuine support obstruction;
+  MPPMPointCore: actual strict rectangle [2,2.5] x [1.5,2];
+  MPPMTopOrigin: actual right origin/bar, BoundaryOrigin, TopReach and
+    MixedCornerObstruction;
+  MPPMUpperSign, MPPMNorthwestActualSign: actual oriented charts;
+  MPPMRightInner: actual top F5 omission;
+  MPPMUpperOrigin: actual NE (3,2.5), top (2,3) origin/bar.
+For one omission, still join a strong NE/profile obstruction with the genuine
+right-near ending. For zero omissions, MPPMCentralCover, ElbowProfile and
+MPPMInwardNeighbors still need actual elbow/inward/sign/forward-origin joins.
+
+ShallowLeftOrder.order is a complete SOURCE local lemma for actual C,B,L
+squares, arbitrary boundary orientations, correlated SAME a/k faces, and a
+strict wall-center sum. ShallowWidths handles all four signs;
+ShallowBoundarySupport, ShallowCentralScalars, ShallowBottom/Margin/Order and
+ShallowLeftMargin/Order reuse the supplied ShallowPositiveScalars/Polynomials.
+The local lemma and actual cyclic ancestry have not been fully checked/joined
+into BranchEnding 0. Do not replace the missing join with a conditional profile.
+
+Branch 1 MMMP has many small SOURCE profiles in C1092/MMMP/:
+NearCrossing/CenterCrosspoint, OuterArm, BottomPair, RightInnerActual,
+RightFar/WideRightConflict, NortheastActualSign, InwardTips, UpperPoints,
+LeftFar, StrongNortheastFaces, FinalEnding and ProfileAdapter.
+CenterCrosspointScalars' first and second pieces passed earlier; the final
+all-angle CenterCrosspoint root remains unaccepted. Point/support profiles
+replace the paper's interpolation/calculus and five-row lookups. The remaining
+mathematical joins include the actual top-origin three-square obstruction
+and the full right F8 ending for a strong 2.56 bar. ProfileAdapter is still
+conditional, not the original BranchEnding 1 contract.
+
+SIMPLIFICATIONS TO CONTINUE: OTHER CASES
+
+C705 and C716: Compact.Completion.OtherCases.C705716.WholeCases contains
+complete SOURCE contracts using the actual original F/G budgets and 196
+selected queries. They await acceptance through the C979 query dependency.
+These are among the first whole cases to replay after that dependency fits.
+
+C983: retain ordinary allowances F<=3/G<=2, exempt allowances 2/1, and all
+original inward/outward alternatives. MonotoneRefinement's rational cast
+repair passed. Components05/06 were each split into eight small modules,
+with a literal cache trimmed 297->121->95; their final closure is not fully
+replayed. ThreeBranches proposes a genuine reduction to merged ownership
+{F4,G3}, {F5,G3}, or {F4,F5,G3}; the full root is unaccepted.
+
+Use SharedBoundaryOrigin, SharedMergedTopExclusion, OutwardPair and
+InwardAlternative rather than unproved global side assumptions. The simplified
+F5-center route reuses MergedLeftNegative plus a positive-point lemma in place
+of large calculus. F5LowerRight uses CentralWallCenter to exclude a lower R,
+force F9, then NE F7/top F3/G4, eliminating merged G4. F5RightFinal supplies
+actual R={F9,G9}, N={F7,G7}, T={F3,G4} and the six SE alternatives.
+PositiveEndingScalars/Faces/Walls/Supports/Ending use exact quartic Bernstein
+bounds and interval norm bounds, replacing concavity/calculus. LeftOrigin uses
+the actual shared BoundaryOrigin and TopAdvance; no unrelated SW seed.
+F5NegativeFrame, TopOnlyLeftPoint/QuadrantProfile/QuadrantScalars,
+NegativeTripleFaces, RightTripleData.Input and F5ThreeSquareEntrance are source
+helpers. Real remaining geometry: the negative E-N-R triple using two actual
+separators, and the F4-only mixed/top endings. There is no ExcludesCase 983.
+
+C975: actual entrance F3 OR F5 OR F7 is preserved before geometry forces F3.
+Actual triangle geometry eliminates top G6, leaving top G={4} or {4,7}.
+IncomingPair has two LIVE all-angle branches: NE incoming F5/G6 with merged G7,
+or NE G7 with merged G4 only and F7 omitted. Neither ending is proved.
+TransposeOwnerDomain/DirectHalfTransport use the actual index map
+[2,5,0,8,3,6,1,9,4,7]. An earlier false map was not accepted.
+WallHighFromMarker passed and supplies a true all-angle 2.56 height with both
+corner alternatives. Never transfer singleton-SE seed (3.24,1.87) to an
+unjustified paired corner; this was identified as an invalid shortcut.
+
+C580/C581: actual A512, B8192/8196, O8 entrance and compulsory points are
+written. Both corner alternatives and both bottom masks remain. The two
+three-owner pilots stopped at 24 seconds without an empty result. Revision 2
+adds all twelve actual foreign hulls; timeout is not a certificate. A useful
+next proposal would add actual R16384 and the genuine O/R interaction, then
+back-propagate to A, under a small independent proposal budget. No four-owner
+pilot is present/accepted in this checkpoint. C896Domains.lean exists but
+the genuine merged-bottom-768/central pullSwap entrance is not a whole proof.
+
+The other whole cases 683,700,867,868,896,972,974,976,1089,1090,1091 remain
+open; shared geometry may reduce several at once. Do not count an operation
+inventory, historical leaf count, angle-sector lemma, or conditional profile
+as an exclusion of any of these original cases.
+
+NEW COMMON-CASE PROOFS TO PRESERVE
+
+C48Rows handles 48/573/574 with the compact genuine entrance and all three
+bottom masks, avoiding the large unaccepted C48RightBarOwnership.
+C702 forces a pair by its actual empty-F budget and uses a genuine foreign
+segment point. C888C889 use six cached allowed domains plus structural half
+turn transport, preserving all F/G allowances. C982/C893/C1072/C1084 use
+direct shared geometric endings. C715's whole original contract passed.
+C997 uses the actual seven ownership domains and separate finite cut modules
+instead of one memory-heavy initializer. These whole-case contracts passed;
+their changed shared dependencies still require current final assembly replay.
+
+FINAL ACCEPTANCE WHEN THE MATH IS FINISHED
+
+Supply all nineteen remaining original-case contracts, all remaining C981
+vectors/coverage, and the three remaining C1092 whole branch endings. Then
+write an actual unconditional final module consuming all Pending fields.
+Compact.Assembly.Final is a proposed name; it does not exist at this pause.
+Budget the entire final import closure, provision pins, run a fresh serial
+end-to-end replay, and inspect the final theorem's exact type and #print axioms.
+Require no unresolved obligations/admissions and disclose inherited native
+compiler trust. The runner's SCOPED_REPLAY_PASS_GLOBAL_OBLIGATIONS_OPEN string
+and global_optimality_proved=false are intentionally scoped; do not relabel
+them as an unconditional proof. Preserve a source/receipt handoff if stopping.

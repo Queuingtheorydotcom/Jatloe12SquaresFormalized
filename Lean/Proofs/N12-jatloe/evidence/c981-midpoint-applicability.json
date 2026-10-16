@@ -1,0 +1,1273 @@
+{
+  "status": "EXACT_FINITE_SOURCE_MATCH_ONLY_NOT_LEAN_PROOF",
+  "scope": "All 117 representative literals, all 12 owners, all eight original D4 transforms; q requirements use literal queryInsidePoints/queryOutsidePoints including marker and derived seed points; foreign midpoint membership uses any exact two-point convex combination of literal queryInsidePoints.",
+  "sources": {
+    "vectors": {
+      "path": "Completion/Cases/C981/VectorData.lean",
+      "sha256": "a8917162236714146a042e3dacfcc508c41e48af867cba3a9d82ed59a9325b5d"
+    },
+    "owners": {
+      "path": "Completion/Cases/C981/Ownership.lean",
+      "sha256": "4a74387c4c48131967c813f094320e8a13597f46af9ba56953bea3a0ac583f33"
+    },
+    "auxiliary": {
+      "path": "vendor/S12/AuxiliaryPoints.lean",
+      "sha256": "6705c4aec708f3e5dc9ea16a10efd8dcb4c475125b5b6c92752f215a039cc4f2"
+    },
+    "markers": {
+      "path": "vendor/S12/Markers.lean",
+      "sha256": "f5983312697b11014b9d328d0978f8cb49334fbffb78c6c4a35f0814485a6e7b"
+    },
+    "seeds": {
+      "path": "vendor/S12/Seeds.lean",
+      "sha256": "57ac6d15b401ce05c60832bbfa63424185abfe21f07047180be320fb4a90021a"
+    },
+    "transforms": {
+      "path": "vendor/S12/TransformFacts.lean",
+      "sha256": "63a8bd4368c46913b501175b94d2d8ddf2613f194e042b38ea40bd58db75131b"
+    },
+    "query": {
+      "path": "vendor/S12/LocalQuery.lean",
+      "sha256": "56925f1b9b1f556aa3e6b8f97a090518f7173452f1e339645620fad4d32f1273"
+    },
+    "short_templates": {
+      "path": "vendor/S12/LocalRejection.lean",
+      "sha256": "656817b960c96243198cd74ea632be5ab33c0e78260d890cc9326f1b21af4746"
+    },
+    "theorem": {
+      "path": "Compact/Geometry/C981Midpoint.lean",
+      "sha256": "304274cf6a408c64970d67aff9dadb0db31e6d996b81f3438e2a95e1843dff02"
+    }
+  },
+  "counts": {
+    "representatives": 117,
+    "transforms": 8,
+    "forced_midpoint_applications": 12,
+    "forced_representatives": 6,
+    "contradiction_matches": 2,
+    "excluded_representative_candidates": 1
+  },
+  "candidate_representatives": [
+    116
+  ],
+  "forced_applications_without_foreign_match": [
+    {
+      "representative": 7,
+      "q_owner": 6,
+      "q_mask": 1024,
+      "transform_index": 0,
+      "transform": {
+        "swap": false,
+        "reflectX": false,
+        "reflectY": false
+      },
+      "target": [
+        "27/10",
+        "27/10"
+      ],
+      "q_conditions": {
+        "inside_A": [
+          {
+            "query_index": 2,
+            "point": [
+              "113/50",
+              "3"
+            ],
+            "source": {
+              "kind": "auxiliary",
+              "index": 17
+            }
+          }
+        ],
+        "inside_C": [
+          {
+            "query_index": 1,
+            "point": [
+              "3",
+              "113/50"
+            ],
+            "source": {
+              "kind": "auxiliary",
+              "index": 9
+            }
+          }
+        ],
+        "outside_D": [
+          {
+            "query_index": 20,
+            "point": [
+              "2",
+              "113/50"
+            ],
+            "source": {
+              "kind": "auxiliary",
+              "index": 5
+            }
+          }
+        ],
+        "outside_E": [
+          {
+            "query_index": 30,
+            "point": [
+              "113/50",
+              "2"
+            ],
+            "source": {
+              "kind": "auxiliary",
+              "index": 16
+            }
+          }
+        ]
+      }
+    },
+    {
+      "representative": 7,
+      "q_owner": 6,
+      "q_mask": 1024,
+      "transform_index": 4,
+      "transform": {
+        "swap": true,
+        "reflectX": false,
+        "reflectY": false
+      },
+      "target": [
+        "27/10",
+        "27/10"
+      ],
+      "q_conditions": {
+        "inside_A": [
+          {
+            "query_index": 1,
+            "point": [
+              "3",
+              "113/50"
+            ],
+            "source": {
+              "kind": "auxiliary",
+              "index": 9
+            }
+          }
+        ],
+        "inside_C": [
+          {
+            "query_index": 2,
+            "point": [
+              "113/50",
+              "3"
+            ],
+            "source": {
+              "kind": "auxiliary",
+              "index": 17
+            }
+          }
+        ],
+        "outside_D": [
+          {
+            "query_index": 30,
+            "point": [
+              "113/50",
+              "2"
+            ],
+            "source": {
+              "kind": "auxiliary",
+              "index": 16
+            }
+          }
+        ],
+        "outside_E": [
+          {
+            "query_index": 20,
+            "point": [
+              "2",
+              "113/50"
+            ],
+            "source": {
+              "kind": "auxiliary",
+              "index": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "representative": 8,
+      "q_owner": 6,
+      "q_mask": 1024,
+      "transform_index": 0,
+      "transform": {
+        "swap": false,
+        "reflectX": false,
+        "reflectY": false
+      },
+      "target": [
+        "27/10",
+        "27/10"
+      ],
+      "q_conditions": {
+        "inside_A": [
+          {
+            "query_index": 3,
+            "point": [
+              "113/50",
+              "3"
+            ],
+            "source": {
+              "kind": "auxiliary",
+              "index": 17
+            }
+          }
+        ],
+        "inside_C": [
+          {
+            "query_index": 2,
+            "point": [
+              "3",
+              "113/50"
+            ],
+            "source": {
+              "kind": "auxiliary",
+              "index": 9
+            }
+          }
+        ],
+        "outside_D": [
+          {
+            "query_index": 20,
+            "point": [
+              "2",
+              "113/50"
+            ],
+            "source": {
+              "kind": "auxiliary",
+              "index": 5
+            }
+          }
+        ],
+        "outside_E": [
+          {
+            "query_index": 29,
+            "point": [
+              "113/50",
+              "2"
+            ],
+            "source": {
+              "kind": "auxiliary",
+              "index": 16
+            }
+          }
+        ]
+      }
+    },
+    {
+      "representative": 8,
+      "q_owner": 6,
+      "q_mask": 1024,
+      "transform_index": 4,
+      "transform": {
+        "swap": true,
+        "reflectX": false,
+        "reflectY": false
+      },
+      "target": [
+        "27/10",
+        "27/10"
+      ],
+      "q_conditions": {
+        "inside_A": [
+          {
+            "query_index": 2,
+            "point": [
+              "3",
+              "113/50"
+            ],
+            "source": {
+              "kind": "auxiliary",
+              "index": 9
+            }
+          }
+        ],
+        "inside_C": [
+          {
+            "query_index": 3,
+            "point": [
+              "113/50",
+              "3"
+            ],
+            "source": {
+              "kind": "auxiliary",
+              "index": 17
+            }
+          }
+        ],
+        "outside_D": [
+          {
+            "query_index": 29,
+            "point": [
+              "113/50",
+              "2"
+            ],
+            "source": {
+              "kind": "auxiliary",
+              "index": 16
+            }
+          }
+        ],
+        "outside_E": [
+          {
+            "query_index": 20,
+            "point": [
+              "2",
+              "113/50"
+            ],
+            "source": {
+              "kind": "auxiliary",
+              "index": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "representative": 53,
+      "q_owner": 6,
+      "q_mask": 1024,
+      "transform_index": 0,
+      "transform": {
+        "swap": false,
+        "reflectX": false,
+        "reflectY": false
+      },
+      "target": [
+        "27/10",
+        "27/10"
+      ],
+      "q_conditions": {
+        "inside_A": [
+          {
+            "query_index": 3,
+            "point": [
+              "113/50",
+              "3"
+            ],
+            "source": {
+              "kind": "auxiliary",
+              "index": 17
+            }
+          }
+        ],
+        "inside_C": [
+          {
+            "query_index": 2,
+            "point": [
+              "3",
+              "113/50"
+            ],
+            "source": {
+              "kind": "auxiliary",
+              "index": 9
+            }
+          }
+        ],
+        "outside_D": [
+          {
+            "query_index": 20,
+            "point": [
+              "2",
+              "113/50"
+            ],
+            "source": {
+              "kind": "auxiliary",
+              "index": 5
+            }
+          }
+        ],
+        "outside_E": [
+          {
+            "query_index": 29,
+            "point": [
+              "113/50",
+              "2"
+            ],
+            "source": {
+              "kind": "auxiliary",
+              "index": 16
+            }
+          }
+        ]
+      }
+    },
+    {
+      "representative": 53,
+      "q_owner": 6,
+      "q_mask": 1024,
+      "transform_index": 4,
+      "transform": {
+        "swap": true,
+        "reflectX": false,
+        "reflectY": false
+      },
+      "target": [
+        "27/10",
+        "27/10"
+      ],
+      "q_conditions": {
+        "inside_A": [
+          {
+            "query_index": 2,
+            "point": [
+              "3",
+              "113/50"
+            ],
+            "source": {
+              "kind": "auxiliary",
+              "index": 9
+            }
+          }
+        ],
+        "inside_C": [
+          {
+            "query_index": 3,
+            "point": [
+              "113/50",
+              "3"
+            ],
+            "source": {
+              "kind": "auxiliary",
+              "index": 17
+            }
+          }
+        ],
+        "outside_D": [
+          {
+            "query_index": 29,
+            "point": [
+              "113/50",
+              "2"
+            ],
+            "source": {
+              "kind": "auxiliary",
+              "index": 16
+            }
+          }
+        ],
+        "outside_E": [
+          {
+            "query_index": 20,
+            "point": [
+              "2",
+              "113/50"
+            ],
+            "source": {
+              "kind": "auxiliary",
+              "index": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "representative": 110,
+      "q_owner": 6,
+      "q_mask": 1024,
+      "transform_index": 0,
+      "transform": {
+        "swap": false,
+        "reflectX": false,
+        "reflectY": false
+      },
+      "target": [
+        "27/10",
+        "27/10"
+      ],
+      "q_conditions": {
+        "inside_A": [
+          {
+            "query_index": 2,
+            "point": [
+              "113/50",
+              "3"
+            ],
+            "source": {
+              "kind": "auxiliary",
+              "index": 17
+            }
+          }
+        ],
+        "inside_C": [
+          {
+            "query_index": 1,
+            "point": [
+              "3",
+              "113/50"
+            ],
+            "source": {
+              "kind": "auxiliary",
+              "index": 9
+            }
+          }
+        ],
+        "outside_D": [
+          {
+            "query_index": 20,
+            "point": [
+              "2",
+              "113/50"
+            ],
+            "source": {
+              "kind": "auxiliary",
+              "index": 5
+            }
+          }
+        ],
+        "outside_E": [
+          {
+            "query_index": 30,
+            "point": [
+              "113/50",
+              "2"
+            ],
+            "source": {
+              "kind": "auxiliary",
+              "index": 16
+            }
+          }
+        ]
+      }
+    },
+    {
+      "representative": 110,
+      "q_owner": 6,
+      "q_mask": 1024,
+      "transform_index": 4,
+      "transform": {
+        "swap": true,
+        "reflectX": false,
+        "reflectY": false
+      },
+      "target": [
+        "27/10",
+        "27/10"
+      ],
+      "q_conditions": {
+        "inside_A": [
+          {
+            "query_index": 1,
+            "point": [
+              "3",
+              "113/50"
+            ],
+            "source": {
+              "kind": "auxiliary",
+              "index": 9
+            }
+          }
+        ],
+        "inside_C": [
+          {
+            "query_index": 2,
+            "point": [
+              "113/50",
+              "3"
+            ],
+            "source": {
+              "kind": "auxiliary",
+              "index": 17
+            }
+          }
+        ],
+        "outside_D": [
+          {
+            "query_index": 30,
+            "point": [
+              "113/50",
+              "2"
+            ],
+            "source": {
+              "kind": "auxiliary",
+              "index": 16
+            }
+          }
+        ],
+        "outside_E": [
+          {
+            "query_index": 20,
+            "point": [
+              "2",
+              "113/50"
+            ],
+            "source": {
+              "kind": "auxiliary",
+              "index": 5
+            }
+          }
+        ]
+      }
+    },
+    {
+      "representative": 114,
+      "q_owner": 6,
+      "q_mask": 1024,
+      "transform_index": 0,
+      "transform": {
+        "swap": false,
+        "reflectX": false,
+        "reflectY": false
+      },
+      "target": [
+        "27/10",
+        "27/10"
+      ],
+      "q_conditions": {
+        "inside_A": [
+          {
+            "query_index": 2,
+            "point": [
+              "113/50",
+              "3"
+            ],
+            "source": {
+              "kind": "auxiliary",
+              "index": 17
+            }
+          }
+        ],
+        "inside_C": [
+          {
+            "query_index": 1,
+            "point": [
+              "3",
+              "113/50"
+            ],
+            "source": {
+              "kind": "auxiliary",
+              "index": 9
+            }
+          }
+        ],
+        "outside_D": [
+          {
+            "query_index": 20,
+            "point": [
+              "2",
+              "113/50"
+            ],
+            "source": {
+              "kind": "auxiliary",
+              "index": 5
+            }
+          }
+        ],
+        "outside_E": [
+          {
+            "query_index": 30,
+            "point": [
+              "113/50",
+              "2"
+            ],
+            "source": {
+              "kind": "auxiliary",
+              "index": 16
+            }
+          }
+        ]
+      }
+    },
+    {
+      "representative": 114,
+      "q_owner": 6,
+      "q_mask": 1024,
+      "transform_index": 4,
+      "transform": {
+        "swap": true,
+        "reflectX": false,
+        "reflectY": false
+      },
+      "target": [
+        "27/10",
+        "27/10"
+      ],
+      "q_conditions": {
+        "inside_A": [
+          {
+            "query_index": 1,
+            "point": [
+              "3",
+              "113/50"
+            ],
+            "source": {
+              "kind": "auxiliary",
+              "index": 9
+            }
+          }
+        ],
+        "inside_C": [
+          {
+            "query_index": 2,
+            "point": [
+              "113/50",
+              "3"
+            ],
+            "source": {
+              "kind": "auxiliary",
+              "index": 17
+            }
+          }
+        ],
+        "outside_D": [
+          {
+            "query_index": 30,
+            "point": [
+              "113/50",
+              "2"
+            ],
+            "source": {
+              "kind": "auxiliary",
+              "index": 16
+            }
+          }
+        ],
+        "outside_E": [
+          {
+            "query_index": 20,
+            "point": [
+              "2",
+              "113/50"
+            ],
+            "source": {
+              "kind": "auxiliary",
+              "index": 5
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "matches": [
+    {
+      "representative": 116,
+      "q_owner": 6,
+      "q_mask": 1024,
+      "transform_index": 0,
+      "transform": {
+        "swap": false,
+        "reflectX": false,
+        "reflectY": false
+      },
+      "target": [
+        "27/10",
+        "27/10"
+      ],
+      "q_conditions": {
+        "inside_A": [
+          {
+            "query_index": 2,
+            "point": [
+              "113/50",
+              "3"
+            ],
+            "source": {
+              "kind": "auxiliary",
+              "index": 17
+            }
+          }
+        ],
+        "inside_C": [
+          {
+            "query_index": 1,
+            "point": [
+              "3",
+              "113/50"
+            ],
+            "source": {
+              "kind": "auxiliary",
+              "index": 9
+            }
+          }
+        ],
+        "outside_D": [
+          {
+            "query_index": 20,
+            "point": [
+              "2",
+              "113/50"
+            ],
+            "source": {
+              "kind": "auxiliary",
+              "index": 5
+            }
+          }
+        ],
+        "outside_E": [
+          {
+            "query_index": 30,
+            "point": [
+              "113/50",
+              "2"
+            ],
+            "source": {
+              "kind": "auxiliary",
+              "index": 16
+            }
+          }
+        ]
+      },
+      "r_owner": 3,
+      "r_mask": 48,
+      "foreign_segments": [
+        {
+          "left": {
+            "query_index": 4,
+            "point": [
+              "12/5",
+              "3"
+            ],
+            "source": {
+              "kind": "auxiliary",
+              "index": 7
+            }
+          },
+          "right": {
+            "query_index": 5,
+            "point": [
+              "3",
+              "12/5"
+            ],
+            "source": {
+              "kind": "auxiliary",
+              "index": 19
+            }
+          },
+          "right_weight": "1/2"
+        }
+      ]
+    },
+    {
+      "representative": 116,
+      "q_owner": 6,
+      "q_mask": 1024,
+      "transform_index": 4,
+      "transform": {
+        "swap": true,
+        "reflectX": false,
+        "reflectY": false
+      },
+      "target": [
+        "27/10",
+        "27/10"
+      ],
+      "q_conditions": {
+        "inside_A": [
+          {
+            "query_index": 1,
+            "point": [
+              "3",
+              "113/50"
+            ],
+            "source": {
+              "kind": "auxiliary",
+              "index": 9
+            }
+          }
+        ],
+        "inside_C": [
+          {
+            "query_index": 2,
+            "point": [
+              "113/50",
+              "3"
+            ],
+            "source": {
+              "kind": "auxiliary",
+              "index": 17
+            }
+          }
+        ],
+        "outside_D": [
+          {
+            "query_index": 30,
+            "point": [
+              "113/50",
+              "2"
+            ],
+            "source": {
+              "kind": "auxiliary",
+              "index": 16
+            }
+          }
+        ],
+        "outside_E": [
+          {
+            "query_index": 20,
+            "point": [
+              "2",
+              "113/50"
+            ],
+            "source": {
+              "kind": "auxiliary",
+              "index": 5
+            }
+          }
+        ]
+      },
+      "r_owner": 3,
+      "r_mask": 48,
+      "foreign_segments": [
+        {
+          "left": {
+            "query_index": 4,
+            "point": [
+              "12/5",
+              "3"
+            ],
+            "source": {
+              "kind": "auxiliary",
+              "index": 7
+            }
+          },
+          "right": {
+            "query_index": 5,
+            "point": [
+              "3",
+              "12/5"
+            ],
+            "source": {
+              "kind": "auxiliary",
+              "index": 19
+            }
+          },
+          "right_weight": "1/2"
+        }
+      ]
+    }
+  ],
+  "extended_scan_scope": "Each distinct forced midpoint application: foreign-owner full convex hull via all vertices/segments/triangles; augmented own hull containing any explicitly excluded query point; intersection of augmented own and foreign convex hulls via contained vertices or segment crossings; every augmented owned pair against strict diameter < 2*(1001/1000)^2; all D4 copies of original fiveLeft/fiveRight/six templates with convex-hull antecedents and literal excluded conclusions.",
+  "extended_scan": [
+    {
+      "representative": 7,
+      "owner": 6,
+      "forced_point": [
+        "27/10",
+        "27/10"
+      ],
+      "foreign_hull_matches": [],
+      "forced_excluded_points": [],
+      "augmented_hull_foreign_hull_intersections": [],
+      "distance_contradictions": [],
+      "short_template_contradictions": [],
+      "maximum_squared_distance": "1369/1250",
+      "strict_squared_diameter_upper_bound": "1002001/500000",
+      "farthest_points": [
+        {
+          "query_index": 1,
+          "point": [
+            "3",
+            "113/50"
+          ],
+          "source": {
+            "kind": "auxiliary",
+            "index": 9
+          }
+        },
+        {
+          "query_index": 2,
+          "point": [
+            "113/50",
+            "3"
+          ],
+          "source": {
+            "kind": "auxiliary",
+            "index": 17
+          }
+        }
+      ]
+    },
+    {
+      "representative": 8,
+      "owner": 6,
+      "forced_point": [
+        "27/10",
+        "27/10"
+      ],
+      "foreign_hull_matches": [],
+      "forced_excluded_points": [],
+      "augmented_hull_foreign_hull_intersections": [],
+      "distance_contradictions": [],
+      "short_template_contradictions": [],
+      "maximum_squared_distance": "1369/1250",
+      "strict_squared_diameter_upper_bound": "1002001/500000",
+      "farthest_points": [
+        {
+          "query_index": 2,
+          "point": [
+            "3",
+            "113/50"
+          ],
+          "source": {
+            "kind": "auxiliary",
+            "index": 9
+          }
+        },
+        {
+          "query_index": 3,
+          "point": [
+            "113/50",
+            "3"
+          ],
+          "source": {
+            "kind": "auxiliary",
+            "index": 17
+          }
+        }
+      ]
+    },
+    {
+      "representative": 53,
+      "owner": 6,
+      "forced_point": [
+        "27/10",
+        "27/10"
+      ],
+      "foreign_hull_matches": [],
+      "forced_excluded_points": [],
+      "augmented_hull_foreign_hull_intersections": [],
+      "distance_contradictions": [],
+      "short_template_contradictions": [],
+      "maximum_squared_distance": "1369/1250",
+      "strict_squared_diameter_upper_bound": "1002001/500000",
+      "farthest_points": [
+        {
+          "query_index": 2,
+          "point": [
+            "3",
+            "113/50"
+          ],
+          "source": {
+            "kind": "auxiliary",
+            "index": 9
+          }
+        },
+        {
+          "query_index": 3,
+          "point": [
+            "113/50",
+            "3"
+          ],
+          "source": {
+            "kind": "auxiliary",
+            "index": 17
+          }
+        }
+      ]
+    },
+    {
+      "representative": 110,
+      "owner": 6,
+      "forced_point": [
+        "27/10",
+        "27/10"
+      ],
+      "foreign_hull_matches": [],
+      "forced_excluded_points": [],
+      "augmented_hull_foreign_hull_intersections": [],
+      "distance_contradictions": [],
+      "short_template_contradictions": [],
+      "maximum_squared_distance": "1369/1250",
+      "strict_squared_diameter_upper_bound": "1002001/500000",
+      "farthest_points": [
+        {
+          "query_index": 1,
+          "point": [
+            "3",
+            "113/50"
+          ],
+          "source": {
+            "kind": "auxiliary",
+            "index": 9
+          }
+        },
+        {
+          "query_index": 2,
+          "point": [
+            "113/50",
+            "3"
+          ],
+          "source": {
+            "kind": "auxiliary",
+            "index": 17
+          }
+        }
+      ]
+    },
+    {
+      "representative": 114,
+      "owner": 6,
+      "forced_point": [
+        "27/10",
+        "27/10"
+      ],
+      "foreign_hull_matches": [],
+      "forced_excluded_points": [],
+      "augmented_hull_foreign_hull_intersections": [],
+      "distance_contradictions": [],
+      "short_template_contradictions": [],
+      "maximum_squared_distance": "1369/1250",
+      "strict_squared_diameter_upper_bound": "1002001/500000",
+      "farthest_points": [
+        {
+          "query_index": 1,
+          "point": [
+            "3",
+            "113/50"
+          ],
+          "source": {
+            "kind": "auxiliary",
+            "index": 9
+          }
+        },
+        {
+          "query_index": 2,
+          "point": [
+            "113/50",
+            "3"
+          ],
+          "source": {
+            "kind": "auxiliary",
+            "index": 17
+          }
+        }
+      ]
+    },
+    {
+      "representative": 116,
+      "owner": 6,
+      "forced_point": [
+        "27/10",
+        "27/10"
+      ],
+      "foreign_hull_matches": [
+        {
+          "owner": 3,
+          "mask": 48,
+          "witness": {
+            "vertices": [
+              {
+                "query_index": 4,
+                "point": [
+                  "12/5",
+                  "3"
+                ],
+                "source": {
+                  "kind": "auxiliary",
+                  "index": 7
+                }
+              },
+              {
+                "query_index": 5,
+                "point": [
+                  "3",
+                  "12/5"
+                ],
+                "source": {
+                  "kind": "auxiliary",
+                  "index": 19
+                }
+              }
+            ],
+            "weights": [
+              "1/2",
+              "1/2"
+            ]
+          }
+        }
+      ],
+      "forced_excluded_points": [],
+      "augmented_hull_foreign_hull_intersections": [
+        {
+          "owner": 3,
+          "point": [
+            "27/10",
+            "27/10"
+          ],
+          "own_witness": {
+            "vertices": [
+              {
+                "query_index": 3,
+                "point": [
+                  "27/10",
+                  "27/10"
+                ],
+                "source": {
+                  "kind": "forced_midpoint",
+                  "transform_index": 0
+                }
+              }
+            ],
+            "weights": [
+              "1"
+            ]
+          },
+          "foreign_witness": {
+            "vertices": [
+              {
+                "query_index": 4,
+                "point": [
+                  "12/5",
+                  "3"
+                ],
+                "source": {
+                  "kind": "auxiliary",
+                  "index": 7
+                }
+              },
+              {
+                "query_index": 5,
+                "point": [
+                  "3",
+                  "12/5"
+                ],
+                "source": {
+                  "kind": "auxiliary",
+                  "index": 19
+                }
+              }
+            ],
+            "weights": [
+              "1/2",
+              "1/2"
+            ]
+          }
+        }
+      ],
+      "distance_contradictions": [],
+      "short_template_contradictions": [],
+      "maximum_squared_distance": "1369/1250",
+      "strict_squared_diameter_upper_bound": "1002001/500000",
+      "farthest_points": [
+        {
+          "query_index": 1,
+          "point": [
+            "3",
+            "113/50"
+          ],
+          "source": {
+            "kind": "auxiliary",
+            "index": 9
+          }
+        },
+        {
+          "query_index": 2,
+          "point": [
+            "113/50",
+            "3"
+          ],
+          "source": {
+            "kind": "auxiliary",
+            "index": 17
+          }
+        }
+      ]
+    }
+  ],
+  "elapsed_seconds": 0.3585,
+  "peak_rss_bytes": 21004288
+}

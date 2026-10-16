@@ -1,0 +1,1 @@
+'S12.survivors_exact' depends on axioms: [propext, Lean.ofReduceBool, Quot.sound]

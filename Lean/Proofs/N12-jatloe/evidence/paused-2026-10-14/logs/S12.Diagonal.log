@@ -1,0 +1,5 @@
+'S12Pilot.inside_iff_rotated_box' depends on axioms: [propext, Classical.choice, Quot.sound]
+'S12Pilot.rejects_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'S12Pilot.first_pattern_rejected' does not depend on any axioms
+'S12Pilot.first_pattern_impossible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'S12Pilot.second_pattern_impossible' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,779 @@
+{
+  "validation": "Source assembly and exact finite audit only; Lean replay pending.",
+  "strictness": "Both R endpoints are actual original query-inside points. S12.inside_segment supplies strict interior at t=7/31 and t=12/31.",
+  "cases": [
+    {
+      "id": 846,
+      "source": "evidence/historical/data/case846-input.json",
+      "sha256": "21c0fed117423a71d31f2039f4aba9e15e1ec0c0f70a66153d692e1efdc0d8df",
+      "archive_role_indices": [
+        7,
+        6,
+        9,
+        3
+      ],
+      "role_masks": [
+        1024,
+        512,
+        8192,
+        16
+      ],
+      "finite_assignments": 1,
+      "finite_nodes": 15,
+      "possible_role_values": {
+        "1024": [
+          65568
+        ],
+        "512": [
+          262400
+        ],
+        "8192": [
+          32832
+        ],
+        "16": [
+          131200
+        ]
+      },
+      "transform": [
+        true,
+        false,
+        false
+      ],
+      "left_barrier_mask": 1,
+      "right_endpoint_provenance": [
+        {
+          "canonical": [
+            "3",
+            "113/50"
+          ],
+          "original": [
+            "113/50",
+            "3"
+          ],
+          "kind": "combined auxiliary",
+          "index": 17,
+          "owner_mask": 16
+        },
+        {
+          "canonical": [
+            "3",
+            "72/25"
+          ],
+          "original": [
+            "72/25",
+            "3"
+          ],
+          "kind": "singleton seed",
+          "base_index": 0,
+          "seed_transform": [
+            false,
+            true,
+            true
+          ],
+          "owner_mask": 16
+        }
+      ],
+      "lean_path": "Compact/Cases/FourSquareHighRight/Case846.lean",
+      "lean_lines": 78
+    },
+    {
+      "id": 847,
+      "source": "evidence/historical/data/case847-input.json",
+      "sha256": "704e4092c7fe210b1dedc47ad47b3c04be8bedf8f1446ec3c78ce2adfa54da87",
+      "archive_role_indices": [
+        7,
+        6,
+        9,
+        3
+      ],
+      "role_masks": [
+        1024,
+        512,
+        8192,
+        16
+      ],
+      "finite_assignments": 1,
+      "finite_nodes": 12,
+      "possible_role_values": {
+        "1024": [
+          65568
+        ],
+        "512": [
+          262400
+        ],
+        "8192": [
+          32832
+        ],
+        "16": [
+          131200
+        ]
+      },
+      "transform": [
+        true,
+        false,
+        false
+      ],
+      "left_barrier_mask": 1,
+      "right_endpoint_provenance": [
+        {
+          "canonical": [
+            "3",
+            "113/50"
+          ],
+          "original": [
+            "113/50",
+            "3"
+          ],
+          "kind": "combined auxiliary",
+          "index": 17,
+          "owner_mask": 16
+        },
+        {
+          "canonical": [
+            "3",
+            "72/25"
+          ],
+          "original": [
+            "72/25",
+            "3"
+          ],
+          "kind": "singleton seed",
+          "base_index": 0,
+          "seed_transform": [
+            false,
+            true,
+            true
+          ],
+          "owner_mask": 16
+        }
+      ],
+      "lean_path": "Compact/Cases/FourSquareHighRight/Case847.lean",
+      "lean_lines": 80
+    },
+    {
+      "id": 852,
+      "source": "evidence/historical/data/case852-input.json",
+      "sha256": "f10e5d1fce52a3ec21e8673ab3c04ec128d9aacef88fb5e5feee4942053465c1",
+      "archive_role_indices": [
+        7,
+        6,
+        9,
+        3
+      ],
+      "role_masks": [
+        1024,
+        512,
+        8192,
+        16
+      ],
+      "finite_assignments": 1,
+      "finite_nodes": 15,
+      "possible_role_values": {
+        "1024": [
+          65568
+        ],
+        "512": [
+          262400
+        ],
+        "8192": [
+          32832
+        ],
+        "16": [
+          131200
+        ]
+      },
+      "transform": [
+        true,
+        false,
+        false
+      ],
+      "left_barrier_mask": 1,
+      "right_endpoint_provenance": [
+        {
+          "canonical": [
+            "3",
+            "113/50"
+          ],
+          "original": [
+            "113/50",
+            "3"
+          ],
+          "kind": "combined auxiliary",
+          "index": 17,
+          "owner_mask": 16
+        },
+        {
+          "canonical": [
+            "3",
+            "72/25"
+          ],
+          "original": [
+            "72/25",
+            "3"
+          ],
+          "kind": "singleton seed",
+          "base_index": 0,
+          "seed_transform": [
+            false,
+            true,
+            true
+          ],
+          "owner_mask": 16
+        }
+      ],
+      "lean_path": "Compact/Cases/FourSquareHighRight/Case852.lean",
+      "lean_lines": 80
+    },
+    {
+      "id": 853,
+      "source": "evidence/historical/data/case853-input.json",
+      "sha256": "6e10a72c13b03e16380fe764f4e8cbdd944c7c26d6392119b7511c96c2416264",
+      "archive_role_indices": [
+        7,
+        6,
+        9,
+        3
+      ],
+      "role_masks": [
+        1024,
+        512,
+        8192,
+        16
+      ],
+      "finite_assignments": 1,
+      "finite_nodes": 12,
+      "possible_role_values": {
+        "1024": [
+          65568
+        ],
+        "512": [
+          262400
+        ],
+        "8192": [
+          32832
+        ],
+        "16": [
+          131200
+        ]
+      },
+      "transform": [
+        true,
+        false,
+        false
+      ],
+      "left_barrier_mask": 1,
+      "right_endpoint_provenance": [
+        {
+          "canonical": [
+            "3",
+            "113/50"
+          ],
+          "original": [
+            "113/50",
+            "3"
+          ],
+          "kind": "combined auxiliary",
+          "index": 17,
+          "owner_mask": 16
+        },
+        {
+          "canonical": [
+            "3",
+            "72/25"
+          ],
+          "original": [
+            "72/25",
+            "3"
+          ],
+          "kind": "singleton seed",
+          "base_index": 0,
+          "seed_transform": [
+            false,
+            true,
+            true
+          ],
+          "owner_mask": 16
+        }
+      ],
+      "lean_path": "Compact/Cases/FourSquareHighRight/Case853.lean",
+      "lean_lines": 82
+    },
+    {
+      "id": 886,
+      "source": "evidence/historical/data/case886-input.json",
+      "sha256": "e5c6851104287f4c76a1f25fd615aab3a90337e42c3835eeb475071b84666310",
+      "archive_role_indices": [
+        6,
+        5,
+        9,
+        3
+      ],
+      "role_masks": [
+        1024,
+        512,
+        8192,
+        16
+      ],
+      "finite_assignments": 2,
+      "finite_nodes": 30,
+      "possible_role_values": {
+        "1024": [
+          65568
+        ],
+        "512": [
+          262400
+        ],
+        "8192": [
+          32832
+        ],
+        "16": [
+          131200
+        ]
+      },
+      "transform": [
+        true,
+        false,
+        false
+      ],
+      "left_barrier_mask": 1,
+      "right_endpoint_provenance": [
+        {
+          "canonical": [
+            "3",
+            "113/50"
+          ],
+          "original": [
+            "113/50",
+            "3"
+          ],
+          "kind": "combined auxiliary",
+          "index": 17,
+          "owner_mask": 16
+        },
+        {
+          "canonical": [
+            "3",
+            "72/25"
+          ],
+          "original": [
+            "72/25",
+            "3"
+          ],
+          "kind": "singleton seed",
+          "base_index": 0,
+          "seed_transform": [
+            false,
+            true,
+            true
+          ],
+          "owner_mask": 16
+        }
+      ],
+      "lean_path": "Compact/Cases/FourSquareHighRight/Case886.lean",
+      "lean_lines": 80
+    },
+    {
+      "id": 887,
+      "source": "evidence/historical/data/case887-input.json",
+      "sha256": "e9626b36d526ceaaac3131c7ab0cb07b1e7a45efae8b30fc425b79be40f261cc",
+      "archive_role_indices": [
+        6,
+        5,
+        9,
+        3
+      ],
+      "role_masks": [
+        1024,
+        512,
+        8192,
+        16
+      ],
+      "finite_assignments": 2,
+      "finite_nodes": 19,
+      "possible_role_values": {
+        "1024": [
+          65568
+        ],
+        "512": [
+          262400
+        ],
+        "8192": [
+          32832
+        ],
+        "16": [
+          131200
+        ]
+      },
+      "transform": [
+        true,
+        false,
+        false
+      ],
+      "left_barrier_mask": 1,
+      "right_endpoint_provenance": [
+        {
+          "canonical": [
+            "3",
+            "113/50"
+          ],
+          "original": [
+            "113/50",
+            "3"
+          ],
+          "kind": "combined auxiliary",
+          "index": 17,
+          "owner_mask": 16
+        },
+        {
+          "canonical": [
+            "3",
+            "72/25"
+          ],
+          "original": [
+            "72/25",
+            "3"
+          ],
+          "kind": "singleton seed",
+          "base_index": 0,
+          "seed_transform": [
+            false,
+            true,
+            true
+          ],
+          "owner_mask": 16
+        }
+      ],
+      "lean_path": "Compact/Cases/FourSquareHighRight/Case887.lean",
+      "lean_lines": 82
+    },
+    {
+      "id": 1073,
+      "source": "evidence/historical/data/case1073-input.json",
+      "sha256": "e80f09222838ef209b6fd946a57f5455c6caa2c2ae41529fda4f8bceeb731022",
+      "archive_role_indices": [
+        6,
+        5,
+        9,
+        2
+      ],
+      "role_masks": [
+        1024,
+        512,
+        8192,
+        16
+      ],
+      "finite_assignments": 1,
+      "finite_nodes": 37,
+      "possible_role_values": {
+        "1024": [
+          65568
+        ],
+        "512": [
+          262400
+        ],
+        "8192": [
+          32832
+        ],
+        "16": [
+          131200
+        ]
+      },
+      "transform": [
+        true,
+        false,
+        false
+      ],
+      "left_barrier_mask": 1,
+      "right_endpoint_provenance": [
+        {
+          "canonical": [
+            "3",
+            "113/50"
+          ],
+          "original": [
+            "113/50",
+            "3"
+          ],
+          "kind": "combined auxiliary",
+          "index": 17,
+          "owner_mask": 16
+        },
+        {
+          "canonical": [
+            "3",
+            "72/25"
+          ],
+          "original": [
+            "72/25",
+            "3"
+          ],
+          "kind": "singleton seed",
+          "base_index": 0,
+          "seed_transform": [
+            false,
+            true,
+            true
+          ],
+          "owner_mask": 16
+        }
+      ],
+      "lean_path": "Compact/Cases/FourSquareHighRight/Case1073.lean",
+      "lean_lines": 80
+    },
+    {
+      "id": 1074,
+      "source": "evidence/historical/data/case1074-input.json",
+      "sha256": "61f014a29b7d6b103319d968f25688fa552e291ca1bad94d4eb04749b630e0e9",
+      "archive_role_indices": [
+        6,
+        5,
+        9,
+        2
+      ],
+      "role_masks": [
+        1024,
+        512,
+        8192,
+        16
+      ],
+      "finite_assignments": 3,
+      "finite_nodes": 40,
+      "possible_role_values": {
+        "1024": [
+          65568
+        ],
+        "512": [
+          262400
+        ],
+        "8192": [
+          32832
+        ],
+        "16": [
+          131200
+        ]
+      },
+      "transform": [
+        true,
+        false,
+        false
+      ],
+      "left_barrier_mask": 1,
+      "right_endpoint_provenance": [
+        {
+          "canonical": [
+            "3",
+            "113/50"
+          ],
+          "original": [
+            "113/50",
+            "3"
+          ],
+          "kind": "combined auxiliary",
+          "index": 17,
+          "owner_mask": 16
+        },
+        {
+          "canonical": [
+            "3",
+            "72/25"
+          ],
+          "original": [
+            "72/25",
+            "3"
+          ],
+          "kind": "singleton seed",
+          "base_index": 0,
+          "seed_transform": [
+            false,
+            true,
+            true
+          ],
+          "owner_mask": 16
+        }
+      ],
+      "lean_path": "Compact/Cases/FourSquareHighRight/Case1074.lean",
+      "lean_lines": 82
+    }
+  ],
+  "unresolved": [
+    {
+      "id": 678,
+      "source": "evidence/historical/data/case678-input.json",
+      "sha256": "b8a7d96995c54bdd5e8ae7543ad5c31c7c4134bc065d08327d826f4814cea668",
+      "archive_role_indices": [
+        11,
+        7,
+        10,
+        3
+      ],
+      "role_masks": [
+        17408,
+        512,
+        8192,
+        16
+      ],
+      "finite_assignments": 2,
+      "finite_nodes": 16,
+      "possible_role_values": {
+        "17408": [
+          65568,
+          262176
+        ],
+        "512": [
+          65792,
+          262400
+        ],
+        "8192": [
+          32832
+        ],
+        "16": [
+          131200
+        ]
+      }
+    },
+    {
+      "id": 680,
+      "source": "evidence/historical/data/case680-input.json",
+      "sha256": "cfec2d7fe27463976d4146110bcf65e7d965753afdff2df01ee3c2547fba7cbd",
+      "archive_role_indices": [
+        11,
+        8,
+        9,
+        4
+      ],
+      "role_masks": [
+        33792,
+        2048,
+        4096,
+        32
+      ],
+      "finite_assignments": 2,
+      "finite_nodes": 16,
+      "possible_role_values": {
+        "33792": [
+          65544,
+          65568
+        ],
+        "2048": [
+          16392,
+          16416
+        ],
+        "4096": [
+          2050
+        ],
+        "32": [
+          524800
+        ]
+      }
+    },
+    {
+      "id": 691,
+      "source": "evidence/historical/data/case691-input.json",
+      "sha256": "da96a1d2abb9a286d670e51525f5c0ee94c68bfcaa3ba618a00fb22c8422b1e6",
+      "archive_role_indices": [
+        10,
+        7,
+        9,
+        3
+      ],
+      "role_masks": [
+        17408,
+        512,
+        8192,
+        16
+      ],
+      "finite_assignments": 4,
+      "finite_nodes": 18,
+      "possible_role_values": {
+        "17408": [
+          16416,
+          65568,
+          262176
+        ],
+        "512": [
+          65792,
+          262400
+        ],
+        "8192": [
+          32832
+        ],
+        "16": [
+          131200
+        ]
+      }
+    },
+    {
+      "id": 694,
+      "source": "evidence/historical/data/case694-input.json",
+      "sha256": "61c9481545c4c3f6e00dd2b5a7f3381df386f15228ed16b717c8ac8ff9443387",
+      "archive_role_indices": [
+        10,
+        7,
+        9,
+        3
+      ],
+      "role_masks": [
+        17408,
+        512,
+        8192,
+        16
+      ],
+      "finite_assignments": 4,
+      "finite_nodes": 18,
+      "possible_role_values": {
+        "17408": [
+          2080,
+          65568,
+          262176
+        ],
+        "512": [
+          65792,
+          262400
+        ],
+        "8192": [
+          32832
+        ],
+        "16": [
+          131200
+        ]
+      }
+    },
+    {
+      "id": 711,
+      "source": "evidence/historical/data/case711-input.json",
+      "sha256": "00af897c9d1a6fdb36ade930894fca21e2a656a19e76953a0a850fb1ec3afdac",
+      "archive_role_indices": [
+        11,
+        7,
+        8,
+        4
+      ],
+      "role_masks": [
+        33792,
+        2048,
+        4096,
+        32
+      ],
+      "finite_assignments": 4,
+      "finite_nodes": 39,
+      "possible_role_values": {
+        "33792": [
+          65544,
+          65568
+        ],
+        "2048": [
+          16392,
+          16416
+        ],
+        "4096": [
+          2050
+        ],
+        "32": [
+          524800
+        ]
+      }
+    }
+  ],
+  "elapsed_seconds": 0.007531167000706773,
+  "peak_rss_bytes_macos": 21053440
+}

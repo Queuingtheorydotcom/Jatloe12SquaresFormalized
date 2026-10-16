@@ -1,0 +1,200 @@
+--- a/projects/n12-refactored/Compact/Assembly/C981Progress.lean
++++ b/projects/n12-refactored/Compact/Assembly/C981Progress.lean
+@@ -5,9 +5,15 @@
+ import Compact.Completion.C981.ShortRows.CoreRows
+ import Compact.Completion.C981.ShortWallRows
+ import Compact.Completion.C981.ShortWall71
++import Compact.Completion.C981.Common107
++import Compact.Completion.C981.Last104
++import Compact.Completion.C981.NewSimpleShortRows
++import Compact.Completion.C981.OutwardTranspose
++import Compact.Completion.C981.ShortCentralRows
+ 
+-/-! Twenty-two whole original representative exclusions, independently of
+-the larger classification and the still-open full case-981 obligation. -/
++/-! Forty-two whole original representative exclusions, independently of
++fresh acceptance of the larger classification and complete case-981 assembly.
++The last twenty contracts use shared continuous geometry and original owners. -/
+ namespace N12Compact.C981Progress
+ open S12Completion.C981
+ set_option Elab.async false
+@@ -16,13 +22,30 @@
+   ((C981TwoTipRows.coveredIds ++ [27]) ++ C981InwardWallRows.coveredIds) ++
+     C981CompletionOutwardRows.coveredIds
+ 
+-def newIds : List Nat :=
++def earlierIds : List Nat :=
+   ((previousIds ++ [101]) ++ C981CompletionShortWallRows.coveredIds) ++ [71]
+ 
++/-- The exact twenty original-vector contracts added by the simplified
++common/last cycles and the two outward-neighbor reductions. -/
++def completionIds : List Nat :=
++  (((C981CompletionCommonRows.coveredIds ++ [107,29,104]) ++
++    C981CompletionNewSimpleShortRows.coveredIds) ++ [55]) ++
++    C981CompletionShortCentralRows.coveredIds
++
++def newIds : List Nat := earlierIds ++ completionIds
++
++theorem completionIds_exact : completionIds =
++    [2,28,30,34,37,41,43,69,103,107,29,104,54,56,58,73,109,55,93,98] := by
++  decide +kernel
++
++theorem completionIds_count : completionIds.length = 20 := by decide +kernel
++
+ theorem newIds_exact : newIds =
+-    [25,31,40,70,32,33,38,57,99,94,95,27,36,106,24,26,39,101,59,105,108,71] := by decide +kernel
++    [25,31,40,70,32,33,38,57,99,94,95,27,36,106,24,26,39,101,59,105,108,71,
++      2,28,30,34,37,41,43,69,103,107,29,104,54,56,58,73,109,55,93,98] := by
++  decide +kernel
+ 
+-theorem newIds_count : newIds.length = 22 := by decide +kernel
++theorem newIds_count : newIds.length = 42 := by decide +kernel
+ theorem newIds_distinct : newIds.Nodup := by decide +kernel
+ theorem newIds_bound : ∀ i ∈ newIds, i < 117 := by decide +kernel
+ 
+@@ -38,7 +61,7 @@
+     · exact C981InwardWallRows.covered_excluded i inward
+   · exact C981CompletionOutwardRows.covered_excluded i outward
+ 
+-theorem new_excluded (i : Nat) (hi : i ∈ newIds) :
++theorem earlier_excluded (i : Nat) (hi : i ∈ earlierIds) :
+     ExcludesVector (representativeVectors[i]!) := by
+   rcases List.mem_append.mp hi with earlier | row71
+   · rcases List.mem_append.mp earlier with earlier | shortWall
+@@ -52,6 +75,30 @@
+     subst i
+     exact C981CompletionShortWall71.representative71_excluded
+ 
++theorem completion_excluded (i : Nat) (hi : i ∈ completionIds) :
++    ExcludesVector (representativeVectors[i]!) := by
++  rcases List.mem_append.mp hi with previous | central
++  · rcases List.mem_append.mp previous with previous | row55
++    · rcases List.mem_append.mp previous with cycles | simple
++      · rcases List.mem_append.mp cycles with common | singles
++        · exact C981CompletionCommonRows.covered_excluded i common
++        · simp only [List.mem_cons,List.not_mem_nil,or_false] at singles
++          rcases singles with rfl | rfl | rfl
++          · exact C981CompletionCommon107.representative107_excluded
++          · exact C981CompletionLastRows.representative29_excluded
++          · exact C981CompletionLast104.representative104_excluded
++      · exact C981CompletionNewSimpleShortRows.covered_excluded i simple
++    · have same : i = 55 := List.mem_singleton.mp row55
++      subst i
++      exact C981CompletionOutwardTranspose.representative55_excluded
++  · exact C981CompletionShortCentralRows.covered_excluded i central
++
++theorem new_excluded (i : Nat) (hi : i ∈ newIds) :
++    ExcludesVector (representativeVectors[i]!) := by
++  rcases List.mem_append.mp hi with earlier | completed
++  · exact earlier_excluded i earlier
++  · exact completion_excluded i completed
++
+ #check new_excluded
+ #print axioms new_excluded
+ end N12Compact.C981Progress
+--- a/projects/n12-refactored/Compact/Cases/C981Registry.lean
++++ b/projects/n12-refactored/Compact/Cases/C981Registry.lean
+@@ -14,6 +14,7 @@
+ import Compact.Completion.C981.ShortWallRows
+ import Compact.Completion.C981.ShortWall71
+ import Compact.Cases.C981V116
++import Compact.Assembly.C981Progress
+ 
+ /-! Honest compact completion boundary for the entire original C981 case.
+ The literal original vector contracts are imported, and the shared endpoint
+@@ -23,8 +24,10 @@
+ the outer-elbow proof for 35 and 60, the eleven two-tip proofs, row 27,
+ the inward-wall proofs for 36 and 106, the outward proofs for24,26,39,
+ the short core proof for101, the short wall cycle for59,105,108,
+-the short wall proof for 71, and V116 are consumed. The remaining twenty full-vector exclusions
+-are explicit inputs, not admissions. The full actual domain/symmetry cover is imported by C981Compact separately. -/
++the short wall proof for 71, V116, and the twenty simplified completion
++contracts are consumed. No representative-vector obligations remain.
++The full actual domain/symmetry cover is imported by C981Compact separately,
++and acceptance of that original enumeration remains a separate check. -/
+ namespace N12Compact.C981Compact
+ open S12 S12Completion S12Completion.C981
+ set_option Elab.async false
+@@ -34,9 +37,11 @@
+     (C981WallElbows.coveredIds ++ C981DoubleWallElbows.coveredIds)) ++
+     C981TwoTipRows.coveredIds) ++ C981InwardWallRows.coveredIds
+ 
+-def coveredIds : List Nat :=
++def previousCoveredIds : List Nat :=
+   (baseCoveredIds ++ C981CompletionOutwardRows.coveredIds) ++
+     C981CompletionShortWallRows.coveredIds
++
++def coveredIds : List Nat := previousCoveredIds ++ C981Progress.completionIds
+ 
+ def unfinished : List Nat :=
+   (List.range 117).filter (fun i =>
+@@ -67,31 +72,37 @@
+       i ≠ 5 ∧ i ≠ 42 ∧ i ≠ 3 ∧ i ≠ 35 ∧ i ≠ 60)) =
+     [25,31,40,70,32,33,38,57,99,94,95] := by decide +kernel
+ 
+-theorem unfinished_count : unfinished.length = 20 := by decide +kernel
++theorem unfinished_count : unfinished.length = 0 := by decide +kernel
+ 
+-/-- Exact original obligations remaining after two-tip integration. -/
+-theorem unfinished_ids : unfinished =
+-    [2,28,29,30,34,37,41,43,54,55,56,58,69,73,
+-      93,98,103,104,107,109] := by decide +kernel
++/-- Every original representative has a supplied full-vector contract. -/
++theorem unfinished_ids : unfinished = [] := by decide +kernel
++
++/-- Preserve the existing conditional assembly API while supplying its now
++empty representative boundary by an ordinary proof. -/
++theorem pending_closed : Pending := by
++  intro i member
++  simp only [unfinished_ids,List.not_mem_nil] at member
+ 
+ theorem all_representatives (pending : Pending) (i : Fin 117) :
+     ExcludesVector (representativeVectors[i.val]!) := by
+   by_cases known : i.val ∈ coveredIds
+-  · rcases List.mem_append.mp known with previousRows | shortWall
+-    · rcases List.mem_append.mp previousRows with previousRows | outward
+-      · rcases List.mem_append.mp previousRows with previous | inwardWall
+-        · rcases List.mem_append.mp previous with earlier | twoTip
+-          · rcases List.mem_append.mp earlier with endpoints | walls
+-            · rcases List.mem_append.mp endpoints with endpoint | diagonal
+-              · exact C981RotatedEndpointRows.covered_excluded i.val endpoint
+-              · exact C981DiagonalOuter.covered_excluded i.val diagonal
+-            · rcases List.mem_append.mp walls with ordinary | double
+-              · exact C981WallElbows.covered_excluded i.val ordinary
+-              · exact C981DoubleWallElbows.covered_excluded i.val double
+-          · exact C981TwoTipRows.covered_excluded i.val twoTip
+-        · exact C981InwardWallRows.covered_excluded i.val inwardWall
+-      · exact C981CompletionOutwardRows.covered_excluded i.val outward
+-    · exact C981CompletionShortWallRows.covered_excluded i.val shortWall
++  · rcases List.mem_append.mp known with previous | completed
++    · rcases List.mem_append.mp previous with previousRows | shortWall
++      · rcases List.mem_append.mp previousRows with previousRows | outward
++        · rcases List.mem_append.mp previousRows with previous | inwardWall
++          · rcases List.mem_append.mp previous with earlier | twoTip
++            · rcases List.mem_append.mp earlier with endpoints | walls
++              · rcases List.mem_append.mp endpoints with endpoint | diagonal
++                · exact C981RotatedEndpointRows.covered_excluded i.val endpoint
++                · exact C981DiagonalOuter.covered_excluded i.val diagonal
++              · rcases List.mem_append.mp walls with ordinary | double
++                · exact C981WallElbows.covered_excluded i.val ordinary
++                · exact C981DoubleWallElbows.covered_excluded i.val double
++            · exact C981TwoTipRows.covered_excluded i.val twoTip
++          · exact C981InwardWallRows.covered_excluded i.val inwardWall
++        · exact C981CompletionOutwardRows.covered_excluded i.val outward
++      · exact C981CompletionShortWallRows.covered_excluded i.val shortWall
++    · exact C981Progress.completion_excluded i.val completed
+   by_cases row27 : i.val = 27
+   · simpa only [row27] using C981Row27.representative27_excluded
+   by_cases last : i.val = 116
+@@ -120,5 +131,11 @@
+           ⟨known,row27,last,fullAux,diagonalWall,diagonalCorner,strongerDiagonal,shortTop,outer,strongerOuter,shortCore,row71⟩⟩)
+ 
+ 
++/-- All original representatives, with no remaining proof argument. -/
++theorem all_representatives_complete (i : Fin 117) :
++    ExcludesVector (representativeVectors[i.val]!) :=
++  all_representatives pending_closed i
++
++#print axioms all_representatives_complete
+ #print axioms all_representatives
+ end N12Compact.C981Compact

@@ -1,0 +1,19 @@
+{
+  "status": "two source-only pilots activated; Lean replay pending",
+  "proposal_manifest_sha256": "3151a35f0216330371077df6b54178a3e1645fbc35d507745bcf4b0e85a5e0eb",
+  "outputs": [
+    {
+      "path": "Compact/Cases/C713/DirectPruningHintPilot/Step00Batch00.lean",
+      "sha256": "724ed0d098d5f0abc8d41c3d107c884bc4e10fa630c31fbd75407bfcee9b382c",
+      "lines": 52,
+      "bytes": 4483
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruningHintPilot/Step01Batch00.lean",
+      "sha256": "797ef16dd0c0b164b28ca8868cabb430d116d1f6b00612814ee42987b69f40ac",
+      "lines": 79,
+      "bytes": 8883
+    }
+  ],
+  "production_batches_changed": false
+}

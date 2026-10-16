@@ -1,0 +1,562 @@
+{
+  "canonical_branch": "n12",
+  "pre_cleanup_final_commit": "01d3d22b28aea68f68eb11e4726d8f9220834874",
+  "archive_prefix": "archive/n12/2026-10-15/",
+  "branches": [
+    {
+      "old_branch": "12Refractored",
+      "tip": "3013badbf160901b5884fe7a0b37ad440fad641a",
+      "archive_tag": "archive/n12/2026-10-15/12Refractored"
+    },
+    {
+      "old_branch": "codex/c705-c716-whole-case-integration",
+      "tip": "061746a0b196c1d4c0e4b26e804b9823afd7ec44",
+      "archive_tag": "archive/n12/2026-10-15/codex/c705-c716-whole-case-integration"
+    },
+    {
+      "old_branch": "codex/c981-last-scalars-repair",
+      "tip": "97f9abd262599d4a3d474d772fb929c07eaa3a21",
+      "archive_tag": "archive/n12/2026-10-15/codex/c981-last-scalars-repair"
+    },
+    {
+      "old_branch": "codex/c981-short-certificate-bridge-repair",
+      "tip": "0158447f97e60568da0f78dad285d0a227fd3e01",
+      "archive_tag": "archive/n12/2026-10-15/codex/c981-short-certificate-bridge-repair"
+    },
+    {
+      "old_branch": "codex/c981-short-certificate-validation",
+      "tip": "f4653ff34b64abfe2bb3554249cb7efb5ab6a918",
+      "archive_tag": "archive/n12/2026-10-15/codex/c981-short-certificate-validation"
+    },
+    {
+      "old_branch": "codex/c981-short54-initial-program-chunks",
+      "tip": "f2144c9d40d3a83895c068962ddbd30650bc953d",
+      "archive_tag": "archive/n12/2026-10-15/codex/c981-short54-initial-program-chunks"
+    },
+    {
+      "old_branch": "codex/c981-short54-input-chunks",
+      "tip": "46e0067e3aa72d1001a1bf2b95c8f7e4575c368a",
+      "archive_tag": "archive/n12/2026-10-15/codex/c981-short54-input-chunks"
+    },
+    {
+      "old_branch": "codex/cloud-n12-continuation",
+      "tip": "ba066706bb22fbf4bbb0951d676c9ac6f8f0212c",
+      "archive_tag": "archive/n12/2026-10-15/codex/cloud-n12-continuation"
+    },
+    {
+      "old_branch": "codex/complete-twelve-squares",
+      "tip": "c5c6144349a141e56ac43c81ed732f731c591eac",
+      "archive_tag": "archive/n12/2026-10-15/codex/complete-twelve-squares"
+    },
+    {
+      "old_branch": "codex/n12-active-replay-status",
+      "tip": "d9dd0f3355d39609ee69a441d2d75b2097604dc0",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-active-replay-status"
+    },
+    {
+      "old_branch": "codex/n12-c1092-adjacent-pair",
+      "tip": "1a67785a4b37f31e571d89172003c6e96b7fa72d",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c1092-adjacent-pair"
+    },
+    {
+      "old_branch": "codex/n12-c1092-pair-supports",
+      "tip": "1322eb2d28974300abf0202aa919733e13379091",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c1092-pair-supports"
+    },
+    {
+      "old_branch": "codex/n12-c1092-scalar-margins",
+      "tip": "337bfb565057ab40e8a7cba3c5707e14582d5eeb",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c1092-scalar-margins"
+    },
+    {
+      "old_branch": "codex/n12-c696-corner-wall-cycle",
+      "tip": "c1bb8df83fc157c71209afd1e5173e166411a987",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c696-corner-wall-cycle"
+    },
+    {
+      "old_branch": "codex/n12-c696-high-negative-bounds",
+      "tip": "c203e7eff8e45149b4df861fd7dbacac372e88bb",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c696-high-negative-bounds"
+    },
+    {
+      "old_branch": "codex/n12-c696-left-sector",
+      "tip": "d0655cf06600dc9edc6349dd92bd2215d4f87101",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c696-left-sector"
+    },
+    {
+      "old_branch": "codex/n12-c696-longitudinal",
+      "tip": "8e30c72de8957a61ab2442bc8167666b6f0ac0e1",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c696-longitudinal"
+    },
+    {
+      "old_branch": "codex/n12-c696-longitudinal-bounds",
+      "tip": "8f053b058631b3747109bc325a974d1f8aad4f14",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c696-longitudinal-bounds"
+    },
+    {
+      "old_branch": "codex/n12-c696-mixed-axis-bounds",
+      "tip": "e129d19985707ad251278d4f4a4575f2525469ca",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c696-mixed-axis-bounds"
+    },
+    {
+      "old_branch": "codex/n12-c696-mixed-axis-sectors",
+      "tip": "67867bd8c4be4ebb4578dd89ff3b31a27189bba5",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c696-mixed-axis-sectors"
+    },
+    {
+      "old_branch": "codex/n12-c696-negative-bottom-walls",
+      "tip": "23720cca94a0c2ad98e9cf9b6776df4fa1205be4",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c696-negative-bottom-walls"
+    },
+    {
+      "old_branch": "codex/n12-c696-negative-marker-cycle",
+      "tip": "23512e1a095ec433c09e52bed08402588fce620f",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c696-negative-marker-cycle"
+    },
+    {
+      "old_branch": "codex/n12-c696-negative-mixed-cycle",
+      "tip": "940766a66e062a332feb0697873c6abc162027de",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c696-negative-mixed-cycle"
+    },
+    {
+      "old_branch": "codex/n12-c696-negative-wall-order",
+      "tip": "cadb1ea3418d108545c2cbc5d8d2f309e197c4fe",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c696-negative-wall-order"
+    },
+    {
+      "old_branch": "codex/n12-c696-other-mixed-bounds",
+      "tip": "69cbbce68fd401a0e57ae6cf5a472cd8bf715c42",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c696-other-mixed-bounds"
+    },
+    {
+      "old_branch": "codex/n12-c696-own-v-sector",
+      "tip": "031e9deebc04bbdc20be08ed1c0a85d9c0375d78",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c696-own-v-sector"
+    },
+    {
+      "old_branch": "codex/n12-c696-owned-west",
+      "tip": "ba22a13ee537fc294b09b666b86c3fa49a745ea3",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c696-owned-west"
+    },
+    {
+      "old_branch": "codex/n12-c696-ownership-transports",
+      "tip": "36da50c5b7fcb265256ed87fbfc4bb59ed1b96c6",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c696-ownership-transports"
+    },
+    {
+      "old_branch": "codex/n12-c696-positive-bottom",
+      "tip": "43cfb89cf155b75da7557a7cc5c85c69cc7c90d2",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c696-positive-bottom"
+    },
+    {
+      "old_branch": "codex/n12-c696-positive-left-arc",
+      "tip": "6010e7cf166dcd6b129007257119c74f733664b1",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c696-positive-left-arc"
+    },
+    {
+      "old_branch": "codex/n12-c696-positive-left-coupling",
+      "tip": "04c0bf5e2d10362ae5e783b72eff7322e6a95a7e",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c696-positive-left-coupling"
+    },
+    {
+      "old_branch": "codex/n12-c696-positive-left-replay",
+      "tip": "854575fa09719a8911bf5292450fe5313e81ec14",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c696-positive-left-replay"
+    },
+    {
+      "old_branch": "codex/n12-c696-positive-sector",
+      "tip": "1f9f7776b179be7bfcd8dcb2f1dfa381c8de2d8d",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c696-positive-sector"
+    },
+    {
+      "old_branch": "codex/n12-c696-row-interface",
+      "tip": "20693a12e112aaffa3ab962a063d21311d384552",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c696-row-interface"
+    },
+    {
+      "old_branch": "codex/n12-c696-shared-axis",
+      "tip": "b9d7003d45159f8bd3cdf782b1d383839b52108e",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c696-shared-axis"
+    },
+    {
+      "old_branch": "codex/n12-c696-support-reach",
+      "tip": "4831bceaa87f19811f71705def9bd46716ec2a95",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c696-support-reach"
+    },
+    {
+      "old_branch": "codex/n12-c696-wall-escape",
+      "tip": "0241e040f26cd18341916485d678985792bdc2c3",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c696-wall-escape"
+    },
+    {
+      "old_branch": "codex/n12-c696-whole-case-replay",
+      "tip": "ad9d97aa346ed4739651639fd37e88600ce3bc1b",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c696-whole-case-replay"
+    },
+    {
+      "old_branch": "codex/n12-c701-first-initial-owner",
+      "tip": "d2e24af711c6c22f23dcefd6645afa28d5852868",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c701-first-initial-owner"
+    },
+    {
+      "old_branch": "codex/n12-c701-five-initial-owners",
+      "tip": "cc71e2b8ce093c8ea0fade7175a3dceb718e9d50",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c701-five-initial-owners"
+    },
+    {
+      "old_branch": "codex/n12-c701-heavy-initial-recipe",
+      "tip": "43c3efc45a1ce402c11e39b3745c8fc59734ffdb",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c701-heavy-initial-recipe"
+    },
+    {
+      "old_branch": "codex/n12-c701-single-batch-pruning",
+      "tip": "01b1a7c91114097d92ebad020ab4a774ddcd7892",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c701-single-batch-pruning"
+    },
+    {
+      "old_branch": "codex/n12-c701-witness-owner-covers",
+      "tip": "949b41f1a1c0c2738f6866e1e22f88e2d2a3c780",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c701-witness-owner-covers"
+    },
+    {
+      "old_branch": "codex/n12-c705-c716-complete-contracts",
+      "tip": "3f8a157baf461c24c1727cebbabef4b530aa21a8",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c705-c716-complete-contracts"
+    },
+    {
+      "old_branch": "codex/n12-c705716-initial-domain-replay",
+      "tip": "e1cd18b92dfb36fdb0508130c2a43cc834e1dd41",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c705716-initial-domain-replay"
+    },
+    {
+      "old_branch": "codex/n12-c713-final-initial-owners",
+      "tip": "942ec95679b7c3a963c3c480941033d88882c830",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c713-final-initial-owners"
+    },
+    {
+      "old_branch": "codex/n12-c713-final-owner-and-entrance",
+      "tip": "4f65dab1d59620596d6eb8212d72b302aa7d543e",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c713-final-owner-and-entrance"
+    },
+    {
+      "old_branch": "codex/n12-c713-fourth-initial-owner",
+      "tip": "83e8b3416c85064802f4cb48eee1659c09f5460d",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c713-fourth-initial-owner"
+    },
+    {
+      "old_branch": "codex/n12-c713-heavy-initial-witness",
+      "tip": "0ab152f3545265cb573ecd71a1b3b3fc3cc61945",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c713-heavy-initial-witness"
+    },
+    {
+      "old_branch": "codex/n12-c713-initial-owner-covers",
+      "tip": "0b08d81405e3548cb562a4aa2946f88612a49f16",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c713-initial-owner-covers"
+    },
+    {
+      "old_branch": "codex/n12-c713-last-four-initial-owners",
+      "tip": "66b4eae4e9f5b3af7ea985933f0b4b33828a1db7",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c713-last-four-initial-owners"
+    },
+    {
+      "old_branch": "codex/n12-c713-last-two-initial-owners",
+      "tip": "83319b2f37371f9d33afebed5a977acf28acbcbc",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c713-last-two-initial-owners"
+    },
+    {
+      "old_branch": "codex/n12-c713-owner9-heavy-witness",
+      "tip": "8b9d6a417053745edcd0949a557dac3f423a3b21",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c713-owner9-heavy-witness"
+    },
+    {
+      "old_branch": "codex/n12-c713-remaining-initial-owners",
+      "tip": "80323e543de5233f2aa109742515d1579c98b9f1",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c713-remaining-initial-owners"
+    },
+    {
+      "old_branch": "codex/n12-c713-seventh-initial-owner",
+      "tip": "2a00ad289d8f0b01483b1fa4faa46f1e39735ec0",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c713-seventh-initial-owner"
+    },
+    {
+      "old_branch": "codex/n12-c717-kernel-batches",
+      "tip": "401c040e603e9089539e030ddc9fef01b9e85997",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c717-kernel-batches"
+    },
+    {
+      "old_branch": "codex/n12-c84-ownership-certificate",
+      "tip": "5aa3fd1868f05ce20a9848d20c7553bd2bfd6491",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c84-ownership-certificate"
+    },
+    {
+      "old_branch": "codex/n12-c84-whole-case-replay",
+      "tip": "558819c147f25a469e9ccf1cd6516c5949e3ae87",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c84-whole-case-replay"
+    },
+    {
+      "old_branch": "codex/n12-c849851-replay",
+      "tip": "3f6c1d90fbd1f7db55b3ae4061a759464c538805",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c849851-replay"
+    },
+    {
+      "old_branch": "codex/n12-c977-bottom-wall-cycle",
+      "tip": "617d25d14efd2546a225744cd4e819243811dbfa",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c977-bottom-wall-cycle"
+    },
+    {
+      "old_branch": "codex/n12-c977-central-bottom-replay",
+      "tip": "c81a89f1aedda6f10ff6554b23f1b3ecb72e9099",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c977-central-bottom-replay"
+    },
+    {
+      "old_branch": "codex/n12-c977-incoming-axis",
+      "tip": "824dccea636fef9fecde319b2295eeb411473715",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c977-incoming-axis"
+    },
+    {
+      "old_branch": "codex/n12-c977-missing-center-corners",
+      "tip": "29c9afa32ac72b03a7eeb12a47beeb5c2b9ff251",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c977-missing-center-corners"
+    },
+    {
+      "old_branch": "codex/n12-c977-negative-bottom-incoming",
+      "tip": "961295d0c86e45f4c9c9209c653ebdffdc41536f",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c977-negative-bottom-incoming"
+    },
+    {
+      "old_branch": "codex/n12-c977-negative-bottom-positive-wall",
+      "tip": "624ee0776a90069d84c69a4b3269a39c98c48ae6",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c977-negative-bottom-positive-wall"
+    },
+    {
+      "old_branch": "codex/n12-c977-negative-far-floor",
+      "tip": "f3ced4955e764cd47320cc0c7204d637c91908b7",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c977-negative-far-floor"
+    },
+    {
+      "old_branch": "codex/n12-c977-negative-neighbor-dependency",
+      "tip": "d03364aa78495963e17f1a5ddf5254f7a0ab59d3",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c977-negative-neighbor-dependency"
+    },
+    {
+      "old_branch": "codex/n12-c977-negative-pair-reach",
+      "tip": "88e264097d25de63679409b81ab47c29ba309c3e",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c977-negative-pair-reach"
+    },
+    {
+      "old_branch": "codex/n12-c977-negative-top-reach",
+      "tip": "36446a3748e887340f0b753c707f889d867ece25",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c977-negative-top-reach"
+    },
+    {
+      "old_branch": "codex/n12-c977-negative-upward-axes",
+      "tip": "519fa6dd4312cdbb3f837df802a971661d7b61c6",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c977-negative-upward-axes"
+    },
+    {
+      "old_branch": "codex/n12-c977-negative-wall-mixed",
+      "tip": "200945f22a85332499a6f8f37bf2cf05b333b427",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c977-negative-wall-mixed"
+    },
+    {
+      "old_branch": "codex/n12-c977-positive-negative-cycle",
+      "tip": "51d8973ffdccfecc6cdb6bbdaf7c2a584bd13561",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c977-positive-negative-cycle"
+    },
+    {
+      "old_branch": "codex/n12-c977-positive-wall-ending",
+      "tip": "f63de0f50c4108fb1b3e3adb42cbd7107e59c53a",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c977-positive-wall-ending"
+    },
+    {
+      "old_branch": "codex/n12-c977-right-corner-support",
+      "tip": "581108c682f38a5e9473b0757144c5fcc7d774b6",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c977-right-corner-support"
+    },
+    {
+      "old_branch": "codex/n12-c977-right-wall-segment",
+      "tip": "2497293d2a6ff1766dc8d6b83b55cf87c924add5",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c977-right-wall-segment"
+    },
+    {
+      "old_branch": "codex/n12-c977-top-longitudinal-gap",
+      "tip": "d0255272f3f18bebf14c726ea93de89b4a1e981a",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c977-top-longitudinal-gap"
+    },
+    {
+      "old_branch": "codex/n12-c977-top-transverse",
+      "tip": "fd3c42b9fbdb716cc7396dfe1d7addaebddf1643",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c977-top-transverse"
+    },
+    {
+      "old_branch": "codex/n12-c977-upper-right-norm",
+      "tip": "347452e8f080d6a7b29140a46533a6ff514ff543",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c977-upper-right-norm"
+    },
+    {
+      "old_branch": "codex/n12-c977-wall-chain-replay",
+      "tip": "9f19e5f6135de27293419704025e8f52d3e5c434",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c977-wall-chain-replay"
+    },
+    {
+      "old_branch": "codex/n12-c979-upper-three-kernel-checks",
+      "tip": "b9e3cc8cebfbd81542e0365b739bc3fd4a556868",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-c979-upper-three-kernel-checks"
+    },
+    {
+      "old_branch": "codex/n12-chord-closed-witness-bounds",
+      "tip": "faad9dfd9344f43b2d47119a2239736dde26f329",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-chord-closed-witness-bounds"
+    },
+    {
+      "old_branch": "codex/n12-chord-radii-scope",
+      "tip": "6a1ef9cba8192a7cf3e0818c938ef7de70f0dd5c",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-chord-radii-scope"
+    },
+    {
+      "old_branch": "codex/n12-cover-data-blocks",
+      "tip": "d3c4f76ba4ba2b392998e43034761c1a7ef59b12",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-cover-data-blocks"
+    },
+    {
+      "old_branch": "codex/n12-domain-spec-replay",
+      "tip": "1b2c4117a2b29272d8faf9523ab07059f90c49f9",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-domain-spec-replay"
+    },
+    {
+      "old_branch": "codex/n12-historical-common-keys-scope",
+      "tip": "4e13710132aff8984ae9a13d1ad215328ea9e299",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-historical-common-keys-scope"
+    },
+    {
+      "old_branch": "codex/n12-historical-fan-bindings",
+      "tip": "614c792ec217fa3e00ae8cf3969ade71ca38b4d1",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-historical-fan-bindings"
+    },
+    {
+      "old_branch": "codex/n12-indexed-blocked-target-syntax",
+      "tip": "2ce6f422bbddb9831c8677c899b0ca0877351b5e",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-indexed-blocked-target-syntax"
+    },
+    {
+      "old_branch": "codex/n12-initial-cover-command-options",
+      "tip": "586019c2bd36b1a1b013fa5a4243c18569b17931",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-initial-cover-command-options"
+    },
+    {
+      "old_branch": "codex/n12-initial-programs-2026-10-14",
+      "tip": "01d3d22b28aea68f68eb11e4726d8f9220834874",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-initial-programs-2026-10-14"
+    },
+    {
+      "old_branch": "codex/n12-merged-top-entrances",
+      "tip": "032699b5caa3f9a0f5eb64ca52b153dba0d4927f",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-merged-top-entrances"
+    },
+    {
+      "old_branch": "codex/n12-midpoint-section-endpoints",
+      "tip": "96e3bc89959dd61e8eb7c4f39a34de4623955575",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-midpoint-section-endpoints"
+    },
+    {
+      "old_branch": "codex/n12-opposite-walls-checks",
+      "tip": "45859875640a54a0acb2afec91b1ddbfd8ef923a",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-opposite-walls-checks"
+    },
+    {
+      "old_branch": "codex/n12-paused-checkpoint-2026-10-14",
+      "tip": "d5620c3a7eaa08943e0dbea2604e1079e2209238",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-paused-checkpoint-2026-10-14"
+    },
+    {
+      "old_branch": "codex/n12-short-projection-bounds",
+      "tip": "25811c2ed87772759718340818f0a393bb7be12a",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-short-projection-bounds"
+    },
+    {
+      "old_branch": "codex/n12-source-assembly-after-c696",
+      "tip": "0c07453389d846cbbe20a610c94fe9683aab38a7",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-source-assembly-after-c696"
+    },
+    {
+      "old_branch": "codex/n12-source-assembly-after-c84",
+      "tip": "1ee6f8d6ea88931ad7b43f9adaea894abf6a1e01",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-source-assembly-after-c84"
+    },
+    {
+      "old_branch": "codex/n12-source-assembly-after-c977",
+      "tip": "e0bbe8ff1b0ca28cd61ddbe90a932eff644a904f",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-source-assembly-after-c977"
+    },
+    {
+      "old_branch": "codex/n12-source-assembly-replay",
+      "tip": "9421c8625a1a0be985db7890d297a82b4bf1f5af",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-source-assembly-replay"
+    },
+    {
+      "old_branch": "codex/n12-transport-owner-domains",
+      "tip": "8024c9e774fec3f679b7a4d8695d1ffb785b28c6",
+      "archive_tag": "archive/n12/2026-10-15/codex/n12-transport-owner-domains"
+    },
+    {
+      "old_branch": "n12-coordination",
+      "tip": "730e829b6dd7d032cc8b03fa5d04646fe2958b62",
+      "archive_tag": "archive/n12/2026-10-15/n12-coordination"
+    },
+    {
+      "old_branch": "n12/c1089-app-draft-20261009",
+      "tip": "f1d927c914bbaf915bfa979c16c1a07ecbd2f8f0",
+      "archive_tag": "archive/n12/2026-10-15/n12/c1089-app-draft-20261009"
+    },
+    {
+      "old_branch": "n12/formalize-normalization",
+      "tip": "44f32f60ebfbdf7ae7fa932da369dcb5f81fa49b",
+      "archive_tag": "archive/n12/2026-10-15/n12/formalize-normalization"
+    },
+    {
+      "old_branch": "n12/lean-4.19",
+      "tip": "e122bc2b9329da8057ca208343436a380ab97c59",
+      "archive_tag": "archive/n12/2026-10-15/n12/lean-4.19"
+    },
+    {
+      "old_branch": "n12/ledger-4.19",
+      "tip": "2f2dad9fa6e81f69dca0f9b9cd4d54bc5e9b0471",
+      "archive_tag": "archive/n12/2026-10-15/n12/ledger-4.19"
+    },
+    {
+      "old_branch": "n12/worker-ben-c1090-route-preservation-20261010",
+      "tip": "80220fca8a8ca90f4df2c3aea8cf7468dc1285cb",
+      "archive_tag": "archive/n12/2026-10-15/n12/worker-ben-c1090-route-preservation-20261010"
+    },
+    {
+      "old_branch": "n12/worker-ben-c696-row-20261010",
+      "tip": "efa9c88582b9ab86b2e8c314028ba920da7c3757",
+      "archive_tag": "archive/n12/2026-10-15/n12/worker-ben-c696-row-20261010"
+    },
+    {
+      "old_branch": "n12/worker-ben-codex-20261008",
+      "tip": "672f72ef1761bdefad978eeefa3524fc513dc09c",
+      "archive_tag": "archive/n12/2026-10-15/n12/worker-ben-codex-20261008"
+    },
+    {
+      "old_branch": "n12/worker-codex-898-20261008",
+      "tip": "af965a97a388eb7d6a4720e74f6068a4c57e3e47",
+      "archive_tag": "archive/n12/2026-10-15/n12/worker-codex-898-20261008"
+    },
+    {
+      "old_branch": "n12/worker-codex-976-20261009",
+      "tip": "e521280b37b39610d830a421d83f29b3702009ae",
+      "archive_tag": "archive/n12/2026-10-15/n12/worker-codex-976-20261009"
+    },
+    {
+      "old_branch": "n12/worker-codex-c977-20261010",
+      "tip": "cbe674ec39981107208d84d4c15eb29754fe897e",
+      "archive_tag": "archive/n12/2026-10-15/n12/worker-codex-c977-20261010"
+    },
+    {
+      "old_branch": "recovery/n12-lean-september-2026",
+      "tip": "98ddf88a36d0a227d1a94e1c7e0ed64d1c840de8",
+      "archive_tag": "archive/n12/2026-10-15/recovery/n12-lean-september-2026"
+    }
+  ]
+}

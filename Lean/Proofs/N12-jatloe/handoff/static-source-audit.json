@@ -1,0 +1,473 @@
+{
+  "admission_or_custom_axiom_files": [],
+  "compiled": false,
+  "documentation_paths_redacted": [
+    "audit/C977.md",
+    "audit/C981-evidence.json",
+    "audit/C981.md",
+    "audit/REMAINING-SIZE-OBLIGATIONS.md",
+    "audit/SYMBOLIC.md",
+    "evidence/all-import-budget.json",
+    "evidence/c981-catalogue-imports.json",
+    "evidence/four-square-lower-barrier-family.json",
+    "evidence/historical-active-graphs-audit.json",
+    "evidence/proposals/HistoricalGraphs/manifest.json",
+    "evidence/shared-sparse-pilots.json",
+    "evidence/virtual-import-budget.json"
+  ],
+  "inherited_native_sites": [
+    {
+      "path": "source/S12/AngleData128.lean",
+      "preferred": true,
+      "sites": 1
+    },
+    {
+      "path": "source/S12/AngleData32.lean",
+      "preferred": false,
+      "sites": 1
+    },
+    {
+      "path": "source/S12/AngleData64.lean",
+      "preferred": true,
+      "sites": 1
+    },
+    {
+      "path": "source/S12/Case976Domains.lean",
+      "preferred": true,
+      "sites": 1847
+    },
+    {
+      "path": "source/S12/CoreData.lean",
+      "preferred": true,
+      "sites": 419
+    },
+    {
+      "path": "source/S12/CoverData.lean",
+      "preferred": true,
+      "sites": 24
+    },
+    {
+      "path": "source/S12/DomainSpecData.lean",
+      "preferred": true,
+      "sites": 128
+    },
+    {
+      "path": "source/S12/FourPointData.lean",
+      "preferred": true,
+      "sites": 111
+    },
+    {
+      "path": "source/S12/LocalQueryData.lean",
+      "preferred": true,
+      "sites": 35
+    },
+    {
+      "path": "source/S12/Raw.lean",
+      "preferred": true,
+      "sites": 3
+    },
+    {
+      "path": "source/S12/SharedCase1089.lean",
+      "preferred": false,
+      "sites": 1
+    },
+    {
+      "path": "source/S12/To100.lean",
+      "preferred": false,
+      "sites": 2
+    },
+    {
+      "path": "source/S12/To101.lean",
+      "preferred": false,
+      "sites": 2
+    },
+    {
+      "path": "source/S12/To102.lean",
+      "preferred": false,
+      "sites": 3
+    },
+    {
+      "path": "source/S12/To104.lean",
+      "preferred": false,
+      "sites": 2
+    },
+    {
+      "path": "source/S12/To105.lean",
+      "preferred": false,
+      "sites": 2
+    },
+    {
+      "path": "source/S12/To106.lean",
+      "preferred": false,
+      "sites": 2
+    },
+    {
+      "path": "source/S12/To110.lean",
+      "preferred": false,
+      "sites": 2
+    },
+    {
+      "path": "source/S12/To113.lean",
+      "preferred": false,
+      "sites": 2
+    },
+    {
+      "path": "source/S12/To114.lean",
+      "preferred": false,
+      "sites": 2
+    },
+    {
+      "path": "source/S12/To115.lean",
+      "preferred": false,
+      "sites": 2
+    },
+    {
+      "path": "source/S12/To116.lean",
+      "preferred": false,
+      "sites": 2
+    },
+    {
+      "path": "source/S12/To117.lean",
+      "preferred": true,
+      "sites": 3
+    },
+    {
+      "path": "source/S12/To18.lean",
+      "preferred": false,
+      "sites": 3
+    },
+    {
+      "path": "source/S12/To20.lean",
+      "preferred": false,
+      "sites": 3
+    },
+    {
+      "path": "source/S12/To22.lean",
+      "preferred": false,
+      "sites": 2
+    },
+    {
+      "path": "source/S12/To23.lean",
+      "preferred": false,
+      "sites": 2
+    },
+    {
+      "path": "source/S12/To24.lean",
+      "preferred": false,
+      "sites": 2
+    },
+    {
+      "path": "source/S12/To25.lean",
+      "preferred": false,
+      "sites": 3
+    },
+    {
+      "path": "source/S12/To27.lean",
+      "preferred": false,
+      "sites": 5
+    },
+    {
+      "path": "source/S12/To30.lean",
+      "preferred": false,
+      "sites": 2
+    },
+    {
+      "path": "source/S12/To31.lean",
+      "preferred": false,
+      "sites": 4
+    },
+    {
+      "path": "source/S12/To34.lean",
+      "preferred": false,
+      "sites": 2
+    },
+    {
+      "path": "source/S12/To35.lean",
+      "preferred": false,
+      "sites": 2
+    },
+    {
+      "path": "source/S12/To36.lean",
+      "preferred": false,
+      "sites": 2
+    },
+    {
+      "path": "source/S12/To37.lean",
+      "preferred": false,
+      "sites": 3
+    },
+    {
+      "path": "source/S12/To39.lean",
+      "preferred": false,
+      "sites": 7
+    },
+    {
+      "path": "source/S12/To45.lean",
+      "preferred": false,
+      "sites": 5
+    },
+    {
+      "path": "source/S12/To49.lean",
+      "preferred": false,
+      "sites": 6
+    },
+    {
+      "path": "source/S12/To54.lean",
+      "preferred": false,
+      "sites": 3
+    },
+    {
+      "path": "source/S12/To56.lean",
+      "preferred": false,
+      "sites": 3
+    },
+    {
+      "path": "source/S12/To58.lean",
+      "preferred": false,
+      "sites": 3
+    },
+    {
+      "path": "source/S12/To60.lean",
+      "preferred": false,
+      "sites": 3
+    },
+    {
+      "path": "source/S12/To62.lean",
+      "preferred": false,
+      "sites": 14
+    },
+    {
+      "path": "source/S12/To75.lean",
+      "preferred": false,
+      "sites": 2
+    },
+    {
+      "path": "source/S12/To76.lean",
+      "preferred": false,
+      "sites": 3
+    },
+    {
+      "path": "source/S12/To78.lean",
+      "preferred": false,
+      "sites": 3
+    },
+    {
+      "path": "source/S12/To80.lean",
+      "preferred": false,
+      "sites": 2
+    },
+    {
+      "path": "source/S12/To81.lean",
+      "preferred": false,
+      "sites": 4
+    },
+    {
+      "path": "source/S12/To84.lean",
+      "preferred": false,
+      "sites": 5
+    },
+    {
+      "path": "source/S12/To88.lean",
+      "preferred": false,
+      "sites": 6
+    },
+    {
+      "path": "source/S12/To89.lean",
+      "preferred": false,
+      "sites": 4
+    },
+    {
+      "path": "source/S12/To91.lean",
+      "preferred": false,
+      "sites": 2
+    },
+    {
+      "path": "source/S12/To92.lean",
+      "preferred": false,
+      "sites": 2
+    },
+    {
+      "path": "source/S12/To93.lean",
+      "preferred": false,
+      "sites": 2
+    },
+    {
+      "path": "source/S12/To94.lean",
+      "preferred": false,
+      "sites": 2
+    },
+    {
+      "path": "source/S12/To95.lean",
+      "preferred": false,
+      "sites": 2
+    },
+    {
+      "path": "source/S12/To96.lean",
+      "preferred": false,
+      "sites": 2
+    },
+    {
+      "path": "source/S12/To97.lean",
+      "preferred": false,
+      "sites": 2
+    },
+    {
+      "path": "source/S12/To98.lean",
+      "preferred": false,
+      "sites": 2
+    },
+    {
+      "path": "source/S12/To99.lean",
+      "preferred": false,
+      "sites": 2
+    }
+  ],
+  "new_project_native_sites": [],
+  "private_archives_or_logs_included": false,
+  "python_syntax_checked": [
+    "audit/assemble_four_square_convex_sources.py",
+    "audit/assemble_four_square_unused_sources.py",
+    "audit/c696_pair_cut_audit.py",
+    "audit/c696_terminal_probe.py",
+    "audit/c981_support_inventory.py",
+    "audit/check_four_square_convex_domains.py",
+    "audit/check_four_square_domains.py",
+    "audit/check_four_square_unused_domains.py",
+    "audit/check_four_square_variant_domains.py",
+    "audit/check_positive_central_five_square.py",
+    "scripts/activate_c713_checked_recipes.py",
+    "scripts/activate_c898_common_pairs.py",
+    "scripts/activate_c898_fused_context_pilot.py",
+    "scripts/activate_c898_spec_initial.py",
+    "scripts/activate_historical_chord_pilots.py",
+    "scripts/activate_historical_direct_pruning.py",
+    "scripts/activate_historical_pose_fan_recipes.py",
+    "scripts/activate_virtual_proposals.py",
+    "scripts/audit_c713_height_slice.py",
+    "scripts/audit_c898_all_common_points.py",
+    "scripts/audit_c898_all_pair_supports.py",
+    "scripts/audit_c898_boundary_filter.py",
+    "scripts/audit_c898_chord_supports.py",
+    "scripts/audit_c898_common_polygon.py",
+    "scripts/audit_c898_direct_cover.py",
+    "scripts/audit_c898_family_margins.py",
+    "scripts/audit_c898_neighbor_partition.py",
+    "scripts/audit_c898_relaxation_supports.py",
+    "scripts/audit_c898_support_reconstruction.py",
+    "scripts/audit_c981_diagonal_outer.py",
+    "scripts/audit_c981_diagonal_wall_signature.py",
+    "scripts/audit_c981_full_aux_signature.py",
+    "scripts/audit_four_square_convex_matches.py",
+    "scripts/audit_historical_bank_reachability.py",
+    "scripts/audit_historical_blocked_targets.py",
+    "scripts/audit_historical_common_points.py",
+    "scripts/audit_historical_direct_cover.py",
+    "scripts/audit_historical_outside_coverage.py",
+    "scripts/audit_historical_polygon_redundancy.py",
+    "scripts/audit_historical_strip_recipes.py",
+    "scripts/audit_merged_lower.py",
+    "scripts/audit_retained_trust.py",
+    "scripts/audit_shared_sparse.py",
+    "scripts/bootstrap_sources.py",
+    "scripts/boundary_fan_cycle.py",
+    "scripts/bounded.py",
+    "scripts/build_c898_cached_pair_pilot.py",
+    "scripts/build_c898_cached_pairs.py",
+    "scripts/build_c898_common_pairs.py",
+    "scripts/build_c898_cyclic_contexts.py",
+    "scripts/build_c898_direct_initial.py",
+    "scripts/build_c898_fused_chord.py",
+    "scripts/build_c898_pair_fan_pilot.py",
+    "scripts/build_c898_pair_plans.py",
+    "scripts/build_c898_pair_records.py",
+    "scripts/build_c898_recipe_initial.py",
+    "scripts/build_c898_retained_relaxations.py",
+    "scripts/build_c898_shared_poses.py",
+    "scripts/build_four_square_high_right.py",
+    "scripts/build_four_square_high_right_alternatives.py",
+    "scripts/build_historical_compact_data.py",
+    "scripts/build_historical_pose_fan_recipes.py",
+    "scripts/build_historical_vertex_fans.py",
+    "scripts/c977_plan_dag.py",
+    "scripts/check_c849_positive_triplet.py",
+    "scripts/compact_historical_chords.py",
+    "scripts/compact_historical_queries.py",
+    "scripts/compact_initial_batches.py",
+    "scripts/compress_historical_json.py",
+    "scripts/convert_c898_chord_radii.py",
+    "scripts/convert_c898_chord_steps.py",
+    "scripts/convert_c898_initial.py",
+    "scripts/convert_c898_initial_shared_bridge.py",
+    "scripts/convert_c898_initial_traversal.py",
+    "scripts/convert_c898_relaxations.py",
+    "scripts/convert_row_literals.py",
+    "scripts/count_c898_support_fans.py",
+    "scripts/export_delivery.py",
+    "scripts/import_budget.py",
+    "scripts/inventory_postforest_sources.py",
+    "scripts/inventory_seven_sources.py",
+    "scripts/numeric_record_inventory.py",
+    "scripts/package_handoffs.py",
+    "scripts/prepare_c713_direct_pruning.py",
+    "scripts/prepare_c713_height_data.py",
+    "scripts/prepare_c713_relaxations.py",
+    "scripts/prepare_c713_sparse_dictionary.py",
+    "scripts/prepare_c713_spec_initial.py",
+    "scripts/prepare_c898_active_dictionary.py",
+    "scripts/prepare_c898_alias_trim.py",
+    "scripts/prepare_c898_fused_contexts.py",
+    "scripts/prepare_c898_query_sharing.py",
+    "scripts/prepare_c898_relaxation_table.py",
+    "scripts/prepare_c898_sparse_complements.py",
+    "scripts/prepare_c898_sparse_dictionary.py",
+    "scripts/prepare_c898_spec_initial.py",
+    "scripts/prepare_c898_terminal_contexts.py",
+    "scripts/prepare_cache.py",
+    "scripts/prepare_direct_pruning_hints.py",
+    "scripts/prepare_historical_blocked_targets.py",
+    "scripts/prepare_historical_box_bank.py",
+    "scripts/prepare_historical_chords.py",
+    "scripts/prepare_historical_common_groups.py",
+    "scripts/prepare_historical_complete.py",
+    "scripts/prepare_historical_direct_bank.py",
+    "scripts/prepare_historical_direct_pruning.py",
+    "scripts/prepare_historical_graphs.py",
+    "scripts/prepare_historical_initial.py",
+    "scripts/prepare_historical_strip_bank.py",
+    "scripts/prepare_historical_union.py",
+    "scripts/profile_repetition.py",
+    "scripts/provenance_source.py",
+    "scripts/restore_c898_records.py",
+    "scripts/restore_cache.py",
+    "scripts/restore_small_prefix.py",
+    "scripts/source_budget.py",
+    "scripts/verify.py",
+    "scripts/virtual_source_budget.py"
+  ],
+  "retained_draft_missing_imports": [
+    {
+      "ancestry": [
+        "adapters/C696SymmetryOriginal.lean",
+        "Completion.Cases.C696.RootZeroSymmetry",
+        "Completion.Cases.C696.CornerReduction",
+        "S12.MissingCornerBranches",
+        "S12.SingletonMissing"
+      ],
+      "module": "S12.SingletonMissingTriangles",
+      "retained_draft": true
+    },
+    {
+      "ancestry": [
+        "adapters/C696SymmetryOriginal.lean",
+        "Completion.Cases.C696.RootZeroSymmetry",
+        "Completion.Cases.C696.CornerReduction",
+        "S12.MissingCornerBranches",
+        "S12.SingletonMissing"
+      ],
+      "module": "S12.MissingCornerCubic",
+      "retained_draft": true
+    }
+  ],
+  "scope": "Source token/import/hash checks only, not Lean acceptance",
+  "unexpected_preferred_imports": []
+}

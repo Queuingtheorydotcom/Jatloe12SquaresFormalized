@@ -1,0 +1,54 @@
+{
+  "scope": "Replace only repeated finite support decoding; preserve original transport statements and candidate-membership proof.",
+  "validation": "Parent reports production MaskTransport PASS in 5.571 seconds and final FamilyTransport PASS in 29.156 seconds, after the coherent 24 original row-shape checks and eight ordinary-kernel decide permutation checks. Generic proof previously passed in 2.261 seconds. No worker compiler launched.",
+  "family_transport_before": {
+    "sha256": "9fcd1da6de77b35cf4293d2b4ef2854d631eb2a6de04d062acf8c9a9cfeb9992",
+    "bytes": 34984,
+    "lines": 648
+  },
+  "family_transport_after": {
+    "sha256": "cca99ae8cf7660a837ea1e525553b3f87f8af9a0e08c1e80bee38f96b5d8d02f",
+    "bytes": 11778,
+    "lines": 261
+  },
+  "accepted_generic_diagnostic_before": {
+    "sha256": "d2be7dc718af38cff685ee4aa1a0de6e6e12a818fa2d9884a03137289ea7d084",
+    "bytes": 5214,
+    "lines": 129
+  },
+  "production_mask_transport": {
+    "sha256": "2f856a7e3379fff164f893d5864487d6f2279c3626387579033a8056e4f1295f",
+    "bytes": 5110,
+    "lines": 128
+  },
+  "public_statements_preserved": [
+    "Transform.markerList",
+    "Transform.maskAction",
+    "transform_rows_match",
+    "candidate_supports_distinct",
+    "candidate_support_injective",
+    "transform_masks_checked",
+    "mask_action_spec",
+    "coverRow_shapes_checked",
+    "coverRow_shape",
+    "Transform.pullPacking",
+    "exact_markers_pull",
+    "transport_to_representative",
+    "packing_reduction_to_577_representatives"
+  ],
+  "removed": "markersOfGroup and its helpers; candidate_supports private helper; all eight transformedMasks/transformedMarkers tables and decode/image/support-list proofs",
+  "retained": "Eight sorted Nat-mask permutation facts, their generic permutation proof, candidate_supports_distinct, candidate_support_injective, and all public transport statements",
+  "new_native_checks": 0,
+  "production_line_delta": -259,
+  "diagnostic_after": {
+    "sha256": "e9de31fd0d7fb9cfe7abf359035fc38c92cb1f351d9a99baaf22c4821ccf4676",
+    "bytes": 145,
+    "lines": 4
+  },
+  "family_transport_initial_integration": {
+    "sha256": "06dccf181610d0888e59a9d1a8a8f67fd4e45a35222876a102ee35893c26402c",
+    "bytes": 8552,
+    "lines": 176
+  },
+  "performance_scope": "Serial parent-controlled replay with external RSS and physical-footprint guards; timings are individual-module results, not whole formalization acceptance."
+}

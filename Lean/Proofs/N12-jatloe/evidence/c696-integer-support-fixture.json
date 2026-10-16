@@ -1,0 +1,67 @@
+{
+  "format": "n12-authentic-integer-support-v1",
+  "source_sha256": "eeb35d62dc16d42451289957e7cc34d9eecec11fbc0effcb1753f929980d7925",
+  "source_pose": 0,
+  "target_pose": 117,
+  "target_raw_row_id": 802,
+  "source_raw_rows": [
+    [
+      7426250000,
+      -475275000000,
+      537911935887,
+      475275000000,
+      false
+    ],
+    [
+      40033643750000,
+      -2780475000000,
+      -56838381160977,
+      40033643750000,
+      false
+    ]
+  ],
+  "target_raw_row": [
+    58683525000000,
+    -4075775000000,
+    -83316835326773,
+    58683525000000,
+    false
+  ],
+  "integer_weights": [
+    1605785,
+    891537427849,
+    608202928986
+  ],
+  "identity_residuals": [
+    0,
+    0,
+    0
+  ],
+  "all_weights_positive": true,
+  "denominators_positive": true,
+  "strictness_unchanged": true,
+  "primitive_data_bytes_same_json_format": {
+    "rational": 298,
+    "integer": 253,
+    "savings": 45
+  },
+  "artifacts": {
+    "Compact/Core/IntegerSupport.lean": {
+      "bytes": 6258,
+      "lines": 143,
+      "sha256": "7f9ca8ff554de14f5287178b10e4d90f7cd24fcf725f29742e24d6a99cb9ce3e"
+    },
+    "Compact/Core/IntegerSupportCase.lean": {
+      "bytes": 1517,
+      "lines": 36,
+      "sha256": "349f0c9eb5510e4033c14ecfcd9c05033e07cd6d8cc4ea95cd0ae9c405f8130f"
+    }
+  },
+  "validation": {
+    "exact_arithmetic": "passed Python Fraction/int checks",
+    "lean": "pending parent replay",
+    "timing_comparison": "not measured by worker",
+    "whole_case_exclusion": false
+  },
+  "scope": "Same authentic two-row implication, integer arithmetic certificate only. Rows and original denominators retained in both size figures. This is not a whole-proof size or runtime estimate."
+}

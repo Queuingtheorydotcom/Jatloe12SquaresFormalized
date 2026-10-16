@@ -1,0 +1,3 @@
+/Users/macintosh/Documents/Codex/2026-10-13/plz/work/handoff/12-square-formalization-handoff-2026-10-13/project/Compact/Core/PairSupport.lean:37:22: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'N12Compact.PairSupport.normalized_sound' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,4014 @@
+{
+  "scope": "Receipt-matched original accepted-seven source union only; no fresh Lean acceptance.",
+  "global_under_1m_bound_established": false,
+  "assembly_under_300k_bound_established": false,
+  "status": "stopped safely; partial scope only",
+  "limits": {
+    "run": true,
+    "seconds": 600,
+    "memory_mib": 384,
+    "scratch_mib": 256,
+    "verify_pairs": false,
+    "output": "evidence/seven-source-inventory-primitive.json"
+  },
+  "files": [
+    {
+      "module": "S12.AffineOverlap",
+      "path": "vendor/S12/AffineOverlap.lean",
+      "sha256": "dffc4416b999c5b9b4252f5f8a9ee66e4203dd1100caf89f1e7d14fae68989cb",
+      "bytes": 6853,
+      "lines": 131,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.AlignedPruneBlock48",
+      "path": "evidence/historical/source-gzip/S12/AlignedPruneBlock48.lean.gz",
+      "sha256": "a5701aac24ca62427846ee88724443edfc4c4587d662bc473e5753e2a2e3974d",
+      "bytes": 1456,
+      "lines": 40,
+      "cases": [
+        979
+      ]
+    },
+    {
+      "module": "S12.AngleChordRadius",
+      "path": "vendor/S12/AngleChordRadius.lean",
+      "sha256": "23eed85b84f419b694e7a9c3a1f92aea4d667366d8aab41cea16d877c65cb32d",
+      "bytes": 3909,
+      "lines": 75,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.AngleChordRadiusData",
+      "path": "vendor/S12/AngleChordRadiusData.lean",
+      "sha256": "e23fb19b0d1361ab38c550d03e4fc1aa7774424f731198fb868ad587afd1db0f",
+      "bytes": 50129,
+      "lines": 453,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.AngleData",
+      "path": "vendor/S12/AngleData.lean",
+      "sha256": "82fa09c9c0d6e86227bec6eb38ab87ccbf06a9c132142e066126945cbcffe5b1",
+      "bytes": 76602,
+      "lines": 459,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.AngleEnclosure",
+      "path": "vendor/S12/AngleEnclosure.lean",
+      "sha256": "52ec9ec7c916b6f1a04f96eb1d74b413d8f246b1f043e4e1204e032ade866c4d",
+      "bytes": 4441,
+      "lines": 103,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.AngleReference",
+      "path": "vendor/S12/AngleReference.lean",
+      "sha256": "e65fb8d376250dc93013c7a0bca3e38a7909550b8b941ebd61d9bec3947c284e",
+      "bytes": 1827,
+      "lines": 40,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.AuxCoverBase",
+      "path": "vendor/S12/AuxCoverBase.lean",
+      "sha256": "c2acf52689ab81354890005d0fbc846136a5928e39764b13e30dcacc6443e0be",
+      "bytes": 7577,
+      "lines": 170,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.AuxCoverGeometry",
+      "path": "vendor/S12/AuxCoverGeometry.lean",
+      "sha256": "06d1ebc7c2f3f362536ab7edc171be61ed4baa053a92dd57970e62bbca12f46b",
+      "bytes": 7857,
+      "lines": 151,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.AuxPacking",
+      "path": "vendor/S12/AuxPacking.lean",
+      "sha256": "4445ffd311df269e11096c0cc2845d2e70522d6d6f7647304e2008e33a3d443b",
+      "bytes": 5938,
+      "lines": 134,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.AuxPairCover",
+      "path": "vendor/S12/AuxPairCover.lean",
+      "sha256": "34317976060846742f064ab0e245b0fda92fc340e4140e1df4e7593564208fe4",
+      "bytes": 3731,
+      "lines": 86,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.AuxiliaryPoints",
+      "path": "vendor/S12/AuxiliaryPoints.lean",
+      "sha256": "6705c4aec708f3e5dc9ea16a10efd8dcb4c475125b5b6c92752f215a039cc4f2",
+      "bytes": 507,
+      "lines": 12,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.AxisAlgebra",
+      "path": "vendor/S12/AxisAlgebra.lean",
+      "sha256": "4db669092dbda9108dcec52f9f42fb252b078550f7052d2fca89a0555f68d580",
+      "bytes": 3667,
+      "lines": 89,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.AxisGap",
+      "path": "vendor/S12/AxisGap.lean",
+      "sha256": "f5b325c70fde66c741d74a2b74a5fa8840fe9191882087e8573f45853bd0a8a2",
+      "bytes": 4136,
+      "lines": 97,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.AxisOverlapCertificate",
+      "path": "vendor/S12/AxisOverlapCertificate.lean",
+      "sha256": "b1061fbf0de729b9a8b21dbcb98e2a4def3d0d7706258dcfdb5d27bcb9727d21",
+      "bytes": 6298,
+      "lines": 126,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.BatchedPush701",
+      "path": "vendor/S12/BatchedPush701.lean",
+      "sha256": "a1da5db522190cbf24499a88002daf66be18b548406a698ed818fe73478fb11c",
+      "bytes": 1472,
+      "lines": 57,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.BatchedPush713",
+      "path": "vendor/S12/BatchedPush713.lean",
+      "sha256": "f9b4b67b3678a60ae5fa75dd1233cdbecc2854490c4b800539a374acf07486e2",
+      "bytes": 2408,
+      "lines": 93,
+      "cases": [
+        713
+      ]
+    },
+    {
+      "module": "S12.BatchedPush717",
+      "path": "evidence/historical/source-gzip/S12/BatchedPush717.lean.gz",
+      "sha256": "9430b43313d371695ebf69f56ac8e7aafcc1a79f056d0ecd66b19ca764c58e48",
+      "bytes": 4237,
+      "lines": 161,
+      "cases": [
+        717
+      ]
+    },
+    {
+      "module": "S12.BatchedPush898",
+      "path": "vendor/S12/BatchedPush898.lean",
+      "sha256": "b5cfe6b70c306828e6853f06e2e546121d2d82f0f41b0a0378bffa2eac43c7fc",
+      "bytes": 1706,
+      "lines": 66,
+      "cases": [
+        898
+      ]
+    },
+    {
+      "module": "S12.BatchedPush973",
+      "path": "vendor/S12/BatchedPush973.lean",
+      "sha256": "ceafe544a890e6ae78c1fe2a435797150b44a193a8a3e8c9f0bda7b5c9616bdb",
+      "bytes": 1940,
+      "lines": 75,
+      "cases": [
+        973
+      ]
+    },
+    {
+      "module": "S12.BatchedPush978",
+      "path": "vendor/S12/BatchedPush978.lean",
+      "sha256": "895e1630620b66f4984a7a3ea1496c2b6a69e6543c24cff8f67795eccb8ccdaf",
+      "bytes": 1914,
+      "lines": 74,
+      "cases": [
+        978
+      ]
+    },
+    {
+      "module": "S12.BatchedPush979",
+      "path": "evidence/historical/source-gzip/S12/BatchedPush979.lean.gz",
+      "sha256": "289f88053cb1b4e0e52b0eba1a9165269a8e978b9c29adbadeb5105814f9cb0c",
+      "bytes": 4237,
+      "lines": 161,
+      "cases": [
+        979
+      ]
+    },
+    {
+      "module": "S12.BranchEnclosure",
+      "path": "vendor/S12/BranchEnclosure.lean",
+      "sha256": "9ecc0dd4a731e6dc562f50775c83d64ba4d506523273dbf9cdfe4f3afe2c8747",
+      "bytes": 2881,
+      "lines": 53,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.Budget",
+      "path": "vendor/S12/Budget.lean",
+      "sha256": "4612b651fd09375ae1f0f7c96189cb1e6f0c37970d870b644af241ca582fa9fa",
+      "bytes": 3250,
+      "lines": 77,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.CachedEnumeration",
+      "path": "vendor/S12/CachedEnumeration.lean",
+      "sha256": "e4f52edb41c5e60aabad5bcb5af67617282f16602a2b9c93cca89078eb16a44b",
+      "bytes": 1706,
+      "lines": 39,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.Case976AuxCases",
+      "path": "evidence/historical/source-gzip/S12/Case976AuxCases.lean.gz",
+      "sha256": "4b96ca0a1b78366ef08cecc5dd4efcb31f9d08e5f15bcdcf3e8b1679203d4bf2",
+      "bytes": 8543,
+      "lines": 13,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.Case976Domains",
+      "path": "vendor/S12/Case976Domains.lean",
+      "sha256": "c3caefc7b02efa3ca595011c8fd8a64728f060b14e11c454e786510b27e08c43",
+      "bytes": 340978,
+      "lines": 2793,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.CenterLocalization",
+      "path": "vendor/S12/CenterLocalization.lean",
+      "sha256": "855adc72d1fcf086c7ea993053e404746abadcda2c03f25288493b3ad0f53597",
+      "bytes": 1539,
+      "lines": 38,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.CertifiedDomain",
+      "path": "vendor/S12/CertifiedDomain.lean",
+      "sha256": "dcb287946696c04c8b990311286f7e42c00fcb0be488f170e0d853a33e3ab74c",
+      "bytes": 3659,
+      "lines": 74,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.CertifiedPoint",
+      "path": "vendor/S12/CertifiedPoint.lean",
+      "sha256": "4fdf993d3dd285f7916fd66ae6cfca3ef69cbf8aff938e8527d2c7332f6c13b9",
+      "bytes": 3120,
+      "lines": 64,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.CertifiedVerticalChordPruning",
+      "path": "vendor/S12/CertifiedVerticalChordPruning.lean",
+      "sha256": "4bcce91571b5deb95252bc3d2a5e05443f405229deebe1acf9414bec9d550e6d",
+      "bytes": 2538,
+      "lines": 49,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.CertifiedWindowChordPruning",
+      "path": "vendor/S12/CertifiedWindowChordPruning.lean",
+      "sha256": "acb7dfd93dec221ba30b2c3237ef5d12df4652357da0c6b581322bf1b6d53562",
+      "bytes": 2498,
+      "lines": 49,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.CheckedAxisList48",
+      "path": "evidence/historical/source-gzip/S12/CheckedAxisList48.lean.gz",
+      "sha256": "404e601f294a6e7d93929aae04edc8d01e7af26eaf90f7daac4c1c6201c1b80a",
+      "bytes": 545,
+      "lines": 15,
+      "cases": [
+        979
+      ]
+    },
+    {
+      "module": "S12.ChordCapacity",
+      "path": "vendor/S12/ChordCapacity.lean",
+      "sha256": "4737069e82aeb043b3c3d56c1fe919e8f14568f507b1d35c74ad1e4760105da3",
+      "bytes": 3904,
+      "lines": 80,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.ChordPairCertificate",
+      "path": "vendor/S12/ChordPairCertificate.lean",
+      "sha256": "ad960c8b01cd4ceb851cb6f9f058efcab175c7b22dbee8b8283c24bf0e628fa6",
+      "bytes": 3558,
+      "lines": 73,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.ChordRadius",
+      "path": "vendor/S12/ChordRadius.lean",
+      "sha256": "8dd6a960134139c0aa69dabb79e353570132d52e364691680ee9fd51d5e74474",
+      "bytes": 1466,
+      "lines": 36,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.Cliques",
+      "path": "vendor/S12/Cliques.lean",
+      "sha256": "2174e9695c051434f829fd120de3b4c41a2c2102f1702a0459407c9549655c1d",
+      "bytes": 1919,
+      "lines": 49,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.ClosedPointSupport",
+      "path": "vendor/S12/ClosedPointSupport.lean",
+      "sha256": "6765b52f21a011fcceaf8ffb8b91050d1a60b986f36cd5aa657f529d540e0b8f",
+      "bytes": 2426,
+      "lines": 57,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.CombinedPacking",
+      "path": "vendor/S12/CombinedPacking.lean",
+      "sha256": "bd19112f897ce96a5deaeda7424176d7889c55fdc3a805c112b88499dacaaaf0",
+      "bytes": 2510,
+      "lines": 66,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.CommonCertifiedEnclosure",
+      "path": "vendor/S12/CommonCertifiedEnclosure.lean",
+      "sha256": "89dcaf81eed549f25ebdf438fe73c32262bab697058255afb68d8cebf485f1d5",
+      "bytes": 1268,
+      "lines": 29,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.CommonDomainBranch",
+      "path": "vendor/S12/CommonDomainBranch.lean",
+      "sha256": "5085496db3222f8cab037ac14733e2276b472d945133a041864f378986be6caf",
+      "bytes": 1677,
+      "lines": 33,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.CompactBoxFarkasText",
+      "path": "evidence/historical/source-gzip/S12/CompactBoxFarkasText.lean.gz",
+      "sha256": "1f9a0061db7a20c608b2336dc2cfdfff3bbb05ec6704bc1c00cc8e7da3938c82",
+      "bytes": 1981,
+      "lines": 42,
+      "cases": [
+        717,
+        979
+      ]
+    },
+    {
+      "module": "S12.CompactFarkasText",
+      "path": "vendor/S12/CompactFarkasText.lean",
+      "sha256": "feca14fd8dacede9767a2df0a9511048e0e574bb2d8bfe7e8bc8e07d098fb218",
+      "bytes": 1494,
+      "lines": 32,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.CompactPoseText",
+      "path": "vendor/S12/CompactPoseText.lean",
+      "sha256": "afd9c0eb7ae9fcdd87168c761a1fa0265bca0da1300e8df6479d2c0c1ebccef7",
+      "bytes": 818,
+      "lines": 20,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.CompactRegionTree",
+      "path": "vendor/S12/CompactRegionTree.lean",
+      "sha256": "b983f57a45d5e4ca78c2243eb43ab3a7895856b226411d35743ada9680903e05",
+      "bytes": 2170,
+      "lines": 49,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.ConditionalCommonDomain",
+      "path": "evidence/historical/source-gzip/S12/ConditionalCommonDomain.lean.gz",
+      "sha256": "125abc9ba0fcb31ff595b78b74908c163bdb87d385c8a514d56ae7804e3f8afa",
+      "bytes": 3023,
+      "lines": 64,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.ConditionalEnclosure",
+      "path": "vendor/S12/ConditionalEnclosure.lean",
+      "sha256": "7a46a2d03f06b7d1792888d01a93da468663346aa86815a174dc4873e6eeba65",
+      "bytes": 4343,
+      "lines": 77,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.ContinuousCertificate",
+      "path": "vendor/S12/ContinuousCertificate.lean",
+      "sha256": "e61000e374f439105fb8562db802e77e05afaf2837bf8e98a2183210691447e3",
+      "bytes": 3657,
+      "lines": 76,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.ContinuousPruning",
+      "path": "vendor/S12/ContinuousPruning.lean",
+      "sha256": "d49445d58d154b4d065f1622df619038995d5af1c576d3ab3866f31108f60b55",
+      "bytes": 5373,
+      "lines": 105,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.Convex",
+      "path": "vendor/S12/Convex.lean",
+      "sha256": "a8a7bb8a862018110e0b515a9918dc1898204c19ae02992f5af8177f540c7171",
+      "bytes": 2647,
+      "lines": 68,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.ConvexOverlap",
+      "path": "vendor/S12/ConvexOverlap.lean",
+      "sha256": "183258b031744ad6be4f4f78b7d97c45c277d8f21ec03d18acf6f8f18b03af2f",
+      "bytes": 2399,
+      "lines": 58,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.CoordinateMembership",
+      "path": "evidence/historical/source-gzip/S12/CoordinateMembership.lean.gz",
+      "sha256": "bd42dbe82b09d2f79cbf6cc580636d11b41b5efce63cd1443a45132d9a6fabc0",
+      "bytes": 975,
+      "lines": 30,
+      "cases": [
+        717,
+        979
+      ]
+    },
+    {
+      "module": "S12.CoreData",
+      "path": "vendor/S12/CoreData.lean",
+      "sha256": "bae1b3e9d9f14bbba3d11e781272d993feb57b9e7a902e0561ba4de837442725",
+      "bytes": 155890,
+      "lines": 845,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.CoreExclusion",
+      "path": "vendor/S12/CoreExclusion.lean",
+      "sha256": "848315573b94715036d221c0a7f48a2ef7e738ccf9993bb31bfe06bf328485a3",
+      "bytes": 4490,
+      "lines": 103,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.CornerAxes",
+      "path": "vendor/S12/CornerAxes.lean",
+      "sha256": "d4c9575c5963c61dd171a3fd0889c4cb16aadaac88efd121a27ef2e50432fced",
+      "bytes": 3237,
+      "lines": 59,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.CornerBounds",
+      "path": "vendor/S12/CornerBounds.lean",
+      "sha256": "2aa09d54a596709fec8edba91e32983f33255d3aa7d99ab9e2c8012b0746af42",
+      "bytes": 2758,
+      "lines": 64,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.CornerCover",
+      "path": "vendor/S12/CornerCover.lean",
+      "sha256": "86b4e5224a6b201d9ae3bd5f96fcf965c5981d705bac9202c992fdff805511d0",
+      "bytes": 3477,
+      "lines": 80,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.CornerForcing",
+      "path": "vendor/S12/CornerForcing.lean",
+      "sha256": "9eb135505276c2e4032e1e98a05e5f0aac0785be4fba73bcc4022a0b6d454eae",
+      "bytes": 1268,
+      "lines": 29,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.CornerPolynomials",
+      "path": "vendor/S12/CornerPolynomials.lean",
+      "sha256": "3895405115a8529b5e5d3678d1777d6b268160d7a161fed41930df01a9dc499d",
+      "bytes": 3936,
+      "lines": 111,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.CornerProjection",
+      "path": "vendor/S12/CornerProjection.lean",
+      "sha256": "ffe99ca8cab7d72e044aad399eb750e98821899e9d725259eea98b38e8e4f9cc",
+      "bytes": 1605,
+      "lines": 42,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.CornerSourceDirections",
+      "path": "vendor/S12/CornerSourceDirections.lean",
+      "sha256": "27ab3aeed4d9a0c2bcfb76fb7dba6c7438dba7b0b0c9dd88cdaaf09e8397bd57",
+      "bytes": 2242,
+      "lines": 59,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.CornerSurplusInterval",
+      "path": "vendor/S12/CornerSurplusInterval.lean",
+      "sha256": "e5e44b8faaf62100a0c7890c9d2b2bb214c987239d6242e4f501b937e2386130",
+      "bytes": 4584,
+      "lines": 106,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.Cover",
+      "path": "vendor/S12/Cover.lean",
+      "sha256": "14c0a56c9cff9ab00c1b8ef36c1b2f3d4f2a08c7c6ad875cffa896bf8b413360",
+      "bytes": 1068,
+      "lines": 29,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.CoverData",
+      "path": "vendor/S12/CoverData.lean",
+      "sha256": "663a4e43053099d3781da982ca148dfec3402da0ba33a603859f19fa20f5e7f4",
+      "bytes": 199146,
+      "lines": 86,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.Diagonal",
+      "path": "vendor/S12/Diagonal.lean",
+      "sha256": "829bdc2553ec36b8ecf529fab6f0d372ecf1003b9695089dd864996b2851e8f6",
+      "bytes": 9709,
+      "lines": 228,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.DiagonalPacking",
+      "path": "vendor/S12/DiagonalPacking.lean",
+      "sha256": "5719e81ff0bcb94c07062b6800af24323901df80bf89e0cddd5ba2df6f586bdf",
+      "bytes": 875,
+      "lines": 26,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.Diameter",
+      "path": "vendor/S12/Diameter.lean",
+      "sha256": "9c4caa1a18260c48e910251d0b003f59ad81bfc41fedad0d5ab8933c191e910f",
+      "bytes": 1783,
+      "lines": 51,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.DirectSingleDomain",
+      "path": "vendor/S12/DirectSingleDomain.lean",
+      "sha256": "bf6e08cd337399e02dc10b3af4de265c972daae9f0519acaedebe6af1ef4d990",
+      "bytes": 2279,
+      "lines": 46,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.DomainEnumeration",
+      "path": "vendor/S12/DomainEnumeration.lean",
+      "sha256": "6234b259a2569cb4aa10134bfdfb79c6357e157440bd5a1e2cf4cc0ea7a19925",
+      "bytes": 3686,
+      "lines": 75,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.DomainHullPoint",
+      "path": "vendor/S12/DomainHullPoint.lean",
+      "sha256": "2fc1efd0e50c70afc31b60204b0075f90aae61197ee80487ada8fd89c5905fb0",
+      "bytes": 1453,
+      "lines": 30,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.DomainPackingEnclosure",
+      "path": "vendor/S12/DomainPackingEnclosure.lean",
+      "sha256": "a75d53dd6d690cdbf57530e3e6b0387c028b5e17d18fbf601f3f7eabe8c3172d",
+      "bytes": 1782,
+      "lines": 38,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.DomainRefinement",
+      "path": "vendor/S12/DomainRefinement.lean",
+      "sha256": "62019d9c18ca391e6cc9f2edffa4b6d8a8414cf4acbf0fdc81f076f506f5eeaa",
+      "bytes": 1274,
+      "lines": 28,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.DomainRelaxation",
+      "path": "vendor/S12/DomainRelaxation.lean",
+      "sha256": "750ea80528ec6a2639a3cd6cb989ff1117425aebc1de2611d1284a05916ec3b5",
+      "bytes": 1656,
+      "lines": 36,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.DomainSearch",
+      "path": "vendor/S12/DomainSearch.lean",
+      "sha256": "b7630cc110a82bf70a95b34e280325b23005437d7b76c17b29f852e140b947ce",
+      "bytes": 2252,
+      "lines": 57,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.DomainSpecData",
+      "path": "vendor/S12/DomainSpecData.lean",
+      "sha256": "56ec0a294b96cd62cbf44b5030f9a9bff7926204d22e236f23a02afc14c7200d",
+      "bytes": 30363,
+      "lines": 263,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.DomainSpecs",
+      "path": "vendor/S12/DomainSpecs.lean",
+      "sha256": "1dce7346190e1014cfba7bd9ad6fa6c225ec5be945863f47f78753908396f077",
+      "bytes": 4395,
+      "lines": 100,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.Enumeration",
+      "path": "vendor/S12/Enumeration.lean",
+      "sha256": "0e1ffbaeeeba55a5190ba577bad3f180afe043d662c8d210c6d810d8d13abfd1",
+      "bytes": 5328,
+      "lines": 123,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.FamilyTransport",
+      "path": "vendor/S12/FamilyTransport.lean",
+      "sha256": "f2c0f00cba16f02fc994a89554209cfa5fe2e8ece0cc7cd5469b482115db90a7",
+      "bytes": 4791,
+      "lines": 96,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.FastBoxImplications",
+      "path": "evidence/historical/source-gzip/S12/FastBoxImplications.lean.gz",
+      "sha256": "df5fa9d28b176f33bef5426e5de883660cf3fdfcad579916ea57c8b3090266a3",
+      "bytes": 3634,
+      "lines": 77,
+      "cases": [
+        717,
+        979
+      ]
+    },
+    {
+      "module": "S12.FastPruneBlock48",
+      "path": "evidence/historical/source-gzip/S12/FastPruneBlock48.lean.gz",
+      "sha256": "4b7b5cd000ca9127e9e4f9e0f934e90a335e5587629665b3f55643b71a5f7259",
+      "bytes": 1126,
+      "lines": 27,
+      "cases": [
+        979
+      ]
+    },
+    {
+      "module": "S12.FourChordPruning",
+      "path": "vendor/S12/FourChordPruning.lean",
+      "sha256": "d03587664f99c43232aeefed98591a315512d4fa1d463ea57a36a44123f3d3b8",
+      "bytes": 3766,
+      "lines": 78,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.FourChordWindow",
+      "path": "vendor/S12/FourChordWindow.lean",
+      "sha256": "22078eebab9152b1c1b2fc088d5eb7f891a5dbcc07c42f4c53f632e1a4bc2dae",
+      "bytes": 5413,
+      "lines": 110,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.FourPointCertificate",
+      "path": "vendor/S12/FourPointCertificate.lean",
+      "sha256": "a0c9f93591cbdc1b6036b9aa7bf96685d099b0364df44e79f173b8aa56eac921",
+      "bytes": 5704,
+      "lines": 137,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.FourPointData",
+      "path": "vendor/S12/FourPointData.lean",
+      "sha256": "bdc5996afa2507d01e0e7ac58386c2824581fe826aba19a2b86ba442e7abd916",
+      "bytes": 172961,
+      "lines": 234,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.FourVerticalChordWindow",
+      "path": "vendor/S12/FourVerticalChordWindow.lean",
+      "sha256": "a0402b03f720473d4c07f02c072c5827c4f5583523c8256ccfd2fcdc85d72766",
+      "bytes": 5169,
+      "lines": 101,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.GeneralWall",
+      "path": "vendor/S12/GeneralWall.lean",
+      "sha256": "fe809d7975dcbc51deaeac14db1089e12c58c94dc0792f5f052dc0a5115f1649",
+      "bytes": 4958,
+      "lines": 113,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.GeneralWallSegments",
+      "path": "vendor/S12/GeneralWallSegments.lean",
+      "sha256": "23dbfd7ab0fed8c57bda12376878bc5468b78975c41a94205182a45cbbde1169",
+      "bytes": 1783,
+      "lines": 39,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.HalfAngleOrder",
+      "path": "vendor/S12/HalfAngleOrder.lean",
+      "sha256": "e3998f461027db31fce6cd8154e5ecdf8ba15226801f90205d28e7825199e259",
+      "bytes": 3388,
+      "lines": 84,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.HullBridge",
+      "path": "vendor/S12/HullBridge.lean",
+      "sha256": "c443326b0dfd6da11463a3d8f6ebcc428251790ba5f49c29205ba47cfade20a2",
+      "bytes": 3733,
+      "lines": 84,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.HullCertificates",
+      "path": "vendor/S12/HullCertificates.lean",
+      "sha256": "27c6b43a73de882b7796c57396a95276c9bd90002f346bcf1448dc80e3447dde",
+      "bytes": 1298,
+      "lines": 32,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.HullData",
+      "path": "vendor/S12/HullData.lean",
+      "sha256": "eb65e61fe91d9d7c00aa8c4901ee332a195730813a61ea7f21b1513316ea2138",
+      "bytes": 15165,
+      "lines": 83,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.IndexedContinuous",
+      "path": "vendor/S12/IndexedContinuous.lean",
+      "sha256": "de106bb4abe2ebf00ce2d303561be164b77dd592e3e50233b1382f14622e579c",
+      "bytes": 4036,
+      "lines": 75,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.IndexedFarkas",
+      "path": "vendor/S12/IndexedFarkas.lean",
+      "sha256": "0806abb060246a8282b688209f3b6d9d5e59072f699666ef7ebd004444d3fd21",
+      "bytes": 1338,
+      "lines": 25,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.IndexedFarkasMembership",
+      "path": "evidence/historical/source-gzip/S12/IndexedFarkasMembership.lean.gz",
+      "sha256": "4f6bee5add21ac639d2cd6a9cdbfc51414176b3fbdc4b4e7820767b2b3ce52ce",
+      "bytes": 1356,
+      "lines": 33,
+      "cases": [
+        717,
+        979
+      ]
+    },
+    {
+      "module": "S12.IntervalCoverage",
+      "path": "vendor/S12/IntervalCoverage.lean",
+      "sha256": "99b64857bea407d887fcc7482087884ec42917ea8697680798e6996dde544357",
+      "bytes": 1212,
+      "lines": 29,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.LinearCertificate",
+      "path": "vendor/S12/LinearCertificate.lean",
+      "sha256": "7205eea5f44b2deb332281f1359c129571a1e29614a89977f0f6e0e95de83cbb",
+      "bytes": 4616,
+      "lines": 108,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.LinearImplication",
+      "path": "vendor/S12/LinearImplication.lean",
+      "sha256": "e70bb213373dc733f3ec0dba8fc376711a9f397cb0c7e8798013621bc3044f3f",
+      "bytes": 1641,
+      "lines": 36,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.LocalQuery",
+      "path": "vendor/S12/LocalQuery.lean",
+      "sha256": "56925f1b9b1f556aa3e6b8f97a090518f7173452f1e339645620fad4d32f1273",
+      "bytes": 3195,
+      "lines": 67,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.LocalQueryData",
+      "path": "vendor/S12/LocalQueryData.lean",
+      "sha256": "3ccca2b4ff0eeaccea4f9755598fe1eb800fe3d3321c34a497d8120054030cf7",
+      "bytes": 272280,
+      "lines": 1805,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.LocalRejection",
+      "path": "vendor/S12/LocalRejection.lean",
+      "sha256": "656817b960c96243198cd74ea632be5ab33c0e78260d890cc9326f1b21af4746",
+      "bytes": 5816,
+      "lines": 122,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.LongChord",
+      "path": "vendor/S12/LongChord.lean",
+      "sha256": "b4f8d54ffc1470940bc0e04821474a74d866e89422c651209aa5e3e0949964ee",
+      "bytes": 3534,
+      "lines": 82,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.LongChordGeometry",
+      "path": "vendor/S12/LongChordGeometry.lean",
+      "sha256": "d48e8bebd3ec6fe9bedf80e0319138f792b1884450596a6c76d4ed0d7fbfa48d",
+      "bytes": 4052,
+      "lines": 95,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.MarkerCoverGeometry",
+      "path": "vendor/S12/MarkerCoverGeometry.lean",
+      "sha256": "a810cb3aaaf8ff518771cee0c51e8ad5e068cd4a6bab268eafc1dcb9b5f6bdec",
+      "bytes": 5884,
+      "lines": 124,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.MarkerCoverGeometryBase",
+      "path": "vendor/S12/MarkerCoverGeometryBase.lean",
+      "sha256": "5dcb8475286e49a38dde7fb234cb3a8750a4cb6c0f177d032a97cf6e1d14f47e",
+      "bytes": 4827,
+      "lines": 141,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.Markers",
+      "path": "vendor/S12/Markers.lean",
+      "sha256": "f5983312697b11014b9d328d0978f8cb49334fbffb78c6c4a35f0814485a6e7b",
+      "bytes": 3042,
+      "lines": 56,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.Normalization",
+      "path": "vendor/S12/Normalization.lean",
+      "sha256": "1fdc2d9a05a6861116dd23207510763a8925a1c7e4cfae7a7df1a2026106dc05",
+      "bytes": 3205,
+      "lines": 76,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.OrientedCoverage",
+      "path": "vendor/S12/OrientedCoverage.lean",
+      "sha256": "48b375582aa802651392048eac2656b340be9eed4c2118d5b5d3a4fc5df63234",
+      "bytes": 5762,
+      "lines": 103,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.OrientedPackingEnclosure",
+      "path": "vendor/S12/OrientedPackingEnclosure.lean",
+      "sha256": "84be9e5f3e6019f281dbf18937e41c15b7636bf33212724c7653876c5e9d8ad0",
+      "bytes": 3792,
+      "lines": 67,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.OverlapCertificate",
+      "path": "vendor/S12/OverlapCertificate.lean",
+      "sha256": "fc6e98cefb430ce7d7686b5144746b8c7fa8127b702f3a2014fa6ede6274b14d",
+      "bytes": 3961,
+      "lines": 89,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.OwnerEnclosure",
+      "path": "vendor/S12/OwnerEnclosure.lean",
+      "sha256": "080afae3e204db5dd71938743bd18dd9d9f5e2bc24fc2161b55badc8bf062d6f",
+      "bytes": 4988,
+      "lines": 92,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.Packing",
+      "path": "vendor/S12/Packing.lean",
+      "sha256": "667a8183490baa10a5001a7918e59ff132a67254768f144a4f2db8493fd4f5e0",
+      "bytes": 3576,
+      "lines": 84,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.PackingBridge",
+      "path": "vendor/S12/PackingBridge.lean",
+      "sha256": "e91d1c3923b0102e99dd4aed5bd79c79548b68389f785ab5aa4f13f96ec9d2cf",
+      "bytes": 2915,
+      "lines": 68,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.PackingBudget",
+      "path": "vendor/S12/PackingBudget.lean",
+      "sha256": "ba27adc3ea45d3c5051cc1163ce33b44909776b9982852cbc9762153ed1c8494",
+      "bytes": 6135,
+      "lines": 124,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.PackingConstant",
+      "path": "vendor/S12/PackingConstant.lean",
+      "sha256": "ce5a9c103f5d26f0873da8bea28e2ca58b41311c1a33a8551dc392c4efa83cfd",
+      "bytes": 3158,
+      "lines": 82,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.PackingEnclosure",
+      "path": "vendor/S12/PackingEnclosure.lean",
+      "sha256": "c5ecfc33d739cd045ccb4747faf325d36b20f375182d2fb47182a52e8e112c21",
+      "bytes": 2432,
+      "lines": 50,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.PoseBounds",
+      "path": "vendor/S12/PoseBounds.lean",
+      "sha256": "06c0797d679671b141a60a6c9cbc4e8e550855881e1ec5dde82bc970e3b7154b",
+      "bytes": 4280,
+      "lines": 87,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.PoseRegion",
+      "path": "vendor/S12/PoseRegion.lean",
+      "sha256": "2e17527c4127c5c8d9a05188e098526dd36588a88fc64e86fb2605aaeff2d544",
+      "bytes": 4581,
+      "lines": 82,
+      "cases": [
+        701,
+        713,
+        717,
+        898,
+        973,
+        978,
+        979
+      ]
+    },
+    {
+      "module": "S12.Push701Chunk0",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk0.lean.gz",
+      "sha256": "2578603caac7d38da6267b42659171b748d6c428671b72e12dec77ba2711fedf",
+      "bytes": 2847156,
+      "lines": 1333,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.Push701Chunk1",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk1.lean.gz",
+      "sha256": "39afd833153db6efa351f5a4f7b863eed96e073d4d9aae942992f781bf21b89c",
+      "bytes": 2921214,
+      "lines": 701,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.Push701Chunk10",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk10.lean.gz",
+      "sha256": "e6bbf6e0a0ff982e8237ca76e034d24b26d08132f3f67848b7c3976b41936402",
+      "bytes": 2923692,
+      "lines": 4610,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.Push701Chunk11",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk11.lean.gz",
+      "sha256": "46d0222cade6902619a6e361a0c64c52022e644713add0d477c0726a8c9fae5c",
+      "bytes": 2987795,
+      "lines": 5322,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.Push701Chunk12",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk12.lean.gz",
+      "sha256": "ea34b226e9eb24b1a69bb5f608fe6e3dd13770901ad36308292142a6e48d4717",
+      "bytes": 2972775,
+      "lines": 5649,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.Push701Chunk13",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk13.lean.gz",
+      "sha256": "30126120c9fd45768a91dba40255d9c15a1a5fddcd36f0fa77f7c312a09e1f7c",
+      "bytes": 2706361,
+      "lines": 3880,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.Push701Chunk14",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk14.lean.gz",
+      "sha256": "5a4249a285daa705bd5fe801a9abd4c29cc86e8ee63eebc7c2e036d824fdc299",
+      "bytes": 2867286,
+      "lines": 3876,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.Push701Chunk15",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk15.lean.gz",
+      "sha256": "c2d80f883a742ea66f69914476b310544cff350903b459285fc4049cb2028ff4",
+      "bytes": 2761599,
+      "lines": 3990,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.Push701Chunk16",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk16.lean.gz",
+      "sha256": "878bf46bbeec2d5ae6dc8bfe245bd5fff272badf4c901894e41a21d238b04c87",
+      "bytes": 2967402,
+      "lines": 4208,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.Push701Chunk17",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk17.lean.gz",
+      "sha256": "5b028ade56545f3455db2c18e059389eec35af2e11d923e4c3496fd1e429d4cd",
+      "bytes": 2829864,
+      "lines": 3782,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.Push701Chunk18",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk18.lean.gz",
+      "sha256": "663d68a224d37745b0e438501e00e8ba1485ba1987e01610ece0e6931afc962c",
+      "bytes": 2819030,
+      "lines": 3778,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.Push701Chunk19",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk19.lean.gz",
+      "sha256": "96e1d9a9f93ec04aff5ed57fe8849c2ef780b29b4ca72390bfbafaacae7b0011",
+      "bytes": 2905121,
+      "lines": 3923,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.Push701Chunk2",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk2.lean.gz",
+      "sha256": "38901989b4ae9c109514923b0409826e8e12fc3adad41991ccaba98f1b40ae56",
+      "bytes": 1563083,
+      "lines": 454,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.Push701Chunk20",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk20.lean.gz",
+      "sha256": "cdd2a2de3631c8b9da471ba4adc395d0bd861f36176deee199c3bd5591b3720c",
+      "bytes": 2771929,
+      "lines": 3825,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.Push701Chunk21",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk21.lean.gz",
+      "sha256": "171e8c3f572072cbf49c8b29eb051de4105f170845e872ccab8423465d04922a",
+      "bytes": 2989279,
+      "lines": 4242,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.Push701Chunk22",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk22.lean.gz",
+      "sha256": "4e67e14449437629611806c0c76c23317c763ef5fbcb35ad2256bf79e1058b37",
+      "bytes": 2757480,
+      "lines": 4246,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.Push701Chunk23",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk23.lean.gz",
+      "sha256": "8cde8bd15e70dd85df5cf315af4e31952a94fb465275dc6b70be56662054f182",
+      "bytes": 2851865,
+      "lines": 4321,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.Push701Chunk24",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk24.lean.gz",
+      "sha256": "4f4464aef1834e711ce216dc64943cb6f1ef25346025a81dd17e722e7e4059c5",
+      "bytes": 2919876,
+      "lines": 4242,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.Push701Chunk25",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk25.lean.gz",
+      "sha256": "4f00b662c14964bdccdaefe1ed2c08d76e627635bcb45dc489f63aaf26665556",
+      "bytes": 2712009,
+      "lines": 3801,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.Push701Chunk26",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk26.lean.gz",
+      "sha256": "f8fa8839177f2877b911048235982d817ee82e5933f55989af5e30ef8cc6b941",
+      "bytes": 2847464,
+      "lines": 4185,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.Push701Chunk27",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk27.lean.gz",
+      "sha256": "ec180b7e4601700d8ca2ddb986ca0e06aa12f56677af32ad7635c859c4134234",
+      "bytes": 2853873,
+      "lines": 4074,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.Push701Chunk28",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk28.lean.gz",
+      "sha256": "530dbfebdaa00b22fc80b09c1502d78b7c9aff74d0bdf83594da2ebd1c97249f",
+      "bytes": 2929723,
+      "lines": 4385,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.Push701Chunk29",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk29.lean.gz",
+      "sha256": "85567db023ce53e055e6e5f621578be5b8b11bc59171bbd646910da89a2c110a",
+      "bytes": 2890169,
+      "lines": 4390,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.Push701Chunk3",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk3.lean.gz",
+      "sha256": "3f53f36d20eade632d6257cdbe68d46665a9fced7b7e51e38bbea14139af74a7",
+      "bytes": 2830463,
+      "lines": 2618,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.Push701Chunk30",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk30.lean.gz",
+      "sha256": "99261219e49322ea793aa126d1c4a9480eee6a29e13f4fd62380b12ccf3b8a12",
+      "bytes": 2994708,
+      "lines": 4102,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.Push701Chunk31",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk31.lean.gz",
+      "sha256": "7ad9b319f5fa2db2f55073d5a06064367378586f0ef134c9adac61af573aa136",
+      "bytes": 2983135,
+      "lines": 4126,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.Push701Chunk32",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk32.lean.gz",
+      "sha256": "8fa7800b93b28381f07ad2f3c58adb9597fa227255c8b5490a9ecc5680c7862e",
+      "bytes": 2865047,
+      "lines": 3999,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.Push701Chunk33",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk33.lean.gz",
+      "sha256": "ebe8cfb7c0f23bc511a119ee11bf4f5298a75a996a5837c4db224171ea01a96f",
+      "bytes": 2985141,
+      "lines": 4330,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.Push701Chunk34",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk34.lean.gz",
+      "sha256": "0785d560a4b3eb948f2db9b37aae22547477078d20cd6b0b3aaa7f61e1331535",
+      "bytes": 2896964,
+      "lines": 4329,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.Push701Chunk35",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk35.lean.gz",
+      "sha256": "168f1f183c51209271242f748b8e3cda978bd75bb1f97b06a8cd2f12e43079cd",
+      "bytes": 2834564,
+      "lines": 3998,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.Push701Chunk36",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk36.lean.gz",
+      "sha256": "1f856d5eb822546a1113a373734af535616373feaf3c708899bbbd61a6c3f51f",
+      "bytes": 2820759,
+      "lines": 3940,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.Push701Chunk37",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk37.lean.gz",
+      "sha256": "d561daa6c83f9d34b58dc987482c042444915d220a0a7242e16f6250e75503df",
+      "bytes": 2919203,
+      "lines": 5903,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.Push701Chunk38",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk38.lean.gz",
+      "sha256": "3dfe45934faaa2356fe1fcd7af95360fe2ef90672c73c0c1dc07cdf6bec5c4d7",
+      "bytes": 2912542,
+      "lines": 5151,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.Push701Chunk39",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk39.lean.gz",
+      "sha256": "b1c66f5316fef7982893461611e94c2e221adbb5b394d8a0b31a47bede8b5fc6",
+      "bytes": 2969434,
+      "lines": 5100,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.Push701Chunk4",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk4.lean.gz",
+      "sha256": "b3f8c3df8226bb1f0aff50b98abbc8858b6fed3ac8430eb42bc6ab923a9e1892",
+      "bytes": 2999613,
+      "lines": 2156,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.Push701Chunk40",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk40.lean.gz",
+      "sha256": "f52b0c68291ca3ef00f5bdef441bfdba8c00cf244512dc43a6b7f0cf56a3d21f",
+      "bytes": 2983709,
+      "lines": 4952,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.Push701Chunk41",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk41.lean.gz",
+      "sha256": "28beedd552e05400ba55c5854349d9828c79c4222d229c98a26266e8e244513f",
+      "bytes": 2967733,
+      "lines": 4588,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.Push701Chunk42",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk42.lean.gz",
+      "sha256": "2d5de16502b23fbcfc9cc3c5ccb10aadba0e985f2f970adb0933eee081505af9",
+      "bytes": 2925419,
+      "lines": 4205,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.Push701Chunk43",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk43.lean.gz",
+      "sha256": "3eb609306318dad21803e88a98498608e454a8b558fc25b3cce06bdb988cd1c2",
+      "bytes": 2993956,
+      "lines": 4388,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.Push701Chunk44",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk44.lean.gz",
+      "sha256": "ae74d2a4a164264907dfec1d058b3cfddeb4e89274aff066a4f2e19bf7cf762b",
+      "bytes": 2948855,
+      "lines": 4985,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.Push701Chunk45",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk45.lean.gz",
+      "sha256": "88fbec937d29d05d53059aff297e797e29615f7b05309bfb3ffe8b2f1b2c79df",
+      "bytes": 2841476,
+      "lines": 4679,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.Push701Chunk46",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk46.lean.gz",
+      "sha256": "0e2c9a21444dac934226e492270a135259db4b2c17e9c9a63b6811152b5a286f",
+      "bytes": 2972656,
+      "lines": 4460,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.Push701Chunk47",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk47.lean.gz",
+      "sha256": "efcfef6808d001d1890aeca59a925b40ed06988b7281df6ab02e4210547bd3e2",
+      "bytes": 2897985,
+      "lines": 4271,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.Push701Chunk48",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk48.lean.gz",
+      "sha256": "db91257d419a6788f843b0d63c5b16369ae4b3ce2740502f89a895d6c306d2d8",
+      "bytes": 2992184,
+      "lines": 4622,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.Push701Chunk49",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk49.lean.gz",
+      "sha256": "9c8dd7ad7a66d9beafe7bccc419c3cbe669ee4d6c4404c6aa8e7eee8496fe611",
+      "bytes": 2981661,
+      "lines": 5615,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.Push701Chunk5",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk5.lean.gz",
+      "sha256": "808d7b85a22b551c756a38253cbbb0ffcc7ce69569ee10f6a5680c43c0375352",
+      "bytes": 2843567,
+      "lines": 3649,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.Push701Chunk50",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk50.lean.gz",
+      "sha256": "7c908672f8cdcc70249aeff2ef9c0d83aaacb1a46a77e544a47ce6e16caae4f6",
+      "bytes": 2983917,
+      "lines": 5064,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.Push701Chunk51",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk51.lean.gz",
+      "sha256": "4ec376823d7551452b28008a4c0cde8eb94c4093c2c0e88d4aa48634d8d3fa76",
+      "bytes": 2999602,
+      "lines": 5626,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.Push701Chunk52",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk52.lean.gz",
+      "sha256": "2319cff531b8358c2d8c41c249621fa9eeaebb6af655fcd5c682d9365cf75014",
+      "bytes": 2844910,
+      "lines": 5196,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.Push701Chunk53",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk53.lean.gz",
+      "sha256": "a967ad01409f7ef4f6cf09279aadd1bd3416af8c86e924e2daefb91ab006a53c",
+      "bytes": 2979009,
+      "lines": 5333,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.Push701Chunk54",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk54.lean.gz",
+      "sha256": "07f78af539c96948bab1aba8b133b1944ced3430bf919ff4a08dbf529040b681",
+      "bytes": 2868538,
+      "lines": 4494,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.Push701Chunk55",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk55.lean.gz",
+      "sha256": "e7ea6fad82b67bd3627b11bd5e8e4bee96fcfcc9bcfcb0794bd9ffa5032de7ed",
+      "bytes": 2989780,
+      "lines": 6342,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.Push701Chunk56",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk56.lean.gz",
+      "sha256": "cae5c31cb41c1db9f663feca4bcfd3ee423919716e1e41f3dae605f620ae5b7d",
+      "bytes": 2040334,
+      "lines": 5041,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.Push701Chunk6",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk6.lean.gz",
+      "sha256": "542672f74473aa43bd4b399f0bc29bcad9e0e4d10deb0307a9171b125830cba2",
+      "bytes": 2790600,
+      "lines": 4320,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.Push701Chunk7",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk7.lean.gz",
+      "sha256": "d5192407506c2e629ba69a6c5c51055497c586d258a4759efb6d07769962b4db",
+      "bytes": 2810593,
+      "lines": 4739,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.Push701Chunk8",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk8.lean.gz",
+      "sha256": "4593a65f141932f97e0aa21e2b10d86af24908e03ceb75202f102685de4fb2a6",
+      "bytes": 2758361,
+      "lines": 4350,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.Push701Chunk9",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk9.lean.gz",
+      "sha256": "85febd687829235f5a6d7cbd91c8b3a768b0b9515d182aa47756a9fe91fceeee",
+      "bytes": 2761644,
+      "lines": 3966,
+      "cases": [
+        701
+      ]
+    },
+    {
+      "module": "S12.Push713Chunk0",
+      "path": "evidence/historical/source-gzip/S12/Push713Chunk0.lean.gz",
+      "sha256": "a8021eabeed171ee17edc059563b15496ca2fc9ee38575793825fa8708a3a83a",
+      "bytes": 2931312,
+      "lines": 1323,
+      "cases": [
+        713
+      ]
+    }
+  ],
+  "missing": [],
+  "unsupported": [
+    [
+      "S12.Push701Chunk12",
+      "continuousScout701Step6Pose0BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk12",
+      "continuousScout701Step6Pose1BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk12",
+      "continuousScout701Step6Pose2BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk12",
+      "continuousScout701Step6Pose3BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk12",
+      "continuousScout701Step6Pose4BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk12",
+      "continuousScout701Step6Pose5BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk12",
+      "continuousScout701Step6Pose6BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk12",
+      "continuousScout701Step6Pose7BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk12",
+      "continuousScout701Step6Pose8BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk12",
+      "continuousScout701Step6Pose9BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk12",
+      "continuousScout701Step6Pose10BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk12",
+      "continuousScout701Step6Pose11BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk12",
+      "continuousScout701Step6Pose12BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk12",
+      "continuousScout701Step6Pose13BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk12",
+      "continuousScout701Step6Pose14BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk12",
+      "continuousScout701Step6Pose15BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk12",
+      "continuousScout701Step6Pose16BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk12",
+      "continuousScout701Step6Pose17BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk12",
+      "continuousScout701Step6Pose18BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk12",
+      "continuousScout701Step6Pose19BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk12",
+      "continuousScout701Step6Pose20BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk12",
+      "continuousScout701Step6Pose21BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk12",
+      "continuousScout701Step6Pose22BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk12",
+      "continuousScout701Step6Pose23BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk12",
+      "continuousScout701Step6Pose24BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk12",
+      "continuousScout701Step6Pose25BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk12",
+      "continuousScout701Step6Pose26BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk12",
+      "continuousScout701Step6Pose27BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk12",
+      "continuousScout701Step6Pose28BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk12",
+      "continuousScout701Step6Pose29BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk12",
+      "continuousScout701Step6Pose30BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk12",
+      "continuousScout701Step6Pose31BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk12",
+      "continuousScout701Step6Pose32BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk12",
+      "continuousScout701Step6Pose33BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk12",
+      "continuousScout701Step6Pose34BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk12",
+      "continuousScout701Step6Pose35BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk12",
+      "continuousScout701Step6Pose36BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk12",
+      "continuousScout701Step6Pose37BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk12",
+      "continuousScout701Step6Pose38BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk12",
+      "continuousScout701Step6Pose39BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk12",
+      "continuousScout701Step6Pose40BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk12",
+      "continuousScout701Step6Pose41BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk12",
+      "continuousScout701Step6Pose42BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk12",
+      "continuousScout701Step6Pose43BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk12",
+      "continuousScout701Step6Pose44BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk12",
+      "continuousScout701Step6Pose45BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk12",
+      "continuousScout701Step6Pose46BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk12",
+      "continuousScout701Step6Pose47BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk12",
+      "continuousScout701Step6Pose48BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk12",
+      "continuousScout701Step6Pose49BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk12",
+      "continuousScout701Step6Pose50BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk12",
+      "continuousScout701Step6Pose51BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk12",
+      "continuousScout701Step6Pose52BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose0BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose1BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose2BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose3BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose4BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose5BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose6BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose7BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose8BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose9BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose10BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose11BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose12BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose13BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose14BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose15BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose16BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose17BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose18BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose19BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose20BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose21BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose22BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose23BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose24BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose25BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose26BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose27BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose28BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose29BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose30BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose31BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose32BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose33BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose34BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose35BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose36BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose37BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose38BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose39BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose40BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose41BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose42BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose43BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose44BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose45BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose46BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose47BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose48BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose49BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose50BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose51BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose52BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose53BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose54BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose55BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose56BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose57BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk37",
+      "continuousScout701Step14Pose58BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk49",
+      "continuousScout701Step20Pose0BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk49",
+      "continuousScout701Step20Pose1BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk49",
+      "continuousScout701Step20Pose2BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk49",
+      "continuousScout701Step20Pose3BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk49",
+      "continuousScout701Step20Pose4BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk49",
+      "continuousScout701Step20Pose5BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk49",
+      "continuousScout701Step20Pose6BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk49",
+      "continuousScout701Step20Pose7BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk49",
+      "continuousScout701Step20Pose8BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk49",
+      "continuousScout701Step20Pose9BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk49",
+      "continuousScout701Step20Pose10BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk49",
+      "continuousScout701Step20Pose11BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk49",
+      "continuousScout701Step20Pose12BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk49",
+      "continuousScout701Step20Pose13BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk49",
+      "continuousScout701Step20Pose14BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk49",
+      "continuousScout701Step20Pose15BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk49",
+      "continuousScout701Step20Pose16BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk49",
+      "continuousScout701Step20Pose17BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk49",
+      "continuousScout701Step20Pose18BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk49",
+      "continuousScout701Step20Pose19BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk49",
+      "continuousScout701Step20Pose20BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk49",
+      "continuousScout701Step20Pose21BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk49",
+      "continuousScout701Step20Pose22BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk49",
+      "continuousScout701Step20Pose23BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk49",
+      "continuousScout701Step20Pose24BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk49",
+      "continuousScout701Step20Pose25BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk49",
+      "continuousScout701Step20Pose26BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk49",
+      "continuousScout701Step20Pose27BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk49",
+      "continuousScout701Step20Pose28BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk49",
+      "continuousScout701Step20Pose29BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk49",
+      "continuousScout701Step20Pose30BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk49",
+      "continuousScout701Step20Pose31BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk49",
+      "continuousScout701Step20Pose32BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk49",
+      "continuousScout701Step20Pose33BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk49",
+      "continuousScout701Step20Pose34BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk49",
+      "continuousScout701Step20Pose35BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk49",
+      "continuousScout701Step20Pose36BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk49",
+      "continuousScout701Step20Pose37BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk49",
+      "continuousScout701Step20Pose38BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk49",
+      "continuousScout701Step20Pose39BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk49",
+      "continuousScout701Step20Pose40BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk49",
+      "continuousScout701Step20Pose41BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk49",
+      "continuousScout701Step20Pose42BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk49",
+      "continuousScout701Step20Pose43BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk49",
+      "continuousScout701Step20Pose44BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk51",
+      "continuousScout701Step23Pose0BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk51",
+      "continuousScout701Step23Pose1BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk51",
+      "continuousScout701Step23Pose2BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk51",
+      "continuousScout701Step23Pose3BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk51",
+      "continuousScout701Step23Pose4BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk51",
+      "continuousScout701Step23Pose5BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk51",
+      "continuousScout701Step23Pose6BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk51",
+      "continuousScout701Step23Pose7BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk51",
+      "continuousScout701Step23Pose8BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk51",
+      "continuousScout701Step23Pose9BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk51",
+      "continuousScout701Step23Pose10BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk51",
+      "continuousScout701Step23Pose11BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk51",
+      "continuousScout701Step23Pose12BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose0BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose1BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose2BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose3BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose4BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose5BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose6BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose7BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose8BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose9BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose10BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose11BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose12BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose13BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose14BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose15BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose16BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose17BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose18BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose19BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose20BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose21BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose22BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose23BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose24BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose25BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose26BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose27BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose28BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose29BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose30BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose31BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose32BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose33BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose34BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose35BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose36BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose37BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose38BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose39BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose40BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose41BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose42BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose43BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose44BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose45BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose46BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose47BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose48BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose49BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose50BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose51BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose52BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose53BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose54BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose55BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose56BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose57BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose58BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose59BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose60BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose61BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose62BlockRows",
+      "BlockRows is not the known explicit schema"
+    ],
+    [
+      "S12.Push701Chunk55",
+      "continuousScout701Step28Pose63BlockRows",
+      "BlockRows is not the known explicit schema"
+    ]
+  ],
+  "pair_failures": [],
+  "deduplication": "full canonical value comparison",
+  "caveat": "Structural data counts exclude unconverted coverage/entry/terminal adapters; no leaf extrapolation.",
+  "expected_modules": 938,
+  "receipt_cases": [
+    701,
+    713,
+    717,
+    898,
+    973,
+    978,
+    979
+  ],
+  "stop_reason": "Limit: termination requested",
+  "counts": {
+    "source_bytes": 167386165,
+    "source_lines": 258149,
+    "declarations": 89351,
+    "untranslated_source_lines": 75646,
+    "tree_node_occurrences_F": 5335,
+    "weighted_row_occurrences": 95912,
+    "tree_node_occurrences_L": 2140,
+    "tree_node_occurrences_C": 21340,
+    "tree_node_occurrences_E": 15048,
+    "empty_original_exact_checks": 15048,
+    "empty_small_basis_checks": 15048,
+    "tree_root_occurrences": 1182,
+    "recognized_source_lines": 179235,
+    "block_occurrences": 983,
+    "pair_candidate_declarations": 28786,
+    "pose_occurrences": 4354,
+    "pose_row_occurrences": 76388,
+    "unsupported_declarations": 234
+  },
+  "unique_structures": {
+    "row": 56335,
+    "primitive_row": 56335,
+    "weighted_rows": 28495,
+    "tree_syntax_node": 39037,
+    "empty_row_basis": 13557,
+    "tree_syntax_root": 1182,
+    "block": 604,
+    "pose": 4069,
+    "primitive_pose": 4069
+  },
+  "empty_basis_size_histogram": {
+    "2": 14623,
+    "3": 425
+  },
+  "empty_basis_failures": [],
+  "primitive_row_interpretation": "Positive rational scaling only: clear denominators, divide the positive gcd of all three coefficients; strictness and ray sign are preserved. Primitive pose sets additionally ignore order and duplicate constraints. This is an exact semantic-equivalence inventory, not a completed Lean translation.",
+  "declaration_kind_counts": {
+    "definition/other": 32355,
+    "definition/linear_constraint": 30,
+    "theorem/check": 38153,
+    "theorem/other": 377,
+    "theorem/linear_constraint": 17,
+    "definition/pose": 4437,
+    "theorem/pose": 23,
+    "definition/chord": 1096,
+    "theorem/chord": 233,
+    "definition/angle": 234,
+    "theorem/angle": 9,
+    "definition/finite_data": 1142,
+    "definition/local_query": 3582,
+    "theorem/pruning": 35,
+    "definition/farkas": 4,
+    "definition/region_tree": 928,
+    "definition/hull_point": 101,
+    "theorem/hull_point": 1,
+    "definition/relaxation": 2653,
+    "theorem/relaxation": 3,
+    "theorem/region_tree": 1,
+    "theorem/farkas": 2,
+    "theorem/local_query": 1,
+    "definition/pose_root": 1184,
+    "theorem/pose_root": 1,
+    "definition/pruning": 2749
+  },
+  "untranslated_lines_by_declaration_kind": {
+    "definition/other": 3068,
+    "definition/linear_constraint": 166,
+    "theorem/check": 40129,
+    "theorem/other": 3916,
+    "theorem/linear_constraint": 219,
+    "definition/pose": 237,
+    "theorem/pose": 407,
+    "definition/chord": 3022,
+    "theorem/chord": 358,
+    "definition/angle": 260,
+    "theorem/angle": 169,
+    "definition/finite_data": 1455,
+    "definition/local_query": 3603,
+    "theorem/pruning": 66,
+    "definition/farkas": 26,
+    "definition/region_tree": 962,
+    "definition/hull_point": 129,
+    "theorem/hull_point": 20,
+    "definition/relaxation": 2667,
+    "theorem/relaxation": 15,
+    "theorem/region_tree": 10,
+    "theorem/farkas": 24,
+    "theorem/local_query": 8,
+    "definition/pose_root": 6,
+    "theorem/pose_root": 12,
+    "definition/pruning": 14692
+  },
+  "largest_untranslated_declarations": [
+    {
+      "bytes": 41248,
+      "lines": 1,
+      "module": "S12.CoverData",
+      "name": "rows20",
+      "kind": "definition/finite_data"
+    },
+    {
+      "bytes": 16602,
+      "lines": 2,
+      "module": "S12.CoreData",
+      "name": "coreProofs",
+      "kind": "definition/finite_data"
+    },
+    {
+      "bytes": 14599,
+      "lines": 1,
+      "module": "S12.Push701Chunk5",
+      "name": "incoming701ToScout701Links11",
+      "kind": "definition/relaxation"
+    },
+    {
+      "bytes": 14311,
+      "lines": 1,
+      "module": "S12.CoverData",
+      "name": "rows21",
+      "kind": "definition/finite_data"
+    },
+    {
+      "bytes": 13629,
+      "lines": 1,
+      "module": "S12.CoverData",
+      "name": "rows22",
+      "kind": "definition/finite_data"
+    },
+    {
+      "bytes": 13512,
+      "lines": 123,
+      "module": "S12.Push701Chunk56",
+      "name": "mixedGeometryScout701_impossible",
+      "kind": "theorem/other"
+    },
+    {
+      "bytes": 13478,
+      "lines": 1,
+      "module": "S12.CoverData",
+      "name": "rows23",
+      "kind": "definition/finite_data"
+    },
+    {
+      "bytes": 12244,
+      "lines": 1,
+      "module": "S12.Push701Chunk4",
+      "name": "incoming701ToScout701Links2",
+      "kind": "definition/relaxation"
+    },
+    {
+      "bytes": 11408,
+      "lines": 1,
+      "module": "S12.Push701Chunk4",
+      "name": "incoming701ToScout701Links5",
+      "kind": "definition/relaxation"
+    },
+    {
+      "bytes": 10268,
+      "lines": 1,
+      "module": "S12.Push701Chunk4",
+      "name": "incoming701ToScout701Links6",
+      "kind": "definition/relaxation"
+    },
+    {
+      "bytes": 9631,
+      "lines": 1,
+      "module": "S12.CoverData",
+      "name": "rows15",
+      "kind": "definition/finite_data"
+    },
+    {
+      "bytes": 7906,
+      "lines": 1,
+      "module": "S12.Case976AuxCases",
+      "name": "case976AuxCases",
+      "kind": "definition/finite_data"
+    },
+    {
+      "bytes": 7532,
+      "lines": 1,
+      "module": "S12.Push701Chunk4",
+      "name": "incoming701ToScout701Links9",
+      "kind": "definition/relaxation"
+    },
+    {
+      "bytes": 7442,
+      "lines": 1,
+      "module": "S12.CoverData",
+      "name": "rows12",
+      "kind": "definition/finite_data"
+    },
+    {
+      "bytes": 7308,
+      "lines": 1,
+      "module": "S12.Push701Chunk4",
+      "name": "incoming701ToScout701Links7",
+      "kind": "definition/relaxation"
+    },
+    {
+      "bytes": 7243,
+      "lines": 1,
+      "module": "S12.CoverData",
+      "name": "rows19",
+      "kind": "definition/finite_data"
+    },
+    {
+      "bytes": 7150,
+      "lines": 1,
+      "module": "S12.CoverData",
+      "name": "rows14",
+      "kind": "definition/finite_data"
+    },
+    {
+      "bytes": 7086,
+      "lines": 1,
+      "module": "S12.Push701Chunk4",
+      "name": "incoming701ToScout701Links4",
+      "kind": "definition/relaxation"
+    },
+    {
+      "bytes": 7086,
+      "lines": 1,
+      "module": "S12.Push701Chunk3",
+      "name": "incoming701ToScout701Links1",
+      "kind": "definition/relaxation"
+    },
+    {
+      "bytes": 6890,
+      "lines": 1,
+      "module": "S12.CoverData",
+      "name": "rows17",
+      "kind": "definition/finite_data"
+    },
+    {
+      "bytes": 6864,
+      "lines": 1,
+      "module": "S12.Push701Chunk4",
+      "name": "incoming701ToScout701Links3",
+      "kind": "definition/relaxation"
+    },
+    {
+      "bytes": 6864,
+      "lines": 1,
+      "module": "S12.Push701Chunk3",
+      "name": "incoming701ToScout701Links0",
+      "kind": "definition/relaxation"
+    },
+    {
+      "bytes": 6821,
+      "lines": 1,
+      "module": "S12.Push701Chunk4",
+      "name": "incoming701ToScout701Links10",
+      "kind": "definition/relaxation"
+    },
+    {
+      "bytes": 6494,
+      "lines": 1,
+      "module": "S12.Push701Chunk4",
+      "name": "incoming701ToScout701Links8",
+      "kind": "definition/relaxation"
+    },
+    {
+      "bytes": 6367,
+      "lines": 51,
+      "module": "S12.Push701Chunk56",
+      "name": "case701_shared_impossible",
+      "kind": "theorem/other"
+    },
+    {
+      "bytes": 6078,
+      "lines": 1,
+      "module": "S12.CoverData",
+      "name": "rows18",
+      "kind": "definition/finite_data"
+    },
+    {
+      "bytes": 6074,
+      "lines": 1,
+      "module": "S12.CoverData",
+      "name": "rows3",
+      "kind": "definition/finite_data"
+    },
+    {
+      "bytes": 6004,
+      "lines": 1,
+      "module": "S12.Push701Chunk12",
+      "name": "continuousScout701Step6Neighbor1Cover",
+      "kind": "definition/chord"
+    },
+    {
+      "bytes": 5970,
+      "lines": 1,
+      "module": "S12.Push701Chunk53",
+      "name": "continuousScout701Step25Pose9Block",
+      "kind": "definition/other"
+    },
+    {
+      "bytes": 5970,
+      "lines": 1,
+      "module": "S12.Push701Chunk53",
+      "name": "continuousScout701Step25Pose8Block",
+      "kind": "definition/other"
+    },
+    {
+      "bytes": 5970,
+      "lines": 1,
+      "module": "S12.Push701Chunk53",
+      "name": "continuousScout701Step25Pose7Block",
+      "kind": "definition/other"
+    },
+    {
+      "bytes": 5970,
+      "lines": 1,
+      "module": "S12.Push701Chunk53",
+      "name": "continuousScout701Step25Pose6Block",
+      "kind": "definition/other"
+    },
+    {
+      "bytes": 5970,
+      "lines": 1,
+      "module": "S12.Push701Chunk52",
+      "name": "continuousScout701Step25Pose5Block",
+      "kind": "definition/other"
+    },
+    {
+      "bytes": 5970,
+      "lines": 1,
+      "module": "S12.Push701Chunk52",
+      "name": "continuousScout701Step25Pose4Block",
+      "kind": "definition/other"
+    },
+    {
+      "bytes": 5970,
+      "lines": 1,
+      "module": "S12.Push701Chunk26",
+      "name": "continuousScout701Step9Pose59Block",
+      "kind": "definition/other"
+    },
+    {
+      "bytes": 5970,
+      "lines": 1,
+      "module": "S12.Push701Chunk26",
+      "name": "continuousScout701Step9Pose58Block",
+      "kind": "definition/other"
+    },
+    {
+      "bytes": 5970,
+      "lines": 1,
+      "module": "S12.Push701Chunk26",
+      "name": "continuousScout701Step9Pose57Block",
+      "kind": "definition/other"
+    },
+    {
+      "bytes": 5970,
+      "lines": 1,
+      "module": "S12.Push701Chunk26",
+      "name": "continuousScout701Step9Pose56Block",
+      "kind": "definition/other"
+    },
+    {
+      "bytes": 5970,
+      "lines": 1,
+      "module": "S12.Push701Chunk26",
+      "name": "continuousScout701Step9Pose55Block",
+      "kind": "definition/other"
+    },
+    {
+      "bytes": 5970,
+      "lines": 1,
+      "module": "S12.Push701Chunk25",
+      "name": "continuousScout701Step9Pose54Block",
+      "kind": "definition/other"
+    },
+    {
+      "bytes": 5970,
+      "lines": 1,
+      "module": "S12.Push701Chunk25",
+      "name": "continuousScout701Step9Pose53Block",
+      "kind": "definition/other"
+    },
+    {
+      "bytes": 5970,
+      "lines": 1,
+      "module": "S12.Push701Chunk25",
+      "name": "continuousScout701Step9Pose52Block",
+      "kind": "definition/other"
+    },
+    {
+      "bytes": 5970,
+      "lines": 1,
+      "module": "S12.Push701Chunk25",
+      "name": "continuousScout701Step9Pose51Block",
+      "kind": "definition/other"
+    },
+    {
+      "bytes": 5970,
+      "lines": 1,
+      "module": "S12.Push701Chunk25",
+      "name": "continuousScout701Step9Pose50Block",
+      "kind": "definition/other"
+    },
+    {
+      "bytes": 5970,
+      "lines": 1,
+      "module": "S12.Push701Chunk25",
+      "name": "continuousScout701Step9Pose49Block",
+      "kind": "definition/other"
+    },
+    {
+      "bytes": 5970,
+      "lines": 1,
+      "module": "S12.Push701Chunk25",
+      "name": "continuousScout701Step9Pose48Block",
+      "kind": "definition/other"
+    },
+    {
+      "bytes": 5970,
+      "lines": 1,
+      "module": "S12.Push701Chunk25",
+      "name": "continuousScout701Step9Pose47Block",
+      "kind": "definition/other"
+    },
+    {
+      "bytes": 5970,
+      "lines": 1,
+      "module": "S12.Push701Chunk24",
+      "name": "continuousScout701Step9Pose46Block",
+      "kind": "definition/other"
+    },
+    {
+      "bytes": 5970,
+      "lines": 1,
+      "module": "S12.Push701Chunk24",
+      "name": "continuousScout701Step9Pose45Block",
+      "kind": "definition/other"
+    },
+    {
+      "bytes": 5970,
+      "lines": 1,
+      "module": "S12.Push701Chunk24",
+      "name": "continuousScout701Step9Pose44Block",
+      "kind": "definition/other"
+    }
+  ],
+  "elapsed_seconds": 6.151623292000295,
+  "maximum_rss_platform_units": 95502336,
+  "scratch_bytes_before_cleanup": 34500608,
+  "pair_pass_requested": false,
+  "pair_pass_complete": false,
+  "size_interpretation": {
+    "one_line_per_unique_row_and_pose": 60404,
+    "one_line_per_unique_tree_syntax_node": 39037,
+    "one_line_per_verified_pair_record": 0,
+    "not_included": [
+      "tree ancestry and pose-output bindings",
+      "relaxation/chord conversion",
+      "entry and terminal coverage adapters",
+      "all source outside accepted-seven union",
+      "all currently unsupported declaration schemas"
+    ],
+    "these_are_component_counts_not_a_whole_proof_upper_bound": true
+  }
+}

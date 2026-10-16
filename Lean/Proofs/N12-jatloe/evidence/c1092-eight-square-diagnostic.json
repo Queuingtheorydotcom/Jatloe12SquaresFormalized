@@ -1,0 +1,51 @@
+{
+  "status": "exact rational diagnostic, not Lean replay",
+  "side": "1001/1000",
+  "rectangle_lower_corners_in_thousandths": [
+    [
+      0,
+      0
+    ],
+    [
+      2999,
+      0
+    ],
+    [
+      2999,
+      2999
+    ],
+    [
+      0,
+      2999
+    ],
+    [
+      1001,
+      997
+    ],
+    [
+      2002,
+      1001
+    ],
+    [
+      1998,
+      2002
+    ],
+    [
+      997,
+      1998
+    ]
+  ],
+  "exact_original_marker_codes": [
+    3,
+    12,
+    48,
+    192,
+    256,
+    512,
+    1024,
+    2048
+  ],
+  "pairwise_interior_disjoint": true,
+  "all48_wall_points_and4_corner_points_outside_central_closures": true,
+  "scope": "eight-square subsystem only; four physical wall squares absent"
+}

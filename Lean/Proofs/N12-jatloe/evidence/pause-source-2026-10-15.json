@@ -1,0 +1,122 @@
+{
+  "checkpoint": "paused at explicit user request",
+  "created_utc": "2026-10-15T14:22:26.984300+00:00",
+  "base_commit": "aa7b7defa0384a83eadd16adf39398b7631a6e20",
+  "branch": "codex/n12-initial-programs-2026-10-14",
+  "source_registry": {
+    "registered": 116,
+    "total": 117,
+    "pending": [
+      700
+    ]
+  },
+  "lean_compilation_performed": false,
+  "ci_launched": false,
+  "current_additions_recensused": false,
+  "agents_interrupted": [
+    "ben_progress",
+    "c1092_completed_math",
+    "c981_vector_continuation/other_case_routes"
+  ],
+  "review_still_needed": [
+    "C700FullCornerFaces.lean",
+    "C700FullCornerTilt.lean"
+  ],
+  "files": [
+    {
+      "path": "README.md",
+      "bytes": 17722,
+      "sha256": "23066a3c88e47a6813b38d7e9b412c36249b8cc2fe6447372c45825fecac7e21"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Assembly/ContinuousRemaining.lean",
+      "bytes": 1526,
+      "sha256": "d7bb9fee5c52b5f5a50ff2c3c61d4a38fd82168f2659b17265af4ed4c27a4d9e"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Assembly/NewCases.lean",
+      "bytes": 5097,
+      "sha256": "6e40c4ccc6880bef43662ce7baa1096bfc01f8828a4f2d0824d62322c014d36c"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Assembly/SourceAssembly.lean",
+      "bytes": 5810,
+      "sha256": "5f1cdd086e2b8c3e013653ef5fdaae4636eb6a9b431649c4ae1e01ea9e05fe18"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Geometry/MergedRightWallSector.lean",
+      "bytes": 10606,
+      "sha256": "608b0a25ff34e4935ea8122fd26acd5eeb075f0981129c55235ed3681508b8b8"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/FiniteCases/C972Completion.lean",
+      "bytes": 1041,
+      "sha256": "013edc83741bc80411d47c0830f668724f7cebdda0db13e8e3882ff1f3aeb3f2"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/FiniteCases/C972NegativeSingleton.lean",
+      "bytes": 5560,
+      "sha256": "e3cabf21f404e74083ea116c357f2c1ec93db287ab8e44760cf377164eb214c6"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/FiniteCases/C972NortheastPositiveEnding.lean",
+      "bytes": 13628,
+      "sha256": "bfe71467c09cf2ee6675d14c19033c1cb3e3315da51d94c59ea68dd168ca469b"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/FiniteCases/C972NortheastPositiveFaces.lean",
+      "bytes": 3001,
+      "sha256": "35c3e4dd36bfc06f5297ab463029affbd60bf252d8b0c12c58d325727e43019c"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/FiniteCases/C972NortheastPositiveScalars.lean",
+      "bytes": 5860,
+      "sha256": "c30bc635a6013443a21118e4a3e1d50e501a4360aa14e203894f9f272176815c"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/FiniteCases/C972PositiveSingletonEnding.lean",
+      "bytes": 5573,
+      "sha256": "07291f4008768c926576e5d5a1b63c0281278c02154f1d59d21bf9bb98921cde"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/OtherCases/MergedPending/C700FullCornerFaces.lean",
+      "bytes": 4830,
+      "sha256": "66105b7ed200cb57da8252f8d8b897d39dac96306d07d058a5846f26bf659bad"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/OtherCases/MergedPending/C700FullCornerOrigin.lean",
+      "bytes": 4983,
+      "sha256": "b75fdf734681ec51fb0da2c84c922f5f134d0dcbe043a4ebb1f2142ce75c3414"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/OtherCases/MergedPending/C700FullCornerTilt.lean",
+      "bytes": 6469,
+      "sha256": "1c6ab3bcda3a183c31fed4f662cbb4b08f4bb0786ba8f72ef52343c4b12fdd99"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/OtherCases/MergedPending/C700LowerRightFaces.lean",
+      "bytes": 3250,
+      "sha256": "87f4ec8d71f5c7ae7bbc19d5efc879a6812ca5f4ba2d92e8b7e95dd3a06412eb"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/OtherCases/MergedPending/C700PositiveSouthwest.lean",
+      "bytes": 6927,
+      "sha256": "ffb0a8cd92e47cbe3445717e1c2e6215adf1ee02205cb9714d230362912db26f"
+    },
+    {
+      "path": "projects/n12-refactored/Compact/Completion/OtherCases/MergedPending/C700RightProfile.lean",
+      "bytes": 5829,
+      "sha256": "9b6b126d9ac3fae9557b98f9ad51e7bcc25b9b46cc72c40922714e9aa219716a"
+    },
+    {
+      "path": "projects/n12-refactored/handoff/PAUSED-2026-10-15.txt",
+      "bytes": 7571,
+      "sha256": "c26d5317f64982ff81dc3240ddf79e04633d6e806262e2d815f9fd2c01b48882"
+    },
+    {
+      "path": "projects/n12-refactored/mathematics/research/C700-RIGHT-WALL-INPUT-BOUNDARY-2026-10-15.txt",
+      "bytes": 1594,
+      "sha256": "7576afc27b6f5c18958a2345bc5559afb19a98e43ecff7006ed9a690834044d0"
+    }
+  ]
+}

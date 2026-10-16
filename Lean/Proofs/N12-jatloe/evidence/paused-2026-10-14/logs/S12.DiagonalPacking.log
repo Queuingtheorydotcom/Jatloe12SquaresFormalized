@@ -1,0 +1,1 @@
+'S12.packing_no_diagonal' depends on axioms: [propext, Classical.choice, Quot.sound]

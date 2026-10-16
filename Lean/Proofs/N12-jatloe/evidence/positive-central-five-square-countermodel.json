@@ -1,0 +1,315 @@
+{
+  "scope": "Exact five-square local witness; not a twelve-square packing, not Lean replay.",
+  "side": "100000001/100000000",
+  "squares": {
+    "O": {
+      "frame": [
+        "39999/40001",
+        "-400/40001",
+        "3963139959999/4000100000000",
+        "31852960/1599999999"
+      ],
+      "unit": true,
+      "contained": true,
+      "markers": [
+        0
+      ],
+      "auxiliary": [
+        2,
+        12
+      ],
+      "center": false,
+      "left_point": false,
+      "top_seed": false,
+      "required": [
+        {
+          "point": [
+            "28/25",
+            "1"
+          ],
+          "strict": true
+        },
+        {
+          "point": [
+            "87/50",
+            "1"
+          ],
+          "strict": true
+        },
+        {
+          "point": [
+            "187/100",
+            "19/25"
+          ],
+          "strict": true
+        }
+      ]
+    },
+    "L": {
+      "frame": [
+        "1",
+        "0",
+        "0",
+        "23/25"
+      ],
+      "unit": true,
+      "contained": true,
+      "markers": [
+        1
+      ],
+      "auxiliary": [
+        0,
+        10
+      ],
+      "center": false,
+      "left_point": false,
+      "top_seed": false,
+      "required": [
+        {
+          "point": [
+            "1",
+            "1"
+          ],
+          "strict": true
+        },
+        {
+          "point": [
+            "1",
+            "28/25"
+          ],
+          "strict": true
+        },
+        {
+          "point": [
+            "1",
+            "87/50"
+          ],
+          "strict": true
+        },
+        {
+          "point": [
+            "19/25",
+            "187/100"
+          ],
+          "strict": true
+        }
+      ]
+    },
+    "A": {
+      "frame": [
+        "1591/1609",
+        "240/1609",
+        "205299998391/160900000000",
+        "133283908391/160900000000"
+      ],
+      "unit": true,
+      "contained": true,
+      "markers": [
+        8
+      ],
+      "auxiliary": [
+        4,
+        13
+      ],
+      "center": false,
+      "left_point": false,
+      "top_seed": false,
+      "required": [
+        {
+          "point": [
+            "2",
+            "3/2"
+          ],
+          "strict": true
+        },
+        {
+          "point": [
+            "3/2",
+            "2"
+          ],
+          "strict": true
+        }
+      ]
+    },
+    "W": {
+      "frame": [
+        "1",
+        "0",
+        "0",
+        "39999/20000"
+      ],
+      "unit": true,
+      "contained": true,
+      "markers": [
+        12
+      ],
+      "auxiliary": [
+        1,
+        11
+      ],
+      "center": false,
+      "left_point": true,
+      "top_seed": true,
+      "required": []
+    },
+    "E": {
+      "frame": [
+        "1",
+        "0",
+        "0",
+        "299999999/100000000"
+      ],
+      "unit": true,
+      "contained": true,
+      "markers": [
+        6,
+        7
+      ],
+      "auxiliary": [],
+      "center": false,
+      "left_point": false,
+      "top_seed": false,
+      "required": [
+        {
+          "point": [
+            "1",
+            "3"
+          ],
+          "strict": true
+        }
+      ]
+    }
+  },
+  "separators": {
+    "OL": [
+      {
+        "frame": "O",
+        "axis": "U",
+        "direction": "L-before-O",
+        "gap": "499/50001250"
+      }
+    ],
+    "OA": [
+      {
+        "frame": "O",
+        "axis": "V",
+        "direction": "O-before-A",
+        "gap": "174341611914886138201/207110479870555950000000"
+      }
+    ],
+    "OW": [
+      {
+        "frame": "O",
+        "axis": "U",
+        "direction": "W-before-O",
+        "gap": "270237/25000625"
+      },
+      {
+        "frame": "O",
+        "axis": "V",
+        "direction": "O-before-W",
+        "gap": "156790703099995001/159999999900000000"
+      },
+      {
+        "frame": "W",
+        "axis": "V",
+        "direction": "O-before-W",
+        "gap": "232947056153/235300000000"
+      }
+    ],
+    "OE": [
+      {
+        "frame": "O",
+        "axis": "U",
+        "direction": "E-before-O",
+        "gap": "208099799/10000250000"
+      },
+      {
+        "frame": "O",
+        "axis": "V",
+        "direction": "O-before-E",
+        "gap": "3959883765001/1999999998750"
+      },
+      {
+        "frame": "E",
+        "axis": "V",
+        "direction": "O-before-E",
+        "gap": "1170647047/588250000"
+      }
+    ],
+    "LA": [
+      {
+        "frame": "A",
+        "axis": "U",
+        "direction": "L-before-A",
+        "gap": "1499957/2011250000"
+      }
+    ],
+    "LW": [
+      {
+        "frame": "L",
+        "axis": "V",
+        "direction": "L-before-W",
+        "gap": "7994999/100000000"
+      },
+      {
+        "frame": "W",
+        "axis": "V",
+        "direction": "L-before-W",
+        "gap": "7994999/100000000"
+      }
+    ],
+    "LE": [
+      {
+        "frame": "L",
+        "axis": "V",
+        "direction": "L-before-E",
+        "gap": "53999999/50000000"
+      },
+      {
+        "frame": "E",
+        "axis": "V",
+        "direction": "L-before-E",
+        "gap": "53999999/50000000"
+      }
+    ],
+    "AW": [
+      {
+        "frame": "A",
+        "axis": "V",
+        "direction": "A-before-W",
+        "gap": "203369/4022500000"
+      }
+    ],
+    "AE": [
+      {
+        "frame": "A",
+        "axis": "V",
+        "direction": "A-before-E",
+        "gap": "159116088169/160900000000"
+      },
+      {
+        "frame": "E",
+        "axis": "V",
+        "direction": "A-before-E",
+        "gap": "220729696601119/258888100000000"
+      }
+    ],
+    "WE": [
+      {
+        "frame": "W",
+        "axis": "V",
+        "direction": "W-before-E",
+        "gap": "2499/50000000"
+      },
+      {
+        "frame": "E",
+        "axis": "V",
+        "direction": "W-before-E",
+        "gap": "2499/50000000"
+      }
+    ]
+  },
+  "all_ten_pairs_separated": true,
+  "local_center_forcing_claim_refuted": true
+}

@@ -1,0 +1,2 @@
+'S12.packing_earlyOK' depends on axioms: [propext, Classical.choice, Quot.sound]
+'S12.packing_reduction_to_577' depends on axioms: [propext, Classical.choice, Lean.ofReduceBool, Quot.sound]

@@ -1,0 +1,4 @@
+/Users/macintosh/Documents/Codex/2026-10-13/plz/work/ben-continuation/projects/n12-refactored/Compact/Geometry/CentralWallPairSupport.lean:71:64: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'N12Compact.CentralWallPairSupport.central_axis_impossible' depends on axioms: [propext, Classical.choice, Quot.sound]
+'N12Compact.CentralWallPairSupport.wall_axis_impossible' depends on axioms: [propext, Classical.choice, Quot.sound]

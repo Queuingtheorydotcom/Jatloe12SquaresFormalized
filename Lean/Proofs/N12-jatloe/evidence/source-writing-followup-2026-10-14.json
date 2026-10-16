@@ -1,0 +1,826 @@
+{
+  "date": "2026-10-14",
+  "branch": "codex/n12-initial-programs-2026-10-14",
+  "base_commit": "55dc3d4694a1c349d73edc17be99d5344ac09dfe",
+  "scope": "Completed mathematical prose translated to uncompiled Lean source; connected C1090 continuous route and explicit original finite entrance, new C1089 joins and other completed chapters",
+  "current_phase_compilation_performed": false,
+  "global_optimality_proved": false,
+  "whole_original_case_source_assembly": {
+    "listed": 100,
+    "total": 117,
+    "new_whole_case_acceptance_claimed": false
+  },
+  "source_files": [
+    {
+      "path": "Compact/Completion/C1092/MPPMMissingPositiveFaces.lean",
+      "bytes": 6811,
+      "lines": 165,
+      "sha256": "6cf971fb9658e64eeca13395cbeb537c2762dd03b630e1bf9e467fc14198c819",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/C1092/MPPMOrdinaryWallAdvance.lean",
+      "bytes": 8604,
+      "lines": 190,
+      "sha256": "278dc3120d6e907aba99d021981b657f362f658caca62e23614dceea1e049c22",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/C1092/MPPMPositiveCrosspointSeeds.lean",
+      "bytes": 8532,
+      "lines": 204,
+      "sha256": "754662ff596e21c0f20ee5d729d20e42451b8939ae08613891efab9eea094d4a",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/C1092/MPPMPositiveSector.lean",
+      "bytes": 4726,
+      "lines": 93,
+      "sha256": "da9d9fd036bb33b1febba6de09dcabb0b70fa02438195efc80296e3230fe3dcf",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/C1092/MPPMPositiveSeedsActual.lean",
+      "bytes": 14715,
+      "lines": 330,
+      "sha256": "2a4e832e98c53d33ad733ac7725702eef8b339dbb430193175a345860aa19573",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/CommonCases/CanonicalQuadratic.lean",
+      "bytes": 2488,
+      "lines": 55,
+      "sha256": "19a07c2d7d622498ad6bae0282c2479ed20810a53c30f01939b9b52833d7c707",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/FiniteCases/C580581TripleEntrance.lean",
+      "bytes": 12698,
+      "lines": 243,
+      "sha256": "37ba5cab4f9cb52233b7d5d58e747b7fa98cbf9b3c8681e793713c8211b426e0",
+      "new": false
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C1089/ContinuousActual.lean",
+      "bytes": 8423,
+      "lines": 193,
+      "sha256": "d268e5333995df6dfbfbb50aecae71d1afc6f82b99fef0e179da882b60abba17",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C1089/ContinuousAnchorCenter.lean",
+      "bytes": 3404,
+      "lines": 74,
+      "sha256": "09bf3573483a5541ce60574da5b739e047f7a10f79022d235971f6da0227bad4",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C1089/ContinuousAnchorScalars.lean",
+      "bytes": 3123,
+      "lines": 69,
+      "sha256": "bc32ddf86505103b6a79105671a64430b71bb80a75346eadb32e30f9510cf4bd",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C1089/ContinuousAnchorSupport.lean",
+      "bytes": 6474,
+      "lines": 130,
+      "sha256": "2cf51596bfdd97277db94c89417fdc4dae1ded2b283df313883e528248e167c3",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C1089/ContinuousBottom.lean",
+      "bytes": 4806,
+      "lines": 87,
+      "sha256": "f0e33482706a0a64b8e5d968ab4fab2fb298f47db41d6e1adce38b7d4895963e",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C1089/ContinuousCenter.lean",
+      "bytes": 6126,
+      "lines": 126,
+      "sha256": "b280637c97e4377a96df1920c787454b93e769d4d9778ed4040723bb4c0aa917",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C1089/ContinuousNegative.lean",
+      "bytes": 5355,
+      "lines": 113,
+      "sha256": "b59da878df97e2abf4ed2f3591de33b6f02fd584da02187f50198b52891e4168",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C1089/ContinuousOrigin.lean",
+      "bytes": 3585,
+      "lines": 78,
+      "sha256": "fad6a1e8538d2ae7a04dcee2177a49547e6c6d414f86f54a159b450ea9aa538a",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C1089/ContinuousReach.lean",
+      "bytes": 6209,
+      "lines": 130,
+      "sha256": "7a600bc68f4774a5fd15bf87a382c64ea952adab1ed89712820ca57eddf707ad",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C1089/LastSectorEnding.lean",
+      "bytes": 4702,
+      "lines": 109,
+      "sha256": "739cbd015c2913ccfcac23e22798bcbf6052f2236aaffeea63ec3f3571e54827",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C1089/LastSectorExtra.lean",
+      "bytes": 9504,
+      "lines": 211,
+      "sha256": "516094c0d32aa556ac879f3e6167b64d0e8fa81822fbe5804fdc7bdbc74a03a6",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C1089/LastSectorNorthwest.lean",
+      "bytes": 6241,
+      "lines": 117,
+      "sha256": "fd1059be86a2da24abe2971a13542792aaed103470a0f963f6b54929decbd0ff",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C1089/LastSectorNorthwestInput.lean",
+      "bytes": 4406,
+      "lines": 90,
+      "sha256": "43a85b9ca2a81d0c0056d5cc7264ffcca76fa8f0d523423254e399ce59fd7ca6",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C1089/LastSectorRawEnding.lean",
+      "bytes": 2364,
+      "lines": 63,
+      "sha256": "5352d8717dd864e7d5a8944648849ab27878590719b8a17d08ba44ff4740fd7b",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C1089/LastSectorRawPoints.lean",
+      "bytes": 9176,
+      "lines": 193,
+      "sha256": "90dc2719aab5e162be2371fb97d090ded9259b26400b423d54783d324113d6fb",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C1089/LastSectorSupportJoin.lean",
+      "bytes": 5142,
+      "lines": 110,
+      "sha256": "73962efe9f03dca59648fcdb4497d3cc74b5640f66208aca9f093cd14302321a",
+      "new": false
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C1089/MMMPSingletonEnding.lean",
+      "bytes": 8155,
+      "lines": 157,
+      "sha256": "a4652b9aab1fb7d5233b421c481c8ad996df7668ac91fdc9a7e1702feb0729cb",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C1089/SingletonCorner.lean",
+      "bytes": 10183,
+      "lines": 208,
+      "sha256": "ad46bcad040663e9a77db2478d3c4be6fb970e49e8857cb74dd4db7809b589a2",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C1089/WallOrigins.lean",
+      "bytes": 12743,
+      "lines": 275,
+      "sha256": "c4ebcd3bfe26c2e5fe15bb1a66cea4509c16c04b86746ac796f3be23cc3916ef",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C1090/EarlyGeometry.lean",
+      "bytes": 7891,
+      "lines": 155,
+      "sha256": "8eb2d816e8cf3c8899ddbdfcbf923e23897e59b3a2de75e25854b636537cdc21",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C1090/EarlyResidual.lean",
+      "bytes": 2367,
+      "lines": 62,
+      "sha256": "acbd2a39a6d326d0cc57fb34047bccc969ab9c00427d192f67c91fd3d91baab0",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C1090/EarlySelection.lean",
+      "bytes": 7738,
+      "lines": 170,
+      "sha256": "e1d2370949c5d8ad9c1c0271ef52d1fafc4106d97fda4fb4d4fbcf8b115bf11c",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C1090/MergedLeftSeed.lean",
+      "bytes": 1993,
+      "lines": 41,
+      "sha256": "6c2299b436121613db8c75c8fbea54e42ca64318e9e155958b5148e0256e5f51",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C1090/NESelection.lean",
+      "bytes": 6823,
+      "lines": 136,
+      "sha256": "cb60edafa6bb86f6bb615236fc189ab295f536de0f501d6c13c942196c9e6b12",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C1090/NESelectionOwners.lean",
+      "bytes": 2915,
+      "lines": 62,
+      "sha256": "2941afbe6f77c4b5e9c0c0556654740f5e9b3dc96865d5d43b54fbd2e4017f1e",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C1090/OriginalData.lean",
+      "bytes": 7192,
+      "lines": 179,
+      "sha256": "e3490a8d46a26ff543ce3a69279168775b08da80253388b4540b5033d5dd0126",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C1090/OriginalEnding.lean",
+      "bytes": 930,
+      "lines": 18,
+      "sha256": "c2b53db42ca8eb9b122a73a9bec61d81d1217731763b6431ca5791819c1de770",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C1090/ResidualCentralPoints.lean",
+      "bytes": 10798,
+      "lines": 238,
+      "sha256": "d959fe9a4b4493e306debbd63c51302f9ac64a41dd01ae0a0f226e26ff924c6f",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C1090/ResidualEnding.lean",
+      "bytes": 9027,
+      "lines": 161,
+      "sha256": "e49511115a011b8ce4b2cba3a41a1afd3ef8d2e0f84a679f9a45456aa76d5047",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C1090/ResidualOwners.lean",
+      "bytes": 11935,
+      "lines": 244,
+      "sha256": "39d5db0984918bc8c4f82809ba56e787742ad71c3362041d4ca9a10782c2d3c2",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C1090/RowIdentity.lean",
+      "bytes": 2013,
+      "lines": 42,
+      "sha256": "cdc05cfb2e85319d9bf917d13f5d1fa0ed0576e520e6153650251ca2b9c4280f",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C1090/StructuralGeometry.lean",
+      "bytes": 11004,
+      "lines": 212,
+      "sha256": "b4f96792abc5350d3f56deac0b4be2d90fc7aa2487a1e3ef4508416aa00f0954",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C1090/StructuralReduction.lean",
+      "bytes": 3266,
+      "lines": 65,
+      "sha256": "c5f19047abeb9090a025be01c0a87c34d96dc4866a44b86b01ceccf87ca8befd",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C976LeftTop/ActualOwners.lean",
+      "bytes": 9428,
+      "lines": 202,
+      "sha256": "d7245f50dddbcdb867f98673fc77ac967c05bd76e8b809dd3414c36ab512c6dd",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C976LeftTop/PointInputs.lean",
+      "bytes": 1727,
+      "lines": 45,
+      "sha256": "364027fb791aaff6f394218a5889cb7529a74fcf19c0b5cc9672cbef13c1925d",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C976LeftTop/PointProfile.lean",
+      "bytes": 4065,
+      "lines": 94,
+      "sha256": "a195cbf43a58124aadb6a370a49b97a2618aaf6502012f20faa1a636c13104f0",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C976LeftTop/PointScalars.lean",
+      "bytes": 4709,
+      "lines": 98,
+      "sha256": "d27ef60bbe8e1335e44da2e9fd6dd9f1edae96c58a3425717e9efeeeb2b5d6c1",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C976LeftTop/PointSign.lean",
+      "bytes": 2649,
+      "lines": 57,
+      "sha256": "7de89a34d311af55dc35a60ca55417989b7328d868646d532198b3d6dbf12c61",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C976LeftTop/PointSupport.lean",
+      "bytes": 5023,
+      "lines": 102,
+      "sha256": "d8d8c187eb0cae486b5d373d798f5fb4563870ed8355df0e1e00727263d07688",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C976LeftTop/UpperPoints.lean",
+      "bytes": 4628,
+      "lines": 94,
+      "sha256": "73a89b1b45354c38b968b85e193e3dae7a9c12e1809f71ed98f823b366504ed7",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C976MergedLeft/ActualOwners.lean",
+      "bytes": 7190,
+      "lines": 135,
+      "sha256": "d460d31ad892f40d4964608eaaa2b6a73973c554241e505bb1ab2b7b9b4966fa",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C976MergedLeft/Ending.lean",
+      "bytes": 7180,
+      "lines": 132,
+      "sha256": "072284ffc0c46a262f1fb09832397b10c1f8a71968e17138654e5a45e600d1ad",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C976MergedLeft/Inputs.lean",
+      "bytes": 2088,
+      "lines": 55,
+      "sha256": "943458cab6ab82be3a1d615a1955799240c5a8f5adbb7f77104a4ee8b820da25",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C976MergedLeft/LowerFaces.lean",
+      "bytes": 4088,
+      "lines": 90,
+      "sha256": "9e8f1e6ef285029260db6afa434279d991447aebfbbd82abf5f9d9b10949b51e",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C976MergedLeft/Main.lean",
+      "bytes": 1522,
+      "lines": 31,
+      "sha256": "949a31c1f3f04740bcdeda95b48849f97fc8c8644a1f56f574726056502212a1",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C976MergedLeft/Profile.lean",
+      "bytes": 3403,
+      "lines": 79,
+      "sha256": "eadb4193560fe21e5bc508b7046db8146b5fa87b133d621b640f94860b646b44",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C976MergedLeft/Scalars.lean",
+      "bytes": 6717,
+      "lines": 140,
+      "sha256": "5bdbda2f43a9e7d2c3b841499f7c558137f81c7e1304a26a83fe5cc5677824f6",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C976MergedLeft/TopOnlyReach.lean",
+      "bytes": 5140,
+      "lines": 93,
+      "sha256": "942d94afc7a843a9037109255851fcfe0122e7177527cecb04fec31a38455eb5",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C976MergedLeft/TopTransfers.lean",
+      "bytes": 4575,
+      "lines": 92,
+      "sha256": "96e8a2bd5b828342661f157b77a309feeaf708cb43310200c650ca98317e5e19",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C983/C974LocalEnding.lean",
+      "bytes": 2560,
+      "lines": 49,
+      "sha256": "8a149ea274c9857f0031816e4e22b93f3e8fadae99358f980660edc462cfb502",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C983/C974MissingCornerData.lean",
+      "bytes": 9250,
+      "lines": 212,
+      "sha256": "e1dcde7d4f652ee94830133dec5a4abf203c8904c60dec9eaac2be3ffd4897b4",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C983/C974MissingCornerSupports.lean",
+      "bytes": 9187,
+      "lines": 193,
+      "sha256": "64b5500c65dd1ccfc125a6c26e1c505ca959fe5f299b0b14479260e70336bde2",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C983/C974SingletonAngle.lean",
+      "bytes": 4702,
+      "lines": 107,
+      "sha256": "50fc1b42da93d017e292c76c88956451892de2806190fb1254948af2919ec115",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C983/C974SingletonAngleScalars.lean",
+      "bytes": 8366,
+      "lines": 176,
+      "sha256": "287de773ddb8033cd8f841b0b80e25b3513ec0f1b925dc737615d0a1e1369193",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C983/C974SingletonSign.lean",
+      "bytes": 5530,
+      "lines": 122,
+      "sha256": "9283235a6bad1230810d4b8c4696629c33688bbbb6c096f59bb80761679b098b",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C983/C974WallNegativeCaps.lean",
+      "bytes": 4388,
+      "lines": 100,
+      "sha256": "ecc92037f9c64b0b15284af8f6354bd6e3b0e86a5c948d7aa6acc582e03ce667",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C983/C974WallSign.lean",
+      "bytes": 10771,
+      "lines": 228,
+      "sha256": "c2dd142383d2d62664ab7be1170f6ecdcd100c934e9da67ef64c09390c891771",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C983/C974WallSignScalars.lean",
+      "bytes": 3982,
+      "lines": 90,
+      "sha256": "5afaebc4a413099bafeb6805b3a79e272d7b0b1b6497a88b31f19cd661311da4",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C983/F5TopOnlyPoints.lean",
+      "bytes": 6098,
+      "lines": 122,
+      "sha256": "a226f15b8552568ea4e663457ed5a687a990ebd468be8e48502f3d3a2af9cd73",
+      "new": false
+    },
+    {
+      "path": "Compact/Completion/OtherCases/CrossedElbow.lean",
+      "bytes": 7567,
+      "lines": 165,
+      "sha256": "db00257f66a82dbf788b1a2e21e50ef2cfcd87bdaf7311d4c0b87d0eeac8c7ea",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/InnerCornerObstruction/Faces.lean",
+      "bytes": 3613,
+      "lines": 87,
+      "sha256": "74e3e041b2624bd6204aa60f68466ba4a5b604fa49e1fc87a91df559dfa574f3",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/InnerCornerObstruction/Inward.lean",
+      "bytes": 5849,
+      "lines": 118,
+      "sha256": "f296a269fb0cca57bef28947239e7f5b558b0b6d42bde2e2c27ceeefe120f4e5",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/InnerCornerObstruction/Main.lean",
+      "bytes": 3970,
+      "lines": 87,
+      "sha256": "12a551f6c87b7d91ed5706da44bb44b9717915f40cf41a829837ec2163e9bead",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/InnerCornerObstruction/Scalars.lean",
+      "bytes": 1640,
+      "lines": 34,
+      "sha256": "b3722b3ecf7649323e5f7dff0660a828aa072c02c695c583c0b583403e4d7950",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/OrdinaryBarCrosspoint/Inputs.lean",
+      "bytes": 3627,
+      "lines": 82,
+      "sha256": "adc42ad2a67a43d97da0378657f1f34c69b9e568d85d2bc7c339be88641a7fb5",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/OrdinaryBarCrosspoint/Main.lean",
+      "bytes": 4685,
+      "lines": 101,
+      "sha256": "4c54ebaec10a5f8fb4bc72154b407b92945b431476bbe69a336fc04eaea135d8",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/OrdinaryBarCrosspoint/Negative.lean",
+      "bytes": 5998,
+      "lines": 143,
+      "sha256": "83ed25bcc21ab19715b480135c36673d5432bcd9077895e3c0e049f65729da39",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/OrdinaryBarCrosspoint/Positive.lean",
+      "bytes": 3523,
+      "lines": 86,
+      "sha256": "c45fb8f5831bebfd09f1e2a87c3cd9dd27d32320ca40a0f8214b67103fca5680",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/OrdinaryBarCrosspoint/Scalars.lean",
+      "bytes": 1936,
+      "lines": 37,
+      "sha256": "ebd6e23b41b10a09bb3473757fb63d932101d609c4c9b2becac946ffb77583da",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/OrdinaryCentralReduction.lean",
+      "bytes": 9573,
+      "lines": 202,
+      "sha256": "ecaeee29470b02bd4bc05db2d7c54de2c4129d0bba7da7048f9393ff1061961c",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/OrdinaryCentralReductionGeometry.lean",
+      "bytes": 12185,
+      "lines": 254,
+      "sha256": "d38ad243d43a74d47076f8eccee05378a8cb1c05f74035636c4ee54399582db2",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/OrdinaryMarkerHalfpoint/Canonical.lean",
+      "bytes": 6887,
+      "lines": 152,
+      "sha256": "009b9650ad7a165420503c50d5e405b180ca476b44213df05e378f93a810bd50",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/OrdinaryMarkerHalfpoint/Inputs.lean",
+      "bytes": 1399,
+      "lines": 35,
+      "sha256": "6249efe0ee5bc662863624dde2fd18ad66e85e55e1a36ba34804abbc3e90da80",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/OrdinaryMarkerHalfpoint/Main.lean",
+      "bytes": 4379,
+      "lines": 92,
+      "sha256": "0a8924d4ea4d4972587187134cd9d0bbfa4c0bd05a5df70fce74afc36bd5bbd7",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/OutwardBarFrame.lean",
+      "bytes": 3546,
+      "lines": 69,
+      "sha256": "92dd11093c3a9457c08c1ce23528a4fd3c8352ff32704a15399fab17df7b015c",
+      "new": false
+    },
+    {
+      "path": "Compact/Completion/OtherCases/OutwardBarPoint.lean",
+      "bytes": 11303,
+      "lines": 236,
+      "sha256": "33daaab2f6cb569af1efebd19a80550ac3bd6f77fa53f49d9b57ebfda5df83ea",
+      "new": false
+    },
+    {
+      "path": "Compact/Completion/OtherCases/ShortDuplicatePoints.lean",
+      "bytes": 7522,
+      "lines": 158,
+      "sha256": "16611cb3d521bce27522ee920ad463f58bb858e49cabfb24fdefa584bfb1f5db",
+      "new": true
+    },
+    {
+      "path": "Compact/Completion/OtherCases/TopOnlyLeftPoint.lean",
+      "bytes": 14295,
+      "lines": 279,
+      "sha256": "240b426ee48229cc3a7ee6fe071d8747cc261725e470fad669e993da1a75d6ba",
+      "new": false
+    },
+    {
+      "path": "Compact/Completion/OtherCases/UpperBarPoint.lean",
+      "bytes": 10783,
+      "lines": 208,
+      "sha256": "0f36f4850d876eaa11b1dcb27c5488320e7e79cbf15ff2e90acbedde3e1a4a33",
+      "new": false
+    },
+    {
+      "path": "Compact/Geometry/WallSignChord.lean",
+      "bytes": 4720,
+      "lines": 102,
+      "sha256": "95a307422d1dddeba3976b3b084cd8492df4dcd63e5a26d9b86c251dad5c0b11",
+      "new": true
+    },
+    {
+      "path": "Compact/Geometry/WallSignChordNegative.lean",
+      "bytes": 4410,
+      "lines": 99,
+      "sha256": "26ff9850cbddeb3ebb6cf92b170a59a91b24c14f51cc757f8946c01c64a0a440",
+      "new": true
+    },
+    {
+      "path": "Compact/Geometry/WallSignChordPositive.lean",
+      "bytes": 3757,
+      "lines": 78,
+      "sha256": "ea3be03fd4ff65c447e62cb53419d47b1bdc84f9cd331fda89419b673ab1ba9a",
+      "new": true
+    },
+    {
+      "path": "Compact/Geometry/WallSignChordScalars.lean",
+      "bytes": 5032,
+      "lines": 122,
+      "sha256": "7d712a3fa6edc14560af201612b29158c72745cc6b388193188738c06562d996",
+      "new": true
+    }
+  ],
+  "new_lean_modules": 83,
+  "modified_lean_modules": 7,
+  "source_file_lines": 11562,
+  "source_census": {
+    "project_modules": 5068,
+    "project_source_lines": 452113,
+    "external_modules": 3234,
+    "combined_modules": 8302,
+    "selected_source_closure_complete": true,
+    "preferred_module_limit": 8000,
+    "hard_module_limit": 10000,
+    "current_source_under_8000": false,
+    "current_source_under_hard_limit": true,
+    "future_unwritten_obligations_included": false,
+    "all_project_lean_files": 5597,
+    "retained_combined_modules": 9007,
+    "retained_source_closure_complete": false
+  },
+  "mathematical_library": {
+    "manifest": "mathematics/SOURCE-INDEX.json",
+    "files_preserved": 253,
+    "all_hashes_match": true,
+    "hash_mismatches": [],
+    "new_user_documents": [
+      {
+        "path": "mathematics/current/proofs/NE-SELECTION-LEMMA.md",
+        "sha256": "08ec7dfb10564d61eca8882d8481a70331ef807d1a5542b7ba96b0de8356bdc1",
+        "bytes": 5028,
+        "source": "User-supplied mathematical argument, 2026-10-14",
+        "lean_compilation_performed": false
+      },
+      {
+        "path": "mathematics/current/proofs/C1090-SIMPLIFIED-PROOF.md",
+        "sha256": "06e6f4950ab07f035ddcdc8c2621a5c6d4904ba4436ad297852f7a724382d0f5",
+        "bytes": 19805,
+        "source": "User-supplied mathematical argument, 2026-10-14",
+        "lean_compilation_performed": false
+      }
+    ]
+  },
+  "c1090_roots": {
+    "selection_source": "mathematics/current/proofs/NE-SELECTION-LEMMA.md",
+    "family_source": "mathematics/current/proofs/C1090-SIMPLIFIED-PROOF.md",
+    "status": "Connected continuous proof and original-owner adapter written as source; original finite entrance still explicit; no compilation or whole-case acceptance",
+    "distinct_marker_family": "The actual merged left owner has mask4098; marker1 is owned there and excluded only from distinct owners. No C1089 family theorem is transferred.",
+    "unprovided_supporting_references": [
+      "proofs/MERGED-LEFT-SEED.md",
+      "proofs/RESIDUAL-ENDING.md",
+      "entrance/COMPONENTS.json",
+      "entrance/COMMON-HULLS.json",
+      "entrance/ADMISSIBLE-VECTORS.json",
+      "reference/CoverData-row-identities.json",
+      "checks/replay_c1090.py",
+      "checks/check_reduction.py",
+      "checks/check_geometry_inputs.py",
+      "checks/run_checks.py",
+      "../C1089/entrance/FOUNDATIONAL-ENTRANCE.md",
+      "../C1089/entrance/LOCAL-RULE.txt"
+    ],
+    "formalization_roots": [
+      "Compact.Completion.OtherCases.C1090.NESelection",
+      "Compact.Completion.OtherCases.C1090.MergedLeftSeed",
+      "Compact.Completion.OtherCases.C1090.EarlyResidual",
+      "Compact.Completion.OtherCases.C1090.StructuralReduction",
+      "Compact.Completion.OtherCases.C1090.ResidualEnding",
+      "Compact.Completion.OtherCases.C1090.OriginalEnding",
+      "Compact.Completion.OtherCases.C1090.RowIdentity"
+    ],
+    "selection_theorem": "N12Compact.Completion.OtherCases.C1090.NESelection.selection",
+    "actual_selection": "N12Compact.Completion.OtherCases.C1090.NESelectionOwners.selection",
+    "merged_seed": "N12Compact.Completion.OtherCases.C1090.MergedLeftSeed.actual_segment",
+    "selection_note": "The second duplicate uses the same existing sharp point (2.525,2.125) in both actual squares. The bottom interval belongs to one actual Q9; the merged left seed uses both markers in one actual Q8.",
+    "source_review": "Independent local source review found no concrete mathematical or owner mismatch; this is not compiler acceptance.",
+    "continuous_ending": "N12Compact.Completion.OtherCases.C1090.Structural.impossible_of_early_input",
+    "original_owner_ending": "N12Compact.Completion.OtherCases.C1090.OriginalData.impossible_of_auxiliary_entrance",
+    "conditional_original_case_adapter": "N12Compact.Completion.OtherCases.C1090.OriginalData.case_excluded_of_auxiliary_entrance",
+    "remaining_finite_entrance": "Produce OriginalData.AuxiliaryEntrance from every original packing of the genuine mask4098 family: seven compulsory auxiliary point facts, five covering disjunctions and topComponent.",
+    "additional_sene_label_catalogue_required": false,
+    "finite_entrance_completed": false,
+    "literal_original_row_inspection": {
+      "source": "source/S12/CoverData.lean",
+      "raw_rows": 577,
+      "zero_based_position": 574,
+      "original_id": 1090,
+      "groups": [
+        1,
+        12,
+        48,
+        192,
+        256,
+        512,
+        1024,
+        2048,
+        4098,
+        8192,
+        16384,
+        32768
+      ],
+      "source_inspection_only": true,
+      "lean_lookup_compiled": false
+    },
+    "simplifications": [
+      "All five structural exclusions are joined using the literal covers; no additional exact SE/NE label list is needed.",
+      "Optional top F5 is excluded using the existing exact point (2,2.62), inside the actual same-owner interval.",
+      "The outward short point follows by a rational triangle of the sharper bar point and actual strict anchors."
+    ]
+  },
+  "preferred_c1089_roots": [
+    "N12Compact.Completion.OtherCases.C1089.LastSectorRawPoints.impossible",
+    "N12Compact.Completion.OtherCases.C1089.MMMPSingletonEnding.impossible",
+    "N12Compact.Completion.OtherCases.C1089.ContinuousCenter.points"
+  ],
+  "static_review": {
+    "scope": "Lexical source scan, source headers, hashes, literal original CoverData row extraction and source whitespace only; not elaboration or an axiom audit",
+    "trust_keyword_additions": [],
+    "lean_source_trailing_whitespace": [],
+    "original_coverdata_literal_rows": 577,
+    "c1090_zero_based_raw_position": 574,
+    "c1090_original_id": 1090,
+    "row_lookup_compiled": false
+  },
+  "independent_source_reviews": [
+    {
+      "scope": "C976LeftTop seven new point/actual-owner modules and C976MergedLeft nine modules",
+      "result": "No concrete mathematical or owner mismatch; full intervals and actual side/wall transports checked"
+    },
+    {
+      "scope": "C974 nine new sign/angle/full-local modules",
+      "result": "No concrete mismatch; physical canonical frames and complete angle intervals checked"
+    },
+    {
+      "scope": "C1089 nine Continuous modules",
+      "result": "No concrete mismatch; derived side/diameter bound and actual southeast/northwest transport checked"
+    },
+    {
+      "scope": "C1092 five new MPPM modules and ordinary wall-advance joins",
+      "result": "No concrete mismatch; all local face branches, exact cut endpoints and actual points checked"
+    },
+    {
+      "scope": "OrdinaryCentralReductionGeometry and OrdinaryCentralReduction",
+      "result": "No concrete mismatch in the exact required whole-bar specialization, all four original rotations"
+    },
+    {
+      "scope": "WallSignChord four modules",
+      "result": "No concrete mismatch; both signs, exact polynomial factors, one genuine wall and full closed chord interval checked"
+    },
+    {
+      "scope": "OrdinaryBarCrosspoint, InnerCornerObstruction, OrdinaryMarkerHalfpoint and CanonicalQuadratic",
+      "result": "No concrete mismatch; whole parameter rectangle, signs, endpoints and original maps checked"
+    },
+    {
+      "scope": "C1089 LastSectorExtra/Ending, MMMPSingletonEnding and new WallOrigins maps",
+      "result": "No concrete mismatch; actual foreign owners, corner omissions, interval endpoints and all-angle contracts checked"
+    },
+    {
+      "scope": "ShortDuplicatePoints, LastSectorNorthwestInput/Northwest, LastSectorRawPoints/RawEnding and SingletonCorner",
+      "result": "No concrete mismatch; exact triangle, both inward signs/rectangle corners and all actual raw producer joins checked"
+    },
+    {
+      "scope": "CrossedElbow",
+      "result": "No concrete mismatch; both signs, three omissions and full closed w interval checked"
+    },
+    {
+      "scope": "C1090 NESelection, NESelectionOwners, MergedLeftSeed, Early, Residual, Structural and OriginalData modules",
+      "result": "No concrete mismatch; actual marker1 remains in Q8; five exclusions use covers without an extra numeric SE/NE label premise"
+    },
+    {
+      "scope": "Imported bar/point translation wrappers",
+      "result": "One concrete translation normalization defect was corrected with explicit inside_translated_iff transport and polynomial identities; no semantic weakening"
+    }
+  ],
+  "continuation": "handoff/SOURCE-WRITING-FOLLOWUP-2026-10-14.txt",
+  "remaining_boundaries": [
+    "C1090 universal original-packing producer of AuxiliaryEntrance (7 compulsory points,5 covers,topComponent)",
+    "C1089 actual finite/core entrances and conditional stronger singleton-seed producer",
+    "Other original-family entrances and remaining completed-source translations",
+    "C981 ancestry/coverage and full source registry replay",
+    "All new Lean elaboration, production verification and final axiom audits deferred by user"
+  ],
+  "new_native_sites_added": false,
+  "existing_numerical_trust_policy": "Unchanged selective-native finite numerical declarations; inherited compiler trust remains. Geometry, soundness and assembly use ordinary proof bodies."
+}

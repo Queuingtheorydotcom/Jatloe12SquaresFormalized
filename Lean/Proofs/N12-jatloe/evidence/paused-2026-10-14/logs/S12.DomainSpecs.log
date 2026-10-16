@@ -1,0 +1,2 @@
+'S12.SingleSpec.sound' depends on axioms: [propext, Classical.choice, Lean.ofReduceBool, Quot.sound]
+'S12.CombinedSpec.sound' depends on axioms: [propext, Classical.choice, Lean.ofReduceBool, Quot.sound]

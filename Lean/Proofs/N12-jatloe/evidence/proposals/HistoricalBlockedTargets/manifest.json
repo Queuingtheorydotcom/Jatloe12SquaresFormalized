@@ -1,0 +1,4357 @@
+{
+  "status": "whole-target source proposal; generic and concrete Lean acceptance required",
+  "pilot_only": false,
+  "original_plans": 9166,
+  "pair_stages": 113,
+  "source_sha256": {
+    "evidence/historical-blocked-targets/manifest.json": "1f7ef1e6aa08f16c156df8dfb8dd36070c8d967998767d51d6967470af1957dd",
+    "evidence/proposals/HistoricalDirectPruningStages/manifest.json": "8a9a52c482e83cc300e52c898ce8cd848a867b5d65b798e38b1456995e4284e1",
+    "evidence/historical-compact-data/manifest.json": "f20009fcf353dc46a22907d2c1dc78a23a5e8499f569ab549d94bb31ba6d53ca",
+    "evidence/historical-compact-data/poses.json": "faeaf04102217cc07ceccc576ecfed41a9c7ed164a41bfc516c415ce95226908",
+    "evidence/historical-compact-data/rows.json": "5652be93ba32352a8fdc393c028424cf9d454a2fefa7798e55723e5da8027215",
+    "evidence/historical-blocked-targets/rules.jsonl": "f93e353db77169450b1bb77d485fbe22584867d1c434e6cbc8e61eb9ed1d79b1",
+    "evidence/historical-compact-data/C701.json": "6723e8797c91294ea344f8401980930449535b2fb06c4668e2e41810becb8c90",
+    "evidence/proposals/HistoricalDirectPruningStages/Compact/Cases/C701/DirectPruning/All.lean": "8bb88b467604c3d4d05222ccbcf9253ca7e87571549f8605dabc7de330e0cc8a",
+    "evidence/historical-compact-data/C713.json": "7ed7f008778113b87e979da105f25ab8c412258bf99cd01dac16e58755424e3a",
+    "evidence/proposals/HistoricalDirectPruningStages/Compact/Cases/C713/DirectPruning/All.lean": "994459550f8c88918069fc4abf52b7c0b124ae149e22379d1aff1016d498c446",
+    "evidence/historical-compact-data/C717.json": "97de7a3f49746eb39d645eb905f669ce26f4ecea9932b7b8b31f1b13c289e1f8",
+    "evidence/proposals/HistoricalDirectPruningStages/Compact/Cases/C717/DirectPruning/All.lean": "1883209d6bf5dc844087e2e5fcc8d797417bf7e2e2015e3464aa0192a0c65700",
+    "evidence/historical-compact-data/C973.json": "5431135cc2ce7bfac80fcfb8110da4001bd9b166b7841b07124aa2d2ebb38612",
+    "evidence/proposals/HistoricalDirectPruningStages/Compact/Cases/C973/DirectPruning/All.lean": "f2b00604b8e704dd40705cc380288aa89e60ade193dd32815cf794a38e50cafd",
+    "evidence/historical-compact-data/C978.json": "54cbc6e78920b25ac5eaa71dcfea16278f318f6448a0b145f4405458f6600431",
+    "evidence/proposals/HistoricalDirectPruningStages/Compact/Cases/C978/DirectPruning/All.lean": "98091cf1af24093589441c2201886bdb5290f408c092b5b87a272e080e723ed4",
+    "evidence/historical-compact-data/C979.json": "5e49e7bd7308b6183ffdcba652edd1543cdb585f8c5cfe431d0d314e9b5d786d",
+    "evidence/proposals/HistoricalDirectPruningStages/Compact/Cases/C979/DirectPruning/All.lean": "84f144534f532463e0824a4bf2059dba1a67ae6c4a4bb30179716b947930b18b",
+    "evidence/proposals/HistoricalDirectPruningStages/Compact/HistoricalDirectPruning.lean": "96fc2ae73fc1b7678fb7db26f8a25935bf7695904e22ad7486dd61b117e9be9d"
+  },
+  "outside_branch_records": 0,
+  "remaining_lean_witness_searches": 0,
+  "audit_counts": {
+    "plans": 9166,
+    "old_outside_contexts": 16896,
+    "old_target_row_checks": 217653,
+    "unique_target_rules": 61256,
+    "direct_target_rows": 62398,
+    "new_integer_hint_checks": 126084,
+    "duplicate_target_row_occurrences": 28052,
+    "uniform_target_plans": 7013,
+    "supported_uniform_target_plans": 7013,
+    "target_independent_of_block_plans": 955,
+    "contrapositive_target_rows": 26910,
+    "empty_block_exclusion_plans": 2153
+  },
+  "outputs": [
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step00Batch00.lean",
+      "sha256": "966110dbd2913528cfb7de03e4c38367c743a6c463c011695be2f22d1a4a445b",
+      "bytes": 4909,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step00Batch01.lean",
+      "sha256": "e18cf2427922d14b3ba7611079e6c615225ababf68f6da97dd0c22ad270366da",
+      "bytes": 5184,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step00Batch02.lean",
+      "sha256": "dddc42e71b628bbe29843f62a6075f0ee66a050ec78cf3a7d85b1365893eb0dc",
+      "bytes": 5435,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step00Batch03.lean",
+      "sha256": "e088ba046090798562d0b74a75bc5c99891cdedcd6a439dd121b2ebe6f802c45",
+      "bytes": 5230,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step01Batch00.lean",
+      "sha256": "d35c359b73d6592bea32de2190e8f4b8b1bb76b5d04075cbced0abfef43d9528",
+      "bytes": 5171,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step01Batch01.lean",
+      "sha256": "1b3bfcb0c3c08a4921cd88e96fb17942906b38bc7078fdae9fa32a7eccc2a94d",
+      "bytes": 4488,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step01Batch02.lean",
+      "sha256": "a1081e6688dca56e4fe748add3ca7f0efab2dde6ef687cce7ed02cef87f515c9",
+      "bytes": 4478,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step01Batch03.lean",
+      "sha256": "8e66234593516d7cbe3469db05b5b5501d867c316afd4bf870e2279c509c6d55",
+      "bytes": 6337,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step02Batch00.lean",
+      "sha256": "e13782060175ed1b9896bf311cbefabcf567aa921c2745541c794a80d70ad4d8",
+      "bytes": 4965,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step02Batch01.lean",
+      "sha256": "0679a72161a32715d2112d5004265a8dd62d0318afb7d31c0319f93851909e07",
+      "bytes": 632,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step02Batch02.lean",
+      "sha256": "9561644487aac2ff209154f7ad6ccffa7075273ca28a038a0d9523cd6e9e8ca4",
+      "bytes": 4309,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step02Batch03.lean",
+      "sha256": "408372ddae348d1e2145b3af1304fcc789c4046728a7913843231a99cb7c6b74",
+      "bytes": 5060,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step03Batch00.lean",
+      "sha256": "870d29189ac1a842513e89f7ae809406e244213ef56d90872d5743f16fc181e3",
+      "bytes": 4983,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step03Batch01.lean",
+      "sha256": "42a0e179bde455245124dda175d87c37f12912bd70e906f65b21b4d927315441",
+      "bytes": 1612,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step03Batch02.lean",
+      "sha256": "6eb62271a901a97fab48db737be2449e1e1f5c893c94ae78088cdd532e6777ae",
+      "bytes": 5901,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step03Batch03.lean",
+      "sha256": "3b1a486730e9c52ea757ae8e466c9e8c4919444629674970ce2bb2567ec6c6b9",
+      "bytes": 6058,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step04Batch00.lean",
+      "sha256": "9152200a2ffff5b573a3415b0fc9e9a5e3e127519c53856ec67dc4f063699677",
+      "bytes": 2823,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step04Batch01.lean",
+      "sha256": "e4e4b7e58d49d550de675486f99256517f31ee63447d62aaf95a2f9e9930a561",
+      "bytes": 648,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step04Batch02.lean",
+      "sha256": "099b6ee2f9fbf03519cf45db9f5a58d6ee5dab8eac3c7d383ae58982be5abb57",
+      "bytes": 4650,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step04Batch03.lean",
+      "sha256": "a963a0b9a170270f3a019243c3ddef73fda7d77b1f13ec02c5aa0927b201d091",
+      "bytes": 890,
+      "lines": 9
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step05Batch00.lean",
+      "sha256": "e3bc8adaa1bf76b72bc553b472980c1b328f06f2b406108a21be0caa64daac98",
+      "bytes": 5648,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step05Batch01.lean",
+      "sha256": "05f4acc01343de219c273786754af4aa01d8bf00b2c572ad37af2182207d1c06",
+      "bytes": 3325,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step05Batch02.lean",
+      "sha256": "880e0fd1a60af9011f39c3139ae83e82ee527018fb7913390a622c05e60607db",
+      "bytes": 5346,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step05Batch03.lean",
+      "sha256": "66186f1f5e141caa5e09fa351cb14515cd0c66a8fcf448d0730f81cd98d05e80",
+      "bytes": 4587,
+      "lines": 18
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step07Batch00.lean",
+      "sha256": "04fded2c5ec2c8947940eb993111c61ca73ebe3b728ba9d5c6c2fc02d091e19e",
+      "bytes": 5216,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step07Batch01.lean",
+      "sha256": "eadc99bc7cc804ea502e788bef0a16c2bb77296cd337888c234767f2adaf38ab",
+      "bytes": 5779,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step07Batch02.lean",
+      "sha256": "f2daf0a50eb7e470558496679ea97ec6e9b65a0fba12051f0bb65d539f7d2e70",
+      "bytes": 5317,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step07Batch03.lean",
+      "sha256": "f4ccdc81ddb6513bf2f3ed27853ae7461a4cf6061f09a006ae94433efb2a10bb",
+      "bytes": 1467,
+      "lines": 11
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step08Batch00.lean",
+      "sha256": "041a2d98fca6172fe010b12af25ce8d4ddd1209f1a31f2b67812db2cf7a0fada",
+      "bytes": 3133,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step08Batch01.lean",
+      "sha256": "42a9de9888199ec046b3730184ff1cc1a46df30ec36ccb80d7d6af30e98f3228",
+      "bytes": 5562,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step08Batch02.lean",
+      "sha256": "5d67c9a7d42e74ef2ad91a290a55daf7f9905b27141c94d143e6f44a9007a4e0",
+      "bytes": 5316,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step08Batch03.lean",
+      "sha256": "4ecef3c497fdb53ae71a60d3f6aea38640ee53eade91170e98e88e4139c1e747",
+      "bytes": 1546,
+      "lines": 11
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step09Batch00.lean",
+      "sha256": "bea865ad20d6b98c208d91e994d77fa74bf5effc6fdd8f857c467c3ac2b162f4",
+      "bytes": 5498,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step09Batch01.lean",
+      "sha256": "10ef9fd3b55f1426d090aa53704474e7957c5108f4a99b71fd19898f367223e7",
+      "bytes": 5515,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step09Batch02.lean",
+      "sha256": "1e37d2977df06edc0c311085bb79c38de10069f2a7872a3f449da56c00262919",
+      "bytes": 5400,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step09Batch03.lean",
+      "sha256": "47509c50dede0ad9f4b2097920d83df980ed890f67cd25b9b8a65b8c408d9434",
+      "bytes": 6330,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step10Batch00.lean",
+      "sha256": "668519138a022a40c631a9dacca176f7663f3f1e24da8c240fd1f7c45ce620f5",
+      "bytes": 5387,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step10Batch01.lean",
+      "sha256": "1a26ab40345f4b936cacf2e3eb0ff1feda77101f44091370920431c1ddb580d1",
+      "bytes": 5394,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step10Batch02.lean",
+      "sha256": "2ecc6bbe0268d0c83ab1595f646494e23fcc473acb1a1192f58b713681f343a0",
+      "bytes": 5530,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step10Batch03.lean",
+      "sha256": "b0eb575071b6f134c3dfbb5380cbb3292e83fa46aecd106f7a6044f11fdb718a",
+      "bytes": 6737,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step11Batch00.lean",
+      "sha256": "9e1a340ced6b995fb1c3641c7d328ab0ddedfc160affc942fa421c255f063155",
+      "bytes": 3126,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step11Batch01.lean",
+      "sha256": "cc35e442e8712e55828e86decdb8a30230453227cce33168a996beeae2799489",
+      "bytes": 648,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step11Batch02.lean",
+      "sha256": "fc17d3f5ebbda496c9a3e925052326d22c6ab9206ab460738c80c95d463f46e5",
+      "bytes": 648,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step11Batch03.lean",
+      "sha256": "090dde4409773cec144a9c1d88d108280ddd1d3c44a7485e09fdfe8526540858",
+      "bytes": 1684,
+      "lines": 22
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step12Batch00.lean",
+      "sha256": "6cc1255ede7a932be720b1e325055e200d94dcaf54bee404c43fdef650ddf02d",
+      "bytes": 4017,
+      "lines": 17
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step13Batch00.lean",
+      "sha256": "47c8ef1d63232e6666ebdde3782d88ee8cfa602ecc41bb5ea9533ae050d65592",
+      "bytes": 3395,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step13Batch01.lean",
+      "sha256": "a65fdee14be633a6acf4577af9ad137cdb18cb7928b8b0c1dc1d2127ced66ce5",
+      "bytes": 1170,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step13Batch02.lean",
+      "sha256": "b619ec779ca7e62fb2a17ffe3d296a96af73a8680ec681be5965e84647464ed2",
+      "bytes": 836,
+      "lines": 20
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step15Batch00.lean",
+      "sha256": "1868d9989b584b66aab7fa2e4d53200c008d0eb3f2a7e9fc157ddb64f3e82901",
+      "bytes": 5475,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step15Batch01.lean",
+      "sha256": "dd276086119dafb447a513ba008cef8bc21b8b3bdfd662fcdee36efa112b2298",
+      "bytes": 3713,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step15Batch02.lean",
+      "sha256": "00ac4bdaf78f27efd75ce69272fcae69687a8dd728de03cf077e4bc28a5c750e",
+      "bytes": 5545,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step15Batch03.lean",
+      "sha256": "739ad4b1ee276f239848420aa065e694029f3cd5037f7ad5712ba98dcae925b0",
+      "bytes": 3495,
+      "lines": 18
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step16Batch00.lean",
+      "sha256": "e4eb1b78acf4d393eabe6e8ee9dc028e583ef759fdcd9e3034f9bb878dd626c3",
+      "bytes": 4936,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step16Batch01.lean",
+      "sha256": "bc5ead7f3097d18c9c45a8596d80797ccb48e2c08b08c7dd96317951d7edd84f",
+      "bytes": 5039,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step16Batch02.lean",
+      "sha256": "4a74b5a3137620b314ce80b7c68f15d835dc894c08c6f7c29843a0c90e443d56",
+      "bytes": 5420,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step16Batch03.lean",
+      "sha256": "b62ee91c3f031a5118f5416e32c6a4773d2dba11eb51adfc4ce38cd1464f740a",
+      "bytes": 1937,
+      "lines": 12
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step17Batch00.lean",
+      "sha256": "85d1920b5f9b5c10ecbe6c437a919874407eca773c0a51af8145797411154fa4",
+      "bytes": 1840,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step17Batch01.lean",
+      "sha256": "b1bae494fb67e318bad2e737a29b01004daebd705064fabf5d14b9984acf1777",
+      "bytes": 5217,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step17Batch02.lean",
+      "sha256": "bae9e0f90cfe2558f0d03fc8ef83dfc643d5637379d54814e9068a49c6165bdc",
+      "bytes": 5290,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step17Batch03.lean",
+      "sha256": "c14ae676198c90682f324a8464a252fb3d05add27140c02db1e46b17d6f06570",
+      "bytes": 5332,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step18Batch00.lean",
+      "sha256": "43cf7c1ba5d715b1f7e81b5744ce5efec9993cdd3a1fce18b638a9911065b499",
+      "bytes": 5722,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step18Batch01.lean",
+      "sha256": "81bee0a933f8025b29546bf3d747f017ff1f1bb97872ec010fc6a1a44d732669",
+      "bytes": 1580,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step18Batch02.lean",
+      "sha256": "67b07e268787aaa80e5036ee26448945da86cbe96b7efd3847dd94d11b69b3ea",
+      "bytes": 1714,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step18Batch03.lean",
+      "sha256": "d0fc41585e1c492e0967edaf651bc3c4f9bc202bafe56ad2aa86cca62ee8029f",
+      "bytes": 6132,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step19Batch00.lean",
+      "sha256": "8e8db50b5ceab451745723dd2762d881b486e464cf3ec3514c0ba6bd12df7279",
+      "bytes": 4550,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step19Batch01.lean",
+      "sha256": "f80fcbebade2731e417decba7cd2392dbae6afa765f99e9de937319c1ae9fc7a",
+      "bytes": 4024,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step19Batch02.lean",
+      "sha256": "defbdb226ce9ce27509f38cb9352e4bca778d4686294746bbfa2a83b4819eaaf",
+      "bytes": 2630,
+      "lines": 15
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step21Batch00.lean",
+      "sha256": "a9c82e93844ed016f08b2df0610e3e1b12063f999887e2b3de2c468ad988f20f",
+      "bytes": 2162,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step21Batch01.lean",
+      "sha256": "d7e1c350e4264800fbdeb7e175179fc4e6c39960aff642d28e79bc37e02a1d98",
+      "bytes": 632,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step21Batch02.lean",
+      "sha256": "0f6fd49a714c08f21b653bae97c11d0fd4344cfd2b1f401ab83cc80dcdc52be7",
+      "bytes": 1412,
+      "lines": 20
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step22Batch00.lean",
+      "sha256": "90f67101ada03d339a00cd485431df4ef310777d4f3321ce9bc6e6b1dcf7e452",
+      "bytes": 4309,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step22Batch01.lean",
+      "sha256": "fc582afa81915ba0f93d6247a4deaa770aa4bba2360807acc3a20894f933448a",
+      "bytes": 1616,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step22Batch02.lean",
+      "sha256": "e9bb3bf4eb09a219b0bd11fd678cc8f7a50e77f219417572b0f3ea2b7bc76283",
+      "bytes": 648,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step22Batch03.lean",
+      "sha256": "793587900dc48caaa8f281fc5c286f0a9fb75a2590d457c8e490be14313922bf",
+      "bytes": 2009,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step24Batch00.lean",
+      "sha256": "46a046a3880bcf3809f489e99244d94aac61ab789c87cd2cc23b0c77c5ea2b15",
+      "bytes": 3707,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step24Batch01.lean",
+      "sha256": "9d78a9297e2df5fcd3e9a365b143c1e8dc5f824facc824d6d45690663c74d01c",
+      "bytes": 648,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step24Batch02.lean",
+      "sha256": "ea5966b66ee4da60b5813046ee675d466d2840667ae1a5fa39c47ed20673f287",
+      "bytes": 4898,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step24Batch03.lean",
+      "sha256": "68222fc73e5b982690ee41ecf4cb2a4dfe1b3929df7accdf3f39f0f1a0ce45bd",
+      "bytes": 3838,
+      "lines": 18
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step25Batch00.lean",
+      "sha256": "729919735ca2c3de3a2561bbf2635f8e939502a2589d55ffc174ff675b2c81b1",
+      "bytes": 5448,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step25Batch01.lean",
+      "sha256": "4d65d87263a532ae552d18f69888425ce91032add8b27b3f0ef7c9e13e3a0f2b",
+      "bytes": 5169,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step25Batch02.lean",
+      "sha256": "88aab81ab1e876c772b8dfe4164db76617689f4f80753e7ea2ef9f99fac88214",
+      "bytes": 5211,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step25Batch03.lean",
+      "sha256": "c448c4c97225c343825543185d3d5b02608b8817f21ff106f958a9026960a9f5",
+      "bytes": 1539,
+      "lines": 11
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step26Batch00.lean",
+      "sha256": "24c3f2f1da04ed503e04248644e9ffb38f0839ba91fbfeb71a26f95e63c12107",
+      "bytes": 4187,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step26Batch01.lean",
+      "sha256": "205b1e5b7f6cedd51aafa6bb538b96f7eedcbaa53c6c3bfe6c02a289f4e05444",
+      "bytes": 3200,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step26Batch02.lean",
+      "sha256": "08fa7ab93bf45663acf2d8a58c62e3f7e248a08b15ce01d135c9f7c2bf8b9cb0",
+      "bytes": 632,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step26Batch03.lean",
+      "sha256": "88e8dfcbb5c0c1355dc8953c2715253612d818238472e831f6586d1d4027c3b3",
+      "bytes": 368,
+      "lines": 11
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step27Batch00.lean",
+      "sha256": "66785ea54f1a53de86539a2200bcddfed09f6ed21b03e72c29fda10c47202842",
+      "bytes": 3543,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step27Batch01.lean",
+      "sha256": "0e7715a3bc9baabc69ca47ae260e472a5004852af5be1bb4b17828d111684b3a",
+      "bytes": 390,
+      "lines": 12
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step29Batch00.lean",
+      "sha256": "f2be7f88e501802abf06e16c5c0621b8527913030598e7ebb468490f37ff2d54",
+      "bytes": 4551,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step29Batch01.lean",
+      "sha256": "61db75f571a161fdc6a8bb360ebdf8c3567cbd9bebb36eda3a581847ecb7c0cf",
+      "bytes": 632,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step29Batch02.lean",
+      "sha256": "da109c4a2235df4b49e5fbcf3683ccc377ba19d599b8076b62ea6ba9f30984f3",
+      "bytes": 632,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step29Batch03.lean",
+      "sha256": "cc790bd1f2feb68789d8ebb556e00e3211c9565cb4fdc6c325b2d307db2b8c8e",
+      "bytes": 4910,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step30Batch00.lean",
+      "sha256": "69f1e5a180c73837f3b95f455cf85802cfdd6789c3090b6ab7f664e5c53f603d",
+      "bytes": 664,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step30Batch01.lean",
+      "sha256": "9862a0e0b23f74d42518e893d415f7191de31159421012a63629b587f4280039",
+      "bytes": 640,
+      "lines": 22
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step00Batch00.lean",
+      "sha256": "fddc8c3a519f2ad85c15debc79d0b728472cae7f004b39ad1795446999732c2c",
+      "bytes": 5118,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step00Batch01.lean",
+      "sha256": "81a08f3bddf21d356c70acd9719c38c6955d696bffd568f5d14532ebcbbd2331",
+      "bytes": 5122,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step00Batch02.lean",
+      "sha256": "6ced02410e2264345d292fa10f82f6f95c0b8f982958efc9b634dafb7e3f43a6",
+      "bytes": 5602,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step00Batch03.lean",
+      "sha256": "6ce9fa647223b1b2d8259d6e7ea5d19ebef48e0d0b8277825d656bb9c3589c05",
+      "bytes": 4809,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step00Batch04.lean",
+      "sha256": "101c69a99edb4c33e4c4e2699056a9f38333d68b53584cc345b5063f16fe2582",
+      "bytes": 5420,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step00Batch05.lean",
+      "sha256": "5f44ce724b014b5b6241b7bce822283c603b94f0de4ca4dc8288dfc706b84487",
+      "bytes": 5297,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step00Batch06.lean",
+      "sha256": "38cdf3653fc0904b6f1d17c64821225db75dee34341fdacba8cefac08d618a22",
+      "bytes": 6777,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step00Batch07.lean",
+      "sha256": "4219f735ac4abb6a0de8d321dd43e3dbfa72965eae228fee6017843bcd2f720f",
+      "bytes": 5682,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step01Batch00.lean",
+      "sha256": "e63e593f8912832eee3dbfee64b873401d8465af257fc8cb1d7ab3a7a59f0e19",
+      "bytes": 5786,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step01Batch01.lean",
+      "sha256": "ef5fdaf0b17068abe532a6f4fc3c23a8532e0351a119ae6c89d19c1f4fa2c2f0",
+      "bytes": 2710,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step01Batch02.lean",
+      "sha256": "8a843e7192d4d4f8d9a4e8c36d97104705ee35386d1f391c0171bc790cd0417c",
+      "bytes": 4520,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step01Batch03.lean",
+      "sha256": "571ac85c1081d343f3f6b15bd01bbb581e9e087fcac152ebe0eb04c13f40394c",
+      "bytes": 4520,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step01Batch04.lean",
+      "sha256": "f2d73c8e719fb2bee0f9d622fc87359d0af5c429fc49324e8359e397f82f81d9",
+      "bytes": 4520,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step01Batch05.lean",
+      "sha256": "169f79a2b15efb433bfa093a1249c52ffc6b07261269669e36c6c3586ed7fc17",
+      "bytes": 4520,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step01Batch06.lean",
+      "sha256": "5af661caf8fe1fe8efb4a21add4670c0a32f1055e740fde8964e6aafaab254fe",
+      "bytes": 4703,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step01Batch07.lean",
+      "sha256": "c2ed7526e0632cf727b9c391aab50965522c68aea1f66f46e22fa7f3ca8622e6",
+      "bytes": 8353,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step02Batch00.lean",
+      "sha256": "f931aee60a7ef7eac9baba01928d8f22cba1d7884c3ab1fdd56d7457e9373ab6",
+      "bytes": 6453,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step02Batch01.lean",
+      "sha256": "ea11ad4c07d68e2801fb6731d09ca682ee391001d7cf0a0f35f7dbfbedca6dcb",
+      "bytes": 2767,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step02Batch02.lean",
+      "sha256": "16501b36c2893663f337f64c52e7aca818d17d5cacaaa322025ef63d68756c33",
+      "bytes": 648,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step02Batch03.lean",
+      "sha256": "4636ac0b4fd9fa7481a1a85637aaba5ed7c6661da1f693de24f831ba6518bd27",
+      "bytes": 648,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step02Batch04.lean",
+      "sha256": "e6a605da3f5e8508949c2dfce7b0721e94671848f9feea24c6975be3b6776927",
+      "bytes": 3855,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step02Batch05.lean",
+      "sha256": "851e60bb71bb26ddb31047a4f02dce597a1aff4745f0fe509b5974c45f27f713",
+      "bytes": 4520,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step02Batch06.lean",
+      "sha256": "677899bfd1e5a03d9a68d45a5a77100b244fabd4df15442e1dc8938a7fc4e690",
+      "bytes": 4670,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step02Batch07.lean",
+      "sha256": "33864316f29e99b2e1d06e2d4e4c2e5b6b5e01897c0b092e8b92cb991f6c0b2b",
+      "bytes": 2772,
+      "lines": 15
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step03Batch00.lean",
+      "sha256": "db0e953f4aca42063be9b9fc6590cab4ed8171e69e9126f570737eeb58435d8e",
+      "bytes": 5392,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step03Batch01.lean",
+      "sha256": "fa344feab6b93ce7b2b29c4a22ee2dd746b6332a027cd82f6f518ace7e9442dc",
+      "bytes": 4602,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step03Batch02.lean",
+      "sha256": "057609b1c1b7d9b8bb13dfec8f226d5d2050bf84f3f28f4b9c16fcedf138e4ea",
+      "bytes": 1616,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step03Batch03.lean",
+      "sha256": "2e3553602c223130f4544d0bcfca3280149f6a6103e519e7cb1d14229c8d763c",
+      "bytes": 648,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step03Batch04.lean",
+      "sha256": "7e23666c6717332a314014cb2780d5a3d6b40bdc3d64f9e8eba10cc510befd52",
+      "bytes": 6457,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step03Batch05.lean",
+      "sha256": "e1e76c5684d896940124a54059700c2d8f34a2e1b072343c23c84922c221e9f4",
+      "bytes": 8664,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step03Batch06.lean",
+      "sha256": "84d38a05639ddc53ddf2dc7f913e28b16c24820d6b1652ec80b387b1b02c1a5b",
+      "bytes": 5176,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step03Batch07.lean",
+      "sha256": "f120888defefa0fd1d6356ae97b528907a90af3cb67d4ceedc07eeae681f9590",
+      "bytes": 6193,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step04Batch00.lean",
+      "sha256": "f06936c3061b91bdb4bb6db67b8c16a79a935cda8c7cef5d221e0a394df60062",
+      "bytes": 6484,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step04Batch01.lean",
+      "sha256": "03a8e64171023862f8792e1e4449eb125721531358eba8891b6d14c43fb381df",
+      "bytes": 5570,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step04Batch02.lean",
+      "sha256": "e5bc1a227e942fcba6bb772142c13f54039d3e597b9428c77624880955c68c0d",
+      "bytes": 4478,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step04Batch03.lean",
+      "sha256": "81c8e0fa02c0b3cca15414a8ac057822a660c29bf669b9df35f27796c8e57c95",
+      "bytes": 5931,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step04Batch04.lean",
+      "sha256": "78b3d1782dcbf8b6f6113817879b310d73af4b78dbb98ecfdeef69e77da48b80",
+      "bytes": 6168,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step04Batch05.lean",
+      "sha256": "f6d5f647b56948b4b1d15dd017169d83df83a0f1dea132b3a1f9ed4e815fd6bf",
+      "bytes": 6189,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step04Batch06.lean",
+      "sha256": "dec8f10977260c2d256dec14ed5a3c7afd98e427a616931e77b0950f0d0e352f",
+      "bytes": 6391,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step06Batch00.lean",
+      "sha256": "3101c978d85b2d580f0a5af77f416cdce04e1e0707549af96e89003d9d010cd2",
+      "bytes": 5138,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step06Batch01.lean",
+      "sha256": "757d520d6821129f7861c11ce6091983e36b7a43ecd9ddd82621648441973686",
+      "bytes": 5744,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step06Batch02.lean",
+      "sha256": "a0c9e9681c8e8d7c730611ac04991ac324b161bf11b0fd003f43cb146b74f780",
+      "bytes": 5550,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step06Batch03.lean",
+      "sha256": "6a8de4808cfb9f632d7c0e0883d2c12b79de22671a8b7083e078e4062c0e6616",
+      "bytes": 6348,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step06Batch04.lean",
+      "sha256": "163c776ea5a49d1cb148ad2ace587c1378f0c51fe04f987546e2754730baea73",
+      "bytes": 16214,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step06Batch05.lean",
+      "sha256": "b6ad1801722c90cffc5251416f9dd763d9e328e340ee55c3548dbbe769f7de25",
+      "bytes": 5700,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step06Batch06.lean",
+      "sha256": "8da898441734496a3280a201ee1fb59f6a1ca1a13db8775181e00bfd97895bd1",
+      "bytes": 1960,
+      "lines": 13
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step07Batch00.lean",
+      "sha256": "54fceed9b9f31b572ba3b2edf64087d8f461681fe1f56abeffe1f672f236201f",
+      "bytes": 648,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step07Batch01.lean",
+      "sha256": "0276aabc46938a80725d43c54ebf9c3f3b50228c824ba46e95ac34b9d896ecfe",
+      "bytes": 648,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step07Batch02.lean",
+      "sha256": "00f066a42da51e06c99d8a01b36fb520a0cca85b2e1b332f2bf543523ac513ff",
+      "bytes": 1212,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step07Batch03.lean",
+      "sha256": "de7037d14375e033e3f790bd39d4f1d4d72bc7f277e628828abdf06d5d41c811",
+      "bytes": 3209,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step07Batch04.lean",
+      "sha256": "6f9b5e948d06c37c52094f1bf2add02b578729403f37a2003c6d6a89fcffba64",
+      "bytes": 5234,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step07Batch05.lean",
+      "sha256": "485fd833b20afcf8553e44374a23e4adb737c36c70ad6cb1457529c3279e6159",
+      "bytes": 1174,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step07Batch06.lean",
+      "sha256": "4883f0198c209054703c0a6113a5f79bdb7ceba41e7bc8e423748c34ec6d9e03",
+      "bytes": 418,
+      "lines": 13
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step08Batch00.lean",
+      "sha256": "09bf0806dcbc73dc9daf53dd78276777752dd4cf437269770536abc6daf54f62",
+      "bytes": 5492,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step08Batch01.lean",
+      "sha256": "114b9dabc880fd3adf0472b5fe287afe99f5d83dea29a167397aa20594ef0aa7",
+      "bytes": 5565,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step08Batch02.lean",
+      "sha256": "2657bf899b95755d555c0072c3e608f9a8d9bf98a80549b1158f2579fd1a8506",
+      "bytes": 4318,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step08Batch03.lean",
+      "sha256": "50d4f12c397c745208586e11c65524853732e2ed176c30ab57c997c83bce4ca9",
+      "bytes": 3519,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step08Batch04.lean",
+      "sha256": "6c827750cf74317fda4d064cbeb494ada0ee274b2a7ce293f750ca5ecc61e82f",
+      "bytes": 4824,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step08Batch05.lean",
+      "sha256": "0af9aef2dcb52cb5e33a0787748e6eed470eafdb11b6cc85d3b67e987e4273ae",
+      "bytes": 6396,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step08Batch06.lean",
+      "sha256": "c82abb213fbd9c1a331b6f8555037b13660c99085c2dc11fd54f66708b49774d",
+      "bytes": 6766,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step08Batch07.lean",
+      "sha256": "9ad777ae93a9e72c0fdd6c4864abaf50cdb268c31d8763406ee6049e2b13fd55",
+      "bytes": 560,
+      "lines": 8
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step09Batch00.lean",
+      "sha256": "0d301c5ababbe14cda84c6a75d491b7fa7307b4be6ab025df8b0b714bcd040e4",
+      "bytes": 648,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step09Batch01.lean",
+      "sha256": "ef30213fe238e9ba02f003f1ce2fa3c68808303ca731fa8598319e1a2176ae7c",
+      "bytes": 648,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step09Batch02.lean",
+      "sha256": "28bb573f991c9ac692339e57a29e0d9a976e636f3e715e9186d4af8a1adeb60c",
+      "bytes": 648,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step09Batch03.lean",
+      "sha256": "640c0ec19d62a9c3bdb2f280bc436007a9c759d17090e39ea9d6aa8978156729",
+      "bytes": 648,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step09Batch04.lean",
+      "sha256": "5d8bda354e05c920016a928a03ee10a00a00082cb7f4443ee760099a2bf4cf9b",
+      "bytes": 661,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step09Batch05.lean",
+      "sha256": "7024312a7dd89bd77f54c7aa337bdcb75db22831d666fb51ef3486d82973e3cd",
+      "bytes": 664,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step09Batch06.lean",
+      "sha256": "9b7cc694fceb3a18d3c9bed72ba4290e07f19366596a140fca776b1448abe8e3",
+      "bytes": 472,
+      "lines": 15
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step00Batch00.lean",
+      "sha256": "851c33ee7e80ff12063a7e546bcaaed0cc5cb981e5fdee8b0f440aa4928a03e9",
+      "bytes": 16094,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step00Batch01.lean",
+      "sha256": "1ad11cd41100d89abf55d6979128a2078929ab2387dc66275785e6376171641f",
+      "bytes": 11780,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step00Batch02.lean",
+      "sha256": "5a6b4ec16c4fdf0d486ee26d6505e9b20c34c45a0a3f3b79c4d313776f00976e",
+      "bytes": 7280,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step00Batch03.lean",
+      "sha256": "5d555ddafa1b7374f880f5d01965d04a4b4598837f1325bce1a0373a3b76535f",
+      "bytes": 4414,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step00Batch04.lean",
+      "sha256": "d3149efbfcd48429c953fee2dddb0583e1a247853181fee20ed4708ea5936b1b",
+      "bytes": 4504,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step00Batch05.lean",
+      "sha256": "013ffef04ff994f9d8570f208efa6e9bfba71f736c0845e7cedea8e9c8496cc5",
+      "bytes": 4775,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step00Batch06.lean",
+      "sha256": "9c6ece456313ee507fef23f48f01f9ff0666039be9d6c3fb5e5a09dfbdb3a9da",
+      "bytes": 5096,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step00Batch07.lean",
+      "sha256": "838a4922e5d76f28f3454e77b5b43f52ba87485e17db149c20231163d9e9d703",
+      "bytes": 15683,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step01Batch00.lean",
+      "sha256": "559ce170c8fa967f16f13ab2539e1fc308748e255b9ef182067035749eb6fc91",
+      "bytes": 6537,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step01Batch01.lean",
+      "sha256": "d405eaa86440ca0894c9a8db033b20f2a84b92913c467f8ee565af748cd225b2",
+      "bytes": 6881,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step01Batch02.lean",
+      "sha256": "1e62f730005ed2421ce850b0b690cccc4f77909592ec9b2ab5ad654e0b8bb81a",
+      "bytes": 5130,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step01Batch03.lean",
+      "sha256": "0a26748c3bce47896f83f9da9927e1acbdffb975838992043ec7d002da1a9815",
+      "bytes": 4947,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step01Batch04.lean",
+      "sha256": "002f198b3358fb6de251a16f0b80c858b87a68abba17642ffdd06569b4cf3f18",
+      "bytes": 6594,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step01Batch05.lean",
+      "sha256": "78c0a30dd6b7e1f6ba79d965d2910c6fccbc8d2307889f6eaaaa096ebc37fbf7",
+      "bytes": 4688,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step01Batch06.lean",
+      "sha256": "758436af34941cff149a183a335836816ca48948138f2dc55d922059f30911d8",
+      "bytes": 5150,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step01Batch07.lean",
+      "sha256": "3fc22cdf8b3e64f60fedf0791a56ba7ebdce13a19a911c7b2bd0fde01d356dca",
+      "bytes": 5126,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step02Batch00.lean",
+      "sha256": "14dfae127ea69c7439cc7bddce9c8638925fec87dda535aa3e58e2dfc44c2cfb",
+      "bytes": 5881,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step02Batch01.lean",
+      "sha256": "0aee87b58cb663d3bc8364fbd506a4f96c4709147ed5d38a5c6b0fdef81cf8b1",
+      "bytes": 8039,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step02Batch02.lean",
+      "sha256": "c718e43e5bb13ee5a3243a82e85292ae8ac5f09979f4045e7c3f21c8263b6b0b",
+      "bytes": 3576,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step02Batch03.lean",
+      "sha256": "3366576ced25aadc687b44bc8aee9b7a4ca16564cfa35b066ae81b288e9d619b",
+      "bytes": 664,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step02Batch04.lean",
+      "sha256": "462d9da05a8508cc1e180b79618a040336170e691df6c4d19201d611b7e059f6",
+      "bytes": 2600,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step02Batch05.lean",
+      "sha256": "586f27f3179365504c1d4d536f9499e2acdda8dec773b463c776e22bbaa0fdbb",
+      "bytes": 4536,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step02Batch06.lean",
+      "sha256": "7ea000eee8c4405ea7ce5df0bbe4448e424cff45342f6793bf99ade62d9e1d28",
+      "bytes": 5192,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step02Batch07.lean",
+      "sha256": "c2612412c55387d04d529422c8f042ab25516b847efb4b980d92f72bfbf60836",
+      "bytes": 5408,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step03Batch00.lean",
+      "sha256": "23192e27366cc9b0905e4e89c9e5e276d3bef44ed421aad6bfc7e2bdaca58e84",
+      "bytes": 16136,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step03Batch01.lean",
+      "sha256": "f13ed883ebf218a442f1672bd1b9070ab3651a36873b2976bd68e419bff9efcf",
+      "bytes": 11812,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step03Batch02.lean",
+      "sha256": "88c747d769e7ca20443b464862f5fb6d52d57b813825c1f3c643eaf3b1ede9da",
+      "bytes": 7312,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step03Batch03.lean",
+      "sha256": "1e7c30094542066570e0ba18b79f7993fa42a8b5e3cbf59693fc4c25cd31cb1a",
+      "bytes": 4446,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step03Batch04.lean",
+      "sha256": "74cfbe3b96dde48bb9f0c2744ee335b384ceefe2ef7b6d7966e6126ccbb7decf",
+      "bytes": 4536,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step03Batch05.lean",
+      "sha256": "63a010c8efe1befeff03e24b3ff93aa551ee15a3f081cd3bad821fe9956577fc",
+      "bytes": 4807,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step03Batch06.lean",
+      "sha256": "d58be5315feb5ea198a276daf0ce34243b88c37ee885cca380e4ef3cc0e22585",
+      "bytes": 5116,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step03Batch07.lean",
+      "sha256": "ad1bee441d250f46298c586290a16bc8a1d88c2d630d30ba749ec24010ec273b",
+      "bytes": 15699,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step04Batch00.lean",
+      "sha256": "fff4a0463f7eb1e045bab0e1a9e462d096faa33b19f88349e4ebeb42689fa0ee",
+      "bytes": 6553,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step04Batch01.lean",
+      "sha256": "fd36655ff5db71f6eefabaf3da08f121089112ff866b38872ff36e79a33453c1",
+      "bytes": 6897,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step04Batch02.lean",
+      "sha256": "01ba29aef23ed055c39e24032bf4fd8fdb11777e6a37debaed7592f824bde0f1",
+      "bytes": 5146,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step04Batch03.lean",
+      "sha256": "d94c9444cbed9fb3b7aa4540a8e2af957e9d1038ae755bf40becd12922c54e21",
+      "bytes": 4963,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step04Batch04.lean",
+      "sha256": "057c0d991ccc9348d86192e2e57accb26870c36cb8897083e61586f73bb7ec60",
+      "bytes": 6610,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step04Batch05.lean",
+      "sha256": "7839c17677fa8bc4e0220498fc0129be8dcee64c18073892069b4a477a2e7ef4",
+      "bytes": 4704,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step04Batch06.lean",
+      "sha256": "0fe0415c2663ce9da58c80107e1a7133c855c701bf496d9929127c3d79023160",
+      "bytes": 5166,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step04Batch07.lean",
+      "sha256": "a31f803ae61bcba3220a0a50806b02c79ebe0e40bb6179cd55fea3c39cd0ac5e",
+      "bytes": 5142,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step05Batch00.lean",
+      "sha256": "65a84d1e539e2517af3e6ca560501eabfbe3c7390718e9479cc0b9a8d48b8d0f",
+      "bytes": 8766,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step05Batch01.lean",
+      "sha256": "4db7f13f8b69509f1e05f18798b2213ebfe47b2951bd7fa0908ece8d13ffff42",
+      "bytes": 12653,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step05Batch02.lean",
+      "sha256": "19ab4346718bf6647e68bc65792171277ddcb0c683e715374fd6c08dcbc7aea6",
+      "bytes": 10584,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step05Batch03.lean",
+      "sha256": "ed9d66ac0d8458b0ee2b72221f33c759e1d744dd403052c630da0b324a076e83",
+      "bytes": 6953,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step05Batch04.lean",
+      "sha256": "510affe5211b4ef6a63f9e10eb565d815b5325d87ee7ad020dcbd7bd0d751ad2",
+      "bytes": 6644,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step05Batch05.lean",
+      "sha256": "01b7603454eb6d8e0a6dbfb56417a46282ad9600b7b84ea6c7f9f40401533249",
+      "bytes": 5918,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step05Batch06.lean",
+      "sha256": "9f4c7008549c86a2f5c4cb2ba5619f265d0edaf9e9be8b9eb6de644a1b69f825",
+      "bytes": 5607,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step05Batch07.lean",
+      "sha256": "a72268c5f464e3a1c5d63a422fbd04cdddb2b8be288df2f71d1994854fe097e0",
+      "bytes": 5448,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step06Batch00.lean",
+      "sha256": "79736afa1b153e385937eb740fed299e7e90f6d4fbaf3ea82709654ef65999a9",
+      "bytes": 3439,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step06Batch01.lean",
+      "sha256": "b5bdc12d9f8a5a07b10d6d3d04a20976f174730194bf0198d5dc9344dc1f2f3e",
+      "bytes": 5574,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step06Batch02.lean",
+      "sha256": "7ac810754a48d6e4138fc21f857adaa40abea345dca99fb19240c315f634cd7a",
+      "bytes": 1510,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step06Batch03.lean",
+      "sha256": "c49cdc362c3fcd1e1074872667da3574f548964acce1b9a2c986c089945e0300",
+      "bytes": 664,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step06Batch04.lean",
+      "sha256": "0ec2756ded42c0490ad0e0b706634db9cb77676babc5720cb044be6aa67e552d",
+      "bytes": 1804,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step06Batch05.lean",
+      "sha256": "ca994cf36db04709ffb38c23e2701ea9f3e26af955ecbabad268c5c1fb8bc237",
+      "bytes": 6783,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step06Batch06.lean",
+      "sha256": "e75af4dc1158eeda073c9a80e8f83d00035643144dba7a10088ffb4b73f23917",
+      "bytes": 5208,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step06Batch07.lean",
+      "sha256": "28ce324ec6b574270627e5e4f71f61a0c238fa26b935942c2e44732dc759473a",
+      "bytes": 1251,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step07Batch00.lean",
+      "sha256": "7973f656ab124ed6ec9b492f06ebcee87b296a3fb109d38f0d089f826eeeed97",
+      "bytes": 5136,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step07Batch01.lean",
+      "sha256": "8d98a3900615a843a375216c7ed76c0cd03329a65649d122c913a1c463844187",
+      "bytes": 2084,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step07Batch02.lean",
+      "sha256": "86a150c4794a9f2bd185846094849ad1763c8ca25e819d216a47be60110719c4",
+      "bytes": 1777,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step07Batch03.lean",
+      "sha256": "51e4b83c8207e5a410c5e3165e20a37cda6942d7fc6252c9d8d662f634ecb773",
+      "bytes": 664,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step07Batch04.lean",
+      "sha256": "1178cca6411b4dc862378eb27b472b5ae7cda5e668d2dba5b9f6ffcf7be4b46b",
+      "bytes": 929,
+      "lines": 10
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step08Batch00.lean",
+      "sha256": "7bcd63710a043b407d059ea2d15af14e76f16590a142000a2ee2f14480289f14",
+      "bytes": 8766,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step08Batch01.lean",
+      "sha256": "acf61ca4a6b3407988732bee5dffbaa4719453db8d4a17d16a9947cec02ca7df",
+      "bytes": 12601,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step08Batch02.lean",
+      "sha256": "a50625dfc40413aa24998578f6b74fd290598e576d75ea5ed960fb6506f29e9b",
+      "bytes": 10766,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step08Batch03.lean",
+      "sha256": "f42448ad8bc454e575aeb296313a8b97fce500834f21e34b744a7921dc2a99c0",
+      "bytes": 6938,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step08Batch04.lean",
+      "sha256": "0fee1456519c47c3cae94bc712298d243942cb776f4a1c2bc5b79b7e69aafd6f",
+      "bytes": 6644,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step08Batch05.lean",
+      "sha256": "bb037d129f73881cc2dcbc6766baf34f1ed649565cf552ae603f94799feaad10",
+      "bytes": 5918,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step08Batch06.lean",
+      "sha256": "ebe1538cf63943b1188b4e6c497c0d1c10f45fa1364abd2b5ba0e18528a1378c",
+      "bytes": 5607,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step08Batch07.lean",
+      "sha256": "7f7a5d4282c080d91e2ded73bf72f4e30e160e93ef1492a6be158ff05ab56807",
+      "bytes": 5448,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step09Batch00.lean",
+      "sha256": "657625ae42ea6bd119f57aa3cdee2738b5ff3245253ec7a882906975baca08e2",
+      "bytes": 2913,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step09Batch01.lean",
+      "sha256": "ff09528765274061ea816dd4a534d7dbd51f0a46ce9c17cf32f302ca62151eb2",
+      "bytes": 2936,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step09Batch02.lean",
+      "sha256": "948f203d429191733612d32c646b20bdd1458f229ba2304a16ed022c11c7881a",
+      "bytes": 664,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step09Batch03.lean",
+      "sha256": "ce0b421f6b067c951cf831b2a7131c66d943c1239e716b95d290b3b9165eaad8",
+      "bytes": 664,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step09Batch04.lean",
+      "sha256": "7ecd15f7d9afb8bc134607ddb62a2416d4b345c91852e6ee8f74a9e450f41ffc",
+      "bytes": 664,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step09Batch05.lean",
+      "sha256": "ddd16048aff09cfd25bdb73ab64fc738f2e9182e22cbcee9ae8569f85bb44a52",
+      "bytes": 664,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step09Batch06.lean",
+      "sha256": "ff0d4f72e33130ef426eaf3286d5444233d2b41746deb0552f2f7de2cccf07d0",
+      "bytes": 664,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step09Batch07.lean",
+      "sha256": "cca7d9c5c30cd15ef37a6077c0bb59d788c5a92fd074eac1c0ee24f74a780c6e",
+      "bytes": 1251,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step10Batch00.lean",
+      "sha256": "9d061883a956ed6d3d9b3633428b666abd2101a9b75b903b7eb8e8a055a26752",
+      "bytes": 3186,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step10Batch01.lean",
+      "sha256": "4aac32b70a4dd5f58e0d9eb6139751bcf2cea4b9d1240cae7fbe0a5c1b006994",
+      "bytes": 903,
+      "lines": 9
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step11Batch00.lean",
+      "sha256": "1e10cdea31faef668a435546b6785163592ea584455b1a931ae6e724d46f297a",
+      "bytes": 5765,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step11Batch01.lean",
+      "sha256": "c995d819f3919202356fcb253ebf6c649221cda7139063d5ce93bfacade3fcd6",
+      "bytes": 5903,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step11Batch02.lean",
+      "sha256": "ef5782744bd91c9fa05057010d6822d37837f1d389df3e07abd8e54495371c11",
+      "bytes": 2724,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step11Batch03.lean",
+      "sha256": "306183e1126096252733e13645005127c8c161684809dc03b6e86e257e76fa88",
+      "bytes": 5237,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step11Batch04.lean",
+      "sha256": "17c2fa7669f7fa109b9a10bca43e616e132a5118070a7706cf8bf9988b245f31",
+      "bytes": 5411,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step11Batch05.lean",
+      "sha256": "fac701331928341531373945a73ca8e63d497cc6c93b5184026a92731e838909",
+      "bytes": 5528,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step11Batch06.lean",
+      "sha256": "e9e62bdc9ddb831e889b17d02a44f26e13b9f056fad3407f3009ed14bb8edd57",
+      "bytes": 5567,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step11Batch07.lean",
+      "sha256": "02acd91340752dc9fa03158d4c6c9105138e9146e60ae11b767d1694dad7feca",
+      "bytes": 924,
+      "lines": 9
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step12Batch00.lean",
+      "sha256": "a214c5386d6bededc2759d279b62ee1457077cd387f9a6870a73d118d5544d03",
+      "bytes": 4856,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step12Batch01.lean",
+      "sha256": "8fa5033f894a35045e705d54439f7177415cb41897e7fad61dbbe26f54639ae1",
+      "bytes": 648,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step12Batch02.lean",
+      "sha256": "be864eb954d42a37cb013b8341ce398cccafe4da6a87119f90ffc52adb0fe5ad",
+      "bytes": 648,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step12Batch03.lean",
+      "sha256": "bbd9d0487e02d1204876e92fff6674e5156244f0802c94a76510d83d9878effc",
+      "bytes": 648,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step12Batch04.lean",
+      "sha256": "ea0412a85178c03d8e03fcf2db9415a7e1867995b58d11f9a7552b4006dd45d3",
+      "bytes": 648,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step12Batch05.lean",
+      "sha256": "f66e9f40c29ca58a6bc34449f8b9e1906faf7d5fc22a5fe637524aa7e0d1a61b",
+      "bytes": 648,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step12Batch06.lean",
+      "sha256": "6e5840b4a425b13094cf910129214de37af0b9add8c8d78309e1363bd30a2dd1",
+      "bytes": 1817,
+      "lines": 15
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step13Batch00.lean",
+      "sha256": "42cc0dea2b840303358b1a99101fcc821d7a411c98c5d1a45582de7a6a90040e",
+      "bytes": 6570,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step13Batch01.lean",
+      "sha256": "9501e38bddcb46499c0964c48d15588a0fafc18c0c8d6bd9c04d2c0ce878db19",
+      "bytes": 4655,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step13Batch02.lean",
+      "sha256": "4f40350d536105a2eb23a35e12004e780e51d76e689409bd43ab289d2520e3d5",
+      "bytes": 4520,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step13Batch03.lean",
+      "sha256": "68bc3cdd92e8382c5ed726ef50d4464317f98485ecfe58c4d43d382f6983824a",
+      "bytes": 4520,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step13Batch04.lean",
+      "sha256": "b70cc8e0c8f64ce83536ad49ed46c085e28619ee8cb7850ed36169a9a2d9199e",
+      "bytes": 4036,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step13Batch05.lean",
+      "sha256": "11e40b6dca5e9fcd4ede50c402737cca7c2db1b424e8de6720733db0ca9f941a",
+      "bytes": 1437,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step13Batch06.lean",
+      "sha256": "865ae15e051d776afa112701b2f68f5a7a10dd7df7d8de0a0bbf98f584dfd10d",
+      "bytes": 4856,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step13Batch07.lean",
+      "sha256": "9ccf877febf41e18754a845efc82e9ae3b4a8f3db3813bce82afb1b486b98e71",
+      "bytes": 7449,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step14Batch00.lean",
+      "sha256": "f7d7ceee2d53840d7c5299a0664aeac6e8555876e7ee6f3e1432d04fcb9482ad",
+      "bytes": 4634,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step14Batch01.lean",
+      "sha256": "835d6f7038ecbe4e83ee250ab6f71daf115c5252adea303c17dbfef8efcf3315",
+      "bytes": 648,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step14Batch02.lean",
+      "sha256": "a33a912e90bd63f41d1fc3459c39c6aaf755986b413d51216eea712ce83ba1bb",
+      "bytes": 648,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step14Batch03.lean",
+      "sha256": "fa76fcfa5bef0fa689f7d44e691df841670e2ff25e68d383816d7f7768eee0ef",
+      "bytes": 648,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step14Batch04.lean",
+      "sha256": "72474f6311fda93f05dea22311a563325a798150edfd71665fbfe6b281f19517",
+      "bytes": 648,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step14Batch05.lean",
+      "sha256": "ec70a6ed3de0b7dc179fb165a1db2542b07cf7d39c4dcc11ca32e1eb504f586f",
+      "bytes": 5202,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step14Batch06.lean",
+      "sha256": "94e153f3807f6f0e2a2c0024f39659c94cdde5bccb73f049eab970797e35e369",
+      "bytes": 5126,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step14Batch07.lean",
+      "sha256": "5bf1f77fd6dcc7f6327c81610610db4ce1ecb7e1653f711559526e165420209d",
+      "bytes": 598,
+      "lines": 8
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step15Batch00.lean",
+      "sha256": "324beac9b0046bf4f82c23c548863f18ff8a13ce4ddfbf9fae8e654adb935250",
+      "bytes": 6549,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step15Batch01.lean",
+      "sha256": "56cd0ea30b32e2b037791731555b81ef890b3a57e13a09d8fa64bf67e47cb2dd",
+      "bytes": 4613,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step15Batch02.lean",
+      "sha256": "c833be11374d82d3e3293edecd2a8e57a72d3ff86c10e546ed34a57413a4f4be",
+      "bytes": 4520,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step15Batch03.lean",
+      "sha256": "aa6900c1ec665a4656643005524eca5ae5a9c8936ab141b473da3ca08ebf241c",
+      "bytes": 4520,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step15Batch04.lean",
+      "sha256": "c716aab499fb232169c84f057055b04d2169e4cad69969cdc01962f2df3092a9",
+      "bytes": 4036,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step15Batch05.lean",
+      "sha256": "311dae4ea434fadbacdae15149a5b49db463f079175eb303053c5a0b07b85b7e",
+      "bytes": 1437,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step15Batch06.lean",
+      "sha256": "5c8bc659412792bb97c5d559fabc5638f1bc8d6e8626fbf5139dc058a403339e",
+      "bytes": 4856,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step15Batch07.lean",
+      "sha256": "e7c3fae86b27d3dddf780c984ea1b2045ddfcc2efd3b68fc7ebc77da10fecaad",
+      "bytes": 7449,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step16Batch00.lean",
+      "sha256": "8919d63e1fd7802fafb4bb3a82614458dd735d698f8f1809049620931fb8b01f",
+      "bytes": 934,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step16Batch01.lean",
+      "sha256": "803af2cc48bcaab9a6643f8f781b587b274f159dfc39341bd02dbeda2690ab76",
+      "bytes": 648,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step16Batch02.lean",
+      "sha256": "27883b73b2506bfb8cfc089b2144c4e367a4b53c9ca6fdc0a86c164b7c7df2f2",
+      "bytes": 648,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step16Batch03.lean",
+      "sha256": "efc8b84a5eaf3b66d3f038743ac2d40a42346913c182462d8ecb5acba6182103",
+      "bytes": 648,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step16Batch04.lean",
+      "sha256": "e6191a04147b81bda215cf624efbf2af753c273f3a874ad85ab6b2eecdbd90ad",
+      "bytes": 648,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step16Batch05.lean",
+      "sha256": "4c94cb81234b72041d5b3a121ae75ada99865d7ae4ab2e0f7b43573599532165",
+      "bytes": 648,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step16Batch06.lean",
+      "sha256": "19c68edd016f39b8fb109d629b970aa824fa44d1cb739b11c1ddbc1639c3c909",
+      "bytes": 1963,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step16Batch07.lean",
+      "sha256": "ad3a40f1d707b5bf2f17c3660b25fde88099b3074fd92707578a430ef15eb734",
+      "bytes": 587,
+      "lines": 8
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step00Batch00.lean",
+      "sha256": "e12709aaf69911caf1055e981bc5679e43e883d660829e9f22546fe1b18d254b",
+      "bytes": 7351,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step00Batch01.lean",
+      "sha256": "694b0e064c26f80631853041f98645b02f23b344794a66d6671dae3aa1f9d70a",
+      "bytes": 6396,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step00Batch02.lean",
+      "sha256": "610def2bdd68f05ba0168bb2a8162743b24d3b3ca1fce7c95b420313bd2e6ea1",
+      "bytes": 5426,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step00Batch03.lean",
+      "sha256": "7b889e33e9f3c65598a92f82eadd14b2125177f513f992d196af04fab1e43430",
+      "bytes": 5964,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step01Batch00.lean",
+      "sha256": "961bba0e0b26e992fe67bc9cf81acb9606894db883b4bf4e26e4ae27d87cef1e",
+      "bytes": 8403,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step01Batch01.lean",
+      "sha256": "c02a4e1661dd78c80d1b9d44b6d2d8bb898c94a5f744cdc12fe49a50e9ca0268",
+      "bytes": 5271,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step01Batch02.lean",
+      "sha256": "1bbc166c498898fb65d8a46ba11e5ea95fb5434c09f19c5648617d9896c7ddf7",
+      "bytes": 5215,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step01Batch03.lean",
+      "sha256": "ce63e69a9d1414b0a551976aa4069a75cf4480619496ee2f1a1e9a96e1f79986",
+      "bytes": 9030,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step02Batch00.lean",
+      "sha256": "4856622b8c15d73d1d41e71bb7a1e83b5fcb404e3056eac331638dc434b944ea",
+      "bytes": 5123,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step02Batch01.lean",
+      "sha256": "a614cb5ec6530ad8cc1461ba3dfd049d9a0d065b72c0f6d514f759a419afa0d4",
+      "bytes": 2952,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step02Batch02.lean",
+      "sha256": "bb6a22422afc91ccc722355611bd8629110d2004fd3c18ccd713b273683b1381",
+      "bytes": 4866,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step02Batch03.lean",
+      "sha256": "38d5ddfc5550ecbfb57023705d514c44157028d3db5e4bf55ae7996aab2debfd",
+      "bytes": 3360,
+      "lines": 18
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step03Batch00.lean",
+      "sha256": "9618d1cd8d82a2524fb0db6f7a74d050e398ff8eb408d68c7d4eff8a19ae9f51",
+      "bytes": 24718,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step03Batch01.lean",
+      "sha256": "70c3708596fd8dd79874a31853887ab2c418220622addc59ee165c8d3bfbcb72",
+      "bytes": 6707,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step03Batch02.lean",
+      "sha256": "0679805ca7d491b2ca008ccbda796b71946f710f44901b054ba620b7bc8b910e",
+      "bytes": 16341,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step03Batch03.lean",
+      "sha256": "b8ed016bfef172a672d5aea990f2eb8cd9a51258ee607d3756161299756a0dea",
+      "bytes": 17692,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step04Batch00.lean",
+      "sha256": "ac5489795851d2abdd72663ddf1e81c0448c0e54a2d6dfe4af78ef292120ed31",
+      "bytes": 7398,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step04Batch01.lean",
+      "sha256": "fea86eac52f92d136d497d25f565af6044a2d0c846371de928c05c3ef94764a3",
+      "bytes": 5650,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step04Batch02.lean",
+      "sha256": "117056bb72f6acb671ebb98ba97c43d2079af7604073c47334b237cd19ce729d",
+      "bytes": 8234,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step04Batch03.lean",
+      "sha256": "12144481177ff5ba3fa33183bd1a4632b8d346b28622196ce26240ce64087d2d",
+      "bytes": 11864,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step05Batch00.lean",
+      "sha256": "ede839b216ae57215036a62390e7294f5b0f123c76b2631b55802c0200e9bc4a",
+      "bytes": 5973,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step05Batch01.lean",
+      "sha256": "7eab5fa8067bb366e70684fd97bc311ce6375dbf54c789ded19d2155ba9721c4",
+      "bytes": 6959,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step05Batch02.lean",
+      "sha256": "1ac6bf0c4c7ae4cc54377da6d3a4afdb0f631c4539001efc779120e121418e5f",
+      "bytes": 6330,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step05Batch03.lean",
+      "sha256": "12cbc2cf6d3ae5974f35bfc7c3049e3714981cb95b02cb0511a41bd8225ba8db",
+      "bytes": 6317,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step06Batch00.lean",
+      "sha256": "883a4ab7d79e8a5db994bf45eb574dc5e24d483922210d54277d48f87530da14",
+      "bytes": 6790,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step06Batch01.lean",
+      "sha256": "624dd49def77077a45b84f2a3149e57cd83704927468a772a88b8c16cca0d145",
+      "bytes": 6316,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step06Batch02.lean",
+      "sha256": "55bbff57d111ae399c429c7b2ef1391d5529112aec7999f080a1439cf0f8ad4c",
+      "bytes": 5804,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step06Batch03.lean",
+      "sha256": "612510884c9cfaa1e718a657b887f60d7ccbef6bd60c52e9adb2df58f3f54654",
+      "bytes": 5672,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step07Batch00.lean",
+      "sha256": "15d1656e2e2e110ff804ba3a51fed9fff3ee841fb5eb0a5639e83b9ce2d368ad",
+      "bytes": 5708,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step07Batch01.lean",
+      "sha256": "50c8612194f038bc14989cd7091482447125da719e7fd6a0844bda9e24b14b77",
+      "bytes": 5309,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step07Batch02.lean",
+      "sha256": "c6f840f1aa94af1860f253e0c3de63b8265a90d136560489b368054f0b5c9841",
+      "bytes": 5429,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step07Batch03.lean",
+      "sha256": "d1981254ccd7660c5d5c5f60e39e4f9dffa7d447c5f520fdd40264bcd35556b9",
+      "bytes": 6085,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step08Batch00.lean",
+      "sha256": "47988acd43ab09ba13dc8fd71e7fdc524adfab15d71e1a4a32bd79947d9dcedf",
+      "bytes": 5537,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step08Batch01.lean",
+      "sha256": "a263194778293fb10d7d2f50fe0b36ba1589d2e76aaca2ccecc430323b5d9cde",
+      "bytes": 2417,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step08Batch02.lean",
+      "sha256": "92c0973e9fdc0a0acc48c27e3c0f4ebee620e4fc960c5f3c44ba591c3014ccbe",
+      "bytes": 5473,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step08Batch03.lean",
+      "sha256": "a7acf559412b3448f6e94b21a2c2d1e8a3bf2ca19c6af35dee42ca6598883597",
+      "bytes": 5368,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step09Batch00.lean",
+      "sha256": "6290fd0fdee73604d6545ef96450b8b0eabef8127476dccf02b55d790cbb1402",
+      "bytes": 6540,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step09Batch01.lean",
+      "sha256": "6d5ed6336552ca61d0210811fddf959bb8249bec1bb2d42195ac91afd0273b20",
+      "bytes": 5335,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step09Batch02.lean",
+      "sha256": "aca1073c9161dea6c00d2a5d04070694ffbef475accc4bad78f3bde821c1368d",
+      "bytes": 5516,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step09Batch03.lean",
+      "sha256": "eb74afa16b733d4f86b113ec90c74dfeda7cf6dcb054f22c8b05747d79a16fad",
+      "bytes": 2229,
+      "lines": 13
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step12Batch00.lean",
+      "sha256": "5f286b61f34cac7aeeefa0d2547269a55a0fa0bf78815d59e087ab6ba29fd69b",
+      "bytes": 7127,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step12Batch01.lean",
+      "sha256": "ad5b20572732d4923851e11921d88353965f5d41a0d3075e8d1883eed73780b0",
+      "bytes": 8161,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step12Batch02.lean",
+      "sha256": "ab5ef85561e99fb02b35f75ca53a11a8100fb3523db204a68bede29cbb615275",
+      "bytes": 4744,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step12Batch03.lean",
+      "sha256": "5ca7d717e3979582d8fc12e06832cc1a440dc69ddf814ff8dc273e2d7331cc06",
+      "bytes": 4913,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step13Batch00.lean",
+      "sha256": "9dd9cc2eef49e663dfb5c829925e2a748d154ef6b148976c5237c757af6321fc",
+      "bytes": 5382,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step13Batch01.lean",
+      "sha256": "d8bb81ba07cb41f4a1e8c7f4d848ca8fd3a43bf209e577809a464aea3481f9b8",
+      "bytes": 4520,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step13Batch02.lean",
+      "sha256": "de5e02f445aace5ec23aac8bcfb8915f239826a0b244632b414d315c2243523c",
+      "bytes": 4520,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step13Batch03.lean",
+      "sha256": "af2373a22d239c6cbee7a4a378c30683aeb05497fe829ff7a72e28a552e0af10",
+      "bytes": 4719,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step14Batch00.lean",
+      "sha256": "4fcfbf0d25db9453dfd4eba4537290673e06781b568bd5d9646db56a7f659411",
+      "bytes": 5548,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step14Batch01.lean",
+      "sha256": "a02145a03b31f7370192995359d466ecdea2abf4bd1a3dff3e16bcd81663eda5",
+      "bytes": 5233,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step14Batch02.lean",
+      "sha256": "cb443c0ad00936455328a76749a2ad72b64ccebd9556fe62fcb59c61d0b9a11c",
+      "bytes": 5797,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step14Batch03.lean",
+      "sha256": "35b219753d4bb5c2f814253cd725d8eeafa329361f52006f07489d51ca05b6f0",
+      "bytes": 6274,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step16Batch00.lean",
+      "sha256": "4f65a241fb5115985c5a3334ae7942d8593d13d3fff39541f0982b69db123077",
+      "bytes": 7957,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step16Batch01.lean",
+      "sha256": "f90888bb0a1c5f97aafaeeccdbcc13e5c370a6aa1800b92aea626063d65e1a4a",
+      "bytes": 4298,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step16Batch02.lean",
+      "sha256": "e4bc9c2d7b96eeccb8d2321b1d63238608a7aae851abf5b0dd2807cdf60f6c7d",
+      "bytes": 648,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step16Batch03.lean",
+      "sha256": "5d7214448f4e1186900c3e0833c1d922f9975cdcc7d1b0c12dfa0935436f7d12",
+      "bytes": 5760,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step17Batch00.lean",
+      "sha256": "cc291eee4b1f4b14490b2f1727490f6545d4956ec69c0a8047afa34d47cb13e4",
+      "bytes": 5534,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step17Batch01.lean",
+      "sha256": "a23aab3c3063f097fdad45ec9b34a3a05e69b73605726c8baaec29824b40d1d8",
+      "bytes": 5024,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step17Batch02.lean",
+      "sha256": "4da40630a533497a175b26aa3acf0cc280f09c7a7eec82ca2044f2257f3d88ce",
+      "bytes": 5793,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step17Batch03.lean",
+      "sha256": "1a6ef73749473652312a04d40389acbc393d2d87284f452a983ac24ef17f609a",
+      "bytes": 6581,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step18Batch00.lean",
+      "sha256": "dc5529a5316822c5bdda2708b4b36bb76c9c966d45e353d5b5e775f86023a567",
+      "bytes": 5528,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step18Batch01.lean",
+      "sha256": "d8df05ad67bb85d85f4f97d84504359b955e8a02ca362cf03e14209599a9534d",
+      "bytes": 4005,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step18Batch02.lean",
+      "sha256": "1c82ee7d44853e721bebb062bc7befd1d29cc1dc4790b95410323f280af85b17",
+      "bytes": 4858,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step18Batch03.lean",
+      "sha256": "9264d4e56deca8845d0c12f2017b6bc2fdf6eb186d30d2c669e83e1e67086de3",
+      "bytes": 5013,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step19Batch00.lean",
+      "sha256": "b43ad95a11a54ccd37b4276c5b03fbcbfd51d868328d714eff498f23f1bbe43a",
+      "bytes": 5314,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step19Batch01.lean",
+      "sha256": "62bbff7bf15fa1759e84c14e3333e94df81558a78d5f7f0eaa2070745839cf61",
+      "bytes": 4484,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step19Batch02.lean",
+      "sha256": "73fe1da33932273223a7d7873f5ffd14b6c83eba3910b434ce94e24e8f0927ed",
+      "bytes": 5896,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step19Batch03.lean",
+      "sha256": "a6ababccd2535a19004c7a8a05e9bca4d83124aed059267467652680b6b51ef4",
+      "bytes": 6599,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step20Batch00.lean",
+      "sha256": "897fc1b95d00c993e4bf4ded1cac8445f5f326b4b1657a7c2a5e5e90eb86495b",
+      "bytes": 5746,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step20Batch01.lean",
+      "sha256": "6650816e4289ec9a1ab040bff34aca51ad21e84fca986cbc0316c2ba69e65cb1",
+      "bytes": 5227,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step20Batch02.lean",
+      "sha256": "e4c702ceb689531150c7887e441bfec45432d140a8a94273bf741ba435b2b43b",
+      "bytes": 5551,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step20Batch03.lean",
+      "sha256": "41b78e1cf9980b6ce4457fc5e71f2d10548e9eb8b04dfeb2d25a821d23e6c8c2",
+      "bytes": 5846,
+      "lines": 22
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step21Batch00.lean",
+      "sha256": "a6a67c4dd557bbbc4caf3ff228710717cb68bb3fc1eba11da29dc4588e6a4057",
+      "bytes": 5846,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step21Batch01.lean",
+      "sha256": "4d9fa33e871530587abef32b4aa861fcadb0f836f89b9bcb05362bae31ddfde8",
+      "bytes": 1500,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step21Batch02.lean",
+      "sha256": "b4bb486c32ca969a6f51d34fe124b6fd781dbb21c51b91616021915f0d4827e3",
+      "bytes": 3830,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step21Batch03.lean",
+      "sha256": "574bd1439f8378070f168f8769c91188f8f6876664c47b180423bdf84866ad20",
+      "bytes": 7225,
+      "lines": 22
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step22Batch00.lean",
+      "sha256": "96b70739c7752a60212dfd75d1cbb38bd7b92d8172315bde7ff3a7754a37ed13",
+      "bytes": 10982,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step22Batch01.lean",
+      "sha256": "0b75229b024e11e417eac90b78b569ad083770817ec89b48280c2153d54bb3e2",
+      "bytes": 7443,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step22Batch02.lean",
+      "sha256": "fdf47ff127324598285dcdfc4e5524cee98ebd0c3c874640bf4234fdd76dec18",
+      "bytes": 7519,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step22Batch03.lean",
+      "sha256": "b7c2ff25b4d190b56887490f13c20484438b69a71c7d8839d6e0c007a9f8e529",
+      "bytes": 9106,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step23Batch00.lean",
+      "sha256": "48a04926119483dffe1a7e139b827971d7df6bc2a6c9ccd7337af77541471301",
+      "bytes": 2392,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step23Batch01.lean",
+      "sha256": "d559e9b45b709145d6bdae4378128f1a114d5c9a403dd2b44a774dad74927697",
+      "bytes": 648,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step23Batch02.lean",
+      "sha256": "0f366b1e66da2762c4f69711fe6584ca6a0f7f2f40c559274bb124e321f60781",
+      "bytes": 648,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step23Batch03.lean",
+      "sha256": "2c57bd96724aacab0b43dad3b0653dc9c99ab02a39bc3ea7f6bdb87f81c4b9a4",
+      "bytes": 1732,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step24Batch00.lean",
+      "sha256": "080273d0f3728a97e9dfd40b82f5211ba1efbd33ab142c79b4039f60e06af9ca",
+      "bytes": 5369,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step24Batch01.lean",
+      "sha256": "d1e7e1ec13eef673ac6e36ddc169a227a0ea7cd2cec8820666915d0dde895dcd",
+      "bytes": 4366,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step24Batch02.lean",
+      "sha256": "6ecce8055a4702fca1de640de455ef8712e600f3545be9bb4d8ad44f2d1ea01d",
+      "bytes": 5220,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step24Batch03.lean",
+      "sha256": "ed5fed3dfa25df0c7494b5f7042a131df298c6ec40c4c28f807c08d74d68b418",
+      "bytes": 2295,
+      "lines": 13
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step27Batch00.lean",
+      "sha256": "1716e8f2043a7f28da728f8af643d2621e7d0648336b6fd11eefda2ec6d5c439",
+      "bytes": 648,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step27Batch01.lean",
+      "sha256": "6add418c87a26216ff85d2e2d25548aef2e24325af40a0d8715600ab83d84af5",
+      "bytes": 418,
+      "lines": 13
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step00Batch00.lean",
+      "sha256": "4774641c2c30b4a745a56cbe5e7d56903f254063ebe714fd308ea9977a8a46f0",
+      "bytes": 7633,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step00Batch01.lean",
+      "sha256": "809a1928a7fff96aadd5be4417f6ad557b6946a0c489fee9f8a9ca1cca9f21c3",
+      "bytes": 10753,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step00Batch02.lean",
+      "sha256": "daac3d5f69563cc4bb68ae914663f6d4e9bc00fc5baf312f6d7145cc214456e9",
+      "bytes": 13337,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step00Batch03.lean",
+      "sha256": "3aa53aadfc6ab339a3d576f282e366c0a44563bac579641ddc6293aa418aa72f",
+      "bytes": 5557,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step01Batch00.lean",
+      "sha256": "37d5b6cbce3c97f5e095faf42725764ad4508bda53b05710020ace983f04975d",
+      "bytes": 5981,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step01Batch01.lean",
+      "sha256": "79e265a3d84977710d5cb924d1fedf74fb3f54ae7015f7ef5bb4c9adc3454c6b",
+      "bytes": 6220,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step01Batch02.lean",
+      "sha256": "ee371c21b300a34faecd7ec855fa66bcec9e46f09229d5034b021803e29544c8",
+      "bytes": 5066,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step01Batch03.lean",
+      "sha256": "5461db43d1ce9b8a7b01a1c74cb56a02dbbc5d0e2bcd16cd46956fdb042786f4",
+      "bytes": 5665,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step02Batch00.lean",
+      "sha256": "f559a17e51d6a069aaf313f62612fd8c57053ccc7a7cc808520ac085717895ce",
+      "bytes": 3720,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step02Batch01.lean",
+      "sha256": "3c6b9bb4d1ffb48160d416f2d4072648fa33fe11b6b6814be448ccac3c4abc53",
+      "bytes": 648,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step02Batch02.lean",
+      "sha256": "e4b1aa65539956a63aade3551b404b0bb15f89ebd7f85c3c1c88dcd8f0666b11",
+      "bytes": 648,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step02Batch03.lean",
+      "sha256": "9af23026df38be51507cda679f0e4b70d89f5f36c3a328ef7f3772cf2abf80c2",
+      "bytes": 1297,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step03Batch00.lean",
+      "sha256": "bf699b9792954c4720c1cc49a245589053da16dbb798ef7a2fed5a4c3c3024c9",
+      "bytes": 3505,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step03Batch01.lean",
+      "sha256": "21a622426e157cd8bffef843ff02e3729efdd219f044a4a65d3b1e533750d224",
+      "bytes": 648,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step03Batch02.lean",
+      "sha256": "e1e21c81144ca957c2a517419a47a8c12f369fda24ad5e0945658d4f4b0973b1",
+      "bytes": 648,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step03Batch03.lean",
+      "sha256": "434f4a8a218bea532c69cc55473aa74153371aeb07deace50f77adde14db6cc1",
+      "bytes": 1508,
+      "lines": 18
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step04Batch00.lean",
+      "sha256": "caafe0ec847e3f5bb31820f88f6897c29654fe6a146ef53def5edb9928190e90",
+      "bytes": 4935,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step04Batch01.lean",
+      "sha256": "e5764dec985db1f08bbac0308ed9dc17669db036de60c5b35153c1a6940e2e5e",
+      "bytes": 5200,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step04Batch02.lean",
+      "sha256": "ac296fe9a697d3df28f46b12b001bc44d474eeba33139fb9523f95355b044dff",
+      "bytes": 5451,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step04Batch03.lean",
+      "sha256": "0cd41422671b5d1c9713fa70b199b6c8ad9fc091ea4f6a72295f9ea27b95c59d",
+      "bytes": 5246,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step05Batch00.lean",
+      "sha256": "1c7003beaf28f748f20ef65c59c3b6bedf63e4b09beb3c256d464765df4d60b7",
+      "bytes": 5171,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step05Batch01.lean",
+      "sha256": "07c13b0c3efc173bf05633b8c4d39bd5c5e3d538a1010bd73269f9ad403e3354",
+      "bytes": 4488,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step05Batch02.lean",
+      "sha256": "389cd6cd3c17a6fb73a6c17776ee1be4e52bed43e856595a13ac436a926fee6f",
+      "bytes": 4478,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step05Batch03.lean",
+      "sha256": "33d1aadf4b883f2c32a0fd1f94418829130d199a8041c89028ac703be9a6cfd2",
+      "bytes": 6337,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step06Batch00.lean",
+      "sha256": "b5eb5abc8baa724f0e3223687c271ea272c8d1c0a94cf17c1d9a693c279ce549",
+      "bytes": 4973,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step06Batch01.lean",
+      "sha256": "522a94a677f2fda4e7832a50e8abf31f06632022d9dbaddc8dd6de70f0f91977",
+      "bytes": 632,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step06Batch02.lean",
+      "sha256": "fea1555b65b3b29612a0cc05b62cd472e1832112c781cceb759412b39402cb34",
+      "bytes": 1358,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step06Batch03.lean",
+      "sha256": "7622bdc9649ebaea934b4adbf2f5f5fd0ceb2b5ce7da0e9e30886419c3e52649",
+      "bytes": 5071,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step07Batch00.lean",
+      "sha256": "906f7be7cc0e77b82a93a765d5e0e7e3bd27c7064028afcbc3994dbca31250dc",
+      "bytes": 5787,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step07Batch01.lean",
+      "sha256": "1ff1c74dce0c5e514f6316012cd389e32678be4f8d026dde2a6e430db19549d8",
+      "bytes": 5692,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step07Batch02.lean",
+      "sha256": "76353aac1e6bffe76798195a93a90df33c62e3157517ad758505a8989697fa5d",
+      "bytes": 5803,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step07Batch03.lean",
+      "sha256": "5b1493fe58ecb46937f2b1af004ad0ce75d027138d5dd8a75eeb61f80c4cc564",
+      "bytes": 6456,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step08Batch00.lean",
+      "sha256": "3ab106279413e2cb32fc27eb4a53c7942ca860ea4c4750099e2b2037e44eb20e",
+      "bytes": 8205,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step08Batch01.lean",
+      "sha256": "340bcecf6fde368b1951a0cd9b0f5cf4d7e53418fd021b47080d9659f43930f8",
+      "bytes": 11075,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step08Batch02.lean",
+      "sha256": "1a86f7198d50788ebbce250266ecd5f6a384318b573c40fbbcd91a90f3bdf6d4",
+      "bytes": 14120,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step08Batch03.lean",
+      "sha256": "e90a80a7d7112106c1bdc63fe0e13d16665fbd1a9725735411c43d9aff00e968",
+      "bytes": 5784,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step09Batch00.lean",
+      "sha256": "165ce8fbbd959f2030ccff946d3e62a193a04df3698950b2d026e8b6a32ad2b5",
+      "bytes": 5482,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step09Batch01.lean",
+      "sha256": "db4356814c84fa9a8bfe9376da729ad95171ce9f8e5900bcad20ea62256bc82a",
+      "bytes": 4923,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step09Batch02.lean",
+      "sha256": "94872ed9f4e2ede409d06128f1af824d8645c60362e2b7c9ec60ee791d63d60a",
+      "bytes": 6344,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step09Batch03.lean",
+      "sha256": "c8cf355bc38f75080a0f77f0fdffbb20d8ad16c0cc5ab0c1e9c41ff741774d32",
+      "bytes": 5734,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step10Batch00.lean",
+      "sha256": "ee053bc505ffd1760a86970a0ed1fc8ea8bc4a3a41925a6eb3c33d17653e977e",
+      "bytes": 6956,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step10Batch01.lean",
+      "sha256": "5c3cb30694b1b2e7fb90b2739f33046a241b5cdd3f80fde3070485c21f4dfb65",
+      "bytes": 4777,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step10Batch02.lean",
+      "sha256": "3a83229b97c00d136f365d505406de930e327bbcb41dcb58d72194acfec3651f",
+      "bytes": 3975,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step10Batch03.lean",
+      "sha256": "bd78e647890fa3864e90f5093ecf4752a93c61d7dd618aebb7ae9308956601a5",
+      "bytes": 8467,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step12Batch00.lean",
+      "sha256": "8ffff2fc6e7010da48d646708796a3f9388dc826cd29848cea7269ff77ea786a",
+      "bytes": 6648,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step12Batch01.lean",
+      "sha256": "4e3fd2b188893d20c5253f48b7d82c22528477f544c1c4755d384036ff827a4d",
+      "bytes": 4520,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step12Batch02.lean",
+      "sha256": "45b8f4728e8fbff56ae57f45f6d8523c3fe44e17ac79712f60d095466bfe417e",
+      "bytes": 3599,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step12Batch03.lean",
+      "sha256": "f86ddfd0a00dc944b7e73b1ed9e8c9504d27245e2d8d23a2902bc61aebe83fab",
+      "bytes": 7716,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step14Batch00.lean",
+      "sha256": "2f10f46ea74f4aa5bd118dc468f54b2593f485362985cc6541ad4b57b27f66ce",
+      "bytes": 1414,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step14Batch01.lean",
+      "sha256": "79713e0b1c68af539201b877c1f5696df9b8b8259312382229c62ec9045fc1ed",
+      "bytes": 648,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step14Batch02.lean",
+      "sha256": "32662e55cad224d76bed9984973af9cef86d06acf926d59cf3acf4b1998a26e9",
+      "bytes": 533,
+      "lines": 18
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step15Batch00.lean",
+      "sha256": "80c635ec3dac13bd87da7e8c0e17329447ced8c7bde3c73173b2425945296470",
+      "bytes": 349,
+      "lines": 10
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step00Batch00.lean",
+      "sha256": "0f92772189c39467a4437d622c7b443d91291b5ecebca3fab25ce005c23ba16e",
+      "bytes": 6511,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step00Batch01.lean",
+      "sha256": "a4e0b0a60df4ed6ce5334bda1223a5bc38e909a5fa74df5bc8a8c3c2c24132a7",
+      "bytes": 6865,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step00Batch02.lean",
+      "sha256": "4f6d5ee7e80ffac2f4b016965773668ffbdf5868e7f09cef5cd76b6c0461302f",
+      "bytes": 5114,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step00Batch03.lean",
+      "sha256": "4c7bfe3b477a2df3e5fe00febae4561d7f3866c8ae84a19752135045b0e457c9",
+      "bytes": 4931,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step00Batch04.lean",
+      "sha256": "fb9d5febbf4afbcd35fe38eb22561d23b4f06a91dd16e58328ab1bfba310e7f2",
+      "bytes": 6335,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step00Batch05.lean",
+      "sha256": "d4278f19cf392811bfef2373f5f64e856b1c3d34fbeebe1978fac5e6dcf360bf",
+      "bytes": 4672,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step00Batch06.lean",
+      "sha256": "3022cd95a17d18dc375a729f5b5512a2e5ecde05fedb71f7743b5291e1bc3c23",
+      "bytes": 5146,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step00Batch07.lean",
+      "sha256": "cae7d40c441f87c0cbca7a502d93ad9c46296a668aea89a357f35e848c1737cd",
+      "bytes": 5126,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step01Batch00.lean",
+      "sha256": "dff837189d89d61a2136baf430d238193a8ab017ba978fd75e3f7560a6948b53",
+      "bytes": 5509,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step01Batch01.lean",
+      "sha256": "872dcab861aa0c6d4245a959a097212e3be0da2f8a648598c40e15351d8a6a6b",
+      "bytes": 4578,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step01Batch02.lean",
+      "sha256": "0f17aaefb4c7db9804e4c843cf1fa732a2acac1741d84a578e80b7a97ed304b4",
+      "bytes": 4536,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step01Batch03.lean",
+      "sha256": "9278b06e960ccfdb4bc2696a6b344b13f5c1299723993e261cec7ec9e54f371c",
+      "bytes": 4536,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step01Batch04.lean",
+      "sha256": "ac1f7193fad42f579239782b73f0aa1533c8d5a124ec4380d3f99c32a93bed16",
+      "bytes": 7953,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step01Batch05.lean",
+      "sha256": "25b59a5c0204e3fe38238d489ea8a120c88d14f3ee43112062f2b9e9a83b1705",
+      "bytes": 8168,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step01Batch06.lean",
+      "sha256": "1c96deb15e83a84d8bc2a585d581678a0ebdaaddc487ff14e6cc03d3879b858e",
+      "bytes": 7284,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step01Batch07.lean",
+      "sha256": "23df90d424ec5248a59be229a3527c543e994d3c1ac66c4515a073222031dd03",
+      "bytes": 10031,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step02Batch00.lean",
+      "sha256": "91bc9fd6e67533f7664bd374ebc8fe2dcf8f4d8e0e1a37e71ec00f90c5266b91",
+      "bytes": 5906,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step02Batch01.lean",
+      "sha256": "484d1b87917b29d34aab3093f767e6057659ad8ec4f5133b61efaa76cb89dbf6",
+      "bytes": 5896,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step02Batch02.lean",
+      "sha256": "ae98882c698d150d2f7dc9d76c2293978f99ee085f8ac1632589925bae2c726e",
+      "bytes": 5900,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step02Batch03.lean",
+      "sha256": "f6bb9ca74f69f9abecf1bf751204a0e0460be49c80599494d22bcd6153c7b313",
+      "bytes": 6038,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step02Batch04.lean",
+      "sha256": "f98e5dbcd47d7ea92815775d991fb905cd6e3f25995026ec444e0a5a8060f467",
+      "bytes": 6137,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step02Batch05.lean",
+      "sha256": "e62b715e7fc969e2ea9ed05933cdda9e4bb3b36983c8172abaa822ea5b4df597",
+      "bytes": 5864,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step02Batch06.lean",
+      "sha256": "55f890ff4fb15e0ca6a6e3ec75d3a80a1e5722bd95f86cf1d823da6ba8163300",
+      "bytes": 5864,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step02Batch07.lean",
+      "sha256": "6859f17c2f1c4b968eab82f0427d8bfc5ad902fc82d124e8bcc1c3020df45c92",
+      "bytes": 5520,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step03Batch00.lean",
+      "sha256": "59b282e1a0317baa94294715106339123993ad9a6b305b1f2269d9e7c1420a74",
+      "bytes": 16181,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step03Batch01.lean",
+      "sha256": "768172f274678cb5ae4c49a228e6ff21b31ff945cdf1ac04fa8217ad6e5d0f8d",
+      "bytes": 7381,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step03Batch02.lean",
+      "sha256": "219440170b317dbd7d574812e40d13b6533c2639cc544b91103ffbbddd32586f",
+      "bytes": 6606,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step03Batch03.lean",
+      "sha256": "849033fa51c99076123eb5f90f3ed031cdccfd9de915ce9ff3fac1199c82b551",
+      "bytes": 4880,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step03Batch04.lean",
+      "sha256": "ed5a54c8e37d259d9d6d1d172f945ebf50c0170ac81ccd5d192fbec5e2fa6c45",
+      "bytes": 4904,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step03Batch05.lean",
+      "sha256": "81264c33eedba1a734b382929ee8f4ace7ccdfafa505dabafa2a59bceefb968b",
+      "bytes": 4904,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step03Batch06.lean",
+      "sha256": "d6f612934f34b1be5e24cce5ed261c07e7eb45d29eefcd6d498d4e1b05c62886",
+      "bytes": 5532,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step03Batch07.lean",
+      "sha256": "0954affee49cc8b0e44f6c02733b785f1062ee6655727aa1914f569f653df281",
+      "bytes": 11932,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step04Batch00.lean",
+      "sha256": "b4d7a40607878c5816b56e92efed864966f60386659b33b77e0703c756fc317d",
+      "bytes": 7897,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step04Batch01.lean",
+      "sha256": "4789aa8240d5cef1031f1db39a4831f052b50dcc678c6dc70717e24cb8bf5fc0",
+      "bytes": 942,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step04Batch02.lean",
+      "sha256": "adb6c151810c0f6767cfc0052332a6b3c408781009fc11133bd69d27faea1b6d",
+      "bytes": 680,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step04Batch03.lean",
+      "sha256": "65dbb3ccda5514fc6555b900bd2bef3071c352d628ed268b6b69ae08fba36551",
+      "bytes": 4415,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step04Batch04.lean",
+      "sha256": "98c950eefb1a13c7c64f1e8f8bca2dfdcdd13e6106e2027111fb9fddc893cf85",
+      "bytes": 6706,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step04Batch05.lean",
+      "sha256": "8c3dc385b19a117c0b76071f8099deb96446a2255d1cbb73fdb4868a530d15e2",
+      "bytes": 5592,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step04Batch06.lean",
+      "sha256": "cad9ba3cd12243a17cc5c2ef4767490f2e615d06b45f25d01c0f0c724bd3ba68",
+      "bytes": 5240,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step04Batch07.lean",
+      "sha256": "ac9b58eaadfc00948cfc65af00eabf65b049042d3ca0243b623103beeb5db542",
+      "bytes": 5174,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step05Batch00.lean",
+      "sha256": "83b79b8547ebab37f5340c1b37bee494bda5eae86ad679fcf24bd14ad7f454e3",
+      "bytes": 5854,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step05Batch01.lean",
+      "sha256": "3231869b9e01aad67fcdfa284e53b6cdc48dd1b1156bd85c523fbf2179549dde",
+      "bytes": 6316,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step05Batch02.lean",
+      "sha256": "6f9252f0b5941ec087bea2bfc4915195bfd7056e36e4ffe0c8d990da448de222",
+      "bytes": 6452,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step05Batch03.lean",
+      "sha256": "f2f70a5bed98be06ffc7790bc2007f3c5f147d8ab10ed2977928d3758eb5db83",
+      "bytes": 5963,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step05Batch04.lean",
+      "sha256": "8e9034a1a3c77ef19748fd73210ef832519e790b2b8669194ec8ead3bd5d444c",
+      "bytes": 6216,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step05Batch05.lean",
+      "sha256": "33df6e424b3e455942750711cb3d8d713f89f629841243f28e046be1bdb00412",
+      "bytes": 6489,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step05Batch06.lean",
+      "sha256": "2f34401526defc438f367a09bbe2581950755660d656deae4ca3c2a0c23159b6",
+      "bytes": 6279,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step05Batch07.lean",
+      "sha256": "9e86d8f726c916135f30fefd1bab9498cd47afabf549087ddce457e9e1c978e6",
+      "bytes": 6330,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step06Batch00.lean",
+      "sha256": "7b05adb4500887cc5ee7937995306bb1f887867027a51ff84301d583d38ceae8",
+      "bytes": 6294,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step06Batch01.lean",
+      "sha256": "89a6549461941907dbfe5b6214577d3a41704990337fcbb57a4b742d5ca84ae1",
+      "bytes": 6888,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step06Batch02.lean",
+      "sha256": "d554447dd559c9b41d53ee0e1991106fbbee95c199b1dc5c043129292697c32d",
+      "bytes": 6552,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step06Batch03.lean",
+      "sha256": "b993153070dd0c6b415809152165b111da2adf29d5a5555c0a340dbe061c1e4d",
+      "bytes": 7034,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step06Batch04.lean",
+      "sha256": "c43befeb621c4b10c56946be3972f4a5deb3fa96ca5324a1fad311eb9d7ca12f",
+      "bytes": 6412,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step06Batch05.lean",
+      "sha256": "639e15f6ce0a86e72129d697999e661db64fd592d3e27192f71f41e57006a9f1",
+      "bytes": 6274,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step06Batch06.lean",
+      "sha256": "646977dc35ab32e67a2c780aa924477ebc23edbea24ef31c66f0d1c2334b220f",
+      "bytes": 5959,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step06Batch07.lean",
+      "sha256": "27968813e5d611674dd4813405db9ad924d1f944e274e184c2f5f1f12746c907",
+      "bytes": 5940,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step07Batch00.lean",
+      "sha256": "13ba472318b6cb60815babda752fd7b6d641bfbf2a0659650564600127d15fbb",
+      "bytes": 7166,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step07Batch01.lean",
+      "sha256": "1663eb4c845947a709ba3d8fc57a5f480384d4113a6cfa657a69285a44704931",
+      "bytes": 4536,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step07Batch02.lean",
+      "sha256": "ce852a145d61a96e2d4f6a946e918edc1c069ad29f78436e3b2cc71c2850c51c",
+      "bytes": 4536,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step07Batch03.lean",
+      "sha256": "f14588423f7e6311fc184359b738dfb9372dc4274e4d273b4579368c5364aeb9",
+      "bytes": 4536,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step07Batch04.lean",
+      "sha256": "726d0eb4e6111e83fc79af827c33ca9890526bacb936b237dbbe6bea95a161ee",
+      "bytes": 4052,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step07Batch05.lean",
+      "sha256": "f1c15e682d72a8e4d0f428c9c046f00a46714b497fd205d36af90a6b730af4d3",
+      "bytes": 1453,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step07Batch06.lean",
+      "sha256": "82efb2b40173ea1a232486c160593f3e097db5e2cffbebf7b2a8f61f975dffbf",
+      "bytes": 4872,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step07Batch07.lean",
+      "sha256": "5359df1b501708158fced68a7604ac3de6a6420eb55e4e240682f226807d3308",
+      "bytes": 7893,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step08Batch00.lean",
+      "sha256": "be1e438658014c8940f8596f491b226917de6c2f1a552d27e626d354d6b58e18",
+      "bytes": 4887,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step08Batch01.lean",
+      "sha256": "99aba71a765f3260d389b18bebce1f320c464ea7624432ea1b9f70aec2908c15",
+      "bytes": 4534,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step08Batch02.lean",
+      "sha256": "0a79a6f78990b79976592851f9507fa375e03c0eddcaa07a64f8901e928cb002",
+      "bytes": 1146,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step08Batch03.lean",
+      "sha256": "6a191fe5e9cfd9dc62dd8fd67b500f231b1b54d9b50cb7d7942d301e59cdeb4e",
+      "bytes": 664,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step08Batch04.lean",
+      "sha256": "4e968310d2d2e6b34be78b952719eaceb32a99189ebe7bfe8adf1cf172b9565d",
+      "bytes": 664,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step08Batch05.lean",
+      "sha256": "4479a99000293d9959f99dac3a08b6aa330161910c5e4405a1092b3e14e25585",
+      "bytes": 6137,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step08Batch06.lean",
+      "sha256": "4ea60ceaac057dfe05b8dcf797876fd02ca784166ed13f09719f63affac47954",
+      "bytes": 5571,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step08Batch07.lean",
+      "sha256": "47a9bf9e0207e2ee95fea677cc07e40e00cb0fbb6bf085214161fc569fb9c83e",
+      "bytes": 582,
+      "lines": 8
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step09Batch00.lean",
+      "sha256": "774e7af2db7a4673e7b09464326a413974719ac9418a8520a10cfbe135913497",
+      "bytes": 5964,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step09Batch01.lean",
+      "sha256": "cb11b2803c00f92844d7aa3c60373e79ee26c3cee76d0c80561cc83d83186bd8",
+      "bytes": 5618,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step09Batch02.lean",
+      "sha256": "1a02c6b8f8f44eee1133b9817cdd8ff0e3d225d63e9802001c722b2bfaafcb15",
+      "bytes": 4477,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step09Batch03.lean",
+      "sha256": "fc0b842a73c877265dcfed6a180b9aa7c68a4ed18543b0e13f8dee6d2ec8d639",
+      "bytes": 5977,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step09Batch04.lean",
+      "sha256": "3ecee6a2a786da211a8fd2b7bf373c7aec7ad13780625314aca64f3319820cda",
+      "bytes": 6232,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step09Batch05.lean",
+      "sha256": "ed1067859369b27c2e55042b2eaad273e2fc750955b3193b3012032ca923fee7",
+      "bytes": 5408,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step09Batch06.lean",
+      "sha256": "f8fe8f8b72051075ced39061acb885ab9340d7715d7680049e2f4cf7acc9a1a5",
+      "bytes": 5935,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step10Batch00.lean",
+      "sha256": "105a862a21ec1d997c8c9540f65201fd31fec6ec4504b4be656599c43c023524",
+      "bytes": 5739,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step10Batch01.lean",
+      "sha256": "80a71132bede19ae9e048ccad1347fe3a4aea98dab1d787d67b317c5675384a8",
+      "bytes": 5548,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step10Batch02.lean",
+      "sha256": "b53c5930b7566f5610383ca3e3e8e0ec0bf8de5b694131b2a8c951c2c88310af",
+      "bytes": 5443,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step10Batch03.lean",
+      "sha256": "2bf208564335b9221ac346d265fd813acd3c7ec7b11ffbb5536861b1ead18a0e",
+      "bytes": 5128,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step10Batch04.lean",
+      "sha256": "496d277f14add909a73cb0a2f36de92036aa518b6e74a3c755c0ec90075de414",
+      "bytes": 5254,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step10Batch05.lean",
+      "sha256": "21400b98e3be5a64ca507a58e442386d3869e245a9b5547b2fb94f315956cf57",
+      "bytes": 5149,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step10Batch06.lean",
+      "sha256": "917ae5f9968d5f9ac62763184c5aeecf96b1015746bbb882d889fb30d1c8d700",
+      "bytes": 5982,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step10Batch07.lean",
+      "sha256": "7f5436851421cc5733f42a7bad651fde458a2d53dfda69d722a4b522858ecd4c",
+      "bytes": 6448,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step11Batch00.lean",
+      "sha256": "c93548b50b48511320983beeab741d845cf407653e9955a06a8878b02989807c",
+      "bytes": 6984,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step11Batch01.lean",
+      "sha256": "0466dfe10c6ba4e84292a2ec03126b21dff69ecb2f1d5b69c7f382561c81f0d0",
+      "bytes": 5644,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step11Batch02.lean",
+      "sha256": "22a224fcbbcd7cf41be6b0b467602f6f14456223ec7913b1ddbbde509126ce65",
+      "bytes": 5533,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step11Batch03.lean",
+      "sha256": "181f4b1419ff5b0835c0696c860cb7e2912ad6cf19b6cb9a0f71a3b88c169936",
+      "bytes": 5134,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step11Batch04.lean",
+      "sha256": "93fe9901817f6d0fe01717471f5ca49fbc51bd062bc43ee2408be85cb2672d1d",
+      "bytes": 5245,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step11Batch05.lean",
+      "sha256": "d6cbdfeda4fa1041dd93168bae7ce56a1bc0b27e50e37d1af3c28f580b900a81",
+      "bytes": 6795,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step11Batch06.lean",
+      "sha256": "ce1d092d2e7956f28152bb4b2bc7c52b5677490a36b8c9d087df2c58da28a0af",
+      "bytes": 14199,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step11Batch07.lean",
+      "sha256": "16c6767d56b17c6a8bef02eed3de630e1d7a45a1c3cb9e356c1ac194d16b2d1f",
+      "bytes": 15062,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step12Batch00.lean",
+      "sha256": "3a6c4e1e91b0479dd85a467aed5c02b141b849f71537c0049e783bc28804f876",
+      "bytes": 5476,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step12Batch01.lean",
+      "sha256": "6908c13d94fa4bb3264f755c2b6d5af8aed702216b579ae80d58dd0a75d45155",
+      "bytes": 5394,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step12Batch02.lean",
+      "sha256": "553f52fbf6dcdf5562d0404b9b34fc76d00ff1328a5bcb3471598ee898a8cfdb",
+      "bytes": 4816,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step12Batch03.lean",
+      "sha256": "cae34266667087a911de9138d64a811eaedf72008efccbd7db6a4565ac8b181c",
+      "bytes": 4332,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step12Batch04.lean",
+      "sha256": "47147e6ae558d5acc508cc57a0998a4ac0d5dbed981154aaf0c6f8ddf00dfb4a",
+      "bytes": 9082,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step12Batch05.lean",
+      "sha256": "31db7141336e272ff28014da7aaddf85330490f443ae204889813e1ef1930287",
+      "bytes": 7229,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step12Batch06.lean",
+      "sha256": "80b40f011a380c598592ad6f2be85fbcffaa102ea134e6810b873716d6237dfd",
+      "bytes": 4675,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step12Batch07.lean",
+      "sha256": "b18ba752c504908bd12e3360cbf9b47cb237fb866d675fc2f00176170c754ba6",
+      "bytes": 5709,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step13Batch00.lean",
+      "sha256": "6308e75385782d5116273830e57bb0cd02d578b8db6928291c62cae74563d678",
+      "bytes": 5815,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step13Batch01.lean",
+      "sha256": "288fe45c6a3329a96f111bccfa4a8a47371ddb97c63bdecc9dc727114c5daea8",
+      "bytes": 5356,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step13Batch02.lean",
+      "sha256": "db8b83a9297ae40f9f6a4c4e3ee988f3975042a7d610215fc49ada72d92c68e0",
+      "bytes": 5251,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step13Batch03.lean",
+      "sha256": "1b5ecd3e95d4d0e3cb45d1e9c40eb1ed5535bd0bff68caf26a1438023e662f0f",
+      "bytes": 4939,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step13Batch04.lean",
+      "sha256": "3195a9f6ecd631c0dfa293b88f4fbb469960bc5579607cd53dbabfab64e7eb07",
+      "bytes": 5224,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step13Batch05.lean",
+      "sha256": "72deb83777c58a20535ca3b982154ea9a61cd4f4eae5f309869a55b0f2d79c04",
+      "bytes": 4564,
+      "lines": 21
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step14Batch00.lean",
+      "sha256": "dbfa4d0be155d3e094cf35079e25011ae0a14e9c0c9d630813d37acb32fca9a6",
+      "bytes": 5296,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step14Batch01.lean",
+      "sha256": "9de7b0767ddd902f2b9a683c88d8b42185441ac88100c785dc65eb814128bf09",
+      "bytes": 4480,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step14Batch02.lean",
+      "sha256": "817ba215a1dfd20246764de216e4211b133f5429470ef577737de15517025f2d",
+      "bytes": 4874,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step14Batch03.lean",
+      "sha256": "bb450e3e379675e6c0a3164d303ecdc5e98b83a0ec0cbcb934af47b0f41a91bf",
+      "bytes": 5224,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step14Batch04.lean",
+      "sha256": "4a56e2159f8d1bcdf0370347c0309622a098b513f759102732dd5e39b8a33ede",
+      "bytes": 5786,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step14Batch05.lean",
+      "sha256": "68ad658ac406de19c0ebe3ffc74b06645242feeec95fb04eb7b79587ed5fcd43",
+      "bytes": 5047,
+      "lines": 20
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step15Batch00.lean",
+      "sha256": "2740e5e49a06649caa251d724b77601d3e4f70fb1f78cf0d95a47a7fc03a6d50",
+      "bytes": 1823,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step15Batch01.lean",
+      "sha256": "1d73be588311bc17fb2f2ac5b1778763a14cd0141ab0ba5b7517abe52e14b092",
+      "bytes": 664,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step15Batch02.lean",
+      "sha256": "552c6041170f81ce99e6f8fee74c6a178e431a7e04472ee9dd7c8c7079246eba",
+      "bytes": 664,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step15Batch03.lean",
+      "sha256": "c946e330b5aa123dfc838d33112918312fd2f11b6890c91167ff6e8d08c14dd1",
+      "bytes": 664,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step15Batch04.lean",
+      "sha256": "7b18b5e5e63abda0a1363d97fb6537f6d4753f5e1cae38d5a672db6ad387b8d9",
+      "bytes": 4654,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step15Batch05.lean",
+      "sha256": "a9c44cd83d963f43af2197b6d13124640c2d29e08cede15ecd8d6b7e1b81d2f6",
+      "bytes": 3721,
+      "lines": 18
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step16Batch00.lean",
+      "sha256": "c0be8b240ed488c3fd957833132ab5434cd3eaf773785b8883c66c06bcfb8aa1",
+      "bytes": 5058,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step16Batch01.lean",
+      "sha256": "a3129b445aaedb305f5defdb8062dd0b3e08409c075c71bd4d50b7c874f1773d",
+      "bytes": 2148,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step16Batch02.lean",
+      "sha256": "7c52ec4ba31c18e8b00dd600114316a9e6ee7ea03dfbf65513296393825fddde",
+      "bytes": 648,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step16Batch03.lean",
+      "sha256": "8904cd959925785c07a96bf1eba4441cf3ca71546381282953afa87b0bd2f9af",
+      "bytes": 1413,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step16Batch04.lean",
+      "sha256": "d525299a4eed3b968d9a5eb7766801f5968844c4eecf55bfd2557ee989bdf430",
+      "bytes": 2484,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step16Batch05.lean",
+      "sha256": "30c21f8d2590dcfaa2dc6c454394fa20fd0766d2513e3ce1466527ad43ae61bb",
+      "bytes": 5103,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step16Batch06.lean",
+      "sha256": "9da77e3df217187132c58bbb189bcedf82a6443ba539751b495e9f61f258ffd0",
+      "bytes": 7385,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step16Batch07.lean",
+      "sha256": "f544063c94c60f7df8d832c4251e81b822b2c6b64bfba4192e33140958932bd2",
+      "bytes": 1394,
+      "lines": 9
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step18Batch00.lean",
+      "sha256": "525524c4fb83b1991e979ef6e2a2697a60e2e1dc09cde0576439594c717e6306",
+      "bytes": 1567,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step18Batch01.lean",
+      "sha256": "d1b0db3ae87b83e14d60a0949a896b8640737cd3d57d17e916e39256df37eabf",
+      "bytes": 648,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step18Batch02.lean",
+      "sha256": "3486fcc54bdcac925a90ad3a89191032b373a81f839c216db9f25de0166535e8",
+      "bytes": 648,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step18Batch03.lean",
+      "sha256": "895165991d7719fb7d5ea6ec3217ed841c895a993d589daeb2fdaeb1b4bbaba8",
+      "bytes": 648,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step18Batch04.lean",
+      "sha256": "da5166bebc225b50a37606795301119ac6bd13a3ef5c6dc54cf5a796e650e5b2",
+      "bytes": 648,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step18Batch05.lean",
+      "sha256": "1002e9860cc37630a9ada2047367a1e58b170f1a3f6a36830db67156992551da",
+      "bytes": 648,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step18Batch06.lean",
+      "sha256": "389c6ddd0e5e1c2003440bc8f364f5b122689082f321ba23c6e209ba6b1d5233",
+      "bytes": 2842,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step18Batch07.lean",
+      "sha256": "acd664b3b418688d9036d8ba7fae12554d49894cc416b09ad3011631f65a10b8",
+      "bytes": 5910,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step19Batch00.lean",
+      "sha256": "d2fbb873caae3fa30a6687c9b82bc92bc20bbf6be3b582b7d9d6c067966b24e5",
+      "bytes": 5404,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step19Batch01.lean",
+      "sha256": "9ffdef1774a8a009e325f11d24bef6591a2694ea36f38ede673e937919822a75",
+      "bytes": 4536,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step19Batch02.lean",
+      "sha256": "d8771d4c7b47ae29fce0d53e0cc6b1fb75ea82cb9f585a3e12d0f259b96b3468",
+      "bytes": 1388,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step19Batch03.lean",
+      "sha256": "6b5e2cbf318d716b93874309c41e310e7ab57d9d4bb48be8ebd580811d27c2c3",
+      "bytes": 680,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step19Batch04.lean",
+      "sha256": "4f70b3a5ba0d7be2da41560dc98804c6d5bb272038a3558030e7f935e7b49885",
+      "bytes": 4240,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step19Batch05.lean",
+      "sha256": "a2b70472382c924c59ccbac576eeead710cf09748c7b4e431b7dd43cb2b9ac8e",
+      "bytes": 5544,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step19Batch06.lean",
+      "sha256": "ba52b24027271ccf874a2fb570ae0b7504c4a43b26dc0e00b968d031788b10fe",
+      "bytes": 5544,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step19Batch07.lean",
+      "sha256": "915dec43bf00bc15603dc25628f9884131b5b312a89a53df23c2f03323edfdb0",
+      "bytes": 5184,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step22Batch00.lean",
+      "sha256": "a1559188c983c8557a49f547ac4aa4bd701f3d478cb5628cb33089afa91cefae",
+      "bytes": 1998,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step22Batch01.lean",
+      "sha256": "f9aa018ec2e03c4ea69d769cb2ab1c10a0952999aa6a2352e0695b56491c3b2d",
+      "bytes": 680,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step22Batch02.lean",
+      "sha256": "938114e871d70cb1d13e23809210546bf37868c01f074d39a986986524135d3c",
+      "bytes": 680,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step22Batch03.lean",
+      "sha256": "f7714cc6520fcfe92f8ee352e98efdaf7fd972a9824cb1957ecdb94a71ffd9a3",
+      "bytes": 2084,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step22Batch04.lean",
+      "sha256": "3c020a5aa58a5d8f7d11dac9a830e0842a7c508bd5fa95039fdf26db6ccda46b",
+      "bytes": 4670,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step22Batch05.lean",
+      "sha256": "babeb88623ac219215491e0dcb777bda4762fa3fdb1ecbeed31d27030b6dfb21",
+      "bytes": 842,
+      "lines": 19
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step23Batch00.lean",
+      "sha256": "f3d47ee5b2f4f936d886bf8347c562ec246af474c6d1d7fa0f7a7ec147870bcc",
+      "bytes": 942,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step23Batch01.lean",
+      "sha256": "545e8b5d90728ce73c109acce791a5c13ccac35ebf9868c2e012c6ec2c0a866f",
+      "bytes": 2785,
+      "lines": 16
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step25Batch00.lean",
+      "sha256": "a52dbe5faeabd23275e7a9779cb827d84529f10f865cd0e725234733789074cd",
+      "bytes": 921,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step25Batch01.lean",
+      "sha256": "dccfbf07a9753339428bbb3f01e35bff87707d6c26016bb7f6191ec849537b0d",
+      "bytes": 2578,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step25Batch02.lean",
+      "sha256": "8631c6ae323b9cc51ee19ca3812326e081cc9db9a84380ea62c33a1c149cc382",
+      "bytes": 5003,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step25Batch03.lean",
+      "sha256": "18cc5b75c37c46fa00a37154fd2a606b511b56bfd9213f99f2b852dabe19442b",
+      "bytes": 4568,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step25Batch04.lean",
+      "sha256": "9dd1e4f5ec817c9c3f742dbc2c1d96ae97cbea937e1d1d26ffd3ca4d204e4569",
+      "bytes": 816,
+      "lines": 9
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step26Batch00.lean",
+      "sha256": "2b125413fb9f260418333af1a8b2119163e26c9785382c938508b2ca56f14335",
+      "bytes": 1495,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step26Batch01.lean",
+      "sha256": "78d60597422af7883e8f0282d9a0144fb3540efbdee55008c0b1f347d7695a02",
+      "bytes": 664,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step26Batch02.lean",
+      "sha256": "bab8a02c9b691734d165b016bed59890c9e03cf47045445dd00fe6fa0bfa8b7d",
+      "bytes": 664,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step26Batch03.lean",
+      "sha256": "7a83171d3f35e21a654cc8be8d2246d4d22d400c71789fe0eef8c670eefdeb1f",
+      "bytes": 664,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step26Batch04.lean",
+      "sha256": "01912ea2cc2d5b958d81999c35426c1692e6c6c0edf2e9d03a351590643279f3",
+      "bytes": 615,
+      "lines": 10
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step29Batch00.lean",
+      "sha256": "f488753ff5831d7db7d6997e543e10ada8bcfbea00f13b8db7701a821d9d9c86",
+      "bytes": 680,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step29Batch01.lean",
+      "sha256": "465bc5e2ec161ae063252496e074bb883d12fc964fe06e5d8fb6efee53b0e64d",
+      "bytes": 680,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step29Batch02.lean",
+      "sha256": "2b216cfc6727ae8a89f873a99cad371e46ab12b93504a4749fe15514b59eaf15",
+      "bytes": 680,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step29Batch03.lean",
+      "sha256": "6d251cb93f8741deee20b024561d3032aa919d8899581f472442cb4dc009464c",
+      "bytes": 680,
+      "lines": 23
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step29Batch04.lean",
+      "sha256": "aa8f4170e2510cd2c45020731ec30577b68a4e7aa7f87c7ab85f4aa8ee769327",
+      "bytes": 330,
+      "lines": 9
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step00.lean",
+      "sha256": "125dff470a2698e7b7d2dc82648d3352b9c3a91ac9a66fa6d28911a8e898993c",
+      "bytes": 2421,
+      "lines": 49
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step01.lean",
+      "sha256": "a50fb0b72d5ef37d29e920717f17057bab9ee404e43d9557d77dec28ab88c9d8",
+      "bytes": 2421,
+      "lines": 49
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step02.lean",
+      "sha256": "956d0814aa75a7ed8a2b397d9d1c2a1a9116a377cd9b798a619c890b37a96fdf",
+      "bytes": 2421,
+      "lines": 49
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step03.lean",
+      "sha256": "4654490c28f4a17095010c4d5c555a15fa3104664e11e11c35ba2979eed7b0c2",
+      "bytes": 2421,
+      "lines": 49
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step04.lean",
+      "sha256": "827b76849a65054e49b68bdbb13df3c108dc43eb93a8510b4732f469eef60da6",
+      "bytes": 2423,
+      "lines": 49
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step05.lean",
+      "sha256": "6519f00f4a0bd50c9a59e0584af96ea87c396646f9e36dbacf9ed5d14014b43b",
+      "bytes": 2427,
+      "lines": 49
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step07.lean",
+      "sha256": "b833658ac2d558052f996100668c429dbd3cc5d6a884b2888097c4c16ac3b65f",
+      "bytes": 2423,
+      "lines": 49
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step08.lean",
+      "sha256": "e53b76cefbed5b344b00a7ad7d7780790ad40b392f497e9493f2e2e90f57d067",
+      "bytes": 2423,
+      "lines": 49
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step09.lean",
+      "sha256": "817734320b69a6d314fe37c2fa216df67d81229a01d015de8c4a248aad342b69",
+      "bytes": 2424,
+      "lines": 49
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step10.lean",
+      "sha256": "cb73e1ae2bbe0dd174b3cd2fd23f678e866f3a2a0527f9c136cd5f7555281c30",
+      "bytes": 2427,
+      "lines": 49
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step11.lean",
+      "sha256": "b76b83c742d5259200be9162f2008fad10a42e21ce919a4672b8694aa6f958f5",
+      "bytes": 2427,
+      "lines": 49
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step12.lean",
+      "sha256": "45c99fb7b62bda5a9cacf436423662f344ad3b81e013a91eeab7e67b9ad71fa9",
+      "bytes": 1929,
+      "lines": 46
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step13.lean",
+      "sha256": "99ef7282e09e904cc01eaaa53147b513e8429540ed1a4a7dda777608f0f93087",
+      "bytes": 2262,
+      "lines": 48
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step15.lean",
+      "sha256": "7d72302c759adea0a19d7e617e711235af4d907a66c8103fbd5228adb8f5f87b",
+      "bytes": 2427,
+      "lines": 49
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step16.lean",
+      "sha256": "9714a103b6caa7d3eb5b300dff67675711ddbdb531eed738d0ea0935541ec1a5",
+      "bytes": 2429,
+      "lines": 49
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step17.lean",
+      "sha256": "764f6e31b18f3d3f5875541da53a229aa4ce4dc2b9a88bb262ddb08681231b9f",
+      "bytes": 2432,
+      "lines": 49
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step18.lean",
+      "sha256": "3491074b482bf61fe57b2730bcd59885bae539e69137c02b8d896a0e71397016",
+      "bytes": 2424,
+      "lines": 49
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step19.lean",
+      "sha256": "0a9254bc93d46b35f3ae56ea3f3caa302b7d9039cb5feb92a037ed617718e5d0",
+      "bytes": 2265,
+      "lines": 48
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step21.lean",
+      "sha256": "e4a5c63f63d0d3fef29761ce6e5cd1398e2683885975e7561b2f17602a2f676f",
+      "bytes": 2265,
+      "lines": 48
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step22.lean",
+      "sha256": "2ff5b30861ffd965c045e0180bfdcf0a576b3778d4a316e6498994865d5807d3",
+      "bytes": 2426,
+      "lines": 49
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step24.lean",
+      "sha256": "50bfe58bc8a52d185cc7cdd8aacad10f735a5925426d023f48f3c67cc2ff8ef8",
+      "bytes": 2426,
+      "lines": 49
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step25.lean",
+      "sha256": "658a82f48d9f4c8f4d27ae44090eeac4dd567c1abe2a553edd5716490f94df8a",
+      "bytes": 2433,
+      "lines": 49
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step26.lean",
+      "sha256": "f75c84b95f7116bf18e698edc916fccad02956bc012b94921e18aa44ae530345",
+      "bytes": 2435,
+      "lines": 49
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step27.lean",
+      "sha256": "ecf5e48227db6e7df3152d0a79de1da0c8d63c237c83f03503e80a821c9f29e1",
+      "bytes": 2107,
+      "lines": 47
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step29.lean",
+      "sha256": "b8228b3a72bd802a2b5a6ab1e4277dd1a78c44f0822cbe8c56f9bda8c0b84f2c",
+      "bytes": 2429,
+      "lines": 49
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/Step30.lean",
+      "sha256": "7343ed34c4d5571b4cc73bec681a161dac90f41a89f821bc56d2f30ba5eb318e",
+      "bytes": 2103,
+      "lines": 47
+    },
+    {
+      "path": "Compact/Cases/C701/DirectPruning/All.lean",
+      "sha256": "2dcd03244ba4123264af66f6b6a27296d267feee4ae0fcdd8fd297a82f46bf0b",
+      "bytes": 15854,
+      "lines": 322
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step00.lean",
+      "sha256": "87161a62108869a966216ebbe592dd2f193c0e15372ded4a85c0bb620fc04433",
+      "bytes": 3050,
+      "lines": 52
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step01.lean",
+      "sha256": "28a748e7054eb96548d377e1c2db316cb5845c03ee3278de25c3bb438962d769",
+      "bytes": 3050,
+      "lines": 52
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step02.lean",
+      "sha256": "58f4d4ac3686d442e220acde0b196cf339ce78339ff3d128379e29d870f232e9",
+      "bytes": 3050,
+      "lines": 52
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step03.lean",
+      "sha256": "aa6cb83ef28fc33c4fe1a2e00356d19c2b1d0be0a293bd13a2f70e164fef9efd",
+      "bytes": 3052,
+      "lines": 52
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step04.lean",
+      "sha256": "cd28d7efded1d9dfa5e8b1e3404e039e74a04363ee0b80c661e43aec58e26884",
+      "bytes": 2888,
+      "lines": 51
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step06.lean",
+      "sha256": "e672931eb3c4fa14cebff8229e15dee39e7f18968e222feee4ec2f7cd3216ff8",
+      "bytes": 2886,
+      "lines": 51
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step07.lean",
+      "sha256": "c8b3fa3b21f8a07d7f78fec8b09793acbb901f79bb7456915382788fb0a956dd",
+      "bytes": 2886,
+      "lines": 51
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step08.lean",
+      "sha256": "cbbe7f3586d3c52e447d146a95cfb8969195d347e6463a0fa367f60440c8fe8e",
+      "bytes": 3050,
+      "lines": 52
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/Step09.lean",
+      "sha256": "40303d3ca87bfda4185bc2cb63106f3230ccbd34f34abd0540185dfbbcbab5cc",
+      "bytes": 2889,
+      "lines": 51
+    },
+    {
+      "path": "Compact/Cases/C713/DirectPruning/All.lean",
+      "sha256": "943bfbf53add9a40526217e9051e398ed3418ab7ce14cb0c280b10488b0077c5",
+      "bytes": 1987,
+      "lines": 53
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step00.lean",
+      "sha256": "eee8ce1a24d2116f42b6799385d8f09156a57ac096542f86feba16cf8f9847ed",
+      "bytes": 3077,
+      "lines": 53
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step01.lean",
+      "sha256": "dd72e4f96890616f3418a2ef5655d14c00cbada2b1119df09a4eea50c9603490",
+      "bytes": 3077,
+      "lines": 53
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step02.lean",
+      "sha256": "ca1ea8c55c3ba6bf7c6f8b45e5428a2ad2809d0b7e6ae3611e654542408db3d0",
+      "bytes": 3079,
+      "lines": 53
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step03.lean",
+      "sha256": "5e20cf7ea86fe2b281016f5fbe46125272b9ac31152f034b3035b171a69ad19e",
+      "bytes": 3077,
+      "lines": 53
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step04.lean",
+      "sha256": "d00f207717a4d9c5e0f977ebf16e607e45a05f922a1e69215507fbb8c1b18845",
+      "bytes": 3079,
+      "lines": 53
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step05.lean",
+      "sha256": "3b2b92e11fe4a9f12459f0a23bde17505f08088f9fda4c258b6e1d29065eab48",
+      "bytes": 3077,
+      "lines": 53
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step06.lean",
+      "sha256": "827c226c6dfc375efd33840ff0e38c5a3949da6f1bd1f6cd6795920f64cd0530",
+      "bytes": 3077,
+      "lines": 53
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step07.lean",
+      "sha256": "ff9e44a1991d9768394d7b9c2b1eff059a8b76290d477b10af170e1f47b8145d",
+      "bytes": 2585,
+      "lines": 50
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step08.lean",
+      "sha256": "a448771de53cf1d377aef68fb1f1c9938209434b56311de24ebba601b0628b8d",
+      "bytes": 3077,
+      "lines": 53
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step09.lean",
+      "sha256": "a719f6e1e0c3e6a7ae5eaf7fbb4ef363e08ec87eff216172f5b868ee5017321f",
+      "bytes": 3080,
+      "lines": 53
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step10.lean",
+      "sha256": "52b2ec98f04d5a7cf7c66c33ece1479c08e7e68f31b405c289b1ce6ef0e4faca",
+      "bytes": 2101,
+      "lines": 47
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step11.lean",
+      "sha256": "688fb5b72b9c4a9c6ca31553780a2a5c5cd270eb4652aa0fc0d34581ea9b3cf1",
+      "bytes": 3080,
+      "lines": 53
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step12.lean",
+      "sha256": "b7e605d6d28dfc52f4809e9d8c5aee9befe37d2005319505688ab6543d5018d8",
+      "bytes": 2919,
+      "lines": 52
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step13.lean",
+      "sha256": "b3a3bca9c9de60cd18923180cb10019c43eafcff8d35547276fca47fa52ddd05",
+      "bytes": 3080,
+      "lines": 53
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step14.lean",
+      "sha256": "e785f9a8315ae12f82a5eaa0c37d2b76c733da3e640d018e5c59885e7ec3cdcd",
+      "bytes": 3085,
+      "lines": 53
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step15.lean",
+      "sha256": "993f8d018ce224b521b9f9761f38f7f549ea236171c5ef480bad59f882d4ae46",
+      "bytes": 3080,
+      "lines": 53
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/Step16.lean",
+      "sha256": "6087bbfc2bbe8495418101be772bafb83305659e4d7b198f0cab7b100147774a",
+      "bytes": 3085,
+      "lines": 53
+    },
+    {
+      "path": "Compact/Cases/C717/DirectPruning/All.lean",
+      "sha256": "58840fd6a257e268b7b320df9270ce6e5ea12d3b706e04fb98ee52802366d652",
+      "bytes": 10785,
+      "lines": 226
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step00.lean",
+      "sha256": "c6731ae512ef2a82b2ed7cfdbd1da821dbde2bade976bbf2c974fd0f51cf1d34",
+      "bytes": 2421,
+      "lines": 49
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step01.lean",
+      "sha256": "b7852970d766f65614aa154a9014ac77ff1a5598a92c3fd6f7484f1b062f1375",
+      "bytes": 2423,
+      "lines": 49
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step02.lean",
+      "sha256": "3f96e48be171bc9f2412e56c5b3a3b7fa6b754756022f68e71781fab7fd2c44e",
+      "bytes": 2421,
+      "lines": 49
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step03.lean",
+      "sha256": "65bd2cc0bddb2fde0642e492c9edfd12dd6b8ba52f33598402e9ca0186fd9d6a",
+      "bytes": 2427,
+      "lines": 49
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step04.lean",
+      "sha256": "e6230cfd6f9e4653f3b255a1b8dac33eec7efa6b7cdb884abd70b7d7d503efc4",
+      "bytes": 2421,
+      "lines": 49
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step05.lean",
+      "sha256": "db9c457b0741f750cbdc17a2962dbd1dbdadcae51549afe7a1ef53bd765d5d6d",
+      "bytes": 2421,
+      "lines": 49
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step06.lean",
+      "sha256": "7cce9de726f49b47d86e9354e224486af701be588c03f92dcc0bb7ef10c4b924",
+      "bytes": 2421,
+      "lines": 49
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step07.lean",
+      "sha256": "ce609869e68deb87b45f59fa7bc65d9272c1e125ceab081e784bdb2477ef5c53",
+      "bytes": 2423,
+      "lines": 49
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step08.lean",
+      "sha256": "b4bb2c98eaa74ed330b00658f6836df4d114853994e49ea72f7a5e70e52c475b",
+      "bytes": 2421,
+      "lines": 49
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step09.lean",
+      "sha256": "e218ebdafbb48471ff5f16404b98bb4e1a5b074ce424778e71b911733999bb3a",
+      "bytes": 2424,
+      "lines": 49
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step12.lean",
+      "sha256": "876c0ffd931bfdaa880d5a8cb5f8e7ee8388ccc793f7f2020e27c0f5032d6d76",
+      "bytes": 2427,
+      "lines": 49
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step13.lean",
+      "sha256": "5c6a2887b3adbb439280abe1f8bff9482a542f7554dcf4568757969d5c193fb1",
+      "bytes": 2424,
+      "lines": 49
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step14.lean",
+      "sha256": "b6158079c347198b107009942d2266008d127c446e1d4a05b43e7ab0c2acf9fa",
+      "bytes": 2426,
+      "lines": 49
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step16.lean",
+      "sha256": "558153720088355d0a5e9d1a86af1e3d96ee70b0a3e22b067f8298105a9e6c3d",
+      "bytes": 2433,
+      "lines": 49
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step17.lean",
+      "sha256": "779782f5f74e2faea5b36d2a72e9dcc3038757c1030fc7e273467ffb60407c34",
+      "bytes": 2432,
+      "lines": 49
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step18.lean",
+      "sha256": "6c6097923cebedb0b121b268ba470de3ce282decdd82f724157390025da8f3b4",
+      "bytes": 2426,
+      "lines": 49
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step19.lean",
+      "sha256": "8e13c2f2d72bf4213eee0842549003e235739666910c7b8e12a8b7af3d0f427b",
+      "bytes": 2426,
+      "lines": 49
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step20.lean",
+      "sha256": "b74a89a1df44117415c5f09cb471f8ab1a3bb57bee59d4ec04e6bafd10561cb3",
+      "bytes": 2429,
+      "lines": 49
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step21.lean",
+      "sha256": "28c57e1ebd35e05e191e3111a177b6c60a06f647a86f85d1e5d52bd528d8e5c7",
+      "bytes": 2429,
+      "lines": 49
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step22.lean",
+      "sha256": "8975615439dc9859c7774adc4a29c53cff6691107b92c5350845551389c80cb7",
+      "bytes": 2426,
+      "lines": 49
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step23.lean",
+      "sha256": "7aab7e24a321f3d3535e3eb93d06cfc13ff746cfa5cdd19878e9c7664df8b602",
+      "bytes": 2431,
+      "lines": 49
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step24.lean",
+      "sha256": "cbcb235a804b2a87e36c15704f93db65ced2128938ec892c42a8fd499d1d4600",
+      "bytes": 2431,
+      "lines": 49
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/Step27.lean",
+      "sha256": "d68675171545bdab7dc84757b7bab78003f231080ba06a27ba919e45a10052e4",
+      "bytes": 2107,
+      "lines": 47
+    },
+    {
+      "path": "Compact/Cases/C973/DirectPruning/All.lean",
+      "sha256": "e5d83224cfee9e2e9bfdf5c56d7247f62f15d10dc89854918fecb6e121cb196b",
+      "bytes": 14641,
+      "lines": 295
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step00.lean",
+      "sha256": "639834dfa134e7af1fc47a20b6b59948c2e3a06f688a4c5f6c26d84dd0f4157b",
+      "bytes": 2421,
+      "lines": 49
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step01.lean",
+      "sha256": "8d4dbfd4fe4cc84a96860a35c596e211480d7e73ba1710d9463b8a901e0cb6d6",
+      "bytes": 2421,
+      "lines": 49
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step02.lean",
+      "sha256": "b62aa250cbe62f0c9a09d427fcb2aef0f9a6f6142f0b2603bd7c2c0134b75c26",
+      "bytes": 2423,
+      "lines": 49
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step03.lean",
+      "sha256": "f53b270dd9ce4cabfdbbe75581bbeaf3ed8a0b49fd1927c0b1f40b69317348ce",
+      "bytes": 2421,
+      "lines": 49
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step04.lean",
+      "sha256": "b2225ba60efb3dd0d09d4c2ff2bbc1db4216dd55a5bfb4ab576d42e2d32980c0",
+      "bytes": 2421,
+      "lines": 49
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step05.lean",
+      "sha256": "37611c2907f34c1910e63f0b9bf2165b6df5cada5d6b2e1dc4b6e3ce998420a6",
+      "bytes": 2421,
+      "lines": 49
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step06.lean",
+      "sha256": "a3656e66263a7052eabc306a780c4f5beff21f1202616c6934bd6db2a849a59a",
+      "bytes": 2421,
+      "lines": 49
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step07.lean",
+      "sha256": "c37fc8a93b43c8c8f97d851e3cc456ce86e721546e4e135c633592a228a62818",
+      "bytes": 2421,
+      "lines": 49
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step08.lean",
+      "sha256": "473a6536f49d9632d9f79fcfbdbd5881020d4f2e498a677ef6229ded8b1db06d",
+      "bytes": 2421,
+      "lines": 49
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step09.lean",
+      "sha256": "86a2797ee87aa0bb8505012b2d74cdf4628c81d370dd935e2648e890721b6422",
+      "bytes": 2424,
+      "lines": 49
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step10.lean",
+      "sha256": "31a8d7194493c0ef2c544c13f81c0c909facdc44a2d4714d64ff1f11f5e3b0b4",
+      "bytes": 2429,
+      "lines": 49
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step12.lean",
+      "sha256": "9392256c2fdd115990659058627f89f2ba967cd6d481aec11402ee7e9b1bef6f",
+      "bytes": 2435,
+      "lines": 49
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step14.lean",
+      "sha256": "20ca5e2991ab8626ddc7c57671d890f6acb84c091a8f7d6aa51a14cf3dc58f6a",
+      "bytes": 2269,
+      "lines": 48
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/Step15.lean",
+      "sha256": "3380ed2d4699edd069d950a171501194274d8f24be4c06463065e5e723daa208",
+      "bytes": 1939,
+      "lines": 46
+    },
+    {
+      "path": "Compact/Cases/C978/DirectPruning/All.lean",
+      "sha256": "a0d64f21ff9e621f2b8de76e0fd46aee4a931ce74e4ee81a1171525d96bb9bab",
+      "bytes": 9371,
+      "lines": 196
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step00.lean",
+      "sha256": "4ac720542696530f6688546e3a85591818b675c13cd617de2cc9ea9fdde1f22a",
+      "bytes": 3077,
+      "lines": 53
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step01.lean",
+      "sha256": "97acf9c57add7c9d136a453b6faf99cd6ab604e00770593a71d1fe27981274cb",
+      "bytes": 3077,
+      "lines": 53
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step02.lean",
+      "sha256": "68f6c9f00f67f0320c1e4298a8459585f7724fd283e5560e54f03951c7b70c9a",
+      "bytes": 3079,
+      "lines": 53
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step03.lean",
+      "sha256": "a468a3ff5ed9871cda82905e773ca690ba9c92cae11d0223b59b1b7102a24edb",
+      "bytes": 3077,
+      "lines": 53
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step04.lean",
+      "sha256": "4494f2ee35ee6c0f3b92f9dc64e8c6a89e1f8f40d93e39eee76afa41d6286ab4",
+      "bytes": 3077,
+      "lines": 53
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step05.lean",
+      "sha256": "c8ff46207aa1baeb7b1a5bd1e9668065bb140765eb12f2d99dae119ab0ab2ce3",
+      "bytes": 3083,
+      "lines": 53
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step06.lean",
+      "sha256": "0b4ce17dcf4996cbf7c7a1a6ecd041bccb522149a3089f6808ecc7892998e725",
+      "bytes": 3083,
+      "lines": 53
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step07.lean",
+      "sha256": "373b3a29928eeca26686169a6d7c7183c4a35dda933448521cd2aa61e73eaabb",
+      "bytes": 3077,
+      "lines": 53
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step08.lean",
+      "sha256": "2b65812495c1720db78072286d6bd72a48552b1c3c490142b332d41ae07c5aac",
+      "bytes": 3077,
+      "lines": 53
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step09.lean",
+      "sha256": "e76b65edbe1a53c5b150c968dfc5981f599884e582c8bc02db3135e9628803ae",
+      "bytes": 2916,
+      "lines": 52
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step10.lean",
+      "sha256": "d5b14bc485015a766478083f5fce589de0976b238afb0a10449918c13dca10f5",
+      "bytes": 3080,
+      "lines": 53
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step11.lean",
+      "sha256": "4225fc9105bff01e3e0e57f4b9e3f758acf192e5dc9d6e4a4fb5dbb90923c705",
+      "bytes": 3083,
+      "lines": 53
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step12.lean",
+      "sha256": "4d2a7f728be7a18e623fb551aa75db60cc33e22a006dfe8d00c2e6e997f04446",
+      "bytes": 3083,
+      "lines": 53
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step13.lean",
+      "sha256": "6f9188b43d91c525ca09258eb10b358011e81a615de1ecaef5fa6ec0cf8c635d",
+      "bytes": 2754,
+      "lines": 51
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step14.lean",
+      "sha256": "0e767392c7df1f3d762382a4d7bbde8b4c93e74cf5073ad184733a93c5dc9690",
+      "bytes": 2757,
+      "lines": 51
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step15.lean",
+      "sha256": "edefbca6be03c0c60d5971ffb1cc528545051b66c60e0eee0142bf542c41b51e",
+      "bytes": 2757,
+      "lines": 51
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step16.lean",
+      "sha256": "5f20dfd8c03101ad172d01be93b9d461d5a7aa907e653d1a330c65bf4238fae9",
+      "bytes": 3082,
+      "lines": 53
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step18.lean",
+      "sha256": "601495cb7a0f8eec7f652256de681678a31ae7248fd69bdd144418028fb22c8a",
+      "bytes": 3091,
+      "lines": 53
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step19.lean",
+      "sha256": "88e1094fae94cfb1008a76106d20e62b5accaa1f1ecc030a14de8a24eca7f428",
+      "bytes": 3084,
+      "lines": 53
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step22.lean",
+      "sha256": "671a978a3d57f9baaf833d77c24a94ae3923f553cfecc2e51514b9a71fc865bd",
+      "bytes": 2757,
+      "lines": 51
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step23.lean",
+      "sha256": "0fa33bded56fb0da44c762b9bc15244952813e87050322d1f573307ab4ef3e65",
+      "bytes": 2101,
+      "lines": 47
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step25.lean",
+      "sha256": "332d32aa98fc9e17f86a00349b8bfd3a8490127f1cc1de6432c7973f4d15ebcd",
+      "bytes": 2593,
+      "lines": 50
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step26.lean",
+      "sha256": "7b30fd4f9b32523fe928f88b7227d04b01e88d2ad3ff5d51769f02ddd02a93b2",
+      "bytes": 2590,
+      "lines": 50
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/Step29.lean",
+      "sha256": "ce36c4405298cf8516c60fbeaa26641e33496fa30e61f3058c030a7b015cfa30",
+      "bytes": 2593,
+      "lines": 50
+    },
+    {
+      "path": "Compact/Cases/C979/DirectPruning/All.lean",
+      "sha256": "01d3021fb4252e6590edb594b13de2c39a2e8de73da0458382dbe71bd71f2445",
+      "bytes": 15694,
+      "lines": 313
+    },
+    {
+      "path": "Compact/HistoricalDirectPruning.lean",
+      "sha256": "96fc2ae73fc1b7678fb7db26f8a25935bf7695904e22ad7486dd61b117e9be9d",
+      "bytes": 418,
+      "lines": 9
+    }
+  ],
+  "lean_modules": 718,
+  "lean_lines": 20440,
+  "lean_bytes": 3166859,
+  "elapsed_seconds": 0.6634014579976792
+}

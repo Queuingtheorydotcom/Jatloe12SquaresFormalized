@@ -1,0 +1,1 @@
+'S12.seed_points_sound' depends on axioms: [propext, Classical.choice, Quot.sound]

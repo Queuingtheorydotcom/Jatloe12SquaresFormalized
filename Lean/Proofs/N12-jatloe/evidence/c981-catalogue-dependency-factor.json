@@ -1,0 +1,58 @@
+{
+  "scope": "Source-only dependency factoring; no Lean replay; no theorem assumptions changed.",
+  "reason": "The C981 catalogue requires corner ownership and elementary disjoint-corner splitting, not the stronger corner_seed_split theorem.",
+  "before": {
+    "Completion/Cases/C981/Geometry.lean": "d4b02ef70feed4d2f7619cf865cc109ff532f1c67c84ba20c4209dd3540c0609",
+    "source/S12/MissingCornerBranches.lean": "e79257b4dadd27605877231f54168607e7881bfd3ede9c9102e6f6ccda3db320"
+  },
+  "after": {
+    "Completion/Cases/C981/Geometry.lean": {
+      "sha256": "9a4b379adf2b53d7b142e37ed879b626ab1a67ed6866a145c42aff6dfd5a9455",
+      "bytes": 1751,
+      "lines": 48
+    },
+    "source/S12/MissingCornerBranches.lean": {
+      "sha256": "e1925467e9c285ad2fb8de676c017922108b61642c7f95ee3af457b3d6c79452",
+      "bytes": 1218,
+      "lines": 33
+    },
+    "source/S12/DisjointCornerSplit.lean": {
+      "sha256": "5dba5d2e72a4b03994c0215ae735ecc584e49a9c419fb6628e5ceea4d1230557",
+      "bytes": 586,
+      "lines": 17
+    },
+    "adapters/C981CornerSeedsOriginal.lean": {
+      "sha256": "44e4cd139b52978b192a3e982a3106e94e2b82731ef8282cfd04a73b1c6c17fd",
+      "bytes": 1674,
+      "lines": 36
+    }
+  },
+  "verbatim_moved_declarations": {
+    "S12.disjoint_corner_split": {
+      "sha256": "44faf006da58813300dd1e3aa780a5097623bbcf9995fc1a577a48e4123ebeaa",
+      "destination": "source/S12/DisjointCornerSplit.lean"
+    },
+    "S12Completion.C981.corner_seed_split": {
+      "sha256": "68e628b1af3d9e209b3c93b9225622637aa5caa655def45ccf21b61782032309",
+      "destination": "adapters/C981CornerSeedsOriginal.lean"
+    }
+  },
+  "missing_original_helpers": [
+    {
+      "module": "S12.SingletonMissingTriangles",
+      "bytes": 41557,
+      "sha256": "b21b1135ac3796e439719b633a598d2363c37e377b840a671a9d7304781ce4b8",
+      "original_archive": "s12-lean-progress-part-3.zip"
+    },
+    {
+      "module": "S12.MissingCornerCubic",
+      "bytes": 4167,
+      "sha256": "f54c057b6827107f11cd9cca5a056014502fd7b95acb12d9438643e15e9d7cec",
+      "original_archive": "s12-lean-progress-part-2.zip"
+    }
+  ],
+  "original_manifest": "audit/prefix-small-source-index.json",
+  "source_commit": "98ddf88a36d0a227d1a94e1c7e0ed64d1c840de8",
+  "retained_stronger_theorem_used_by_active_catalogue": false,
+  "original_whole_case_exclusion_claimed": false
+}

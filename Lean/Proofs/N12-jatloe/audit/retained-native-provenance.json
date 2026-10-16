@@ -1,0 +1,86 @@
+{
+  "scope": "Every native_decide-containing source line in the selected closure is preserved verbatim in an immutable original vendor source; grid files match original AngleData lines. This does not validate compiled external objects or native evaluator trust.",
+  "records": [
+    {
+      "module": "S12.To117",
+      "site_occurrences": 3,
+      "vendor": "vendor/S12/To117.lean",
+      "vendor_sha256": "00c1635e964b976b38aae7e9a9cdfd90567aa40cf5bde4e75aa9e7b5cb3ec017",
+      "all_native_source_lines_present_verbatim_in_vendor": true,
+      "whole_module_byte_identical": true
+    },
+    {
+      "module": "S12.CoreData",
+      "site_occurrences": 419,
+      "vendor": "vendor/S12/CoreData.lean",
+      "vendor_sha256": "bae1b3e9d9f14bbba3d11e781272d993feb57b9e7a902e0561ba4de837442725",
+      "all_native_source_lines_present_verbatim_in_vendor": true,
+      "whole_module_byte_identical": true
+    },
+    {
+      "module": "S12.LocalQueryData",
+      "site_occurrences": 35,
+      "vendor": "vendor/S12/LocalQueryData.lean",
+      "vendor_sha256": "3ccca2b4ff0eeaccea4f9755598fe1eb800fe3d3321c34a497d8120054030cf7",
+      "all_native_source_lines_present_verbatim_in_vendor": true,
+      "whole_module_byte_identical": true
+    },
+    {
+      "module": "S12.FourPointData",
+      "site_occurrences": 111,
+      "vendor": "vendor/S12/FourPointData.lean",
+      "vendor_sha256": "bdc5996afa2507d01e0e7ac58386c2824581fe826aba19a2b86ba442e7abd916",
+      "all_native_source_lines_present_verbatim_in_vendor": true,
+      "whole_module_byte_identical": false
+    },
+    {
+      "module": "S12.Raw",
+      "site_occurrences": 3,
+      "vendor": "vendor/S12/Raw.lean",
+      "vendor_sha256": "627081ade701dcfa4d7ec8c67552735964570f522ffa60ecd5044112addb4ebe",
+      "all_native_source_lines_present_verbatim_in_vendor": true,
+      "whole_module_byte_identical": true
+    },
+    {
+      "module": "S12.CoverData",
+      "site_occurrences": 24,
+      "vendor": "vendor/S12/CoverData.lean",
+      "vendor_sha256": "663a4e43053099d3781da982ca148dfec3402da0ba33a603859f19fa20f5e7f4",
+      "all_native_source_lines_present_verbatim_in_vendor": true,
+      "whole_module_byte_identical": true
+    },
+    {
+      "module": "S12.DomainSpecData",
+      "site_occurrences": 128,
+      "vendor": "vendor/S12/DomainSpecData.lean",
+      "vendor_sha256": "56ec0a294b96cd62cbf44b5030f9a9bff7926204d22e236f23a02afc14c7200d",
+      "all_native_source_lines_present_verbatim_in_vendor": true,
+      "whole_module_byte_identical": true
+    },
+    {
+      "module": "S12.AngleData64",
+      "site_occurrences": 1,
+      "vendor": "vendor/S12/AngleData.lean",
+      "vendor_sha256": "82fa09c9c0d6e86227bec6eb38ab87ccbf06a9c132142e066126945cbcffe5b1",
+      "all_native_source_lines_present_verbatim_in_vendor": true,
+      "whole_module_byte_identical": false
+    },
+    {
+      "module": "S12.AngleData128",
+      "site_occurrences": 1,
+      "vendor": "vendor/S12/AngleData.lean",
+      "vendor_sha256": "82fa09c9c0d6e86227bec6eb38ab87ccbf06a9c132142e066126945cbcffe5b1",
+      "all_native_source_lines_present_verbatim_in_vendor": true,
+      "whole_module_byte_identical": false
+    },
+    {
+      "module": "S12.Case976Domains",
+      "site_occurrences": 1847,
+      "vendor": "vendor/S12/Case976Domains.lean",
+      "vendor_sha256": "c3caefc7b02efa3ca595011c8fd8a64728f060b14e11c454e786510b27e08c43",
+      "all_native_source_lines_present_verbatim_in_vendor": true,
+      "whole_module_byte_identical": true
+    }
+  ],
+  "all_matched": true
+}

@@ -1,0 +1,6 @@
+/Users/macintosh/Documents/Codex/N12-refactor/source/S12/Enumeration.lean:16:0: warning: automatically included section variable(s) unused in theorem 'S12.admissible_card_le':
+  [DecidableEq G]
+consider restructuring your `variable` declarations so that the variables are not in scope or explicitly omit them:
+  omit [DecidableEq G] in theorem ...
+note: this linter can be disabled with `set_option linter.unusedSectionVars false`
+'S12.enumerate_complete' depends on axioms: [propext, Classical.choice, Quot.sound]

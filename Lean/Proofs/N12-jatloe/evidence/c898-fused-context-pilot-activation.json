@@ -1,0 +1,27 @@
+{
+  "scope": "Two original contexts only; new isolated source; ordinary Lean replay pending.",
+  "lean_checked": false,
+  "production_sources_changed": false,
+  "inputs": [
+    {
+      "proposal": "C898FusedContexts",
+      "manifest_sha256": "f7bb2afb05d301cb36c9ec734e7af54db4da6a50b469422e6b780756942e1203",
+      "source": "Compact/Cases/C898/CachedPairs/Contexts00.lean",
+      "source_sha256": "eee27e0c03f529c427ef4f3b22975f0f494aaae6fd6f97439740434f6525a8c1"
+    },
+    {
+      "proposal": "C898TerminalContexts",
+      "manifest_sha256": "86699fae3705b64f95093cbd975bd983c9f1ac90a5883b566b35b12208231d37",
+      "source": "Compact/Cases/C898/PairStep14CachedContexts.lean",
+      "source_sha256": "8d38692129474804e6141140a81dc6efa4c9b9ee71b51cf15f5bb2118e4c432f"
+    }
+  ],
+  "helper_sha256": "5365b00bec957e4a72f4cd4c5e12227368167c64990a747f1cf4e21003fe2025",
+  "output": {
+    "path": "Compact/Cases/C898/FusedContextPilot.lean",
+    "sha256": "9553aad629473a31af1cecba0857ee66fecaa2b40e40cac1da4de854a5f1ad59",
+    "bytes": 1793,
+    "lines": 35
+  },
+  "seconds": 0.021529541998461355
+}

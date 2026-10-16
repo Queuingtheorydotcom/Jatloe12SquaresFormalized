@@ -1,0 +1,95 @@
+{
+  "original_commit": "46e0067e3aa72d1001a1bf2b95c8f7e4575c368a",
+  "original_path": "source/S12/LocalQueryData.lean",
+  "original_sha256": "3ccca2b4ff0eeaccea4f9755598fe1eb800fe3d3321c34a497d8120054030cf7",
+  "inverse_sha256": "3405304b47ee94db736a46567568a6706086ce973e6458b070d2a2e64e5a23bf",
+  "inverse_matches_original": false,
+  "original_data_sha256": "60022433e0e08b044469a02306f094be37c8e9cc65742b819fd9b30b34b71b9e",
+  "reconstructed_data_sha256": "60022433e0e08b044469a02306f094be37c8e9cc65742b819fd9b30b34b71b9e",
+  "wrapper_sha256": "1ad272c07dcaf9fc5f1aa8b3813d90787896dd44f52833f7b22a1dc53acc3750",
+  "helper_modules": [
+    {
+      "path": "source/S12/LocalQueryDataChunks/Chunk00.lean",
+      "local_query_start": 0,
+      "local_query_count": 250,
+      "query_chunk_start": 0,
+      "query_chunk_count": 5,
+      "sha256": "8f09d27ef570cded4e13837d5c3e380423f1fdcc332a579fc58021211884d612"
+    },
+    {
+      "path": "source/S12/LocalQueryDataChunks/Chunk01.lean",
+      "local_query_start": 250,
+      "local_query_count": 250,
+      "query_chunk_start": 5,
+      "query_chunk_count": 5,
+      "sha256": "3a9d20bf5557a5cfa655f4e237424529efbd9e9bb66e2b9086b0e2067a0ce8f4"
+    },
+    {
+      "path": "source/S12/LocalQueryDataChunks/Chunk02.lean",
+      "local_query_start": 500,
+      "local_query_count": 250,
+      "query_chunk_start": 10,
+      "query_chunk_count": 5,
+      "sha256": "8a30308f4d23039f26bfb207007c7645a24f0aceb0b2a41402ef8145194b07cd"
+    },
+    {
+      "path": "source/S12/LocalQueryDataChunks/Chunk03.lean",
+      "local_query_start": 750,
+      "local_query_count": 250,
+      "query_chunk_start": 15,
+      "query_chunk_count": 5,
+      "sha256": "35584fa0ed6e43f92eb66a0ae43cf566a69e44ceaf3eb9eb06b3f8af57a20063"
+    },
+    {
+      "path": "source/S12/LocalQueryDataChunks/Chunk04.lean",
+      "local_query_start": 1000,
+      "local_query_count": 250,
+      "query_chunk_start": 20,
+      "query_chunk_count": 5,
+      "sha256": "ba2b420e34eb3e8879b82bb7da401806c297331c7924f1428a988b318d741aae"
+    },
+    {
+      "path": "source/S12/LocalQueryDataChunks/Chunk05.lean",
+      "local_query_start": 1250,
+      "local_query_count": 250,
+      "query_chunk_start": 25,
+      "query_chunk_count": 5,
+      "sha256": "78bcad49d1c1ec45ee954bf3109348e232b969567ecdd7c225f50d23de13d3c5"
+    },
+    {
+      "path": "source/S12/LocalQueryDataChunks/Chunk06.lean",
+      "local_query_start": 1500,
+      "local_query_count": 221,
+      "query_chunk_start": 30,
+      "query_chunk_count": 5,
+      "sha256": "9cd6854782349515adc27ba73119bcda6cdd876bb6b35631af4e09b7f942ab0a"
+    }
+  ],
+  "preserved_local_query_definitions": 1721,
+  "preserved_native_sites": 35,
+  "additional_native_sites": 0,
+  "added_lean_modules": 7,
+  "declaration_bodies_byte_identical": false,
+  "data_declaration_bodies_byte_identical": true,
+  "public_declaration_statements_byte_identical": true,
+  "intentional_wrapper_proof_changes": [
+    {
+      "declaration": "localQueries_length",
+      "original_proof_sha256": "9f8df6a4f647a6ddc691ffe431225be342eb1140bdcd048d5ba5fdfa40aecdc5",
+      "current_proof_sha256": "1f10e4eb7e4eebc60b9f6beeebb1079dbc415bd0ed1a62899cf2df3f308c9153"
+    },
+    {
+      "declaration": "localQueries_all_checked",
+      "original_proof_sha256": "92990eba6f888cfda9955cfe05c75b06bde406a742d757c70da880ca92dd628f",
+      "current_proof_sha256": "22d2721c71eafe70c7581c781c9b980158be1d38a4b002da6a94404e100215a2"
+    }
+  ],
+  "added_private_helpers": [
+    {
+      "declaration": "queryChecks_append",
+      "statement": "private theorem queryChecks_append {xs ys : List LocalQuery}\n    (hx : xs.all (fun w => decide w.Check)=true)\n    (hy : ys.all (fun w => decide w.Check)=true) :\n    (xs++ys).all (fun w => decide w.Check)=true",
+      "proof_sha256": "aeaa07e35d270d7db5f5ebc1bc111c5ee0218e0600d59145fb439c8f828981e6"
+    }
+  ],
+  "lean_replay_performed_by_this_script": false
+}

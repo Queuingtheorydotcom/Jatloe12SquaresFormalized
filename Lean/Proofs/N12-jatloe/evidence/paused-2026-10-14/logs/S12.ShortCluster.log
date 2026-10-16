@@ -1,0 +1,3 @@
+'S12.five_point_left' depends on axioms: [propext, Classical.choice, Quot.sound]
+'S12.five_point_right' depends on axioms: [propext, Classical.choice, Quot.sound]
+'S12.side_six_point' depends on axioms: [propext, Classical.choice, Quot.sound]

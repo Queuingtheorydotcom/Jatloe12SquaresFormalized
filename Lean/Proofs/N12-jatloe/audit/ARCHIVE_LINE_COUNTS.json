@@ -1,0 +1,119 @@
+{
+  "scope": "Actual original archive source line counts; no new Lean verification; completion wrappers excluded unless noted",
+  "cases": {
+    "701": {
+      "modules": 253,
+      "counted_modules": 253,
+      "source_bytes": 339882452,
+      "source_newline_count": 434692,
+      "missing": [],
+      "hash_mismatches": [],
+      "receipt_hash_mismatches": []
+    },
+    "713": {
+      "modules": 222,
+      "counted_modules": 222,
+      "source_bytes": 266110547,
+      "source_newline_count": 718434,
+      "missing": [],
+      "hash_mismatches": [],
+      "receipt_hash_mismatches": []
+    },
+    "717": {
+      "modules": 295,
+      "counted_modules": 295,
+      "source_bytes": 459733372,
+      "source_newline_count": 1434523,
+      "missing": [],
+      "hash_mismatches": [],
+      "receipt_hash_mismatches": []
+    },
+    "898": {
+      "modules": 195,
+      "counted_modules": 195,
+      "source_bytes": 188138692,
+      "source_newline_count": 221469,
+      "missing": [],
+      "hash_mismatches": [],
+      "receipt_hash_mismatches": []
+    },
+    "973": {
+      "modules": 245,
+      "counted_modules": 245,
+      "source_bytes": 333362494,
+      "source_newline_count": 684347,
+      "missing": [],
+      "hash_mismatches": [],
+      "receipt_hash_mismatches": []
+    },
+    "978": {
+      "modules": 224,
+      "counted_modules": 224,
+      "source_bytes": 268472356,
+      "source_newline_count": 298848,
+      "missing": [],
+      "hash_mismatches": [],
+      "receipt_hash_mismatches": []
+    },
+    "979": {
+      "modules": 298,
+      "counted_modules": 298,
+      "source_bytes": 331494096,
+      "source_newline_count": 1473106,
+      "missing": [],
+      "hash_mismatches": [],
+      "receipt_hash_mismatches": []
+    }
+  },
+  "seven_historical_union": {
+    "modules": 938,
+    "counted_modules": 938,
+    "source_bytes": 2119721626,
+    "source_newline_count": 5121803,
+    "missing": [],
+    "hash_mismatches": []
+  },
+  "seven_additional_completion_modules": {
+    "Completion.Contracts": "f9f918063f3b14f829a157ec55f729ec50665c08a865e749a319df3dd814a680",
+    "Completion.Cases.C701.RowIdentity": "d8d3c35e11028243c59e4396117da9f42e411e60d02a6c39d688728c52942fbe",
+    "Completion.Cases.C701.Proof": "2b15bb1b952d396b7d36ec1fea5dc4e6ff8d25b56055ffcd06c0548c64eb9ddc",
+    "Completion.Cases.C713.RowIdentity": "48d8631465b1711ff8dbff0401b1dc5b50347e55b586e65e2a10b873490bc315",
+    "Completion.Cases.C713.Proof": "ed530720ee0052baf7c0e93a6c40c29ab3543410b37bc96bd2230f1fae39bd52",
+    "Completion.Cases.C717.RowIdentity": "e01ac1ebfe6b3ccc90f8d2d30b46448833602aab6443556151ee1b19a14abc11",
+    "Completion.Cases.C717.Proof": "5c79377703eac1f2654352986c350e2ef00dae21ec6412f165b6b39c6f02f207",
+    "Completion.Cases.C898.RowIdentity": "3880a5967f6e42c49ceccef527ae1cd336366bebb88e68926e51afaf7f8aacf4",
+    "Completion.Cases.C898.Proof": "89fbbaa07cece9f5c02713ac09e7ee936361186a48f590f64e20f9166d099c6a",
+    "Completion.Cases.C973.RowIdentity": "ffb333fee96d48625c8cdaa83f41b91d1012a0fe0323f8243cef38c4ed0599af",
+    "Completion.Cases.C973.Proof": "599c0c1f868a84f202636cdaee160943d4f6e512fbd4b325bf51cd10408ed21d",
+    "Completion.Cases.C978.RowIdentity": "9781940393da4aff8b534524d205b5964727f917a5fb42ee87dc494a6796ddbe",
+    "Completion.Cases.C978.Proof": "aab9be8b4299174957a6355f98d494dbca05b1a3427efa1f0b99b45c5270ec99",
+    "Completion.Cases.C979.RowIdentity": "bbbcd421ec1dfe6488857a26609c125a8e0d2fd70b1311974a17e7edadd44b0c",
+    "Completion.Cases.C979.Proof": "e22977aca4b106731dd919d95792e3575b6a1dfbad8612d7f0bfb7b018b41d39"
+  },
+  "117_to_18_historical_closure": {
+    "modules": 7496,
+    "counted_modules": 7496,
+    "source_bytes": 3734670747,
+    "source_newline_count": 3817003,
+    "missing": [],
+    "hash_mismatches": []
+  },
+  "seven_plus_reduction_historical_union": {
+    "modules": 8236,
+    "counted_modules": 8236,
+    "source_bytes": 5660148876,
+    "source_newline_count": 8732801,
+    "missing": [],
+    "hash_mismatches": []
+  },
+  "whole_historical_lean_archive": {
+    "modules": 63025,
+    "counted_modules": 63024,
+    "source_bytes": 22152201879,
+    "source_newline_count": 34532528,
+    "missing": [
+      "scripts/CompareNativeMetadata47.lean"
+    ],
+    "hash_mismatches": []
+  }
+}

@@ -1,0 +1,1 @@
+'S12.diameter_group_in_table' depends on axioms: [propext, Classical.choice, Quot.sound]

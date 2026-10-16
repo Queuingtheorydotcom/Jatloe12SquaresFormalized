@@ -1,72 +1,79 @@
 # Jatloe: twelve-square formalization
 
-**Jatloe provided the full mathematical proof and partial Lean formalization.**
-**Ben Gurevitch aided in the formalization.**
+This repository formalizes the optimal square container for twelve unit squares:
 
-This repository contains the N12 Lean source for the optimality statement
-`N12Compact.Final.optimality : S12.packingConstant12 = 4`:
-twelve unit squares, with arbitrary orientations and disjoint interiors,
-require a square container of side at least 4, and a packing of side 4 exists.
-Boundary contact is allowed.
+```lean
+N12Compact.Final.optimality : S12.packingConstant12 = 4
+```
 
-All 117 original cases are assembled in the written source. **The assembled
-formalization has not yet been compiled end to end.** Source completion does
-not establish Lean acceptance. The final run must compile the proof, check its
-exact unconditional type, reject admissions, and audit its axioms. The original
-numerical classification uses `native_decide`, so the proof inherits native
-compiler trust in addition to Lean's kernel.
+The squares may have arbitrary orientations and translations. Their interiors
+must be disjoint; boundary contact is allowed. The theorem supplies the global
+lower bound and a 4-by-3 grid attaining container side 4.
 
-- [Final theorem](projects/n12-refactored/Compact/Assembly/Final.lean)
-- [Mathematical arguments](projects/n12-refactored/mathematics/README.txt)
-- [Proof file hashes](projects/n12-refactored/evidence/final-source-manifest-2026-10-15.json)
-- [Runner and resume instructions](projects/n12-refactored/handoff/GITHUB-REPLAY.txt)
+**Credits:** Jatloe provided the full mathematical proof and partial Lean
+formalization. Ben Gurevitch aided in formalization. **CTJLewis refactored and
+compiled the formalization.**
 
-The project is in `projects/n12-refactored`, pinned to Lean 4.19.0 and Mathlib
-`c44e0c8ee63ca166450922a373c7409c5d26b00b`. The final proof uses 5,375 project
-modules and 3,234 library modules; including setup and the final audit, the
-inventory is 8,739 modules, below the hard 10,000-module limit.
+## Verified source and evidence
+
+The proof source is copied byte-for-byte from `EvolvingPrograms/SquaresLean`,
+branch **`main`**, commit **`1f60d412707aae824b76fbaf11d4e708695451fa`**, accepted
+by [run 38849916588, job 116808701733](https://github.com/EvolvingPrograms/SquaresLean/actions/runs/38849916588/job/116808701733).
+That job authenticated all **5,377 project modules** against their compiled
+objects and receipts and ran a fresh final theorem/type/axiom audit.
+All 5,377 module objects were reused from cache; this particular job was not a
+fresh compilation of every module. The publication was checked against every
+source and compiler-log hash in those receipts; no local full rebuild was run.
+
+The final theorem has no pending case hypotheses or admissions. Its axiom audit
+contains the three standard axioms (`propext`, `Classical.choice`, `Quot.sound`)
+and **1,624 approved native-generated axioms** from the numerical classification.
+Accordingly, verification retains the documented **native compiler trust** of
+`native_decide`, in addition to Lean's kernel. There is no `sorryAx` or unexpected
+custom axiom in the accepted final audit.
+
+- [Final theorem](Lean/Proofs/N12-jatloe/Compact/Assembly/Final.lean)
+- [Packing definition and normalization](Lean/Proofs/N12-jatloe/source/S12/Normalization.lean)
+- [Attaining construction and packing constant](Lean/Proofs/N12-jatloe/source/S12/PackingConstant.lean)
+- [Publication provenance](SOURCE-PROVENANCE.json) and [verified source hashes](verification/run-38849916588/verified-source-manifest.json)
+- [Accepted final report](verification/run-38849916588/github-replay.json) and [type/axiom audit](verification/run-38849916588/global-type-axiom-audit.log)
+- [Original verification artifact and checksums](https://github.com/Queuingtheorydotcom/Jatloe12SquaresFormalized/releases/tag/n12-verified-2026-10-16)
+- [Mathematical arguments](Lean/Proofs/N12-jatloe/mathematics/README.txt)
+
+The release includes **all 5,377 compiled `.olean` objects** in the original
+checkpoint ZIP, plus the original successful-run evidence ZIP and checksums.
+The binary checkpoint comes from earlier run `38847898861`; every source,
+object and compiler-log hash matches the receipts accepted in successful run
+`38849916588`. Its earlier run failure does not supply the theorem evidence;
+the later successful final audit does. The bundle contains project objects;
+Lean and external libraries are installed separately using the pinned versions.
+[Artifact details and independent hash-check instructions](verification/run-38849916588/README.txt)
+describe the exact verification scope.
+
+The project is in `Lean/Proofs/N12-jatloe`. The replay environment is pinned to
+**Lean 4.35.0**, Mathlib **`56a005855ea17e0b0958f73ec801ae140b0a1679`**.
+The accepted final closure has 5,377 project and 4,049 external modules;
+including setup, package configurations and the final audit, the inventory is
+**9,583 modules**, below the hard 10,000 cap and above the preferred 8,000 target.
+Older dated handoffs, source comments and census files record earlier stages;
+this README and the run-specific evidence above supersede their status claims.
 
 ## Run on GitHub
 
-Open **Actions → Verify twelve-square proof → Run workflow**. Choose `main`,
-leave target `n12-final`, jobs `auto`, runner `ubuntu-latest`, fresh unchecked,
-and resume_run `auto`.
-
-Or use GitHub CLI:
+Open **Actions → Verify twelve-square proof → Run workflow**. Choose branch
+**`main`**, target **`N12-jatloe`**, jobs **`auto`**, runner **`ubuntu-latest`**,
+fresh unchecked, and resume_run **`auto`**.
 
 ```sh
 gh workflow run verify.yml --repo Queuingtheorydotcom/Jatloe12SquaresFormalized \
-  --ref main -f target=n12-final -f jobs=auto -f resume_run=auto
+  --ref main -f target=N12-jatloe -f jobs=auto -f resume_run=auto
 ```
 
-The runner uses available CPUs and about 90% of available RAM. Five hours after
-job setup starts, it stops compilation and uploads completed modules and their
-receipts. Repeat the same command to resume. The interrupted module restarts;
-completed unchanged modules are reused. Checkpoints are retained for 30 days.
-The six-hour job limit reserves up to one hour for saving and uploading progress.
-A green checkpoint job can mean only that progress was saved: the run summary
-and final `github-replay.json` distinguish that from complete proof verification.
-
-The default is a standard GitHub-hosted Ubuntu runner. To use a larger runner
-already enabled for this repository, select its label in `runner` or add
-`-f runner=YOUR_RUNNER_LABEL` to the command. Resource sizing is automatic.
-Pushes do not start compilation; the workflow is manually dispatched.
-
-## Source-only checks
-
-```sh
-cd projects/n12-refactored
-python3 scripts/github_replay.py --plan --profile final
-python3 scripts/test_source_census.py
-python3 scripts/test_replay_runner.py
-python3 scripts/test_checkpoint.py
-python3 scripts/test_restore_cache.py
-python3 scripts/test_replay_state.py
-python3 scripts/test_replay_stop.py
-python3 scripts/test_bootstrap_cache.py
-python3 scripts/test_runner_resources.py
-```
-
-These tests do not compile Lean. The resource tests launch only tiny Python
-processes to check deadline termination. Dependency sources and exact Mathlib
-caches are restored by the remote runner, not included in this repository.
+Choose another runner label only if it is available to this repository.
+The runner sizes CPU and memory use to the machine, stops proof work after
+five hours, and saves progress with time reserved for upload. It resumes using
+this repository's complete build cache, including Lean 4.35 object sidecars.
+The upstream private cache is not automatically accessible here. During module
+verification the console shows only `module k/total`; detailed diagnostics are
+saved in artifacts. A saved checkpoint alone is not a completed theorem audit.
+See [replay instructions](Lean/Proofs/N12-jatloe/handoff/GITHUB-REPLAY.txt).

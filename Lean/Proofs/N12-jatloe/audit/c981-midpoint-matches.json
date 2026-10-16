@@ -1,0 +1,63 @@
+{
+  "scope": "finite source matching only; six original auxiliary point conditions",
+  "transform_matches": [
+    {
+      "reflectX": false,
+      "reflectY": false,
+      "point_indices": [
+        17,
+        9,
+        5,
+        16,
+        7,
+        19
+      ],
+      "matches": [
+        {
+          "representative": 116,
+          "q": 6,
+          "r": 3
+        }
+      ]
+    },
+    {
+      "reflectX": false,
+      "reflectY": true,
+      "point_indices": [
+        15,
+        8,
+        4,
+        16,
+        6,
+        18
+      ],
+      "matches": []
+    },
+    {
+      "reflectX": true,
+      "reflectY": false,
+      "point_indices": [
+        14,
+        1,
+        5,
+        13,
+        3,
+        11
+      ],
+      "matches": []
+    },
+    {
+      "reflectX": true,
+      "reflectY": true,
+      "point_indices": [
+        12,
+        0,
+        4,
+        13,
+        2,
+        10
+      ],
+      "matches": []
+    }
+  ]
+}

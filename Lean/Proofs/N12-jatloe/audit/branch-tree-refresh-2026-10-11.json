@@ -1,0 +1,729 @@
+{
+  "roots": [
+    {
+      "sha": "1a6d67e01b99f900fb8c7f2ff7994c9d60eb7828",
+      "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/trees/1a6d67e01b99f900fb8c7f2ff7994c9d60eb7828",
+      "tree": [
+        {
+          "path": ".gitattributes",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "a80a66f02a6c8483c9595b7538df24d2759125de",
+          "size": 33,
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/blobs/a80a66f02a6c8483c9595b7538df24d2759125de"
+        },
+        {
+          "path": ".github",
+          "mode": "040000",
+          "type": "tree",
+          "sha": "d152d4d9dd3684210953ed22b0137712ba8dfa99",
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/trees/d152d4d9dd3684210953ed22b0137712ba8dfa99"
+        },
+        {
+          "path": ".gitignore",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "c470888959d4d72e057f335370ce423e3125ebc3",
+          "size": 166,
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/blobs/c470888959d4d72e057f335370ce423e3125ebc3"
+        },
+        {
+          "path": ".gitmodules",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "2e9a363ef3410b1b5bea61699e24a074ab6b170d",
+          "size": 123,
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/blobs/2e9a363ef3410b1b5bea61699e24a074ab6b170d"
+        },
+        {
+          "path": "AGENTS.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "cc116a3362840ed1a0cac8b4a6cd48e3450951ac",
+          "size": 1537,
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/blobs/cc116a3362840ed1a0cac8b4a6cd48e3450951ac"
+        },
+        {
+          "path": "JLEVY_SQUARES.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "eadd6638c80b8d59a1802edc8d4f861db469db6c",
+          "size": 8258,
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/blobs/eadd6638c80b8d59a1802edc8d4f861db469db6c"
+        },
+        {
+          "path": "Lean",
+          "mode": "040000",
+          "type": "tree",
+          "sha": "27f2049f257ce986a3c3d7aea7a214e54b25f2fe",
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/trees/27f2049f257ce986a3c3d7aea7a214e54b25f2fe"
+        },
+        {
+          "path": "MISSING.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "44d60395c79e637277cecfb79a7b1756744f6b6d",
+          "size": 5381,
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/blobs/44d60395c79e637277cecfb79a7b1756744f6b6d"
+        },
+        {
+          "path": "PC_RESUME.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "f0674e4f0059f67e45fed9374527ce6376d08aff",
+          "size": 10101,
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/blobs/f0674e4f0059f67e45fed9374527ce6376d08aff"
+        },
+        {
+          "path": "PROVENANCE.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "5d6a6bef3281eca78416a772f7a1f1f805763f96",
+          "size": 5640,
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/blobs/5d6a6bef3281eca78416a772f7a1f1f805763f96"
+        },
+        {
+          "path": "README.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "933588655e221e1068a5a397909e76331f8a260c",
+          "size": 13941,
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/blobs/933588655e221e1068a5a397909e76331f8a260c"
+        },
+        {
+          "path": "SIMPLIFICATION_HANDOFF.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "caafd16aa476194aad8c24687fe704952319d6e2",
+          "size": 5043,
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/blobs/caafd16aa476194aad8c24687fe704952319d6e2"
+        },
+        {
+          "path": "TODO.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "e45c5164f65c2033f0f8f21d8c083aa32571a371",
+          "size": 133770,
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/blobs/e45c5164f65c2033f0f8f21d8c083aa32571a371"
+        },
+        {
+          "path": "docs",
+          "mode": "040000",
+          "type": "tree",
+          "sha": "0465e268882abe3fb7adafa7bc46905ebefa854d",
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/trees/0465e268882abe3fb7adafa7bc46905ebefa854d"
+        },
+        {
+          "path": "generators",
+          "mode": "040000",
+          "type": "tree",
+          "sha": "bd6152fe24ae22a15ba701639dcaec9b4abb8bff",
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/trees/bd6152fe24ae22a15ba701639dcaec9b4abb8bff"
+        },
+        {
+          "path": "historical",
+          "mode": "040000",
+          "type": "tree",
+          "sha": "d4ed883270397c4f9e8ca1035aa75c89bc6e999c",
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/trees/d4ed883270397c4f9e8ca1035aa75c89bc6e999c"
+        },
+        {
+          "path": "integrations",
+          "mode": "040000",
+          "type": "tree",
+          "sha": "c521303b532ab17761997bf5aba0c4ce02acbccb",
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/trees/c521303b532ab17761997bf5aba0c4ce02acbccb"
+        },
+        {
+          "path": "lake-manifest.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "89a374ea198e5f7a1fd8a9c5fc2250111a7cafb9",
+          "size": 3163,
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/blobs/89a374ea198e5f7a1fd8a9c5fc2250111a7cafb9"
+        },
+        {
+          "path": "lakefile.lean",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "be5deb6d6ccc47d0ad4335e6a65bb0016933e803",
+          "size": 468,
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/blobs/be5deb6d6ccc47d0ad4335e6a65bb0016933e803"
+        },
+        {
+          "path": "lean-toolchain",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "ba8ebf2dbaf6a668cd2a0e086186d6d569b69ff5",
+          "size": 25,
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/blobs/ba8ebf2dbaf6a668cd2a0e086186d6d569b69ff5"
+        },
+        {
+          "path": "scripts",
+          "mode": "040000",
+          "type": "tree",
+          "sha": "86a2de88e430610cee25bd4b44018dcf61ad5594",
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/trees/86a2de88e430610cee25bd4b44018dcf61ad5594"
+        },
+        {
+          "path": "simplification",
+          "mode": "040000",
+          "type": "tree",
+          "sha": "1833225d29f363ed657153debf4fede28f700b50",
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/trees/1833225d29f363ed657153debf4fede28f700b50"
+        },
+        {
+          "path": "verification",
+          "mode": "040000",
+          "type": "tree",
+          "sha": "fb62ba9a7edad1373c9d9eb7faa80b5854d418c2",
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/trees/fb62ba9a7edad1373c9d9eb7faa80b5854d418c2"
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "sha": "ad624c40207c6386d9d74f57bde7130691de3362",
+      "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/trees/ad624c40207c6386d9d74f57bde7130691de3362",
+      "tree": [
+        {
+          "path": ".gitattributes",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "a80a66f02a6c8483c9595b7538df24d2759125de",
+          "size": 33,
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/blobs/a80a66f02a6c8483c9595b7538df24d2759125de"
+        },
+        {
+          "path": ".github",
+          "mode": "040000",
+          "type": "tree",
+          "sha": "d152d4d9dd3684210953ed22b0137712ba8dfa99",
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/trees/d152d4d9dd3684210953ed22b0137712ba8dfa99"
+        },
+        {
+          "path": ".gitignore",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "c470888959d4d72e057f335370ce423e3125ebc3",
+          "size": 166,
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/blobs/c470888959d4d72e057f335370ce423e3125ebc3"
+        },
+        {
+          "path": ".gitmodules",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "2e9a363ef3410b1b5bea61699e24a074ab6b170d",
+          "size": 123,
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/blobs/2e9a363ef3410b1b5bea61699e24a074ab6b170d"
+        },
+        {
+          "path": "AGENTS.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "cc116a3362840ed1a0cac8b4a6cd48e3450951ac",
+          "size": 1537,
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/blobs/cc116a3362840ed1a0cac8b4a6cd48e3450951ac"
+        },
+        {
+          "path": "JLEVY_SQUARES.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "eadd6638c80b8d59a1802edc8d4f861db469db6c",
+          "size": 8258,
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/blobs/eadd6638c80b8d59a1802edc8d4f861db469db6c"
+        },
+        {
+          "path": "Lean",
+          "mode": "040000",
+          "type": "tree",
+          "sha": "3446ca0fbf6c896aa4bd2b51edb7d1e5c77cec4a",
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/trees/3446ca0fbf6c896aa4bd2b51edb7d1e5c77cec4a"
+        },
+        {
+          "path": "MISSING.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "44d60395c79e637277cecfb79a7b1756744f6b6d",
+          "size": 5381,
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/blobs/44d60395c79e637277cecfb79a7b1756744f6b6d"
+        },
+        {
+          "path": "PC_RESUME.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "f0674e4f0059f67e45fed9374527ce6376d08aff",
+          "size": 10101,
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/blobs/f0674e4f0059f67e45fed9374527ce6376d08aff"
+        },
+        {
+          "path": "PROVENANCE.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "5d6a6bef3281eca78416a772f7a1f1f805763f96",
+          "size": 5640,
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/blobs/5d6a6bef3281eca78416a772f7a1f1f805763f96"
+        },
+        {
+          "path": "README.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "933588655e221e1068a5a397909e76331f8a260c",
+          "size": 13941,
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/blobs/933588655e221e1068a5a397909e76331f8a260c"
+        },
+        {
+          "path": "SIMPLIFICATION_HANDOFF.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "caafd16aa476194aad8c24687fe704952319d6e2",
+          "size": 5043,
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/blobs/caafd16aa476194aad8c24687fe704952319d6e2"
+        },
+        {
+          "path": "TODO.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "e45c5164f65c2033f0f8f21d8c083aa32571a371",
+          "size": 133770,
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/blobs/e45c5164f65c2033f0f8f21d8c083aa32571a371"
+        },
+        {
+          "path": "docs",
+          "mode": "040000",
+          "type": "tree",
+          "sha": "0465e268882abe3fb7adafa7bc46905ebefa854d",
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/trees/0465e268882abe3fb7adafa7bc46905ebefa854d"
+        },
+        {
+          "path": "generators",
+          "mode": "040000",
+          "type": "tree",
+          "sha": "fdcf36e9dc4a222dd365a0dd4d554e122164ff39",
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/trees/fdcf36e9dc4a222dd365a0dd4d554e122164ff39"
+        },
+        {
+          "path": "historical",
+          "mode": "040000",
+          "type": "tree",
+          "sha": "d4ed883270397c4f9e8ca1035aa75c89bc6e999c",
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/trees/d4ed883270397c4f9e8ca1035aa75c89bc6e999c"
+        },
+        {
+          "path": "integrations",
+          "mode": "040000",
+          "type": "tree",
+          "sha": "c521303b532ab17761997bf5aba0c4ce02acbccb",
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/trees/c521303b532ab17761997bf5aba0c4ce02acbccb"
+        },
+        {
+          "path": "lake-manifest.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "89a374ea198e5f7a1fd8a9c5fc2250111a7cafb9",
+          "size": 3163,
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/blobs/89a374ea198e5f7a1fd8a9c5fc2250111a7cafb9"
+        },
+        {
+          "path": "lakefile.lean",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "be5deb6d6ccc47d0ad4335e6a65bb0016933e803",
+          "size": 468,
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/blobs/be5deb6d6ccc47d0ad4335e6a65bb0016933e803"
+        },
+        {
+          "path": "lean-toolchain",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "ba8ebf2dbaf6a668cd2a0e086186d6d569b69ff5",
+          "size": 25,
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/blobs/ba8ebf2dbaf6a668cd2a0e086186d6d569b69ff5"
+        },
+        {
+          "path": "scripts",
+          "mode": "040000",
+          "type": "tree",
+          "sha": "275738dd0b5eeab6daf22dffbf883ef44ce599dc",
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/trees/275738dd0b5eeab6daf22dffbf883ef44ce599dc"
+        },
+        {
+          "path": "simplification",
+          "mode": "040000",
+          "type": "tree",
+          "sha": "1833225d29f363ed657153debf4fede28f700b50",
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/trees/1833225d29f363ed657153debf4fede28f700b50"
+        },
+        {
+          "path": "verification",
+          "mode": "040000",
+          "type": "tree",
+          "sha": "402d9c00cb5dfe4aebe5869a5d221ae14debc340",
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/trees/402d9c00cb5dfe4aebe5869a5d221ae14debc340"
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "sha": "19e1e93dfc15977d713e7f5c62d088b667929a96",
+      "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/trees/19e1e93dfc15977d713e7f5c62d088b667929a96",
+      "tree": [
+        {
+          "path": ".gitattributes",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "a80a66f02a6c8483c9595b7538df24d2759125de",
+          "size": 33,
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/blobs/a80a66f02a6c8483c9595b7538df24d2759125de"
+        },
+        {
+          "path": ".github",
+          "mode": "040000",
+          "type": "tree",
+          "sha": "d152d4d9dd3684210953ed22b0137712ba8dfa99",
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/trees/d152d4d9dd3684210953ed22b0137712ba8dfa99"
+        },
+        {
+          "path": ".gitignore",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "c470888959d4d72e057f335370ce423e3125ebc3",
+          "size": 166,
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/blobs/c470888959d4d72e057f335370ce423e3125ebc3"
+        },
+        {
+          "path": ".gitmodules",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "2e9a363ef3410b1b5bea61699e24a074ab6b170d",
+          "size": 123,
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/blobs/2e9a363ef3410b1b5bea61699e24a074ab6b170d"
+        },
+        {
+          "path": "AGENTS.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "cc116a3362840ed1a0cac8b4a6cd48e3450951ac",
+          "size": 1537,
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/blobs/cc116a3362840ed1a0cac8b4a6cd48e3450951ac"
+        },
+        {
+          "path": "JLEVY_SQUARES.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "eadd6638c80b8d59a1802edc8d4f861db469db6c",
+          "size": 8258,
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/blobs/eadd6638c80b8d59a1802edc8d4f861db469db6c"
+        },
+        {
+          "path": "Lean",
+          "mode": "040000",
+          "type": "tree",
+          "sha": "3446ca0fbf6c896aa4bd2b51edb7d1e5c77cec4a",
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/trees/3446ca0fbf6c896aa4bd2b51edb7d1e5c77cec4a"
+        },
+        {
+          "path": "MISSING.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "44d60395c79e637277cecfb79a7b1756744f6b6d",
+          "size": 5381,
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/blobs/44d60395c79e637277cecfb79a7b1756744f6b6d"
+        },
+        {
+          "path": "PC_RESUME.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "f0674e4f0059f67e45fed9374527ce6376d08aff",
+          "size": 10101,
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/blobs/f0674e4f0059f67e45fed9374527ce6376d08aff"
+        },
+        {
+          "path": "PROVENANCE.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "5d6a6bef3281eca78416a772f7a1f1f805763f96",
+          "size": 5640,
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/blobs/5d6a6bef3281eca78416a772f7a1f1f805763f96"
+        },
+        {
+          "path": "README.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "933588655e221e1068a5a397909e76331f8a260c",
+          "size": 13941,
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/blobs/933588655e221e1068a5a397909e76331f8a260c"
+        },
+        {
+          "path": "SIMPLIFICATION_HANDOFF.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "caafd16aa476194aad8c24687fe704952319d6e2",
+          "size": 5043,
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/blobs/caafd16aa476194aad8c24687fe704952319d6e2"
+        },
+        {
+          "path": "TODO.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "e45c5164f65c2033f0f8f21d8c083aa32571a371",
+          "size": 133770,
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/blobs/e45c5164f65c2033f0f8f21d8c083aa32571a371"
+        },
+        {
+          "path": "docs",
+          "mode": "040000",
+          "type": "tree",
+          "sha": "0465e268882abe3fb7adafa7bc46905ebefa854d",
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/trees/0465e268882abe3fb7adafa7bc46905ebefa854d"
+        },
+        {
+          "path": "generators",
+          "mode": "040000",
+          "type": "tree",
+          "sha": "fdcf36e9dc4a222dd365a0dd4d554e122164ff39",
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/trees/fdcf36e9dc4a222dd365a0dd4d554e122164ff39"
+        },
+        {
+          "path": "historical",
+          "mode": "040000",
+          "type": "tree",
+          "sha": "d4ed883270397c4f9e8ca1035aa75c89bc6e999c",
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/trees/d4ed883270397c4f9e8ca1035aa75c89bc6e999c"
+        },
+        {
+          "path": "integrations",
+          "mode": "040000",
+          "type": "tree",
+          "sha": "c521303b532ab17761997bf5aba0c4ce02acbccb",
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/trees/c521303b532ab17761997bf5aba0c4ce02acbccb"
+        },
+        {
+          "path": "lake-manifest.json",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "89a374ea198e5f7a1fd8a9c5fc2250111a7cafb9",
+          "size": 3163,
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/blobs/89a374ea198e5f7a1fd8a9c5fc2250111a7cafb9"
+        },
+        {
+          "path": "lakefile.lean",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "be5deb6d6ccc47d0ad4335e6a65bb0016933e803",
+          "size": 468,
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/blobs/be5deb6d6ccc47d0ad4335e6a65bb0016933e803"
+        },
+        {
+          "path": "lean-toolchain",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "ba8ebf2dbaf6a668cd2a0e086186d6d569b69ff5",
+          "size": 25,
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/blobs/ba8ebf2dbaf6a668cd2a0e086186d6d569b69ff5"
+        },
+        {
+          "path": "scripts",
+          "mode": "040000",
+          "type": "tree",
+          "sha": "275738dd0b5eeab6daf22dffbf883ef44ce599dc",
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/trees/275738dd0b5eeab6daf22dffbf883ef44ce599dc"
+        },
+        {
+          "path": "simplification",
+          "mode": "040000",
+          "type": "tree",
+          "sha": "1833225d29f363ed657153debf4fede28f700b50",
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/trees/1833225d29f363ed657153debf4fede28f700b50"
+        },
+        {
+          "path": "verification",
+          "mode": "040000",
+          "type": "tree",
+          "sha": "402d9c00cb5dfe4aebe5869a5d221ae14debc340",
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/trees/402d9c00cb5dfe4aebe5869a5d221ae14debc340"
+        }
+      ],
+      "truncated": false
+    }
+  ],
+  "lean": [
+    {
+      "sha": "27f2049f257ce986a3c3d7aea7a214e54b25f2fe",
+      "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/trees/27f2049f257ce986a3c3d7aea7a214e54b25f2fe",
+      "tree": [
+        {
+          "path": "Certificates",
+          "mode": "040000",
+          "type": "tree",
+          "sha": "3b8d79d727323b1d771601e9f69a530e11bfa246",
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/trees/3b8d79d727323b1d771601e9f69a530e11bfa246"
+        },
+        {
+          "path": "Comparison",
+          "mode": "040000",
+          "type": "tree",
+          "sha": "4486a34de08c9f0f986a694060577288f6cdcedf",
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/trees/4486a34de08c9f0f986a694060577288f6cdcedf"
+        },
+        {
+          "path": "Proofs.lean",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "738bbe3ea0d82739afbeb066c2c09f105ef74ef8",
+          "size": 29,
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/blobs/738bbe3ea0d82739afbeb066c2c09f105ef74ef8"
+        },
+        {
+          "path": "Proofs",
+          "mode": "040000",
+          "type": "tree",
+          "sha": "ff99b04184c98a5ec8f36bf9d242bdc4d7bcab80",
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/trees/ff99b04184c98a5ec8f36bf9d242bdc4d7bcab80"
+        },
+        {
+          "path": "README.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "c0ebf9a0767ddafa69e67873968533d2a603c255",
+          "size": 2789,
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/blobs/c0ebf9a0767ddafa69e67873968533d2a603c255"
+        },
+        {
+          "path": "Squares",
+          "mode": "040000",
+          "type": "tree",
+          "sha": "bce17d588762f74b0d190daed88815207da8d3bd",
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/trees/bce17d588762f74b0d190daed88815207da8d3bd"
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "sha": "3446ca0fbf6c896aa4bd2b51edb7d1e5c77cec4a",
+      "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/trees/3446ca0fbf6c896aa4bd2b51edb7d1e5c77cec4a",
+      "tree": [
+        {
+          "path": "Certificates",
+          "mode": "040000",
+          "type": "tree",
+          "sha": "e35d6efafb87051751152a2e45090ce50d5963b3",
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/trees/e35d6efafb87051751152a2e45090ce50d5963b3"
+        },
+        {
+          "path": "Comparison",
+          "mode": "040000",
+          "type": "tree",
+          "sha": "8b30db8ff3d1f208c3fc21b932e7d2d59438716a",
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/trees/8b30db8ff3d1f208c3fc21b932e7d2d59438716a"
+        },
+        {
+          "path": "Proofs.lean",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "738bbe3ea0d82739afbeb066c2c09f105ef74ef8",
+          "size": 29,
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/blobs/738bbe3ea0d82739afbeb066c2c09f105ef74ef8"
+        },
+        {
+          "path": "Proofs",
+          "mode": "040000",
+          "type": "tree",
+          "sha": "d20eff1630270e2110da858c993940b9b9cf19f1",
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/trees/d20eff1630270e2110da858c993940b9b9cf19f1"
+        },
+        {
+          "path": "README.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "c0ebf9a0767ddafa69e67873968533d2a603c255",
+          "size": 2789,
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/blobs/c0ebf9a0767ddafa69e67873968533d2a603c255"
+        },
+        {
+          "path": "Squares",
+          "mode": "040000",
+          "type": "tree",
+          "sha": "43bd12e6d3ab6846648c927c1b279dcb1b91d17a",
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/trees/43bd12e6d3ab6846648c927c1b279dcb1b91d17a"
+        }
+      ],
+      "truncated": false
+    }
+  ],
+  "proofs": [
+    {
+      "sha": "ff99b04184c98a5ec8f36bf9d242bdc4d7bcab80",
+      "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/trees/ff99b04184c98a5ec8f36bf9d242bdc4d7bcab80",
+      "tree": [
+        {
+          "path": "N11",
+          "mode": "040000",
+          "type": "tree",
+          "sha": "6338a84574849013bc51276102cf8a794999923a",
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/trees/6338a84574849013bc51276102cf8a794999923a"
+        },
+        {
+          "path": "N12",
+          "mode": "040000",
+          "type": "tree",
+          "sha": "2bd9f99930d18715b2a821ec2e16ce6091801099",
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/trees/2bd9f99930d18715b2a821ec2e16ce6091801099"
+        },
+        {
+          "path": "N17",
+          "mode": "040000",
+          "type": "tree",
+          "sha": "6b7672b236c46c11bb73ae8e0c483269b4ecf4a7",
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/trees/6b7672b236c46c11bb73ae8e0c483269b4ecf4a7"
+        },
+        {
+          "path": "README.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "1225ce1efda2914e3e09c66723532ccdf46001f8",
+          "size": 2359,
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/blobs/1225ce1efda2914e3e09c66723532ccdf46001f8"
+        }
+      ],
+      "truncated": false
+    },
+    {
+      "sha": "d20eff1630270e2110da858c993940b9b9cf19f1",
+      "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/trees/d20eff1630270e2110da858c993940b9b9cf19f1",
+      "tree": [
+        {
+          "path": "N11",
+          "mode": "040000",
+          "type": "tree",
+          "sha": "440592b7ea39dd91e2c865c273e3041ef61dc2c6",
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/trees/440592b7ea39dd91e2c865c273e3041ef61dc2c6"
+        },
+        {
+          "path": "N12",
+          "mode": "040000",
+          "type": "tree",
+          "sha": "2bd9f99930d18715b2a821ec2e16ce6091801099",
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/trees/2bd9f99930d18715b2a821ec2e16ce6091801099"
+        },
+        {
+          "path": "N17",
+          "mode": "040000",
+          "type": "tree",
+          "sha": "6b7672b236c46c11bb73ae8e0c483269b4ecf4a7",
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/trees/6b7672b236c46c11bb73ae8e0c483269b4ecf4a7"
+        },
+        {
+          "path": "README.md",
+          "mode": "100644",
+          "type": "blob",
+          "sha": "1225ce1efda2914e3e09c66723532ccdf46001f8",
+          "size": 2359,
+          "url": "https://api.github.com/repos/EvolvingPrograms/SquaresLean/git/blobs/1225ce1efda2914e3e09c66723532ccdf46001f8"
+        }
+      ],
+      "truncated": false
+    }
+  ],
+  "n12_tree_unchanged": "2bd9f99930d18715b2a821ec2e16ce6091801099"
+}

@@ -1,0 +1,30 @@
+{
+  "original": {
+    "zip_member": "C981-progress-2026-10-10/SquaresLean-c981/projects/n12-jatloe419/Completion/Cases/C981/InitialV116.lean",
+    "bytes": 109375,
+    "lines": 440,
+    "sha256": "f89ecc384c08e84eb781465054fbe0539e9340ba03a063a35f9cb5886fd28204",
+    "angle_roots": 32,
+    "receipt": "source-only certificate explicitly defers Lean checks"
+  },
+  "replacement": [
+    {
+      "path": "Compact/Geometry/C981Midpoint.lean",
+      "bytes": 3470,
+      "lines": 75,
+      "sha256": "304274cf6a408c64970d67aff9dadb0db31e6d996b81f3438e2a95e1843dff02"
+    },
+    {
+      "path": "Compact/Cases/C981V116.lean",
+      "bytes": 1514,
+      "lines": 38,
+      "sha256": "aad60a25ce4cb71db8234130e2b430ed5810b833ee8c9977cf6a6c7aafa8dfb1"
+    }
+  ],
+  "geometry_validation": {
+    "receipt": "parent reported PASS",
+    "seconds": 1.704,
+    "log": ".verification/Compact.Geometry.C981Midpoint.log",
+    "scope": "geometry only; exact vector binding not included"
+  }
+}

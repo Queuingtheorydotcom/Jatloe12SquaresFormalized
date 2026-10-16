@@ -1,0 +1,95 @@
+{
+  "status": "source-only; parent replay pending",
+  "scope": "Replace concrete rational insidePoints/outsidePoints list-membership proofs under classical with norm_num; no predicates, points, inequalities, or geometry changed. Three shared bridge files serve the five remaining assembly groups. Accepted FourSquareCase untouched.",
+  "edits": [
+    {
+      "path": "Compact/Bridge/FourSquareCaseVariant.lean",
+      "before": {
+        "sha256": "441e878ea7152d271e9e1089669cbe341312631c9b071578f451721b52046597",
+        "bytes": 6567
+      },
+      "after": {
+        "sha256": "6d2aba4a1c4062e4b32e439337162070ee54bac6c3b1304b26d2aaa9f9aeddfd",
+        "bytes": 7079
+      },
+      "repaired_lines": [
+        114,
+        115,
+        116,
+        117,
+        118,
+        119,
+        120,
+        121,
+        122,
+        123,
+        124,
+        125,
+        127,
+        128,
+        129,
+        130
+      ],
+      "count": 16
+    },
+    {
+      "path": "Compact/Bridge/FourSquareCaseHighRight.lean",
+      "before": {
+        "sha256": "cb3909a1b895bdce4bc49b3d9707988e5f86f8c17ad902ed0e315284b918ff5a",
+        "bytes": 7011
+      },
+      "after": {
+        "sha256": "15cccda14dcda21a2fd3bc40991eddd688ddfe916f0bec34adcc188348be0e2e",
+        "bytes": 7491
+      },
+      "repaired_lines": [
+        96,
+        98,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        135,
+        137
+      ],
+      "count": 15
+    },
+    {
+      "path": "Compact/Bridge/FourSquareConvexCase.lean",
+      "before": {
+        "sha256": "1272e83d6d6269df55d62d4d068cf3288722820afe8de56e809bfc4f2fda6b40",
+        "bytes": 7084
+      },
+      "after": {
+        "sha256": "c12f29d1bb98af7bd393acb777905a8acef3245c7b44b9adc3c2c52f0a596c0c",
+        "bytes": 7596
+      },
+      "repaired_lines": [
+        123,
+        124,
+        125,
+        126,
+        127,
+        128,
+        129,
+        130,
+        131,
+        132,
+        133,
+        134,
+        136,
+        137,
+        138,
+        139
+      ],
+      "count": 16
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+PAUSED STATUS UPDATE:18of20listed full-vector roots passed scoped replay.
+CommonRows,Common107,NewSimpleShortRows,OutwardTranspose,ShortCentralRows
+are accepted individually. LastRows29/Last104 remain unaccepted. Registry
+integration is not applied. See RESUME-SIMPLIFIED-2026-10-14.txt for the
+latest authoritative continuation and evidence. The older text below is
+the original route/integration plan, not a claim that every root is pending.
+
+C981 SIMPLIFIED SOURCE ROUTES, 2026-10-14
+
+Status at writing: source candidates, with serial replay in progress. This
+file is an integration map, not an acceptance receipt. Do not remove a
+Pending obligation or increase a checked count until its exact root and
+dependencies pass the guarded verifier and axiom audit.
+
+All paths below are relative to projects/n12-refactored. The existing
+handoff/CONTINUATION-2026-10-14.txt retains the resource/trust requirements.
+The user's later explicit resume authorizes the current work, but does not
+remove the single-computational-process rule, preferred 8,000 / hard 10,000
+whole-proof module limits, strict ownership, or closed-boundary semantics.
+
+SOURCE ROUTES FOR THE TWENTY REMAINING ORIGINAL C981 REPRESENTATIVES
+
+1. Compact.Completion.C981.CommonRows.covered_excluded
+   IDs: 2,28,30,34,37,41,43,69,103.
+   Generic geometry and query Check. Common107 imports this root.
+
+2. Compact.Completion.C981.Common107.representative107_excluded
+   ID: 107.
+   Transposes actual owners and all point/omission facts together. The
+   ordinary center belongs to original owner 5.
+
+3. Compact.Completion.C981.LastRows.representative29_excluded
+   ID: 29.
+   Compact.Completion.C981.Last104.representative104_excluded
+   ID: 104.
+   The last-cycle root retains actual owners and the side upper bound.
+
+4. Compact.Completion.C981.NewSimpleShortRows.covered_excluded
+   IDs: 54,56,58,73,109.
+   Rows 54,56,58,109 reuse Common107.Check and excludes directly.
+   Row 73 reuses CommonRows.Check and excludes directly.
+   This removes any need for the large ShortCertificate54 route for row54
+   after acceptance. Do not expand or replay that certificate merely to
+   prove a row already supplied by this geometry root.
+   Row55 does NOT satisfy Common107.Check: actual top owner11 owns auxiliary
+   14=(1.74,3), which that entrance requires absent.
+
+5. Compact.Completion.C981.OutwardTranspose.representative55_excluded
+   ID: 55.
+   OutwardRows.geometry is the old outward contradiction extracted without
+   changing its point, wall, or disjointness premises. The transpose uses
+   actual NW owner7, actual left-wall owner8, singleton owner1, paired-corner
+   owner4, and top-wall owner11. No ordinary center is assumed.
+
+6. Compact.Completion.C981.ShortCentralRows.covered_excluded
+   IDs: 93,98.
+   Imports the new shared ShortCentralPair geometric helper.
+   The actual NE central owner6 has its center from CentralWallCenter.point
+   with actual right10 and top11. Crosspoint plus right_high gives north/east
+   half-unit points. Actual bottom9 and left8 reach 2.8 using their actual
+   foreign singleton0/1 seeds, then supply the closed 2.26--2.73 segments.
+   ShortOutwardLock excludes each chosen outward neighbor's nonnegative
+   canonical sector. For central canonical s<=0, pair actual6 with actual5;
+   for s>0, transpose and pair actual6 with actual7. A half-turn preserves
+   the canonical normal and invokes NegativePair.impossible. Zero and
+   diagonal canonical angles are included. No pose assumptions, numerical
+   angle sampling, approximate coordinates, or added certificates occur.
+
+INTEGRATION AFTER ACCEPTANCE
+
+Compact/Assembly/C981Progress.lean currently records the earlier22 vector
+exclusions. First add the ten CommonRows/Common107 entries and two LastRows/
+Last104 entries only after acceptance:22->34. If all simplified roots above
+also pass, the further8 entries give42 new original-vector exclusions in
+total. Preserve newIds_exact, newIds_count, newIds_distinct, newIds_bound,
+and an actual ExcludesVector proof for every listed original index.
+
+Compact/Cases/C981Registry.lean currently has20 unfinished entries. The
+Common+Last routes reduce these to[54,55,56,58,73,93,98,109]; the simplified
+five-row root reduces them to[55,93,98]; OutwardTranspose and ShortCentralRows
+would discharge the final three. Update coveredIds/unfinished and the actual
+all_representatives dispatch together. Merely updating the list is invalid.
+
+The registry also imports older branches, including FullAuxNegative and its
+FullAuxWallOppositeAxes dependency, whose fresh replay has separate blockers.
+No new row wrapper bypasses those older proof obligations. Whole C981Compact
+additionally imports the original coverage/symmetry enumeration through
+CaseVectors/Coverage.Final, AllowedData, Prefix00--12 and TransposeData.
+Acceptance of twenty new vector roots does not itself accept those files.
+
+The global SourceAssembly count remains98 original source cases with19
+pending until a complete original C981 case contract, including the original
+enumeration/coverage and all older registry branches, is supplied. Individual
+vectors must never be counted as additional original cases. The unrestricted
+S12.packingConstant12=4 theorem remains unproved until all pending cases and
+the complete assembly are discharged and verified.
+
+VALIDATION ORDER
+
+Use the current serial scripts/verify.py guarded invocation supplied by the
+root coordinator, not a concurrent lake/Lean job. The useful small roots are:
+  Compact.Completion.C981.NewSimpleShortRows
+  Compact.Completion.C981.Last104
+  Compact.Completion.C981.OutwardTranspose
+  Compact.Completion.C981.ShortCentralPair
+  Compact.Completion.C981.ShortCentralRows
+Then replay C981Progress and C981Registry after controlled integration.
+Run source_census.py before accepting added modules. Keep build logs/caches
+ignored and record exact passing roots, timings and public axiom audits.
+Source review, Python membership proposals, and tiny data-root checks do not
+replace the geometric Lean replay. These new candidate proofs intend only
+ordinary kernel proofs; report any inherited native numerical trust from
+the original ownership/enumeration foundation separately.

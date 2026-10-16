@@ -1,0 +1,396 @@
+{
+  "status": "complete exact fan audit; Lean replay pending",
+  "cases": [
+    713
+  ],
+  "lean_checked": false,
+  "whole_cases_proved": false,
+  "failures": [],
+  "empty_contexts": [],
+  "sources": {
+    "evidence/historical-compact-data/manifest.json": "f20009fcf353dc46a22907d2c1dc78a23a5e8499f569ab549d94bb31ba6d53ca",
+    "evidence/historical-compact-data/rows.json": "5652be93ba32352a8fdc393c028424cf9d454a2fefa7798e55723e5da8027215",
+    "evidence/historical-compact-data/poses.json": "faeaf04102217cc07ceccc576ecfed41a9c7ed164a41bfc516c415ce95226908",
+    "evidence/historical-compact-data/blocks.json": "229f22acc26ca633375a7f8f53dd7cd147158bc573fb8f3aa64f96049541608e",
+    "evidence/historical-compact-data/contexts.json": "93721f24cf17a21e03b8dc3edb6bac6d9f7309abdc440d543a936959464443d5",
+    "evidence/historical-compact-data/references.json": "98ea24eb82ed29fabdc69c34efc30eb314015535afbffddc0f31ca65537afb70",
+    "evidence/historical-compact-data/C713.json": "7ed7f008778113b87e979da105f25ab8c412258bf99cd01dac16e58755424e3a"
+  },
+  "limits": {
+    "rss_mib": 256,
+    "seconds": 120,
+    "output_mib": 32
+  },
+  "requested_pairs": 94735,
+  "verified_pairs": 94735,
+  "pairs_closed_by_empty_certificate": 0,
+  "requested_contexts": 1815,
+  "fan_contexts": 1815,
+  "empty_context_count": 0,
+  "all_selected_pairs_pass": true,
+  "failure_count": 0,
+  "statistics": {
+    "line_intersections": 53725,
+    "fan_entries": 12938,
+    "vertex_basis_candidates": 13349,
+    "support_requests": 756664
+  },
+  "elapsed_seconds": 4.374511625002924,
+  "files": [
+    {
+      "path": "fans.json",
+      "lines": 1,
+      "bytes": 1307488,
+      "sha256": "4ba25389eba1fbc25cab76ca75f25e9c38777d8292321d70d5441dcf20356f11"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts000.lean",
+      "lines": 319,
+      "bytes": 36804,
+      "sha256": "e92646566738c8bfd3074bcdce7ad2f81df16a128347889811ed730b8fcbd2fc"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts001.lean",
+      "lines": 338,
+      "bytes": 39844,
+      "sha256": "d33dabaa5aba2a4062bbbb3db6bb4d91ec667ace24d7c09bc274d7d678685fca"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts002.lean",
+      "lines": 364,
+      "bytes": 44777,
+      "sha256": "68278f2cfcc326ac0de190dad8e38d9b2c444a38903b76599f94b7921ca2e661"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts003.lean",
+      "lines": 355,
+      "bytes": 45901,
+      "sha256": "882657acff50f31c12084a13801db142295be296e57b5211d0f921a9c5fe6e64"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts004.lean",
+      "lines": 358,
+      "bytes": 47294,
+      "sha256": "1289ab01b88764e496dbda687c0e94d86ec6d7ef8233d5c9488fcee0352fe795"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts005.lean",
+      "lines": 354,
+      "bytes": 46227,
+      "sha256": "5838a02599dc51da662c4dd5c599ba16ff34a1694226414bfddadd7abeeb34e0"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts006.lean",
+      "lines": 347,
+      "bytes": 45962,
+      "sha256": "b9077c28bc38e1d8413aa4bd0adbff57ce7b4480cdb031e698b201447a0efa36"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts007.lean",
+      "lines": 344,
+      "bytes": 40142,
+      "sha256": "90e852a322bbcceae71807f28b40622709562dadfebd8609aec509c3c7330425"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts008.lean",
+      "lines": 301,
+      "bytes": 32161,
+      "sha256": "47fd259cbaa68ff7afddaffe4bd9ac6626b8858c9628d62c582bf542d1971aab"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts009.lean",
+      "lines": 308,
+      "bytes": 33665,
+      "sha256": "c230a0e07f67326fbaa40df85d13d7767a5f52e194bd83d56b3450c31c37f508"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts010.lean",
+      "lines": 350,
+      "bytes": 41806,
+      "sha256": "87f245ad428828e9f88fa246a082ffd7769cebb3efd41f5872dc83e0a1af7fa9"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts011.lean",
+      "lines": 425,
+      "bytes": 61630,
+      "sha256": "55709f78f542c77ede384684db8a5dc9737643b8ba94b92c39ef227cd8980788"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts012.lean",
+      "lines": 321,
+      "bytes": 38866,
+      "sha256": "86e115e4195c6e7f5d48792dcf92d0b298335cb46b392aed8f78baaeb13d3942"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts013.lean",
+      "lines": 303,
+      "bytes": 36031,
+      "sha256": "ea98c3aa8a61cb8b4a6967ed4ad8cf6978b9b2febd7fcd2886dc61f335d6542e"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts014.lean",
+      "lines": 326,
+      "bytes": 39996,
+      "sha256": "153f3f8b3d265ed3300ea6a1d0763eed645af0eac3753b412c002839bdd77c15"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts015.lean",
+      "lines": 342,
+      "bytes": 41463,
+      "sha256": "1dcb6f86596e2cae5dbd9892d07642deb067707ea30b4e958b3681121015b3b6"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts016.lean",
+      "lines": 342,
+      "bytes": 40543,
+      "sha256": "6f8dad66b5638b8033e404115126ca91141770be13b44917a2692711ddf89cdf"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts017.lean",
+      "lines": 333,
+      "bytes": 39047,
+      "sha256": "2010c5dabc2dd6fd770ce6f578202b29071c56f4dc58d28c5a40c223ab7a7299"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts018.lean",
+      "lines": 328,
+      "bytes": 40376,
+      "sha256": "34c7e35022a8341da55b2961565e1f02d43d753e9e7d1af853c9be888fcf9284"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts019.lean",
+      "lines": 314,
+      "bytes": 35502,
+      "sha256": "12d51244d34d6122e524e7374267508fc4c7e3f0f655ab910b196c8751fbfc64"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts020.lean",
+      "lines": 302,
+      "bytes": 33957,
+      "sha256": "51e599149313a800857e710deec8155055436e8fefb743e1e6da2d0ccdbbaddb"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts021.lean",
+      "lines": 323,
+      "bytes": 39211,
+      "sha256": "9746730a67ab50162df7e0db26fad93b7b3e01cd67a9d030dc7f1d7581a259d4"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts022.lean",
+      "lines": 340,
+      "bytes": 40518,
+      "sha256": "51cb07754e91f619bae6b33363a84f27945d4886eb27312409e91b1f4f30dfe4"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts023.lean",
+      "lines": 353,
+      "bytes": 42355,
+      "sha256": "fffab647b7a96a2617ed215590a7a86b5742677c18239e13bf9fddc3a878e8fd"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts024.lean",
+      "lines": 371,
+      "bytes": 46021,
+      "sha256": "7fb0d4a6ee4e192c90cffc083dcfb2ada1aa887be458af1b311f029cda476fe3"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts025.lean",
+      "lines": 352,
+      "bytes": 47128,
+      "sha256": "8689bfd38ad7c8e5271654d73e2b8c4a16a9166cbe79990fd0ea2d536ed36d40"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts026.lean",
+      "lines": 330,
+      "bytes": 42113,
+      "sha256": "72b026cb919a7bda1742df5ce0ce73fc1d5ba3d751b8bea7392599db8d84f47a"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts027.lean",
+      "lines": 297,
+      "bytes": 32629,
+      "sha256": "206220c8e9b9ec89d42fb7c8ed7c234b43de610c96c76bdc6024e69ed555e6d9"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts028.lean",
+      "lines": 455,
+      "bytes": 63894,
+      "sha256": "ccc2e12410a3094d9d41b768df851e52c136b26d07d83b1bbcba02300414d045"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts029.lean",
+      "lines": 358,
+      "bytes": 45269,
+      "sha256": "e6143c4dbafdf959c90f0213918cc78062c377c568f9abc3b84e6c58b80e4feb"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts030.lean",
+      "lines": 351,
+      "bytes": 42137,
+      "sha256": "8ea577be8e99f30b938437d249e1cbcac527ad36826f4704c81dccbddaed625d"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts031.lean",
+      "lines": 338,
+      "bytes": 40149,
+      "sha256": "7f11d7a710f7c4f8716a3b0e177c280187275d121a3e7b48e52f6e9e480fc7cf"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts032.lean",
+      "lines": 329,
+      "bytes": 39912,
+      "sha256": "86e01c931fd0cbe7aff4cff31142a11a912a9b3de606f8a6f76129fdace80f89"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts033.lean",
+      "lines": 308,
+      "bytes": 40348,
+      "sha256": "2e38001f78fae50a19e39ff84f57a3ac68d89ad576d79073f5ca0847f8c8c93d"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts034.lean",
+      "lines": 332,
+      "bytes": 44280,
+      "sha256": "8b0dd886bf55e33955578348e1169f716d1c136ce49e4dc5a5fee5c0a7f8b0b3"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts035.lean",
+      "lines": 342,
+      "bytes": 47174,
+      "sha256": "9ba49dd2156ad7f521de9e41cb8ab1d652ebf903d7cea0ce5c1205e1df64a160"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts036.lean",
+      "lines": 286,
+      "bytes": 32205,
+      "sha256": "e7f2761f040861eebd015aeb152f6a000d657c7290281eb986fa61c6a78d2560"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts037.lean",
+      "lines": 301,
+      "bytes": 32294,
+      "sha256": "8a545075e221208b2ca493a8455f8f2cba3319639f0a5064a6164b9cc849540d"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts038.lean",
+      "lines": 290,
+      "bytes": 34351,
+      "sha256": "f4130a8571d1ea560da4b20fdd2b0ef1d42280241ea47770e3d560a853765e1c"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts039.lean",
+      "lines": 523,
+      "bytes": 81788,
+      "sha256": "709e7d7a85ae7ff19f96385ad5b6762ced1e721cdac1f3983ba2ab94a99a05f1"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts040.lean",
+      "lines": 350,
+      "bytes": 44337,
+      "sha256": "8521617715e9cccbbe57b16508db2812ab359ba01474a4fc8bb670dbb9737cb4"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts041.lean",
+      "lines": 345,
+      "bytes": 41705,
+      "sha256": "35ae49081461f1704588cd892877943a5cadfd3a4a9a357aa3fd463e2a6b754c"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts042.lean",
+      "lines": 365,
+      "bytes": 45277,
+      "sha256": "e461f6b537789a0bc441b5056eec41f59b193ca5bbff5f4b20ff41467b952a2f"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts043.lean",
+      "lines": 366,
+      "bytes": 45443,
+      "sha256": "40ebef3e6b8ff04ab7c13b03d037ed493cdc6788ae57ca3b462d410a5342074c"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts044.lean",
+      "lines": 413,
+      "bytes": 54286,
+      "sha256": "e7ae45c244baad107a88eb69c2a81e27a836907bfd4d28cb76dc012ead206148"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts045.lean",
+      "lines": 362,
+      "bytes": 48597,
+      "sha256": "dbca373efce2519ac243807fe1ad8bcebfcc00d2d23b883007a295920527edb4"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts046.lean",
+      "lines": 321,
+      "bytes": 37265,
+      "sha256": "c9d34ffc07feb85c35fcdc0311d36ba6ea90c4dec20c2af172649984e4e8672e"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts047.lean",
+      "lines": 292,
+      "bytes": 31017,
+      "sha256": "887ed6784e6b9a4ddd9f8436418a40176e0697349f3ade50356beaa890506553"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts048.lean",
+      "lines": 271,
+      "bytes": 27232,
+      "sha256": "708a8002528814c030d5134eb118a392aa4a880113bf029094626540c40fde9d"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts049.lean",
+      "lines": 305,
+      "bytes": 34813,
+      "sha256": "a12d79696b2b6d5d0a64bdb86a2f0c84551bac9455250101300735e0faddf2a0"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts050.lean",
+      "lines": 267,
+      "bytes": 33569,
+      "sha256": "ea804c3e41127a443b4cd428d5d232bd5d8df7d23ebfc1ff5c6ca5751f9ebe9f"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts051.lean",
+      "lines": 338,
+      "bytes": 43867,
+      "sha256": "7ed7b5e7e10466492884511ab4ed8df18ef46bd23191b137ce52c0fd5893d7c2"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts052.lean",
+      "lines": 358,
+      "bytes": 45822,
+      "sha256": "07afb3667d41fe7f9010335b9f5a4ba769c1867bd97a56d6fc82bc9a92d31722"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts053.lean",
+      "lines": 318,
+      "bytes": 37047,
+      "sha256": "8f5d6eb6cc976add8bddbe86fe898a0faafc0f65fbeb2850fe1bcd0d6383f95d"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts054.lean",
+      "lines": 296,
+      "bytes": 34117,
+      "sha256": "0c7add206a2d652de4a6d029f07e370011f68aec23f55df60201ae806d3528d9"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts055.lean",
+      "lines": 296,
+      "bytes": 33005,
+      "sha256": "1fa4e0d74ef18d7dfef3411c7d5b41b3a80119ce7fd741022cefd91ef9d893c3"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts056.lean",
+      "lines": 208,
+      "bytes": 22641,
+      "sha256": "1796a278b9553e2da7b987ddb055246b2c4c8011b33c7898efe7be465c7d32ce"
+    }
+  ],
+  "lean_lines": 19124,
+  "lean_modules": 57,
+  "remaining": [
+    "Lean checks of all emitted context tables and empty certificates",
+    "all original pair checks and exact global ID/angle/reference adapters",
+    "all relaxation, pruning-cover, chord and original-entrance obligations"
+  ]
+}

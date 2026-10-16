@@ -1,0 +1,27 @@
+{
+  "status": "source assembled; helper and full data replay pending",
+  "chunk_size": 256,
+  "no_flattening": true,
+  "tables": [
+    {
+      "path": "Compact/Cases/C898/SharedRows.lean",
+      "before_sha256": "b653d218bfc5e51b041a469daaf1566cfb6a760806431ec38827ec1b032600e6",
+      "after_sha256": "528d70b97b1e95fe2c43a2d04cd3ac5a14322669683087c74fc862adffb44e1e",
+      "rows": 26026,
+      "chunks": 102,
+      "maximum_chunk_length": 256,
+      "all_global_indices_and_values_preserved": true,
+      "literal_fields_sha256": "10fa0cf0fbcdc94f5d31abd21cd64764e6d2e49e1d60ed397f4863b80ec1331b"
+    },
+    {
+      "path": "Compact/Cases/C898/Initial/Rows.lean",
+      "before_sha256": "1b1cf57375834359da3967bcfdd6bec07df5d003db323958c12e41882adfff92",
+      "after_sha256": "be396305f3250974e9803a89207ba32383692f686fc4a9d092aa76ff614197e2",
+      "rows": 14281,
+      "chunks": 56,
+      "maximum_chunk_length": 256,
+      "all_global_indices_and_values_preserved": true,
+      "literal_fields_sha256": "b53e9e7e75b15e08d93d640d7484401c3242907ccd7c890fc62ec80a0911f4d3"
+    }
+  ]
+}

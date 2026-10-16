@@ -1,0 +1,327 @@
+{
+  "status": "source assembly only; all imported adapters require Lean acceptance",
+  "lean_checked": false,
+  "cases": [
+    {
+      "case": 701,
+      "initial_owners": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "pair_steps": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        15,
+        16,
+        17,
+        18,
+        19,
+        21,
+        22,
+        24,
+        25,
+        26,
+        27,
+        29,
+        30
+      ],
+      "original_chord_steps": [
+        6,
+        14,
+        20,
+        23,
+        28
+      ],
+      "height_replacement": false
+    },
+    {
+      "case": 713,
+      "initial_owners": [
+        0,
+        1,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "pair_steps": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9
+      ],
+      "original_chord_steps": [
+        5
+      ],
+      "height_replacement": true
+    },
+    {
+      "case": 717,
+      "initial_owners": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "pair_steps": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16
+      ],
+      "original_chord_steps": [
+        17,
+        18
+      ],
+      "height_replacement": false
+    },
+    {
+      "case": 973,
+      "initial_owners": [
+        0,
+        1,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "pair_steps": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        12,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        27
+      ],
+      "original_chord_steps": [
+        10,
+        11,
+        15,
+        25,
+        26
+      ],
+      "height_replacement": false
+    },
+    {
+      "case": 978,
+      "initial_owners": [
+        0,
+        1,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "pair_steps": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        12,
+        14,
+        15
+      ],
+      "original_chord_steps": [
+        11,
+        13
+      ],
+      "height_replacement": false
+    },
+    {
+      "case": 979,
+      "initial_owners": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11
+      ],
+      "pair_steps": [
+        0,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        18,
+        19,
+        22,
+        23,
+        25,
+        26,
+        29
+      ],
+      "original_chord_steps": [
+        17,
+        20,
+        21,
+        24,
+        27,
+        28
+      ],
+      "height_replacement": false
+    }
+  ],
+  "input_sha256": {
+    "evidence/historical-compact-data/manifest.json": "f20009fcf353dc46a22907d2c1dc78a23a5e8499f569ab549d94bb31ba6d53ca",
+    "evidence/historical-compact-data/C701.json": "6723e8797c91294ea344f8401980930449535b2fb06c4668e2e41810becb8c90",
+    "Compact/Preservation/C701.lean": "b9a9a10790bc261446d86e70732e9e71e99cc312212736969c2d94605837a505",
+    "evidence/historical-compact-data/C713.json": "7ed7f008778113b87e979da105f25ab8c412258bf99cd01dac16e58755424e3a",
+    "Compact/Preservation/C713.lean": "07b32bacefef626db8157d3d7431d9d55a5f38093c1be0d9d70face66d25fdde",
+    "evidence/historical-compact-data/C717.json": "97de7a3f49746eb39d645eb905f669ce26f4ecea9932b7b8b31f1b13c289e1f8",
+    "Compact/Preservation/C717.lean": "861e479f05a1a0973768dab6c3d473ccae0c04dcb7151e0d20e5b64d4a50678e",
+    "evidence/historical-compact-data/C973.json": "5431135cc2ce7bfac80fcfb8110da4001bd9b166b7841b07124aa2d2ebb38612",
+    "Compact/Preservation/C973.lean": "f8e1f83909ddb61cc8fc48b700f3c4089bb98937114a6166f145b224692d5f33",
+    "evidence/historical-compact-data/C978.json": "54cbc6e78920b25ac5eaa71dcfea16278f318f6448a0b145f4405458f6600431",
+    "Compact/Preservation/C978.lean": "ab982e124fafae7d0749767c07020954eb9313c12d0d5ad2692c8272a619ed29",
+    "evidence/historical-compact-data/C979.json": "5e49e7bd7308b6183ffdcba652edd1543cdb585f8c5cfe431d0d314e9b5d786d",
+    "Compact/Preservation/C979.lean": "ef976cdf4996c5d15efd7620c01029789b12d16fe56480d6c927ec328106e844"
+  },
+  "output_files": [
+    {
+      "path": "Compact/Preservation/Complete/C701.lean",
+      "sha256": "832c30057e7d4b29a65ae6f75626bffa1b94a9c89705bc79c69e47cc5aa5e752",
+      "bytes": 4337,
+      "lines": 99
+    },
+    {
+      "path": "Compact/Preservation/Complete/C713.lean",
+      "sha256": "0444a8b84736500b269d72d440ee8aafdee9d41b4f60b31ad362489283f308f8",
+      "bytes": 1797,
+      "lines": 45
+    },
+    {
+      "path": "Compact/Preservation/Complete/C717.lean",
+      "sha256": "df0e3424c9d7adc82a31e366f68aa26ae27e4e7c78a798e76054e2957ae7105c",
+      "bytes": 3065,
+      "lines": 74
+    },
+    {
+      "path": "Compact/Preservation/Complete/C973.lean",
+      "sha256": "5b7aa180e4b0815e1d17a66a10e4e05d444f9b0bf33fb2ff9dc0e2344d7ec957",
+      "bytes": 3992,
+      "lines": 92
+    },
+    {
+      "path": "Compact/Preservation/Complete/C978.lean",
+      "sha256": "26c36557627394843eab70d4c902eebdccc3f81a30e9f82143315c59c7f71490",
+      "bytes": 2681,
+      "lines": 66
+    },
+    {
+      "path": "Compact/Preservation/Complete/C979.lean",
+      "sha256": "f80e68fb2caefa5c0590eb841ec1ff4012b89fedd9b4ef1b25792066f20fdd1f",
+      "bytes": 4238,
+      "lines": 97
+    },
+    {
+      "path": "Compact/Preservation/Complete/All.lean",
+      "sha256": "87377739c313179b28d2d91a1221597ef213100f7878b8d36cc71abcacc04975",
+      "bytes": 481,
+      "lines": 10
+    }
+  ],
+  "lean_modules": 7,
+  "lean_lines": 483,
+  "lean_bytes": 20591,
+  "elapsed_seconds": 0.041610874999605585
+}

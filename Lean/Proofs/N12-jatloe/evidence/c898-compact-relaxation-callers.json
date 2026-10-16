@@ -1,0 +1,84 @@
+{
+  "scope": "import and namespace migration only; every original completion theorem statement/body otherwise unchanged; replay pending",
+  "unchanged_terminal": "Step14 uses no relaxation links",
+  "links": 927,
+  "files": [
+    {
+      "path": "Compact/Cases/C898/CachedPairs/Step00.lean",
+      "before_sha256": "fb29c054ccf8d7fae8852fbdc7f41d2ee0a7bf7ede7c1602dd4cbbee6b28abce",
+      "after_sha256": "57e62c8373eef65d9b10d6c0e2c40087d77b034559d3e640b60806d4179af331",
+      "archive": "evidence/retired/C898RetainedRelaxationCallers/Step00.lean"
+    },
+    {
+      "path": "Compact/Cases/C898/CachedPairs/Step01.lean",
+      "before_sha256": "ce514726513482bf41fdacc0597a48890fb4cf1651bb5742686c0ee20777a23e",
+      "after_sha256": "817ac1b541ccf2324134cdaaf879af4bd90891048127db2ea7117511a25a8454",
+      "archive": "evidence/retired/C898RetainedRelaxationCallers/Step01.lean"
+    },
+    {
+      "path": "Compact/Cases/C898/CachedPairs/Step02.lean",
+      "before_sha256": "7eb833e46e2ae9b91dd706fcf25514c8deea032023d12ef006a456b03ff75042",
+      "after_sha256": "f3c3bc0b78dedc04be24311602d92568ac6870c52f8ddd7c83de92051530df84",
+      "archive": "evidence/retired/C898RetainedRelaxationCallers/Step02.lean"
+    },
+    {
+      "path": "Compact/Cases/C898/CachedPairs/Step03.lean",
+      "before_sha256": "2535f1e0c0e563777ed7073d84d3a5ec73d1a9cc84d1a22eb61bd8ef17490aef",
+      "after_sha256": "93b088fc70b43484e5d92c675fea4c7c584d1d48f7684e964385a57a7b2e7753",
+      "archive": "evidence/retired/C898RetainedRelaxationCallers/Step03.lean"
+    },
+    {
+      "path": "Compact/Cases/C898/CachedPairs/Step04.lean",
+      "before_sha256": "b3f1e0f33b579e22737ce0be5b4324793aef1260b302cb6ae3ce00fc8816ee51",
+      "after_sha256": "3f1e9e2e6356afd7b2f5d41cd39f4effefcf800be8f22a0bce62454ae00da692",
+      "archive": "evidence/retired/C898RetainedRelaxationCallers/Step04.lean"
+    },
+    {
+      "path": "Compact/Cases/C898/CachedPairs/Step05.lean",
+      "before_sha256": "8928cd6295267cd7ccd1a66d69c2d0d17d73cac9221fd0fce775af379d5a2999",
+      "after_sha256": "d41e38d048e5ff46a07906abef20b61ea274a67bfdf3bff0717b621a248621cb",
+      "archive": "evidence/retired/C898RetainedRelaxationCallers/Step05.lean"
+    },
+    {
+      "path": "Compact/Cases/C898/CachedPairs/Step06.lean",
+      "before_sha256": "7fa0fcb3af63036577d530a805f413b94121f09df089e10326e239356e374c8d",
+      "after_sha256": "5c2b080e0e42d00b2ac4cadf66924aee970f5c224d20af20c94cd70fe5e3f4e3",
+      "archive": "evidence/retired/C898RetainedRelaxationCallers/Step06.lean"
+    },
+    {
+      "path": "Compact/Cases/C898/CachedPairs/Step07.lean",
+      "before_sha256": "dbbc8f7500a615c9ddd128bfe1e592fc0a8a9f5bff373ffa2b1ec05aa4f78058",
+      "after_sha256": "345f86b92e6c19a9e7f08d6e4eb022e8d8928173bb622b57659f59096f8d65b3",
+      "archive": "evidence/retired/C898RetainedRelaxationCallers/Step07.lean"
+    },
+    {
+      "path": "Compact/Cases/C898/CachedPairs/Step08.lean",
+      "before_sha256": "e4862367e8acbf85a6b28a3e90d1bc0240a2caca2658c70265e467466b5b6f05",
+      "after_sha256": "f1e0a537124a2163ed9ca0a19bf3cff18dd289e7981332b6599d8ea2f71e200b",
+      "archive": "evidence/retired/C898RetainedRelaxationCallers/Step08.lean"
+    },
+    {
+      "path": "Compact/Cases/C898/CachedPairs/Step11.lean",
+      "before_sha256": "9a1fff0a5f17536098a1fd2a36963a9fd97dfb21341c4dd8b5e4848345e30bbf",
+      "after_sha256": "bd03324cbea239fd6f88c96a4735e57360345bd948b09e667c72b7ba87896d8e",
+      "archive": "evidence/retired/C898RetainedRelaxationCallers/Step11.lean"
+    },
+    {
+      "path": "Compact/Cases/C898/CachedPairs/Step12.lean",
+      "before_sha256": "c3f69f6d50f36dc674a38237f8a528aa44a75294804a9188451c13004f18cdcc",
+      "after_sha256": "a90d8b05606115ae5145cd6a15bc3032e62d33c29e7742bad064f3649632eed3",
+      "archive": "evidence/retired/C898RetainedRelaxationCallers/Step12.lean"
+    },
+    {
+      "path": "Compact/Cases/C898/CachedPairs/Step13.lean",
+      "before_sha256": "5c2e47833d9540ea2ad72d8513df25437ca4630ef39566e89a8e288b95e5858c",
+      "after_sha256": "44e4c64003a4709c07efad303d06d41517d9f8e04a9b916b090fb000f015bb1d",
+      "archive": "evidence/retired/C898RetainedRelaxationCallers/Step13.lean"
+    },
+    {
+      "path": "scripts/build_c898_cached_pairs.py",
+      "before_sha256": "be2e9c03a6c11d1e4c0fe5b832e5fe986205d2d8ccf5d9a79bc5c7410a1eefb7",
+      "after_sha256": "3ac912d736fee0cb3fc9e3bf0e78c302e65c9c117e060b079cce98ced2cdcc69"
+    }
+  ]
+}

@@ -1,0 +1,421 @@
+{
+  "date": "2026-10-10",
+  "branches": {
+    "codex/complete-twelve-squares": {
+      "sha": "c5c6144349a141e56ac43c81ed732f731c591eac",
+      "n12Project": "725f34740b0aa680c5f7f664352136fcc0528155",
+      "rootLean": "16a0a4ccd8afc44e328beef27ff528760565f222",
+      "diff": {
+        "changedOrAdded": 1207,
+        "changes": {
+          "Completion/Cases/C1089": 2,
+          "Completion/Cases/C1091": 94,
+          "Completion/Cases/C1092": 21,
+          "Completion/Cases/C696": 15,
+          "Completion/Cases/C709": 61,
+          "Completion/Cases/C974": 201,
+          "Completion/Cases/C976": 507,
+          "Completion/Cases/C977": 116,
+          "Completion/Cases/C981": 151,
+          "Completion/Cases/C983": 38,
+          "SOURCE_CHECKPOINT_2026-10-10.md": 1
+        },
+        "missingFromIntegration": []
+      },
+      "ancestryToMain": null
+    },
+    "codex/fix-canonical-axiom-reports": {
+      "sha": "1bf942a7af1ea330e95489d8997deebd4227ca71",
+      "n12Project": null,
+      "rootLean": null,
+      "diff": null,
+      "ancestryToMain": {
+        "name": "codex/fix-canonical-axiom-reports",
+        "status": "ahead",
+        "ahead_by": 203,
+        "behind_by": 0,
+        "merge_base": "1bf942a7af1ea330e95489d8997deebd4227ca71",
+        "total_commits": 203,
+        "files_count": 300
+      }
+    },
+    "codex/global-uniqueness": {
+      "sha": "47749e8dcda1f0459ad4d39bc6fa6f72af680c5d",
+      "n12Project": null,
+      "rootLean": null,
+      "diff": null,
+      "ancestryToMain": {
+        "name": "codex/global-uniqueness",
+        "status": "ahead",
+        "ahead_by": 202,
+        "behind_by": 0,
+        "merge_base": "47749e8dcda1f0459ad4d39bc6fa6f72af680c5d",
+        "total_commits": 202,
+        "files_count": 300
+      }
+    },
+    "codex/native-numerical-certificates-20261004": {
+      "sha": "de8bbbdfd5b3d1321212fe105a8b1b1ebb5db92f",
+      "n12Project": null,
+      "rootLean": null,
+      "diff": null,
+      "ancestryToMain": {
+        "name": "codex/native-numerical-certificates-20261004",
+        "status": "ahead",
+        "ahead_by": 211,
+        "behind_by": 0,
+        "merge_base": "de8bbbdfd5b3d1321212fe105a8b1b1ebb5db92f",
+        "total_commits": 211,
+        "files_count": 300
+      }
+    },
+    "feat/n11-comparator": {
+      "sha": "eadfddf84f77820fda0fbd551452208d7dec5721",
+      "n12Project": null,
+      "rootLean": "c77bd6348eb5b5ead15768d0e0dfa47e32b1ef10",
+      "diff": null,
+      "ancestryToMain": {
+        "name": "feat/n11-comparator",
+        "status": "behind",
+        "ahead_by": 0,
+        "behind_by": 1,
+        "merge_base": "b0be66860595299f393481f1868880b281e0226b",
+        "total_commits": 0,
+        "files_count": 0
+      }
+    },
+    "main": {
+      "sha": "b0be66860595299f393481f1868880b281e0226b",
+      "n12Project": null,
+      "rootLean": "16a0a4ccd8afc44e328beef27ff528760565f222",
+      "diff": null,
+      "ancestryToMain": null
+    },
+    "n12-coordination": {
+      "sha": "730e829b6dd7d032cc8b03fa5d04646fe2958b62",
+      "n12Project": null,
+      "rootLean": null,
+      "diff": null,
+      "ancestryToMain": null
+    },
+    "n12/c1089-app-draft-20261009": {
+      "sha": "f1d927c914bbaf915bfa979c16c1a07ecbd2f8f0",
+      "n12Project": "12a4a399bc54f89fdf770814405bb85e512fab0d",
+      "rootLean": "16a0a4ccd8afc44e328beef27ff528760565f222",
+      "diff": {
+        "changedOrAdded": 14,
+        "changes": {
+          "AGENTS.md": 1,
+          "Completion/Cases/C1089": 2,
+          "Completion/Cases/C701": 1,
+          "Completion/Cases/C713": 1,
+          "Completion/Cases/C717": 1,
+          "Completion/Cases/C898": 1,
+          "Completion/Cases/C973": 1,
+          "Completion/Cases/C978": 1,
+          "Completion/Cases/C979": 1,
+          "GITHUB_APP.md": 1,
+          "README.md": 1,
+          "evidence/C1089": 1,
+          "scripts": 1
+        },
+        "missingFromIntegration": [
+          "Completion/Cases/C701/Proof.lean",
+          "Completion/Cases/C701/RowIdentity.lean",
+          "Completion/Cases/C713/Proof.lean",
+          "Completion/Cases/C713/RowIdentity.lean",
+          "Completion/Cases/C717/Proof.lean",
+          "Completion/Cases/C717/RowIdentity.lean",
+          "Completion/Cases/C898/Proof.lean",
+          "Completion/Cases/C898/RowIdentity.lean",
+          "Completion/Cases/C973/Proof.lean",
+          "Completion/Cases/C973/RowIdentity.lean",
+          "Completion/Cases/C978/Proof.lean",
+          "Completion/Cases/C978/RowIdentity.lean",
+          "Completion/Cases/C979/Proof.lean",
+          "Completion/Cases/C979/RowIdentity.lean",
+          "evidence/Baseline/BRANCH_SURVEY_2026-10-09.md",
+          "evidence/Baseline/integration-row-replays-2026-10-09.json",
+          "evidence/C701/case-replay.json",
+          "evidence/C701/case-source-audit.json",
+          "evidence/C701/case-statements.txt",
+          "evidence/C701/expanded-statement.lean",
+          "evidence/C701/expanded-statement.txt",
+          "evidence/C701/row-identity-replay.json",
+          "evidence/C701/row-identity-statements.txt",
+          "evidence/C713/case-replay.json",
+          "evidence/C713/case-source-audit.json",
+          "evidence/C713/case-statements.txt",
+          "evidence/C713/expanded-statement.lean",
+          "evidence/C713/expanded-statement.txt",
+          "evidence/C713/row-identity-replay.json",
+          "evidence/C713/row-identity-statements.txt",
+          "evidence/C717/case-replay.json",
+          "evidence/C717/case-source-audit.json",
+          "evidence/C717/case-statements.txt",
+          "evidence/C717/expanded-statement.lean",
+          "evidence/C717/expanded-statement.txt",
+          "evidence/C717/replay-runtime.json",
+          "evidence/C717/replay-with-stack.py",
+          "evidence/C717/row-identity-replay.json",
+          "evidence/C717/row-identity-statements.txt",
+          "evidence/C898/case-replay.json",
+          "evidence/C898/case-source-audit.json",
+          "evidence/C898/case-statements.txt",
+          "evidence/C898/expanded-statement.lean",
+          "evidence/C898/expanded-statement.txt",
+          "evidence/C898/row-identity-replay.json",
+          "evidence/C898/row-identity-statements.txt",
+          "evidence/C973/case-replay.json",
+          "evidence/C973/case-source-audit.json",
+          "evidence/C973/case-statements.txt",
+          "evidence/C973/expanded-statement.lean",
+          "evidence/C973/expanded-statement.txt",
+          "evidence/C973/replay-runtime.json",
+          "evidence/C973/replay-with-stack.py",
+          "evidence/C973/row-identity-replay.json",
+          "evidence/C973/row-identity-statements.txt",
+          "evidence/C978/case-replay.json",
+          "evidence/C978/case-source-audit.json",
+          "evidence/C978/case-statements.txt",
+          "evidence/C978/expanded-statement.lean",
+          "evidence/C978/expanded-statement.txt",
+          "evidence/C978/replay-runtime.json",
+          "evidence/C978/replay-with-stack.py",
+          "evidence/C978/row-identity-replay.json",
+          "evidence/C978/row-identity-statements.txt",
+          "evidence/C979/case-replay.json",
+          "evidence/C979/case-source-audit.json",
+          "evidence/C979/case-statements.txt",
+          "evidence/C979/expanded-statement.lean",
+          "evidence/C979/expanded-statement.txt",
+          "evidence/C979/replay-runtime.json",
+          "evidence/C979/replay-with-stack.py",
+          "evidence/C979/row-identity-replay.json",
+          "evidence/C979/row-identity-statements.txt",
+          "scripts/GITHUB_APP.md"
+        ]
+      },
+      "ancestryToMain": null
+    },
+    "n12/formalize-normalization": {
+      "sha": "44f32f60ebfbdf7ae7fa932da369dcb5f81fa49b",
+      "n12Project": null,
+      "rootLean": "a60024f4d56bd9aca94915b291744bc8eb68cf75",
+      "diff": null,
+      "ancestryToMain": null
+    },
+    "n12/lean-4.19": {
+      "sha": "e122bc2b9329da8057ca208343436a380ab97c59",
+      "n12Project": "8fe3fa7ea1d28b68d22f4bfc513bed315926e1af",
+      "rootLean": "16a0a4ccd8afc44e328beef27ff528760565f222",
+      "diff": {
+        "changedOrAdded": 0,
+        "changes": {},
+        "missingFromIntegration": []
+      },
+      "ancestryToMain": null
+    },
+    "n12/ledger-4.19": {
+      "sha": "2f2dad9fa6e81f69dca0f9b9cd4d54bc5e9b0471",
+      "n12Project": null,
+      "rootLean": null,
+      "diff": null,
+      "ancestryToMain": null
+    },
+    "n12/worker-ben-c696-row-20261010": {
+      "sha": "efa9c88582b9ab86b2e8c314028ba920da7c3757",
+      "n12Project": "0c955231b9a13432ad1d220d0f045350d8be22ab",
+      "rootLean": "16a0a4ccd8afc44e328beef27ff528760565f222",
+      "diff": {
+        "changedOrAdded": 4,
+        "changes": {
+          "Completion/Cases/C696": 2,
+          "evidence/C696": 2
+        },
+        "missingFromIntegration": []
+      },
+      "ancestryToMain": null
+    },
+    "n12/worker-ben-c1090-route-preservation-20261010": {
+      "sha": "80220fca8a8ca90f4df2c3aea8cf7468dc1285cb",
+      "n12Project": "2c06fc403bbca4173a55b415d4b936693a76dc2d",
+      "rootLean": "16a0a4ccd8afc44e328beef27ff528760565f222",
+      "diff": {
+        "changedOrAdded": 3319,
+        "changes": {
+          "Completion/Cases/C1090": 1484,
+          "evidence/C1090": 1835
+        },
+        "missingFromIntegration": []
+      },
+      "ancestryToMain": null
+    },
+    "n12/worker-ben-codex-20261008": {
+      "sha": "672f72ef1761bdefad978eeefa3524fc513dc09c",
+      "n12Project": "268506ba624f0588c7519f1edb2b9cacae8f3997",
+      "rootLean": "16a0a4ccd8afc44e328beef27ff528760565f222",
+      "diff": {
+        "changedOrAdded": 1494,
+        "changes": {
+          "Completion/Cases/C1090": 1484,
+          "evidence/C1090": 10
+        },
+        "missingFromIntegration": []
+      },
+      "ancestryToMain": null
+    },
+    "n12/worker-codex-898-20261008": {
+      "sha": "af965a97a388eb7d6a4720e74f6068a4c57e3e47",
+      "n12Project": "c31610286b78e0d0a1f5670abf5afce17fbfd191",
+      "rootLean": "16a0a4ccd8afc44e328beef27ff528760565f222",
+      "diff": {
+        "changedOrAdded": 14,
+        "changes": {
+          "AGENTS.md": 1,
+          "Completion/Cases/C701": 1,
+          "Completion/Cases/C713": 1,
+          "Completion/Cases/C717": 1,
+          "Completion/Cases/C898": 3,
+          "Completion/Cases/C973": 1,
+          "Completion/Cases/C978": 1,
+          "Completion/Cases/C979": 1,
+          "README.md": 1,
+          "evidence/C898": 2,
+          "scripts": 1
+        },
+        "missingFromIntegration": [
+          "Completion/Cases/C701/Proof.lean",
+          "Completion/Cases/C701/RowIdentity.lean",
+          "Completion/Cases/C713/Proof.lean",
+          "Completion/Cases/C713/RowIdentity.lean",
+          "Completion/Cases/C717/Proof.lean",
+          "Completion/Cases/C717/RowIdentity.lean",
+          "Completion/Cases/C973/Proof.lean",
+          "Completion/Cases/C973/RowIdentity.lean",
+          "Completion/Cases/C978/Proof.lean",
+          "Completion/Cases/C978/RowIdentity.lean",
+          "Completion/Cases/C979/Proof.lean",
+          "Completion/Cases/C979/RowIdentity.lean",
+          "evidence/Baseline/BRANCH_SURVEY_2026-10-09.md",
+          "evidence/Baseline/integration-row-replays-2026-10-09.json",
+          "evidence/C701/case-replay.json",
+          "evidence/C701/case-source-audit.json",
+          "evidence/C701/case-statements.txt",
+          "evidence/C701/expanded-statement.lean",
+          "evidence/C701/expanded-statement.txt",
+          "evidence/C701/row-identity-replay.json",
+          "evidence/C701/row-identity-statements.txt",
+          "evidence/C713/case-replay.json",
+          "evidence/C713/case-source-audit.json",
+          "evidence/C713/case-statements.txt",
+          "evidence/C713/expanded-statement.lean",
+          "evidence/C713/expanded-statement.txt",
+          "evidence/C713/row-identity-replay.json",
+          "evidence/C713/row-identity-statements.txt",
+          "evidence/C717/case-replay.json",
+          "evidence/C717/case-source-audit.json",
+          "evidence/C717/case-statements.txt",
+          "evidence/C717/expanded-statement.lean",
+          "evidence/C717/expanded-statement.txt",
+          "evidence/C717/replay-runtime.json",
+          "evidence/C717/replay-with-stack.py",
+          "evidence/C717/row-identity-replay.json",
+          "evidence/C717/row-identity-statements.txt",
+          "evidence/C898/case-replay.json",
+          "evidence/C898/case-source-audit.json",
+          "evidence/C898/case-statements.txt",
+          "evidence/C898/expanded-statement.lean",
+          "evidence/C898/expanded-statement.txt",
+          "evidence/C898/row-identity-statements.txt",
+          "evidence/C973/case-replay.json",
+          "evidence/C973/case-source-audit.json",
+          "evidence/C973/case-statements.txt",
+          "evidence/C973/expanded-statement.lean",
+          "evidence/C973/expanded-statement.txt",
+          "evidence/C973/replay-runtime.json",
+          "evidence/C973/replay-with-stack.py",
+          "evidence/C973/row-identity-replay.json",
+          "evidence/C973/row-identity-statements.txt",
+          "evidence/C978/case-replay.json",
+          "evidence/C978/case-source-audit.json",
+          "evidence/C978/case-statements.txt",
+          "evidence/C978/expanded-statement.lean",
+          "evidence/C978/expanded-statement.txt",
+          "evidence/C978/replay-runtime.json",
+          "evidence/C978/replay-with-stack.py",
+          "evidence/C978/row-identity-replay.json",
+          "evidence/C978/row-identity-statements.txt",
+          "evidence/C979/case-replay.json",
+          "evidence/C979/case-source-audit.json",
+          "evidence/C979/case-statements.txt",
+          "evidence/C979/expanded-statement.lean",
+          "evidence/C979/expanded-statement.txt",
+          "evidence/C979/replay-runtime.json",
+          "evidence/C979/replay-with-stack.py",
+          "evidence/C979/row-identity-replay.json",
+          "evidence/C979/row-identity-statements.txt",
+          "scripts/GITHUB_APP.md",
+          "scripts/github_app.py",
+          "scripts/test_github_app.py"
+        ]
+      },
+      "ancestryToMain": null
+    },
+    "n12/worker-codex-976-20261009": {
+      "sha": "e521280b37b39610d830a421d83f29b3702009ae",
+      "n12Project": "6b1f11049bca3094ae90dc4eb84a79c64b286ced",
+      "rootLean": "16a0a4ccd8afc44e328beef27ff528760565f222",
+      "diff": {
+        "changedOrAdded": 6070,
+        "changes": {
+          "Completion/Cases/C976": 127,
+          "evidence/C976": 5943
+        },
+        "missingFromIntegration": []
+      },
+      "ancestryToMain": null
+    },
+    "n12/worker-codex-c977-20261010": {
+      "sha": "cbe674ec39981107208d84d4c15eb29754fe897e",
+      "n12Project": "053fced6b5371662ee19471a24030c825ffef768",
+      "rootLean": "16a0a4ccd8afc44e328beef27ff528760565f222",
+      "diff": {
+        "changedOrAdded": 20,
+        "changes": {
+          "Completion/Cases/C977": 14,
+          "evidence/C977": 6
+        },
+        "missingFromIntegration": []
+      },
+      "ancestryToMain": null
+    },
+    "recovery/n12-lean-september-2026": {
+      "sha": "98ddf88a36d0a227d1a94e1c7e0ed64d1c840de8",
+      "n12Project": null,
+      "rootLean": "83ca111639b5a6d6df1a61e0c00becc79bb77f3f",
+      "diff": null,
+      "ancestryToMain": null
+    },
+    "refactor/squares-library": {
+      "sha": "04a6f6b9cb91a2ee25bf78c4a7b15a9b2712b201",
+      "n12Project": null,
+      "rootLean": "d7a9b5d8a1522ea36f96af23648145e8bdba26b8",
+      "diff": null,
+      "ancestryToMain": {
+        "name": "refactor/squares-library",
+        "status": "ahead",
+        "ahead_by": 12,
+        "behind_by": 0,
+        "merge_base": "04a6f6b9cb91a2ee25bf78c4a7b15a9b2712b201",
+        "total_commits": 12,
+        "files_count": 300
+      }
+    }
+  },
+  "foundation": {
+    "lines": 8964,
+    "bytes": 1105833,
+    "missing": []
+  }
+}

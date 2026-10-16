@@ -1,0 +1,317 @@
+{
+  "status": "source-written checkpoint; all new Lean uncompiled",
+  "base_commit": "496092631bc25cde3baec0bcad56c1b1b0a231ad",
+  "branch": "codex/n12-initial-programs-2026-10-14",
+  "project": "projects/n12-refactored",
+  "review_report": {
+    "path": "mathematics/research/CASE-TRANSFER-REVIEW-2026-10-15.md",
+    "sha256": "8484ae3d28f04ba38451b9b5d1bbc62a09d82fd0776d98d639b67f1a16073fc2",
+    "case_ids": [
+      580,
+      581,
+      683,
+      700,
+      867,
+      868,
+      896,
+      972,
+      974,
+      975,
+      976,
+      981,
+      983
+    ]
+  },
+  "new_original_case_contracts": [
+    580,
+    581,
+    1090
+  ],
+  "source_contract_count": 103,
+  "pending_original_ids": [
+    683,
+    700,
+    867,
+    868,
+    896,
+    972,
+    974,
+    975,
+    976,
+    981,
+    983,
+    1089,
+    1091,
+    1092
+  ],
+  "global_optimality_proved": false,
+  "new_lean_files": 29,
+  "modified_lean_files": 4,
+  "new_source_lines": 3799,
+  "proof_sources": [
+    {
+      "path": "Compact/Assembly/NewCases.lean",
+      "change": "modified",
+      "sha256": "447f53280c07fa2a7894583ec38a626f344a6b4d29b1f7292afd4d0398abd159",
+      "bytes": 2880,
+      "lines": 58
+    },
+    {
+      "path": "Compact/Assembly/SourceAssembly.lean",
+      "change": "modified",
+      "sha256": "9f4678dd5674daea318e2997ccfa3c8d7abf499f65190489f33f6a53eed379c9",
+      "bytes": 4449,
+      "lines": 110
+    },
+    {
+      "path": "Compact/Cases/C868/NegativeCornerSector.lean",
+      "change": "modified",
+      "sha256": "586f805c484d71cbe0743da270bdea8ed43e91e91b27576bbc8a444a77ea2204",
+      "bytes": 6013,
+      "lines": 114
+    },
+    {
+      "path": "Compact/Completion/C1092/MPPMForwardPositiveDActual.lean",
+      "change": "new",
+      "sha256": "e1840272dee5a972d904960016bdb9e1ed1ac14ff989f8085b6ba7e21a6bd38e",
+      "bytes": 8616,
+      "lines": 164
+    },
+    {
+      "path": "Compact/Completion/C1092/MPPMForwardPositiveDFaces.lean",
+      "change": "new",
+      "sha256": "fdf9d5336d41f5c0e0377b88c7c30dc945de8fe9ef567a82bbe0fa34e4dade4e",
+      "bytes": 2595,
+      "lines": 61
+    },
+    {
+      "path": "Compact/Completion/C1092/MPPMForwardPositiveDLocal.lean",
+      "change": "new",
+      "sha256": "d3fc9d3057e8e249d8eb9f0581e368b1d95001dc49d3ea5a2f93253aab935a9c",
+      "bytes": 5342,
+      "lines": 102
+    },
+    {
+      "path": "Compact/Completion/C1092/MPPMForwardPositiveDScalars.lean",
+      "change": "new",
+      "sha256": "f5d7191ad4dbcd8427bc2a43e44a9660cd40098a9908c8a63bff0cbba213471e",
+      "bytes": 2923,
+      "lines": 73
+    },
+    {
+      "path": "Compact/Completion/C1092/MPPMForwardPositiveDSupport.lean",
+      "change": "new",
+      "sha256": "7bdbd2f6783a55b1f86561d03b2a2daa15845bd6848232696805b280b53421d7",
+      "bytes": 5968,
+      "lines": 123
+    },
+    {
+      "path": "Compact/Completion/C1092/MPPMMissingBoundaryShallow.lean",
+      "change": "new",
+      "sha256": "aa600122fed92c3e9c9b89cb75a4a4f2268e14f14ca6a279b7e6ce6c7fd7f941",
+      "bytes": 9161,
+      "lines": 199
+    },
+    {
+      "path": "Compact/Completion/C1092/MPPMMissingBoundaryShallowActual.lean",
+      "change": "new",
+      "sha256": "f5dab163396aee27b836487c622b89e19c37e402c9845db06ef6d50e2da5c41b",
+      "bytes": 4702,
+      "lines": 106
+    },
+    {
+      "path": "Compact/Completion/C1092/MPPMMissingBoundaryShallowGeometry.lean",
+      "change": "new",
+      "sha256": "547190497c58f2c62e3ced63b06e8cff6acdbfed0900586948108e27567b8d07",
+      "bytes": 6915,
+      "lines": 147
+    },
+    {
+      "path": "Compact/Completion/C1092/MPPMMissingBoundaryShallowScalars.lean",
+      "change": "new",
+      "sha256": "79e664b1286f11a6440d239924646c7c6b5663b045d1555711a05802f39a2844",
+      "bytes": 8009,
+      "lines": 179
+    },
+    {
+      "path": "Compact/Completion/C1092/MPPMMissingPositiveBoundArc.lean",
+      "change": "new",
+      "sha256": "4dd3957b051734aa49a3d1f6b440fdb0c7007002b0d258e6fb4465ea1a216911",
+      "bytes": 6662,
+      "lines": 151
+    },
+    {
+      "path": "Compact/Completion/C1092/MPPMMissingPositiveBoundCoefficients.lean",
+      "change": "new",
+      "sha256": "71014d1aa30d809c49ffa64f7b03bcf6892792cc4a44652215356f01a483c496",
+      "bytes": 11397,
+      "lines": 259
+    },
+    {
+      "path": "Compact/Completion/C1092/MPPMMissingPositiveBoundProfiles.lean",
+      "change": "new",
+      "sha256": "67c48548192b28c91cc6b04ff42c2c213831edb502ce5e761fdd07855ad6fa21",
+      "bytes": 7685,
+      "lines": 181
+    },
+    {
+      "path": "Compact/Completion/C1092/MPPMOrdinaryNegativeHalfpoint.lean",
+      "change": "new",
+      "sha256": "267ff0ee755d18bdb29468219b9df017220722fd441a06af58934563f22a088a",
+      "bytes": 6257,
+      "lines": 133
+    },
+    {
+      "path": "Compact/Completion/C1092/MPPMOrdinaryNegativeHalfpointFaces.lean",
+      "change": "new",
+      "sha256": "aa321eaee0279f364ff22d3d335fa8261236e3de7a3d5645ecb39e155fcc0e1b",
+      "bytes": 5357,
+      "lines": 115
+    },
+    {
+      "path": "Compact/Completion/C1092/MPPMOrdinaryNegativeHalfpointScalars.lean",
+      "change": "new",
+      "sha256": "28922e262a06cc2c21c60d6f6103a69f2a4e603604b0c59ce19b87dfeba20113",
+      "bytes": 7822,
+      "lines": 194
+    },
+    {
+      "path": "Compact/Completion/CommonCases/DirectSingleBudget.lean",
+      "change": "new",
+      "sha256": "4d693192e3847e656b199d5c6f90062a5f23c1a5b6371f6256895d11613e9b88",
+      "bytes": 5604,
+      "lines": 105
+    },
+    {
+      "path": "Compact/Completion/CommonCases/WallSignFromSingleton.lean",
+      "change": "new",
+      "sha256": "1ab2f31c9f8c0a30f83337d752007b33f826804ee53228e6d4951d6cc3385d72",
+      "bytes": 6879,
+      "lines": 135
+    },
+    {
+      "path": "Compact/Completion/FiniteCases/C580581Completion.lean",
+      "change": "new",
+      "sha256": "7c1783cf993dc672c29eef4bdd1f5037b780d0818e4e0d1b8dd897d093ae7b64",
+      "bytes": 2027,
+      "lines": 46
+    },
+    {
+      "path": "Compact/Completion/FiniteCases/C896Entrance.lean",
+      "change": "new",
+      "sha256": "1bc3cf13f330f0383eff2f670cf5f9ec06e2bf0f6130c822457969987cd1a7c0",
+      "bytes": 8174,
+      "lines": 141
+    },
+    {
+      "path": "Compact/Completion/FiniteCases/C896WallBars.lean",
+      "change": "new",
+      "sha256": "bd40b116255f410a9a8e1508fdbfa8dadf779fb4c093c649273b1bcd362de703",
+      "bytes": 7529,
+      "lines": 145
+    },
+    {
+      "path": "Compact/Completion/FiniteCases/C975Selection.lean",
+      "change": "new",
+      "sha256": "5544edfa5e5d1a9e292fbf2ce8b53e7507fc785ed4a116aca40c8ed9074941aa",
+      "bytes": 5687,
+      "lines": 118
+    },
+    {
+      "path": "Compact/Completion/FiniteCases/C975SelectionForward.lean",
+      "change": "new",
+      "sha256": "fcf1291efaa471f5eb1cc969f31c63ab2f421bc46c94d34e768d5847c184ff61",
+      "bytes": 6246,
+      "lines": 130
+    },
+    {
+      "path": "Compact/Completion/FiniteCases/C975SelectionSeeds.lean",
+      "change": "new",
+      "sha256": "ac7f7cc3be299b5d22455819ab427576d5874f0f3c8e7e803a5f13228aaeaf14",
+      "bytes": 10185,
+      "lines": 173
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C1089/ContinuousBottom.lean",
+      "change": "modified",
+      "sha256": "898a0023a67d90ba50d74516ea47cdc06966909dd4031be579fc19582e2daea1",
+      "bytes": 6980,
+      "lines": 126
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C1090/AuxiliaryCover.lean",
+      "change": "new",
+      "sha256": "f03e8261e90afb74aafc9bb4e4a185fa006949d966de586e548724601820223b",
+      "bytes": 5628,
+      "lines": 121
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C1090/AuxiliaryCoverTransport.lean",
+      "change": "new",
+      "sha256": "c9606e8c0eea1ef7cb10c328424821623506d3fe7c9c4cda07b2a49e9bbd8066",
+      "bytes": 6906,
+      "lines": 126
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C1090/DirectDomains.lean",
+      "change": "new",
+      "sha256": "400dc9178a71c897a954b2ca98f558fa1f17eb6fe36ac65c8683639dd1646d3b",
+      "bytes": 3705,
+      "lines": 74
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C1090/OriginalEntrance.lean",
+      "change": "new",
+      "sha256": "d0a68f7c79534793b964000660d3066504598ce7c2083156af6a2f2a28043086",
+      "bytes": 5484,
+      "lines": 112
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C1091/MergedMarkerSeed.lean",
+      "change": "new",
+      "sha256": "f45516a32bf2be6f23e023266de89b7cefd3a071809407c6f9aff5e5de0fed73",
+      "bytes": 5119,
+      "lines": 115
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C1091/MergedMarkerSeedWall.lean",
+      "change": "new",
+      "sha256": "d6ba3f01dfe623b33ae69b16f548371012dc73a1353cb783df6e808f128577ce",
+      "bytes": 3190,
+      "lines": 71
+    }
+  ],
+  "source_census": {
+    "project_modules": 5097,
+    "external_modules": 3234,
+    "combined_modules": 8331,
+    "project_source_lines": 455965,
+    "selected_source_closure_complete": true,
+    "current_source_under_8000": false,
+    "current_source_under_hard_limit": true,
+    "retained_combined_modules": 9036,
+    "retained_source_closure_complete": false
+  },
+  "checks": {
+    "all_257_preserved_mathematical_sources_match_recorded_hashes_and_sizes": true,
+    "local_and_repository_report_copies_match": true,
+    "new_admission_axiom_unsafe_native_proof_tokens_found": false,
+    "source_registry_literal_accounting_passed": true,
+    "lean_compilation": false,
+    "catalogue_replay": false,
+    "numerical_search": false,
+    "certificate_generation": false,
+    "fresh_end_to_end_replay": false,
+    "fresh_axiom_audit": false
+  },
+  "independent_source_reviews": {
+    "DirectSingleBudget_C1090_covers_C1089_bottom": "other_case_routes: complete owned-set transport, true budget interval, all coordinate permutations and actual foreign point maps; no concrete mismatch",
+    "shared_wall_sign_and_C580581_completion": "other_case_routes: closed center ties, whole strict chords, literal owner maps, both original row adapters; no concrete mismatch",
+    "C975_three_modules_C896_two_modules_C1090_complete_entrance": "ben_progress: reviewed exact actual masks and all prerequisite producers; no concrete mismatch",
+    "C1091_two_seed_modules": "c1092_completed_math: both canonical signs, all four target bands, exact norms, translation and actual-wall adapter; no concrete mismatch",
+    "C1092_negative_halfpoint_and_boundary_shallow_seven_modules": "c981_vector_continuation: all separator alternatives, polynomial coefficients, actual floor/owner map and precise unfinished premises; no concrete mismatch",
+    "C1092_positive_D_and_positive_boundary_foundations_eight_modules": "other_case_routes: all actual separator sources, regime identities, unit-circle interpolation, coefficient estimates and explicit incomplete envelopes; no concrete mismatch"
+  },
+  "trust_boundary": "Source reviews and static exact accounting are not Lean acceptance. Existing numerical/classification native trust is inherited; no new sites or custom axioms were introduced. Whole SourceAssembly remains conditional.",
+  "continuation": "handoff/SOURCE-WRITING-AND-TRANSFER-2026-10-15.txt"
+}

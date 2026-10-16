@@ -1,0 +1,4 @@
+/Users/macintosh/Documents/Codex/2026-10-13/plz/work/ben-continuation/projects/n12-refactored/source/S12/WallNormalBounds.lean:42:4: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'S12.normal_bound_088' depends on axioms: [propext, Classical.choice, Quot.sound]
+'S12.normal_bound_0956' depends on axioms: [propext, Classical.choice, Quot.sound]

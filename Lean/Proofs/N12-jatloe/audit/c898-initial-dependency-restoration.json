@@ -1,0 +1,200 @@
+{
+  "modules_in_closure": 110,
+  "missing_active": [
+    {
+      "module": "S12.OrientedCoverage",
+      "path": "vendor/S12/OrientedCoverage.lean",
+      "bytes": 5762,
+      "sha256": "48b375582aa802651392048eac2656b340be9eed4c2118d5b5d3a4fc5df63234",
+      "manifest_match": true,
+      "restored_to": "source/S12/OrientedCoverage.lean"
+    },
+    {
+      "module": "S12.ContinuousCertificate",
+      "path": "vendor/S12/ContinuousCertificate.lean",
+      "bytes": 3657,
+      "sha256": "e61000e374f439105fb8562db802e77e05afaf2837bf8e98a2183210691447e3",
+      "manifest_match": true,
+      "restored_to": "source/S12/ContinuousCertificate.lean"
+    },
+    {
+      "module": "S12.DomainRelaxation",
+      "path": "vendor/S12/DomainRelaxation.lean",
+      "bytes": 1656,
+      "sha256": "750ea80528ec6a2639a3cd6cb989ff1117425aebc1de2611d1284a05916ec3b5",
+      "manifest_match": true,
+      "restored_to": "source/S12/DomainRelaxation.lean"
+    },
+    {
+      "module": "S12.ContinuousPruning",
+      "path": "vendor/S12/ContinuousPruning.lean",
+      "bytes": 5373,
+      "sha256": "d49445d58d154b4d065f1622df619038995d5af1c576d3ab3866f31108f60b55",
+      "manifest_match": true,
+      "restored_to": "source/S12/ContinuousPruning.lean"
+    },
+    {
+      "module": "S12.AxisOverlapCertificate",
+      "path": "vendor/S12/AxisOverlapCertificate.lean",
+      "bytes": 6298,
+      "sha256": "b1061fbf0de729b9a8b21dbcb98e2a4def3d0d7706258dcfdb5d27bcb9727d21",
+      "manifest_match": true,
+      "restored_to": "source/S12/AxisOverlapCertificate.lean"
+    },
+    {
+      "module": "S12.SquareAxes",
+      "path": "vendor/S12/SquareAxes.lean",
+      "bytes": 5287,
+      "sha256": "16ba019e7f7880c127733aefa31832a5db8460c8562b636e59ff18ecc2c8406c",
+      "manifest_match": true,
+      "restored_to": "source/S12/SquareAxes.lean"
+    },
+    {
+      "module": "S12.AxisGap",
+      "path": "vendor/S12/AxisGap.lean",
+      "bytes": 4136,
+      "sha256": "f5b325c70fde66c741d74a2b74a5fa8840fe9191882087e8573f45853bd0a8a2",
+      "manifest_match": true,
+      "restored_to": "source/S12/AxisGap.lean"
+    },
+    {
+      "module": "S12.AxisAlgebra",
+      "path": "vendor/S12/AxisAlgebra.lean",
+      "bytes": 3667,
+      "sha256": "4db669092dbda9108dcec52f9f42fb252b078550f7052d2fca89a0555f68d580",
+      "manifest_match": true,
+      "restored_to": "source/S12/AxisAlgebra.lean"
+    },
+    {
+      "module": "S12.SquareSupport",
+      "path": "vendor/S12/SquareSupport.lean",
+      "bytes": 4609,
+      "sha256": "bcad385ab3121b0eedf778b4025e70e185151ee13a7abfdb9839f160bd847f4c",
+      "manifest_match": true,
+      "restored_to": "source/S12/SquareSupport.lean"
+    },
+    {
+      "module": "S12.SquareSeparation",
+      "path": "vendor/S12/SquareSeparation.lean",
+      "bytes": 2307,
+      "sha256": "81aa549477cc8d42663332a1ee5615ca9b53beed96a7ab15607751f053a26f40",
+      "manifest_match": true,
+      "restored_to": "source/S12/SquareSeparation.lean"
+    },
+    {
+      "module": "S12.ConvexOverlap",
+      "path": "vendor/S12/ConvexOverlap.lean",
+      "bytes": 2399,
+      "sha256": "183258b031744ad6be4f4f78b7d97c45c277d8f21ec03d18acf6f8f18b03af2f",
+      "manifest_match": true,
+      "restored_to": "source/S12/ConvexOverlap.lean"
+    },
+    {
+      "module": "S12.AffineOverlap",
+      "path": "vendor/S12/AffineOverlap.lean",
+      "bytes": 6853,
+      "sha256": "dffc4416b999c5b9b4252f5f8a9ee66e4203dd1100caf89f1e7d14fae68989cb",
+      "manifest_match": true,
+      "restored_to": "source/S12/AffineOverlap.lean"
+    },
+    {
+      "module": "S12.LinearImplication",
+      "path": "vendor/S12/LinearImplication.lean",
+      "bytes": 1641,
+      "sha256": "e70bb213373dc733f3ec0dba8fc376711a9f397cb0c7e8798013621bc3044f3f",
+      "manifest_match": true,
+      "restored_to": "source/S12/LinearImplication.lean"
+    },
+    {
+      "module": "S12.OverlapCertificate",
+      "path": "vendor/S12/OverlapCertificate.lean",
+      "bytes": 3961,
+      "sha256": "fc6e98cefb430ce7d7686b5144746b8c7fa8127b702f3a2014fa6ede6274b14d",
+      "manifest_match": true,
+      "restored_to": "source/S12/OverlapCertificate.lean"
+    },
+    {
+      "module": "S12.OwnerEnclosure",
+      "path": "vendor/S12/OwnerEnclosure.lean",
+      "bytes": 4988,
+      "sha256": "080afae3e204db5dd71938743bd18dd9d9f5e2bc24fc2161b55badc8bf062d6f",
+      "manifest_match": true,
+      "restored_to": "source/S12/OwnerEnclosure.lean"
+    },
+    {
+      "module": "S12.PoseRegion",
+      "path": "vendor/S12/PoseRegion.lean",
+      "bytes": 4581,
+      "sha256": "2e17527c4127c5c8d9a05188e098526dd36588a88fc64e86fb2605aaeff2d544",
+      "manifest_match": true,
+      "restored_to": "source/S12/PoseRegion.lean"
+    },
+    {
+      "module": "S12.PoseBounds",
+      "path": "vendor/S12/PoseBounds.lean",
+      "bytes": 4280,
+      "sha256": "06c0797d679671b141a60a6c9cbc4e8e550855881e1ec5dde82bc970e3b7154b",
+      "manifest_match": true,
+      "restored_to": "source/S12/PoseBounds.lean"
+    },
+    {
+      "module": "S12.AngleReference",
+      "path": "vendor/S12/AngleReference.lean",
+      "bytes": 1827,
+      "sha256": "e65fb8d376250dc93013c7a0bca3e38a7909550b8b941ebd61d9bec3947c284e",
+      "manifest_match": true,
+      "restored_to": "source/S12/AngleReference.lean"
+    },
+    {
+      "module": "S12.AngleEnclosure",
+      "path": "vendor/S12/AngleEnclosure.lean",
+      "bytes": 4441,
+      "sha256": "52ec9ec7c916b6f1a04f96eb1d74b413d8f246b1f043e4e1204e032ade866c4d",
+      "manifest_match": true,
+      "restored_to": "source/S12/AngleEnclosure.lean"
+    },
+    {
+      "module": "S12.QuadraticInterval",
+      "path": "vendor/S12/QuadraticInterval.lean",
+      "bytes": 1991,
+      "sha256": "e9c47d7a222008d47d550202195950fac69fb2b4050c095a3fc6fabb6ebde531",
+      "manifest_match": true,
+      "restored_to": "source/S12/QuadraticInterval.lean"
+    },
+    {
+      "module": "S12.ReferenceGeometry",
+      "path": "vendor/S12/ReferenceGeometry.lean",
+      "bytes": 3194,
+      "sha256": "03b3f288d86ae5975c4d1699eed8589f90002b0e14d6cf75b3b289de9978defc",
+      "manifest_match": true,
+      "restored_to": "source/S12/ReferenceGeometry.lean"
+    },
+    {
+      "module": "S12.RegionTree",
+      "path": "vendor/S12/RegionTree.lean",
+      "bytes": 3256,
+      "sha256": "f8321756bf0996700e30afeac5560ff10cafb6cde37b54c3b61f35e2133f2583",
+      "manifest_match": true,
+      "restored_to": "source/S12/RegionTree.lean"
+    },
+    {
+      "module": "S12.IntervalCoverage",
+      "path": "vendor/S12/IntervalCoverage.lean",
+      "bytes": 1212,
+      "sha256": "99b64857bea407d887fcc7482087884ec42917ea8697680798e6996dde544357",
+      "manifest_match": true,
+      "restored_to": "source/S12/IntervalCoverage.lean"
+    },
+    {
+      "module": "S12.AngleData",
+      "path": "vendor/S12/AngleData.lean",
+      "bytes": 76602,
+      "sha256": "82fa09c9c0d6e86227bec6eb38ab87ccbf06a9c132142e066126945cbcffe5b1",
+      "manifest_match": true,
+      "restored_to": "source/S12/AngleData.lean"
+    }
+  ],
+  "missing_bytes": 163978,
+  "unavailable": [],
+  "status": "Restored exact authenticated vendor bytes; no compilation"
+}

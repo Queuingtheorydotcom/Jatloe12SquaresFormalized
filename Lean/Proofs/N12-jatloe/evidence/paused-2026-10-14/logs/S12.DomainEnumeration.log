@@ -1,0 +1,1 @@
+'S12.domain_cases_sound' depends on axioms: [propext, Classical.choice, Quot.sound]

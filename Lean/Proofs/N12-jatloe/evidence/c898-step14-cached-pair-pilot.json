@@ -1,0 +1,382 @@
+{
+  "scope": "exact whole424-pair Step14 candidate source; no Lean acceptance claimed",
+  "pairs": 424,
+  "axes": 3392,
+  "sources": 8,
+  "neighbors": 53,
+  "contexts": 61,
+  "cached_basis_entries": 297,
+  "cartesian_record_order_verified": true,
+  "all_axis_arithmetic_verified": true,
+  "input_sha256": {
+    "evidence/c898-step14-support-fan-pilot.json": "b8aad3f5d93599373f6a61bd51691700e6d01beb6fbdd28230d14984eeceb747",
+    "evidence/c898-shared-pose-map.json": "0afbf9a29a2a5b76debf7fe9722655ea41cdd66c145ec4f0e5bec4bf40f7913e",
+    "Compact/Cases/C898/References.lean": "bc04a462d169c5368c01e27567acf6b93fd932b9302fc4ee2268a563536d1600"
+  },
+  "output": {
+    "Compact/Cases/C898/PairStep14CachedData.lean": {
+      "bytes": 79152,
+      "lines": 919,
+      "sha256": "8c2a1f5cd20eddfb3e5e8af53ab982d79bf4f9ec01165c11d23b11d4f72bdc6d"
+    },
+    "Compact/Cases/C898/PairStep14CachedContexts.lean": {
+      "bytes": 43461,
+      "lines": 1436,
+      "sha256": "6dfdb2fbdc95671bc0ca9eedc5a0eecbe74aad8ab667a50f295c013c542412e8"
+    },
+    "Compact/Cases/C898/PairStep14CachedFirstContext.lean": {
+      "bytes": 403,
+      "lines": 18,
+      "sha256": "65581263153bef6f106f7233b6fe30fe64bbbf79091acdeb0ddd5693f0023a67"
+    },
+    "Compact/Cases/C898/PairStep14CachedFirst4.lean": {
+      "bytes": 392,
+      "lines": 17,
+      "sha256": "df0b4eda1a97199ca9641259f04b8f0508d484d875c341b34f92c830458bfbb8"
+    },
+    "Compact/Cases/C898/PairStep14CachedPilot.lean": {
+      "bytes": 11530,
+      "lines": 375,
+      "sha256": "ac3184d18fc5fd8aa0704674d6de7b778367a0450ea1e78e66768c6295210e16"
+    },
+    "Compact/Cases/C898/PairStep14Cached.lean": {
+      "bytes": 3916,
+      "lines": 85,
+      "sha256": "5e8d5e6f9f8f800845e770e66f3d90be586a64f4df4b8342ae984ca11790018e"
+    },
+    "Compact/Cases/C898/PairStep14CachedFirst8.lean": {
+      "bytes": 450,
+      "lines": 19,
+      "sha256": "a34010b7d5ba27675ade4b7781a1b8b6996da27fcd0afc11a8f1cbbd9b001bd9"
+    }
+  },
+  "source_index_map": [
+    {
+      "original_context": 1002,
+      "pose": 3301,
+      "block": 492,
+      "angle": 11
+    },
+    {
+      "original_context": 1056,
+      "pose": 3303,
+      "block": 493,
+      "angle": 12
+    },
+    {
+      "original_context": 1057,
+      "pose": 3305,
+      "block": 494,
+      "angle": 13
+    },
+    {
+      "original_context": 1058,
+      "pose": 3307,
+      "block": 495,
+      "angle": 14
+    },
+    {
+      "original_context": 1059,
+      "pose": 3309,
+      "block": 496,
+      "angle": 15
+    },
+    {
+      "original_context": 1060,
+      "pose": 3311,
+      "block": 497,
+      "angle": 16
+    },
+    {
+      "original_context": 1061,
+      "pose": 3313,
+      "block": 498,
+      "angle": 17
+    },
+    {
+      "original_context": 1062,
+      "pose": 3315,
+      "block": 499,
+      "angle": 18
+    }
+  ],
+  "neighbor_index_map": [
+    {
+      "original_context": 1003,
+      "pose": 2629,
+      "angle": 0
+    },
+    {
+      "original_context": 1004,
+      "pose": 2631,
+      "angle": 1
+    },
+    {
+      "original_context": 1005,
+      "pose": 2633,
+      "angle": 2
+    },
+    {
+      "original_context": 1006,
+      "pose": 2636,
+      "angle": 3
+    },
+    {
+      "original_context": 1007,
+      "pose": 2639,
+      "angle": 4
+    },
+    {
+      "original_context": 1008,
+      "pose": 2642,
+      "angle": 5
+    },
+    {
+      "original_context": 1009,
+      "pose": 2645,
+      "angle": 6
+    },
+    {
+      "original_context": 1010,
+      "pose": 2648,
+      "angle": 7
+    },
+    {
+      "original_context": 1011,
+      "pose": 2651,
+      "angle": 8
+    },
+    {
+      "original_context": 1012,
+      "pose": 2654,
+      "angle": 9
+    },
+    {
+      "original_context": 1013,
+      "pose": 2657,
+      "angle": 10
+    },
+    {
+      "original_context": 1014,
+      "pose": 2660,
+      "angle": 11
+    },
+    {
+      "original_context": 1015,
+      "pose": 2663,
+      "angle": 12
+    },
+    {
+      "original_context": 1016,
+      "pose": 2666,
+      "angle": 13
+    },
+    {
+      "original_context": 1017,
+      "pose": 2669,
+      "angle": 14
+    },
+    {
+      "original_context": 1018,
+      "pose": 2671,
+      "angle": 15
+    },
+    {
+      "original_context": 1019,
+      "pose": 2673,
+      "angle": 16
+    },
+    {
+      "original_context": 1020,
+      "pose": 2675,
+      "angle": 17
+    },
+    {
+      "original_context": 1021,
+      "pose": 2677,
+      "angle": 18
+    },
+    {
+      "original_context": 1022,
+      "pose": 2679,
+      "angle": 19
+    },
+    {
+      "original_context": 1023,
+      "pose": 2681,
+      "angle": 31
+    },
+    {
+      "original_context": 1024,
+      "pose": 2683,
+      "angle": 32
+    },
+    {
+      "original_context": 1025,
+      "pose": 2685,
+      "angle": 33
+    },
+    {
+      "original_context": 1026,
+      "pose": 2687,
+      "angle": 34
+    },
+    {
+      "original_context": 1027,
+      "pose": 2689,
+      "angle": 35
+    },
+    {
+      "original_context": 1028,
+      "pose": 2691,
+      "angle": 36
+    },
+    {
+      "original_context": 1029,
+      "pose": 2693,
+      "angle": 37
+    },
+    {
+      "original_context": 1030,
+      "pose": 2695,
+      "angle": 38
+    },
+    {
+      "original_context": 1031,
+      "pose": 2697,
+      "angle": 39
+    },
+    {
+      "original_context": 1032,
+      "pose": 2699,
+      "angle": 40
+    },
+    {
+      "original_context": 1033,
+      "pose": 2701,
+      "angle": 41
+    },
+    {
+      "original_context": 1034,
+      "pose": 2703,
+      "angle": 42
+    },
+    {
+      "original_context": 1035,
+      "pose": 2705,
+      "angle": 43
+    },
+    {
+      "original_context": 1036,
+      "pose": 2708,
+      "angle": 44
+    },
+    {
+      "original_context": 1037,
+      "pose": 2711,
+      "angle": 45
+    },
+    {
+      "original_context": 1038,
+      "pose": 2714,
+      "angle": 46
+    },
+    {
+      "original_context": 1039,
+      "pose": 2717,
+      "angle": 47
+    },
+    {
+      "original_context": 1040,
+      "pose": 2720,
+      "angle": 48
+    },
+    {
+      "original_context": 1041,
+      "pose": 2723,
+      "angle": 49
+    },
+    {
+      "original_context": 1042,
+      "pose": 2726,
+      "angle": 50
+    },
+    {
+      "original_context": 1043,
+      "pose": 2729,
+      "angle": 51
+    },
+    {
+      "original_context": 1044,
+      "pose": 2732,
+      "angle": 52
+    },
+    {
+      "original_context": 1045,
+      "pose": 2735,
+      "angle": 53
+    },
+    {
+      "original_context": 1046,
+      "pose": 2738,
+      "angle": 54
+    },
+    {
+      "original_context": 1047,
+      "pose": 2741,
+      "angle": 55
+    },
+    {
+      "original_context": 1048,
+      "pose": 2744,
+      "angle": 56
+    },
+    {
+      "original_context": 1049,
+      "pose": 2747,
+      "angle": 57
+    },
+    {
+      "original_context": 1050,
+      "pose": 2750,
+      "angle": 58
+    },
+    {
+      "original_context": 1051,
+      "pose": 2752,
+      "angle": 59
+    },
+    {
+      "original_context": 1052,
+      "pose": 2754,
+      "angle": 60
+    },
+    {
+      "original_context": 1053,
+      "pose": 2756,
+      "angle": 61
+    },
+    {
+      "original_context": 1054,
+      "pose": 2758,
+      "angle": 62
+    },
+    {
+      "original_context": 1055,
+      "pose": 2760,
+      "angle": 63
+    }
+  ],
+  "elapsed_seconds": 0.03607029200065881,
+  "peak_ru_maxrss_platform_units": 41418752,
+  "trust_boundary": "candidate offline arithmetic does not prove exclusions; generic soundness, copied-row identities, membership, all424pair checks and original whole-step domain coverage require Lean acceptance",
+  "source_adjustment": "Numeric acceptance partitioned into56 opaque8-neighbor checks, preserving all424pairs via FiniteCheckChunks.sound; no data changes",
+  "pair_check_batch_size": 8,
+  "opaque_batch_lemmas": 56,
+  "validation_boundary": {
+    "complete_pair_family_and_overlap": "PASS,424original pairs,3392axes; ordinary kernel decisions",
+    "original_terminal_transition": "PASS15.280sec, parent serial replay",
+    "metadata_final_edit": "Only #check diagnostics and duplicate import removed after replay; proof bodies unchanged",
+    "whole_case": "Not yet accepted; remaining entry/stages/chord assembly still required"
+  }
+}

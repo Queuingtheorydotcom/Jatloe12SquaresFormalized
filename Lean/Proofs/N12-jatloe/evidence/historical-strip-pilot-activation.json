@@ -1,0 +1,10 @@
+{
+  "status": "isolated pilot copied; Lean acceptance pending; production bank unchanged",
+  "source": "evidence/historical-strip-bank/pilot/Compact/HistoricalData/StripPilot.lean",
+  "target": "Compact/HistoricalData/StripPilot.lean",
+  "manifest": "evidence/historical-strip-bank/manifest.json",
+  "sha256": "e07b48bc1c5a23ae1242da685fd037fe6cb06d9076bbcbec88e55a74e61e86f2",
+  "hash_verification": "shasum -a 256 target matched manifest exactly",
+  "strips": 4,
+  "original_leaf": "Compact/HistoricalData/RowsChunks/Part000000.lean"
+}

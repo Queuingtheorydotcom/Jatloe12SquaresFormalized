@@ -1,0 +1,94 @@
+{
+  "checked_at": "2026-10-11 06:46:22 UTC",
+  "scope": "All 22 remote heads re-read; equal to the detailed 2026-10-11 branch audit.",
+  "heads": [
+    {
+      "branch": "codex/complete-twelve-squares",
+      "sha": "c5c6144349a141e56ac43c81ed732f731c591eac"
+    },
+    {
+      "branch": "codex/fix-canonical-axiom-reports",
+      "sha": "1bf942a7af1ea330e95489d8997deebd4227ca71"
+    },
+    {
+      "branch": "codex/global-uniqueness",
+      "sha": "47749e8dcda1f0459ad4d39bc6fa6f72af680c5d"
+    },
+    {
+      "branch": "codex/native-numerical-certificates-20261004",
+      "sha": "de8bbbdfd5b3d1321212fe105a8b1b1ebb5db92f"
+    },
+    {
+      "branch": "feat/n11-comparator",
+      "sha": "60c9d0709fb72fabfdb4a88e6d7c6619e1fdb49d"
+    },
+    {
+      "branch": "fix/lean-warnings",
+      "sha": "19e1e93dfc15977d713e7f5c62d088b667929a96"
+    },
+    {
+      "branch": "main",
+      "sha": "ad624c40207c6386d9d74f57bde7130691de3362"
+    },
+    {
+      "branch": "n12-coordination",
+      "sha": "730e829b6dd7d032cc8b03fa5d04646fe2958b62"
+    },
+    {
+      "branch": "n12/c1089-app-draft-20261009",
+      "sha": "f1d927c914bbaf915bfa979c16c1a07ecbd2f8f0"
+    },
+    {
+      "branch": "n12/formalize-normalization",
+      "sha": "44f32f60ebfbdf7ae7fa932da369dcb5f81fa49b"
+    },
+    {
+      "branch": "n12/lean-4.19",
+      "sha": "e122bc2b9329da8057ca208343436a380ab97c59"
+    },
+    {
+      "branch": "n12/ledger-4.19",
+      "sha": "2f2dad9fa6e81f69dca0f9b9cd4d54bc5e9b0471"
+    },
+    {
+      "branch": "n12/worker-ben-c696-row-20261010",
+      "sha": "efa9c88582b9ab86b2e8c314028ba920da7c3757"
+    },
+    {
+      "branch": "n12/worker-ben-c1090-route-preservation-20261010",
+      "sha": "80220fca8a8ca90f4df2c3aea8cf7468dc1285cb"
+    },
+    {
+      "branch": "n12/worker-ben-codex-20261008",
+      "sha": "672f72ef1761bdefad978eeefa3524fc513dc09c"
+    },
+    {
+      "branch": "n12/worker-codex-898-20261008",
+      "sha": "af965a97a388eb7d6a4720e74f6068a4c57e3e47"
+    },
+    {
+      "branch": "n12/worker-codex-976-20261009",
+      "sha": "e521280b37b39610d830a421d83f29b3702009ae"
+    },
+    {
+      "branch": "n12/worker-codex-c977-20261010",
+      "sha": "cbe674ec39981107208d84d4c15eb29754fe897e"
+    },
+    {
+      "branch": "recovery/n12-lean-september-2026",
+      "sha": "98ddf88a36d0a227d1a94e1c7e0ed64d1c840de8"
+    },
+    {
+      "branch": "refactor/squares-library",
+      "sha": "04a6f6b9cb91a2ee25bf78c4a7b15a9b2712b201"
+    },
+    {
+      "branch": "refactor/unified-lean-build",
+      "sha": "140df8c4c7b00bb18c1abf6a80084796f5eda774"
+    },
+    {
+      "branch": "style/comparator-lean",
+      "sha": "e2f3d563ad63cc2280b542f80437cdfdd63e9458"
+    }
+  ]
+}

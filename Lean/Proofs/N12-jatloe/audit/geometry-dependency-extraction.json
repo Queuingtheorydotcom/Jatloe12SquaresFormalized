@@ -1,0 +1,135 @@
+{
+  "recorded_at": "2026-10-11T00:35:38.067082+00:00",
+  "scope": "Source-only dependency extraction; no Lean invocation; original declaration blocks preserved verbatim; vendor unchanged",
+  "files": [
+    {
+      "path": "source/S12/SquareFrame.lean",
+      "before_sha256": null,
+      "after_sha256": "49e1855ce4de71f8a0791f6c2b57c5af88c2fa9102e5324fc67ddfd80f0341f6",
+      "before_bytes": 0,
+      "after_bytes": 1742,
+      "after_lines": 40,
+      "imports": [
+        "S12.Diagonal"
+      ]
+    },
+    {
+      "path": "source/S12/TriangleCover.lean",
+      "before_sha256": "2ae750605f38c11308bbad688beb5f1686f60390dadb30d09a02c883607b0733",
+      "after_sha256": "591ef2530815cea9c499e0c84d0ae6dfff4254616bfac4c19355eecbaea0377a",
+      "before_bytes": 5729,
+      "after_bytes": 4561,
+      "after_lines": 101,
+      "imports": [
+        "S12.SquareFrame",
+        "S12.ShortCluster"
+      ]
+    },
+    {
+      "path": "source/S12/WallGeometry.lean",
+      "before_sha256": "c4349ce9c0b9893731886c67ea5a725da50228d32d2b57fff1a27ba26cf9cb68",
+      "after_sha256": "a803ce2d86bc423f74007e0ea036eea0deaa785facb2b25c6698160500e4558e",
+      "before_bytes": 3955,
+      "after_bytes": 3953,
+      "after_lines": 95,
+      "imports": [
+        "S12.SquareFrame"
+      ]
+    },
+    {
+      "path": "source/S12/CornerCover.lean",
+      "before_sha256": "86b4e5224a6b201d9ae3bd5f96fcf965c5981d705bac9202c992fdff805511d0",
+      "after_sha256": "e3210052f7175c66c86b454b67dc99e08db40d85d8552241eb6e09cea9284a17",
+      "before_bytes": 3477,
+      "after_bytes": 3096,
+      "after_lines": 72,
+      "imports": [
+        "S12.WallGeometry",
+        "S12.Symmetry"
+      ]
+    },
+    {
+      "path": "source/S12/SymmetryBase.lean",
+      "before_sha256": null,
+      "after_sha256": "649d5ae978e0f8733ab32c512ebf081c7d5b9c577b6ad25971df959a8600fdb1",
+      "before_bytes": 0,
+      "after_bytes": 2458,
+      "after_lines": 79,
+      "imports": [
+        "S12.Diagonal"
+      ]
+    },
+    {
+      "path": "source/S12/Symmetry.lean",
+      "before_sha256": "d0ba26ff1b4fd3b1ae6bce9dad5acd4433b96f0acd9a81dfd2e514ddcc20f9f3",
+      "after_sha256": "8a5651289837924c73b854dac4781dab8e0d9ceece4df3aef5b386bcfbb57806",
+      "before_bytes": 3485,
+      "after_bytes": 1223,
+      "after_lines": 32,
+      "imports": [
+        "S12.SymmetryBase",
+        "S12.ShortCluster"
+      ]
+    },
+    {
+      "path": "source/S12/Container.lean",
+      "before_sha256": null,
+      "after_sha256": "645387a0b344970b27864bfc72160b8e65ae9f574087ac17d277cf15cd2acb15",
+      "before_bytes": 0,
+      "after_bytes": 1738,
+      "after_lines": 38,
+      "imports": [
+        "S12.SquareFrame",
+        "S12.SymmetryBase"
+      ]
+    },
+    {
+      "path": "source/S12/MarkerCoverGeometry.lean",
+      "before_sha256": "a810cb3aaaf8ff518771cee0c51e8ad5e068cd4a6bab268eafc1dcb9b5f6bdec",
+      "after_sha256": "a11458ac6976c1005cc6d9d6474e293bbfbccbcc9f6b5a0e13292a2428b615e9",
+      "before_bytes": 5884,
+      "after_bytes": 4367,
+      "after_lines": 96,
+      "imports": [
+        "S12.Container",
+        "S12.MarkerCoverGeometryBase"
+      ]
+    },
+    {
+      "path": "source/S12/MarkerCoverGeometryBase.lean",
+      "before_sha256": "5dcb8475286e49a38dde7fb234cb3a8750a4cb6c0f177d032a97cf6e1d14f47e",
+      "after_sha256": "403de00f55936383399e1982d37ebb2d99ee2b3d14c8321b802725e73aa3cf97",
+      "before_bytes": 4827,
+      "after_bytes": 4852,
+      "after_lines": 142,
+      "imports": [
+        "S12.WallRowCover",
+        "S12.TriangleCover"
+      ],
+      "reason": "Retain triangle_nonavoidance after WallGeometry no longer imports TriangleCover"
+    }
+  ],
+  "blocks": {
+    "frame": {
+      "bytes": 1191,
+      "sha256": "963e238aedd0af5dfa4947533e87bd3be7efafd387fb89371dcffc264fde319e",
+      "destination": "SquareFrame"
+    },
+    "centered": {
+      "bytes": 381,
+      "sha256": "fed8141a65725ad824b66db748233a736481da6e049847d9d1dccd6547a147ad",
+      "destination": "SquareFrame"
+    },
+    "container": {
+      "bytes": 1538,
+      "sha256": "d02a3a528494bbb39c66809b2f0533fd76b34aaf5760c377f4ce49a07b4eeecd",
+      "destination": "Container"
+    },
+    "symmetry": {
+      "bytes": 2286,
+      "sha256": "4a933661bb985819463807594c2c7cac4579bb2e92a86c8b22c0b03950dff043",
+      "destination": "SymmetryBase"
+    }
+  },
+  "vendor_files_unchanged": 119
+}

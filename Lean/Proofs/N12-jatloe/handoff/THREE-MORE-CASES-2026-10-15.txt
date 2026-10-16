@@ -1,0 +1,109 @@
+THREE ADDITIONAL ORIGINAL-CASE SOURCE ENDINGS, 2026-10-15
+
+Source-only continuation of pushed base76a2d91cfd3291ae0cc726178b7534143292c3cf.
+Use git log/status for the commit containing this guide. Repository and branch:
+  EvolvingPrograms/SquaresLean
+  codex/n12-initial-programs-2026-10-14
+  projects/n12-refactored
+Ordinary Git commit/push is authorized. No blob/tree API or expanded forest.
+
+The global goal is active. All six requested cases C974,C976,C981,C1089,C1091,
+C1092 have their complete original-case source contracts from the preceding
+phase. C580/C581 and C1090 are registered too. This phase adds C896,C975,C983,
+bringing SourceAssembly to112/117, with exact remaining IDs:
+  683,700,867,868,972.
+The global theorem is still conditional. No Final.lean placeholder, admission,
+custom axiom, unsafe oracle or new native proof site supplies a remaining case.
+All newly changed Lean is UNCOMPILED; source review is not acceptance.
+
+NEW COMPLETE CASE SOURCE
+
+C896, original row483:
+  Compact.Completion.FiniteCases.C896Completion
+  N12Compact.FiniteCases.C896Ending.case_excluded
+The actual merged768 is G-exempt. TwoChordHull and ShorterCornerWall instead
+force its G6 geometrically, using genuine bottom8192 and southeast corner12.
+MergedLeftNegative and direct positive bands give the same merged center.
+CentralWallCenter gives the actual northwest2048 center using true left/top
+walls and singleton2/16 omissions. Distinct actual owners overlap at(2,2).
+The optional NE selection proof in C896NortheastSelection is source-written
+and independently reviewed, but is not needed in this shorter ending.
+
+C975, original row506:
+  Compact.Completion.FiniteCases.C975Completion
+  N12Compact.FiniteCases.C975Selection.case_excluded
+The actual merged-top34816 owns its boundary origin in both canonical signs.
+Strong singleton corner arguments force the complementary root. Nonnegative
+NE would force the same top square to own a forbidden left halfpoint, so NE
+is strictly negative. The actual top is then negative/shallow and owns(2,2.5).
+The top-only NE alternative duplicates its strict segment; the mixed alternative
+has projection width below1. No separate northwest owner is introduced.
+
+C983, original row514:
+  Compact.Completion.OtherCases.C983.F4Completion
+  N12Compact.Completion.OtherCases.C983.case_excluded
+F5 was already closed. The genuine singleton corner and stronger missing-corner
+seeds combine with the merged2304 center. Both F4 northeast sharp-point
+alternatives share one shallow negative southeast profile. The two actual
+midpoints then yield the original C974 local contradiction. The speculative
+eight-point omissions in the old target list are unnecessary.
+
+All three endings and their genuine owner inputs received an independent source
+review. No Lean compiler, certificate replay, numerical search or CI launch was
+used in this phase. All259 recorded original mathematical documents retain their
+recorded SHA256 and byte size; the user-supplied arguments remain source material.
+
+WRITTEN REDUCTIONS FOR THE FIVE REMAINING CASES
+
+C868: ActualCrosspoints and AdditionalOwnership force both SW halfpoints and
+SE G8. ActualBars produces the genuine bottom/left full bars and the actual
+merged-right upper bar. SoutheastGeometry retains both actual SE branches.
+UpperCenter gives the nonnegative merged-upper center and the necessary
+negative-SW/corner-owned/weak-V-cap residue. These do not exclude a whole case.
+The old five-square upper-strip relaxation is feasible: retain the complete
+actual lower or left neighboring square. See audit/C868-UPPER-STRIP.md.
+
+C683/C700/C867: OtherCases/MergedPending has12 reviewed modules. The true
+families, singleton bars, wall reach, central points, canonical residues and
+center reductions are explicit. C700SharpPoints adds genuine merged1536 and
+SW sharp points without C702's extra NW marker. SoutheastBranches supplies
+C683/C867's true SE G8 and both complete-square branches; marker14 omission
+comes from exact512 even when no right-wall owner exists. Do not split any
+actual merge or transfer a family-specific theorem without its literal inputs.
+
+C972: C972Domains/Owners/Entrance/CentralSelection supply actual F3/G3 budgets,
+SE G8, NE F7/G7, NW F3/G4 and true bottom/right bars. There is no top32768 owner;
+marker15 is globally absent. C972MissingCorner proves NW ownsF5 OR NE owns(2,3).
+C972UpperReduction excludes the NE inward pair and derives genuine halfpoint,
+right-origin and sharp NW consequences. Subsequent WIP must be reviewed before
+it changes the original-case registry. See mathematics/REMAINING-EIGHT.txt.
+
+RESOURCE AND GITHUB PREPARATION
+
+The exact stable selected closure has5421 project+3234 external=8655 modules
+and505315 project source lines. Including all cache tools and compiled package
+configurations and their external union:8784 modules. The hard limit10000 is
+met; preferred8000 is exceeded. These numbers exclude unwritten future proofs.
+Unselected historical alternatives still have missing imports; their discovered
+counts are not a complete resource bound. Do not restore them blindly.
+
+evidence/three-more-cases-source-2026-10-15.json records this exact selection,
+new-source hashes, preservation checks and static trust-site scan. It is not
+a compiler receipt. The source census includes the pinned toolchain's Lake
+source layout and both package configurations used by fresh Linux setup.
+
+handoff/GITHUB-REPLAY.txt gives the prepared manual command and separate
+registered/selected/final scopes. scripts/github_replay.py refuses local replay
+and refuses the final profile while the unconditional source is absent.
+Python source-census regressions, YAML parsing, shell syntax and refusal paths
+passed. Fresh Linux dependency restoration and Lean replay remain untested.
+
+CONTINUE
+
+Read current git status and exact pending_ids_exact before assigning files.
+Keep all actual owners, strict membership, weak contact and closed signs.
+Finish the remaining all-angle case endings and only then register each
+unconditional ExcludesCase term. Recount modules including setup before the
+eventual GitHub compile. Supply the final theorem only after pendingIds is
+empty. No local Lean/Lake invocation or CI launch is authorized in this source
+phase. Keep saving reviewed portable source and instructions with ordinary Git.

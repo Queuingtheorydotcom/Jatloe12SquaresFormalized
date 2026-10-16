@@ -1,0 +1,443 @@
+{
+  "scope": "All66 authenticated Push898 historical source chunks; source audit only, no Lean evaluation. Declared witness incidence, not deduplicated or proof acceptance.",
+  "bytes": 186698185,
+  "newlines": 207136,
+  "declarations": 67891,
+  "declaration_counts": {
+    "other_definition": 2456,
+    "initial_pose_root": 704,
+    "theorem": 30744,
+    "pose_leaf": 3317,
+    "relaxation_link": 2048,
+    "pruning_record": 706,
+    "plan": 706,
+    "region_constraints": 607,
+    "axis_overlap_certificate": 25843,
+    "region_tree": 760
+  },
+  "declaration_span_bytes": {
+    "other_definition": 4194904,
+    "initial_pose_root": 6615334,
+    "theorem": 54345258,
+    "pose_leaf": 2691977,
+    "relaxation_link": 4862075,
+    "pruning_record": 197797,
+    "plan": 380535,
+    "region_constraints": 95642,
+    "axis_overlap_certificate": 112993817,
+    "region_tree": 267096
+  },
+  "indexed_implication_text_bytes": {
+    "relaxation_link": 4424239,
+    "axis_overlap_certificate": 96595850
+  },
+  "indexed_implication_arity_histogram": {
+    "2": 2048,
+    "3": 2022,
+    "4": 22074,
+    "5": 3181,
+    "6": 199214,
+    "7": 1792,
+    "8": 1941,
+    "9": 515,
+    "10": 131
+  },
+  "steps": {
+    "0": {
+      "files": [
+        "Push898Chunk10.lean",
+        "Push898Chunk4.lean",
+        "Push898Chunk5.lean",
+        "Push898Chunk6.lean",
+        "Push898Chunk7.lean",
+        "Push898Chunk8.lean",
+        "Push898Chunk9.lean"
+      ],
+      "plans": 64,
+      "overlaps": 2950,
+      "relaxations": 110,
+      "block_rows": 50,
+      "vertical_windows": 0,
+      "certificate_text_bytes": 10683831,
+      "implications": 24910,
+      "terms": 147157
+    },
+    "1": {
+      "files": [
+        "Push898Chunk11.lean",
+        "Push898Chunk12.lean",
+        "Push898Chunk13.lean",
+        "Push898Chunk14.lean",
+        "Push898Chunk15.lean",
+        "Push898Chunk16.lean",
+        "Push898Chunk17.lean",
+        "Push898Chunk18.lean",
+        "Push898Chunk19.lean",
+        "Push898Chunk20.lean"
+      ],
+      "plans": 64,
+      "overlaps": 4096,
+      "relaxations": 93,
+      "block_rows": 64,
+      "vertical_windows": 0,
+      "certificate_text_bytes": 14706497,
+      "implications": 33862,
+      "terms": 200653
+    },
+    "2": {
+      "files": [
+        "Push898Chunk20.lean",
+        "Push898Chunk21.lean",
+        "Push898Chunk22.lean",
+        "Push898Chunk23.lean",
+        "Push898Chunk24.lean",
+        "Push898Chunk25.lean",
+        "Push898Chunk26.lean",
+        "Push898Chunk27.lean"
+      ],
+      "plans": 64,
+      "overlaps": 2773,
+      "relaxations": 114,
+      "block_rows": 47,
+      "vertical_windows": 0,
+      "certificate_text_bytes": 10770004,
+      "implications": 23562,
+      "terms": 138577
+    },
+    "3": {
+      "files": [
+        "Push898Chunk27.lean",
+        "Push898Chunk28.lean"
+      ],
+      "plans": 16,
+      "overlaps": 448,
+      "relaxations": 15,
+      "block_rows": 7,
+      "vertical_windows": 0,
+      "certificate_text_bytes": 1749369,
+      "implications": 3782,
+      "terms": 22084
+    },
+    "4": {
+      "files": [
+        "Push898Chunk28.lean",
+        "Push898Chunk29.lean"
+      ],
+      "plans": 14,
+      "overlaps": 448,
+      "relaxations": 12,
+      "block_rows": 7,
+      "vertical_windows": 0,
+      "certificate_text_bytes": 1689196,
+      "implications": 3743,
+      "terms": 22374
+    },
+    "5": {
+      "files": [
+        "Push898Chunk29.lean",
+        "Push898Chunk30.lean"
+      ],
+      "plans": 64,
+      "overlaps": 612,
+      "relaxations": 80,
+      "block_rows": 51,
+      "vertical_windows": 0,
+      "certificate_text_bytes": 2917877,
+      "implications": 6015,
+      "terms": 33885
+    },
+    "6": {
+      "files": [
+        "Push898Chunk30.lean",
+        "Push898Chunk31.lean",
+        "Push898Chunk32.lean",
+        "Push898Chunk33.lean",
+        "Push898Chunk34.lean",
+        "Push898Chunk35.lean",
+        "Push898Chunk36.lean",
+        "Push898Chunk37.lean",
+        "Push898Chunk38.lean",
+        "Push898Chunk39.lean"
+      ],
+      "plans": 63,
+      "overlaps": 3481,
+      "relaxations": 110,
+      "block_rows": 59,
+      "vertical_windows": 0,
+      "certificate_text_bytes": 14685344,
+      "implications": 29381,
+      "terms": 174721
+    },
+    "7": {
+      "files": [
+        "Push898Chunk39.lean",
+        "Push898Chunk40.lean",
+        "Push898Chunk41.lean",
+        "Push898Chunk42.lean",
+        "Push898Chunk43.lean",
+        "Push898Chunk44.lean",
+        "Push898Chunk45.lean",
+        "Push898Chunk46.lean"
+      ],
+      "plans": 59,
+      "overlaps": 3136,
+      "relaxations": 80,
+      "block_rows": 49,
+      "vertical_windows": 0,
+      "certificate_text_bytes": 10630195,
+      "implications": 26136,
+      "terms": 155238
+    },
+    "8": {
+      "files": [
+        "Push898Chunk46.lean",
+        "Push898Chunk47.lean",
+        "Push898Chunk48.lean",
+        "Push898Chunk49.lean",
+        "Push898Chunk50.lean",
+        "Push898Chunk51.lean",
+        "Push898Chunk52.lean",
+        "Push898Chunk53.lean",
+        "Push898Chunk54.lean",
+        "Push898Chunk55.lean",
+        "Push898Chunk56.lean"
+      ],
+      "plans": 64,
+      "overlaps": 4096,
+      "relaxations": 129,
+      "block_rows": 64,
+      "vertical_windows": 0,
+      "certificate_text_bytes": 14955173,
+      "implications": 34371,
+      "terms": 202507
+    },
+    "9": {
+      "files": [
+        "Push898Chunk56.lean"
+      ],
+      "plans": 53,
+      "overlaps": 0,
+      "relaxations": 52,
+      "block_rows": 53,
+      "vertical_windows": 53,
+      "certificate_text_bytes": 94061,
+      "implications": 719,
+      "terms": 2571
+    },
+    "10": {
+      "files": [
+        "Push898Chunk56.lean"
+      ],
+      "plans": 52,
+      "overlaps": 0,
+      "relaxations": 49,
+      "block_rows": 52,
+      "vertical_windows": 52,
+      "certificate_text_bytes": 67528,
+      "implications": 660,
+      "terms": 2389
+    },
+    "11": {
+      "files": [
+        "Push898Chunk56.lean",
+        "Push898Chunk57.lean",
+        "Push898Chunk58.lean",
+        "Push898Chunk59.lean",
+        "Push898Chunk60.lean"
+      ],
+      "plans": 49,
+      "overlaps": 1342,
+      "relaxations": 52,
+      "block_rows": 22,
+      "vertical_windows": 0,
+      "certificate_text_bytes": 5155922,
+      "implications": 11427,
+      "terms": 67109
+    },
+    "12": {
+      "files": [
+        "Push898Chunk60.lean",
+        "Push898Chunk61.lean"
+      ],
+      "plans": 49,
+      "overlaps": 588,
+      "relaxations": 23,
+      "block_rows": 49,
+      "vertical_windows": 0,
+      "certificate_text_bytes": 2433623,
+      "implications": 5012,
+      "terms": 29297
+    },
+    "13": {
+      "files": [
+        "Push898Chunk61.lean",
+        "Push898Chunk62.lean",
+        "Push898Chunk63.lean",
+        "Push898Chunk64.lean"
+      ],
+      "plans": 23,
+      "overlaps": 1449,
+      "relaxations": 8,
+      "block_rows": 23,
+      "vertical_windows": 0,
+      "certificate_text_bytes": 6024061,
+      "implications": 11693,
+      "terms": 69897
+    },
+    "14": {
+      "files": [
+        "Push898Chunk65.lean"
+      ],
+      "plans": 8,
+      "overlaps": 424,
+      "relaxations": 0,
+      "block_rows": 8,
+      "vertical_windows": 0,
+      "certificate_text_bytes": 1575679,
+      "implications": 3392,
+      "terms": 20404
+    }
+  },
+  "domains": {
+    "continuousScout898Domain0_0": {
+      "source": "vendor/S12/Push898Chunk2.lean",
+      "line": 1431,
+      "declaration": "def continuousScout898Domain0_0 : List PoseLeaf := [continuousScout898Initial0_0,continuousScout898Initial0_1,continuousScout898Initial0_2,continuousScout898Initial0_3,continuousScout898Initial0_4,continuousScout898Initial0_5,continuousScout898Initial0_6,continuousScout898Initial0_7,continuousScout898Initial0_8,continuousScout898Initial0_9,continuousScout898Initial0_10,continuousScout898Initial0_11,continuousScout898Initial0_12,continuousScout898Initial0_13,continuousScout898Initial0_14,continuousScout898Initial0_15,continuousScout898Initial0_16,continuousScout898Initial0_17,continuousScout898Initial0_18,continuousScout898Initial0_19,continuousScout898Initial0_20,continuousScout898Initial0_21,continuousScout898Initial0_22,continuousScout898Initial0_23,continuousScout898Initial0_24,continuousScout898Initial0_25,continuousScout898Initial0_26,continuousScout898Initial0_27,continuousScout898Initial0_28,continuousScout898Initial0_29,continuousScout898Initial0_30,continuousScout898Initial0_31,continuousScout898Initial0_32,continuousScout898Initial0_33,continuousScout898Initial0_34,continuousScout898Initial0_35,continuousScout898Initial0_36,continuousScout898Initial0_37,continuousScout898Initial0_38,continuousScout898Initial0_39,continuousScout898Initial0_40,continuousScout898Initial0_41,continuousScout898Initial0_42,continuousScout898Initial0_43,continuousScout898Initial0_44,continuousScout898Initial0_45,continuousScout898Initial0_46,continuousScout898Initial0_47,continuousScout898Initial0_48,continuousScout898Initial0_49,continuousScout898Initial0_50,continuousScout898Initial0_51,continuousScout898Initial0_52,continuousScout898Initial0_53,continuousScout898Initial0_54,continuousScout898Initial0_55,continuousScout898Initial0_56,continuousScout898Initial0_57,continuousScout898Initial0_58,continuousScout898Initial0_59,continuousScout898Initial0_60,continuousScout898Initial0_61,continuousScout898Initial0_62,continuousScout898Initial0_63]"
+    },
+    "continuousScout898Domain1_0": {
+      "source": "vendor/S12/Push898Chunk2.lean",
+      "line": 1496,
+      "declaration": "def continuousScout898Domain1_0 : List PoseLeaf := [continuousScout898Initial1_0,continuousScout898Initial1_1,continuousScout898Initial1_2,continuousScout898Initial1_3,continuousScout898Initial1_4,continuousScout898Initial1_5,continuousScout898Initial1_6,continuousScout898Initial1_7,continuousScout898Initial1_8,continuousScout898Initial1_9,continuousScout898Initial1_10,continuousScout898Initial1_11,continuousScout898Initial1_12,continuousScout898Initial1_13,continuousScout898Initial1_14,continuousScout898Initial1_15,continuousScout898Initial1_16,continuousScout898Initial1_17,continuousScout898Initial1_18,continuousScout898Initial1_19,continuousScout898Initial1_20,continuousScout898Initial1_21,continuousScout898Initial1_22,continuousScout898Initial1_23,continuousScout898Initial1_24,continuousScout898Initial1_25,continuousScout898Initial1_26,continuousScout898Initial1_27,continuousScout898Initial1_28,continuousScout898Initial1_29,continuousScout898Initial1_30,continuousScout898Initial1_31,continuousScout898Initial1_32,continuousScout898Initial1_33,continuousScout898Initial1_34,continuousScout898Initial1_35,continuousScout898Initial1_36,continuousScout898Initial1_37,continuousScout898Initial1_38,continuousScout898Initial1_39,continuousScout898Initial1_40,continuousScout898Initial1_41,continuousScout898Initial1_42,continuousScout898Initial1_43,continuousScout898Initial1_44,continuousScout898Initial1_45,continuousScout898Initial1_46,continuousScout898Initial1_47,continuousScout898Initial1_48,continuousScout898Initial1_49,continuousScout898Initial1_50,continuousScout898Initial1_51,continuousScout898Initial1_52,continuousScout898Initial1_53,continuousScout898Initial1_54,continuousScout898Initial1_55,continuousScout898Initial1_56,continuousScout898Initial1_57,continuousScout898Initial1_58,continuousScout898Initial1_59,continuousScout898Initial1_60,continuousScout898Initial1_61,continuousScout898Initial1_62,continuousScout898Initial1_63]"
+    },
+    "continuousScout898Domain2_0": {
+      "source": "vendor/S12/Push898Chunk2.lean",
+      "line": 1561,
+      "declaration": "def continuousScout898Domain2_0 : List PoseLeaf := [continuousScout898Initial2_0,continuousScout898Initial2_1,continuousScout898Initial2_2,continuousScout898Initial2_3,continuousScout898Initial2_4,continuousScout898Initial2_5,continuousScout898Initial2_6,continuousScout898Initial2_7,continuousScout898Initial2_8,continuousScout898Initial2_9,continuousScout898Initial2_10,continuousScout898Initial2_11,continuousScout898Initial2_12,continuousScout898Initial2_13,continuousScout898Initial2_14,continuousScout898Initial2_15,continuousScout898Initial2_16,continuousScout898Initial2_17,continuousScout898Initial2_18,continuousScout898Initial2_19,continuousScout898Initial2_20,continuousScout898Initial2_21,continuousScout898Initial2_22,continuousScout898Initial2_23,continuousScout898Initial2_24,continuousScout898Initial2_25,continuousScout898Initial2_26,continuousScout898Initial2_27,continuousScout898Initial2_28,continuousScout898Initial2_29,continuousScout898Initial2_30,continuousScout898Initial2_31,continuousScout898Initial2_32,continuousScout898Initial2_33,continuousScout898Initial2_34,continuousScout898Initial2_35,continuousScout898Initial2_36,continuousScout898Initial2_37,continuousScout898Initial2_38,continuousScout898Initial2_39,continuousScout898Initial2_40,continuousScout898Initial2_41,continuousScout898Initial2_42,continuousScout898Initial2_43,continuousScout898Initial2_44,continuousScout898Initial2_45,continuousScout898Initial2_46,continuousScout898Initial2_47,continuousScout898Initial2_48,continuousScout898Initial2_49,continuousScout898Initial2_50,continuousScout898Initial2_51,continuousScout898Initial2_52,continuousScout898Initial2_53,continuousScout898Initial2_54,continuousScout898Initial2_55,continuousScout898Initial2_56,continuousScout898Initial2_57,continuousScout898Initial2_58,continuousScout898Initial2_59,continuousScout898Initial2_60,continuousScout898Initial2_61,continuousScout898Initial2_62,continuousScout898Initial2_63]"
+    },
+    "continuousScout898Domain3_0": {
+      "source": "vendor/S12/Push898Chunk2.lean",
+      "line": 1626,
+      "declaration": "def continuousScout898Domain3_0 : List PoseLeaf := [continuousScout898Initial3_0,continuousScout898Initial3_1,continuousScout898Initial3_2,continuousScout898Initial3_3,continuousScout898Initial3_4,continuousScout898Initial3_5,continuousScout898Initial3_6,continuousScout898Initial3_7,continuousScout898Initial3_8,continuousScout898Initial3_9,continuousScout898Initial3_10,continuousScout898Initial3_11,continuousScout898Initial3_12,continuousScout898Initial3_13,continuousScout898Initial3_14,continuousScout898Initial3_15,continuousScout898Initial3_16,continuousScout898Initial3_17,continuousScout898Initial3_18,continuousScout898Initial3_19,continuousScout898Initial3_20,continuousScout898Initial3_21,continuousScout898Initial3_22,continuousScout898Initial3_23,continuousScout898Initial3_24,continuousScout898Initial3_25,continuousScout898Initial3_26,continuousScout898Initial3_27,continuousScout898Initial3_28,continuousScout898Initial3_29,continuousScout898Initial3_30,continuousScout898Initial3_31,continuousScout898Initial3_32,continuousScout898Initial3_33,continuousScout898Initial3_34,continuousScout898Initial3_35,continuousScout898Initial3_36,continuousScout898Initial3_37,continuousScout898Initial3_38,continuousScout898Initial3_39,continuousScout898Initial3_40,continuousScout898Initial3_41,continuousScout898Initial3_42,continuousScout898Initial3_43,continuousScout898Initial3_44,continuousScout898Initial3_45,continuousScout898Initial3_46,continuousScout898Initial3_47,continuousScout898Initial3_48,continuousScout898Initial3_49,continuousScout898Initial3_50,continuousScout898Initial3_51,continuousScout898Initial3_52,continuousScout898Initial3_53,continuousScout898Initial3_54,continuousScout898Initial3_55,continuousScout898Initial3_56,continuousScout898Initial3_57,continuousScout898Initial3_58,continuousScout898Initial3_59,continuousScout898Initial3_60,continuousScout898Initial3_61,continuousScout898Initial3_62,continuousScout898Initial3_63]"
+    },
+    "continuousScout898Domain5_0": {
+      "source": "vendor/S12/Push898Chunk2.lean",
+      "line": 1680,
+      "declaration": "def continuousScout898Domain5_0 : List PoseLeaf := [continuousScout898Initial5_0,continuousScout898Initial5_1,continuousScout898Initial5_2,continuousScout898Initial5_3,continuousScout898Initial5_4,continuousScout898Initial5_5,continuousScout898Initial5_6,continuousScout898Initial5_7,continuousScout898Initial5_8,continuousScout898Initial5_9,continuousScout898Initial5_10,continuousScout898Initial5_11,continuousScout898Initial5_12,continuousScout898Initial5_13,continuousScout898Initial5_14,continuousScout898Initial5_15,continuousScout898Initial5_16,continuousScout898Initial5_17,continuousScout898Initial5_18,continuousScout898Initial5_19,continuousScout898Initial5_20,continuousScout898Initial5_21,continuousScout898Initial5_22,continuousScout898Initial5_23,continuousScout898Initial5_24,continuousScout898Initial5_25,continuousScout898Initial5_26,continuousScout898Initial5_27,continuousScout898Initial5_28,continuousScout898Initial5_29,continuousScout898Initial5_30,continuousScout898Initial5_31,continuousScout898Initial5_32,continuousScout898Initial5_33,continuousScout898Initial5_34,continuousScout898Initial5_35,continuousScout898Initial5_36,continuousScout898Initial5_37,continuousScout898Initial5_38,continuousScout898Initial5_39,continuousScout898Initial5_40,continuousScout898Initial5_41,continuousScout898Initial5_42,continuousScout898Initial5_43,continuousScout898Initial5_44,continuousScout898Initial5_45,continuousScout898Initial5_46,continuousScout898Initial5_47,continuousScout898Initial5_48,continuousScout898Initial5_49,continuousScout898Initial5_50,continuousScout898Initial5_56,continuousScout898Initial5_63]"
+    },
+    "continuousScout898Domain6_0": {
+      "source": "vendor/S12/Push898Chunk2.lean",
+      "line": 1697,
+      "declaration": "def continuousScout898Domain6_0 : List PoseLeaf := [continuousScout898Initial6_0,continuousScout898Initial6_1,continuousScout898Initial6_2,continuousScout898Initial6_3,continuousScout898Initial6_4,continuousScout898Initial6_5,continuousScout898Initial6_6,continuousScout898Initial6_7,continuousScout898Initial6_8,continuousScout898Initial6_9,continuousScout898Initial6_10,continuousScout898Initial6_11,continuousScout898Initial6_12,continuousScout898Initial6_13,continuousScout898Initial6_14,continuousScout898Initial6_63]"
+    },
+    "continuousScout898Domain7_0": {
+      "source": "vendor/S12/Push898Chunk2.lean",
+      "line": 1762,
+      "declaration": "def continuousScout898Domain7_0 : List PoseLeaf := [continuousScout898Initial7_0,continuousScout898Initial7_1,continuousScout898Initial7_2,continuousScout898Initial7_3,continuousScout898Initial7_4,continuousScout898Initial7_5,continuousScout898Initial7_6,continuousScout898Initial7_7,continuousScout898Initial7_8,continuousScout898Initial7_9,continuousScout898Initial7_10,continuousScout898Initial7_11,continuousScout898Initial7_12,continuousScout898Initial7_13,continuousScout898Initial7_14,continuousScout898Initial7_15,continuousScout898Initial7_16,continuousScout898Initial7_17,continuousScout898Initial7_18,continuousScout898Initial7_19,continuousScout898Initial7_20,continuousScout898Initial7_21,continuousScout898Initial7_22,continuousScout898Initial7_23,continuousScout898Initial7_24,continuousScout898Initial7_25,continuousScout898Initial7_26,continuousScout898Initial7_27,continuousScout898Initial7_28,continuousScout898Initial7_29,continuousScout898Initial7_30,continuousScout898Initial7_31,continuousScout898Initial7_32,continuousScout898Initial7_33,continuousScout898Initial7_34,continuousScout898Initial7_35,continuousScout898Initial7_36,continuousScout898Initial7_37,continuousScout898Initial7_38,continuousScout898Initial7_39,continuousScout898Initial7_40,continuousScout898Initial7_41,continuousScout898Initial7_42,continuousScout898Initial7_43,continuousScout898Initial7_44,continuousScout898Initial7_45,continuousScout898Initial7_46,continuousScout898Initial7_47,continuousScout898Initial7_48,continuousScout898Initial7_49,continuousScout898Initial7_50,continuousScout898Initial7_51,continuousScout898Initial7_52,continuousScout898Initial7_53,continuousScout898Initial7_54,continuousScout898Initial7_55,continuousScout898Initial7_56,continuousScout898Initial7_57,continuousScout898Initial7_58,continuousScout898Initial7_59,continuousScout898Initial7_60,continuousScout898Initial7_61,continuousScout898Initial7_62,continuousScout898Initial7_63]"
+    },
+    "continuousScout898Domain8_0": {
+      "source": "vendor/S12/Push898Chunk2.lean",
+      "line": 1822,
+      "declaration": "def continuousScout898Domain8_0 : List PoseLeaf := [continuousScout898Initial8_0,continuousScout898Initial8_1,continuousScout898Initial8_2,continuousScout898Initial8_3,continuousScout898Initial8_4,continuousScout898Initial8_5,continuousScout898Initial8_6,continuousScout898Initial8_7,continuousScout898Initial8_8,continuousScout898Initial8_9,continuousScout898Initial8_10,continuousScout898Initial8_11,continuousScout898Initial8_12,continuousScout898Initial8_13,continuousScout898Initial8_14,continuousScout898Initial8_15,continuousScout898Initial8_16,continuousScout898Initial8_17,continuousScout898Initial8_18,continuousScout898Initial8_19,continuousScout898Initial8_20,continuousScout898Initial8_21,continuousScout898Initial8_22,continuousScout898Initial8_23,continuousScout898Initial8_24,continuousScout898Initial8_25,continuousScout898Initial8_31,continuousScout898Initial8_32,continuousScout898Initial8_33,continuousScout898Initial8_34,continuousScout898Initial8_35,continuousScout898Initial8_36,continuousScout898Initial8_37,continuousScout898Initial8_38,continuousScout898Initial8_39,continuousScout898Initial8_40,continuousScout898Initial8_41,continuousScout898Initial8_42,continuousScout898Initial8_43,continuousScout898Initial8_44,continuousScout898Initial8_45,continuousScout898Initial8_46,continuousScout898Initial8_47,continuousScout898Initial8_48,continuousScout898Initial8_49,continuousScout898Initial8_50,continuousScout898Initial8_51,continuousScout898Initial8_52,continuousScout898Initial8_53,continuousScout898Initial8_54,continuousScout898Initial8_55,continuousScout898Initial8_56,continuousScout898Initial8_57,continuousScout898Initial8_58,continuousScout898Initial8_59,continuousScout898Initial8_60,continuousScout898Initial8_61,continuousScout898Initial8_62,continuousScout898Initial8_63]"
+    },
+    "continuousScout898Domain9_0": {
+      "source": "vendor/S12/Push898Chunk2.lean",
+      "line": 1882,
+      "declaration": "def continuousScout898Domain9_0 : List PoseLeaf := [continuousScout898Initial9_0,continuousScout898Initial9_1,continuousScout898Initial9_2,continuousScout898Initial9_3,continuousScout898Initial9_4,continuousScout898Initial9_5,continuousScout898Initial9_6,continuousScout898Initial9_7,continuousScout898Initial9_8,continuousScout898Initial9_9,continuousScout898Initial9_10,continuousScout898Initial9_11,continuousScout898Initial9_12,continuousScout898Initial9_13,continuousScout898Initial9_14,continuousScout898Initial9_15,continuousScout898Initial9_16,continuousScout898Initial9_17,continuousScout898Initial9_18,continuousScout898Initial9_19,continuousScout898Initial9_20,continuousScout898Initial9_21,continuousScout898Initial9_27,continuousScout898Initial9_28,continuousScout898Initial9_29,continuousScout898Initial9_30,continuousScout898Initial9_31,continuousScout898Initial9_32,continuousScout898Initial9_33,continuousScout898Initial9_34,continuousScout898Initial9_35,continuousScout898Initial9_36,continuousScout898Initial9_37,continuousScout898Initial9_38,continuousScout898Initial9_39,continuousScout898Initial9_40,continuousScout898Initial9_41,continuousScout898Initial9_42,continuousScout898Initial9_43,continuousScout898Initial9_44,continuousScout898Initial9_45,continuousScout898Initial9_46,continuousScout898Initial9_47,continuousScout898Initial9_48,continuousScout898Initial9_49,continuousScout898Initial9_50,continuousScout898Initial9_51,continuousScout898Initial9_52,continuousScout898Initial9_53,continuousScout898Initial9_54,continuousScout898Initial9_55,continuousScout898Initial9_56,continuousScout898Initial9_57,continuousScout898Initial9_58,continuousScout898Initial9_59,continuousScout898Initial9_60,continuousScout898Initial9_61,continuousScout898Initial9_62,continuousScout898Initial9_63]"
+    },
+    "continuousScout898Domain10_0": {
+      "source": "vendor/S12/Push898Chunk2.lean",
+      "line": 1947,
+      "declaration": "def continuousScout898Domain10_0 : List PoseLeaf := [continuousScout898Initial10_0,continuousScout898Initial10_1,continuousScout898Initial10_2,continuousScout898Initial10_3,continuousScout898Initial10_4,continuousScout898Initial10_5,continuousScout898Initial10_6,continuousScout898Initial10_7,continuousScout898Initial10_8,continuousScout898Initial10_9,continuousScout898Initial10_10,continuousScout898Initial10_11,continuousScout898Initial10_12,continuousScout898Initial10_13,continuousScout898Initial10_14,continuousScout898Initial10_15,continuousScout898Initial10_16,continuousScout898Initial10_17,continuousScout898Initial10_18,continuousScout898Initial10_19,continuousScout898Initial10_20,continuousScout898Initial10_21,continuousScout898Initial10_22,continuousScout898Initial10_23,continuousScout898Initial10_24,continuousScout898Initial10_25,continuousScout898Initial10_26,continuousScout898Initial10_27,continuousScout898Initial10_28,continuousScout898Initial10_29,continuousScout898Initial10_30,continuousScout898Initial10_31,continuousScout898Initial10_32,continuousScout898Initial10_33,continuousScout898Initial10_34,continuousScout898Initial10_35,continuousScout898Initial10_36,continuousScout898Initial10_37,continuousScout898Initial10_38,continuousScout898Initial10_39,continuousScout898Initial10_40,continuousScout898Initial10_41,continuousScout898Initial10_42,continuousScout898Initial10_43,continuousScout898Initial10_44,continuousScout898Initial10_45,continuousScout898Initial10_46,continuousScout898Initial10_47,continuousScout898Initial10_48,continuousScout898Initial10_49,continuousScout898Initial10_50,continuousScout898Initial10_51,continuousScout898Initial10_52,continuousScout898Initial10_53,continuousScout898Initial10_54,continuousScout898Initial10_55,continuousScout898Initial10_56,continuousScout898Initial10_57,continuousScout898Initial10_58,continuousScout898Initial10_59,continuousScout898Initial10_60,continuousScout898Initial10_61,continuousScout898Initial10_62,continuousScout898Initial10_63]"
+    },
+    "continuousScout898Domain11_0": {
+      "source": "vendor/S12/Push898Chunk2.lean",
+      "line": 2007,
+      "declaration": "def continuousScout898Domain11_0 : List PoseLeaf := [continuousScout898Initial11_0,continuousScout898Initial11_1,continuousScout898Initial11_2,continuousScout898Initial11_3,continuousScout898Initial11_4,continuousScout898Initial11_5,continuousScout898Initial11_6,continuousScout898Initial11_7,continuousScout898Initial11_8,continuousScout898Initial11_9,continuousScout898Initial11_10,continuousScout898Initial11_11,continuousScout898Initial11_12,continuousScout898Initial11_13,continuousScout898Initial11_14,continuousScout898Initial11_15,continuousScout898Initial11_16,continuousScout898Initial11_17,continuousScout898Initial11_18,continuousScout898Initial11_19,continuousScout898Initial11_20,continuousScout898Initial11_21,continuousScout898Initial11_27,continuousScout898Initial11_28,continuousScout898Initial11_29,continuousScout898Initial11_30,continuousScout898Initial11_31,continuousScout898Initial11_32,continuousScout898Initial11_33,continuousScout898Initial11_34,continuousScout898Initial11_35,continuousScout898Initial11_36,continuousScout898Initial11_37,continuousScout898Initial11_38,continuousScout898Initial11_39,continuousScout898Initial11_40,continuousScout898Initial11_41,continuousScout898Initial11_42,continuousScout898Initial11_43,continuousScout898Initial11_44,continuousScout898Initial11_45,continuousScout898Initial11_46,continuousScout898Initial11_47,continuousScout898Initial11_48,continuousScout898Initial11_49,continuousScout898Initial11_50,continuousScout898Initial11_51,continuousScout898Initial11_52,continuousScout898Initial11_53,continuousScout898Initial11_54,continuousScout898Initial11_55,continuousScout898Initial11_56,continuousScout898Initial11_57,continuousScout898Initial11_58,continuousScout898Initial11_59,continuousScout898Initial11_60,continuousScout898Initial11_61,continuousScout898Initial11_62,continuousScout898Initial11_63]"
+    },
+    "continuousScout898Domain1_1": {
+      "source": "vendor/S12/Push898Chunk10.lean",
+      "line": 3187,
+      "declaration": "def continuousScout898Domain1_1 : List PoseLeaf := [continuousScout898Step0Pose0Target,continuousScout898Step0Pose1Target,continuousScout898Step0Pose2Target,continuousScout898Step0Pose3Target,continuousScout898Step0Pose4Target,continuousScout898Step0Pose5Target,continuousScout898Step0Pose6Target,continuousScout898Step0Pose7Target,continuousScout898Step0Pose8Target,continuousScout898Step0Pose9Target,continuousScout898Step0Pose10Target,continuousScout898Step0Pose11Target,continuousScout898Step0Pose12Target,continuousScout898Step0Pose13Target,continuousScout898Step0Pose14Target,continuousScout898Step0Pose15Target,continuousScout898Step0Pose16Target,continuousScout898Step0Pose17Target,continuousScout898Step0Pose18Target,continuousScout898Step0Pose19Target,continuousScout898Step0Pose20Target,continuousScout898Step0Pose21Target,continuousScout898Step0Pose22Target,continuousScout898Step0Pose23Target,continuousScout898Step0Pose24Target,continuousScout898Step0Pose25Target,continuousScout898Step0Pose26Target,continuousScout898Step0Pose27Target,continuousScout898Step0Pose28Target,continuousScout898Step0Pose29Target,continuousScout898Step0Pose30Target,continuousScout898Step0Pose31Target,continuousScout898Step0Pose32Target,continuousScout898Step0Pose33Target,continuousScout898Step0Pose34Target,continuousScout898Step0Pose35Target,continuousScout898Step0Pose36Target,continuousScout898Step0Pose37Target,continuousScout898Step0Pose38Target,continuousScout898Step0Pose39Target,continuousScout898Step0Pose40Target,continuousScout898Step0Pose41Target,continuousScout898Step0Pose42Target,continuousScout898Step0Pose43Target,continuousScout898Step0Pose44Target,continuousScout898Step0Pose45Target,continuousScout898Step0Pose46Target,continuousScout898Step0Pose47Target,continuousScout898Step0Pose48Target,continuousScout898Step0Pose49Target,continuousScout898Step0Pose50Target,continuousScout898Step0Pose51Target,continuousScout898Step0Pose52Target,continuousScout898Step0Pose53Target,continuousScout898Step0Pose54Target,continuousScout898Step0Pose55Target,continuousScout898Step0Pose56Target,continuousScout898Step0Pose57Target,continuousScout898Step0Pose58Target,continuousScout898Step0Pose59Target,continuousScout898Step0Pose60Target,continuousScout898Step0Pose61Target,continuousScout898Step0Pose62Target,continuousScout898Step0Pose63Target]"
+    },
+    "continuousScout898Domain2_2": {
+      "source": "vendor/S12/Push898Chunk20.lean",
+      "line": 1439,
+      "declaration": "def continuousScout898Domain2_2 : List PoseLeaf := [continuousScout898Step1Pose0Target,continuousScout898Step1Pose1Target,continuousScout898Step1Pose2Target,continuousScout898Step1Pose3Target,continuousScout898Step1Pose4Target,continuousScout898Step1Pose5Target,continuousScout898Step1Pose6Target,continuousScout898Step1Pose7Target,continuousScout898Step1Pose8Target,continuousScout898Step1Pose9Target,continuousScout898Step1Pose10Target,continuousScout898Step1Pose11Target,continuousScout898Step1Pose12Target,continuousScout898Step1Pose13Target,continuousScout898Step1Pose14Target,continuousScout898Step1Pose15Target,continuousScout898Step1Pose16Target,continuousScout898Step1Pose17Target,continuousScout898Step1Pose18Target,continuousScout898Step1Pose19Target,continuousScout898Step1Pose20Target,continuousScout898Step1Pose21Target,continuousScout898Step1Pose22Target,continuousScout898Step1Pose23Target,continuousScout898Step1Pose24Target,continuousScout898Step1Pose25Target,continuousScout898Step1Pose26Target,continuousScout898Step1Pose27Target,continuousScout898Step1Pose28Target,continuousScout898Step1Pose29Target,continuousScout898Step1Pose30Target,continuousScout898Step1Pose31Target,continuousScout898Step1Pose32Target,continuousScout898Step1Pose33Target,continuousScout898Step1Pose34Target,continuousScout898Step1Pose35Target,continuousScout898Step1Pose36Target,continuousScout898Step1Pose37Target,continuousScout898Step1Pose38Target,continuousScout898Step1Pose39Target,continuousScout898Step1Pose40Target,continuousScout898Step1Pose41Target,continuousScout898Step1Pose42Target,continuousScout898Step1Pose43Target,continuousScout898Step1Pose44Target,continuousScout898Step1Pose45Target,continuousScout898Step1Pose46Target,continuousScout898Step1Pose47Target,continuousScout898Step1Pose48Target,continuousScout898Step1Pose49Target,continuousScout898Step1Pose50Target,continuousScout898Step1Pose51Target,continuousScout898Step1Pose52Target,continuousScout898Step1Pose53Target,continuousScout898Step1Pose54Target,continuousScout898Step1Pose55Target,continuousScout898Step1Pose56Target,continuousScout898Step1Pose57Target,continuousScout898Step1Pose58Target,continuousScout898Step1Pose59Target,continuousScout898Step1Pose60Target,continuousScout898Step1Pose61Target,continuousScout898Step1Pose62Target,continuousScout898Step1Pose63Target]"
+    },
+    "continuousScout898Domain3_3": {
+      "source": "vendor/S12/Push898Chunk27.lean",
+      "line": 633,
+      "declaration": "def continuousScout898Domain3_3 : List PoseLeaf := [continuousScout898Step2Pose0Target,continuousScout898Step2Pose1Target,continuousScout898Step2Pose2Target,continuousScout898Step2Pose3Target,continuousScout898Step2Pose4Target,continuousScout898Step2Pose5Target,continuousScout898Step2Pose6Target,continuousScout898Step2Pose7Target,continuousScout898Step2Pose8Target,continuousScout898Step2Pose9Target,continuousScout898Step2Pose10Target,continuousScout898Step2Pose11Target,continuousScout898Step2Pose12Target,continuousScout898Step2Pose13Target,continuousScout898Step2Pose14Target,continuousScout898Step2Pose15Target,continuousScout898Step2Pose16Target,continuousScout898Step2Pose17Target,continuousScout898Step2Pose18Target,continuousScout898Step2Pose19Target,continuousScout898Step2Pose20Target,continuousScout898Step2Pose21Target,continuousScout898Step2Pose22Target,continuousScout898Step2Pose23Target,continuousScout898Step2Pose24Target,continuousScout898Step2Pose25Target,continuousScout898Step2Pose26Target,continuousScout898Step2Pose27Target,continuousScout898Step2Pose28Target,continuousScout898Step2Pose29Target,continuousScout898Step2Pose30Target,continuousScout898Step2Pose31Target,continuousScout898Step2Pose32Target,continuousScout898Step2Pose33Target,continuousScout898Step2Pose34Target,continuousScout898Step2Pose35Target,continuousScout898Step2Pose36Target,continuousScout898Step2Pose37Target,continuousScout898Step2Pose38Target,continuousScout898Step2Pose39Target,continuousScout898Step2Pose40Target,continuousScout898Step2Pose41Target,continuousScout898Step2Pose42Target,continuousScout898Step2Pose43Target,continuousScout898Step2Pose44Target,continuousScout898Step2Pose45Target,continuousScout898Step2Pose46Target,continuousScout898Step2Pose47Target,continuousScout898Step2Pose48Target,continuousScout898Step2Pose49Target,continuousScout898Step2Pose50Target,continuousScout898Step2Pose51Target,continuousScout898Step2Pose52Target,continuousScout898Step2Pose53Target,continuousScout898Step2Pose54Target,continuousScout898Step2Pose55Target,continuousScout898Step2Pose56Target,continuousScout898Step2Pose57Target,continuousScout898Step2Pose58Target,continuousScout898Step2Pose59Target,continuousScout898Step2Pose60Target,continuousScout898Step2Pose61Target,continuousScout898Step2Pose62Target,continuousScout898Step2Pose63Target]"
+    },
+    "continuousScout898Domain6_4": {
+      "source": "vendor/S12/Push898Chunk28.lean",
+      "line": 974,
+      "declaration": "def continuousScout898Domain6_4 : List PoseLeaf := [continuousScout898Step3Pose0Target,continuousScout898Step3Pose1Target,continuousScout898Step3Pose2Target,continuousScout898Step3Pose3Target,continuousScout898Step3Pose4Target,continuousScout898Step3Pose5Target,continuousScout898Step3Pose6Target,continuousScout898Step3Pose7Target,continuousScout898Step3Pose8Target,continuousScout898Step3Pose9Target,continuousScout898Step3Pose10Target,continuousScout898Step3Pose11Target,continuousScout898Step3Pose12Target,continuousScout898Step3Pose15Target]"
+    },
+    "continuousScout898Domain6_5": {
+      "source": "vendor/S12/Push898Chunk29.lean",
+      "line": 1437,
+      "declaration": "def continuousScout898Domain6_5 : List PoseLeaf := [continuousScout898Step4Pose0Target,continuousScout898Step4Pose1Target,continuousScout898Step4Pose2Target,continuousScout898Step4Pose3Target,continuousScout898Step4Pose4Target,continuousScout898Step4Pose5Target,continuousScout898Step4Pose6Target,continuousScout898Step4Pose7Target,continuousScout898Step4Pose8Target,continuousScout898Step4Pose9Target,continuousScout898Step4Pose10Target,continuousScout898Step4Pose13Target]"
+    },
+    "continuousScout898Domain7_6": {
+      "source": "vendor/S12/Push898Chunk30.lean",
+      "line": 3141,
+      "declaration": "def continuousScout898Domain7_6 : List PoseLeaf := [continuousScout898Step5Pose0Target,continuousScout898Step5Pose1Target,continuousScout898Step5Pose2Target,continuousScout898Step5Pose3Target,continuousScout898Step5Pose4Target,continuousScout898Step5Pose5Target,continuousScout898Step5Pose6Target,continuousScout898Step5Pose7Target,continuousScout898Step5Pose8Target,continuousScout898Step5Pose9Target,continuousScout898Step5Pose10Target,continuousScout898Step5Pose11Target,continuousScout898Step5Pose12Target,continuousScout898Step5Pose13Target,continuousScout898Step5Pose14Target,continuousScout898Step5Pose15Target,continuousScout898Step5Pose16Target,continuousScout898Step5Pose17Target,continuousScout898Step5Pose18Target,continuousScout898Step5Pose19Target,continuousScout898Step5Pose20Target,continuousScout898Step5Pose21Target,continuousScout898Step5Pose22Target,continuousScout898Step5Pose23Target,continuousScout898Step5Pose24Target,continuousScout898Step5Pose25Target,continuousScout898Step5Pose26Target,continuousScout898Step5Pose27Target,continuousScout898Step5Pose28Target,continuousScout898Step5Pose30Target,continuousScout898Step5Pose31Target,continuousScout898Step5Pose32Target,continuousScout898Step5Pose33Target,continuousScout898Step5Pose34Target,continuousScout898Step5Pose35Target,continuousScout898Step5Pose36Target,continuousScout898Step5Pose37Target,continuousScout898Step5Pose38Target,continuousScout898Step5Pose39Target,continuousScout898Step5Pose40Target,continuousScout898Step5Pose41Target,continuousScout898Step5Pose42Target,continuousScout898Step5Pose43Target,continuousScout898Step5Pose44Target,continuousScout898Step5Pose45Target,continuousScout898Step5Pose46Target,continuousScout898Step5Pose47Target,continuousScout898Step5Pose48Target,continuousScout898Step5Pose49Target,continuousScout898Step5Pose50Target,continuousScout898Step5Pose51Target,continuousScout898Step5Pose52Target,continuousScout898Step5Pose53Target,continuousScout898Step5Pose54Target,continuousScout898Step5Pose55Target,continuousScout898Step5Pose56Target,continuousScout898Step5Pose57Target,continuousScout898Step5Pose58Target,continuousScout898Step5Pose59Target,continuousScout898Step5Pose60Target,continuousScout898Step5Pose61Target,continuousScout898Step5Pose62Target,continuousScout898Step5Pose63Target]"
+    },
+    "continuousScout898Domain7_7": {
+      "source": "vendor/S12/Push898Chunk39.lean",
+      "line": 2247,
+      "declaration": "def continuousScout898Domain7_7 : List PoseLeaf := [continuousScout898Step6Pose0Target,continuousScout898Step6Pose1Target,continuousScout898Step6Pose2Target,continuousScout898Step6Pose3Target,continuousScout898Step6Pose4Target,continuousScout898Step6Pose5Target,continuousScout898Step6Pose6Target,continuousScout898Step6Pose7Target,continuousScout898Step6Pose8Target,continuousScout898Step6Pose9Target,continuousScout898Step6Pose10Target,continuousScout898Step6Pose11Target,continuousScout898Step6Pose12Target,continuousScout898Step6Pose13Target,continuousScout898Step6Pose14Target,continuousScout898Step6Pose15Target,continuousScout898Step6Pose16Target,continuousScout898Step6Pose17Target,continuousScout898Step6Pose18Target,continuousScout898Step6Pose19Target,continuousScout898Step6Pose20Target,continuousScout898Step6Pose21Target,continuousScout898Step6Pose22Target,continuousScout898Step6Pose23Target,continuousScout898Step6Pose24Target,continuousScout898Step6Pose25Target,continuousScout898Step6Pose26Target,continuousScout898Step6Pose27Target,continuousScout898Step6Pose28Target,continuousScout898Step6Pose29Target,continuousScout898Step6Pose30Target,continuousScout898Step6Pose31Target,continuousScout898Step6Pose32Target,continuousScout898Step6Pose33Target,continuousScout898Step6Pose34Target,continuousScout898Step6Pose35Target,continuousScout898Step6Pose36Target,continuousScout898Step6Pose37Target,continuousScout898Step6Pose38Target,continuousScout898Step6Pose39Target,continuousScout898Step6Pose40Target,continuousScout898Step6Pose41Target,continuousScout898Step6Pose42Target,continuousScout898Step6Pose43Target,continuousScout898Step6Pose44Target,continuousScout898Step6Pose45Target,continuousScout898Step6Pose46Target,continuousScout898Step6Pose47Target,continuousScout898Step6Pose48Target,continuousScout898Step6Pose49Target,continuousScout898Step6Pose50Target,continuousScout898Step6Pose51Target,continuousScout898Step6Pose52Target,continuousScout898Step6Pose53Target,continuousScout898Step6Pose54Target,continuousScout898Step6Pose55Target,continuousScout898Step6Pose56Target,continuousScout898Step6Pose57Target,continuousScout898Step6Pose58Target,continuousScout898Step6Pose59Target,continuousScout898Step6Pose60Target,continuousScout898Step6Pose61Target,continuousScout898Step6Pose62Target]"
+    },
+    "continuousScout898Domain9_8": {
+      "source": "vendor/S12/Push898Chunk46.lean",
+      "line": 2502,
+      "declaration": "def continuousScout898Domain9_8 : List PoseLeaf := [continuousScout898Step7Pose0Target,continuousScout898Step7Pose1Target,continuousScout898Step7Pose2Target,continuousScout898Step7Pose3Target,continuousScout898Step7Pose4Target,continuousScout898Step7Pose5Target,continuousScout898Step7Pose6Target,continuousScout898Step7Pose7Target,continuousScout898Step7Pose8Target,continuousScout898Step7Pose9Target,continuousScout898Step7Pose10Target,continuousScout898Step7Pose11Target,continuousScout898Step7Pose12Target,continuousScout898Step7Pose13Target,continuousScout898Step7Pose14Target,continuousScout898Step7Pose15Target,continuousScout898Step7Pose16Target,continuousScout898Step7Pose17Target,continuousScout898Step7Pose18Target,continuousScout898Step7Pose19Target,continuousScout898Step7Pose26Target,continuousScout898Step7Pose27Target,continuousScout898Step7Pose28Target,continuousScout898Step7Pose29Target,continuousScout898Step7Pose30Target,continuousScout898Step7Pose31Target,continuousScout898Step7Pose32Target,continuousScout898Step7Pose33Target,continuousScout898Step7Pose34Target,continuousScout898Step7Pose35Target,continuousScout898Step7Pose36Target,continuousScout898Step7Pose37Target,continuousScout898Step7Pose38Target,continuousScout898Step7Pose39Target,continuousScout898Step7Pose40Target,continuousScout898Step7Pose41Target,continuousScout898Step7Pose42Target,continuousScout898Step7Pose43Target,continuousScout898Step7Pose44Target,continuousScout898Step7Pose45Target,continuousScout898Step7Pose46Target,continuousScout898Step7Pose47Target,continuousScout898Step7Pose48Target,continuousScout898Step7Pose49Target,continuousScout898Step7Pose50Target,continuousScout898Step7Pose51Target,continuousScout898Step7Pose52Target,continuousScout898Step7Pose53Target,continuousScout898Step7Pose54Target,continuousScout898Step7Pose55Target,continuousScout898Step7Pose56Target,continuousScout898Step7Pose57Target,continuousScout898Step7Pose58Target]"
+    },
+    "continuousScout898Domain0_9": {
+      "source": "vendor/S12/Push898Chunk56.lean",
+      "line": 1557,
+      "declaration": "def continuousScout898Domain0_9 : List PoseLeaf := [continuousScout898Step8Pose0Target,continuousScout898Step8Pose1Target,continuousScout898Step8Pose2Target,continuousScout898Step8Pose3Target,continuousScout898Step8Pose4Target,continuousScout898Step8Pose5Target,continuousScout898Step8Pose6Target,continuousScout898Step8Pose7Target,continuousScout898Step8Pose8Target,continuousScout898Step8Pose9Target,continuousScout898Step8Pose10Target,continuousScout898Step8Pose11Target,continuousScout898Step8Pose12Target,continuousScout898Step8Pose13Target,continuousScout898Step8Pose14Target,continuousScout898Step8Pose15Target,continuousScout898Step8Pose16Target,continuousScout898Step8Pose17Target,continuousScout898Step8Pose18Target,continuousScout898Step8Pose19Target,continuousScout898Step8Pose20Target,continuousScout898Step8Pose21Target,continuousScout898Step8Pose22Target,continuousScout898Step8Pose23Target,continuousScout898Step8Pose24Target,continuousScout898Step8Pose25Target,continuousScout898Step8Pose26Target,continuousScout898Step8Pose27Target,continuousScout898Step8Pose28Target,continuousScout898Step8Pose29Target,continuousScout898Step8Pose30Target,continuousScout898Step8Pose31Target,continuousScout898Step8Pose32Target,continuousScout898Step8Pose33Target,continuousScout898Step8Pose34Target,continuousScout898Step8Pose35Target,continuousScout898Step8Pose36Target,continuousScout898Step8Pose37Target,continuousScout898Step8Pose38Target,continuousScout898Step8Pose39Target,continuousScout898Step8Pose40Target,continuousScout898Step8Pose44Target,continuousScout898Step8Pose45Target,continuousScout898Step8Pose46Target,continuousScout898Step8Pose47Target,continuousScout898Step8Pose48Target,continuousScout898Step8Pose49Target,continuousScout898Step8Pose50Target,continuousScout898Step8Pose51Target,continuousScout898Step8Pose52Target,continuousScout898Step8Pose53Target,continuousScout898Step8Pose54Target,continuousScout898Step8Pose55Target,continuousScout898Step8Pose56Target,continuousScout898Step8Pose57Target,continuousScout898Step8Pose58Target,continuousScout898Step8Pose59Target,continuousScout898Step8Pose60Target,continuousScout898Step8Pose61Target,continuousScout898Step8Pose62Target,continuousScout898Step8Pose63Target]"
+    },
+    "continuousScout898Domain5_10": {
+      "source": "vendor/S12/Push898Chunk56.lean",
+      "line": 3456,
+      "declaration": "def continuousScout898Domain5_10 : List PoseLeaf := [continuousScout898Step9Pose0Target,continuousScout898Step9Pose1Target,continuousScout898Step9Pose2Target,continuousScout898Step9Pose3Target,continuousScout898Step9Pose4Target,continuousScout898Step9Pose5Target,continuousScout898Step9Pose6Target,continuousScout898Step9Pose7Target,continuousScout898Step9Pose8Target,continuousScout898Step9Pose9Target,continuousScout898Step9Pose10Target,continuousScout898Step9Pose11Target,continuousScout898Step9Pose12Target,continuousScout898Step9Pose13Target,continuousScout898Step9Pose14Target,continuousScout898Step9Pose15Target,continuousScout898Step9Pose16Target,continuousScout898Step9Pose17Target,continuousScout898Step9Pose18Target,continuousScout898Step9Pose19Target,continuousScout898Step9Pose20Target,continuousScout898Step9Pose21Target,continuousScout898Step9Pose22Target,continuousScout898Step9Pose23Target,continuousScout898Step9Pose24Target,continuousScout898Step9Pose25Target,continuousScout898Step9Pose26Target,continuousScout898Step9Pose27Target,continuousScout898Step9Pose28Target,continuousScout898Step9Pose29Target,continuousScout898Step9Pose30Target,continuousScout898Step9Pose31Target,continuousScout898Step9Pose32Target,continuousScout898Step9Pose33Target,continuousScout898Step9Pose34Target,continuousScout898Step9Pose35Target,continuousScout898Step9Pose36Target,continuousScout898Step9Pose37Target,continuousScout898Step9Pose38Target,continuousScout898Step9Pose39Target,continuousScout898Step9Pose40Target,continuousScout898Step9Pose41Target,continuousScout898Step9Pose42Target,continuousScout898Step9Pose43Target,continuousScout898Step9Pose44Target,continuousScout898Step9Pose45Target,continuousScout898Step9Pose46Target,continuousScout898Step9Pose47Target,continuousScout898Step9Pose48Target,continuousScout898Step9Pose49Target,continuousScout898Step9Pose50Target,continuousScout898Step9Pose52Target]"
+    },
+    "continuousScout898Domain5_11": {
+      "source": "vendor/S12/Push898Chunk56.lean",
+      "line": 5086,
+      "declaration": "def continuousScout898Domain5_11 : List PoseLeaf := [continuousScout898Step10Pose2Target,continuousScout898Step10Pose3Target,continuousScout898Step10Pose4Target,continuousScout898Step10Pose5Target,continuousScout898Step10Pose6Target,continuousScout898Step10Pose7Target,continuousScout898Step10Pose8Target,continuousScout898Step10Pose9Target,continuousScout898Step10Pose10Target,continuousScout898Step10Pose11Target,continuousScout898Step10Pose12Target,continuousScout898Step10Pose13Target,continuousScout898Step10Pose14Target,continuousScout898Step10Pose15Target,continuousScout898Step10Pose16Target,continuousScout898Step10Pose17Target,continuousScout898Step10Pose18Target,continuousScout898Step10Pose19Target,continuousScout898Step10Pose20Target,continuousScout898Step10Pose21Target,continuousScout898Step10Pose22Target,continuousScout898Step10Pose23Target,continuousScout898Step10Pose24Target,continuousScout898Step10Pose25Target,continuousScout898Step10Pose26Target,continuousScout898Step10Pose27Target,continuousScout898Step10Pose28Target,continuousScout898Step10Pose29Target,continuousScout898Step10Pose30Target,continuousScout898Step10Pose31Target,continuousScout898Step10Pose32Target,continuousScout898Step10Pose33Target,continuousScout898Step10Pose34Target,continuousScout898Step10Pose35Target,continuousScout898Step10Pose36Target,continuousScout898Step10Pose37Target,continuousScout898Step10Pose38Target,continuousScout898Step10Pose39Target,continuousScout898Step10Pose40Target,continuousScout898Step10Pose41Target,continuousScout898Step10Pose42Target,continuousScout898Step10Pose43Target,continuousScout898Step10Pose44Target,continuousScout898Step10Pose45Target,continuousScout898Step10Pose46Target,continuousScout898Step10Pose47Target,continuousScout898Step10Pose48Target,continuousScout898Step10Pose49Target,continuousScout898Step10Pose50Target]"
+    },
+    "continuousScout898Domain5_12": {
+      "source": "vendor/S12/Push898Chunk60.lean",
+      "line": 358,
+      "declaration": "def continuousScout898Domain5_12 : List PoseLeaf := [continuousScout898Step11Pose0Target,continuousScout898Step11Pose1Target,continuousScout898Step11Pose2Target,continuousScout898Step11Pose3Target,continuousScout898Step11Pose4Target,continuousScout898Step11Pose5Target,continuousScout898Step11Pose6Target,continuousScout898Step11Pose7Target,continuousScout898Step11Pose8Target,continuousScout898Step11Pose9Target,continuousScout898Step11Pose10Target,continuousScout898Step11Pose11Target,continuousScout898Step11Pose12Target,continuousScout898Step11Pose13Target,continuousScout898Step11Pose14Target,continuousScout898Step11Pose15Target,continuousScout898Step11Pose16Target,continuousScout898Step11Pose17Target,continuousScout898Step11Pose18Target,continuousScout898Step11Pose19Target,continuousScout898Step11Pose20Target,continuousScout898Step11Pose21Target,continuousScout898Step11Pose22Target,continuousScout898Step11Pose23Target,continuousScout898Step11Pose24Target,continuousScout898Step11Pose25Target,continuousScout898Step11Pose26Target,continuousScout898Step11Pose27Target,continuousScout898Step11Pose28Target,continuousScout898Step11Pose29Target,continuousScout898Step11Pose30Target,continuousScout898Step11Pose31Target,continuousScout898Step11Pose32Target,continuousScout898Step11Pose33Target,continuousScout898Step11Pose34Target,continuousScout898Step11Pose35Target,continuousScout898Step11Pose36Target,continuousScout898Step11Pose37Target,continuousScout898Step11Pose38Target,continuousScout898Step11Pose39Target,continuousScout898Step11Pose40Target,continuousScout898Step11Pose41Target,continuousScout898Step11Pose42Target,continuousScout898Step11Pose43Target,continuousScout898Step11Pose44Target,continuousScout898Step11Pose45Target,continuousScout898Step11Pose46Target,continuousScout898Step11Pose47Target,continuousScout898Step11Pose48Target]"
+    },
+    "continuousScout898Domain5_13": {
+      "source": "vendor/S12/Push898Chunk61.lean",
+      "line": 735,
+      "declaration": "def continuousScout898Domain5_13 : List PoseLeaf := [continuousScout898Step12Pose9Target,continuousScout898Step12Pose10Target,continuousScout898Step12Pose11Target,continuousScout898Step12Pose12Target,continuousScout898Step12Pose13Target,continuousScout898Step12Pose14Target,continuousScout898Step12Pose15Target,continuousScout898Step12Pose16Target,continuousScout898Step12Pose17Target,continuousScout898Step12Pose18Target,continuousScout898Step12Pose19Target,continuousScout898Step12Pose20Target,continuousScout898Step12Pose21Target,continuousScout898Step12Pose22Target,continuousScout898Step12Pose23Target,continuousScout898Step12Pose24Target,continuousScout898Step12Pose25Target,continuousScout898Step12Pose26Target,continuousScout898Step12Pose27Target,continuousScout898Step12Pose28Target,continuousScout898Step12Pose29Target,continuousScout898Step12Pose30Target,continuousScout898Step12Pose31Target]"
+    },
+    "continuousScout898Domain5_14": {
+      "source": "vendor/S12/Push898Chunk64.lean",
+      "line": 2778,
+      "declaration": "def continuousScout898Domain5_14 : List PoseLeaf := [continuousScout898Step13Pose0Target,continuousScout898Step13Pose1Target,continuousScout898Step13Pose2Target,continuousScout898Step13Pose3Target,continuousScout898Step13Pose4Target,continuousScout898Step13Pose5Target,continuousScout898Step13Pose6Target,continuousScout898Step13Pose7Target]"
+    },
+    "continuousScout898Domain5_15": {
+      "source": "vendor/S12/Push898Chunk65.lean",
+      "line": 3140,
+      "declaration": "def continuousScout898Domain5_15 : List PoseLeaf := []"
+    }
+  },
+  "final_theorems": {
+    "mixedGeometryScout898_impossible": {
+      "source": "vendor/S12/Push898Chunk65.lean",
+      "line": 3154
+    },
+    "case898_shared_impossible": {
+      "source": "vendor/S12/Push898Chunk65.lean",
+      "line": 4824
+    }
+  }
+}

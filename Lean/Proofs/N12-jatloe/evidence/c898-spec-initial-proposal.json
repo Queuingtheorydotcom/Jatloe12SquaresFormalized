@@ -1,0 +1,11390 @@
+{
+  "scope": "Proposal only. Complete original C898 initial obligations; ordinary Lean checks pending.",
+  "proposal_directory": "evidence/proposals/C898RecipeTable",
+  "production_namespace": "N12Compact.C898RecipeInitial",
+  "semantic_records": 704,
+  "numeric_batches": 88,
+  "numeric_declaration_strategy": "checked_recipe: separate named Entry and ordinary kernel theorem per record",
+  "previous_identical_records_report_sha256": "702c09bc4c6c008ddef485a41083ef5b590c00c91a74c6b6a9d1ab34d8be9a2d",
+  "active_source_sha256": {
+    "Bank.lean": "0275121cb7b1b9bd9ef56e0fb96c6ff40b06e348131815e9659eceec1db41fd3",
+    "Batch00_00.lean": "4e2728f0c23a4fd673bdb0e556bcc172e27499a389a4658829953b6d8d619bb0",
+    "Batch00_01.lean": "7cf7d1f257aeab990d67749f98c77df74acb42bd97324428de6969c0c57b0287",
+    "Batch00_02.lean": "ef49ab70d1e9f550934e2eb86aeaa1897c57d09711eb749271650ea1f76bc6d6",
+    "Batch00_03.lean": "5f612051a9ae405bc66082a710485272faaff6a7ad4b206a2a9125a25a98523f",
+    "Batch00_04.lean": "995ba2042141736ca6d33af4041f6a0b87486af3a17ebbeb0f7746aff9bb6a82",
+    "Batch00_05.lean": "61075f682b434a5ff9ad6f12bc107b80f69cc60c0f11ac29cfde7f91d2a1df20",
+    "Batch00_06.lean": "76608942bab768edf89f668889db93d794579bce43ef2e26f3c6c8c1d3b1058e",
+    "Batch00_07.lean": "5caffcd0c6d2e35315bf38db66f11a295a54183832ab3d8e5f12b3aa2eb8a0b2",
+    "Data00.lean": "e10efd855ee0bcbcf6556d51463362fe3df1b844bce65fcfc338ab12e53c2140",
+    "Owner00.lean": "c6a6ff683cb2fd76ad683364c21ab8f40bb585ea387e7371bbc03ea9c2c0425b",
+    "Batch01_00.lean": null,
+    "Batch01_01.lean": null,
+    "Batch01_02.lean": null,
+    "Batch01_03.lean": null,
+    "Batch01_04.lean": null,
+    "Batch01_05.lean": null,
+    "Batch01_06.lean": null,
+    "Batch01_07.lean": null,
+    "Data01.lean": "dd49428900e6fbe21a45c87481291e6d79f1761c2b20c305d1bba01ed2bcd252",
+    "Owner01.lean": "d949d83829511e83d6b326baa6317fefeef29fd2bc21ca4f3fa6bdc48582014b",
+    "Batch02_00.lean": null,
+    "Batch02_01.lean": null,
+    "Batch02_02.lean": null,
+    "Batch02_03.lean": null,
+    "Batch02_04.lean": null,
+    "Batch02_05.lean": null,
+    "Batch02_06.lean": null,
+    "Batch02_07.lean": null,
+    "Data02.lean": "c9abbf172a2b17dea015426823482f43ae8d8fd3c33291f5314bdb559c398bc4",
+    "Owner02.lean": "c5d17606759e24985952ec58afb45041bc614fd17746e55a2bbbe70eb3a57a4f",
+    "Batch03_00.lean": null,
+    "Batch03_01.lean": null,
+    "Batch03_02.lean": null,
+    "Batch03_03.lean": null,
+    "Batch03_04.lean": null,
+    "Batch03_05.lean": null,
+    "Batch03_06.lean": null,
+    "Batch03_07.lean": null,
+    "Data03.lean": "d6784cda68225ea1c31c14fa85bd4b97bcabce092767c4c004bb3d6b90328c9c",
+    "Owner03.lean": "efdd7431e28a8552b820f1aad7f08fa003ffffa3e572b02dccf3782021bcdebf",
+    "Batch05_00.lean": null,
+    "Batch05_01.lean": null,
+    "Batch05_02.lean": null,
+    "Batch05_03.lean": null,
+    "Batch05_04.lean": null,
+    "Batch05_05.lean": null,
+    "Batch05_06.lean": null,
+    "Batch05_07.lean": null,
+    "Data05.lean": "322c4f6fc86379ebd4ac0bbaf04374a7e0db4d64b9df2dcf4d443690753c5c3e",
+    "Owner05.lean": "72890f88d24d26b26bc72560dbea341bdf1288f7e2f229d5008908b4a16dbeb2",
+    "Batch06_00.lean": null,
+    "Batch06_01.lean": null,
+    "Batch06_02.lean": null,
+    "Batch06_03.lean": null,
+    "Batch06_04.lean": null,
+    "Batch06_05.lean": null,
+    "Batch06_06.lean": null,
+    "Batch06_07.lean": null,
+    "Data06.lean": "8e633c498ec6427c210e32d2597f51968d6b2eb9ba7d67c3e9be9ea1e03ab8f8",
+    "Owner06.lean": "f6bd4931da44a3781c3a5cc2a783d81d3b9b98b774d44bf35954fb620130d14e",
+    "Batch07_00.lean": null,
+    "Batch07_01.lean": null,
+    "Batch07_02.lean": null,
+    "Batch07_03.lean": null,
+    "Batch07_04.lean": null,
+    "Batch07_05.lean": null,
+    "Batch07_06.lean": null,
+    "Batch07_07.lean": null,
+    "Data07.lean": "fea183a20803e56492f96c1c909804504fb63e63dc445681b7f8c5281fcf3f95",
+    "Owner07.lean": "77a9428607915cd3de6440267aaddfdffbd5c3832f97181b5d949918cc7fa87a",
+    "Batch08_00.lean": null,
+    "Batch08_01.lean": null,
+    "Batch08_02.lean": null,
+    "Batch08_03.lean": null,
+    "Batch08_04.lean": null,
+    "Batch08_05.lean": null,
+    "Batch08_06.lean": null,
+    "Batch08_07.lean": null,
+    "Data08.lean": "ba4d08a8338137e9cb8667f0845564a2d4b090a441385637855dd84fb5f22166",
+    "Owner08.lean": "500bdfe9eb8b4b5b8ce18cfb9d59f75d9891535aead3f4ca3fdca9bfd1a1e3c4",
+    "Batch09_00.lean": null,
+    "Batch09_01.lean": null,
+    "Batch09_02.lean": null,
+    "Batch09_03.lean": null,
+    "Batch09_04.lean": null,
+    "Batch09_05.lean": null,
+    "Batch09_06.lean": null,
+    "Batch09_07.lean": null,
+    "Data09.lean": "1fe746725955301c011602d9eef4adb51b75189e27bfba34ab7f83c7a6327ebe",
+    "Owner09.lean": "8358b18c471f91ae7447938b4a97716e6851b75a1e3a3e097a9d728ad6924a85",
+    "Batch10_00.lean": null,
+    "Batch10_01.lean": null,
+    "Batch10_02.lean": null,
+    "Batch10_03.lean": null,
+    "Batch10_04.lean": null,
+    "Batch10_05.lean": null,
+    "Batch10_06.lean": null,
+    "Batch10_07.lean": null,
+    "Data10.lean": "a54e9aaf86e956de8100330266b5113f2f3f362de9e764b4d8130b268171077e",
+    "Owner10.lean": "a9f6968ede948530b722083bc0653a2f420d24eafbe8f9897e34f6bfd8b45d3a",
+    "Batch11_00.lean": null,
+    "Batch11_01.lean": null,
+    "Batch11_02.lean": null,
+    "Batch11_03.lean": null,
+    "Batch11_04.lean": null,
+    "Batch11_05.lean": null,
+    "Batch11_06.lean": null,
+    "Batch11_07.lean": null,
+    "Data11.lean": "66451bbaa485a98ae5ccf4902f899598540354a96b59dac3db53b48d91fcb820",
+    "Owner11.lean": "0eb13461d464ec3ae4183655c3b73160d00e46cbec7f4e7942dfccd16da1b6f4",
+    "Pilot.lean": "1f4853157c1d71b540f98d9a9dbec7645d502647c896d12b398a12de89307bb1",
+    "All.lean": "8b2844cd376e714976a9b3f50593c387afbd4749683ef2cf44b13ae21279d5a9",
+    "Entry.lean": "aa9ec0d8e1f71a514a0ce8b9ce3daa173a62ca8016b7c9cf97b6fc691835cae1"
+  },
+  "maximum_roots_per_numeric_module": 8,
+  "target_angles": 630,
+  "empty_angles": 74,
+  "lean_modules": 114,
+  "lean_bytes": 230851,
+  "lean_lines": 4129,
+  "serialized_target_rows": 0,
+  "owner_target_pool_ids": 0,
+  "records": [
+    {
+      "owner": 0,
+      "angle": 0,
+      "input_indices": [
+        0,
+        5,
+        6,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1121
+    },
+    {
+      "owner": 0,
+      "angle": 1,
+      "input_indices": [
+        0,
+        5,
+        6,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1122
+    },
+    {
+      "owner": 0,
+      "angle": 2,
+      "input_indices": [
+        0,
+        5,
+        6,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1123
+    },
+    {
+      "owner": 0,
+      "angle": 3,
+      "input_indices": [
+        0,
+        5,
+        6,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1124
+    },
+    {
+      "owner": 0,
+      "angle": 4,
+      "input_indices": [
+        0,
+        5,
+        6,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1125
+    },
+    {
+      "owner": 0,
+      "angle": 5,
+      "input_indices": [
+        0,
+        5,
+        6,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1126
+    },
+    {
+      "owner": 0,
+      "angle": 6,
+      "input_indices": [
+        0,
+        5,
+        6,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1127
+    },
+    {
+      "owner": 0,
+      "angle": 7,
+      "input_indices": [
+        0,
+        5,
+        6,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1128
+    },
+    {
+      "owner": 0,
+      "angle": 8,
+      "input_indices": [
+        0,
+        5,
+        6,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1129
+    },
+    {
+      "owner": 0,
+      "angle": 9,
+      "input_indices": [
+        0,
+        5,
+        6,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1130
+    },
+    {
+      "owner": 0,
+      "angle": 10,
+      "input_indices": [
+        0,
+        5,
+        6,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1131
+    },
+    {
+      "owner": 0,
+      "angle": 11,
+      "input_indices": [
+        0,
+        5,
+        6,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1132
+    },
+    {
+      "owner": 0,
+      "angle": 12,
+      "input_indices": [
+        0,
+        5,
+        6,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1133
+    },
+    {
+      "owner": 0,
+      "angle": 13,
+      "input_indices": [
+        0,
+        5,
+        6,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1134
+    },
+    {
+      "owner": 0,
+      "angle": 14,
+      "input_indices": [
+        0,
+        5,
+        6,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1135
+    },
+    {
+      "owner": 0,
+      "angle": 15,
+      "input_indices": [
+        0,
+        5,
+        6,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1136
+    },
+    {
+      "owner": 0,
+      "angle": 16,
+      "input_indices": [
+        0,
+        6,
+        9,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1137
+    },
+    {
+      "owner": 0,
+      "angle": 17,
+      "input_indices": [
+        0,
+        6,
+        9,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1138
+    },
+    {
+      "owner": 0,
+      "angle": 18,
+      "input_indices": [
+        0,
+        6,
+        9,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1139
+    },
+    {
+      "owner": 0,
+      "angle": 19,
+      "input_indices": [
+        0,
+        6,
+        9,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1140
+    },
+    {
+      "owner": 0,
+      "angle": 20,
+      "input_indices": [
+        0,
+        6,
+        9,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1141
+    },
+    {
+      "owner": 0,
+      "angle": 21,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1142
+    },
+    {
+      "owner": 0,
+      "angle": 22,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1143
+    },
+    {
+      "owner": 0,
+      "angle": 23,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1144
+    },
+    {
+      "owner": 0,
+      "angle": 24,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1145
+    },
+    {
+      "owner": 0,
+      "angle": 25,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1146
+    },
+    {
+      "owner": 0,
+      "angle": 26,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1147
+    },
+    {
+      "owner": 0,
+      "angle": 27,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1148
+    },
+    {
+      "owner": 0,
+      "angle": 28,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1149
+    },
+    {
+      "owner": 0,
+      "angle": 29,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1150
+    },
+    {
+      "owner": 0,
+      "angle": 30,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1151
+    },
+    {
+      "owner": 0,
+      "angle": 31,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1152
+    },
+    {
+      "owner": 0,
+      "angle": 32,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1153
+    },
+    {
+      "owner": 0,
+      "angle": 33,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1154
+    },
+    {
+      "owner": 0,
+      "angle": 34,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1155
+    },
+    {
+      "owner": 0,
+      "angle": 35,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1156
+    },
+    {
+      "owner": 0,
+      "angle": 36,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1157
+    },
+    {
+      "owner": 0,
+      "angle": 37,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1158
+    },
+    {
+      "owner": 0,
+      "angle": 38,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1159
+    },
+    {
+      "owner": 0,
+      "angle": 39,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1160
+    },
+    {
+      "owner": 0,
+      "angle": 40,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1161
+    },
+    {
+      "owner": 0,
+      "angle": 41,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1162
+    },
+    {
+      "owner": 0,
+      "angle": 42,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1163
+    },
+    {
+      "owner": 0,
+      "angle": 43,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1164
+    },
+    {
+      "owner": 0,
+      "angle": 44,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1165
+    },
+    {
+      "owner": 0,
+      "angle": 45,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1166
+    },
+    {
+      "owner": 0,
+      "angle": 46,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1167
+    },
+    {
+      "owner": 0,
+      "angle": 47,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1168
+    },
+    {
+      "owner": 0,
+      "angle": 48,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1169
+    },
+    {
+      "owner": 0,
+      "angle": 49,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1170
+    },
+    {
+      "owner": 0,
+      "angle": 50,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1171
+    },
+    {
+      "owner": 0,
+      "angle": 51,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1172
+    },
+    {
+      "owner": 0,
+      "angle": 52,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1173
+    },
+    {
+      "owner": 0,
+      "angle": 53,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1174
+    },
+    {
+      "owner": 0,
+      "angle": 54,
+      "input_indices": [
+        3,
+        4,
+        6,
+        9,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1175
+    },
+    {
+      "owner": 0,
+      "angle": 55,
+      "input_indices": [
+        3,
+        4,
+        6,
+        9,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1176
+    },
+    {
+      "owner": 0,
+      "angle": 56,
+      "input_indices": [
+        3,
+        4,
+        6,
+        9,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1177
+    },
+    {
+      "owner": 0,
+      "angle": 57,
+      "input_indices": [
+        3,
+        4,
+        6,
+        9,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1178
+    },
+    {
+      "owner": 0,
+      "angle": 58,
+      "input_indices": [
+        3,
+        4,
+        6,
+        9,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1179
+    },
+    {
+      "owner": 0,
+      "angle": 59,
+      "input_indices": [
+        3,
+        4,
+        6,
+        9,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1180
+    },
+    {
+      "owner": 0,
+      "angle": 60,
+      "input_indices": [
+        3,
+        4,
+        6,
+        9,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1181
+    },
+    {
+      "owner": 0,
+      "angle": 61,
+      "input_indices": [
+        3,
+        4,
+        6,
+        9,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1182
+    },
+    {
+      "owner": 0,
+      "angle": 62,
+      "input_indices": [
+        3,
+        4,
+        6,
+        9,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1183
+    },
+    {
+      "owner": 0,
+      "angle": 63,
+      "input_indices": [
+        3,
+        4,
+        6,
+        9,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1184
+    },
+    {
+      "owner": 1,
+      "angle": 0,
+      "input_indices": [
+        0,
+        3,
+        6,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1185
+    },
+    {
+      "owner": 1,
+      "angle": 1,
+      "input_indices": [
+        0,
+        3,
+        6,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1186
+    },
+    {
+      "owner": 1,
+      "angle": 2,
+      "input_indices": [
+        0,
+        3,
+        6,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1187
+    },
+    {
+      "owner": 1,
+      "angle": 3,
+      "input_indices": [
+        0,
+        3,
+        6,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1188
+    },
+    {
+      "owner": 1,
+      "angle": 4,
+      "input_indices": [
+        0,
+        3,
+        6,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1189
+    },
+    {
+      "owner": 1,
+      "angle": 5,
+      "input_indices": [
+        0,
+        3,
+        6,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1190
+    },
+    {
+      "owner": 1,
+      "angle": 6,
+      "input_indices": [
+        3,
+        4,
+        6,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1191
+    },
+    {
+      "owner": 1,
+      "angle": 7,
+      "input_indices": [
+        3,
+        4,
+        6,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1192
+    },
+    {
+      "owner": 1,
+      "angle": 8,
+      "input_indices": [
+        3,
+        4,
+        6,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1193
+    },
+    {
+      "owner": 1,
+      "angle": 9,
+      "input_indices": [
+        3,
+        4,
+        6,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1194
+    },
+    {
+      "owner": 1,
+      "angle": 10,
+      "input_indices": [
+        3,
+        4,
+        6,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1195
+    },
+    {
+      "owner": 1,
+      "angle": 11,
+      "input_indices": [
+        3,
+        4,
+        6,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1196
+    },
+    {
+      "owner": 1,
+      "angle": 12,
+      "input_indices": [
+        3,
+        4,
+        6,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1197
+    },
+    {
+      "owner": 1,
+      "angle": 13,
+      "input_indices": [
+        3,
+        4,
+        6,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1198
+    },
+    {
+      "owner": 1,
+      "angle": 14,
+      "input_indices": [
+        3,
+        4,
+        6,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1199
+    },
+    {
+      "owner": 1,
+      "angle": 15,
+      "input_indices": [
+        3,
+        4,
+        6,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1200
+    },
+    {
+      "owner": 1,
+      "angle": 16,
+      "input_indices": [
+        3,
+        4,
+        6,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1201
+    },
+    {
+      "owner": 1,
+      "angle": 17,
+      "input_indices": [
+        3,
+        4,
+        6,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1202
+    },
+    {
+      "owner": 1,
+      "angle": 18,
+      "input_indices": [
+        3,
+        4,
+        6,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1203
+    },
+    {
+      "owner": 1,
+      "angle": 19,
+      "input_indices": [
+        3,
+        4,
+        6,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1204
+    },
+    {
+      "owner": 1,
+      "angle": 20,
+      "input_indices": [
+        3,
+        4,
+        6,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1205
+    },
+    {
+      "owner": 1,
+      "angle": 21,
+      "input_indices": [
+        3,
+        4,
+        6,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1206
+    },
+    {
+      "owner": 1,
+      "angle": 22,
+      "input_indices": [
+        3,
+        4,
+        6,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1207
+    },
+    {
+      "owner": 1,
+      "angle": 23,
+      "input_indices": [
+        3,
+        4,
+        6,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1208
+    },
+    {
+      "owner": 1,
+      "angle": 24,
+      "input_indices": [
+        3,
+        4,
+        6,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1209
+    },
+    {
+      "owner": 1,
+      "angle": 25,
+      "input_indices": [
+        3,
+        4,
+        6,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1210
+    },
+    {
+      "owner": 1,
+      "angle": 26,
+      "input_indices": [
+        3,
+        4,
+        6,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1211
+    },
+    {
+      "owner": 1,
+      "angle": 27,
+      "input_indices": [
+        3,
+        4,
+        6,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1212
+    },
+    {
+      "owner": 1,
+      "angle": 28,
+      "input_indices": [
+        3,
+        4,
+        6,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1213
+    },
+    {
+      "owner": 1,
+      "angle": 29,
+      "input_indices": [
+        3,
+        4,
+        6,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1214
+    },
+    {
+      "owner": 1,
+      "angle": 30,
+      "input_indices": [
+        3,
+        4,
+        6,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1215
+    },
+    {
+      "owner": 1,
+      "angle": 31,
+      "input_indices": [
+        3,
+        4,
+        6,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1216
+    },
+    {
+      "owner": 1,
+      "angle": 32,
+      "input_indices": [
+        3,
+        4,
+        6,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1217
+    },
+    {
+      "owner": 1,
+      "angle": 33,
+      "input_indices": [
+        3,
+        4,
+        10,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1218
+    },
+    {
+      "owner": 1,
+      "angle": 34,
+      "input_indices": [
+        3,
+        4,
+        10,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1219
+    },
+    {
+      "owner": 1,
+      "angle": 35,
+      "input_indices": [
+        3,
+        4,
+        10,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1220
+    },
+    {
+      "owner": 1,
+      "angle": 36,
+      "input_indices": [
+        3,
+        4,
+        10,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1221
+    },
+    {
+      "owner": 1,
+      "angle": 37,
+      "input_indices": [
+        3,
+        4,
+        10,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1222
+    },
+    {
+      "owner": 1,
+      "angle": 38,
+      "input_indices": [
+        1,
+        3,
+        4,
+        10,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1223
+    },
+    {
+      "owner": 1,
+      "angle": 39,
+      "input_indices": [
+        1,
+        3,
+        4,
+        10,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1224
+    },
+    {
+      "owner": 1,
+      "angle": 40,
+      "input_indices": [
+        1,
+        3,
+        4,
+        10,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1225
+    },
+    {
+      "owner": 1,
+      "angle": 41,
+      "input_indices": [
+        1,
+        3,
+        4,
+        10,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1226
+    },
+    {
+      "owner": 1,
+      "angle": 42,
+      "input_indices": [
+        1,
+        3,
+        4,
+        10,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1227
+    },
+    {
+      "owner": 1,
+      "angle": 43,
+      "input_indices": [
+        1,
+        3,
+        4,
+        10,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1228
+    },
+    {
+      "owner": 1,
+      "angle": 44,
+      "input_indices": [
+        1,
+        3,
+        4,
+        10,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1229
+    },
+    {
+      "owner": 1,
+      "angle": 45,
+      "input_indices": [
+        1,
+        3,
+        4,
+        10,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1230
+    },
+    {
+      "owner": 1,
+      "angle": 46,
+      "input_indices": [
+        1,
+        3,
+        4,
+        10,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1231
+    },
+    {
+      "owner": 1,
+      "angle": 47,
+      "input_indices": [
+        1,
+        3,
+        4,
+        10,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1232
+    },
+    {
+      "owner": 1,
+      "angle": 48,
+      "input_indices": [
+        1,
+        3,
+        4,
+        10,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1233
+    },
+    {
+      "owner": 1,
+      "angle": 49,
+      "input_indices": [
+        1,
+        3,
+        4,
+        10,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1234
+    },
+    {
+      "owner": 1,
+      "angle": 50,
+      "input_indices": [
+        1,
+        3,
+        4,
+        10,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1235
+    },
+    {
+      "owner": 1,
+      "angle": 51,
+      "input_indices": [
+        1,
+        3,
+        4,
+        10,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1236
+    },
+    {
+      "owner": 1,
+      "angle": 52,
+      "input_indices": [
+        1,
+        3,
+        4,
+        10,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1237
+    },
+    {
+      "owner": 1,
+      "angle": 53,
+      "input_indices": [
+        1,
+        3,
+        4,
+        10,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1238
+    },
+    {
+      "owner": 1,
+      "angle": 54,
+      "input_indices": [
+        1,
+        3,
+        4,
+        10,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1239
+    },
+    {
+      "owner": 1,
+      "angle": 55,
+      "input_indices": [
+        1,
+        3,
+        4,
+        10,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1240
+    },
+    {
+      "owner": 1,
+      "angle": 56,
+      "input_indices": [
+        1,
+        3,
+        4,
+        10,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1241
+    },
+    {
+      "owner": 1,
+      "angle": 57,
+      "input_indices": [
+        1,
+        3,
+        4,
+        10,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1242
+    },
+    {
+      "owner": 1,
+      "angle": 58,
+      "input_indices": [
+        1,
+        3,
+        4,
+        10,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1243
+    },
+    {
+      "owner": 1,
+      "angle": 59,
+      "input_indices": [
+        1,
+        3,
+        4,
+        10,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1244
+    },
+    {
+      "owner": 1,
+      "angle": 60,
+      "input_indices": [
+        1,
+        3,
+        4,
+        10,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1245
+    },
+    {
+      "owner": 1,
+      "angle": 61,
+      "input_indices": [
+        1,
+        3,
+        4,
+        10,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1246
+    },
+    {
+      "owner": 1,
+      "angle": 62,
+      "input_indices": [
+        1,
+        3,
+        4,
+        10,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1247
+    },
+    {
+      "owner": 1,
+      "angle": 63,
+      "input_indices": [
+        1,
+        3,
+        4,
+        10,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1248
+    },
+    {
+      "owner": 2,
+      "angle": 0,
+      "input_indices": [
+        0,
+        2,
+        5,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1249
+    },
+    {
+      "owner": 2,
+      "angle": 1,
+      "input_indices": [
+        0,
+        2,
+        5,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1250
+    },
+    {
+      "owner": 2,
+      "angle": 2,
+      "input_indices": [
+        0,
+        2,
+        5,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1251
+    },
+    {
+      "owner": 2,
+      "angle": 3,
+      "input_indices": [
+        0,
+        2,
+        5,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1252
+    },
+    {
+      "owner": 2,
+      "angle": 4,
+      "input_indices": [
+        0,
+        2,
+        5,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1253
+    },
+    {
+      "owner": 2,
+      "angle": 5,
+      "input_indices": [
+        0,
+        2,
+        5,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1254
+    },
+    {
+      "owner": 2,
+      "angle": 6,
+      "input_indices": [
+        0,
+        2,
+        5,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1255
+    },
+    {
+      "owner": 2,
+      "angle": 7,
+      "input_indices": [
+        0,
+        2,
+        5,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1256
+    },
+    {
+      "owner": 2,
+      "angle": 8,
+      "input_indices": [
+        0,
+        2,
+        5,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1257
+    },
+    {
+      "owner": 2,
+      "angle": 9,
+      "input_indices": [
+        0,
+        2,
+        5,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1258
+    },
+    {
+      "owner": 2,
+      "angle": 10,
+      "input_indices": [
+        0,
+        2,
+        5,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1259
+    },
+    {
+      "owner": 2,
+      "angle": 11,
+      "input_indices": [
+        0,
+        2,
+        5,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1260
+    },
+    {
+      "owner": 2,
+      "angle": 12,
+      "input_indices": [
+        0,
+        2,
+        5,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1261
+    },
+    {
+      "owner": 2,
+      "angle": 13,
+      "input_indices": [
+        0,
+        2,
+        5,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1262
+    },
+    {
+      "owner": 2,
+      "angle": 14,
+      "input_indices": [
+        0,
+        2,
+        5,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1263
+    },
+    {
+      "owner": 2,
+      "angle": 15,
+      "input_indices": [
+        0,
+        2,
+        5,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1264
+    },
+    {
+      "owner": 2,
+      "angle": 16,
+      "input_indices": [
+        0,
+        2,
+        5,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1265
+    },
+    {
+      "owner": 2,
+      "angle": 17,
+      "input_indices": [
+        0,
+        2,
+        5,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1266
+    },
+    {
+      "owner": 2,
+      "angle": 18,
+      "input_indices": [
+        0,
+        2,
+        5,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1267
+    },
+    {
+      "owner": 2,
+      "angle": 19,
+      "input_indices": [
+        0,
+        2,
+        5,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1268
+    },
+    {
+      "owner": 2,
+      "angle": 20,
+      "input_indices": [
+        0,
+        2,
+        5,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1269
+    },
+    {
+      "owner": 2,
+      "angle": 21,
+      "input_indices": [
+        0,
+        2,
+        5,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1270
+    },
+    {
+      "owner": 2,
+      "angle": 22,
+      "input_indices": [
+        0,
+        2,
+        5,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1271
+    },
+    {
+      "owner": 2,
+      "angle": 23,
+      "input_indices": [
+        0,
+        2,
+        5,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1272
+    },
+    {
+      "owner": 2,
+      "angle": 24,
+      "input_indices": [
+        0,
+        2,
+        5,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1273
+    },
+    {
+      "owner": 2,
+      "angle": 25,
+      "input_indices": [
+        0,
+        2,
+        5,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1274
+    },
+    {
+      "owner": 2,
+      "angle": 26,
+      "input_indices": [
+        0,
+        2,
+        5,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1275
+    },
+    {
+      "owner": 2,
+      "angle": 27,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1276
+    },
+    {
+      "owner": 2,
+      "angle": 28,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1277
+    },
+    {
+      "owner": 2,
+      "angle": 29,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1278
+    },
+    {
+      "owner": 2,
+      "angle": 30,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1279
+    },
+    {
+      "owner": 2,
+      "angle": 31,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1280
+    },
+    {
+      "owner": 2,
+      "angle": 32,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1281
+    },
+    {
+      "owner": 2,
+      "angle": 33,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1282
+    },
+    {
+      "owner": 2,
+      "angle": 34,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1283
+    },
+    {
+      "owner": 2,
+      "angle": 35,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1284
+    },
+    {
+      "owner": 2,
+      "angle": 36,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1285
+    },
+    {
+      "owner": 2,
+      "angle": 37,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1286
+    },
+    {
+      "owner": 2,
+      "angle": 38,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1287
+    },
+    {
+      "owner": 2,
+      "angle": 39,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1288
+    },
+    {
+      "owner": 2,
+      "angle": 40,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1289
+    },
+    {
+      "owner": 2,
+      "angle": 41,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1290
+    },
+    {
+      "owner": 2,
+      "angle": 42,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1291
+    },
+    {
+      "owner": 2,
+      "angle": 43,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1292
+    },
+    {
+      "owner": 2,
+      "angle": 44,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1293
+    },
+    {
+      "owner": 2,
+      "angle": 45,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1294
+    },
+    {
+      "owner": 2,
+      "angle": 46,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1295
+    },
+    {
+      "owner": 2,
+      "angle": 47,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1296
+    },
+    {
+      "owner": 2,
+      "angle": 48,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1297
+    },
+    {
+      "owner": 2,
+      "angle": 49,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1298
+    },
+    {
+      "owner": 2,
+      "angle": 50,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1299
+    },
+    {
+      "owner": 2,
+      "angle": 51,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1300
+    },
+    {
+      "owner": 2,
+      "angle": 52,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1301
+    },
+    {
+      "owner": 2,
+      "angle": 53,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1302
+    },
+    {
+      "owner": 2,
+      "angle": 54,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1303
+    },
+    {
+      "owner": 2,
+      "angle": 55,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1304
+    },
+    {
+      "owner": 2,
+      "angle": 56,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1305
+    },
+    {
+      "owner": 2,
+      "angle": 57,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1306
+    },
+    {
+      "owner": 2,
+      "angle": 58,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1307
+    },
+    {
+      "owner": 2,
+      "angle": 59,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1308
+    },
+    {
+      "owner": 2,
+      "angle": 60,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1309
+    },
+    {
+      "owner": 2,
+      "angle": 61,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1310
+    },
+    {
+      "owner": 2,
+      "angle": 62,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1311
+    },
+    {
+      "owner": 2,
+      "angle": 63,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1312
+    },
+    {
+      "owner": 3,
+      "angle": 0,
+      "input_indices": [
+        0,
+        3,
+        10,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1313
+    },
+    {
+      "owner": 3,
+      "angle": 1,
+      "input_indices": [
+        0,
+        3,
+        10,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1314
+    },
+    {
+      "owner": 3,
+      "angle": 2,
+      "input_indices": [
+        0,
+        3,
+        10,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1315
+    },
+    {
+      "owner": 3,
+      "angle": 3,
+      "input_indices": [
+        0,
+        3,
+        10,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1316
+    },
+    {
+      "owner": 3,
+      "angle": 4,
+      "input_indices": [
+        0,
+        3,
+        10,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1317
+    },
+    {
+      "owner": 3,
+      "angle": 5,
+      "input_indices": [
+        0,
+        3,
+        10,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1318
+    },
+    {
+      "owner": 3,
+      "angle": 6,
+      "input_indices": [
+        0,
+        3,
+        10,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1319
+    },
+    {
+      "owner": 3,
+      "angle": 7,
+      "input_indices": [
+        0,
+        3,
+        10,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1320
+    },
+    {
+      "owner": 3,
+      "angle": 8,
+      "input_indices": [
+        0,
+        3,
+        10,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1321
+    },
+    {
+      "owner": 3,
+      "angle": 9,
+      "input_indices": [
+        0,
+        3,
+        10,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1322
+    },
+    {
+      "owner": 3,
+      "angle": 10,
+      "input_indices": [
+        0,
+        3,
+        10,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1323
+    },
+    {
+      "owner": 3,
+      "angle": 11,
+      "input_indices": [
+        0,
+        3,
+        10,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1324
+    },
+    {
+      "owner": 3,
+      "angle": 12,
+      "input_indices": [
+        0,
+        3,
+        10,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1325
+    },
+    {
+      "owner": 3,
+      "angle": 13,
+      "input_indices": [
+        0,
+        3,
+        10,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1326
+    },
+    {
+      "owner": 3,
+      "angle": 14,
+      "input_indices": [
+        0,
+        3,
+        10,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1327
+    },
+    {
+      "owner": 3,
+      "angle": 15,
+      "input_indices": [
+        0,
+        3,
+        10,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1328
+    },
+    {
+      "owner": 3,
+      "angle": 16,
+      "input_indices": [
+        3,
+        4,
+        10,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1329
+    },
+    {
+      "owner": 3,
+      "angle": 17,
+      "input_indices": [
+        3,
+        4,
+        10,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1330
+    },
+    {
+      "owner": 3,
+      "angle": 18,
+      "input_indices": [
+        3,
+        4,
+        10,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1331
+    },
+    {
+      "owner": 3,
+      "angle": 19,
+      "input_indices": [
+        3,
+        4,
+        10,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1332
+    },
+    {
+      "owner": 3,
+      "angle": 20,
+      "input_indices": [
+        3,
+        4,
+        10,
+        13,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1333
+    },
+    {
+      "owner": 3,
+      "angle": 21,
+      "input_indices": [
+        3,
+        4,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1334
+    },
+    {
+      "owner": 3,
+      "angle": 22,
+      "input_indices": [
+        3,
+        4,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1335
+    },
+    {
+      "owner": 3,
+      "angle": 23,
+      "input_indices": [
+        3,
+        4,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1336
+    },
+    {
+      "owner": 3,
+      "angle": 24,
+      "input_indices": [
+        3,
+        4,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1337
+    },
+    {
+      "owner": 3,
+      "angle": 25,
+      "input_indices": [
+        3,
+        4,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1338
+    },
+    {
+      "owner": 3,
+      "angle": 26,
+      "input_indices": [
+        3,
+        4,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1339
+    },
+    {
+      "owner": 3,
+      "angle": 27,
+      "input_indices": [
+        3,
+        4,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1340
+    },
+    {
+      "owner": 3,
+      "angle": 28,
+      "input_indices": [
+        3,
+        4,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1341
+    },
+    {
+      "owner": 3,
+      "angle": 29,
+      "input_indices": [
+        3,
+        4,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1342
+    },
+    {
+      "owner": 3,
+      "angle": 30,
+      "input_indices": [
+        3,
+        4,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1343
+    },
+    {
+      "owner": 3,
+      "angle": 31,
+      "input_indices": [
+        3,
+        4,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1344
+    },
+    {
+      "owner": 3,
+      "angle": 32,
+      "input_indices": [
+        3,
+        4,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1345
+    },
+    {
+      "owner": 3,
+      "angle": 33,
+      "input_indices": [
+        3,
+        4,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1346
+    },
+    {
+      "owner": 3,
+      "angle": 34,
+      "input_indices": [
+        3,
+        4,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1347
+    },
+    {
+      "owner": 3,
+      "angle": 35,
+      "input_indices": [
+        3,
+        4,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1348
+    },
+    {
+      "owner": 3,
+      "angle": 36,
+      "input_indices": [
+        3,
+        4,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1349
+    },
+    {
+      "owner": 3,
+      "angle": 37,
+      "input_indices": [
+        3,
+        4,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1350
+    },
+    {
+      "owner": 3,
+      "angle": 38,
+      "input_indices": [
+        3,
+        4,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1351
+    },
+    {
+      "owner": 3,
+      "angle": 39,
+      "input_indices": [
+        3,
+        4,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1352
+    },
+    {
+      "owner": 3,
+      "angle": 40,
+      "input_indices": [
+        3,
+        4,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1353
+    },
+    {
+      "owner": 3,
+      "angle": 41,
+      "input_indices": [
+        3,
+        4,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1354
+    },
+    {
+      "owner": 3,
+      "angle": 42,
+      "input_indices": [
+        3,
+        4,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1355
+    },
+    {
+      "owner": 3,
+      "angle": 43,
+      "input_indices": [
+        3,
+        4,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1356
+    },
+    {
+      "owner": 3,
+      "angle": 44,
+      "input_indices": [
+        3,
+        4,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1357
+    },
+    {
+      "owner": 3,
+      "angle": 45,
+      "input_indices": [
+        3,
+        4,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1358
+    },
+    {
+      "owner": 3,
+      "angle": 46,
+      "input_indices": [
+        3,
+        4,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1359
+    },
+    {
+      "owner": 3,
+      "angle": 47,
+      "input_indices": [
+        3,
+        4,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1360
+    },
+    {
+      "owner": 3,
+      "angle": 48,
+      "input_indices": [
+        3,
+        4,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1361
+    },
+    {
+      "owner": 3,
+      "angle": 49,
+      "input_indices": [
+        3,
+        4,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1362
+    },
+    {
+      "owner": 3,
+      "angle": 50,
+      "input_indices": [
+        3,
+        4,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1363
+    },
+    {
+      "owner": 3,
+      "angle": 51,
+      "input_indices": [
+        3,
+        4,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1364
+    },
+    {
+      "owner": 3,
+      "angle": 52,
+      "input_indices": [
+        3,
+        4,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1365
+    },
+    {
+      "owner": 3,
+      "angle": 53,
+      "input_indices": [
+        3,
+        4,
+        13,
+        14,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1366
+    },
+    {
+      "owner": 3,
+      "angle": 54,
+      "input_indices": [
+        1,
+        3,
+        4,
+        14,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1367
+    },
+    {
+      "owner": 3,
+      "angle": 55,
+      "input_indices": [
+        1,
+        3,
+        4,
+        14,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1368
+    },
+    {
+      "owner": 3,
+      "angle": 56,
+      "input_indices": [
+        1,
+        3,
+        4,
+        14,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1369
+    },
+    {
+      "owner": 3,
+      "angle": 57,
+      "input_indices": [
+        1,
+        3,
+        4,
+        14,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1370
+    },
+    {
+      "owner": 3,
+      "angle": 58,
+      "input_indices": [
+        1,
+        3,
+        4,
+        14,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1371
+    },
+    {
+      "owner": 3,
+      "angle": 59,
+      "input_indices": [
+        1,
+        3,
+        4,
+        14,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1372
+    },
+    {
+      "owner": 3,
+      "angle": 60,
+      "input_indices": [
+        1,
+        3,
+        4,
+        14,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1373
+    },
+    {
+      "owner": 3,
+      "angle": 61,
+      "input_indices": [
+        1,
+        3,
+        4,
+        14,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1374
+    },
+    {
+      "owner": 3,
+      "angle": 62,
+      "input_indices": [
+        1,
+        3,
+        4,
+        14,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1375
+    },
+    {
+      "owner": 3,
+      "angle": 63,
+      "input_indices": [
+        1,
+        3,
+        4,
+        14,
+        16,
+        17,
+        18,
+        19
+      ],
+      "target": 1376
+    },
+    {
+      "owner": 5,
+      "angle": 0,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1377
+    },
+    {
+      "owner": 5,
+      "angle": 1,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1378
+    },
+    {
+      "owner": 5,
+      "angle": 2,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1379
+    },
+    {
+      "owner": 5,
+      "angle": 3,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1380
+    },
+    {
+      "owner": 5,
+      "angle": 4,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1381
+    },
+    {
+      "owner": 5,
+      "angle": 5,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1382
+    },
+    {
+      "owner": 5,
+      "angle": 6,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1383
+    },
+    {
+      "owner": 5,
+      "angle": 7,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1384
+    },
+    {
+      "owner": 5,
+      "angle": 8,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1385
+    },
+    {
+      "owner": 5,
+      "angle": 9,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1386
+    },
+    {
+      "owner": 5,
+      "angle": 10,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1387
+    },
+    {
+      "owner": 5,
+      "angle": 11,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1388
+    },
+    {
+      "owner": 5,
+      "angle": 12,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1389
+    },
+    {
+      "owner": 5,
+      "angle": 13,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1390
+    },
+    {
+      "owner": 5,
+      "angle": 14,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1391
+    },
+    {
+      "owner": 5,
+      "angle": 15,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1392
+    },
+    {
+      "owner": 5,
+      "angle": 16,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1393
+    },
+    {
+      "owner": 5,
+      "angle": 17,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1394
+    },
+    {
+      "owner": 5,
+      "angle": 18,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1395
+    },
+    {
+      "owner": 5,
+      "angle": 19,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1396
+    },
+    {
+      "owner": 5,
+      "angle": 20,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1397
+    },
+    {
+      "owner": 5,
+      "angle": 21,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1398
+    },
+    {
+      "owner": 5,
+      "angle": 22,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1399
+    },
+    {
+      "owner": 5,
+      "angle": 23,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1400
+    },
+    {
+      "owner": 5,
+      "angle": 24,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1401
+    },
+    {
+      "owner": 5,
+      "angle": 25,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1402
+    },
+    {
+      "owner": 5,
+      "angle": 26,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1403
+    },
+    {
+      "owner": 5,
+      "angle": 27,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1404
+    },
+    {
+      "owner": 5,
+      "angle": 28,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1405
+    },
+    {
+      "owner": 5,
+      "angle": 29,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1406
+    },
+    {
+      "owner": 5,
+      "angle": 30,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1407
+    },
+    {
+      "owner": 5,
+      "angle": 31,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1408
+    },
+    {
+      "owner": 5,
+      "angle": 32,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1409
+    },
+    {
+      "owner": 5,
+      "angle": 33,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1410
+    },
+    {
+      "owner": 5,
+      "angle": 34,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1411
+    },
+    {
+      "owner": 5,
+      "angle": 35,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1412
+    },
+    {
+      "owner": 5,
+      "angle": 36,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1413
+    },
+    {
+      "owner": 5,
+      "angle": 37,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1414
+    },
+    {
+      "owner": 5,
+      "angle": 38,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1415
+    },
+    {
+      "owner": 5,
+      "angle": 39,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1416
+    },
+    {
+      "owner": 5,
+      "angle": 40,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1417
+    },
+    {
+      "owner": 5,
+      "angle": 41,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1418
+    },
+    {
+      "owner": 5,
+      "angle": 42,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1419
+    },
+    {
+      "owner": 5,
+      "angle": 43,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1420
+    },
+    {
+      "owner": 5,
+      "angle": 44,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1421
+    },
+    {
+      "owner": 5,
+      "angle": 45,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1422
+    },
+    {
+      "owner": 5,
+      "angle": 46,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1423
+    },
+    {
+      "owner": 5,
+      "angle": 47,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1424
+    },
+    {
+      "owner": 5,
+      "angle": 48,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1425
+    },
+    {
+      "owner": 5,
+      "angle": 49,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1426
+    },
+    {
+      "owner": 5,
+      "angle": 50,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1427
+    },
+    {
+      "owner": 5,
+      "angle": 51,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 5,
+      "angle": 52,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 5,
+      "angle": 53,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 5,
+      "angle": 54,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 5,
+      "angle": 55,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 5,
+      "angle": 56,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1428
+    },
+    {
+      "owner": 5,
+      "angle": 57,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 5,
+      "angle": 58,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 5,
+      "angle": 59,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 5,
+      "angle": 60,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 5,
+      "angle": 61,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 5,
+      "angle": 62,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 5,
+      "angle": 63,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1429
+    },
+    {
+      "owner": 6,
+      "angle": 0,
+      "input_indices": [
+        0,
+        6,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1430
+    },
+    {
+      "owner": 6,
+      "angle": 1,
+      "input_indices": [
+        0,
+        6,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1431
+    },
+    {
+      "owner": 6,
+      "angle": 2,
+      "input_indices": [
+        0,
+        6,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1432
+    },
+    {
+      "owner": 6,
+      "angle": 3,
+      "input_indices": [
+        0,
+        6,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1433
+    },
+    {
+      "owner": 6,
+      "angle": 4,
+      "input_indices": [
+        0,
+        6,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1434
+    },
+    {
+      "owner": 6,
+      "angle": 5,
+      "input_indices": [
+        0,
+        6,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1435
+    },
+    {
+      "owner": 6,
+      "angle": 6,
+      "input_indices": [
+        0,
+        6,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1436
+    },
+    {
+      "owner": 6,
+      "angle": 7,
+      "input_indices": [
+        0,
+        6,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1437
+    },
+    {
+      "owner": 6,
+      "angle": 8,
+      "input_indices": [
+        0,
+        6,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1438
+    },
+    {
+      "owner": 6,
+      "angle": 9,
+      "input_indices": [
+        0,
+        6,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1439
+    },
+    {
+      "owner": 6,
+      "angle": 10,
+      "input_indices": [
+        0,
+        6,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1440
+    },
+    {
+      "owner": 6,
+      "angle": 11,
+      "input_indices": [
+        0,
+        6,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1441
+    },
+    {
+      "owner": 6,
+      "angle": 12,
+      "input_indices": [
+        0,
+        6,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1442
+    },
+    {
+      "owner": 6,
+      "angle": 13,
+      "input_indices": [
+        0,
+        6,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1443
+    },
+    {
+      "owner": 6,
+      "angle": 14,
+      "input_indices": [
+        0,
+        6,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1444
+    },
+    {
+      "owner": 6,
+      "angle": 15,
+      "input_indices": [
+        0,
+        6,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 6,
+      "angle": 16,
+      "input_indices": [
+        0,
+        6,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 6,
+      "angle": 17,
+      "input_indices": [
+        0,
+        6,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 6,
+      "angle": 18,
+      "input_indices": [
+        0,
+        6,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 6,
+      "angle": 19,
+      "input_indices": [
+        0,
+        6,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 6,
+      "angle": 20,
+      "input_indices": [
+        0,
+        6,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 6,
+      "angle": 21,
+      "input_indices": [
+        0,
+        6,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 6,
+      "angle": 22,
+      "input_indices": [
+        0,
+        6,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 6,
+      "angle": 23,
+      "input_indices": [
+        0,
+        6,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 6,
+      "angle": 24,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 6,
+      "angle": 25,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 6,
+      "angle": 26,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 6,
+      "angle": 27,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 6,
+      "angle": 28,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 6,
+      "angle": 29,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 6,
+      "angle": 30,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 6,
+      "angle": 31,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 6,
+      "angle": 32,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 6,
+      "angle": 33,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 6,
+      "angle": 34,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 6,
+      "angle": 35,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 6,
+      "angle": 36,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 6,
+      "angle": 37,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 6,
+      "angle": 38,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 6,
+      "angle": 39,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 6,
+      "angle": 40,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 6,
+      "angle": 41,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 6,
+      "angle": 42,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 6,
+      "angle": 43,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 6,
+      "angle": 44,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 6,
+      "angle": 45,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 6,
+      "angle": 46,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 6,
+      "angle": 47,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 6,
+      "angle": 48,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 6,
+      "angle": 49,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 6,
+      "angle": 50,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 6,
+      "angle": 51,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 6,
+      "angle": 52,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 6,
+      "angle": 53,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 6,
+      "angle": 54,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 6,
+      "angle": 55,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 6,
+      "angle": 56,
+      "input_indices": [
+        3,
+        4,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 6,
+      "angle": 57,
+      "input_indices": [
+        3,
+        4,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 6,
+      "angle": 58,
+      "input_indices": [
+        3,
+        4,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 6,
+      "angle": 59,
+      "input_indices": [
+        3,
+        4,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 6,
+      "angle": 60,
+      "input_indices": [
+        3,
+        4,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 6,
+      "angle": 61,
+      "input_indices": [
+        3,
+        4,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 6,
+      "angle": 62,
+      "input_indices": [
+        3,
+        4,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 6,
+      "angle": 63,
+      "input_indices": [
+        3,
+        4,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1445
+    },
+    {
+      "owner": 7,
+      "angle": 0,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1446
+    },
+    {
+      "owner": 7,
+      "angle": 1,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1447
+    },
+    {
+      "owner": 7,
+      "angle": 2,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1448
+    },
+    {
+      "owner": 7,
+      "angle": 3,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1449
+    },
+    {
+      "owner": 7,
+      "angle": 4,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1450
+    },
+    {
+      "owner": 7,
+      "angle": 5,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1451
+    },
+    {
+      "owner": 7,
+      "angle": 6,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1452
+    },
+    {
+      "owner": 7,
+      "angle": 7,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1453
+    },
+    {
+      "owner": 7,
+      "angle": 8,
+      "input_indices": [
+        3,
+        4,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1454
+    },
+    {
+      "owner": 7,
+      "angle": 9,
+      "input_indices": [
+        3,
+        4,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1455
+    },
+    {
+      "owner": 7,
+      "angle": 10,
+      "input_indices": [
+        3,
+        4,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1456
+    },
+    {
+      "owner": 7,
+      "angle": 11,
+      "input_indices": [
+        3,
+        4,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1457
+    },
+    {
+      "owner": 7,
+      "angle": 12,
+      "input_indices": [
+        3,
+        4,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1458
+    },
+    {
+      "owner": 7,
+      "angle": 13,
+      "input_indices": [
+        3,
+        4,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1459
+    },
+    {
+      "owner": 7,
+      "angle": 14,
+      "input_indices": [
+        3,
+        4,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1460
+    },
+    {
+      "owner": 7,
+      "angle": 15,
+      "input_indices": [
+        3,
+        4,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1461
+    },
+    {
+      "owner": 7,
+      "angle": 16,
+      "input_indices": [
+        3,
+        4,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1462
+    },
+    {
+      "owner": 7,
+      "angle": 17,
+      "input_indices": [
+        3,
+        4,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1463
+    },
+    {
+      "owner": 7,
+      "angle": 18,
+      "input_indices": [
+        3,
+        4,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1464
+    },
+    {
+      "owner": 7,
+      "angle": 19,
+      "input_indices": [
+        3,
+        4,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1465
+    },
+    {
+      "owner": 7,
+      "angle": 20,
+      "input_indices": [
+        3,
+        4,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1466
+    },
+    {
+      "owner": 7,
+      "angle": 21,
+      "input_indices": [
+        3,
+        4,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1467
+    },
+    {
+      "owner": 7,
+      "angle": 22,
+      "input_indices": [
+        3,
+        4,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1468
+    },
+    {
+      "owner": 7,
+      "angle": 23,
+      "input_indices": [
+        3,
+        4,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1469
+    },
+    {
+      "owner": 7,
+      "angle": 24,
+      "input_indices": [
+        3,
+        4,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1470
+    },
+    {
+      "owner": 7,
+      "angle": 25,
+      "input_indices": [
+        3,
+        4,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1471
+    },
+    {
+      "owner": 7,
+      "angle": 26,
+      "input_indices": [
+        3,
+        4,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1472
+    },
+    {
+      "owner": 7,
+      "angle": 27,
+      "input_indices": [
+        3,
+        4,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1473
+    },
+    {
+      "owner": 7,
+      "angle": 28,
+      "input_indices": [
+        3,
+        4,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1474
+    },
+    {
+      "owner": 7,
+      "angle": 29,
+      "input_indices": [
+        3,
+        4,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1475
+    },
+    {
+      "owner": 7,
+      "angle": 30,
+      "input_indices": [
+        3,
+        4,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1476
+    },
+    {
+      "owner": 7,
+      "angle": 31,
+      "input_indices": [
+        3,
+        4,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1477
+    },
+    {
+      "owner": 7,
+      "angle": 32,
+      "input_indices": [
+        3,
+        4,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1478
+    },
+    {
+      "owner": 7,
+      "angle": 33,
+      "input_indices": [
+        3,
+        4,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1479
+    },
+    {
+      "owner": 7,
+      "angle": 34,
+      "input_indices": [
+        3,
+        4,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1480
+    },
+    {
+      "owner": 7,
+      "angle": 35,
+      "input_indices": [
+        3,
+        4,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1481
+    },
+    {
+      "owner": 7,
+      "angle": 36,
+      "input_indices": [
+        3,
+        4,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1482
+    },
+    {
+      "owner": 7,
+      "angle": 37,
+      "input_indices": [
+        3,
+        4,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1483
+    },
+    {
+      "owner": 7,
+      "angle": 38,
+      "input_indices": [
+        3,
+        4,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1484
+    },
+    {
+      "owner": 7,
+      "angle": 39,
+      "input_indices": [
+        3,
+        4,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1485
+    },
+    {
+      "owner": 7,
+      "angle": 40,
+      "input_indices": [
+        3,
+        4,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1486
+    },
+    {
+      "owner": 7,
+      "angle": 41,
+      "input_indices": [
+        3,
+        4,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1487
+    },
+    {
+      "owner": 7,
+      "angle": 42,
+      "input_indices": [
+        3,
+        4,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1488
+    },
+    {
+      "owner": 7,
+      "angle": 43,
+      "input_indices": [
+        3,
+        4,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1489
+    },
+    {
+      "owner": 7,
+      "angle": 44,
+      "input_indices": [
+        3,
+        4,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1490
+    },
+    {
+      "owner": 7,
+      "angle": 45,
+      "input_indices": [
+        3,
+        4,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1491
+    },
+    {
+      "owner": 7,
+      "angle": 46,
+      "input_indices": [
+        3,
+        4,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1492
+    },
+    {
+      "owner": 7,
+      "angle": 47,
+      "input_indices": [
+        3,
+        4,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1493
+    },
+    {
+      "owner": 7,
+      "angle": 48,
+      "input_indices": [
+        3,
+        4,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1494
+    },
+    {
+      "owner": 7,
+      "angle": 49,
+      "input_indices": [
+        3,
+        4,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1495
+    },
+    {
+      "owner": 7,
+      "angle": 50,
+      "input_indices": [
+        1,
+        3,
+        4,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1496
+    },
+    {
+      "owner": 7,
+      "angle": 51,
+      "input_indices": [
+        1,
+        3,
+        4,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1497
+    },
+    {
+      "owner": 7,
+      "angle": 52,
+      "input_indices": [
+        1,
+        3,
+        4,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1498
+    },
+    {
+      "owner": 7,
+      "angle": 53,
+      "input_indices": [
+        1,
+        3,
+        4,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1499
+    },
+    {
+      "owner": 7,
+      "angle": 54,
+      "input_indices": [
+        1,
+        3,
+        4,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1500
+    },
+    {
+      "owner": 7,
+      "angle": 55,
+      "input_indices": [
+        1,
+        3,
+        4,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1501
+    },
+    {
+      "owner": 7,
+      "angle": 56,
+      "input_indices": [
+        1,
+        3,
+        4,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1502
+    },
+    {
+      "owner": 7,
+      "angle": 57,
+      "input_indices": [
+        1,
+        3,
+        4,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1503
+    },
+    {
+      "owner": 7,
+      "angle": 58,
+      "input_indices": [
+        1,
+        3,
+        4,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1504
+    },
+    {
+      "owner": 7,
+      "angle": 59,
+      "input_indices": [
+        1,
+        3,
+        4,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1505
+    },
+    {
+      "owner": 7,
+      "angle": 60,
+      "input_indices": [
+        1,
+        3,
+        4,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1506
+    },
+    {
+      "owner": 7,
+      "angle": 61,
+      "input_indices": [
+        1,
+        3,
+        4,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1507
+    },
+    {
+      "owner": 7,
+      "angle": 62,
+      "input_indices": [
+        1,
+        3,
+        4,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1508
+    },
+    {
+      "owner": 7,
+      "angle": 63,
+      "input_indices": [
+        1,
+        3,
+        4,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1509
+    },
+    {
+      "owner": 8,
+      "angle": 0,
+      "input_indices": [
+        0,
+        2,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1510
+    },
+    {
+      "owner": 8,
+      "angle": 1,
+      "input_indices": [
+        0,
+        2,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1511
+    },
+    {
+      "owner": 8,
+      "angle": 2,
+      "input_indices": [
+        0,
+        2,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1512
+    },
+    {
+      "owner": 8,
+      "angle": 3,
+      "input_indices": [
+        0,
+        2,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1513
+    },
+    {
+      "owner": 8,
+      "angle": 4,
+      "input_indices": [
+        0,
+        2,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1514
+    },
+    {
+      "owner": 8,
+      "angle": 5,
+      "input_indices": [
+        0,
+        2,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1515
+    },
+    {
+      "owner": 8,
+      "angle": 6,
+      "input_indices": [
+        0,
+        2,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1516
+    },
+    {
+      "owner": 8,
+      "angle": 7,
+      "input_indices": [
+        0,
+        2,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1517
+    },
+    {
+      "owner": 8,
+      "angle": 8,
+      "input_indices": [
+        0,
+        2,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1518
+    },
+    {
+      "owner": 8,
+      "angle": 9,
+      "input_indices": [
+        0,
+        2,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1519
+    },
+    {
+      "owner": 8,
+      "angle": 10,
+      "input_indices": [
+        0,
+        2,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1520
+    },
+    {
+      "owner": 8,
+      "angle": 11,
+      "input_indices": [
+        0,
+        2,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1521
+    },
+    {
+      "owner": 8,
+      "angle": 12,
+      "input_indices": [
+        0,
+        2,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1522
+    },
+    {
+      "owner": 8,
+      "angle": 13,
+      "input_indices": [
+        0,
+        2,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1523
+    },
+    {
+      "owner": 8,
+      "angle": 14,
+      "input_indices": [
+        0,
+        2,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1524
+    },
+    {
+      "owner": 8,
+      "angle": 15,
+      "input_indices": [
+        0,
+        2,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1525
+    },
+    {
+      "owner": 8,
+      "angle": 16,
+      "input_indices": [
+        0,
+        2,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1526
+    },
+    {
+      "owner": 8,
+      "angle": 17,
+      "input_indices": [
+        0,
+        2,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1527
+    },
+    {
+      "owner": 8,
+      "angle": 18,
+      "input_indices": [
+        0,
+        2,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1528
+    },
+    {
+      "owner": 8,
+      "angle": 19,
+      "input_indices": [
+        0,
+        2,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1529
+    },
+    {
+      "owner": 8,
+      "angle": 20,
+      "input_indices": [
+        0,
+        2,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1530
+    },
+    {
+      "owner": 8,
+      "angle": 21,
+      "input_indices": [
+        0,
+        2,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1531
+    },
+    {
+      "owner": 8,
+      "angle": 22,
+      "input_indices": [
+        0,
+        2,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1532
+    },
+    {
+      "owner": 8,
+      "angle": 23,
+      "input_indices": [
+        0,
+        2,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1533
+    },
+    {
+      "owner": 8,
+      "angle": 24,
+      "input_indices": [
+        0,
+        2,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1534
+    },
+    {
+      "owner": 8,
+      "angle": 25,
+      "input_indices": [
+        0,
+        2,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1535
+    },
+    {
+      "owner": 8,
+      "angle": 26,
+      "input_indices": [
+        0,
+        2,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 8,
+      "angle": 27,
+      "input_indices": [
+        0,
+        2,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 8,
+      "angle": 28,
+      "input_indices": [
+        0,
+        2,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 8,
+      "angle": 29,
+      "input_indices": [
+        0,
+        2,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 8,
+      "angle": 30,
+      "input_indices": [
+        0,
+        2,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 8,
+      "angle": 31,
+      "input_indices": [
+        0,
+        2,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1536
+    },
+    {
+      "owner": 8,
+      "angle": 32,
+      "input_indices": [
+        0,
+        2,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1537
+    },
+    {
+      "owner": 8,
+      "angle": 33,
+      "input_indices": [
+        0,
+        2,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1538
+    },
+    {
+      "owner": 8,
+      "angle": 34,
+      "input_indices": [
+        0,
+        2,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1539
+    },
+    {
+      "owner": 8,
+      "angle": 35,
+      "input_indices": [
+        0,
+        2,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1540
+    },
+    {
+      "owner": 8,
+      "angle": 36,
+      "input_indices": [
+        0,
+        2,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1541
+    },
+    {
+      "owner": 8,
+      "angle": 37,
+      "input_indices": [
+        0,
+        2,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1542
+    },
+    {
+      "owner": 8,
+      "angle": 38,
+      "input_indices": [
+        0,
+        2,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1543
+    },
+    {
+      "owner": 8,
+      "angle": 39,
+      "input_indices": [
+        0,
+        2,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1544
+    },
+    {
+      "owner": 8,
+      "angle": 40,
+      "input_indices": [
+        0,
+        2,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1545
+    },
+    {
+      "owner": 8,
+      "angle": 41,
+      "input_indices": [
+        0,
+        2,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1546
+    },
+    {
+      "owner": 8,
+      "angle": 42,
+      "input_indices": [
+        0,
+        2,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1547
+    },
+    {
+      "owner": 8,
+      "angle": 43,
+      "input_indices": [
+        0,
+        2,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1548
+    },
+    {
+      "owner": 8,
+      "angle": 44,
+      "input_indices": [
+        0,
+        2,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1549
+    },
+    {
+      "owner": 8,
+      "angle": 45,
+      "input_indices": [
+        0,
+        2,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1550
+    },
+    {
+      "owner": 8,
+      "angle": 46,
+      "input_indices": [
+        0,
+        6,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1551
+    },
+    {
+      "owner": 8,
+      "angle": 47,
+      "input_indices": [
+        0,
+        6,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1552
+    },
+    {
+      "owner": 8,
+      "angle": 48,
+      "input_indices": [
+        0,
+        6,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1553
+    },
+    {
+      "owner": 8,
+      "angle": 49,
+      "input_indices": [
+        0,
+        6,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1554
+    },
+    {
+      "owner": 8,
+      "angle": 50,
+      "input_indices": [
+        0,
+        6,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1555
+    },
+    {
+      "owner": 8,
+      "angle": 51,
+      "input_indices": [
+        0,
+        6,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1556
+    },
+    {
+      "owner": 8,
+      "angle": 52,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1557
+    },
+    {
+      "owner": 8,
+      "angle": 53,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1558
+    },
+    {
+      "owner": 8,
+      "angle": 54,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1559
+    },
+    {
+      "owner": 8,
+      "angle": 55,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1560
+    },
+    {
+      "owner": 8,
+      "angle": 56,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1561
+    },
+    {
+      "owner": 8,
+      "angle": 57,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1562
+    },
+    {
+      "owner": 8,
+      "angle": 58,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1563
+    },
+    {
+      "owner": 8,
+      "angle": 59,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1564
+    },
+    {
+      "owner": 8,
+      "angle": 60,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1565
+    },
+    {
+      "owner": 8,
+      "angle": 61,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1566
+    },
+    {
+      "owner": 8,
+      "angle": 62,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1567
+    },
+    {
+      "owner": 8,
+      "angle": 63,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1568
+    },
+    {
+      "owner": 9,
+      "angle": 0,
+      "input_indices": [
+        0,
+        2,
+        5,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1569
+    },
+    {
+      "owner": 9,
+      "angle": 1,
+      "input_indices": [
+        0,
+        2,
+        5,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1570
+    },
+    {
+      "owner": 9,
+      "angle": 2,
+      "input_indices": [
+        0,
+        2,
+        5,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1571
+    },
+    {
+      "owner": 9,
+      "angle": 3,
+      "input_indices": [
+        0,
+        2,
+        5,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1572
+    },
+    {
+      "owner": 9,
+      "angle": 4,
+      "input_indices": [
+        0,
+        2,
+        5,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1573
+    },
+    {
+      "owner": 9,
+      "angle": 5,
+      "input_indices": [
+        0,
+        2,
+        5,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1574
+    },
+    {
+      "owner": 9,
+      "angle": 6,
+      "input_indices": [
+        0,
+        2,
+        5,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1575
+    },
+    {
+      "owner": 9,
+      "angle": 7,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1576
+    },
+    {
+      "owner": 9,
+      "angle": 8,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1577
+    },
+    {
+      "owner": 9,
+      "angle": 9,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1578
+    },
+    {
+      "owner": 9,
+      "angle": 10,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1579
+    },
+    {
+      "owner": 9,
+      "angle": 11,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1580
+    },
+    {
+      "owner": 9,
+      "angle": 12,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1581
+    },
+    {
+      "owner": 9,
+      "angle": 13,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1582
+    },
+    {
+      "owner": 9,
+      "angle": 14,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1583
+    },
+    {
+      "owner": 9,
+      "angle": 15,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1584
+    },
+    {
+      "owner": 9,
+      "angle": 16,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1585
+    },
+    {
+      "owner": 9,
+      "angle": 17,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1586
+    },
+    {
+      "owner": 9,
+      "angle": 18,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1587
+    },
+    {
+      "owner": 9,
+      "angle": 19,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1588
+    },
+    {
+      "owner": 9,
+      "angle": 20,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1589
+    },
+    {
+      "owner": 9,
+      "angle": 21,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1590
+    },
+    {
+      "owner": 9,
+      "angle": 22,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 9,
+      "angle": 23,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 9,
+      "angle": 24,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 9,
+      "angle": 25,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 9,
+      "angle": 26,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 9,
+      "angle": 27,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1591
+    },
+    {
+      "owner": 9,
+      "angle": 28,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1592
+    },
+    {
+      "owner": 9,
+      "angle": 29,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1593
+    },
+    {
+      "owner": 9,
+      "angle": 30,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1594
+    },
+    {
+      "owner": 9,
+      "angle": 31,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1595
+    },
+    {
+      "owner": 9,
+      "angle": 32,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1596
+    },
+    {
+      "owner": 9,
+      "angle": 33,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1597
+    },
+    {
+      "owner": 9,
+      "angle": 34,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1598
+    },
+    {
+      "owner": 9,
+      "angle": 35,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1599
+    },
+    {
+      "owner": 9,
+      "angle": 36,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1600
+    },
+    {
+      "owner": 9,
+      "angle": 37,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1601
+    },
+    {
+      "owner": 9,
+      "angle": 38,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1602
+    },
+    {
+      "owner": 9,
+      "angle": 39,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1603
+    },
+    {
+      "owner": 9,
+      "angle": 40,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1604
+    },
+    {
+      "owner": 9,
+      "angle": 41,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1605
+    },
+    {
+      "owner": 9,
+      "angle": 42,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1606
+    },
+    {
+      "owner": 9,
+      "angle": 43,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1607
+    },
+    {
+      "owner": 9,
+      "angle": 44,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1608
+    },
+    {
+      "owner": 9,
+      "angle": 45,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1609
+    },
+    {
+      "owner": 9,
+      "angle": 46,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1610
+    },
+    {
+      "owner": 9,
+      "angle": 47,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1611
+    },
+    {
+      "owner": 9,
+      "angle": 48,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1612
+    },
+    {
+      "owner": 9,
+      "angle": 49,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1613
+    },
+    {
+      "owner": 9,
+      "angle": 50,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1614
+    },
+    {
+      "owner": 9,
+      "angle": 51,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1615
+    },
+    {
+      "owner": 9,
+      "angle": 52,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1616
+    },
+    {
+      "owner": 9,
+      "angle": 53,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1617
+    },
+    {
+      "owner": 9,
+      "angle": 54,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1618
+    },
+    {
+      "owner": 9,
+      "angle": 55,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1619
+    },
+    {
+      "owner": 9,
+      "angle": 56,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1620
+    },
+    {
+      "owner": 9,
+      "angle": 57,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1621
+    },
+    {
+      "owner": 9,
+      "angle": 58,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1622
+    },
+    {
+      "owner": 9,
+      "angle": 59,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1623
+    },
+    {
+      "owner": 9,
+      "angle": 60,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1624
+    },
+    {
+      "owner": 9,
+      "angle": 61,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1625
+    },
+    {
+      "owner": 9,
+      "angle": 62,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1626
+    },
+    {
+      "owner": 9,
+      "angle": 63,
+      "input_indices": [
+        0,
+        3,
+        5,
+        6,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1627
+    },
+    {
+      "owner": 10,
+      "angle": 0,
+      "input_indices": [
+        0,
+        2,
+        5,
+        7,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1628
+    },
+    {
+      "owner": 10,
+      "angle": 1,
+      "input_indices": [
+        0,
+        2,
+        5,
+        7,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1629
+    },
+    {
+      "owner": 10,
+      "angle": 2,
+      "input_indices": [
+        0,
+        2,
+        5,
+        7,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1630
+    },
+    {
+      "owner": 10,
+      "angle": 3,
+      "input_indices": [
+        0,
+        2,
+        5,
+        7,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1631
+    },
+    {
+      "owner": 10,
+      "angle": 4,
+      "input_indices": [
+        0,
+        2,
+        5,
+        7,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1632
+    },
+    {
+      "owner": 10,
+      "angle": 5,
+      "input_indices": [
+        0,
+        2,
+        5,
+        7,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1633
+    },
+    {
+      "owner": 10,
+      "angle": 6,
+      "input_indices": [
+        0,
+        2,
+        5,
+        7,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1634
+    },
+    {
+      "owner": 10,
+      "angle": 7,
+      "input_indices": [
+        0,
+        2,
+        5,
+        7,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1635
+    },
+    {
+      "owner": 10,
+      "angle": 8,
+      "input_indices": [
+        0,
+        2,
+        5,
+        7,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1636
+    },
+    {
+      "owner": 10,
+      "angle": 9,
+      "input_indices": [
+        0,
+        2,
+        5,
+        7,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1637
+    },
+    {
+      "owner": 10,
+      "angle": 10,
+      "input_indices": [
+        0,
+        2,
+        5,
+        7,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1638
+    },
+    {
+      "owner": 10,
+      "angle": 11,
+      "input_indices": [
+        0,
+        2,
+        5,
+        7,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1639
+    },
+    {
+      "owner": 10,
+      "angle": 12,
+      "input_indices": [
+        0,
+        2,
+        5,
+        7,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1640
+    },
+    {
+      "owner": 10,
+      "angle": 13,
+      "input_indices": [
+        0,
+        2,
+        5,
+        7,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1641
+    },
+    {
+      "owner": 10,
+      "angle": 14,
+      "input_indices": [
+        0,
+        2,
+        5,
+        7,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1642
+    },
+    {
+      "owner": 10,
+      "angle": 15,
+      "input_indices": [
+        0,
+        2,
+        5,
+        7,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1643
+    },
+    {
+      "owner": 10,
+      "angle": 16,
+      "input_indices": [
+        0,
+        2,
+        5,
+        7,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1644
+    },
+    {
+      "owner": 10,
+      "angle": 17,
+      "input_indices": [
+        0,
+        2,
+        5,
+        7,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1645
+    },
+    {
+      "owner": 10,
+      "angle": 18,
+      "input_indices": [
+        0,
+        2,
+        5,
+        7,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1646
+    },
+    {
+      "owner": 10,
+      "angle": 19,
+      "input_indices": [
+        0,
+        2,
+        5,
+        7,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1647
+    },
+    {
+      "owner": 10,
+      "angle": 20,
+      "input_indices": [
+        0,
+        2,
+        5,
+        7,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1648
+    },
+    {
+      "owner": 10,
+      "angle": 21,
+      "input_indices": [
+        0,
+        2,
+        5,
+        7,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1649
+    },
+    {
+      "owner": 10,
+      "angle": 22,
+      "input_indices": [
+        0,
+        2,
+        5,
+        7,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1650
+    },
+    {
+      "owner": 10,
+      "angle": 23,
+      "input_indices": [
+        0,
+        2,
+        5,
+        7,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1651
+    },
+    {
+      "owner": 10,
+      "angle": 24,
+      "input_indices": [
+        0,
+        2,
+        5,
+        7,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1652
+    },
+    {
+      "owner": 10,
+      "angle": 25,
+      "input_indices": [
+        0,
+        2,
+        5,
+        7,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1653
+    },
+    {
+      "owner": 10,
+      "angle": 26,
+      "input_indices": [
+        0,
+        2,
+        5,
+        7,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1654
+    },
+    {
+      "owner": 10,
+      "angle": 27,
+      "input_indices": [
+        0,
+        2,
+        5,
+        7,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1655
+    },
+    {
+      "owner": 10,
+      "angle": 28,
+      "input_indices": [
+        0,
+        2,
+        5,
+        7,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1656
+    },
+    {
+      "owner": 10,
+      "angle": 29,
+      "input_indices": [
+        0,
+        2,
+        5,
+        7,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1657
+    },
+    {
+      "owner": 10,
+      "angle": 30,
+      "input_indices": [
+        0,
+        2,
+        5,
+        7,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1658
+    },
+    {
+      "owner": 10,
+      "angle": 31,
+      "input_indices": [
+        0,
+        2,
+        5,
+        7,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1659
+    },
+    {
+      "owner": 10,
+      "angle": 32,
+      "input_indices": [
+        0,
+        2,
+        5,
+        7,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1660
+    },
+    {
+      "owner": 10,
+      "angle": 33,
+      "input_indices": [
+        0,
+        2,
+        5,
+        7,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1661
+    },
+    {
+      "owner": 10,
+      "angle": 34,
+      "input_indices": [
+        0,
+        2,
+        5,
+        7,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1662
+    },
+    {
+      "owner": 10,
+      "angle": 35,
+      "input_indices": [
+        0,
+        2,
+        5,
+        7,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1663
+    },
+    {
+      "owner": 10,
+      "angle": 36,
+      "input_indices": [
+        0,
+        2,
+        5,
+        7,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1664
+    },
+    {
+      "owner": 10,
+      "angle": 37,
+      "input_indices": [
+        0,
+        2,
+        5,
+        7,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1665
+    },
+    {
+      "owner": 10,
+      "angle": 38,
+      "input_indices": [
+        0,
+        2,
+        5,
+        7,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1666
+    },
+    {
+      "owner": 10,
+      "angle": 39,
+      "input_indices": [
+        0,
+        2,
+        5,
+        7,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1667
+    },
+    {
+      "owner": 10,
+      "angle": 40,
+      "input_indices": [
+        0,
+        2,
+        5,
+        7,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1668
+    },
+    {
+      "owner": 10,
+      "angle": 41,
+      "input_indices": [
+        0,
+        2,
+        5,
+        7,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1669
+    },
+    {
+      "owner": 10,
+      "angle": 42,
+      "input_indices": [
+        0,
+        2,
+        5,
+        7,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1670
+    },
+    {
+      "owner": 10,
+      "angle": 43,
+      "input_indices": [
+        0,
+        2,
+        5,
+        7,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1671
+    },
+    {
+      "owner": 10,
+      "angle": 44,
+      "input_indices": [
+        0,
+        2,
+        5,
+        7,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1672
+    },
+    {
+      "owner": 10,
+      "angle": 45,
+      "input_indices": [
+        0,
+        2,
+        5,
+        7,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1673
+    },
+    {
+      "owner": 10,
+      "angle": 46,
+      "input_indices": [
+        0,
+        2,
+        5,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1674
+    },
+    {
+      "owner": 10,
+      "angle": 47,
+      "input_indices": [
+        0,
+        2,
+        5,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1675
+    },
+    {
+      "owner": 10,
+      "angle": 48,
+      "input_indices": [
+        0,
+        2,
+        5,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1676
+    },
+    {
+      "owner": 10,
+      "angle": 49,
+      "input_indices": [
+        0,
+        2,
+        5,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1677
+    },
+    {
+      "owner": 10,
+      "angle": 50,
+      "input_indices": [
+        0,
+        2,
+        5,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1678
+    },
+    {
+      "owner": 10,
+      "angle": 51,
+      "input_indices": [
+        0,
+        2,
+        5,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1679
+    },
+    {
+      "owner": 10,
+      "angle": 52,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1680
+    },
+    {
+      "owner": 10,
+      "angle": 53,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1681
+    },
+    {
+      "owner": 10,
+      "angle": 54,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1682
+    },
+    {
+      "owner": 10,
+      "angle": 55,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1683
+    },
+    {
+      "owner": 10,
+      "angle": 56,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1684
+    },
+    {
+      "owner": 10,
+      "angle": 57,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1685
+    },
+    {
+      "owner": 10,
+      "angle": 58,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1686
+    },
+    {
+      "owner": 10,
+      "angle": 59,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1687
+    },
+    {
+      "owner": 10,
+      "angle": 60,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1688
+    },
+    {
+      "owner": 10,
+      "angle": 61,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1689
+    },
+    {
+      "owner": 10,
+      "angle": 62,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1690
+    },
+    {
+      "owner": 10,
+      "angle": 63,
+      "input_indices": [
+        0,
+        5,
+        6,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1691
+    },
+    {
+      "owner": 11,
+      "angle": 0,
+      "input_indices": [
+        0,
+        6,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1692
+    },
+    {
+      "owner": 11,
+      "angle": 1,
+      "input_indices": [
+        0,
+        6,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1693
+    },
+    {
+      "owner": 11,
+      "angle": 2,
+      "input_indices": [
+        0,
+        6,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1694
+    },
+    {
+      "owner": 11,
+      "angle": 3,
+      "input_indices": [
+        0,
+        6,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1695
+    },
+    {
+      "owner": 11,
+      "angle": 4,
+      "input_indices": [
+        0,
+        6,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1696
+    },
+    {
+      "owner": 11,
+      "angle": 5,
+      "input_indices": [
+        0,
+        6,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1697
+    },
+    {
+      "owner": 11,
+      "angle": 6,
+      "input_indices": [
+        0,
+        6,
+        9,
+        11,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1698
+    },
+    {
+      "owner": 11,
+      "angle": 7,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1699
+    },
+    {
+      "owner": 11,
+      "angle": 8,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1700
+    },
+    {
+      "owner": 11,
+      "angle": 9,
+      "input_indices": [
+        0,
+        3,
+        6,
+        9,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1701
+    },
+    {
+      "owner": 11,
+      "angle": 10,
+      "input_indices": [
+        0,
+        3,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1702
+    },
+    {
+      "owner": 11,
+      "angle": 11,
+      "input_indices": [
+        0,
+        3,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1703
+    },
+    {
+      "owner": 11,
+      "angle": 12,
+      "input_indices": [
+        0,
+        3,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1704
+    },
+    {
+      "owner": 11,
+      "angle": 13,
+      "input_indices": [
+        0,
+        3,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1705
+    },
+    {
+      "owner": 11,
+      "angle": 14,
+      "input_indices": [
+        0,
+        3,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1706
+    },
+    {
+      "owner": 11,
+      "angle": 15,
+      "input_indices": [
+        0,
+        3,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1707
+    },
+    {
+      "owner": 11,
+      "angle": 16,
+      "input_indices": [
+        0,
+        3,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1708
+    },
+    {
+      "owner": 11,
+      "angle": 17,
+      "input_indices": [
+        0,
+        3,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1709
+    },
+    {
+      "owner": 11,
+      "angle": 18,
+      "input_indices": [
+        0,
+        3,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1710
+    },
+    {
+      "owner": 11,
+      "angle": 19,
+      "input_indices": [
+        0,
+        3,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1711
+    },
+    {
+      "owner": 11,
+      "angle": 20,
+      "input_indices": [
+        0,
+        3,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1712
+    },
+    {
+      "owner": 11,
+      "angle": 21,
+      "input_indices": [
+        0,
+        3,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1713
+    },
+    {
+      "owner": 11,
+      "angle": 22,
+      "input_indices": [
+        0,
+        3,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 11,
+      "angle": 23,
+      "input_indices": [
+        0,
+        3,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 11,
+      "angle": 24,
+      "input_indices": [
+        0,
+        3,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 11,
+      "angle": 25,
+      "input_indices": [
+        0,
+        3,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 11,
+      "angle": 26,
+      "input_indices": [
+        0,
+        3,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": null
+    },
+    {
+      "owner": 11,
+      "angle": 27,
+      "input_indices": [
+        0,
+        3,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1714
+    },
+    {
+      "owner": 11,
+      "angle": 28,
+      "input_indices": [
+        0,
+        3,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1715
+    },
+    {
+      "owner": 11,
+      "angle": 29,
+      "input_indices": [
+        0,
+        3,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1716
+    },
+    {
+      "owner": 11,
+      "angle": 30,
+      "input_indices": [
+        0,
+        3,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1717
+    },
+    {
+      "owner": 11,
+      "angle": 31,
+      "input_indices": [
+        0,
+        3,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1718
+    },
+    {
+      "owner": 11,
+      "angle": 32,
+      "input_indices": [
+        0,
+        3,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1719
+    },
+    {
+      "owner": 11,
+      "angle": 33,
+      "input_indices": [
+        0,
+        3,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1720
+    },
+    {
+      "owner": 11,
+      "angle": 34,
+      "input_indices": [
+        0,
+        3,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1721
+    },
+    {
+      "owner": 11,
+      "angle": 35,
+      "input_indices": [
+        0,
+        3,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1722
+    },
+    {
+      "owner": 11,
+      "angle": 36,
+      "input_indices": [
+        0,
+        3,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1723
+    },
+    {
+      "owner": 11,
+      "angle": 37,
+      "input_indices": [
+        0,
+        3,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1724
+    },
+    {
+      "owner": 11,
+      "angle": 38,
+      "input_indices": [
+        0,
+        3,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1725
+    },
+    {
+      "owner": 11,
+      "angle": 39,
+      "input_indices": [
+        0,
+        3,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1726
+    },
+    {
+      "owner": 11,
+      "angle": 40,
+      "input_indices": [
+        0,
+        3,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1727
+    },
+    {
+      "owner": 11,
+      "angle": 41,
+      "input_indices": [
+        0,
+        3,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1728
+    },
+    {
+      "owner": 11,
+      "angle": 42,
+      "input_indices": [
+        0,
+        3,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1729
+    },
+    {
+      "owner": 11,
+      "angle": 43,
+      "input_indices": [
+        0,
+        3,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1730
+    },
+    {
+      "owner": 11,
+      "angle": 44,
+      "input_indices": [
+        0,
+        3,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1731
+    },
+    {
+      "owner": 11,
+      "angle": 45,
+      "input_indices": [
+        0,
+        3,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1732
+    },
+    {
+      "owner": 11,
+      "angle": 46,
+      "input_indices": [
+        0,
+        3,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1733
+    },
+    {
+      "owner": 11,
+      "angle": 47,
+      "input_indices": [
+        0,
+        3,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1734
+    },
+    {
+      "owner": 11,
+      "angle": 48,
+      "input_indices": [
+        0,
+        3,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1735
+    },
+    {
+      "owner": 11,
+      "angle": 49,
+      "input_indices": [
+        0,
+        3,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1736
+    },
+    {
+      "owner": 11,
+      "angle": 50,
+      "input_indices": [
+        0,
+        3,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1737
+    },
+    {
+      "owner": 11,
+      "angle": 51,
+      "input_indices": [
+        0,
+        3,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1738
+    },
+    {
+      "owner": 11,
+      "angle": 52,
+      "input_indices": [
+        0,
+        3,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1739
+    },
+    {
+      "owner": 11,
+      "angle": 53,
+      "input_indices": [
+        0,
+        3,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1740
+    },
+    {
+      "owner": 11,
+      "angle": 54,
+      "input_indices": [
+        0,
+        3,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1741
+    },
+    {
+      "owner": 11,
+      "angle": 55,
+      "input_indices": [
+        0,
+        3,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1742
+    },
+    {
+      "owner": 11,
+      "angle": 56,
+      "input_indices": [
+        0,
+        3,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1743
+    },
+    {
+      "owner": 11,
+      "angle": 57,
+      "input_indices": [
+        0,
+        3,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1744
+    },
+    {
+      "owner": 11,
+      "angle": 58,
+      "input_indices": [
+        0,
+        3,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1745
+    },
+    {
+      "owner": 11,
+      "angle": 59,
+      "input_indices": [
+        0,
+        3,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1746
+    },
+    {
+      "owner": 11,
+      "angle": 60,
+      "input_indices": [
+        0,
+        3,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1747
+    },
+    {
+      "owner": 11,
+      "angle": 61,
+      "input_indices": [
+        0,
+        3,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1748
+    },
+    {
+      "owner": 11,
+      "angle": 62,
+      "input_indices": [
+        0,
+        3,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1749
+    },
+    {
+      "owner": 11,
+      "angle": 63,
+      "input_indices": [
+        0,
+        3,
+        9,
+        10,
+        12,
+        13,
+        14,
+        15
+      ],
+      "target": 1750
+    }
+  ],
+  "input_sha256": {
+    "geometry": "a266c789f036f9b67c92a631e254185c47dde24f913aac8e37ee887c35e6d442",
+    "poses": "0afbf9a29a2a5b76debf7fe9722655ea41cdd66c145ec4f0e5bec4bf40f7913e",
+    "angles": "82fa09c9c0d6e86227bec6eb38ab87ccbf06a9c132142e066126945cbcffe5b1"
+  },
+  "audit_sha256": "dca192b34bc69c2ffcbc6e07c264e7159afd12c7716b347b9115cb2c47fc096c",
+  "domains_sha256": "1cb39eb451912718f766cf92104c7a7e7ebcb60a145e8e9f0c363e9ab5fbbe14",
+  "outputs": [
+    {
+      "path": "evidence/proposals/C898RecipeTable/Bank.lean",
+      "sha256": "0275121cb7b1b9bd9ef56e0fb96c6ff40b06e348131815e9659eceec1db41fd3",
+      "lines": 22,
+      "bytes": 904
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch00_00.lean",
+      "sha256": "6e84fe3d6569bd73dcc7bbc11dda10c1710abe59015ca37b5bc208d3fe56709a",
+      "lines": 36,
+      "bytes": 2168
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch00_01.lean",
+      "sha256": "53680b2ba959579f7cb4eee3d6a1aec632d43d5f407ac31e16043414efe854ad",
+      "lines": 36,
+      "bytes": 2192
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch00_02.lean",
+      "sha256": "03929118f538cbf1098a407c23f10114dbab8a74b6dffaa6ed8d731761977904",
+      "lines": 36,
+      "bytes": 2197
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch00_03.lean",
+      "sha256": "ca05c4fe22520dbd8758048b0df1e93e71718e38d2deaeeb2f51407a3e558504",
+      "lines": 36,
+      "bytes": 2192
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch00_04.lean",
+      "sha256": "f3b33e38873d33f47d1bef93c9617de8b3fb4e2e05cc60dd3735f9247f4550b0",
+      "lines": 36,
+      "bytes": 2192
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch00_05.lean",
+      "sha256": "196ef975c44cc7d1965f8b5f99885c0dee6f319bae5c755a40bf0f979aaf734b",
+      "lines": 36,
+      "bytes": 2192
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch00_06.lean",
+      "sha256": "f2f3d107e64f49256f993e3b0f190491603ee3cebecbd168a8f2d30d2859f81c",
+      "lines": 36,
+      "bytes": 2192
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch00_07.lean",
+      "sha256": "7a3d27882bdb3b1b20022be525bed0bbebba2174a15a561faa4231225b8b290d",
+      "lines": 36,
+      "bytes": 2192
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Data00.lean",
+      "sha256": "e10efd855ee0bcbcf6556d51463362fe3df1b844bce65fcfc338ab12e53c2140",
+      "lines": 42,
+      "bytes": 1681
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Owner00.lean",
+      "sha256": "c6a6ff683cb2fd76ad683364c21ab8f40bb585ea387e7371bbc03ea9c2c0425b",
+      "lines": 24,
+      "bytes": 847
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch01_00.lean",
+      "sha256": "9868021e37398abc1a3865aaaa9e447bd7b527d735c04fe0880e051248f1a6bd",
+      "lines": 36,
+      "bytes": 2168
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch01_01.lean",
+      "sha256": "2571b208d5c8aadef1d5443760c1d33618efe21a82fbf41c2af076b8ace29340",
+      "lines": 36,
+      "bytes": 2192
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch01_02.lean",
+      "sha256": "177105970d7d4b7e66e208f8dcea8ea409827e242e487f2e0e099ee6ddd307f8",
+      "lines": 36,
+      "bytes": 2200
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch01_03.lean",
+      "sha256": "e1accda0217432380dc6ec98bd4a06792fe3c7a73e9b10c57bd4ba4ed2ca04ea",
+      "lines": 36,
+      "bytes": 2200
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch01_04.lean",
+      "sha256": "275dc37ddd9ebd72a23904690b01a7acd291d7fb5a6be7e8d8ceda8bb0afaee7",
+      "lines": 36,
+      "bytes": 2205
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch01_05.lean",
+      "sha256": "e80952b46594a150cd00b72b24c3ecf430aa1180aaadf33cd700a68f5a37ed9a",
+      "lines": 36,
+      "bytes": 2200
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch01_06.lean",
+      "sha256": "244f61529462dd2e8562aa4f28b93ba02de1bb00c84c0e9ea04339c4652d8091",
+      "lines": 36,
+      "bytes": 2200
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch01_07.lean",
+      "sha256": "18190f19b86db16bdbe83a1d8ed3cd4e9620993de257af1e520495b186a87186",
+      "lines": 36,
+      "bytes": 2200
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Data01.lean",
+      "sha256": "0998f0dcbe9acf38aaf45cef387542adbb4b337b37153f92985894bb4e3080d2",
+      "lines": 42,
+      "bytes": 1681
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Owner01.lean",
+      "sha256": "d949d83829511e83d6b326baa6317fefeef29fd2bc21ca4f3fa6bdc48582014b",
+      "lines": 24,
+      "bytes": 847
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch02_00.lean",
+      "sha256": "4169a12a98f6f78acfaa871c6c1b24066518aa26ac00db9190eccacf2ca606d4",
+      "lines": 36,
+      "bytes": 2168
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch02_01.lean",
+      "sha256": "f889f84824bd3859dba959f35af77fb5a039eb78e3e02044b2af8892025af7fb",
+      "lines": 36,
+      "bytes": 2192
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch02_02.lean",
+      "sha256": "1c4079eb7eef8483c60cd6bba0d0ea16e23d31938daac88c1ce3d05538fd0da2",
+      "lines": 36,
+      "bytes": 2200
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch02_03.lean",
+      "sha256": "28f3df495fc406cac571773b5c32b434892b36b98bfe9f724cb5f8028ba93347",
+      "lines": 36,
+      "bytes": 2200
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch02_04.lean",
+      "sha256": "e606abad9bd1acaf59ba73dbbb04db4bd48f14e139d9d97bd48ead118de1dfe7",
+      "lines": 36,
+      "bytes": 2200
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch02_05.lean",
+      "sha256": "a6245abed79b1789ffb0004ae6647a0e73eed0488550632223442311733f6d9c",
+      "lines": 36,
+      "bytes": 2200
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch02_06.lean",
+      "sha256": "9cf5b1573cf3209effc75491dc1d99583652fce88a591501a2bb7bf5cb244141",
+      "lines": 36,
+      "bytes": 2200
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch02_07.lean",
+      "sha256": "ec21d7f63252613131c7d638b8bb409e8c58cc5586dfa0cfa3a0078152f9c5b2",
+      "lines": 36,
+      "bytes": 2200
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Data02.lean",
+      "sha256": "34a3116662c5cdc730efb42c6748d8cccad0a20a9501f20dd04a829e7a1340a4",
+      "lines": 42,
+      "bytes": 1681
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Owner02.lean",
+      "sha256": "c5d17606759e24985952ec58afb45041bc614fd17746e55a2bbbe70eb3a57a4f",
+      "lines": 24,
+      "bytes": 847
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch03_00.lean",
+      "sha256": "e7bd5c3b265c538191102e36b2a63c88c08699ef8cfa8c90b7c067105b41a80e",
+      "lines": 36,
+      "bytes": 2176
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch03_01.lean",
+      "sha256": "2f4cd47db16c4ed79800578d90415a442c7a51ef394f1a6f698458b84d6b84c9",
+      "lines": 36,
+      "bytes": 2200
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch03_02.lean",
+      "sha256": "e1e91548c155c7fb79b78def94daa20c9c2f4e1f3b74ba2dd612e624ccaae001",
+      "lines": 36,
+      "bytes": 2208
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch03_03.lean",
+      "sha256": "c88a93ddc0b0c0452ffa3ba6427a7c9bf33865f495a3f5c0db81bdb9dc3de5aa",
+      "lines": 36,
+      "bytes": 2208
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch03_04.lean",
+      "sha256": "6951a47a876612635e6ece80abe3993bf53f5f099cbd7a25704dcb390185bff7",
+      "lines": 36,
+      "bytes": 2208
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch03_05.lean",
+      "sha256": "e8c93c438407dfb93d24a9ba111a9a685ae65bb802833ac4b5d7b0228a8ecae6",
+      "lines": 36,
+      "bytes": 2208
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch03_06.lean",
+      "sha256": "00ebd9c71f72d05669533265e4c458431602e6994a7d1dfd63caee925b285b1d",
+      "lines": 36,
+      "bytes": 2206
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch03_07.lean",
+      "sha256": "873415cfd6c8c3fc6ba7a1446c582b55670981885f20a6f176971980e7167cbf",
+      "lines": 36,
+      "bytes": 2200
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Data03.lean",
+      "sha256": "d0fd87f91792d3e3c7215d5a2d47519d7f835865d61d63ed5dc4976b0e6ee6b5",
+      "lines": 42,
+      "bytes": 1681
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Owner03.lean",
+      "sha256": "efdd7431e28a8552b820f1aad7f08fa003ffffa3e572b02dccf3782021bcdebf",
+      "lines": 24,
+      "bytes": 847
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch05_00.lean",
+      "sha256": "e6a1902913fb553ce1b701b62422aa38fc1a530134d1256a265b3067bf4dc1f5",
+      "lines": 36,
+      "bytes": 2168
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch05_01.lean",
+      "sha256": "c5dffdd21c1f39710e23da0fcb0e0edb980d62593f57f6c5f4b144c7b49cda00",
+      "lines": 36,
+      "bytes": 2184
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch05_02.lean",
+      "sha256": "db2098cfcca4891bd1c2df7a83d16339a76b644b5bf0b6aa40e5c39c2a9da2aa",
+      "lines": 36,
+      "bytes": 2192
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch05_03.lean",
+      "sha256": "13210d3ea3ef040891d28731c1a7a5c4f2e0d2eb7c8b3415486867b65b4a9ce4",
+      "lines": 36,
+      "bytes": 2192
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch05_04.lean",
+      "sha256": "04df6f4a0393e706424c64cdb1fa409527d58d2f72ecf19058f04771ce976464",
+      "lines": 36,
+      "bytes": 2192
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch05_05.lean",
+      "sha256": "b0b724d9ecc1f772361f4e39252c20cdf95c3a6ba021b2b760d902f3c1499af2",
+      "lines": 36,
+      "bytes": 2192
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch05_06.lean",
+      "sha256": "c113fc8b515d9560e90be6d560b357cf65933a81985d9d33150a51ffe353ae52",
+      "lines": 36,
+      "bytes": 2167
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch05_07.lean",
+      "sha256": "a997070395038f9f8f7a41cbcdc251d06c69af4c84b675c53a8ebef567644de5",
+      "lines": 36,
+      "bytes": 2162
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Data05.lean",
+      "sha256": "e8b878dbc85b7d3ebe055a804e594010f1be87e01be5a08878ef9e4738c083b6",
+      "lines": 42,
+      "bytes": 1681
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Owner05.lean",
+      "sha256": "72890f88d24d26b26bc72560dbea341bdf1288f7e2f229d5008908b4a16dbeb2",
+      "lines": 24,
+      "bytes": 847
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch06_00.lean",
+      "sha256": "ffff08be879c3c8eb42d48106e0e4ec69ccafb4bb1093b304443f07c999ff0ab",
+      "lines": 36,
+      "bytes": 2168
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch06_01.lean",
+      "sha256": "a6907decd1cb57b3375e700a07d21a532f2673690c2b76afb4e9bdcddb214460",
+      "lines": 36,
+      "bytes": 2187
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch06_02.lean",
+      "sha256": "09fe2e7dee0341c45050f85739f33017c522c4f44123034be643fe8563068a9b",
+      "lines": 36,
+      "bytes": 2160
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch06_03.lean",
+      "sha256": "56fe83345a195d4bbf733e2d21938312dcdeba3aa496c15a501e7448cb5e3a55",
+      "lines": 36,
+      "bytes": 2152
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch06_04.lean",
+      "sha256": "b52b02f322122ec2964e3760fca3f32493ad4749c457ccc247af271c445abc8a",
+      "lines": 36,
+      "bytes": 2152
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch06_05.lean",
+      "sha256": "864c6c8e7a12bb9ee7eba1f44164468ac087120cdb2c855bec37bfa51ece7da8",
+      "lines": 36,
+      "bytes": 2152
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch06_06.lean",
+      "sha256": "3c9f68672975a6098b7294503208f38c0b0c07df86d8efa3ae8464c505596a84",
+      "lines": 36,
+      "bytes": 2152
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch06_07.lean",
+      "sha256": "8028d0bd3b62a09cc8d39d8605abf8eb0cffb6be8fa7ae8447b39c78c14a9214",
+      "lines": 36,
+      "bytes": 2164
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Data06.lean",
+      "sha256": "f984a65c55351bd9ebf1623644395467926ef5a01968fff177d74975c4b2385a",
+      "lines": 42,
+      "bytes": 1681
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Owner06.lean",
+      "sha256": "f6bd4931da44a3781c3a5cc2a783d81d3b9b98b774d44bf35954fb620130d14e",
+      "lines": 24,
+      "bytes": 847
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch07_00.lean",
+      "sha256": "686e2dd8b37351546853aa21730b7666de800420c6829f6ea9807a498db60242",
+      "lines": 36,
+      "bytes": 2160
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch07_01.lean",
+      "sha256": "81a3ba051f48f908116f5aaaeb56e1f26e6543794bad498eeb7591f0d1b6d7ae",
+      "lines": 36,
+      "bytes": 2184
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch07_02.lean",
+      "sha256": "7134879fdc699b1adf18de90f6d06dd52d55e039824d6a2090d0c3696fe9f6fc",
+      "lines": 36,
+      "bytes": 2192
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch07_03.lean",
+      "sha256": "fffdbdccc380dee6453e3f2fe3bf73bcce14913f78eed2560121247092dd97d3",
+      "lines": 36,
+      "bytes": 2197
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch07_04.lean",
+      "sha256": "eac53140196d1bdedc26c8e040bc9c784d1fc246e1833bb473aeded5f551b10f",
+      "lines": 36,
+      "bytes": 2200
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch07_05.lean",
+      "sha256": "b7dea5c1ce0814270bd7b64ce4f911ee542dc4d0477954e7e936948bea880e94",
+      "lines": 36,
+      "bytes": 2200
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch07_06.lean",
+      "sha256": "915baccd672b1809bf052393b8c2a451fa3257de9a005a1b41fef77f1a5eff65",
+      "lines": 36,
+      "bytes": 2200
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch07_07.lean",
+      "sha256": "c16963f711db34c27e57860a25149c7b363a98a94a00edc09ed2a8ae082093a4",
+      "lines": 36,
+      "bytes": 2200
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Data07.lean",
+      "sha256": "fc2ee5a485a94bf5e38f7049e4f9961c132378109efe9140d6c160c4b2dd6b50",
+      "lines": 42,
+      "bytes": 1681
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Owner07.lean",
+      "sha256": "77a9428607915cd3de6440267aaddfdffbd5c3832f97181b5d949918cc7fa87a",
+      "lines": 24,
+      "bytes": 847
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch08_00.lean",
+      "sha256": "bb84e43ac5d97e21e544fabd982dd033d2de6d4f7c22a3c0b54f72a2ff34b2b3",
+      "lines": 36,
+      "bytes": 2168
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch08_01.lean",
+      "sha256": "f84683235cdbdd5e97ea50e5b6528d51094b54a6c253f48ba41cb5ce16edfb9a",
+      "lines": 36,
+      "bytes": 2192
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch08_02.lean",
+      "sha256": "0da8d38e0db251daeae3c4c39f5720e9978cfe8ff8c4666ea3e0c42536e5688b",
+      "lines": 36,
+      "bytes": 2200
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch08_03.lean",
+      "sha256": "93984ffee625b83fa95c3e62e1c17c72f7a872b2f3c1ca7889fcccb7aff65c79",
+      "lines": 36,
+      "bytes": 2175
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch08_04.lean",
+      "sha256": "adc0bc67346d6f5b8e98c55d472b9b066dcd2f6876b6536f54b8d09a7f1f62af",
+      "lines": 36,
+      "bytes": 2200
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch08_05.lean",
+      "sha256": "04e1a3cba00304d7671cdcd2e18f06d6460d390674ccb559e036f995ef51315c",
+      "lines": 36,
+      "bytes": 2200
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch08_06.lean",
+      "sha256": "c3612d5c269c59dd667f5124ed1b0a61c65382db8d8dcd4a7b14587d16449d05",
+      "lines": 36,
+      "bytes": 2196
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch08_07.lean",
+      "sha256": "9b587a1f4618d6c3fda0fbb349bd465eb5ed835e39f3e2ed5ba5b9ac375e04bd",
+      "lines": 36,
+      "bytes": 2192
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Data08.lean",
+      "sha256": "630fb28d9b3a3237247de76619ea4762b79cb4fd10742181a9889d65aed93932",
+      "lines": 42,
+      "bytes": 1681
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Owner08.lean",
+      "sha256": "500bdfe9eb8b4b5b8ce18cfb9d59f75d9891535aead3f4ca3fdca9bfd1a1e3c4",
+      "lines": 24,
+      "bytes": 847
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch09_00.lean",
+      "sha256": "e25aaca1ccaaac40d11aa7667108bbda84ddb0a1dccfc2c5fa09fe5e3219fd4f",
+      "lines": 36,
+      "bytes": 2168
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch09_01.lean",
+      "sha256": "63c5a45548c43b160586fc588c3a1bb7253e2cb423f72dabd686548f795b18ff",
+      "lines": 36,
+      "bytes": 2186
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch09_02.lean",
+      "sha256": "310112a1d26dc555bed2057fc9271624e2347c062f987075ff6e213aa69e4a77",
+      "lines": 36,
+      "bytes": 2182
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch09_03.lean",
+      "sha256": "6bcfb19781ea7bc67554cf8e8276b89cdead180d69ede00b1d21231c8c96b5b1",
+      "lines": 36,
+      "bytes": 2177
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch09_04.lean",
+      "sha256": "55d8087eb48c377a0abba1d6672702566d88a3c3367108dac20ba275b316895d",
+      "lines": 36,
+      "bytes": 2192
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch09_05.lean",
+      "sha256": "ccaf6e0936244fc4cf55b59a63988380a6a402725fc505d09ad9782c9f6b1b6e",
+      "lines": 36,
+      "bytes": 2192
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch09_06.lean",
+      "sha256": "f31ef078a78b79afa921a303db7548c3ed88d1a046166d7b1e908c1bff8122b9",
+      "lines": 36,
+      "bytes": 2192
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch09_07.lean",
+      "sha256": "f0943a37fec5cd77df1a15819e63b6c7372a9fa97ce59a1b11890d12b9b2193e",
+      "lines": 36,
+      "bytes": 2192
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Data09.lean",
+      "sha256": "93d572cb42f18cd7394753899b7ff0955cd809795c52ba095d7d9c124ede33e1",
+      "lines": 42,
+      "bytes": 1681
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Owner09.lean",
+      "sha256": "8358b18c471f91ae7447938b4a97716e6851b75a1e3a3e097a9d728ad6924a85",
+      "lines": 24,
+      "bytes": 847
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch10_00.lean",
+      "sha256": "a8d7456085ad0778d52e76bab320f3e4638f1f2d391a586e95914af17e376313",
+      "lines": 36,
+      "bytes": 2210
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch10_01.lean",
+      "sha256": "93a27c979206af855f01cd3c8d06a3b8a97f0af24c14eaf640713c79c5dc991e",
+      "lines": 36,
+      "bytes": 2234
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch10_02.lean",
+      "sha256": "6456580739407ceb3967dbf18266c307c96046f243dfae6f8d0bca53de3717d5",
+      "lines": 36,
+      "bytes": 2242
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch10_03.lean",
+      "sha256": "a48f55cc49eaccde2e58e91364291b356338f50073eaa0a0e2717f4fab92558c",
+      "lines": 36,
+      "bytes": 2242
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch10_04.lean",
+      "sha256": "0d0544f755704d9fc739da9a593f9612b96b475b8f4719c1c0e785f135e62dee",
+      "lines": 36,
+      "bytes": 2242
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch10_05.lean",
+      "sha256": "f046aeecb6305d6986ee5c285474dd43dd33f9b8411fbbd01c5440b76c95a390",
+      "lines": 36,
+      "bytes": 2244
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch10_06.lean",
+      "sha256": "8f38eb1da36af66a3e8d021072627cb857f100484cd353bb6257451b5313d66c",
+      "lines": 36,
+      "bytes": 2250
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch10_07.lean",
+      "sha256": "45596e0c7c9e82ee2869f655b7bc08bd7421121f9d20db91be0e4e6f3e5f62c1",
+      "lines": 36,
+      "bytes": 2250
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Data10.lean",
+      "sha256": "24ec479967ab2a5bc12c581b7e81da0d8dcc39e072197cfca55efd889a25c184",
+      "lines": 42,
+      "bytes": 1714
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Owner10.lean",
+      "sha256": "a9f6968ede948530b722083bc0653a2f420d24eafbe8f9897e34f6bfd8b45d3a",
+      "lines": 24,
+      "bytes": 852
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch11_00.lean",
+      "sha256": "4a42ce5b1c8c40d5270a177ee5bd807957d24b56e46349e4a69ede3a612cb04b",
+      "lines": 36,
+      "bytes": 2217
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch11_01.lean",
+      "sha256": "710e9756c97e4432f5d627ef6dc7dc85a65e968785a26ea841778f63a866814a",
+      "lines": 36,
+      "bytes": 2240
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch11_02.lean",
+      "sha256": "74c16b2c211bef3b5f768a85656e04be69e70f47be91a5781477c38838d63477",
+      "lines": 36,
+      "bytes": 2240
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch11_03.lean",
+      "sha256": "4a8a2ef83f3285042d2b8d765a794e4a4bfcea2e779d77f10b458a535fcbdd7f",
+      "lines": 36,
+      "bytes": 2235
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch11_04.lean",
+      "sha256": "d30a6d0600d36004c463516bfb2efe36327bf28f0c08e19d90d3025b2c369c23",
+      "lines": 36,
+      "bytes": 2250
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch11_05.lean",
+      "sha256": "c3dbe7bbc947b6c3017cf70a9bf454a95cc7ff8d25459b0a2b29f6ab9eabd28a",
+      "lines": 36,
+      "bytes": 2250
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch11_06.lean",
+      "sha256": "248ec2d79c2de8d4f7b51f78b2e667357b95289171ee3861dc8eb694096a23dc",
+      "lines": 36,
+      "bytes": 2250
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Batch11_07.lean",
+      "sha256": "cde9f12707006697cb0a939041c5bb1fdb1951add3c4505fa122bdaf325e9653",
+      "lines": 36,
+      "bytes": 2250
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Data11.lean",
+      "sha256": "f432bda143304e71335a88bafc8606a0cadcdbf7ee627c8d76967b428dbfa96d",
+      "lines": 42,
+      "bytes": 1714
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Owner11.lean",
+      "sha256": "0eb13461d464ec3ae4183655c3b73160d00e46cbec7f4e7942dfccd16da1b6f4",
+      "lines": 24,
+      "bytes": 852
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Pilot.lean",
+      "sha256": "645ba46eecdd6ef8ef2dcff00e254d9db8bf02f5f22e544ba45317bffffaf3bd",
+      "lines": 30,
+      "bytes": 1228
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/All.lean",
+      "sha256": "8b2844cd376e714976a9b3f50593c387afbd4749683ef2cf44b13ae21279d5a9",
+      "lines": 11,
+      "bytes": 528
+    },
+    {
+      "path": "evidence/proposals/C898RecipeTable/Entry.lean",
+      "sha256": "aa9ec0d8e1f71a514a0ce8b9ce3daa173a62ca8016b7c9cf97b6fc691835cae1",
+      "lines": 172,
+      "bytes": 6932
+    }
+  ],
+  "seconds": 0.2628842909980449,
+  "activation": "Parent must check generic modules and pilot before replacing RecipeInitial. No active source was modified."
+}

@@ -1,0 +1,95 @@
+{
+  "commit": "e521280b37b39610d830a421d83f29b3702009ae",
+  "vectors": [
+    {
+      "vector": 25,
+      "modules": 3889,
+      "source_bytes": 229276305,
+      "compiled": false,
+      "largest_module_bytes": 408633,
+      "archive_parts": 2
+    },
+    {
+      "vector": 31,
+      "modules": 4828,
+      "source_bytes": 291799032,
+      "compiled": false,
+      "largest_module_bytes": 408633,
+      "archive_parts": 2
+    },
+    {
+      "vector": 35,
+      "modules": 4251,
+      "source_bytes": 117356808,
+      "compiled": false,
+      "largest_module_bytes": 201396,
+      "archive_parts": null
+    },
+    {
+      "vector": 38,
+      "modules": 16758,
+      "source_bytes": 737950181,
+      "compiled": false,
+      "largest_module_bytes": 408633,
+      "archive_parts": 4
+    },
+    {
+      "vector": 44,
+      "modules": 41704,
+      "source_bytes": 1796742045,
+      "compiled": false,
+      "largest_module_bytes": 3632775,
+      "archive_parts": 10
+    },
+    {
+      "vector": 46,
+      "modules": 4997,
+      "source_bytes": 129609557,
+      "compiled": false,
+      "largest_module_bytes": 203291,
+      "archive_parts": null
+    },
+    {
+      "vector": 48,
+      "modules": 13808,
+      "source_bytes": 515371191,
+      "compiled": false,
+      "largest_module_bytes": 340757,
+      "archive_parts": 3
+    },
+    {
+      "vector": 51,
+      "modules": 36881,
+      "source_bytes": 1495802752,
+      "compiled": false,
+      "largest_module_bytes": 349812,
+      "archive_parts": 8
+    },
+    {
+      "vector": 52,
+      "modules": 3557,
+      "source_bytes": 100614772,
+      "compiled": false,
+      "largest_module_bytes": 283599,
+      "archive_parts": null
+    },
+    {
+      "vector": 54,
+      "modules": 7468,
+      "source_bytes": 244518581,
+      "compiled": false,
+      "largest_module_bytes": 3441368,
+      "archive_parts": null
+    },
+    {
+      "vector": 57,
+      "modules": 27933,
+      "source_bytes": 1350862801,
+      "compiled": false,
+      "largest_module_bytes": 3297426,
+      "archive_parts": 7
+    }
+  ],
+  "modules": 166074,
+  "source_bytes": 7009904025
+}

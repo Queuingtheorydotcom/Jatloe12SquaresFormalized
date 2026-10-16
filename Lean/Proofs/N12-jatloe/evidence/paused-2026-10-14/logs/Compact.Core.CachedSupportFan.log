@@ -1,0 +1,5 @@
+/Users/macintosh/Documents/Codex/2026-10-13/plz/work/ben-continuation/projects/n12-refactored/Compact/Core/CachedSupportFan.lean:98:32: warning: unused variable `i`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+/Users/macintosh/Documents/Codex/2026-10-13/plz/work/ben-continuation/projects/n12-refactored/Compact/Core/CachedSupportFan.lean:112:30: warning: try 'simp' instead of 'simpa'
+note: this linter can be disabled with `set_option linter.unnecessarySimpa false`
+'N12Compact.CachedSupportFan.pair_sound' depends on axioms: [propext, Classical.choice, Quot.sound]

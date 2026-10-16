@@ -1,0 +1,1 @@
+'S12.AngleEnclosure.support' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,177 @@
+{
+  "scope": "Exact domain-level backward dependency closure of the original C898 terminal exclusion.",
+  "terminal": "continuousScout898Domain5_15",
+  "retained_steps": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14
+  ],
+  "initial_owners": [
+    0,
+    1,
+    2,
+    3,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+  ],
+  "eliminated_steps": [],
+  "steps": {
+    "0": {
+      "target": "continuousScout898Domain1_1",
+      "dependencies": [
+        "continuousScout898Domain1_0",
+        "continuousScout898Domain8_0"
+      ],
+      "file": "vendor/S12/Push898Chunk10.lean",
+      "line": 3189
+    },
+    "1": {
+      "target": "continuousScout898Domain2_2",
+      "dependencies": [
+        "continuousScout898Domain2_0",
+        "continuousScout898Domain10_0"
+      ],
+      "file": "vendor/S12/Push898Chunk20.lean",
+      "line": 1441
+    },
+    "2": {
+      "target": "continuousScout898Domain3_3",
+      "dependencies": [
+        "continuousScout898Domain3_0",
+        "continuousScout898Domain11_0"
+      ],
+      "file": "vendor/S12/Push898Chunk27.lean",
+      "line": 635
+    },
+    "3": {
+      "target": "continuousScout898Domain6_4",
+      "dependencies": [
+        "continuousScout898Domain6_0",
+        "continuousScout898Domain3_3"
+      ],
+      "file": "vendor/S12/Push898Chunk28.lean",
+      "line": 976
+    },
+    "4": {
+      "target": "continuousScout898Domain6_5",
+      "dependencies": [
+        "continuousScout898Domain6_4",
+        "continuousScout898Domain10_0"
+      ],
+      "file": "vendor/S12/Push898Chunk29.lean",
+      "line": 1439
+    },
+    "5": {
+      "target": "continuousScout898Domain7_6",
+      "dependencies": [
+        "continuousScout898Domain7_0",
+        "continuousScout898Domain6_5"
+      ],
+      "file": "vendor/S12/Push898Chunk30.lean",
+      "line": 3143
+    },
+    "6": {
+      "target": "continuousScout898Domain7_7",
+      "dependencies": [
+        "continuousScout898Domain7_6",
+        "continuousScout898Domain11_0"
+      ],
+      "file": "vendor/S12/Push898Chunk39.lean",
+      "line": 2249
+    },
+    "7": {
+      "target": "continuousScout898Domain9_8",
+      "dependencies": [
+        "continuousScout898Domain9_0",
+        "continuousScout898Domain2_2"
+      ],
+      "file": "vendor/S12/Push898Chunk46.lean",
+      "line": 2504
+    },
+    "8": {
+      "target": "continuousScout898Domain0_9",
+      "dependencies": [
+        "continuousScout898Domain0_0",
+        "continuousScout898Domain1_1"
+      ],
+      "file": "vendor/S12/Push898Chunk56.lean",
+      "line": 1559
+    },
+    "9": {
+      "target": "continuousScout898Domain5_10",
+      "dependencies": [
+        "continuousScout898Domain5_0",
+        "continuousScout898Domain0_9",
+        "continuousScout898Domain7_7",
+        "continuousScout898Domain11_0"
+      ],
+      "file": "vendor/S12/Push898Chunk56.lean",
+      "line": 3458
+    },
+    "10": {
+      "target": "continuousScout898Domain5_11",
+      "dependencies": [
+        "continuousScout898Domain5_10",
+        "continuousScout898Domain3_3",
+        "continuousScout898Domain6_5",
+        "continuousScout898Domain9_8"
+      ],
+      "file": "vendor/S12/Push898Chunk56.lean",
+      "line": 5088
+    },
+    "11": {
+      "target": "continuousScout898Domain5_12",
+      "dependencies": [
+        "continuousScout898Domain5_11",
+        "continuousScout898Domain0_9"
+      ],
+      "file": "vendor/S12/Push898Chunk60.lean",
+      "line": 360
+    },
+    "12": {
+      "target": "continuousScout898Domain5_13",
+      "dependencies": [
+        "continuousScout898Domain5_12",
+        "continuousScout898Domain6_5"
+      ],
+      "file": "vendor/S12/Push898Chunk61.lean",
+      "line": 737
+    },
+    "13": {
+      "target": "continuousScout898Domain5_14",
+      "dependencies": [
+        "continuousScout898Domain5_13",
+        "continuousScout898Domain7_7"
+      ],
+      "file": "vendor/S12/Push898Chunk64.lean",
+      "line": 2780
+    },
+    "14": {
+      "target": "continuousScout898Domain5_15",
+      "dependencies": [
+        "continuousScout898Domain5_14",
+        "continuousScout898Domain9_8"
+      ],
+      "file": "vendor/S12/Push898Chunk65.lean",
+      "line": 3142
+    }
+  },
+  "conclusion": "Every one of the 15 propagation steps and all 11 initial owners is required by this domain-level certificate. Dropping angles is not justified: each initial owner still covers every angle, including roots proved empty."
+}

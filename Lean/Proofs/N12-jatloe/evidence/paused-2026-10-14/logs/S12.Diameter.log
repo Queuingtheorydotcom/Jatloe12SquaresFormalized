@@ -1,0 +1,1 @@
+'S12.inside_distance_bound' depends on axioms: [propext, Classical.choice, Quot.sound]

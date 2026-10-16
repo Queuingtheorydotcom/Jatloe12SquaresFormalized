@@ -1,0 +1,69 @@
+N12 CONSOLIDATION AND RECOVERY, 2026-10-15
+
+CANONICAL WORK
+Repository: https://github.com/EvolvingPrograms/SquaresLean
+Branch: n12
+Project: projects/n12-refactored
+Final theorem: N12Compact.Final.optimality : S12.packingConstant12 = 4
+Entry: Compact/Assembly/Final.lean
+
+CREDITS
+Jatloe provided the full mathematical proof and partial Lean formalization.
+Ben Gurevitch aided in the formalization.
+
+PRESERVATION
+The final proof's5375 project files are byte-for-byte identical to commit
+01d3d22b28aea68f68eb11e4726d8f9220834874. All259 supplied original mathematical
+documents retain their recorded hashes and sizes. The exact file manifest is
+in evidence/final-source-manifest-2026-10-15.json. No proof term, definition,
+model assumption, native certificate, theorem statement or public proof root
+was changed by consolidation. No Lean/Lake compilation or CI was run.
+The source remains uncompiled; inherited native-certificate trust is unchanged.
+
+BRANCH ARCHIVES
+The111 former N12 branches have exact tip-preserving tags under:
+  archive/n12/2026-10-15/<original-branch-name>
+Every tag was pushed and its remote SHA verified before branch removal.
+The original branch/tag/SHA map is N12-BRANCH-ARCHIVE-2026-10-15.json.
+The ten non-N12 branches and the repository default branch main are outside
+this cleanup. Branch retirement uses exact expected SHAs so a concurrent new
+commit is not silently deleted. The canonical branch is published from the
+preserved final proof, with this cleanup and the attribution changes.
+
+DIVERGENT HISTORICAL REPAIRS
+Some earlier branch tips contain versions differing from the final source,
+including validation/replay repairs. They are preserved as unintegrated
+variants, not assumed incorporated. N12-ARCHIVED-VARIANTS-2026-10-15.json
+records the inspected tip changes and exact blob identities. This is a
+metadata comparison, not a proof or patch equivalence audit. A future
+compiler-repair task can inspect those versions without replacing the final
+assembly wholesale. Some old trees lack the completed Final.lean entirely.
+
+SOURCE TREE CLEANUP
+Removed549 inactive .lean alternatives, totaling30,805,061 bytes, only from
+Compact/ and Completion/. Each removed path, size and hash is recorded in
+evidence/n12-cleanup-2026-10-15.json. They remain recoverable in the archive.
+Protected the union of Final, Compact, ContinuousRemaining and C981Progress
+import closures, plus original S12 source, all mathematical documents,
+adapters, scripts and setup/runtime entries. Current final/registered/selected
+replay plans resolve without missing project imports; dependency-source
+inventory remains complete. Final proof/setup/audit count remains8739modules.
+The existing Compact default root and small reusable extras are preserved.
+
+The30.8MB reduction is in the active working tree. Archive tags intentionally
+retain historical Git objects; this is not a claim to reclaim all Git storage.
+Historical tools import_budget.py, audit_retained_trust.py, export_delivery.py,
+virtual_source_budget.py and restore_small_prefix.py refer to old selections.
+Use their matching archive revision if those historical exports are needed.
+Current verification starts with scripts/github_replay.py and
+handoff/GITHUB-REPLAY.txt; its command now selects branch n12.
+
+RECOVERY EXAMPLES
+Fetch the pre-cleanup full source tag without creating another remote branch:
+  git fetch origin refs/tags/archive/n12/2026-10-15/codex/n12-initial-programs-2026-10-14
+Inspect a removed file at that tag:
+  git show archive/n12/2026-10-15/codex/n12-initial-programs-2026-10-14:projects/n12-refactored/<path>
+If needed, restore only a selected file into local working changes:
+  git restore --source=archive/n12/2026-10-15/codex/n12-initial-programs-2026-10-14 -- projects/n12-refactored/<path>
+Use the archive map for other historical branch tips. A source/tree restore
+must not silently replace the final theorem or trigger expanded-corpus builds.

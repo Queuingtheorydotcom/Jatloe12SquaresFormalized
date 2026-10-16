@@ -1,0 +1,51 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "scripts/verify.py",
+    "Compact.Completion.C981.NewSimpleShortRows",
+    "Compact.Completion.C981.OutwardTranspose",
+    "Compact.Completion.C981.ShortCentralRows"
+  ],
+  "returncode": -15,
+  "stop_reason": "elapsed_time_limit",
+  "limits": {
+    "rss_mib": 1536,
+    "physical_footprint_mib": 450,
+    "seconds": 90,
+    "free_gib": 3.0
+  },
+  "elapsed_seconds": 90.42,
+  "minimum_free_bytes": 7255080960,
+  "peak_group_rss_kib": 1568064,
+  "peak_group_physical_footprint_kib": 437372,
+  "peak_group_processes": [
+    {
+      "pid": 14905,
+      "pgid": 14827,
+      "rss_kib": 1552096
+    },
+    {
+      "pid": 14827,
+      "pgid": 14827,
+      "rss_kib": 15968
+    }
+  ],
+  "stop_group_processes": [
+    {
+      "pid": 15285,
+      "pgid": 14827,
+      "rss_kib": 549376,
+      "comm": "lean"
+    },
+    {
+      "pid": 14827,
+      "pgid": 14827,
+      "rss_kib": 5792,
+      "comm": "Python"
+    }
+  ],
+  "stop_snapshot_error": null,
+  "cleanup_errors": [],
+  "remaining_processes": []
+}

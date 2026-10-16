@@ -1,0 +1,4 @@
+'N12Compact.SATSigned.flip_s' depends on axioms: [propext, Classical.choice, Quot.sound]
+'N12Compact.SATSigned.flip_c' depends on axioms: [propext, Classical.choice, Quot.sound]
+'N12Compact.SATSigned.nonneg_c_overlap' depends on axioms: [propext, Classical.choice, Quot.sound]
+'N12Compact.SATSigned.overlap' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,16 @@
+{
+  "change": "verbatim move of representativeVectors and ExcludesVector into VectorData; coverage proofs preserved in CaseVectors",
+  "original_sha256": "12cec78e2c2b46fe4d6ffcc1fcddb2bd216a0a5c50600e76b0ebede9d4ec21c8",
+  "remaining_casevectors_sha256": "7233c1496840cbefc3edcfa064655730891598570832b2a801fbae3d854365fe",
+  "vectordata_sha256": "a8917162236714146a042e3dacfcc508c41e48af867cba3a9d82ed59a9325b5d",
+  "moved_blocks": [
+    {
+      "name": "representativeVectors",
+      "sha256": "3f800b5893dd169b751e48f17065bb69a4765c31be6ac6754b1ec6658b74527e"
+    },
+    {
+      "name": "ExcludesVector",
+      "sha256": "43cdbde0b5d3cd3db77d1b3b43a1326ffabc9ff89b95c870f8a6d13e102ea258"
+    }
+  ]
+}

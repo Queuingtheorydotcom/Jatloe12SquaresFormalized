@@ -1,0 +1,147 @@
+{
+  "scope": "Twenty original chord transitions with all actual normalized-packing adapters.",
+  "status": "compact source assembled; new commands and all records require Lean replay",
+  "lean_checked": false,
+  "counts": {
+    "neighbor_pose_occurrences": 2963,
+    "neighbor_bounds": 5926,
+    "branch_contexts": 2596,
+    "empty_branches": 1470,
+    "empty_terms": 2940,
+    "kept_branches": 1126,
+    "target_row_checks": 13562,
+    "source_poses": 1298,
+    "stages": 20
+  },
+  "source_inputs": {
+    "evidence/proposals/HistoricalChords/manifest.json": "1ef4da233a93c1dcf11ce3c410d61c43912fcd688ffb9c87a6d32ada79ea81ae",
+    "evidence/proposals/HistoricalChords/certificates.json": "6a5a2d56e8d145fb71731b4a48880f3a9f344bef4c105c497aa0f1912998845a",
+    "evidence/historical-compact-data/manifest.json": "f20009fcf353dc46a22907d2c1dc78a23a5e8499f569ab549d94bb31ba6d53ca",
+    "evidence/historical-direct-cover-audit.json": "48ee51e396d3e1d42b2ebe97190c4a0dd45409686f262c7fcf2d644e2ff4731d",
+    "evidence/historical-compact-data/C701.json": "6723e8797c91294ea344f8401980930449535b2fb06c4668e2e41810becb8c90",
+    "evidence/historical/source-gzip/S12/Push701Chunk56.lean.gz": "cae5c31cb41c1db9f663feca4bcfd3ee423919716e1e41f3dae605f620ae5b7d",
+    "evidence/historical-compact-data/C713.json": "7ed7f008778113b87e979da105f25ab8c412258bf99cd01dac16e58755424e3a",
+    "evidence/historical/source-gzip/S12/Push713Chunk92.lean.gz": "4c08f5fe8f4c4e1e982c7b1be063fd631dda03ecb89a41b4c30992d420b24345",
+    "evidence/historical-compact-data/C717.json": "97de7a3f49746eb39d645eb905f669ce26f4ecea9932b7b8b31f1b13c289e1f8",
+    "evidence/historical/source-gzip/S12/Push717Chunk160.lean.gz": "c6aaae2a8f20e5f5253294fd43ddb87af2ab177d13c8a7e189348e42d98e199c",
+    "evidence/historical-compact-data/C973.json": "5431135cc2ce7bfac80fcfb8110da4001bd9b166b7841b07124aa2d2ebb38612",
+    "evidence/historical/source-gzip/S12/Push973Chunk74.lean.gz": "dabc1fb621857e69f02e9392d15aefdb5eef24ac3df6e55092d48facd6a35cd4",
+    "evidence/historical-compact-data/C978.json": "54cbc6e78920b25ac5eaa71dcfea16278f318f6448a0b145f4405458f6600431",
+    "evidence/historical/source-gzip/S12/Push978Chunk73.lean.gz": "e3fbb099342e5a37008bbee1ae803dcff3683b55cee27192931bdbe6769b3bfd",
+    "evidence/historical-compact-data/C979.json": "5e49e7bd7308b6183ffdcba652edd1543cdb585f8c5cfe431d0d314e9b5d786d",
+    "evidence/historical/source-gzip/S12/Push979Chunk160.lean.gz": "3ea8dc2a5d923a064be04a7ddabdd916b24cdc0fe740a8996bdee16c5508e1cf",
+    "evidence/historical/source-gzip/S12/Push979Chunk159.lean.gz": "c5d1c0ca197e5fee68f902b3c0b44360387ffd2f888ef62067bf37a57f5eb1cf"
+  },
+  "original_proposal_manifest_sha256": "1ef4da233a93c1dcf11ce3c410d61c43912fcd688ffb9c87a6d32ada79ea81ae",
+  "output_files": {
+    "Compact/Preservation/Chords/Radii.lean": {
+      "bytes": 44525,
+      "lines": 976,
+      "sha256": "272416e3f168fc500d3148ba7bd1ced44230bfec2b0e0915f1a538e3b933bbf6"
+    },
+    "Compact/Preservation/Chords/C701Step06.lean": {
+      "bytes": 43766,
+      "lines": 337,
+      "sha256": "d2570d1259ce92689e083ff0bf42c03650ddc75278a8b1c4bdba2a6d537b6463"
+    },
+    "Compact/Preservation/Chords/C701Step14.lean": {
+      "bytes": 37281,
+      "lines": 284,
+      "sha256": "e707f9dce1cd14059bc663233896d45f609d416f6a45de330df1c2be6e30f61d"
+    },
+    "Compact/Preservation/Chords/C701Step20.lean": {
+      "bytes": 33528,
+      "lines": 275,
+      "sha256": "de3e053fbcfd29dd7a375ae8f15d6b668a24b76bd1038966af87b6bb28c68721"
+    },
+    "Compact/Preservation/Chords/C701Step23.lean": {
+      "bytes": 17944,
+      "lines": 196,
+      "sha256": "60f38eb6f479bf6af8d7b3563dc0a6fb021d1788f48a012dd0bf67acfc62af21"
+    },
+    "Compact/Preservation/Chords/C701Step28.lean": {
+      "bytes": 37369,
+      "lines": 283,
+      "sha256": "bdd9b84ff5b0ab31fb1d163c23040be718cc04cbb6fc069e1a745515a3bd8600"
+    },
+    "Compact/Preservation/Chords/C717Step17.lean": {
+      "bytes": 36068,
+      "lines": 320,
+      "sha256": "2e8d19bede938ad45a8cefa0c533b2e54a1b0198b07c418b6266666842e7397c"
+    },
+    "Compact/Preservation/Chords/C717Step18.lean": {
+      "bytes": 13326,
+      "lines": 164,
+      "sha256": "424bac75fb3cd77cb3c536d58d6b233e83d3b17236833e16afcfda1118a14bf5"
+    },
+    "Compact/Preservation/Chords/C973Step10.lean": {
+      "bytes": 45869,
+      "lines": 352,
+      "sha256": "608b1f26268e983a8d9e054901f2c3a3d71d628114bd23156788ab0cc3dfd0b2"
+    },
+    "Compact/Preservation/Chords/C973Step11.lean": {
+      "bytes": 45266,
+      "lines": 352,
+      "sha256": "46e0a77570d2809630ed0ecec3da12106771737fb531e967ba96d71968ddbd0a"
+    },
+    "Compact/Preservation/Chords/C973Step15.lean": {
+      "bytes": 47859,
+      "lines": 369,
+      "sha256": "83f798e6152bc57d856ab47d977fba49f0a611d9af9aa8d3768e4600e98447c2"
+    },
+    "Compact/Preservation/Chords/C973Step25.lean": {
+      "bytes": 31634,
+      "lines": 279,
+      "sha256": "9825e65d0e6d212f9a5281eeeebf609d5f6881a24f8ad624ba0cf662da7c805b"
+    },
+    "Compact/Preservation/Chords/C973Step26.lean": {
+      "bytes": 34029,
+      "lines": 307,
+      "sha256": "6d19bb56e1a0229e10e888d7335009aa2f3b8c5eccd7e7e36757016876cb7087"
+    },
+    "Compact/Preservation/Chords/C978Step11.lean": {
+      "bytes": 45680,
+      "lines": 343,
+      "sha256": "90c6d6bff772c93b8d748ea6397b09fb59827f6cc6d05be0b3416f9eca9959c4"
+    },
+    "Compact/Preservation/Chords/C978Step13.lean": {
+      "bytes": 33306,
+      "lines": 266,
+      "sha256": "64862772220716915b9727d6dc8c2d9e2331a47ef203b4d026b307c5a9b3263a"
+    },
+    "Compact/Preservation/Chords/C979Step17.lean": {
+      "bytes": 72726,
+      "lines": 466,
+      "sha256": "089a0ef0234516b3389785c0411627a8750262df0b293ab067d47f35df928471"
+    },
+    "Compact/Preservation/Chords/C979Step20.lean": {
+      "bytes": 92606,
+      "lines": 618,
+      "sha256": "1399c384f13f5da437fa058e3e92578801dd8088ca5634dd6daba30772ef4159"
+    },
+    "Compact/Preservation/Chords/C979Step21.lean": {
+      "bytes": 56135,
+      "lines": 371,
+      "sha256": "080419b1fc5c18e4d80f0cce8a6c9b7ce4d53e2ed14a2f8e8de4eb265a9dcffc"
+    },
+    "Compact/Preservation/Chords/C979Step24.lean": {
+      "bytes": 28276,
+      "lines": 247,
+      "sha256": "0dceceefe32b4c70bfb037302ba59b37ef997a13ebf4222c7ddec02ccaf6098f"
+    },
+    "Compact/Preservation/Chords/C979Step27.lean": {
+      "bytes": 75726,
+      "lines": 509,
+      "sha256": "bf7b11fcf7b8486cb77abfa58e466b1918814418b7366ace4055d64e55a0b53d"
+    },
+    "Compact/Preservation/Chords/C979Step28.lean": {
+      "bytes": 52059,
+      "lines": 378,
+      "sha256": "2fe5deb9976f79cea67257884d34f992e34507c104b524fa5ae5837231279fdd"
+    }
+  },
+  "lean_modules": 21,
+  "lean_lines": 7692,
+  "lean_bytes": 924978,
+  "elapsed_seconds": 0.27994154100088053
+}

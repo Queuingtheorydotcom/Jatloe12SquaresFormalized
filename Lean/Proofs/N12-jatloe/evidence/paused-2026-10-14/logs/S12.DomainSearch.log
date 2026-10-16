@@ -1,0 +1,2 @@
+'S12.feasible_iff' depends on axioms: [propext, Quot.sound]
+'S12.actual_owners_give_assignment' depends on axioms: [propext, Quot.sound]

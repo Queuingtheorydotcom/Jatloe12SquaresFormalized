@@ -1,0 +1,50 @@
+{
+  "lean": "leanprover/lean4:v4.19.0",
+  "mathlib": {
+    "rev": "c44e0c8ee63ca166450922a373c7409c5d26b00b",
+    "url": "https://github.com/leanprover-community/mathlib4"
+  },
+  "objects_included": false,
+  "packages": [
+    {
+      "name": "plausible",
+      "rev": "77e08eddc486491d7b9e470926b3dbe50319451a",
+      "url": "https://github.com/leanprover-community/plausible"
+    },
+    {
+      "name": "LeanSearchClient",
+      "rev": "25078369972d295301f5a1e53c3e5850cf6d9d4c",
+      "url": "https://github.com/leanprover-community/LeanSearchClient"
+    },
+    {
+      "name": "importGraph",
+      "rev": "e6a9f0f5ee3ccf7443a0070f92b62f8db12ae82b",
+      "url": "https://github.com/leanprover-community/import-graph"
+    },
+    {
+      "name": "proofwidgets",
+      "rev": "c4919189477c3221e6a204008998b0d724f49904",
+      "url": "https://github.com/leanprover-community/ProofWidgets4"
+    },
+    {
+      "name": "aesop",
+      "rev": "5d50b08dedd7d69b3d9b3176e0d58a23af228884",
+      "url": "https://github.com/leanprover-community/aesop"
+    },
+    {
+      "name": "Qq",
+      "rev": "fa4f7f15d97591a9cf3aa7724ba371c7fc6dda02",
+      "url": "https://github.com/leanprover-community/quote4"
+    },
+    {
+      "name": "batteries",
+      "rev": "f5d04a9c4973d401c8c92500711518f7c656f034",
+      "url": "https://github.com/leanprover-community/batteries"
+    },
+    {
+      "name": "Cli",
+      "rev": "02dbd02bc00ec4916e99b04b2245b30200e200d0",
+      "url": "https://github.com/leanprover/lean4-cli"
+    }
+  ]
+}

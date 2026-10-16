@@ -1,0 +1,14 @@
+Try this: ring_nf
+/Users/macintosh/Documents/Codex/2026-10-13/plz/work/handoff/12-square-formalization-handoff-2026-10-13/project/Compact/Core/ReferenceAxis.lean:68:4: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/Users/macintosh/Documents/Codex/2026-10-13/plz/work/handoff/12-square-formalization-handoff-2026-10-13/project/Compact/Core/ReferenceAxis.lean:75:2: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/Users/macintosh/Documents/Codex/2026-10-13/plz/work/handoff/12-square-formalization-handoff-2026-10-13/project/Compact/Core/ReferenceAxis.lean:75:11: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/Users/macintosh/Documents/Codex/2026-10-13/plz/work/handoff/12-square-formalization-handoff-2026-10-13/project/Compact/Core/ReferenceAxis.lean:110:4: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/Users/macintosh/Documents/Codex/2026-10-13/plz/work/handoff/12-square-formalization-handoff-2026-10-13/project/Compact/Core/ReferenceAxis.lean:115:4: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+/Users/macintosh/Documents/Codex/2026-10-13/plz/work/handoff/12-square-formalization-handoff-2026-10-13/project/Compact/Core/ReferenceAxis.lean:122:4: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'N12Compact.ReferenceAxis.overlap' depends on axioms: [propext, Classical.choice, Quot.sound]

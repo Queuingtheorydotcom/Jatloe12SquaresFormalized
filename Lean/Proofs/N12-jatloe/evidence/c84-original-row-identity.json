@@ -1,0 +1,23 @@
+{
+  "trust": "Source literal audit, not Lean acceptance",
+  "rows": [
+    {
+      "position": 123,
+      "id": 84,
+      "family": [
+        1,
+        2,
+        4,
+        8,
+        48,
+        192,
+        1024,
+        2304,
+        4096,
+        8704,
+        16384,
+        32768
+      ]
+    }
+  ]
+}

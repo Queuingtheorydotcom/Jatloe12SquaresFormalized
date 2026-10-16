@@ -1,0 +1,1 @@
+'S12.RegionTree.sound' depends on axioms: [propext, Classical.choice, Quot.sound]

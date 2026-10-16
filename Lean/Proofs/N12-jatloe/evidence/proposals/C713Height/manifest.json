@@ -1,0 +1,113 @@
+{
+  "status": "complete source proposal; Lean replay pending",
+  "case": 713,
+  "source_poses": 108,
+  "target_poses": 102,
+  "empty_target_records": 6,
+  "closed_empty_sources": 12,
+  "height": "87/50 + original certified angle radius",
+  "numerical_claim": "ordinary kernel vertex checks required for every source",
+  "geometric_claim": "C713OccupiedRow.above_radius, separately checked in original model",
+  "inputs": {
+    "evidence/c713-height-slice-audit.json": "5b8928cf239260455f0dad67410b173504eecee7a0718bfd4fc21a2316f361c2",
+    "evidence/historical-compact-data/C713.json": "7ed7f008778113b87e979da105f25ab8c412258bf99cd01dac16e58755424e3a",
+    "vendor/S12/AngleChordRadiusData.lean": "e23fb19b0d1361ab38c550d03e4fc1aa7774424f731198fb868ad587afd1db0f",
+    "evidence/inherited/evidence/C713/case-replay.json": "c533119965067e850f6e002d05580d4dfe6676719807c5ab74405f92f32a8b02"
+  },
+  "lean_modules": 15,
+  "lean_lines": 2463,
+  "lean_bytes": 98550,
+  "outputs": [
+    {
+      "path": "Compact/Cases/C713/HeightData/Batch00.lean",
+      "sha256": "fe1f2ca6cb5c092ea2096c6f9bfb426176a7014848ff69d7bc69e61fb2ed1a8d",
+      "lines": 171,
+      "bytes": 6755
+    },
+    {
+      "path": "Compact/Cases/C713/HeightData/Batch01.lean",
+      "sha256": "f08a3ddcc119e992ac5a6ac728430845fdec33973b287e314f3bcf046f67588a",
+      "lines": 171,
+      "bytes": 6878
+    },
+    {
+      "path": "Compact/Cases/C713/HeightData/Batch02.lean",
+      "sha256": "2b93baa7239d84979b610620d9b655044154ccf5e9d54f63588a3c6f711b0f47",
+      "lines": 171,
+      "bytes": 6930
+    },
+    {
+      "path": "Compact/Cases/C713/HeightData/Batch03.lean",
+      "sha256": "0dbac3165ffb96c35956de82bdfd156784a7d52a0d42546619d80e5569e3b063",
+      "lines": 171,
+      "bytes": 6922
+    },
+    {
+      "path": "Compact/Cases/C713/HeightData/Batch04.lean",
+      "sha256": "bc6b523c2e0e02f560bade40aadccc97563bbeae1a7fc5d1a3db9b2395625dab",
+      "lines": 171,
+      "bytes": 6925
+    },
+    {
+      "path": "Compact/Cases/C713/HeightData/Batch05.lean",
+      "sha256": "f1bab1e6759daa251f85c14241cee76eb84fab2ff072181e3108771220985683",
+      "lines": 171,
+      "bytes": 6918
+    },
+    {
+      "path": "Compact/Cases/C713/HeightData/Batch06.lean",
+      "sha256": "160cf8424b66b1c6e7aecbeccefe587f097e86df2c61e9fe5b1d2fb4d33c3a58",
+      "lines": 171,
+      "bytes": 6904
+    },
+    {
+      "path": "Compact/Cases/C713/HeightData/Batch07.lean",
+      "sha256": "364b7b687a3ea4b7a0651f46aeafed1911b556aaa06ebbf33a2b6f707b169a4b",
+      "lines": 171,
+      "bytes": 6913
+    },
+    {
+      "path": "Compact/Cases/C713/HeightData/Batch08.lean",
+      "sha256": "fe763f43a8d62a27c46dbbe80ce3b9d55ca6b43b74e42ebe26a5e929a8f029d4",
+      "lines": 171,
+      "bytes": 6913
+    },
+    {
+      "path": "Compact/Cases/C713/HeightData/Batch09.lean",
+      "sha256": "567ad1e7a964a90d468e43f9970a84832955881916db707b62643dc1996aa0b1",
+      "lines": 171,
+      "bytes": 6918
+    },
+    {
+      "path": "Compact/Cases/C713/HeightData/Batch10.lean",
+      "sha256": "99c93706d3cecc5d14ebdaa430d196b3b6b0ec6d3e95508d7fdfc59f0bc42427",
+      "lines": 171,
+      "bytes": 6907
+    },
+    {
+      "path": "Compact/Cases/C713/HeightData/Batch11.lean",
+      "sha256": "c2f3ad150a96ff8ba14c2c38ec9239bcd51f1187278430204cc15e6d4e067302",
+      "lines": 171,
+      "bytes": 6910
+    },
+    {
+      "path": "Compact/Cases/C713/HeightData/Batch12.lean",
+      "sha256": "5528e9e3695d8a0f2f4398f146fdc82630d6c478bf9e55e0a6c5b0bbd1de7a99",
+      "lines": 171,
+      "bytes": 7006
+    },
+    {
+      "path": "Compact/Cases/C713/HeightData/Batch13.lean",
+      "sha256": "71e68d70a063d178864c5e6a615dd73f7626effb4d4ec96e331645ecac84256d",
+      "lines": 91,
+      "bytes": 3664
+    },
+    {
+      "path": "Compact/Cases/C713/HeightData/All.lean",
+      "sha256": "178bcb63699ba750efe9e0d6bee818576ab56ab56ce7e1c78473c295caec1f59",
+      "lines": 149,
+      "bytes": 5087
+    }
+  ],
+  "elapsed_seconds": 0.06063579200053937
+}

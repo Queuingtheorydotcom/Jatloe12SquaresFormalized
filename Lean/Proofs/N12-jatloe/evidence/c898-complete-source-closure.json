@@ -1,0 +1,2151 @@
+{
+  "root": "Compact.Cases.C898.Complete",
+  "status": "assembled source; not complete kernel replay",
+  "modules": 267,
+  "source_bytes": 18980597,
+  "lines": 223943,
+  "compact_modules": 169,
+  "compact_bytes": 17698295,
+  "compact_lines": 212211,
+  "missing": [
+    "S12.CertifiedPoint"
+  ],
+  "sources": {
+    "Compact.Cases.C898.Complete": {
+      "path": "Compact/Cases/C898/Complete.lean",
+      "bytes": 2368,
+      "lines": 55,
+      "sha256": "0f5c2e6e082f146d1b2d607c404f63f6ad0f56f6c6692b099da84faefeccd192",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Incoming": {
+      "path": "Compact/Cases/C898/Incoming.lean",
+      "bytes": 13385,
+      "lines": 154,
+      "sha256": "5c9ad646507710c0db3a5f21e055bd82ceee303b89906979c6c01ed8656ff306",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Entry": {
+      "path": "Compact/Cases/C898/Entry.lean",
+      "bytes": 6821,
+      "lines": 131,
+      "sha256": "cafae24c5a74040ceeb12ba1320b4fcd8c26dedaa9d8795b01222c52f2da3fd4",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Bridge.PointPremises": {
+      "path": "Compact/Bridge/PointPremises.lean",
+      "bytes": 2590,
+      "lines": 50,
+      "sha256": "ba03d039cbf5b3f901a3df9cca6c6d2751fb1cd338a6cc0a1456a333eecb1f37",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.CertifiedDomain": {
+      "path": "source/S12/CertifiedDomain.lean",
+      "bytes": 3659,
+      "lines": 74,
+      "sha256": "dcb287946696c04c8b990311286f7e42c00fcb0be488f170e0d853a33e3ab74c",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.CoreExclusion": {
+      "path": "source/S12/CoreExclusion.lean",
+      "bytes": 4490,
+      "lines": 103,
+      "sha256": "848315573b94715036d221c0a7f48a2ef7e738ccf9993bb31bfe06bf328485a3",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.SpecPacking": {
+      "path": "source/S12/SpecPacking.lean",
+      "bytes": 2190,
+      "lines": 44,
+      "sha256": "45d58fbd03b165f8d195cac37657da5271013029f49fb2e975e51f67f2da0ed2",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.CombinedPacking": {
+      "path": "source/S12/CombinedPacking.lean",
+      "bytes": 2510,
+      "lines": 66,
+      "sha256": "bd19112f897ce96a5deaeda7424176d7889c55fdc3a805c112b88499dacaaaf0",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.AuxPacking": {
+      "path": "source/S12/AuxPacking.lean",
+      "bytes": 5938,
+      "lines": 134,
+      "sha256": "4445ffd311df269e11096c0cc2845d2e70522d6d6f7647304e2008e33a3d443b",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.DomainSpecs": {
+      "path": "source/S12/DomainSpecs.lean",
+      "bytes": 4414,
+      "lines": 101,
+      "sha256": "49e8bf88677aa4d62dca63e162d1ab91fa0d7c737841072226bbca739b713ed8",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.LocalQueryData": {
+      "path": "source/S12/LocalQueryData.lean",
+      "bytes": 272280,
+      "lines": 1805,
+      "sha256": "3ccca2b4ff0eeaccea4f9755598fe1eb800fe3d3321c34a497d8120054030cf7",
+      "native_decide": 35,
+      "admission_tokens": 0
+    },
+    "S12.LocalQuery": {
+      "path": "source/S12/LocalQuery.lean",
+      "bytes": 3195,
+      "lines": 67,
+      "sha256": "56925f1b9b1f556aa3e6b8f97a090518f7173452f1e339645620fad4d32f1273",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.AuxiliaryPoints": {
+      "path": "source/S12/AuxiliaryPoints.lean",
+      "bytes": 507,
+      "lines": 12,
+      "sha256": "6705c4aec708f3e5dc9ea16a10efd8dcb4c475125b5b6c92752f215a039cc4f2",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.LocalRejection": {
+      "path": "source/S12/LocalRejection.lean",
+      "bytes": 5816,
+      "lines": 122,
+      "sha256": "656817b960c96243198cd74ea632be5ab33c0e78260d890cc9326f1b21af4746",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.Seeds": {
+      "path": "source/S12/Seeds.lean",
+      "bytes": 4978,
+      "lines": 95,
+      "sha256": "57ac6d15b401ce05c60832bbfa63424185abfe21f07047180be320fb4a90021a",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.TransformFacts": {
+      "path": "source/S12/TransformFacts.lean",
+      "bytes": 3043,
+      "lines": 68,
+      "sha256": "63a8bd4368c46913b501175b94d2d8ddf2613f194e042b38ea40bd58db75131b",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.SingletonForcing": {
+      "path": "source/S12/SingletonForcing.lean",
+      "bytes": 5494,
+      "lines": 105,
+      "sha256": "0c7d4c02d71dfea858c4139bab08662bdc1d1897a0eb262a321525babf3637b1",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.SingletonTriangles": {
+      "path": "source/S12/SingletonTriangles.lean",
+      "bytes": 27581,
+      "lines": 511,
+      "sha256": "3ecfed33a19fcde05e35f655d35724db48fd6033a608d954a32b10476ab7ef44",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.CenterLocalization": {
+      "path": "source/S12/CenterLocalization.lean",
+      "bytes": 1539,
+      "lines": 38,
+      "sha256": "855adc72d1fcf086c7ea993053e404746abadcda2c03f25288493b3ad0f53597",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.MarkerCoverGeometry": {
+      "path": "source/S12/MarkerCoverGeometry.lean",
+      "bytes": 4367,
+      "lines": 96,
+      "sha256": "a11458ac6976c1005cc6d9d6474e293bbfbccbcc9f6b5a0e13292a2428b615e9",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.Container": {
+      "path": "source/S12/Container.lean",
+      "bytes": 1738,
+      "lines": 38,
+      "sha256": "645387a0b344970b27864bfc72160b8e65ae9f574087ac17d277cf15cd2acb15",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.SquareFrame": {
+      "path": "source/S12/SquareFrame.lean",
+      "bytes": 1742,
+      "lines": 40,
+      "sha256": "49e1855ce4de71f8a0791f6c2b57c5af88c2fa9102e5324fc67ddfd80f0341f6",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.Diagonal": {
+      "path": "source/S12/Diagonal.lean",
+      "bytes": 9709,
+      "lines": 228,
+      "sha256": "829bdc2553ec36b8ecf529fab6f0d372ecf1003b9695089dd864996b2851e8f6",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.SymmetryBase": {
+      "path": "source/S12/SymmetryBase.lean",
+      "bytes": 2458,
+      "lines": 79,
+      "sha256": "649d5ae978e0f8733ab32c512ebf081c7d5b9c577b6ad25971df959a8600fdb1",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.MarkerCoverGeometryBase": {
+      "path": "source/S12/MarkerCoverGeometryBase.lean",
+      "bytes": 4852,
+      "lines": 142,
+      "sha256": "403de00f55936383399e1982d37ebb2d99ee2b3d14c8321b802725e73aa3cf97",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.WallRowCover": {
+      "path": "source/S12/WallRowCover.lean",
+      "bytes": 4321,
+      "lines": 105,
+      "sha256": "cd3fe45c437300f8d675f8b72adbf5e67c8b6b17bcff4cae41c2a0b871524961",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.CornerCover": {
+      "path": "source/S12/CornerCover.lean",
+      "bytes": 3096,
+      "lines": 72,
+      "sha256": "e3210052f7175c66c86b454b67dc99e08db40d85d8552241eb6e09cea9284a17",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.WallGeometry": {
+      "path": "source/S12/WallGeometry.lean",
+      "bytes": 3953,
+      "lines": 95,
+      "sha256": "a803ce2d86bc423f74007e0ea036eea0deaa785facb2b25c6698160500e4558e",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.Symmetry": {
+      "path": "source/S12/Symmetry.lean",
+      "bytes": 1223,
+      "lines": 32,
+      "sha256": "8a5651289837924c73b854dac4781dab8e0d9ceece4df3aef5b386bcfbb57806",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.ShortCluster": {
+      "path": "source/S12/ShortCluster.lean",
+      "bytes": 3944,
+      "lines": 91,
+      "sha256": "d321f4ab40cee82d261c331bd72cbc1580da6feee0591b7d8039474b3d083576",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.Diameter": {
+      "path": "source/S12/Diameter.lean",
+      "bytes": 1319,
+      "lines": 39,
+      "sha256": "8ee3fcaa8bea000bcdcf6ffdeb39435b2eaae2c611a095c1bc1f906221ed47ae",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.Markers": {
+      "path": "source/S12/Markers.lean",
+      "bytes": 2344,
+      "lines": 37,
+      "sha256": "77fb03343863564fc98fb1ee9a82d6154c89bd42bc448708b1050ff3fc960c1e",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.TriangleCover": {
+      "path": "source/S12/TriangleCover.lean",
+      "bytes": 4561,
+      "lines": 101,
+      "sha256": "591ef2530815cea9c499e0c84d0ae6dfff4254616bfac4c19355eecbaea0377a",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.WallNormalBounds": {
+      "path": "source/S12/WallNormalBounds.lean",
+      "bytes": 3303,
+      "lines": 73,
+      "sha256": "378b62422c0540d8923f3c82d01b38a13ac66939276aa0de3639cf4dd9a302e6",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.WallCubicData": {
+      "path": "source/S12/WallCubicData.lean",
+      "bytes": 6493,
+      "lines": 146,
+      "sha256": "66061eb84afed7a0f962851556ca03b997e28c39e190b63bb490a1df352edcf9",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.GeneralWall": {
+      "path": "source/S12/GeneralWall.lean",
+      "bytes": 4958,
+      "lines": 113,
+      "sha256": "fe809d7975dcbc51deaeac14db1089e12c58c94dc0792f5f052dc0a5115f1649",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.TwoHeightWall": {
+      "path": "source/S12/TwoHeightWall.lean",
+      "bytes": 5081,
+      "lines": 116,
+      "sha256": "922d2208cc83c8b8dcb47a9a0a07679bed7e621ef89baf7c8d1d06a22bfc767f",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.GeneralWallSegments": {
+      "path": "source/S12/GeneralWallSegments.lean",
+      "bytes": 1783,
+      "lines": 39,
+      "sha256": "23dbfd7ab0fed8c57bda12376878bc5468b78975c41a94205182a45cbbde1169",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.AuxCoverGeometry": {
+      "path": "source/S12/AuxCoverGeometry.lean",
+      "bytes": 7857,
+      "lines": 151,
+      "sha256": "06d1ebc7c2f3f362536ab7edc171be61ed4baa053a92dd57970e62bbca12f46b",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.AuxCoverBase": {
+      "path": "source/S12/AuxCoverBase.lean",
+      "bytes": 7577,
+      "lines": 170,
+      "sha256": "c2acf52689ab81354890005d0fbc846136a5928e39764b13e30dcacc6443e0be",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.WideWallRow": {
+      "path": "source/S12/WideWallRow.lean",
+      "bytes": 3898,
+      "lines": 91,
+      "sha256": "25d52c34322667f594ec173fc1a07a82fbe6a812c608996d2e6c5fe81438b70f",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.WallBridge": {
+      "path": "source/S12/WallBridge.lean",
+      "bytes": 4541,
+      "lines": 104,
+      "sha256": "45d0ba39219fc65ca32d75656667bba5f90a47d1f27b132bb4c11c0a4ca4abc8",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.CornerForcing": {
+      "path": "source/S12/CornerForcing.lean",
+      "bytes": 1268,
+      "lines": 29,
+      "sha256": "9eb135505276c2e4032e1e98a05e5f0aac0785be4fba73bcc4022a0b6d454eae",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.Convex": {
+      "path": "source/S12/Convex.lean",
+      "bytes": 2647,
+      "lines": 68,
+      "sha256": "a8a7bb8a862018110e0b515a9918dc1898204c19ae02992f5af8177f540c7171",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.FourPointData": {
+      "path": "source/S12/FourPointData.lean",
+      "bytes": 174864,
+      "lines": 353,
+      "sha256": "62a9e8f4c7495342b9c600893683f9994b14e7d86ac8a1415c1753eec228301b",
+      "native_decide": 111,
+      "admission_tokens": 0
+    },
+    "S12.FourPointCertificate": {
+      "path": "source/S12/FourPointCertificate.lean",
+      "bytes": 5704,
+      "lines": 137,
+      "sha256": "a0c9f93591cbdc1b6036b9aa7bf96685d099b0364df44e79f173b8aa56eac921",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.LinearCertificate": {
+      "path": "source/S12/LinearCertificate.lean",
+      "bytes": 4616,
+      "lines": 108,
+      "sha256": "7205eea5f44b2deb332281f1359c129571a1e29614a89977f0f6e0e95de83cbb",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.RawData": {
+      "path": "source/S12/RawData.lean",
+      "bytes": 2443,
+      "lines": 19,
+      "sha256": "f9668c842a8523174eafa41c6da6eb15efc664fb78568f065db4cdf7975b6622",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.Cliques": {
+      "path": "source/S12/Cliques.lean",
+      "bytes": 1919,
+      "lines": 49,
+      "sha256": "2174e9695c051434f829fd120de3b4c41a2c2102f1702a0459407c9549655c1d",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.FamilyTransport": {
+      "path": "source/S12/FamilyTransport.lean",
+      "bytes": 4791,
+      "lines": 96,
+      "sha256": "f2c0f00cba16f02fc994a89554209cfa5fe2e8ece0cc7cd5469b482115db90a7",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.HullBridge": {
+      "path": "source/S12/HullBridge.lean",
+      "bytes": 3733,
+      "lines": 84,
+      "sha256": "c443326b0dfd6da11463a3d8f6ebcc428251790ba5f49c29205ba47cfade20a2",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.HullData": {
+      "path": "source/S12/HullData.lean",
+      "bytes": 15165,
+      "lines": 83,
+      "sha256": "eb65e61fe91d9d7c00aa8c4901ee332a195730813a61ea7f21b1513316ea2138",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.HullCertificates": {
+      "path": "source/S12/HullCertificates.lean",
+      "bytes": 1298,
+      "lines": 32,
+      "sha256": "27c6b43a73de882b7796c57396a95276c9bd90002f346bcf1448dc80e3447dde",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.PackingBudget": {
+      "path": "source/S12/PackingBudget.lean",
+      "bytes": 6135,
+      "lines": 124,
+      "sha256": "ba27adc3ea45d3c5051cc1163ce33b44909776b9982852cbc9762153ed1c8494",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.PackingBridge": {
+      "path": "source/S12/PackingBridge.lean",
+      "bytes": 2915,
+      "lines": 68,
+      "sha256": "e91d1c3923b0102e99dd4aed5bd79c79548b68389f785ab5aa4f13f96ec9d2cf",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.Packing": {
+      "path": "source/S12/Packing.lean",
+      "bytes": 3590,
+      "lines": 84,
+      "sha256": "3278b8f219615ba4733b33d982ee22b8131994732e6666c394167927fc6987c1",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.DiameterClassification": {
+      "path": "source/S12/DiameterClassification.lean",
+      "bytes": 631,
+      "lines": 21,
+      "sha256": "be071cb22eeac5fee2d77badcc61c758a689301af6a67bbfc5e22e452610cd53",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.MarkerClassification": {
+      "path": "source/S12/MarkerClassification.lean",
+      "bytes": 6166,
+      "lines": 141,
+      "sha256": "499c24d0bbc7c574c62cd677d2aff6d1aa4be3d568f2090266116d69c4c5c367",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.MarkerCliques": {
+      "path": "source/S12/MarkerCliques.lean",
+      "bytes": 10955,
+      "lines": 214,
+      "sha256": "316e12fe872939e0370ba6b0ed387aa616b6ab1c832e0019bcf01f5c3fec9109",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.MarkerAdjacency": {
+      "path": "source/S12/MarkerAdjacency.lean",
+      "bytes": 7155,
+      "lines": 160,
+      "sha256": "5fad8b0d1b2e3743cdca5e7e2b14704e4dbc26df702ba27e2d5ef9d649e979c9",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.Enumeration": {
+      "path": "source/S12/Enumeration.lean",
+      "bytes": 5328,
+      "lines": 123,
+      "sha256": "0e1ffbaeeeba55a5190ba577bad3f180afe043d662c8d210c6d810d8d13abfd1",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.Raw": {
+      "path": "source/S12/Raw.lean",
+      "bytes": 2817,
+      "lines": 68,
+      "sha256": "627081ade701dcfa4d7ec8c67552735964570f522ffa60ecd5044112addb4ebe",
+      "native_decide": 3,
+      "admission_tokens": 0
+    },
+    "S12.CoverData": {
+      "path": "source/S12/CoverData.lean",
+      "bytes": 199146,
+      "lines": 86,
+      "sha256": "663a4e43053099d3781da982ca148dfec3402da0ba33a603859f19fa20f5e7f4",
+      "native_decide": 24,
+      "admission_tokens": 0
+    },
+    "S12.Cover": {
+      "path": "source/S12/Cover.lean",
+      "bytes": 1068,
+      "lines": 29,
+      "sha256": "14c0a56c9cff9ab00c1b8ef36c1b2f3d4f2a08c7c6ad875cffa896bf8b413360",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.DomainSearch": {
+      "path": "source/S12/DomainSearch.lean",
+      "bytes": 2252,
+      "lines": 57,
+      "sha256": "b7630cc110a82bf70a95b34e280325b23005437d7b76c17b29f852e140b947ce",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.CachedEnumeration": {
+      "path": "source/S12/CachedEnumeration.lean",
+      "bytes": 1706,
+      "lines": 39,
+      "sha256": "e4f52edb41c5e60aabad5bcb5af67617282f16602a2b9c93cca89078eb16a44b",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.AuxPairCover": {
+      "path": "source/S12/AuxPairCover.lean",
+      "bytes": 3731,
+      "lines": 86,
+      "sha256": "34317976060846742f064ab0e245b0fda92fc340e4140e1df4e7593564208fe4",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.Budget": {
+      "path": "source/S12/Budget.lean",
+      "bytes": 3250,
+      "lines": 77,
+      "sha256": "4612b651fd09375ae1f0f7c96189cb1e6f0c37970d870b644af241ca582fa9fa",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.EntryPoints": {
+      "path": "Compact/Cases/C898/EntryPoints.lean",
+      "bytes": 26255,
+      "lines": 188,
+      "sha256": "af3816cb3180160c9694fdbb709944fa60b9ee77a98fc079a54beec4a8974037",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.EntryRefined": {
+      "path": "Compact/Cases/C898/EntryRefined.lean",
+      "bytes": 4647,
+      "lines": 41,
+      "sha256": "c27511116b9a43f1369f3c97183dcfa80ac7dc75a93a350429b05c309d1dadeb",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.EntryDomains": {
+      "path": "Compact/Cases/C898/EntryDomains.lean",
+      "bytes": 160045,
+      "lines": 1817,
+      "sha256": "f92a991e4e40f28bc23fc636d8037aae9cd7e689f810883ea988419630de6989",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.DirectSingleDomain": {
+      "path": "source/S12/DirectSingleDomain.lean",
+      "bytes": 2279,
+      "lines": 46,
+      "sha256": "bf6e08cd337399e02dc10b3af4de265c972daae9f0519acaedebe6af1ef4d990",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.DomainRefinement": {
+      "path": "source/S12/DomainRefinement.lean",
+      "bytes": 1274,
+      "lines": 28,
+      "sha256": "62019d9c18ca391e6cc9f2edffa4b6d8a8414cf4acbf0fdc81f076f506f5eeaa",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.DomainHullPoint": {
+      "path": "source/S12/DomainHullPoint.lean",
+      "bytes": 1447,
+      "lines": 30,
+      "sha256": "a85712c316b9258300607c0ef0f780b6c4f99b9fb6edabcad515fc636c1af477",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.OwnedHullPoint": {
+      "path": "source/S12/OwnedHullPoint.lean",
+      "bytes": 1791,
+      "lines": 35,
+      "sha256": "d6bc8e1ab281056ede52429662995288593cdd401ee938828dd47777e7c7154b",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.SharedAll": {
+      "path": "Compact/Cases/C898/Initial/SharedAll.lean",
+      "bytes": 528,
+      "lines": 11,
+      "sha256": "3da00201aaa4eeafd1f504c968b150c49478aea8b9ad676618d576a43ea7f2bf",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.SharedOwner00": {
+      "path": "Compact/Cases/C898/Initial/SharedOwner00.lean",
+      "bytes": 1221,
+      "lines": 24,
+      "sha256": "a45907f999408bea100677b92081eb654c2a5c35ed6ff715a33f811ba6e5b527",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Owner00": {
+      "path": "Compact/Cases/C898/Initial/Owner00.lean",
+      "bytes": 2711,
+      "lines": 88,
+      "sha256": "63d64ba5aaeaabda915adff89dc35ce6587a81006a6568c27d7584cd83cce437",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Owner00Part0": {
+      "path": "Compact/Cases/C898/Initial/Owner00Part0.lean",
+      "bytes": 57711,
+      "lines": 1738,
+      "sha256": "1b7f412cb19013710547358e90ec3f1c3a7db33faee6d0704e3de89badc9f34b",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Inputs": {
+      "path": "Compact/Cases/C898/Initial/Inputs.lean",
+      "bytes": 2830,
+      "lines": 30,
+      "sha256": "2645b0d215185098945919c7250e4c357cd73ef6ffa7397a2da75f37d516dc8f",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Bridge.RegionOwner": {
+      "path": "Compact/Bridge/RegionOwner.lean",
+      "bytes": 5132,
+      "lines": 111,
+      "sha256": "49b9e22ac37478a6a6069f8d962fce1380e143f06425ef3a8ee602676e257846",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Core.RegionDAG": {
+      "path": "Compact/Core/RegionDAG.lean",
+      "bytes": 9091,
+      "lines": 206,
+      "sha256": "7f1acb6f61ca28d0c349987579258ead21cd7b675a6e8be80ecd1bdf1cd572bc",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Core.SparseInteger": {
+      "path": "Compact/Core/SparseInteger.lean",
+      "bytes": 6881,
+      "lines": 167,
+      "sha256": "7e3468f1f8b7686ef084e241be6b8f5c584feac363734aac2371721a3f363f10",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Core.IntegerSupport": {
+      "path": "Compact/Core/IntegerSupport.lean",
+      "bytes": 6298,
+      "lines": 144,
+      "sha256": "bdee09e248e431af2cae3a24d800acd16376b66d86b68ce9d8a17cef96134e91",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.OrientedCoverage": {
+      "path": "source/S12/OrientedCoverage.lean",
+      "bytes": 5762,
+      "lines": 103,
+      "sha256": "48b375582aa802651392048eac2656b340be9eed4c2118d5b5d3a4fc5df63234",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.ContinuousCertificate": {
+      "path": "source/S12/ContinuousCertificate.lean",
+      "bytes": 3657,
+      "lines": 76,
+      "sha256": "e61000e374f439105fb8562db802e77e05afaf2837bf8e98a2183210691447e3",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.DomainRelaxation": {
+      "path": "source/S12/DomainRelaxation.lean",
+      "bytes": 1656,
+      "lines": 36,
+      "sha256": "750ea80528ec6a2639a3cd6cb989ff1117425aebc1de2611d1284a05916ec3b5",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.ContinuousPruning": {
+      "path": "source/S12/ContinuousPruning.lean",
+      "bytes": 5373,
+      "lines": 105,
+      "sha256": "d49445d58d154b4d065f1622df619038995d5af1c576d3ab3866f31108f60b55",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.AxisOverlapCertificate": {
+      "path": "source/S12/AxisOverlapCertificate.lean",
+      "bytes": 6298,
+      "lines": 126,
+      "sha256": "b1061fbf0de729b9a8b21dbcb98e2a4def3d0d7706258dcfdb5d27bcb9727d21",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.SquareAxes": {
+      "path": "source/S12/SquareAxes.lean",
+      "bytes": 5435,
+      "lines": 134,
+      "sha256": "98e02e26542dc36e803397b4a0c8e7d5036ce6c807e90af803f93d91a1d1c6ae",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.AxisGap": {
+      "path": "source/S12/AxisGap.lean",
+      "bytes": 4136,
+      "lines": 97,
+      "sha256": "f5b325c70fde66c741d74a2b74a5fa8840fe9191882087e8573f45853bd0a8a2",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.AxisAlgebra": {
+      "path": "source/S12/AxisAlgebra.lean",
+      "bytes": 3671,
+      "lines": 89,
+      "sha256": "03093b8b871c8f2f98ad8bb2a4a28199649c9636c6e02fee20f68619811868ac",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.SquareSupportBase": {
+      "path": "source/S12/SquareSupportBase.lean",
+      "bytes": 4232,
+      "lines": 110,
+      "sha256": "5b9d0c7fd147dd8ece9a202cad3a39497adf379cc246f3c3a7155bd4a426ae9d",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.ConvexOverlap": {
+      "path": "source/S12/ConvexOverlap.lean",
+      "bytes": 2399,
+      "lines": 58,
+      "sha256": "183258b031744ad6be4f4f78b7d97c45c277d8f21ec03d18acf6f8f18b03af2f",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Geometry.ScalarSATGeneral": {
+      "path": "Compact/Geometry/ScalarSATGeneral.lean",
+      "bytes": 9404,
+      "lines": 198,
+      "sha256": "05ada5563f2793928975c0a1c00fbbec04a7ec1e4d4ac5dd1b482b0585cf6372",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Geometry.ScalarSATIntervals": {
+      "path": "Compact/Geometry/ScalarSATIntervals.lean",
+      "bytes": 4153,
+      "lines": 82,
+      "sha256": "e74847b6eea0903d0c16fee57ba94291f0d6e2f8d68523d9b0a0c27a1eb7a9b9",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.AffineOverlap": {
+      "path": "source/S12/AffineOverlap.lean",
+      "bytes": 6853,
+      "lines": 131,
+      "sha256": "dffc4416b999c5b9b4252f5f8a9ee66e4203dd1100caf89f1e7d14fae68989cb",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.LinearImplication": {
+      "path": "source/S12/LinearImplication.lean",
+      "bytes": 1641,
+      "lines": 36,
+      "sha256": "e70bb213373dc733f3ec0dba8fc376711a9f397cb0c7e8798013621bc3044f3f",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.OverlapCertificate": {
+      "path": "source/S12/OverlapCertificate.lean",
+      "bytes": 3961,
+      "lines": 89,
+      "sha256": "fc6e98cefb430ce7d7686b5144746b8c7fa8127b702f3a2014fa6ede6274b14d",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.OwnerEnclosure": {
+      "path": "source/S12/OwnerEnclosure.lean",
+      "bytes": 4988,
+      "lines": 92,
+      "sha256": "080afae3e204db5dd71938743bd18dd9d9f5e2bc24fc2161b55badc8bf062d6f",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.PoseRegion": {
+      "path": "source/S12/PoseRegion.lean",
+      "bytes": 4581,
+      "lines": 82,
+      "sha256": "2e17527c4127c5c8d9a05188e098526dd36588a88fc64e86fb2605aaeff2d544",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.PoseBounds": {
+      "path": "source/S12/PoseBounds.lean",
+      "bytes": 4280,
+      "lines": 87,
+      "sha256": "06c0797d679671b141a60a6c9cbc4e8e550855881e1ec5dde82bc970e3b7154b",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.AngleReference": {
+      "path": "source/S12/AngleReference.lean",
+      "bytes": 1827,
+      "lines": 40,
+      "sha256": "e65fb8d376250dc93013c7a0bca3e38a7909550b8b941ebd61d9bec3947c284e",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.AngleEnclosure": {
+      "path": "source/S12/AngleEnclosure.lean",
+      "bytes": 4441,
+      "lines": 103,
+      "sha256": "52ec9ec7c916b6f1a04f96eb1d74b413d8f246b1f043e4e1204e032ade866c4d",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.QuadraticInterval": {
+      "path": "source/S12/QuadraticInterval.lean",
+      "bytes": 1991,
+      "lines": 43,
+      "sha256": "e9c47d7a222008d47d550202195950fac69fb2b4050c095a3fc6fabb6ebde531",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.ReferenceGeometry": {
+      "path": "source/S12/ReferenceGeometry.lean",
+      "bytes": 3194,
+      "lines": 76,
+      "sha256": "03b3f288d86ae5975c4d1699eed8589f90002b0e14d6cf75b3b289de9978defc",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.RegionTree": {
+      "path": "source/S12/RegionTree.lean",
+      "bytes": 3256,
+      "lines": 66,
+      "sha256": "f8321756bf0996700e30afeac5560ff10cafb6cde37b54c3b61f35e2133f2583",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.IntervalCoverage": {
+      "path": "source/S12/IntervalCoverage.lean",
+      "bytes": 1212,
+      "lines": 29,
+      "sha256": "99b64857bea407d887fcc7482087884ec42917ea8697680798e6996dde544357",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Angles": {
+      "path": "Compact/Cases/C898/Initial/Angles.lean",
+      "bytes": 1076,
+      "lines": 11,
+      "sha256": "5ce77712c1eafb7949a030b904f9757bb0eef7a98c9d75227f982c623ea847f8",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.AngleData": {
+      "path": "source/S12/AngleData.lean",
+      "bytes": 76602,
+      "lines": 459,
+      "sha256": "82fa09c9c0d6e86227bec6eb38ab87ccbf06a9c132142e066126945cbcffe5b1",
+      "native_decide": 3,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Shared0": {
+      "path": "Compact/Cases/C898/Initial/Shared0.lean",
+      "bytes": 585363,
+      "lines": 7467,
+      "sha256": "114a39ffc020143e8d63f9de7ba7c0c377f07991f30f6556b9430840d117e010",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Owner00Part1": {
+      "path": "Compact/Cases/C898/Initial/Owner00Part1.lean",
+      "bytes": 56722,
+      "lines": 1690,
+      "sha256": "00c1b5ccb466e714a2a7f597f6152285ce66219a1ece1b1c66848dffab444791",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Shared1": {
+      "path": "Compact/Cases/C898/Initial/Shared1.lean",
+      "bytes": 609185,
+      "lines": 7663,
+      "sha256": "26600670cd88bde7f88e25c336456a767889162aa0f2f9d26b5c59621753a320",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Owner00Part2": {
+      "path": "Compact/Cases/C898/Initial/Owner00Part2.lean",
+      "bytes": 57763,
+      "lines": 1706,
+      "sha256": "ac98b2d98dad7d95cef61a1ae9dd6afdd4ebb8d7b3f439fd7cad2feac2e1f03a",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Shared2": {
+      "path": "Compact/Cases/C898/Initial/Shared2.lean",
+      "bytes": 600902,
+      "lines": 7503,
+      "sha256": "9a393aae1ef288c6ad02f948c5709fb85c514c27e2b0fb8bf357214e73b901b4",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Owner00Part3": {
+      "path": "Compact/Cases/C898/Initial/Owner00Part3.lean",
+      "bytes": 65554,
+      "lines": 1898,
+      "sha256": "c3bae7ce99fcfdd7c7e347eb6028fe04efb9b95189390c7b12df73aa36d0a4ec",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Shared3": {
+      "path": "Compact/Cases/C898/Initial/Shared3.lean",
+      "bytes": 610380,
+      "lines": 7559,
+      "sha256": "d147a209b2e7b1251e1ac125af3ec30ffd958e27f4a4987d814f52b4e5a47da2",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.SharedPoses": {
+      "path": "Compact/Cases/C898/SharedPoses.lean",
+      "bytes": 609469,
+      "lines": 6654,
+      "sha256": "23a27ab7897118625a8fbd1ded991a68c6a0bfb3bf35b1103104f6d6e755185e",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.SharedRows": {
+      "path": "Compact/Cases/C898/SharedRows.lean",
+      "bytes": 1969939,
+      "lines": 26043,
+      "sha256": "aa6c651ccca2121d9a60d32ed55e28a94092ff8ebc24e79f4a96f73c6e7645e8",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.SharedOwner01": {
+      "path": "Compact/Cases/C898/Initial/SharedOwner01.lean",
+      "bytes": 1330,
+      "lines": 24,
+      "sha256": "42ac7a6f665323abe403673ccaf42aa39576e5f2012be08d8ffb911e6f400aef",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Owner01": {
+      "path": "Compact/Cases/C898/Initial/Owner01.lean",
+      "bytes": 2711,
+      "lines": 88,
+      "sha256": "ea3db1baad301940727a4e52d2923b4559e8abf834b13547bb2b296e050d5551",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Owner01Part0": {
+      "path": "Compact/Cases/C898/Initial/Owner01Part0.lean",
+      "bytes": 63869,
+      "lines": 1850,
+      "sha256": "849f9483002ef918fddceb73cd756dd76fc267737d961881a954be3398a535ce",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Owner01Part1": {
+      "path": "Compact/Cases/C898/Initial/Owner01Part1.lean",
+      "bytes": 53465,
+      "lines": 1594,
+      "sha256": "267a936053a3ef1d764caf4ef005107d4cdfaf6924e8603867992c7d224eab82",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Owner01Part2": {
+      "path": "Compact/Cases/C898/Initial/Owner01Part2.lean",
+      "bytes": 62203,
+      "lines": 1818,
+      "sha256": "601ffb53440ab2d3857b1cf62b03b4d69568d865e893af039e2b623d68dfdb20",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Owner01Part3": {
+      "path": "Compact/Cases/C898/Initial/Owner01Part3.lean",
+      "bytes": 57306,
+      "lines": 1706,
+      "sha256": "1f8e8394ef3b85d2d4f1995ffdceb06e54b25af5bc7bf607dbc8d4c3b6b0dcfd",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.SharedOwner02": {
+      "path": "Compact/Cases/C898/Initial/SharedOwner02.lean",
+      "bytes": 1678,
+      "lines": 24,
+      "sha256": "83bce89b4d3d891819f1c073b1cd0a056d7d192cde0eedb41892e9adc8f6f3aa",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Owner02": {
+      "path": "Compact/Cases/C898/Initial/Owner02.lean",
+      "bytes": 2711,
+      "lines": 88,
+      "sha256": "abb41d796f58c93583518a41270ed7bf6fdc50cc2dea514487eeacd68b431110",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Owner02Part0": {
+      "path": "Compact/Cases/C898/Initial/Owner02Part0.lean",
+      "bytes": 50783,
+      "lines": 1498,
+      "sha256": "5c9ed6f2851138ce832e6a091e0b3c0d00214005a8b95771e16d9a3783a834f1",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Owner02Part1": {
+      "path": "Compact/Cases/C898/Initial/Owner02Part1.lean",
+      "bytes": 52322,
+      "lines": 1546,
+      "sha256": "84b0eb1bf1768579beea3dffd526e454e700844371b524163b36ffe4dfb61100",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Owner02Part2": {
+      "path": "Compact/Cases/C898/Initial/Owner02Part2.lean",
+      "bytes": 53148,
+      "lines": 1546,
+      "sha256": "6b65e5b5bcf797f04972fcefaa5c54d399978839dc66bf28b29e984f6f8959e5",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Owner02Part3": {
+      "path": "Compact/Cases/C898/Initial/Owner02Part3.lean",
+      "bytes": 49282,
+      "lines": 1434,
+      "sha256": "d82e7b415f774be656ff13bdbc19b88ebc4d8f4e1582d942bb4c1cdce6a613e2",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.SharedOwner03": {
+      "path": "Compact/Cases/C898/Initial/SharedOwner03.lean",
+      "bytes": 1338,
+      "lines": 24,
+      "sha256": "bd62e1dd3bfafb4509cec4d938d56151cdaf2403e96f2f084a9f727f5be7bef0",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Owner03": {
+      "path": "Compact/Cases/C898/Initial/Owner03.lean",
+      "bytes": 2711,
+      "lines": 88,
+      "sha256": "cb5ac59488d115f34b91a6bef9cbdf32bee4ff7e8dd3f6f3544b983a404574ff",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Owner03Part0": {
+      "path": "Compact/Cases/C898/Initial/Owner03Part0.lean",
+      "bytes": 56284,
+      "lines": 1626,
+      "sha256": "066fe61a2331863aed5ae0ebf17b9c8ac161848cd73ce0219937f91449f6248c",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Owner03Part1": {
+      "path": "Compact/Cases/C898/Initial/Owner03Part1.lean",
+      "bytes": 55839,
+      "lines": 1594,
+      "sha256": "adb64f38cde7e99ea228d1db2575b23cd82b8ff2518e5cd0c1e06a179f853cca",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Owner03Part2": {
+      "path": "Compact/Cases/C898/Initial/Owner03Part2.lean",
+      "bytes": 62025,
+      "lines": 1754,
+      "sha256": "83c209e72d385cc36013e93b33e37cab937b83986649a1602dba7a408fe97606",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Owner03Part3": {
+      "path": "Compact/Cases/C898/Initial/Owner03Part3.lean",
+      "bytes": 69811,
+      "lines": 1898,
+      "sha256": "959b3f9b5f209c98052064863f97b35ee673c761b2621a6c7bb16cfe8774a42d",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.SharedOwner05": {
+      "path": "Compact/Cases/C898/Initial/SharedOwner05.lean",
+      "bytes": 1363,
+      "lines": 24,
+      "sha256": "15a9573fdf5bf48fbc865ad29d2a263510e61c98ec46b99cd58647af85dec70a",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Owner05": {
+      "path": "Compact/Cases/C898/Initial/Owner05.lean",
+      "bytes": 2711,
+      "lines": 88,
+      "sha256": "a6830ec866a3eae7c7708da2ae6b9855869efac95a072a7cfc49682432163396",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Owner05Part0": {
+      "path": "Compact/Cases/C898/Initial/Owner05Part0.lean",
+      "bytes": 58961,
+      "lines": 1722,
+      "sha256": "c1200b295d78a2a3b7ca019e49fc6fc69532d6ab78cf585af1e43408bb09179d",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Owner05Part1": {
+      "path": "Compact/Cases/C898/Initial/Owner05Part1.lean",
+      "bytes": 93055,
+      "lines": 2538,
+      "sha256": "1b1e90d537a9edc0473b6b3360c1f3436664b25a4ea59e12d0df9f24c50fce9f",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Owner05Part2": {
+      "path": "Compact/Cases/C898/Initial/Owner05Part2.lean",
+      "bytes": 100899,
+      "lines": 2634,
+      "sha256": "d76622c7813f29df1d84e73d99916ee111b416e59a37221db0969a6d5250643a",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Owner05Part3": {
+      "path": "Compact/Cases/C898/Initial/Owner05Part3.lean",
+      "bytes": 89783,
+      "lines": 2330,
+      "sha256": "ed38e89931fed55d6518fbbe6a9ee4381aebac06ecf9bf3d3dde7dec21848412",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.SharedOwner06": {
+      "path": "Compact/Cases/C898/Initial/SharedOwner06.lean",
+      "bytes": 958,
+      "lines": 24,
+      "sha256": "e5a31ce859df080b3cced8aec9cde007ce6e847d2a4f39f16b51e4f0a8ca6128",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Owner06": {
+      "path": "Compact/Cases/C898/Initial/Owner06.lean",
+      "bytes": 2711,
+      "lines": 88,
+      "sha256": "a57c37389ce0b3ce9724ac91b0f8fd8611c4450c51a1a64c577c972d7dd6b63c",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Owner06Part0": {
+      "path": "Compact/Cases/C898/Initial/Owner06Part0.lean",
+      "bytes": 46496,
+      "lines": 1402,
+      "sha256": "1bb9cd4d17ec183837f98d6f64b23347c0f69255aa5afeb9f5657f1c2c9474ef",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Owner06Part1": {
+      "path": "Compact/Cases/C898/Initial/Owner06Part1.lean",
+      "bytes": 75174,
+      "lines": 2010,
+      "sha256": "e6157d621262a5a18058edafb01cdc6cf3fd4a3dfeca242ce8738847e4fc0a15",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Owner06Part2": {
+      "path": "Compact/Cases/C898/Initial/Owner06Part2.lean",
+      "bytes": 54746,
+      "lines": 1530,
+      "sha256": "3333257ff42cc3657123d347d10f73f8ab6cd645eb640bbc9aaa55818b2e4561",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Owner06Part3": {
+      "path": "Compact/Cases/C898/Initial/Owner06Part3.lean",
+      "bytes": 99607,
+      "lines": 2522,
+      "sha256": "d3380e8fc77c4b1875799f71dd9417c6e3c6fe5f0aacd13d76ff2a35b6923a21",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.SharedOwner07": {
+      "path": "Compact/Cases/C898/Initial/SharedOwner07.lean",
+      "bytes": 1498,
+      "lines": 24,
+      "sha256": "209c85a7d84a0876e68c2e47468b5d52cea2c5af453bf41b016c71c8608d2704",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Owner07": {
+      "path": "Compact/Cases/C898/Initial/Owner07.lean",
+      "bytes": 2711,
+      "lines": 88,
+      "sha256": "03de583a045914f709602cc6d264b695314519b3c68ad82ae9548e76cbd15a97",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Owner07Part0": {
+      "path": "Compact/Cases/C898/Initial/Owner07Part0.lean",
+      "bytes": 86550,
+      "lines": 2330,
+      "sha256": "08fee85be64b64b691dbc92c0b82668e2f81cad5ad48dcf6af1490c861d2b6f4",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Owner07Part1": {
+      "path": "Compact/Cases/C898/Initial/Owner07Part1.lean",
+      "bytes": 120742,
+      "lines": 3162,
+      "sha256": "d158cd1f466c6526f13a8f5575518bb21bde4b9a410d76b3a96a054bbbfd9eb6",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Owner07Part2": {
+      "path": "Compact/Cases/C898/Initial/Owner07Part2.lean",
+      "bytes": 119263,
+      "lines": 3114,
+      "sha256": "04db4aba0387e42586e2c1b0289f87d0ca22622c1ae2c3fb452f2783537f2386",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Owner07Part3": {
+      "path": "Compact/Cases/C898/Initial/Owner07Part3.lean",
+      "bytes": 96868,
+      "lines": 2554,
+      "sha256": "f7cf904fca6dc771dcac12ab7924ba73d40a655d606ea3b10f6953d5b2d9f917",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.SharedOwner08": {
+      "path": "Compact/Cases/C898/Initial/SharedOwner08.lean",
+      "bytes": 1308,
+      "lines": 24,
+      "sha256": "37088d6edaebc734bcba370d91da2ebebab56d0f738a410d859dedd67825ff1e",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Owner08": {
+      "path": "Compact/Cases/C898/Initial/Owner08.lean",
+      "bytes": 2711,
+      "lines": 88,
+      "sha256": "3da4d5909d5e0214e9085123b93ed03bbda05bf0ddd63994e09d1f8280c6a25f",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Owner08Part0": {
+      "path": "Compact/Cases/C898/Initial/Owner08Part0.lean",
+      "bytes": 100265,
+      "lines": 2650,
+      "sha256": "8ccb287d0c0db544bd98b7e24bac5623c6263547d08b697337bf308abb975428",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Owner08Part1": {
+      "path": "Compact/Cases/C898/Initial/Owner08Part1.lean",
+      "bytes": 105992,
+      "lines": 2762,
+      "sha256": "497bc58535cf5dcc95b148da56f7e04fe5201b16f4cc8695b00ef236aa49a6bb",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Owner08Part2": {
+      "path": "Compact/Cases/C898/Initial/Owner08Part2.lean",
+      "bytes": 77634,
+      "lines": 2090,
+      "sha256": "2ecd18a3919de1a8a27cdfd9a138dd58bcd2f540ad27c072f56d934e6b98cdba",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Owner08Part3": {
+      "path": "Compact/Cases/C898/Initial/Owner08Part3.lean",
+      "bytes": 91337,
+      "lines": 2362,
+      "sha256": "48cfb003d34b368ddc73a0772064f15e0c67aafac35325e8caad2e7aa8e2a2d6",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.SharedOwner09": {
+      "path": "Compact/Cases/C898/Initial/SharedOwner09.lean",
+      "bytes": 1368,
+      "lines": 24,
+      "sha256": "d3a6db8b4a650bbae5fb57c3f9649e4b99b030175a7c0c4b21d7a4e866bdb734",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Owner09": {
+      "path": "Compact/Cases/C898/Initial/Owner09.lean",
+      "bytes": 2711,
+      "lines": 88,
+      "sha256": "056b1393df2ef9ec8774a11e01a069a6d0063fd148307517b5e265b16f911829",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Owner09Part0": {
+      "path": "Compact/Cases/C898/Initial/Owner09Part0.lean",
+      "bytes": 88293,
+      "lines": 2346,
+      "sha256": "049541af207ea3be7c92a5a5e7fe3612367513dfb1e67041b922cfba2b9b4519",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Owner09Part1": {
+      "path": "Compact/Cases/C898/Initial/Owner09Part1.lean",
+      "bytes": 118638,
+      "lines": 3050,
+      "sha256": "3ec2f224ea9c4d57b6efae3de41771152a2cd8879b92454e42d971d12f23c63c",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Owner09Part2": {
+      "path": "Compact/Cases/C898/Initial/Owner09Part2.lean",
+      "bytes": 115390,
+      "lines": 3018,
+      "sha256": "78ac0a4b2640cf746650744f88d6e87ee0030e6395fab8cc890415c33b8b306f",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Owner09Part3": {
+      "path": "Compact/Cases/C898/Initial/Owner09Part3.lean",
+      "bytes": 95332,
+      "lines": 2506,
+      "sha256": "e58c0d0e7a43ea46d275f87c2342aedf95d11d848143bc9b0d31ae420b8c7f2d",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.SharedOwner10": {
+      "path": "Compact/Cases/C898/Initial/SharedOwner10.lean",
+      "bytes": 1589,
+      "lines": 24,
+      "sha256": "04d8f82b9d3dfddb4fee4a69932aa82eab141586b1d58ffc27e29b1f0a6dbb2b",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Owner10": {
+      "path": "Compact/Cases/C898/Initial/Owner10.lean",
+      "bytes": 2851,
+      "lines": 88,
+      "sha256": "9af90645fc96f6447f9142421e0225670a4c9ff3ae7a49ee6f10777a41d550bb",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Owner10Part0": {
+      "path": "Compact/Cases/C898/Initial/Owner10Part0.lean",
+      "bytes": 74576,
+      "lines": 2074,
+      "sha256": "762826647f1349004a313ca5f13c57920088ab75c45f7b77f87b65d8c261b8ee",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Owner10Part1": {
+      "path": "Compact/Cases/C898/Initial/Owner10Part1.lean",
+      "bytes": 87741,
+      "lines": 2346,
+      "sha256": "7c9547100dbe6cdb39fb8b2a67902d0824dc1cd44df2cec5d191da38d65e60d0",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Owner10Part2": {
+      "path": "Compact/Cases/C898/Initial/Owner10Part2.lean",
+      "bytes": 58431,
+      "lines": 1642,
+      "sha256": "4398da5a92bd1083b15e05a800ee28712ffbce487075a5d580abf9efeab230b2",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Owner10Part3": {
+      "path": "Compact/Cases/C898/Initial/Owner10Part3.lean",
+      "bytes": 56316,
+      "lines": 1578,
+      "sha256": "6b2f49a082815ba6eecfe0107e4fd1ff59ef6c4d8d7379d6e751cfbbc8b4717c",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.SharedOwner11": {
+      "path": "Compact/Cases/C898/Initial/SharedOwner11.lean",
+      "bytes": 1480,
+      "lines": 24,
+      "sha256": "573a36e31ad705bcb5053dda6694a6686efc9c4f6be344824d361d6e31d9ca0c",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Owner11": {
+      "path": "Compact/Cases/C898/Initial/Owner11.lean",
+      "bytes": 2851,
+      "lines": 88,
+      "sha256": "3c9cecf71d6a17b9434cde1a33a8533c88492ab1b945c1fa318e6e85bbf2bf7b",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Owner11Part0": {
+      "path": "Compact/Cases/C898/Initial/Owner11Part0.lean",
+      "bytes": 87817,
+      "lines": 2298,
+      "sha256": "1ddb7da7a786b781632e8d200fc2a33abca4e2dbfa08f85e3a2aee4f56afb02e",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Owner11Part1": {
+      "path": "Compact/Cases/C898/Initial/Owner11Part1.lean",
+      "bytes": 112422,
+      "lines": 2890,
+      "sha256": "74db31b9d80028099c391316fbbdc2cc44b8567c4a5900b6754171192d5d156f",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Owner11Part2": {
+      "path": "Compact/Cases/C898/Initial/Owner11Part2.lean",
+      "bytes": 113162,
+      "lines": 2970,
+      "sha256": "299e0849f28d3d8db39937332c6af9721b45646624069add75ad589ef739c055",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Initial.Owner11Part3": {
+      "path": "Compact/Cases/C898/Initial/Owner11Part3.lean",
+      "bytes": 92731,
+      "lines": 2458,
+      "sha256": "2b9437666a42bc694a013fc56b6c4e7c5deeb680a9121aba469eeec78f5ce5e0",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Relaxation.All": {
+      "path": "Compact/Cases/C898/Relaxation/All.lean",
+      "bytes": 159827,
+      "lines": 2061,
+      "sha256": "1d02ba091d138a7eb627d6b5c3dca22a9832ac40f0527812b415d664c803296e",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Relaxation.Links": {
+      "path": "Compact/Cases/C898/Relaxation/Links.lean",
+      "bytes": 2678,
+      "lines": 59,
+      "sha256": "ef7ddf82de1195a18adff4bd26542c12241dfc4443cb328638639dbcf8144998",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Relaxation.Links00": {
+      "path": "Compact/Cases/C898/Relaxation/Links00.lean",
+      "bytes": 7636,
+      "lines": 146,
+      "sha256": "aa9ed8215b14fc40641eb69451e9d1ec11a29e6752ceda9b4542444b68319bd1",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Relaxation.Rules": {
+      "path": "Compact/Cases/C898/Relaxation/Rules.lean",
+      "bytes": 2828,
+      "lines": 59,
+      "sha256": "13c8fc69ea578fe9843327a5b7e8c485ff628782128ead42033eb17292be1106",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Relaxation.Supports00": {
+      "path": "Compact/Cases/C898/Relaxation/Supports00.lean",
+      "bytes": 27240,
+      "lines": 1042,
+      "sha256": "379324cbfeca40787e461094354faea7c64cb58ada3b1e9b307d5a0b2e9d8503",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.SharedDictionary": {
+      "path": "Compact/Cases/C898/SharedDictionary.lean",
+      "bytes": 426,
+      "lines": 14,
+      "sha256": "1dc4200bc638366b2ce166a55a491f63fcf5a188c62eef66c4b1c46fe6637384",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Bridge.IndexedRelaxation": {
+      "path": "Compact/Bridge/IndexedRelaxation.lean",
+      "bytes": 5278,
+      "lines": 128,
+      "sha256": "17c2d86fa4978ba9cf148762159a394cd1784fdf75f9fe4f6cfa4038e52d4f96",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Core.RowSupport": {
+      "path": "Compact/Core/RowSupport.lean",
+      "bytes": 2082,
+      "lines": 57,
+      "sha256": "6390d9e7f9bae3d88b4783a698af1e65a1c6bd6299bf0c1dadd696b660f71cb5",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Core.PairSupport": {
+      "path": "Compact/Core/PairSupport.lean",
+      "bytes": 7808,
+      "lines": 166,
+      "sha256": "1bfe4803fd67cfb8d5fe3047387e36e66145b181a34b4117b3fec8fa5267a833",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Relaxation.Supports01": {
+      "path": "Compact/Cases/C898/Relaxation/Supports01.lean",
+      "bytes": 27941,
+      "lines": 1042,
+      "sha256": "ebf131f812b5ed14116569f7ea6ae50fe823cb91594eadce03e23b268daad039",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Relaxation.Supports02": {
+      "path": "Compact/Cases/C898/Relaxation/Supports02.lean",
+      "bytes": 28062,
+      "lines": 1042,
+      "sha256": "30ad2cc560cbaa8f3090593fc05d120ffc37f9f42810468cdba7ae34b4b7f42a",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Relaxation.Supports03": {
+      "path": "Compact/Cases/C898/Relaxation/Supports03.lean",
+      "bytes": 28156,
+      "lines": 1042,
+      "sha256": "6ef331a93e5737f81bf4613e9698b015840254054440e1a74835bdcdf3c2d59d",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Relaxation.Supports04": {
+      "path": "Compact/Cases/C898/Relaxation/Supports04.lean",
+      "bytes": 28198,
+      "lines": 1042,
+      "sha256": "2448d1d6ebb788967af6dec2970272e80fa88745761cd3ecabda993e227c8985",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Relaxation.Supports05": {
+      "path": "Compact/Cases/C898/Relaxation/Supports05.lean",
+      "bytes": 29232,
+      "lines": 1042,
+      "sha256": "db2181c16e5f509b67e84bc68c477d06524c86f520afa45679da554857b852a6",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Relaxation.Supports06": {
+      "path": "Compact/Cases/C898/Relaxation/Supports06.lean",
+      "bytes": 29879,
+      "lines": 1042,
+      "sha256": "2afd80ad2206326d2800d5e3532e361b01bd08d2f9131ce4f29f04e085220057",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Relaxation.Supports07": {
+      "path": "Compact/Cases/C898/Relaxation/Supports07.lean",
+      "bytes": 29844,
+      "lines": 1042,
+      "sha256": "4712a4b06948da8d3809c84ae021180748fb2c87312c7fc17d48b6f95f229a47",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Relaxation.Supports08": {
+      "path": "Compact/Cases/C898/Relaxation/Supports08.lean",
+      "bytes": 30224,
+      "lines": 1042,
+      "sha256": "2c79e08891b71f352ed986d2fb5a6dae615ff844a5541c38032980ccfbfac5a8",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Relaxation.Supports09": {
+      "path": "Compact/Cases/C898/Relaxation/Supports09.lean",
+      "bytes": 30252,
+      "lines": 1042,
+      "sha256": "b32f6a10fab7548fa9564c3c96d3cd80d6e2139ca70b48a7892e6d8137278631",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Relaxation.Supports10": {
+      "path": "Compact/Cases/C898/Relaxation/Supports10.lean",
+      "bytes": 30252,
+      "lines": 1042,
+      "sha256": "f450bf503d8d1422a761ef05ab985d1c63ce00536b3f6f69c78c1b4e79cd6532",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Relaxation.Supports11": {
+      "path": "Compact/Cases/C898/Relaxation/Supports11.lean",
+      "bytes": 30252,
+      "lines": 1042,
+      "sha256": "be1fc6102514e114979b3ddf74f94d0587da405cac858e8f403272e34517c9e1",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Relaxation.Supports12": {
+      "path": "Compact/Cases/C898/Relaxation/Supports12.lean",
+      "bytes": 30252,
+      "lines": 1042,
+      "sha256": "bbbfe37b0822e3203375d208d206b0f3b1c0e605bac6ac4e44ffb3d43fff6f24",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Relaxation.Supports13": {
+      "path": "Compact/Cases/C898/Relaxation/Supports13.lean",
+      "bytes": 30252,
+      "lines": 1042,
+      "sha256": "00a30dd199d7e2bee2a185a17b4285bfd4aab5b0c7d2d395eebfc325f2674e6e",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Relaxation.Supports14": {
+      "path": "Compact/Cases/C898/Relaxation/Supports14.lean",
+      "bytes": 30252,
+      "lines": 1042,
+      "sha256": "c65d09adc889c133d5ca744cc0f3642fa4bb767235da65a798452ee2fe94768b",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Relaxation.Supports15": {
+      "path": "Compact/Cases/C898/Relaxation/Supports15.lean",
+      "bytes": 4730,
+      "lines": 162,
+      "sha256": "6c552342c5d6c481460781e541815b6e86fa611efba7415a9b38b32dc0770e3e",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Relaxation.Links01": {
+      "path": "Compact/Cases/C898/Relaxation/Links01.lean",
+      "bytes": 8372,
+      "lines": 146,
+      "sha256": "26b6ce625a2c33abb56681e79526f6e9780e98a57d6de3c4834204edc781914e",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Relaxation.Links02": {
+      "path": "Compact/Cases/C898/Relaxation/Links02.lean",
+      "bytes": 8282,
+      "lines": 146,
+      "sha256": "591f795a5a00ea0fcf06ade398682ece23887d3434bb5fc9333781e523ec3e1e",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Relaxation.Links03": {
+      "path": "Compact/Cases/C898/Relaxation/Links03.lean",
+      "bytes": 9734,
+      "lines": 146,
+      "sha256": "2dc8c93248c91f1183f8244ce51092b467e33f5b00afd2fc84c1e66f0cc674d1",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Relaxation.Links04": {
+      "path": "Compact/Cases/C898/Relaxation/Links04.lean",
+      "bytes": 10136,
+      "lines": 146,
+      "sha256": "0a397267260ced0c039521fc8789b04b3fd21bc513106c14458dc4641b88628b",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Relaxation.Links05": {
+      "path": "Compact/Cases/C898/Relaxation/Links05.lean",
+      "bytes": 9860,
+      "lines": 146,
+      "sha256": "42fab8972ef57ee9972570e97efd3735fb31703a3f36b3cc624e7346e456e411",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Relaxation.Links06": {
+      "path": "Compact/Cases/C898/Relaxation/Links06.lean",
+      "bytes": 9434,
+      "lines": 146,
+      "sha256": "781c087c7884e186176bdbc2a20d0b1dee8c47a0c48dd1a4288f91f2854b34d4",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Relaxation.Links07": {
+      "path": "Compact/Cases/C898/Relaxation/Links07.lean",
+      "bytes": 8768,
+      "lines": 146,
+      "sha256": "b2ae785ef409afdebe3eb7c2b3b52601ef8745e93bd08a40307ebf1e20bc8649",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Relaxation.Links08": {
+      "path": "Compact/Cases/C898/Relaxation/Links08.lean",
+      "bytes": 9562,
+      "lines": 146,
+      "sha256": "64a3440d4c5e5043097b523273a10aa2a60f96cf7d944c503f1546f5db24dfb6",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Relaxation.Links09": {
+      "path": "Compact/Cases/C898/Relaxation/Links09.lean",
+      "bytes": 8416,
+      "lines": 146,
+      "sha256": "831ce20ba2b8ca7fb7e5155aa4f5e97848df8c357a73042c39c3f3585ba8d3fb",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Relaxation.Links10": {
+      "path": "Compact/Cases/C898/Relaxation/Links10.lean",
+      "bytes": 9029,
+      "lines": 146,
+      "sha256": "775c48f312a7dbd33f25566db79d10d976a4bf0b03565a0383d9fdbbde6642d1",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Relaxation.Links11": {
+      "path": "Compact/Cases/C898/Relaxation/Links11.lean",
+      "bytes": 11036,
+      "lines": 146,
+      "sha256": "72fc85ca9a4a566d90a6f4be027f77f06dda24776e13fef0ed4f87723772a643",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Relaxation.Links12": {
+      "path": "Compact/Cases/C898/Relaxation/Links12.lean",
+      "bytes": 11358,
+      "lines": 146,
+      "sha256": "599692991a686adb97871b27b68bb97585c4feee083ed1c7e4970e3c4d008e18",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Relaxation.Links13": {
+      "path": "Compact/Cases/C898/Relaxation/Links13.lean",
+      "bytes": 10525,
+      "lines": 146,
+      "sha256": "2efed3354a095a1528a3d36eba7afb54b647d5116ddd59ea5151415e05c8abf5",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Relaxation.Links14": {
+      "path": "Compact/Cases/C898/Relaxation/Links14.lean",
+      "bytes": 10497,
+      "lines": 146,
+      "sha256": "ae76bed33c64f9e514109eddd193b7aa8f3b076134a136393891b53370ae2662",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Relaxation.Links15": {
+      "path": "Compact/Cases/C898/Relaxation/Links15.lean",
+      "bytes": 10910,
+      "lines": 146,
+      "sha256": "8f53a95f5caf7284d7b832e3f7e01055aaae4ec463f0e52f4af22555d4526af1",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.SharedDomains": {
+      "path": "Compact/Cases/C898/SharedDomains.lean",
+      "bytes": 11777,
+      "lines": 84,
+      "sha256": "eb86805cdeb6911c88628e20d675cba81fa609b7ae58d83000a88e297831bcc4",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.Mixed": {
+      "path": "Compact/Cases/C898/Mixed.lean",
+      "bytes": 3774,
+      "lines": 71,
+      "sha256": "448366dfb49496d446ab2ecb7ac3b97562e7ad2f3a40a13a98d23e9807aa5cfc",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.PairStep00": {
+      "path": "Compact/Cases/C898/PairStep00.lean",
+      "bytes": 24490,
+      "lines": 113,
+      "sha256": "c132908faa3a35fe4449ab72636bf63f4ef18f50efff8bab8ba908d16790f34d",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.PairStep00Records": {
+      "path": "Compact/Cases/C898/PairStep00Records.lean",
+      "bytes": 881816,
+      "lines": 2965,
+      "sha256": "91cf972652d775f991e0917a1987aa3902f10ee17d2e5dda338fbedff90bec93",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.PairRecords": {
+      "path": "Compact/Cases/C898/PairRecords.lean",
+      "bytes": 8956,
+      "lines": 542,
+      "sha256": "81ac049510e3f5cc5385f848c6e0dfb6c6131734acfc96e9de6fb81ab411729d",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Core.PairPruning": {
+      "path": "Compact/Core/PairPruning.lean",
+      "bytes": 8272,
+      "lines": 175,
+      "sha256": "cd3e52291981032b3157df1c9efd3a08e737bdfdc8cfedd7629b537f3557f5be",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Core.ReferenceAxis": {
+      "path": "Compact/Core/ReferenceAxis.lean",
+      "bytes": 6777,
+      "lines": 165,
+      "sha256": "eaac69c9754c8d6fd1a95e8b416409714bbe7cd9a84e2299079b8f58124e7b89",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.References": {
+      "path": "Compact/Cases/C898/References.lean",
+      "bytes": 4504,
+      "lines": 86,
+      "sha256": "f581ebdbb7708ebb8b7fc21e3f4f5c1b0f8db3ee453cf33c3905a7a223ae1e10",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.PairPlans": {
+      "path": "Compact/Cases/C898/PairPlans.lean",
+      "bytes": 6200,
+      "lines": 125,
+      "sha256": "5889df02b4b8067eca2732b7fae1f550d88d4616b90d06f342442d47be07d615",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.PairComplements": {
+      "path": "Compact/Cases/C898/PairComplements.lean",
+      "bytes": 89611,
+      "lines": 111,
+      "sha256": "3c3a8c023a8462bc054b5db40b12d6a35d3f0ff2b8d8b8149920db25350d251d",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.PairStep01": {
+      "path": "Compact/Cases/C898/PairStep01.lean",
+      "bytes": 31193,
+      "lines": 113,
+      "sha256": "d49fd1e0b14746f603f86d3e798895523e8dd19f2f178ae918f3f3509b8a5bea",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.PairStep01Records": {
+      "path": "Compact/Cases/C898/PairStep01Records.lean",
+      "bytes": 1225956,
+      "lines": 4111,
+      "sha256": "c519fb50f62b3a84471092fe8995bc611402b15b51e9cb974f7d39f283042528",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.PairStep02": {
+      "path": "Compact/Cases/C898/PairStep02.lean",
+      "bytes": 23615,
+      "lines": 113,
+      "sha256": "da64189ac0f8d742cf208e9fd154bd1ac3e873f8045703adb4ff196726b24f1b",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.PairStep02Records": {
+      "path": "Compact/Cases/C898/PairStep02Records.lean",
+      "bytes": 832256,
+      "lines": 2788,
+      "sha256": "7530f9b36da6d2abbd78612cc34c5d32e9297e81099343db1c4c22de7bfe5856",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.PairStep03": {
+      "path": "Compact/Cases/C898/PairStep03.lean",
+      "bytes": 5428,
+      "lines": 65,
+      "sha256": "a312e4b73857d92bf5deef6201e4c28eb88d89726c1e36ba2daf6d66803a2c8e",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.PairStep03Records": {
+      "path": "Compact/Cases/C898/PairStep03Records.lean",
+      "bytes": 134756,
+      "lines": 463,
+      "sha256": "7f9db4acfb63a0dd661b2a304cce1502f9d0946ed3ca8d005eeb1368608e8f7a",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.PairStep04": {
+      "path": "Compact/Cases/C898/PairStep04.lean",
+      "bytes": 5275,
+      "lines": 63,
+      "sha256": "1c6705bced0aa8077403c1580ca2eb1994049be8e3fd10782e095e515b8bc546",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.PairStep04Records": {
+      "path": "Compact/Cases/C898/PairStep04Records.lean",
+      "bytes": 134756,
+      "lines": 463,
+      "sha256": "d5f650bfa05244bf42e2e96dfd63462db11ea6922fda4ed3663b43d81914216e",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.PairStep05": {
+      "path": "Compact/Cases/C898/PairStep05.lean",
+      "bytes": 10376,
+      "lines": 113,
+      "sha256": "9480e13d525b8b948ab88a1c6ecac9cd4cee0aa73f30b42cc2291a8ca6c2a7d8",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.PairStep05Records": {
+      "path": "Compact/Cases/C898/PairStep05Records.lean",
+      "bytes": 183956,
+      "lines": 627,
+      "sha256": "f92d0a739f0f328b8b91520e9a08658769cf60a763225f443fbb115ffed41458",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.PairStep06": {
+      "path": "Compact/Cases/C898/PairStep06.lean",
+      "bytes": 27780,
+      "lines": 112,
+      "sha256": "e683e64844d3cd2d2f994694dd8d7943648607761af4ee2a3e58732cc2bbe36c",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.PairStep06Records": {
+      "path": "Compact/Cases/C898/PairStep06Records.lean",
+      "bytes": 1044656,
+      "lines": 3496,
+      "sha256": "c52a99ab407d708e05a5874aae492fc25d7a8af6291e37715ed2a9239e296b5c",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.PairStep07": {
+      "path": "Compact/Cases/C898/PairStep07.lean",
+      "bytes": 24844,
+      "lines": 108,
+      "sha256": "67babb2f15e0eee7591667518052d6a694ed4c2482be83f8293086dbbaf4bbd9",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.PairStep07Records": {
+      "path": "Compact/Cases/C898/PairStep07Records.lean",
+      "bytes": 941156,
+      "lines": 3151,
+      "sha256": "6e34ed876609a348fbe163f875bdad0a2d2a13f8cdb2ed06054126a5f08ead5d",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.PairStep08": {
+      "path": "Compact/Cases/C898/PairStep08.lean",
+      "bytes": 31830,
+      "lines": 113,
+      "sha256": "9be951f833c0d3fca050bee9cc743b6c35759347222fe3071ef04b341309dcac",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.PairStep08Records": {
+      "path": "Compact/Cases/C898/PairStep08Records.lean",
+      "bytes": 1229156,
+      "lines": 4111,
+      "sha256": "2187d60b516f3f23e5b81e1c0fa8bb4be950ffd8873fa27eec8168bf1bb8be32",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.PairStep11": {
+      "path": "Compact/Cases/C898/PairStep11.lean",
+      "bytes": 12905,
+      "lines": 98,
+      "sha256": "965820c607c724178fa9c661ea510affef1be8501fc252d1d9f609cf6a44e821",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.PairStep11Records": {
+      "path": "Compact/Cases/C898/PairStep11Records.lean",
+      "bytes": 402960,
+      "lines": 1357,
+      "sha256": "47470a8d14d1d6c855755c0b4682d80853a521d6df83b735dc579219f43c44ae",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.PairStep12": {
+      "path": "Compact/Cases/C898/PairStep12.lean",
+      "bytes": 8431,
+      "lines": 98,
+      "sha256": "492e151078e36eb56b8dbe30b24c0f18ab74f25d8a2bd6a1ceb7780562576513",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.PairStep12Records": {
+      "path": "Compact/Cases/C898/PairStep12Records.lean",
+      "bytes": 176760,
+      "lines": 603,
+      "sha256": "2ac2c977aae68e8bc6cb0a4d5e2b240e17a53b247eabb11c99693e28d7339a1e",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.PairStep13": {
+      "path": "Compact/Cases/C898/PairStep13.lean",
+      "bytes": 11281,
+      "lines": 72,
+      "sha256": "c1aedae06764226bc25333607e05527609b42145bbf58dd71055d5299ae49b61",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.PairStep13Records": {
+      "path": "Compact/Cases/C898/PairStep13Records.lean",
+      "bytes": 435060,
+      "lines": 1464,
+      "sha256": "9e96f2dec65bdf8773aca66dc32fa95dd2a1b0e0116b75e200e4711776ffb31a",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.PairStep14": {
+      "path": "Compact/Cases/C898/PairStep14.lean",
+      "bytes": 4623,
+      "lines": 57,
+      "sha256": "0643c34f5d710e8521498388727d4ce6346c8ea20a4f26474a8d63c8c231a410",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.PairStep14Records": {
+      "path": "Compact/Cases/C898/PairStep14Records.lean",
+      "bytes": 127560,
+      "lines": 439,
+      "sha256": "9611cda9e7fa0ebb7dd816047db12a29c1ac38b5d89c0dd6183c8525f2d4545b",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.ChordStep9": {
+      "path": "Compact/Cases/C898/ChordStep9.lean",
+      "bytes": 13766,
+      "lines": 303,
+      "sha256": "a1f55f80c678778552f2dddd70f82d3a9238e5383289d43ce7ad88ffec109401",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.ChordPlans": {
+      "path": "Compact/Cases/C898/ChordPlans.lean",
+      "bytes": 9168,
+      "lines": 199,
+      "sha256": "9025493a7ca2a8541d63bf5dbc8e2addecf90b5eb1048888c539da741f858252",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.ChordRadii": {
+      "path": "Compact/Cases/C898/ChordRadii.lean",
+      "bytes": 17495,
+      "lines": 399,
+      "sha256": "da8347c2a3349141f6ead6fdcb5b615db75473f836109091af13a3e56a6ba765",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Bridge.AngleSection": {
+      "path": "Compact/Bridge/AngleSection.lean",
+      "bytes": 6195,
+      "lines": 130,
+      "sha256": "e43286f675f04b15a0871c5dfa47a37597382af7be45451beb8a0a6948e9b32b",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Geometry.LongSection": {
+      "path": "Compact/Geometry/LongSection.lean",
+      "bytes": 7326,
+      "lines": 181,
+      "sha256": "d5940c530e6de0fc123db6730d7ddbec19be0a17b460e695e489e1c104e2d8f6",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Geometry.SectionCapacity": {
+      "path": "Compact/Geometry/SectionCapacity.lean",
+      "bytes": 4199,
+      "lines": 100,
+      "sha256": "ef1d5a7a8fba96c4f45ed9225951aaf7bb29b429085c52b790f55d08b81d6b40",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Core.CoordinateBound": {
+      "path": "Compact/Core/CoordinateBound.lean",
+      "bytes": 1940,
+      "lines": 43,
+      "sha256": "3a2e8674255d6e6f6c9293329f1dd0cfd845f48a28fc1e9eb3874f7829c566a0",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Compact.Cases.C898.ChordStep10": {
+      "path": "Compact/Cases/C898/ChordStep10.lean",
+      "bytes": 11678,
+      "lines": 248,
+      "sha256": "fbbd169dcc7e7ac45c36348f7ed596b0a4823b830417fe7d2024a6a70644df5a",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "Completion.Contracts": {
+      "path": "Completion/Contracts.lean",
+      "bytes": 687,
+      "lines": 16,
+      "sha256": "f9f918063f3b14f829a157ec55f729ec50665c08a865e749a319df3dd814a680",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.PackingConstant": {
+      "path": "source/S12/PackingConstant.lean",
+      "bytes": 3158,
+      "lines": 82,
+      "sha256": "ce5a9c103f5d26f0873da8bea28e2ca58b41311c1a33a8551dc392c4efa83cfd",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.Normalization": {
+      "path": "source/S12/Normalization.lean",
+      "bytes": 3205,
+      "lines": 76,
+      "sha256": "1fdc2d9a05a6861116dd23207510763a8925a1c7e4cfae7a7df1a2026106dc05",
+      "native_decide": 0,
+      "admission_tokens": 0
+    },
+    "S12.To117": {
+      "path": "source/S12/To117.lean",
+      "bytes": 1842,
+      "lines": 40,
+      "sha256": "00c1635e964b976b38aae7e9a9cdfd90567aa40cf5bde4e75aa9e7b5cb3ec017",
+      "native_decide": 3,
+      "admission_tokens": 0
+    },
+    "S12.CoreData": {
+      "path": "source/S12/CoreData.lean",
+      "bytes": 155890,
+      "lines": 845,
+      "sha256": "bae1b3e9d9f14bbba3d11e781272d993feb57b9e7a902e0561ba4de837442725",
+      "native_decide": 419,
+      "admission_tokens": 0
+    },
+    "S12.DomainSpecData": {
+      "path": "source/S12/DomainSpecData.lean",
+      "bytes": 30363,
+      "lines": 263,
+      "sha256": "56ec0a294b96cd62cbf44b5030f9a9bff7926204d22e236f23a02afc14c7200d",
+      "native_decide": 128,
+      "admission_tokens": 0
+    },
+    "S12.DiagonalPacking": {
+      "path": "source/S12/DiagonalPacking.lean",
+      "bytes": 875,
+      "lines": 26,
+      "sha256": "5719e81ff0bcb94c07062b6800af24323901df80bf89e0cddd5ba2df6f586bdf",
+      "native_decide": 0,
+      "admission_tokens": 0
+    }
+  }
+}

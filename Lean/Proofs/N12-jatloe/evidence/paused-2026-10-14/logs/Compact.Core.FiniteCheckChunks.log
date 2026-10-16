@@ -1,0 +1,5 @@
+/Users/macintosh/Documents/Codex/2026-10-13/plz/work/handoff/12-square-formalization-handoff-2026-10-13/project/Compact/Core/FiniteCheckChunks.lean:16:32: warning: unused variable `offset`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+/Users/macintosh/Documents/Codex/2026-10-13/plz/work/handoff/12-square-formalization-handoff-2026-10-13/project/Compact/Core/FiniteCheckChunks.lean:16:50: warning: unused variable `h`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+'N12Compact.FiniteCheckChunks.sound' depends on axioms: [propext, Quot.sound]

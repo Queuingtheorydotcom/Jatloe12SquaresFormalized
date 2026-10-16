@@ -1,0 +1,3096 @@
+{
+  "final_source_commit": "01d3d22b28aea68f68eb11e4726d8f9220834874",
+  "snapshot_branches": 111,
+  "method": "Read cached last-commit tree metadata only; compare each changed N12 Lean/script blob ID with final-source tree. This is not a complete branch-history or semantic review. No blob contents fetched or compilation performed.",
+  "preservation": "Archive every retired branch tip. Differing variants remain available for future compiler work; do not assume they are integrated or obsolete. Final proof source must remain unchanged during cleanup.",
+  "entries": [
+    {
+      "branch": "codex/c705-c716-whole-case-integration",
+      "sha": "061746a0b196c1d4c0e4b26e804b9823afd7ec44",
+      "parent": "daf550205beea3013bf2e66da4eb6a578b584da4",
+      "classification": "no differing Lean/script path in inspected final commit",
+      "changed_final_paths": [],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/c981-short54-initial-program-chunks",
+      "sha": "f2144c9d40d3a83895c068962ddbd30650bc953d",
+      "parent": "5483bfb318d145d061a5e0207c9693ef589f07bb",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InitialPrograms/Owner5Angle28/Data.lean",
+          "status": "M",
+          "tip_blob": "6bae60f066687255092dd61df488790f1e87fae7",
+          "final_blob": null,
+          "present_in_final": false
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InitialPrograms/Owner5Angle29/Data.lean",
+          "status": "M",
+          "tip_blob": "e818a9b6a2d68067380ddabf058aeb24d6e9e08e",
+          "final_blob": null,
+          "present_in_final": false
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InitialPrograms/Owner5Angle30/Data.lean",
+          "status": "M",
+          "tip_blob": "2d8a21665bbf9b9765c2418ddd21badb30e37de7",
+          "final_blob": null,
+          "present_in_final": false
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InitialPrograms/Owner5Angle31/Data.lean",
+          "status": "M",
+          "tip_blob": "83e0362440bde6e82044207e41742f4e565a363d",
+          "final_blob": null,
+          "present_in_final": false
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InitialPrograms/Owner6Angle00/Data.lean",
+          "status": "M",
+          "tip_blob": "1a229ccdc935c0ecc59df85dab35f68ea730b2c1",
+          "final_blob": null,
+          "present_in_final": false
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InitialPrograms/Owner6Angle01/Data.lean",
+          "status": "M",
+          "tip_blob": "61a14c01722995687eab52cc7f8861fb4087358c",
+          "final_blob": null,
+          "present_in_final": false
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InitialPrograms/Owner6Angle02/Data.lean",
+          "status": "M",
+          "tip_blob": "0cd36ffe3a38bc14e29622b499a56cf3995ba90d",
+          "final_blob": null,
+          "present_in_final": false
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InitialPrograms/Owner6Angle03/Data.lean",
+          "status": "M",
+          "tip_blob": "4c96e525858c15b6a991b55ff7c6edc46ff4e917",
+          "final_blob": null,
+          "present_in_final": false
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InitialPrograms/Owner6Angle04/Data.lean",
+          "status": "M",
+          "tip_blob": "b19176e539262a395f4ad09d3ad852b695733a9e",
+          "final_blob": null,
+          "present_in_final": false
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InitialPrograms/Owner6Angle05/Data.lean",
+          "status": "M",
+          "tip_blob": "af302d44b7359bff34b75f0a6917328b535c3492",
+          "final_blob": null,
+          "present_in_final": false
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InitialPrograms/Owner6Angle06/Data.lean",
+          "status": "M",
+          "tip_blob": "410306b1db7c9babb60736b235e3a710bbc7f81d",
+          "final_blob": null,
+          "present_in_final": false
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InitialPrograms/Owner6Angle07/Data.lean",
+          "status": "M",
+          "tip_blob": "6f7f9f9358132513d86bd7d54dcc42cfac7b6bff",
+          "final_blob": null,
+          "present_in_final": false
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InitialPrograms/Owner6Angle08/Data.lean",
+          "status": "M",
+          "tip_blob": "4b35413dcc3485660a1b7cd24123c7a8db4c8d68",
+          "final_blob": null,
+          "present_in_final": false
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InitialPrograms/Owner6Angle12/Data.lean",
+          "status": "M",
+          "tip_blob": "05e9dbea51ebd5a23a4f75536fc51e5c67301cae",
+          "final_blob": null,
+          "present_in_final": false
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InitialPrograms/Owner6Angle13/Data.lean",
+          "status": "M",
+          "tip_blob": "7272b10aebb1beb34eb50ee312403f8528e19541",
+          "final_blob": null,
+          "present_in_final": false
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InitialPrograms/Owner6Angle14/Data.lean",
+          "status": "M",
+          "tip_blob": "a666237532f0cf057e150e06f7123b68832991d1",
+          "final_blob": null,
+          "present_in_final": false
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InitialPrograms/Owner6Angle15/Data.lean",
+          "status": "M",
+          "tip_blob": "7dda69966519f3b591e12e9362b540082f8d4e34",
+          "final_blob": null,
+          "present_in_final": false
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InitialPrograms/Owner6Angle16/Data.lean",
+          "status": "M",
+          "tip_blob": "7b4e250043ce61aec4f472af0d79f6efb522741d",
+          "final_blob": null,
+          "present_in_final": false
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InitialPrograms/Owner6Angle17/Data.lean",
+          "status": "M",
+          "tip_blob": "e0e38ab4d8a31665f44703c7834cde1af90f89ab",
+          "final_blob": null,
+          "present_in_final": false
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InitialPrograms/Owner6Angle18/Data.lean",
+          "status": "M",
+          "tip_blob": "d9f49e36af155af74ae62955b2c07d134c92dfc8",
+          "final_blob": null,
+          "present_in_final": false
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InitialPrograms/Owner6Angle19/Data.lean",
+          "status": "M",
+          "tip_blob": "93d8f045344385d8d14a77fd6ca6d75b0c40a871",
+          "final_blob": null,
+          "present_in_final": false
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InitialPrograms/Owner6Angle20/Data.lean",
+          "status": "M",
+          "tip_blob": "15bcd90e3beb1b4a9ce9006542eb56408716f6cc",
+          "final_blob": null,
+          "present_in_final": false
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InitialPrograms/Owner6Angle21/Data.lean",
+          "status": "M",
+          "tip_blob": "69290e52c6525bba0aad2608d566ddfece95ebdf",
+          "final_blob": null,
+          "present_in_final": false
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InitialPrograms/Owner6Angle22/Data.lean",
+          "status": "M",
+          "tip_blob": "c46a96005723c09e470abacf815ed8546d559e3f",
+          "final_blob": null,
+          "present_in_final": false
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InitialPrograms/Owner6Angle23/Data.lean",
+          "status": "M",
+          "tip_blob": "dab469a5ee86b1aad07299b89e738fd8aa715358",
+          "final_blob": null,
+          "present_in_final": false
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InitialPrograms/Owner6Angle24/Data.lean",
+          "status": "M",
+          "tip_blob": "8cda01f485e08acab46ab5c4c909584fe7ed64b8",
+          "final_blob": null,
+          "present_in_final": false
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InitialPrograms/Owner6Angle25/Data.lean",
+          "status": "M",
+          "tip_blob": "e8cf40b866f5e1377086709c87aab1d2db858b63",
+          "final_blob": null,
+          "present_in_final": false
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InitialPrograms/Owner6Angle26/Data.lean",
+          "status": "M",
+          "tip_blob": "9a89dbd38d8802427d140d63cb522d462048e918",
+          "final_blob": null,
+          "present_in_final": false
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InitialPrograms/Owner6Angle27/Data.lean",
+          "status": "M",
+          "tip_blob": "45b599bf450ec8df57072e41e954e6d6958243ea",
+          "final_blob": null,
+          "present_in_final": false
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InitialPrograms/Owner6Angle28/Data.lean",
+          "status": "M",
+          "tip_blob": "80e9c2d7c63d69445e372dd9f5c285c81c931187",
+          "final_blob": null,
+          "present_in_final": false
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InitialPrograms/Owner6Angle29/Data.lean",
+          "status": "M",
+          "tip_blob": "456323b5c64c9e68c2760f5b97a72a7de72cc67c",
+          "final_blob": null,
+          "present_in_final": false
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InitialPrograms/Owner6Angle30/Data.lean",
+          "status": "M",
+          "tip_blob": "1494bd75bdace3d569a18c7ac08fc9a3f9343369",
+          "final_blob": null,
+          "present_in_final": false
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InitialPrograms/Owner6Angle31/Data.lean",
+          "status": "M",
+          "tip_blob": "20972ce7b07927218744854d1cf01fd4b4a84608",
+          "final_blob": null,
+          "present_in_final": false
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Completion/C981/ShortCertificate54/InitialPrograms/Owner7Angle20/Data.lean",
+          "status": "M",
+          "tip_blob": "221a16e516f0d81c50d1b0e6ed913f207967e3ff",
+          "final_blob": null,
+          "present_in_final": false
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Core/RegionDAG.lean",
+          "status": "M",
+          "tip_blob": "b7ba580dae52533d767f78227d805c57093c4dfc",
+          "final_blob": "c317f0dd8ea38602aaec69078d5c862c47cf49f5",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/scripts/factor_short54_initials.py",
+          "status": "M",
+          "tip_blob": "1a7c1b61a87417c18cab6cbcc3cd4ecf3140bfe1",
+          "final_blob": null,
+          "present_in_final": false
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-active-replay-status",
+      "sha": "d9dd0f3355d39609ee69a441d2d75b2097604dc0",
+      "parent": "383a76ebc2d9652cc6b5cf7cb8951c62ac10f167",
+      "classification": "no differing Lean/script path in inspected final commit",
+      "changed_final_paths": [],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c1092-adjacent-pair",
+      "sha": "1a67785a4b37f31e571d89172003c6e96b7fa72d",
+      "parent": "96e3bc89959dd61e8eb7c4f39a34de4623955575",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Completion/C1092/MMMMPairAxes.lean",
+          "status": "M",
+          "tip_blob": "10917cc005f67634f849a68d0617250257323613",
+          "final_blob": "b66a4caddf378699bb85ca6a27199755fdc15377",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Completion/C1092/OrdinaryHalfpoint.lean",
+          "status": "M",
+          "tip_blob": "acae3bb587be11ed17d5ff9cd8bfb16cf6acb69d",
+          "final_blob": "54a7891faf16cb75ca71f2257154059c2da0601c",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c1092-pair-supports",
+      "sha": "1322eb2d28974300abf0202aa919733e13379091",
+      "parent": "486ee15292c83b71e564928d3912e299aa35a750",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Assembly/SourceAssembly.lean",
+          "status": "M",
+          "tip_blob": "22a24a11a9a3b353781f3c29791e74a7852a71a3",
+          "final_blob": "d31c861e35e39cd251d494dfa48f15de4e5bb94c",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C1092Compact.lean",
+          "status": "M",
+          "tip_blob": "829455a65499c7c45d0fe35c349e8cd302229eb8",
+          "final_blob": "7d45d7f2c622f8d5990d402c35937f0899afa743",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c1092-scalar-margins",
+      "sha": "337bfb565057ab40e8a7cba3c5707e14582d5eeb",
+      "parent": "1a67785a4b37f31e571d89172003c6e96b7fa72d",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Completion/C1092/MMMMPairScalars.lean",
+          "status": "M",
+          "tip_blob": "9ae3a2f7afec0b2b3b187b58b6a5541cea000ac0",
+          "final_blob": "ad1314acdecda539810b7ef51d2ab7c0f3f2d493",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c696-corner-wall-cycle",
+      "sha": "c1bb8df83fc157c71209afd1e5173e166411a987",
+      "parent": "cadb1ea3418d108545c2cbc5d8d2f309e197c4fe",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/CornerWallCycle.lean",
+          "status": "M",
+          "tip_blob": "d73180e7fa6fc0c0d71ce4c60ae60622bdc0d428",
+          "final_blob": "716f5eb8a9e2e5bc6d4d5521d3eb5fe345a00fbf",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/CornerWallCycleBounds.lean",
+          "status": "M",
+          "tip_blob": "eb0996d6521aa184c7a0a1efd24038ea5a515783",
+          "final_blob": "45cc1fc785be130148473635117d86db638a58eb",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/CornerWallMarkerSharedBounds.lean",
+          "status": "M",
+          "tip_blob": "2147145d01665aa15fd6fe8244eb1f52eafe020b",
+          "final_blob": "ac3fd17ea4b46cb334209ade1b4a44b377b6b6c7",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c696-high-negative-bounds",
+      "sha": "c203e7eff8e45149b4df861fd7dbacac372e88bb",
+      "parent": "940766a66e062a332feb0697873c6abc162027de",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/CornerWallMarkerNegativeHighBounds.lean",
+          "status": "M",
+          "tip_blob": "5f1cd3b8e264ceb50eb1f8ceb141f194ad3b8ebf",
+          "final_blob": "1ea789f2ddc08120b168a2b0c2e19a0224039718",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/CornerWallMarkerNegativeMixed.lean",
+          "status": "M",
+          "tip_blob": "550162ae8b563a60f53f807c0c5c828f6ddd71d7",
+          "final_blob": "23235e9d27bf9faf8ff23ce6f1129127158d31f8",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c696-left-sector",
+      "sha": "d0655cf06600dc9edc6349dd92bd2215d4f87101",
+      "parent": "854575fa09719a8911bf5292450fe5313e81ec14",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/PositiveCentralNegativeLeft.lean",
+          "status": "M",
+          "tip_blob": "8630fa33cd5e60f23302d4cdcd264dc9572ad09f",
+          "final_blob": "951c21cb4a7ca28972d485d4985f2ce806ca3750",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/PositiveCentralPositiveLeftBounds.lean",
+          "status": "M",
+          "tip_blob": "cb76aef9d6da2fcb1acd477b7eaabc8ead3fe844",
+          "final_blob": "9651b54bbd36afe679aa2798e220e7d9b79bfe3f",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c696-longitudinal",
+      "sha": "8e30c72de8957a61ab2442bc8167666b6f0ac0e1",
+      "parent": "69cbbce68fd401a0e57ae6cf5a472cd8bf715c42",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/CornerWallPositiveLongitudinal.lean",
+          "status": "M",
+          "tip_blob": "f1ac3f3ff6ac4ed0f60545dbf64cd4a981acb9f0",
+          "final_blob": "2b90e0df3bc55cee8bb6dadf4214face598d09cb",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/NegativeWallMarkerCap.lean",
+          "status": "M",
+          "tip_blob": "bb18e7c8a9e5ab198e1eab5f4726b0c1779bccab",
+          "final_blob": "12d05623e82c2bfb0c48729680b03615a83bcbf4",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/NegativeWallTopSeed.lean",
+          "status": "M",
+          "tip_blob": "ed7b4a2615343a8b320e116bac6ec8bfe07a507b",
+          "final_blob": "cdfcd40bb0f72e137f3d43dfe99edf15ba43727a",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c696-longitudinal-bounds",
+      "sha": "8f053b058631b3747109bc325a974d1f8aad4f14",
+      "parent": "8e30c72de8957a61ab2442bc8167666b6f0ac0e1",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/CornerWallMarkerLongitudinal.lean",
+          "status": "M",
+          "tip_blob": "cab60b2fceaac3f1a4c3f6191903450076d4cbc5",
+          "final_blob": "58ee68d6191de4c203ec38e87f1525ef27e174aa",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/CornerWallNegativeMargin.lean",
+          "status": "M",
+          "tip_blob": "8cb76e298cbc88dffc0d4ccb08ff7e14b72dd69f",
+          "final_blob": "cbadd50f3ae454986d5c8c2e29ccd2eeb0afc263",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/CornerWallNegativeShared.lean",
+          "status": "M",
+          "tip_blob": "88422a4d2d6f4ac21063999ac6e7270f52c9ad4a",
+          "final_blob": "52e7c8a611a95bc0e615670ee5d3b2d58b8db89b",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c696-mixed-axis-bounds",
+      "sha": "e129d19985707ad251278d4f4a4575f2525469ca",
+      "parent": "b9d7003d45159f8bd3cdf782b1d383839b52108e",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/CornerWallMarkerMixedBounds.lean",
+          "status": "M",
+          "tip_blob": "9a852c2184d91dfe379b94dc85373b16d8b50b6a",
+          "final_blob": "1e5bb3030d01c8eb035ad978ab26d9c593f60b1d",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c696-mixed-axis-sectors",
+      "sha": "67867bd8c4be4ebb4578dd89ff3b31a27189bba5",
+      "parent": "e129d19985707ad251278d4f4a4575f2525469ca",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/CornerWallMarkerMixed.lean",
+          "status": "M",
+          "tip_blob": "88c2655e3e6ccd3f2c4ffc741387a6c3faa6f08d",
+          "final_blob": "acc7ca56a861c57231c74eed32c31cff84a006e3",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c696-negative-bottom-walls",
+      "sha": "23720cca94a0c2ad98e9cf9b6776df4fa1205be4",
+      "parent": "031e9deebc04bbdc20be08ed1c0a85d9c0375d78",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/C696BottomChainSelectors.lean",
+          "status": "M",
+          "tip_blob": "87703a7075fdb5df87098af1b9d2361e082d607b",
+          "final_blob": "a478b64d51d9dd58fcca95c5f9c40cf803af36e5",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/NegativeBottomInnerWall.lean",
+          "status": "M",
+          "tip_blob": "0033960af1c1328bdc34965bd380b3ce1f90520b",
+          "final_blob": "5559744571345bb2ad09027f0350053cfc09b7e0",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/NegativeBottomNextWall.lean",
+          "status": "M",
+          "tip_blob": "a04d188f97c3ee6cdddc791c4129804d5c2aa8a6",
+          "final_blob": "f6c7c35efc1aa6528230b6d079685c7083edff8d",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/PositiveWallPositiveLeft.lean",
+          "status": "M",
+          "tip_blob": "4679611068a7fc14a90e880a35367a76df2846eb",
+          "final_blob": "dad1e31db9cdf773c471d6489908d240289684bc",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c696-negative-marker-cycle",
+      "sha": "23512e1a095ec433c09e52bed08402588fce620f",
+      "parent": "8f053b058631b3747109bc325a974d1f8aad4f14",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/CornerWallMarkerNegativeCorner.lean",
+          "status": "M",
+          "tip_blob": "b97df5b8d3331ba7e6cd4d9b6bd30e6b1306794a",
+          "final_blob": "f43cedbfc1240389e5224663e3691d2bae367c88",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/CornerWallMarkerNegativeLarge.lean",
+          "status": "M",
+          "tip_blob": "8ca8024ba2390b89902697f1b696274b7f785e16",
+          "final_blob": "8a82724b46a6471857af2f53bb76dd3d6f6318d7",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c696-negative-mixed-cycle",
+      "sha": "940766a66e062a332feb0697873c6abc162027de",
+      "parent": "23512e1a095ec433c09e52bed08402588fce620f",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/CornerWallNegativeMixed.lean",
+          "status": "M",
+          "tip_blob": "202179159807ea5ece3ade8397d0a9aaa3fb8c2f",
+          "final_blob": "b827c563a252f216b93143f483dcb9dfb2268563",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/CornerWallNegativeMixedBounds.lean",
+          "status": "M",
+          "tip_blob": "32c9db4c145f4065653ceb8002f86e7f59cf2143",
+          "final_blob": "0d6355232c3970072585039292ed0f7b46d47d2d",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c696-negative-wall-order",
+      "sha": "cadb1ea3418d108545c2cbc5d8d2f309e197c4fe",
+      "parent": "ba22a13ee537fc294b09b666b86c3fa49a745ea3",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/NegativeWallAngleOrder.lean",
+          "status": "M",
+          "tip_blob": "2e7e258a51796b48201a726a1583c0fa97df04d6",
+          "final_blob": "18795ef41e53b940cefff85261c99fe33340e978",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/PositiveCentralWallAngleOrder.lean",
+          "status": "M",
+          "tip_blob": "7abd8363bac595a3177859cf2829613f2b9e97f1",
+          "final_blob": "0cbafb221cfac461f8eab60efdd507fe4cb9370c",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c696-other-mixed-bounds",
+      "sha": "69cbbce68fd401a0e57ae6cf5a472cd8bf715c42",
+      "parent": "67867bd8c4be4ebb4578dd89ff3b31a27189bba5",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/CornerWallMarkerOtherMixed.lean",
+          "status": "M",
+          "tip_blob": "e2bd76a1e4d2c9692a0f1b1497fefce2b7845f19",
+          "final_blob": "4b8ada6c0a8ceaccddd94d2e09318b50c943af80",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/CornerWallMarkerOtherMixedBounds.lean",
+          "status": "M",
+          "tip_blob": "bde6b5412ebd4e2bca6374f48d7403971b75314c",
+          "final_blob": "8fa38b556e6f13ae9c8045444f3e8d8ac7573bdf",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c696-own-v-sector",
+      "sha": "031e9deebc04bbdc20be08ed1c0a85d9c0375d78",
+      "parent": "e0ec1786b4e536be887cb39d9e8906bff28b7631",
+      "classification": "no differing Lean/script path in inspected final commit",
+      "changed_final_paths": [],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c696-owned-west",
+      "sha": "ba22a13ee537fc294b09b666b86c3fa49a745ea3",
+      "parent": "0241e040f26cd18341916485d678985792bdc2c3",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/LeftWallNegativeFaces.lean",
+          "status": "M",
+          "tip_blob": "b1e1fd7aece1fb92fe08b430e68a91c282147260",
+          "final_blob": "c0b545d18c869f0cc79837b04133fba892eb724d",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/PositiveCentralTransverse.lean",
+          "status": "M",
+          "tip_blob": "052de75096f0611220978b6660d3386b590c89d8",
+          "final_blob": "488f226f5e5c196d245c72c81dec160acc4ee483",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/PositiveWallOwnedWestCorner.lean",
+          "status": "M",
+          "tip_blob": "7318134422705865979311e2d3775a0e82a3be40",
+          "final_blob": "77c1758dd6faca57a16d11006028b19e75262ac5",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c696-ownership-transports",
+      "sha": "36da50c5b7fcb265256ed87fbfc4bb59ed1b96c6",
+      "parent": "20693a12e112aaffa3ab962a063d21311d384552",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Bridge/C696CentralReach.lean",
+          "status": "M",
+          "tip_blob": "cf3a3a000b1700a328a894cdc22b36a4757751c0",
+          "final_blob": "9578db32d4297cca7d96afc1a06cfadcecbb947f",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Bridge/C696WallCycle.lean",
+          "status": "M",
+          "tip_blob": "3f2182a82d5319960a10e0f01fda703557b99dbd",
+          "final_blob": "2ed8e1aaf01b87e6eff5cd6f0abf791fbd7b9499",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Completion/Cases/C696/AuxiliaryNecessity.lean",
+          "status": "M",
+          "tip_blob": "e71c34d01d6a077b16e5696e75d7c0ec1b6b14ee",
+          "final_blob": "efc9ada3dc4ec1ccf8c237d3db4a54c7c26f271a",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c696-positive-bottom",
+      "sha": "43cfb89cf155b75da7557a7cc5c85c69cc7c90d2",
+      "parent": "c203e7eff8e45149b4df861fd7dbacac372e88bb",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/PositiveCentralPositiveBottom.lean",
+          "status": "M",
+          "tip_blob": "55580b42e798e57e4f309e3842d3c30c64e2c36c",
+          "final_blob": "d57f08155a102c243066414438341471cdca4c1c",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c696-positive-left-arc",
+      "sha": "6010e7cf166dcd6b129007257119c74f733664b1",
+      "parent": "d0655cf06600dc9edc6349dd92bd2215d4f87101",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/PositiveCentralPositiveLeft.lean",
+          "status": "M",
+          "tip_blob": "40379a5ae9d781fe2ebf8eac4a1b8f39a4ac1c63",
+          "final_blob": "45469e841475183cda5c1a3ea984fa05205d67db",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/PositiveCentralPositiveLeftArc.lean",
+          "status": "M",
+          "tip_blob": "b50aa320468e61b27dbee54ef6a948fa275fa1b4",
+          "final_blob": "10bb4a4b7b0abbc2f6292d83ef2645d8be922357",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c696-positive-left-coupling",
+      "sha": "04c0bf5e2d10362ae5e783b72eff7322e6a95a7e",
+      "parent": "43cfb89cf155b75da7557a7cc5c85c69cc7c90d2",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/CornerOuterOrderMonotone.lean",
+          "status": "M",
+          "tip_blob": "a08b2e7960749815ce6470c5529a078a34c2b366",
+          "final_blob": "e8df79387d431c7b16827feb2757cb94fc24f252",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c696-positive-left-replay",
+      "sha": "854575fa09719a8911bf5292450fe5313e81ec14",
+      "parent": "04c0bf5e2d10362ae5e783b72eff7322e6a95a7e",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/PositiveCentralEscapeLeft.lean",
+          "status": "M",
+          "tip_blob": "f1ed8be4f48e51d0051da7edf5ec7a5dee3c0271",
+          "final_blob": "f35aa42199198417112c4654530f412d0693138e",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/PositiveCentralEscapeOrder.lean",
+          "status": "M",
+          "tip_blob": "00265f50354e7b5a4883976b672d82e81981c0b7",
+          "final_blob": "852e19f9f6dd03ae9460ccd5baf81205e9e1bc3f",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c696-positive-sector",
+      "sha": "1f9f7776b179be7bfcd8dcb2f1dfa381c8de2d8d",
+      "parent": "36da50c5b7fcb265256ed87fbfc4bb59ed1b96c6",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/C696PositiveCorner.lean",
+          "status": "M",
+          "tip_blob": "292383a206d879051b7118c419540566e5044953",
+          "final_blob": "5d26aa4e77f57c0b1bb8575e427321fae74c8e0a",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c696-row-interface",
+      "sha": "20693a12e112aaffa3ab962a063d21311d384552",
+      "parent": "45859875640a54a0acb2afec91b1ddbfd8ef923a",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Completion/Cases/C696/SideSignPacking.lean",
+          "status": "M",
+          "tip_blob": "7dae11341e473e6ba482a1f15c9486d4a49cdf67",
+          "final_blob": "fd08d89cb050267751d84620fc3b1a2d3ab6e1f2",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c696-shared-axis",
+      "sha": "b9d7003d45159f8bd3cdf782b1d383839b52108e",
+      "parent": "c1bb8df83fc157c71209afd1e5173e166411a987",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/CornerWallMarkerShared.lean",
+          "status": "M",
+          "tip_blob": "467a6282e1f875aee4fa321480f8c40892fc8917",
+          "final_blob": "68416bf7ac89a860dfd4d811451aa7ee01e1c17d",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/CornerWallSharedAxis.lean",
+          "status": "M",
+          "tip_blob": "ce0722d659cd910e583df7a38415b8b7a680c28a",
+          "final_blob": "7ea8e9d24f4a3f07eb97c298def780791221a033",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c696-support-reach",
+      "sha": "4831bceaa87f19811f71705def9bd46716ec2a95",
+      "parent": "1f9f7776b179be7bfcd8dcb2f1dfa381c8de2d8d",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/CornerBudgetReach.lean",
+          "status": "M",
+          "tip_blob": "0bb908e3470fbc5215ecb1a53e19701677b3ad11",
+          "final_blob": "15839ecc579f375673bc7418b36603e7bac3e858",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/PositiveCentralNegativeBottom.lean",
+          "status": "M",
+          "tip_blob": "71e7bb54c74b54a6df5e2fc1c865b5c98ab10792",
+          "final_blob": "4127c8eec76993983a65cfda7829b9ed0dad6993",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/PositiveCentralNegativeFloor.lean",
+          "status": "M",
+          "tip_blob": "c80fd28e8cb5333ec53db44a654370747dd340ec",
+          "final_blob": "83ace1e968436c1f4e77e7bcce457027d6557afb",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/PositiveWallEscapeFaces.lean",
+          "status": "M",
+          "tip_blob": "a0ebfd19f5faf714a3f7d87ea8db4080b70990b0",
+          "final_blob": "0974081e62901060ff3ad5fa9a4221ef6c39419f",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c696-wall-escape",
+      "sha": "0241e040f26cd18341916485d678985792bdc2c3",
+      "parent": "4831bceaa87f19811f71705def9bd46716ec2a95",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/PositiveWallMarker.lean",
+          "status": "M",
+          "tip_blob": "1b8fcd7a4ce7570c2784fbbf8016578eecefdce9",
+          "final_blob": "2209352c93038da7c91432004657f76a5f3335c7",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/PositiveWallOwnedWestFaces.lean",
+          "status": "M",
+          "tip_blob": "592279876794f51b8e533e508435b2a1b41f12cc",
+          "final_blob": "fa0b7f4892225deee9b392d1a7de14ac8d2d02ea",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/PositiveWallUpperUPositiveLeft.lean",
+          "status": "M",
+          "tip_blob": "5475c955adc819202002425d33d14f23b2f42810",
+          "final_blob": "9e40337fe9559fa0dd7729b688a67eb270623f55",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/PositiveWallUpperVImpossible.lean",
+          "status": "M",
+          "tip_blob": "d2ce55b431727108ac3bbaa7b401b288e455b460",
+          "final_blob": "8948bd5052a25a0af99e699c7312483b18635104",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c696-whole-case-replay",
+      "sha": "ad9d97aa346ed4739651639fd37e88600ce3bc1b",
+      "parent": "23720cca94a0c2ad98e9cf9b6776df4fa1205be4",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Bridge/C696CentralNormalForm.lean",
+          "status": "M",
+          "tip_blob": "08b4564ed156bf2d339692704b4c47d7210a05ac",
+          "final_blob": "d6a50156e6a0333de6f2773cea7456aedb544d2f",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Bridge/C696OwnedWestClosure.lean",
+          "status": "M",
+          "tip_blob": "539a247f34f6d0b0baff245ef1371b5c2c81d661",
+          "final_blob": "a2fcdf319f00d574ec1be36085e5e0b2c4cee673",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/OwnedWestBottomAngle.lean",
+          "status": "M",
+          "tip_blob": "67a22477ca32c60e12d1faaa0097c3a9418d81e5",
+          "final_blob": "4709f92fe558ea7fb30bd4cc10201ccf04f415c9",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c701-first-initial-owner",
+      "sha": "d2e24af711c6c22f23dcefd6645afa28d5852868",
+      "parent": "586019c2bd36b1a1b013fa5a4243c18569b17931",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Owner00.lean",
+          "status": "M",
+          "tip_blob": "f0213d3c6f1a38e149e59997dee23ccff0300c34",
+          "final_blob": "256e6c10438e10565a101e095611d70bc1350d7c",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c701-five-initial-owners",
+      "sha": "cc71e2b8ce093c8ea0fade7175a3dceb718e9d50",
+      "parent": "d2e24af711c6c22f23dcefd6645afa28d5852868",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Owner01.lean",
+          "status": "M",
+          "tip_blob": "5fa070d141167d75659bfb150f1da8de5430b763",
+          "final_blob": "ba776eb6f3d9b2052549df19158006373140a512",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Owner02.lean",
+          "status": "M",
+          "tip_blob": "d4b98b8b3b41eea05adeb9ab76859a591b2a5383",
+          "final_blob": "18344b2defea62c9eb1db1ca9a234bd31db3dbae",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Owner03.lean",
+          "status": "M",
+          "tip_blob": "9f40be2ffdaead5089b2d3b49c1ecc794c4f72dc",
+          "final_blob": "5343bfee59591e6db97aee6f55800c5ff3611dab",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Owner04.lean",
+          "status": "M",
+          "tip_blob": "417895f3fba9c470fa62a9866b267c7ea10150c7",
+          "final_blob": "f995b6f8a3b9e7c051ece03092a834c40ea6f3c6",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Owner05.lean",
+          "status": "M",
+          "tip_blob": "cae2ff3756b70d96b472467dfb607d6cef075d82",
+          "final_blob": "adf8319a0a8011c4aaaa4f3600b94b0468d2e7b3",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c701-heavy-initial-recipe",
+      "sha": "43c3efc45a1ce402c11e39b3745c8fc59734ffdb",
+      "parent": "cc71e2b8ce093c8ea0fade7175a3dceb718e9d50",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Bridge/DirectRecipeWitness.lean",
+          "status": "A",
+          "tip_blob": "979181db76b33ebe1ab8d01dd5eb2bc1d7ef5d49",
+          "final_blob": null,
+          "present_in_final": false
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Batches/Owner06Batch00.lean",
+          "status": "M",
+          "tip_blob": "2f62a73571e8e1e7ea46c970e28b290a89a148af",
+          "final_blob": "30482497089afba7b40b5a7f1cbd817c1dec0f38",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c701-single-batch-pruning",
+      "sha": "01b1a7c91114097d92ebad020ab4a774ddcd7892",
+      "parent": "2ce6f422bbddb9831c8677c899b0ca0877351b5e",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/DirectPruning/Step12.lean",
+          "status": "M",
+          "tip_blob": "d9baada11d82f4ce4c7acb2d8c609ba9fa849edb",
+          "final_blob": "04d98624d2a73f3878e40bf73fca2bd1420345e7",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c701-witness-owner-covers",
+      "sha": "949b41f1a1c0c2738f6866e1e22f88e2d2a3c780",
+      "parent": "43c3efc45a1ce402c11e39b3745c8fc59734ffdb",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Batches/Owner06Batch01.lean",
+          "status": "M",
+          "tip_blob": "1e3dddcf3fc29fb0933a6f3d21b08e7ed47db6be",
+          "final_blob": "fea666d8ce979b383f12be625a8cdac879e3669a",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Batches/Owner06Batch02.lean",
+          "status": "M",
+          "tip_blob": "0618d4adc060a54f1860ef257ddd3aef9e925dba",
+          "final_blob": "a0cded8d74e5aa05ec633367a83472ad3c48ff4d",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Batches/Owner06Batch03.lean",
+          "status": "M",
+          "tip_blob": "caa91f800e2800fb07a01066c3d5a73364efa33f",
+          "final_blob": "42753f6f38970c13274864970770f54b778323a7",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Batches/Owner06Batch04.lean",
+          "status": "M",
+          "tip_blob": "03da3da68025545ff2876e8433c6eb95da664001",
+          "final_blob": "9e95cd9819a4fcb26e1e9a3ec2985c877ae388ef",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Batches/Owner06Batch05.lean",
+          "status": "M",
+          "tip_blob": "486918632743df891f9f1ecb5a08210df25fbbce",
+          "final_blob": "5bbe72bd172c2a19399ba93251c6baac66c2e35a",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Batches/Owner06Batch06.lean",
+          "status": "M",
+          "tip_blob": "c75546a0c9018e53762e35f973be576c41da0503",
+          "final_blob": "da33257681381b95ebd0fda616db372f20e0e0d9",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Batches/Owner06Batch07.lean",
+          "status": "M",
+          "tip_blob": "b6f6342dcea94f4eab34b21fbb04d65a8e146dbc",
+          "final_blob": "ef988b8fd82a9bee2c7ca0dddbcf318bbcedb4bf",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Batches/Owner07Batch00.lean",
+          "status": "M",
+          "tip_blob": "1d5203a456014c050de6fe71b6abe23be8a98e1e",
+          "final_blob": "23a2474e29622a151e3cc60dc42f132872b216cb",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Batches/Owner07Batch01.lean",
+          "status": "M",
+          "tip_blob": "764c31f834743f60db0e4aadbde9aa93e2d2262d",
+          "final_blob": "f312ef3f34874724da8199128a86bbd1b5590c68",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Batches/Owner07Batch02.lean",
+          "status": "M",
+          "tip_blob": "b303ba97ed568a3b8b4adb74078dd1e1d274c316",
+          "final_blob": "4f0554bc9ad2510dc6281b7ba1aeb18b328b7ee9",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Batches/Owner07Batch03.lean",
+          "status": "M",
+          "tip_blob": "3b0a3f8066f7ddeddf301a9e972c01c46dc89bbc",
+          "final_blob": "3d614b0246574ff4db35b7b9c8953e80a0fc18f2",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Batches/Owner07Batch04.lean",
+          "status": "M",
+          "tip_blob": "464d7c98c106805ac60a8c846f6664c931251ff7",
+          "final_blob": "426dc0e047231b821c18bfcf80338607bac0417a",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Batches/Owner07Batch05.lean",
+          "status": "M",
+          "tip_blob": "8941120b41a6e4fea89e37e29e43464bc0885948",
+          "final_blob": "3ffe2e21d008922df2ff3be5a1a3b36b82c6790f",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Batches/Owner07Batch06.lean",
+          "status": "M",
+          "tip_blob": "24c72d83c014c43bdf9a790855ffa81244b32e5d",
+          "final_blob": "a3a022f87f9995924b99df465663edb17b1316f0",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Batches/Owner07Batch07.lean",
+          "status": "M",
+          "tip_blob": "c14a79959e5256c0c0d4346831732d5a50921a59",
+          "final_blob": "c26f667fdf5ac5536a0a6353e472fe2088bae85a",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Batches/Owner08Batch00.lean",
+          "status": "M",
+          "tip_blob": "f11e4c81ca30385611c8d60de73a08531e101420",
+          "final_blob": "2f67c8ee1bdeb05d805f9add8458d4b1b51cc4e6",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Batches/Owner08Batch01.lean",
+          "status": "M",
+          "tip_blob": "6120f897bd9ff61e597af9d296e074dcb7ae7993",
+          "final_blob": "7fe8cef97e887bd819d08183b64922a3a6ed5225",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Batches/Owner08Batch02.lean",
+          "status": "M",
+          "tip_blob": "87d09bac1125cadb1e70b1951709549cc3272be5",
+          "final_blob": "e8bf1751da314423046427c1f00112a86dbab26f",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Batches/Owner08Batch03.lean",
+          "status": "M",
+          "tip_blob": "5dc7e3c966ba7da704c36e11aa0f44299a1000f1",
+          "final_blob": "e495dedb44aa613b5d28f78080a52bf4f5f41c73",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Batches/Owner08Batch04.lean",
+          "status": "M",
+          "tip_blob": "23a7bc0b95c5257d393a7e2585af39cd7fe7700b",
+          "final_blob": "c8e1ffd8cf293201366bd8af0442814a81d2d43f",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Batches/Owner08Batch05.lean",
+          "status": "M",
+          "tip_blob": "3fc5a86aaa4b5cba631271cb1b5a1c298076a743",
+          "final_blob": "b014547fb9a2dbeb41b434528a3b9e55fbf9f8ec",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Batches/Owner08Batch06.lean",
+          "status": "M",
+          "tip_blob": "387dba15ac08330394fe418182f3d086ee41c53f",
+          "final_blob": "d4030253a294cabf18316fb0b0a9cb89855dcf1f",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Batches/Owner08Batch07.lean",
+          "status": "M",
+          "tip_blob": "5fe23d53b8081ecbc72343f13ecd1ab7391800d2",
+          "final_blob": "4153a8e6572d726e4aa0911e65dab4a73b81d9d8",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Batches/Owner09Batch00.lean",
+          "status": "M",
+          "tip_blob": "9d3183e4d8153c385c632512320a54d02edee4e7",
+          "final_blob": "71ca2fd0ce3e6dd0b3e0296615279b882dfbaf9c",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Batches/Owner09Batch01.lean",
+          "status": "M",
+          "tip_blob": "6ebd402407000c32a511e1601bbf58cb35226a85",
+          "final_blob": "803afffa654d76391b146fda07ac8b77629eec5c",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Batches/Owner09Batch02.lean",
+          "status": "M",
+          "tip_blob": "203a34a062a8d729eb61c534ee6be376fe7e540e",
+          "final_blob": "ad4473cc2995a39e0e04363e4764dd0aa07f67d8",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Batches/Owner09Batch03.lean",
+          "status": "M",
+          "tip_blob": "5d933a438f3fdc076279d3c60eda07ceb20530f4",
+          "final_blob": "278f71db4cd731336285009fbd4e6837eafadda2",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Batches/Owner09Batch04.lean",
+          "status": "M",
+          "tip_blob": "d3c65254bf51feda92df235b022ed739fa4864a9",
+          "final_blob": "fc55fcaa713909d5f9716281a9b137914bd130b5",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Batches/Owner09Batch05.lean",
+          "status": "M",
+          "tip_blob": "dbe9895dc7ca583002c143bd7bc99d3a46583448",
+          "final_blob": "33a2226a5873718254c73bb2715e2024fb247528",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Batches/Owner09Batch06.lean",
+          "status": "M",
+          "tip_blob": "605b94e4b5dc6460e5bf8c6f769de8f0a52efba7",
+          "final_blob": "4afb2eb1189591019a14c03e2934576852e69584",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Batches/Owner09Batch07.lean",
+          "status": "M",
+          "tip_blob": "86e42aa698547cd6c8257b71f4a517d2b221855e",
+          "final_blob": "6ee3e14e81841a945635224c79a703c843a49ae6",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Batches/Owner10Batch00.lean",
+          "status": "M",
+          "tip_blob": "dd23bb203d5030ebae7323ba2e13c06d16a97919",
+          "final_blob": "6af6636847fcafb9013862f5f6df1d62ac53e115",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Batches/Owner10Batch01.lean",
+          "status": "M",
+          "tip_blob": "005a7ead60b4cce7675351851e153c329bbc063f",
+          "final_blob": "3eccbf9251e8ecf76d266c81d9112b66725cc6c8",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Batches/Owner10Batch02.lean",
+          "status": "M",
+          "tip_blob": "1be997c01cd4885a31489b97c867b4c8cbc8bd47",
+          "final_blob": "0804669beab09c26461492dac077b5895a967254",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Batches/Owner10Batch03.lean",
+          "status": "M",
+          "tip_blob": "8782879c2e24de50290d5eeb09f75ca09421644c",
+          "final_blob": "2eee9631828ab0d056d62d765b92fc657df62a8e",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Batches/Owner10Batch04.lean",
+          "status": "M",
+          "tip_blob": "da6f00c920e1b5312ca6c017c566bde99024c030",
+          "final_blob": "d006f32ee5771f8722ceccb66586fabcaf15522a",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Batches/Owner10Batch05.lean",
+          "status": "M",
+          "tip_blob": "5089499c5528776969e9eb5dfaba3dae52445a02",
+          "final_blob": "70cee1fe54cf8856cda10c6d3448b5e9500505d8",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Batches/Owner10Batch06.lean",
+          "status": "M",
+          "tip_blob": "456ffed8f3ab9ea014b8fa5e800252ab21fc06a0",
+          "final_blob": "c0afae6bd52e0107ee62798fe08cd8d509c6f467",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Batches/Owner10Batch07.lean",
+          "status": "M",
+          "tip_blob": "f242d2562b0e7f451d75d4ff9f9820c30104cd12",
+          "final_blob": "fa860b505a4359fc7c573a91fb965af336d665d7",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Batches/Owner11Batch00.lean",
+          "status": "M",
+          "tip_blob": "fb8756fbff845b9bea7623c5c9ed1151b50087b1",
+          "final_blob": "c64f906b9e3ec4c0aaab85797fe2e4bea87ab340",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Batches/Owner11Batch01.lean",
+          "status": "M",
+          "tip_blob": "609f0356aad94dba3a3adf213bd05d52883a31d8",
+          "final_blob": "51b8729e01223583f5dd0690c0b1b3e894d64004",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Batches/Owner11Batch02.lean",
+          "status": "M",
+          "tip_blob": "1695f1a4c42a8c6247b4bb858927e3a05f892b04",
+          "final_blob": "d22cdf5358348ba8787409ce2cccdb73e4c4c39d",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Batches/Owner11Batch03.lean",
+          "status": "M",
+          "tip_blob": "92ee60c05363e610fe3f9fbe81b622ad7b21733a",
+          "final_blob": "1161d47515e02f9f330cf424e8a5087dda6013aa",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Batches/Owner11Batch04.lean",
+          "status": "M",
+          "tip_blob": "d622767ad269057dea62f6797600c0213e8e40a7",
+          "final_blob": "6aca0b993c839c90bea36a29ed51d457f398a7fa",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Batches/Owner11Batch05.lean",
+          "status": "M",
+          "tip_blob": "cd20798a2a74b5c9801103c3e9badb0026dd148a",
+          "final_blob": "bb16fb4d366971fcc3f26e4c081109f68978e834",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Batches/Owner11Batch06.lean",
+          "status": "M",
+          "tip_blob": "abee11b208658a5d2eab0fcdd22472c2e4a7ed46",
+          "final_blob": "066a439a16fe41f82b392221b6ed634dcd432c94",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Batches/Owner11Batch07.lean",
+          "status": "M",
+          "tip_blob": "3c361d3fa2b5d1ed68ebcc0fce6a4bfa2ab4319e",
+          "final_blob": "a01017508955e22675628453a905129127f29ab9",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Owner06.lean",
+          "status": "M",
+          "tip_blob": "567f00565dbc60ed03d8b6b0f425db3ea0c9b0cc",
+          "final_blob": "1a88642dc05d6dea7f1b9389fc6aee5dc42e2acf",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Owner07.lean",
+          "status": "M",
+          "tip_blob": "3a8e73ce9cbe7d097b30b793f0cb71fb54b29c90",
+          "final_blob": "af91fc4d23d71bfa120cca20da83872081338342",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Owner08.lean",
+          "status": "M",
+          "tip_blob": "d9f0bd6231c50a8a7d90d23560f83324fb6d5e81",
+          "final_blob": "56809c59503c28b723a3661004685a454044ad34",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Owner09.lean",
+          "status": "M",
+          "tip_blob": "cd0f18f46b11098c6afa5b26a03ecc9f5c0abd5f",
+          "final_blob": "e1c8469b2fa50d2ff2cf2131ef35162f6503d387",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Owner10.lean",
+          "status": "M",
+          "tip_blob": "e0d7279007ea63ffc74b714c5b994cd635783802",
+          "final_blob": "18c6d81edf3d6d0e440dabedd21f78bfddf37074",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C701/RecipeInitial/Owner11.lean",
+          "status": "M",
+          "tip_blob": "9ccfacaf268f84bc106c2c70a66fe5c62913d3fb",
+          "final_blob": "c9f172d0461e8a473968b15d1866d21e62b2f711",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c705-c716-complete-contracts",
+      "sha": "3f8a157baf461c24c1727cebbabef4b530aa21a8",
+      "parent": "e1cd18b92dfb36fdb0508130c2a43cc834e1dd41",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Assembly/NewCases.lean",
+          "status": "M",
+          "tip_blob": "06e33d2bb7f84f4b66a97526b30c4adcca03a2aa",
+          "final_blob": "002faeae4aa07d075818be12c5346ebb4593b0b1",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Assembly/SourceAssembly.lean",
+          "status": "M",
+          "tip_blob": "94b5a9445c0715e1147d3108c15d3332983c790c",
+          "final_blob": "d31c861e35e39cd251d494dfa48f15de4e5bb94c",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": [
+        "projects/n12-refactored/Compact/Completion/OtherCases/ThreeCentral/SteepSupport.lean",
+        "projects/n12-refactored/Compact/Geometry/C868CentralSupport.lean"
+      ]
+    },
+    {
+      "branch": "codex/n12-c705716-initial-domain-replay",
+      "sha": "e1cd18b92dfb36fdb0508130c2a43cc834e1dd41",
+      "parent": "401c040e603e9089539e030ddc9fef01b9e85997",
+      "classification": "no differing Lean/script path in inspected final commit",
+      "changed_final_paths": [],
+      "identical_final_paths": [
+        "projects/n12-refactored/Compact/Completion/OtherCases/C705716/InitialDomains.lean",
+        "projects/n12-refactored/Compact/Completion/OtherCases/DomainCache.lean",
+        "projects/n12-refactored/scripts/factor_c705_central_cache.py"
+      ]
+    },
+    {
+      "branch": "codex/n12-c713-final-initial-owners",
+      "sha": "942ec95679b7c3a963c3c480941033d88882c830",
+      "parent": "83e8b3416c85064802f4cb48eee1659c09f5460d",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C713/RecipeInitial/Data07.lean",
+          "status": "M",
+          "tip_blob": "e0b3a46e0bed94acbc71b28370a1277bd03b94ae",
+          "final_blob": "f206503027d940d9a01cea8c29affc8b2686698e",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c713-final-owner-and-entrance",
+      "sha": "4f65dab1d59620596d6eb8212d72b302aa7d543e",
+      "parent": "83319b2f37371f9d33afebed5a977acf28acbcbc",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C713/RecipeInitial/Data11.lean",
+          "status": "M",
+          "tip_blob": "d732a5eb82a68efffb2125c452da4fd5857c5649",
+          "final_blob": "4536ac9fdc650848f04d5512a8f0d20bf3eb39d6",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c713-fourth-initial-owner",
+      "sha": "83e8b3416c85064802f4cb48eee1659c09f5460d",
+      "parent": "0ab152f3545265cb573ecd71a1b3b3fc3cc61945",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C713/RecipeInitial/Batches/Owner06Batch05.lean",
+          "status": "M",
+          "tip_blob": "890347331215261791bf7691758be40b013b5e34",
+          "final_blob": "2c13d3739377b956a7743e9411e70a380568e8ab",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C713/RecipeInitial/Batches/Owner06Batch06.lean",
+          "status": "M",
+          "tip_blob": "d0b5502be34143ab6e70c69210157d39ada0872c",
+          "final_blob": "d993049bfb239087b59760ce765a1caf39f12df1",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C713/RecipeInitial/Batches/Owner06Batch07.lean",
+          "status": "M",
+          "tip_blob": "06a00a5bf74c1465c1f19c9a93cb9509aaaae950",
+          "final_blob": "7932f223e7c5247d3880db98743d39f68ae0fddb",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C713/RecipeInitial/Batches/Owner06Batch08.lean",
+          "status": "M",
+          "tip_blob": "6146166f4234a806eedfe73c88505181742ce67a",
+          "final_blob": "0169bfc6f0cedd96aa580270b79c4980e47fa89b",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C713/RecipeInitial/Batches/Owner06Batch09.lean",
+          "status": "M",
+          "tip_blob": "20487d491376a11a7db3408a0f824aa054ff41ec",
+          "final_blob": "53d00641791492afac6764d77e2838f2cd51af23",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C713/RecipeInitial/Batches/Owner06Batch10.lean",
+          "status": "M",
+          "tip_blob": "f87b8b70b8d147ba86e5523242771326042f230b",
+          "final_blob": "39ff69003660b8a089784497bcef858b2aac29a1",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C713/RecipeInitial/Batches/Owner06Batch11.lean",
+          "status": "M",
+          "tip_blob": "5691f0e5bb246ba5ab25d5382eec5b0cebd9e635",
+          "final_blob": "09f3ad3643fb4a0106eaaa66377d29f9145a9b6b",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C713/RecipeInitial/Batches/Owner06Batch12.lean",
+          "status": "M",
+          "tip_blob": "6953ac27af0610c2b2f12b7ed44edb9730283617",
+          "final_blob": "691080a714594419cdba9cf843eb576fd08deebd",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C713/RecipeInitial/Batches/Owner06Batch13.lean",
+          "status": "M",
+          "tip_blob": "a775368f07eb817c1e993c05a2a106ae46828427",
+          "final_blob": "5f0e5463f4a3035ae3666d301fbe01e2315d465f",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C713/RecipeInitial/Batches/Owner06Batch14.lean",
+          "status": "M",
+          "tip_blob": "796909cce1391cfbb2655457ddc5d6e2e9836311",
+          "final_blob": "9f16fd0063e1c69dc70b342cce5ad51552ba57d7",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C713/RecipeInitial/Batches/Owner06Batch15.lean",
+          "status": "M",
+          "tip_blob": "57778497292c4325f3e86ce116de416214d83666",
+          "final_blob": "f62ff8dd5972eb6c6545344bf0d34da91efdf8e6",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C713/RecipeInitial/Data06.lean",
+          "status": "M",
+          "tip_blob": "b0c364a03dc41387b6905086091a861f08fa2599",
+          "final_blob": "43535d0430ab9ebd8b0344a7f34bc9bc8c0b3d6e",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c713-heavy-initial-witness",
+      "sha": "0ab152f3545265cb573ecd71a1b3b3fc3cc61945",
+      "parent": "80323e543de5233f2aa109742515d1579c98b9f1",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C713/RecipeInitial/Batches/Owner06Batch04.lean",
+          "status": "M",
+          "tip_blob": "5143fed117b87bd053f297bd7f2b2a577fd7cdc5",
+          "final_blob": "b88e432ddf1bd63ebeb1b5a21717e107c7453ca6",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c713-initial-owner-covers",
+      "sha": "0b08d81405e3548cb562a4aa2946f88612a49f16",
+      "parent": "faad9dfd9344f43b2d47119a2239736dde26f329",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C713/RecipeInitial/Data00.lean",
+          "status": "M",
+          "tip_blob": "ec9f39bf132eb1dec0925ffaec1f9cb5493fe044",
+          "final_blob": "9ef1e98ef2242c36238ce0b6779c5cab7d427196",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c713-last-four-initial-owners",
+      "sha": "66b4eae4e9f5b3af7ea985933f0b4b33828a1db7",
+      "parent": "942ec95679b7c3a963c3c480941033d88882c830",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C713/RecipeInitial/Data08.lean",
+          "status": "M",
+          "tip_blob": "916274f9ab7ece343c8290107e7b6e05ebaa8d8c",
+          "final_blob": "4d87410350d753cf654be2f7f186d26f9aa500b8",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c713-last-two-initial-owners",
+      "sha": "83319b2f37371f9d33afebed5a977acf28acbcbc",
+      "parent": "2a00ad289d8f0b01483b1fa4faa46f1e39735ec0",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C713/RecipeInitial/Data10.lean",
+          "status": "M",
+          "tip_blob": "a76d8a8a1be8b466985e79bbcab012349ae3aa82",
+          "final_blob": "3322e2168777842951db0b1ab655fc1a19a7b78f",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c713-owner9-heavy-witness",
+      "sha": "8b9d6a417053745edcd0949a557dac3f423a3b21",
+      "parent": "66b4eae4e9f5b3af7ea985933f0b4b33828a1db7",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C713/RecipeInitial/Batches/Owner09Batch02.lean",
+          "status": "M",
+          "tip_blob": "759a26cb3b18a55a72358992c785d38f67e84788",
+          "final_blob": "7f2b0f86ba2dbaab54029e96f7c7a15a5219add2",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c713-remaining-initial-owners",
+      "sha": "80323e543de5233f2aa109742515d1579c98b9f1",
+      "parent": "0b08d81405e3548cb562a4aa2946f88612a49f16",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C713/RecipeInitial/Data01.lean",
+          "status": "M",
+          "tip_blob": "ed293be5100a32f3f23b2f785fd37cfd96b625ca",
+          "final_blob": "dc0654e9b1878478e9c1c932984c4a314b140edd",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C713/RecipeInitial/Data05.lean",
+          "status": "M",
+          "tip_blob": "f7ec0da4fcab9c328ce4d0b23ca58d802bf809f5",
+          "final_blob": "b1fa9e06656022ebc72fb14f28fd2a01ae7d829d",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c713-seventh-initial-owner",
+      "sha": "2a00ad289d8f0b01483b1fa4faa46f1e39735ec0",
+      "parent": "8b9d6a417053745edcd0949a557dac3f423a3b21",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C713/RecipeInitial/Batches/Owner09Batch03.lean",
+          "status": "M",
+          "tip_blob": "821aa5c33dbd003e2b45ef58f1e97aef38c143c8",
+          "final_blob": "ea5dafeb417d54e1503bf4919cc7e379115f01ec",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C713/RecipeInitial/Batches/Owner09Batch04.lean",
+          "status": "M",
+          "tip_blob": "20df5eddedd4bd15bcd897d310df509644849239",
+          "final_blob": "8d9f0bfc08faddec1fbb5637ae06217fb4ee22a2",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C713/RecipeInitial/Batches/Owner09Batch05.lean",
+          "status": "M",
+          "tip_blob": "9be4d031e38ea1112d83fdb25861574c877ce084",
+          "final_blob": "43c984719944fd4a6d14529c1b913625bcf8493a",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C713/RecipeInitial/Batches/Owner09Batch06.lean",
+          "status": "M",
+          "tip_blob": "44f8ada9a3f644a66194004097083a9bd5985878",
+          "final_blob": "d716f12414d22791e2ad5d1db49786fa9063f43a",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C713/RecipeInitial/Batches/Owner09Batch07.lean",
+          "status": "M",
+          "tip_blob": "ff3873ad25dcce87cbed4e67ff99dd2d9b11048a",
+          "final_blob": "f2c8f49f9f574cddd03492c672f5b45301435beb",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C713/RecipeInitial/Batches/Owner09Batch08.lean",
+          "status": "M",
+          "tip_blob": "bf57b5ea92d64a63b59113d5a4df0e02f064dbe8",
+          "final_blob": "d229b0af4b4779bf9e69c52caf87c03b2a01f1cf",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C713/RecipeInitial/Batches/Owner09Batch09.lean",
+          "status": "M",
+          "tip_blob": "2341873f7663e13797564a3ca0b23cd2912e4bab",
+          "final_blob": "6c978c5f327241081f5f3668c746edf95236be58",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C713/RecipeInitial/Batches/Owner09Batch10.lean",
+          "status": "M",
+          "tip_blob": "ec35087d39d0dd93920297216edbabd2bcc33f52",
+          "final_blob": "be59f9fa361f6ae6b15e0272f76bbe879395881e",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C713/RecipeInitial/Batches/Owner09Batch11.lean",
+          "status": "M",
+          "tip_blob": "4b1807d13ba15aa6d8c62fdeba9d864661c46609",
+          "final_blob": "8d824c9f757b79873fa822299a0a76638817104c",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C713/RecipeInitial/Batches/Owner09Batch12.lean",
+          "status": "M",
+          "tip_blob": "391c27255a7a131a5d8077737f506fa45a405ec5",
+          "final_blob": "913e3d221693a43fab8e6f494f61594a9d7471be",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C713/RecipeInitial/Batches/Owner09Batch13.lean",
+          "status": "M",
+          "tip_blob": "75255870847b1cccce5e8661acf4e66132568638",
+          "final_blob": "9564c339afc65f65263b6134e98b44fc75a6b749",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C713/RecipeInitial/Batches/Owner09Batch14.lean",
+          "status": "M",
+          "tip_blob": "65223da2acc0b987f479b5e15b3ae7b8ced978b1",
+          "final_blob": "1ec0b919ffe64f9e11d2d24974282c1a9efef617",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C713/RecipeInitial/Batches/Owner09Batch15.lean",
+          "status": "M",
+          "tip_blob": "b7cbfe17594dd606f42cc1066b66bb690b02d1d2",
+          "final_blob": "02e91a04f48fb93ff052df000401503396491b69",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C713/RecipeInitial/Data09.lean",
+          "status": "M",
+          "tip_blob": "31f090b23cc0f96429a7c1ae57f48e5ccf89b60c",
+          "final_blob": "d36e4cafe14b0afb9b8ef76860fff1a6ae266042",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c717-kernel-batches",
+      "sha": "401c040e603e9089539e030ddc9fef01b9e85997",
+      "parent": "b9e3cc8cebfbd81542e0365b739bc3fd4a556868",
+      "classification": "no differing Lean/script path in inspected final commit",
+      "changed_final_paths": [],
+      "identical_final_paths": [
+        "projects/n12-refactored/Compact/Cases/C717/EntryQueries.lean",
+        "projects/n12-refactored/Compact/Cases/C717/EntryQueryChunks/Chunk00.lean",
+        "projects/n12-refactored/Compact/Cases/C717/EntryQueryChunks/Chunk01.lean",
+        "projects/n12-refactored/scripts/factor_c717_upper_three.py",
+        "projects/n12-refactored/scripts/factor_c979_upper_three.py"
+      ]
+    },
+    {
+      "branch": "codex/n12-c84-ownership-certificate",
+      "sha": "5aa3fd1868f05ce20a9848d20c7553bd2bfd6491",
+      "parent": "0c07453389d846cbbe20a610c94fe9683aab38a7",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Bridge/C84Ownership.lean",
+          "status": "M",
+          "tip_blob": "f68ae6220d09744172364e94edfff9794036ceb0",
+          "final_blob": "c910e62628b8ffc1153785621fc3c90ea8af6913",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Bridge/C84OwnershipChecks.lean",
+          "status": "A",
+          "tip_blob": "4309edfd469328203870bd1a7a7a55efecda35b7",
+          "final_blob": null,
+          "present_in_final": false
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Bridge/C84OwnershipChecksTail.lean",
+          "status": "A",
+          "tip_blob": "36e6374b64fa97d8fab5e75f204d22390565ff10",
+          "final_blob": null,
+          "present_in_final": false
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c84-whole-case-replay",
+      "sha": "558819c147f25a469e9ccf1cd6516c5949e3ae87",
+      "parent": "5aa3fd1868f05ce20a9848d20c7553bd2bfd6491",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/C84MergedPair.lean",
+          "status": "M",
+          "tip_blob": "927ce55ef897e4bef362038d22846b10389df3f8",
+          "final_blob": "8676aa5c7a9a627a76b0f9392c8b5fbe551257b5",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c849851-replay",
+      "sha": "3f6c1d90fbd1f7db55b3ae4061a759464c538805",
+      "parent": "00aa2c4ab3dd835f2bc2442cd105c87b73c3db32",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Assembly/C849851.lean",
+          "status": "M",
+          "tip_blob": "5b5b5c7dae43beabf2c6901eb1e16658d136b93a",
+          "final_blob": "88d4b5ff9622c4121beaf1c083906fff53ad2ec2",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C849851/Complete.lean",
+          "status": "M",
+          "tip_blob": "c70a6f56e74525172b8ad6c3190476c9fd7d7910",
+          "final_blob": "25dd91da8e9610b5fecf93a76c4238e7c47ce7c9",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/C849851/Positive.lean",
+          "status": "M",
+          "tip_blob": "27c808d09fd93fe9f59ed4a4bb91bccef49c680d",
+          "final_blob": "249d68359ad8730fd892b80ab5ba28fb22793457",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/C849Negative.lean",
+          "status": "M",
+          "tip_blob": "e226fce50c8891d6ba32c64e302f9d2d37bf446b",
+          "final_blob": "64a02d2bc6388c6d8aec8f2508bb4b6cff5f379d",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/C849NegativePositiveMargins.lean",
+          "status": "M",
+          "tip_blob": "e40f639c7440bb45b5c2b9b8955710030f3f083a",
+          "final_blob": "ff782580b0c974d7bebc1babdcd004a27cb14ea3",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/C849NegativeSupport.lean",
+          "status": "M",
+          "tip_blob": "d1fb92e3a7e10aeac0ec05622964e25e88d172f6",
+          "final_blob": "1bc8ce604afeb4f35d313c183febe7d88e0e0282",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/C849ShallowAB.lean",
+          "status": "M",
+          "tip_blob": "522a5ed1683a867f052050db67dcf7976cc82156",
+          "final_blob": "e905258923b3f8a2d3a023d8d8e32ca17798c94b",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/C849ShallowMargins.lean",
+          "status": "M",
+          "tip_blob": "1035d54b34ebe0a5e30046d5d117fde89698c0cc",
+          "final_blob": "0b635826908a64796349778d4ab82cff4d0d7413",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/CornerInwardPoint.lean",
+          "status": "M",
+          "tip_blob": "13aba2548ca69129a6a1e1e3d20a3fa591100a81",
+          "final_blob": "1c757c42a0c1e14ca66b26a73b291967d1bd412f",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c977-bottom-wall-cycle",
+      "sha": "617d25d14efd2546a225744cd4e819243811dbfa",
+      "parent": "519fa6dd4312cdbb3f837df802a971661d7b61c6",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Bridge/C977PositiveWallOwnedWest.lean",
+          "status": "M",
+          "tip_blob": "8cef65941fcaa1246fcd74c341aa865afff73643",
+          "final_blob": "dbefdaa0beff133135956d129152fddfde9830f9",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/NegativeBottomCentralAxis.lean",
+          "status": "M",
+          "tip_blob": "bffe56d01112de79ec2697b7718b872ed7fbe19b",
+          "final_blob": "6b2270f1e906c4a059e54d47460bc32d290151a5",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/NegativeBottomNextAxes.lean",
+          "status": "M",
+          "tip_blob": "6c3d1d824eb9fac07fd1c6869b868c70f1c7d41c",
+          "final_blob": "1c3ba7e0e9e68d6ce4402933ad3d876530de901f",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/PositiveBottomNextAxes.lean",
+          "status": "M",
+          "tip_blob": "96069d4ee0d19915ee2068fe5cce90b59fd49bac",
+          "final_blob": "15f8aeb30497743ec7b769a4a95f80872df464d4",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c977-central-bottom-replay",
+      "sha": "c81a89f1aedda6f10ff6554b23f1b3ecb72e9099",
+      "parent": "2497293d2a6ff1766dc8d6b83b55cf87c924add5",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/CentralBottomTransverse.lean",
+          "status": "M",
+          "tip_blob": "ffc6550f147ef4e0aebabef93f904b1bf8e75dbd",
+          "final_blob": "a090bcb388a625cbc1409227f23250ffa45de976",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/CentralNegativeIncoming.lean",
+          "status": "M",
+          "tip_blob": "2d16af41f1f4875654ccbe491a9c6894efbab63a",
+          "final_blob": "0b5b5e5618e0fe8ee95608058b9faeed49705282",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/CentralSteeperBottomReach.lean",
+          "status": "M",
+          "tip_blob": "9f64cc1cb2a4318892ddc4eb59974edcef051724",
+          "final_blob": "c66ca144c9cb6103fe0fee8579a5cc8f1a8135df",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c977-incoming-axis",
+      "sha": "824dccea636fef9fecde319b2295eeb411473715",
+      "parent": "581108c682f38a5e9473b0757144c5fcc7d774b6",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/CentralRightIncomingOrdered.lean",
+          "status": "M",
+          "tip_blob": "f7eeac7b04960aee6275a36a6c3d44082ab7ba79",
+          "final_blob": "ce7639ea763c1e3cf1914e34d963795a1521395e",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/CentralRightIncomingPositive.lean",
+          "status": "M",
+          "tip_blob": "5f2c1ab4933a275866d7c1550bad07e8ce532b1f",
+          "final_blob": "b0ce7086e674ecb74c8c02f3871473de442613a3",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c977-missing-center-corners",
+      "sha": "29c9afa32ac72b03a7eeb12a47beeb5c2b9ff251",
+      "parent": "624ee0776a90069d84c69a4b3269a39c98c48ae6",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Bridge/C977CenterClosure.lean",
+          "status": "M",
+          "tip_blob": "7b85010539973b2a2fe7ac431f7758701ef6a9e0",
+          "final_blob": "e009891d990d7ccafe9fbc76af6c9d44dc50c216",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Bridge/C977PositiveCornerOrder.lean",
+          "status": "M",
+          "tip_blob": "e3ae5b13cd9d19b01b5336f3140ab5b115281658",
+          "final_blob": "f46c61f664e7a6a8bc9bfdddf6c0fb8f4fabd1b3",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Bridge/C977Residual.lean",
+          "status": "M",
+          "tip_blob": "1177d42611507cbef4f649689fff8702554bc445",
+          "final_blob": "dca5f4218cb9fe2a3b921572edc9380fcc04ca44",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Bridge/C977SignedEscapeClosure.lean",
+          "status": "M",
+          "tip_blob": "e9eca95efaa3ab6503c4170a618df03d58bd6ce0",
+          "final_blob": "c4d14de229d6a9dea177be1b853e3c1cf583650e",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c977-negative-bottom-incoming",
+      "sha": "961295d0c86e45f4c9c9209c653ebdffdc41536f",
+      "parent": "c81a89f1aedda6f10ff6554b23f1b3ecb72e9099",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Bridge/C977NegativeCentralFloor.lean",
+          "status": "M",
+          "tip_blob": "b6ab8c77b700ca79c78254c0b57d9ee5d115adf4",
+          "final_blob": "677432679dc6e3219cd04519dfe6b81b40e4b9b5",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/CentralNegativeBottomUpper.lean",
+          "status": "M",
+          "tip_blob": "0bd71b5cf15bd1e45dae9362dc8968bf925b0b48",
+          "final_blob": "345e9446301fc42258160a210ba53247b10a22fc",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/CentralNegativeIncomingBottom.lean",
+          "status": "M",
+          "tip_blob": "5c6103d6b09a4fb232929af44005219eade0aabe",
+          "final_blob": "8d31c0f3736a50e16e6a0b02801ef72fa7e9ba14",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c977-negative-bottom-positive-wall",
+      "sha": "624ee0776a90069d84c69a4b3269a39c98c48ae6",
+      "parent": "d03364aa78495963e17f1a5ddf5254f7a0ab59d3",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Bridge/C977NegativeBottomPositiveWall.lean",
+          "status": "M",
+          "tip_blob": "1ab63b05f96bff57017a957b918643041f8adf7f",
+          "final_blob": "f262726ab3a1b359e52d6031d33c165ac3ffd0c8",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/NegativeBottomWallCentralAxis.lean",
+          "status": "M",
+          "tip_blob": "9f231cafd38a74abb61700309ecd7eeb5e259d35",
+          "final_blob": "97515b4bb26e0063fa9fce4adfc6eaa8df7a74a3",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c977-negative-far-floor",
+      "sha": "f3ced4955e764cd47320cc0c7204d637c91908b7",
+      "parent": "961295d0c86e45f4c9c9209c653ebdffdc41536f",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/CentralNegativeNeighbor.lean",
+          "status": "M",
+          "tip_blob": "061e94317ab5f4c68fa2b6d0eceed7c8c77e9fc8",
+          "final_blob": "b9fba94e341178c847d9932f879684792736061c",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/CentralNegativeNeighborBounds.lean",
+          "status": "M",
+          "tip_blob": "09c8e5b0476acc6e0b5f8e277ea74f85919aaf75",
+          "final_blob": "596d2093cccdc2d52dfadac8439f5265ce78c9f9",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/WallDiagonalFarReach.lean",
+          "status": "M",
+          "tip_blob": "3b0d75deaa53dc5ad36bc94e460077d79fc512fa",
+          "final_blob": "c5f74d90345d4f98ceba27b50034b63212ecface",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c977-negative-neighbor-dependency",
+      "sha": "d03364aa78495963e17f1a5ddf5254f7a0ab59d3",
+      "parent": "f63de0f50c4108fb1b3e3adb42cbd7107e59c53a",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Bridge/C977NegativeNeighbor.lean",
+          "status": "M",
+          "tip_blob": "2f1d9a182e34385c4e15e56eae0946d057a4ab3a",
+          "final_blob": "fc8636df77beaabfefe2d2da6b76f8b362814f04",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Bridge/C977PositiveBottomWallClosure.lean",
+          "status": "M",
+          "tip_blob": "4004690ce447c865c75167a8f92e22efb1241db4",
+          "final_blob": "1be972d25dd408bdfff5fdcd93af9af6f79403aa",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/CentralSteeperNegativeBottom.lean",
+          "status": "M",
+          "tip_blob": "3992980b17cec803dd738168a829a4411e372ab3",
+          "final_blob": "c7641530771eb3554a13afc4af5b0a155ee7d065",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c977-negative-pair-reach",
+      "sha": "88e264097d25de63679409b81ab47c29ba309c3e",
+      "parent": "36446a3748e887340f0b753c707f889d867ece25",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/UpperRightNegativePairLongitudinalBounds.lean",
+          "status": "M",
+          "tip_blob": "6139e1fd54385a345be8a20a422a939b18d88744",
+          "final_blob": "ae89b8669f9911d1a47b07af36398f5a3aedc64d",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/UpperRightNegativePairReach.lean",
+          "status": "M",
+          "tip_blob": "facde2fbd4c47a74bad4d2e9a10feeda2b6e768f",
+          "final_blob": "264918f13e7ae382468b0d15e920ca966bfd72ad",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c977-negative-top-reach",
+      "sha": "36446a3748e887340f0b753c707f889d867ece25",
+      "parent": "d0255272f3f18bebf14c726ea93de89b4a1e981a",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/UpperRightNegativeCornerPositiveTop.lean",
+          "status": "M",
+          "tip_blob": "30e46a0aea33e02a16488ade9ae87cd6bfb10ffa",
+          "final_blob": "b2a1aef89a9c69f6272d5d3771ec23296df567aa",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/UpperRightNegativeTopReach.lean",
+          "status": "M",
+          "tip_blob": "0811c46deb3ad6a8b831406b56852f643b2d9bd6",
+          "final_blob": "ef2a22824885e4e76f2c80d580f50824b491305d",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c977-negative-upward-axes",
+      "sha": "519fa6dd4312cdbb3f837df802a971661d7b61c6",
+      "parent": "f3ced4955e764cd47320cc0c7204d637c91908b7",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Bridge/C977NegativeCentralFarFloor.lean",
+          "status": "M",
+          "tip_blob": "bf698d4eeabf46178eb4ea7f856f3dde9aa4f7d1",
+          "final_blob": "cb003a31d1e622163f70f71edc70decb617ada19",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/CentralNegativeBottomAxes.lean",
+          "status": "M",
+          "tip_blob": "d6bcbf35b9c096dec868fbc132a5b8c8834fad4a",
+          "final_blob": "39336c5db8be29622c6d362d9d51e37652b719cf",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/CentralNegativeFarIncoming.lean",
+          "status": "M",
+          "tip_blob": "6e3268487b025bae26c17ff887ea3d5dd3b56323",
+          "final_blob": "d7832c41da91aea2443d1ef170a2733313b7a2a5",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/CentralNegativeFarUpper.lean",
+          "status": "M",
+          "tip_blob": "6f8dd7317edba6d003b625e759e0cac1ab92c832",
+          "final_blob": "a0662b6ce2bbe59e88e853a7f0312563743fac78",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c977-negative-wall-mixed",
+      "sha": "200945f22a85332499a6f8f37bf2cf05b333b427",
+      "parent": "51d8973ffdccfecc6cdb6bbdaf7c2a584bd13561",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Bridge/C977NegativeBottomNegativeWall.lean",
+          "status": "M",
+          "tip_blob": "9dc6402b578faf336aa705a4e1e860c2efd6b0e7",
+          "final_blob": "0dd6338936a68f5ed8fa25d4cfce8d535fe69cce",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Bridge/C977PositiveBottomNegativeWall.lean",
+          "status": "M",
+          "tip_blob": "e889dc358ac90141f61a0a196280da1ae2699a4c",
+          "final_blob": "1f807dc429e8698c98e2a858a0465a6fa9f10e30",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/NegativeBottomOwnTransverse.lean",
+          "status": "M",
+          "tip_blob": "c2caae2ff90935155d83a13805d9d5cfa9944ac2",
+          "final_blob": "6ca4c1e401f0e1b15fbbc0afcd7b570712220b85",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/NegativeBottomTransverseChain.lean",
+          "status": "M",
+          "tip_blob": "16e23654fe2cc31e582bf805210e127ca2217804",
+          "final_blob": "10909f550293fd07d1d032aa82243116110e2b54",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/PositiveBottomNegativeWallMixed.lean",
+          "status": "M",
+          "tip_blob": "783cafeaad639605f71b50047f22b9d8ca2add56",
+          "final_blob": "ce15325b24d95b5270efa58ddb88c5967529fa83",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c977-positive-negative-cycle",
+      "sha": "51d8973ffdccfecc6cdb6bbdaf7c2a584bd13561",
+      "parent": "617d25d14efd2546a225744cd4e819243811dbfa",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/PositiveBottomNegativeWallCycle.lean",
+          "status": "M",
+          "tip_blob": "31f7bb447e48c0fbf82675c46ab7dc19c93e1f75",
+          "final_blob": "84508e79ba421f0259b034c9ccd0ee7fdb909bb7",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/PositiveBottomSupport.lean",
+          "status": "M",
+          "tip_blob": "efa3ca31d6b2bb41acf34cd6a9ce82a4099ae649",
+          "final_blob": "8f6b6478e88b857af573b1ea5e9e281dc0eb5376",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c977-positive-wall-ending",
+      "sha": "f63de0f50c4108fb1b3e3adb42cbd7107e59c53a",
+      "parent": "200945f22a85332499a6f8f37bf2cf05b333b427",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/CentralNegativePositiveBottom.lean",
+          "status": "M",
+          "tip_blob": "3320cb887a80287b1d97acf8948495e10402819e",
+          "final_blob": "e6711b6f7c5c185c8f79163f788686cff80de671",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/CentralNegativeSignedPositiveBottom.lean",
+          "status": "M",
+          "tip_blob": "ff804a1ffd3cf96fa6170b9cb22ae367f010d20a",
+          "final_blob": "439bea102f8630064ce6d9e04bbc18bed2c69c9f",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/PositiveBottomWallCentralAxis.lean",
+          "status": "M",
+          "tip_blob": "c25975d97a743654854c003c010e651bdc7493db",
+          "final_blob": "59934c5454135bcd800f16216bf95e7383d8fd47",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/PositiveBottomWallNeighborAxis.lean",
+          "status": "M",
+          "tip_blob": "b9ff0ef67cb8b5563a8cec374cf91d0ec90e6d25",
+          "final_blob": "103f69c6a4b35901f319f033e8af42a911f2b000",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c977-right-corner-support",
+      "sha": "581108c682f38a5e9473b0757144c5fcc7d774b6",
+      "parent": "9f19e5f6135de27293419704025e8f52d3e5c434",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/CentralRightChain.lean",
+          "status": "M",
+          "tip_blob": "d696eba79f0f87332c99303dc841413132025a92",
+          "final_blob": "55022355ec953df7a053e58840ea0344a729d0f2",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/CentralRightCornerAlternatives.lean",
+          "status": "M",
+          "tip_blob": "168a20e466afd2b0f8160d76d9d77605a345e8c8",
+          "final_blob": "0a3e85bd114fd8d1d893fb75e506203cd28ff405",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/CentralRightCornerSupport.lean",
+          "status": "M",
+          "tip_blob": "ae23c2393b135c2a0360c35e0b0da20b4efef467",
+          "final_blob": "cd4958708c08461fb3401464eff34f0457cbb5f6",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/CentralRightMixedTransfer.lean",
+          "status": "M",
+          "tip_blob": "c7eb178a7d020a2977d5040e736201727069f26e",
+          "final_blob": "d936f629e4b1d309821c9b4d3bfff8f3d45deb4a",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/PairedCornerPositiveWall.lean",
+          "status": "M",
+          "tip_blob": "c9a4ae502dfbd1ea6fd3340899a617aa32c44394",
+          "final_blob": "7f721b8ada8f0aed6436c11e18971c53beade72a",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c977-right-wall-segment",
+      "sha": "2497293d2a6ff1766dc8d6b83b55cf87c924add5",
+      "parent": "88e264097d25de63679409b81ab47c29ba309c3e",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Bridge/C977NortheastFarther.lean",
+          "status": "M",
+          "tip_blob": "b4e209749a96f3488fb666cd5b86a0516af43c18",
+          "final_blob": "bccb264e375c1c1598df06449e30d435bfaceb6c",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/RightWallOuterSegment.lean",
+          "status": "M",
+          "tip_blob": "bead673d605c5301a16390a7102db1f27a390038",
+          "final_blob": "d7a93a2818610280513e9fa62c142a23b222009f",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c977-top-longitudinal-gap",
+      "sha": "d0255272f3f18bebf14c726ea93de89b4a1e981a",
+      "parent": "fd3c42b9fbdb716cc7396dfe1d7addaebddf1643",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/UpperRightCornerTopLongitudinal.lean",
+          "status": "M",
+          "tip_blob": "875d838b56f16df9d6edbd6275545280b9737c42",
+          "final_blob": "62d341946932e654c38185e74561d30311b5d9c1",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c977-top-transverse",
+      "sha": "fd3c42b9fbdb716cc7396dfe1d7addaebddf1643",
+      "parent": "347452e8f080d6a7b29140a46533a6ff514ff543",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/UpperRightCornerTopTransverse.lean",
+          "status": "M",
+          "tip_blob": "cb858458308446f38b43be0dff705b87082e6db9",
+          "final_blob": "c25a6924b415ae2d2bcaf49b60f05942b9601fa7",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c977-upper-right-norm",
+      "sha": "347452e8f080d6a7b29140a46533a6ff514ff543",
+      "parent": "824dccea636fef9fecde319b2295eeb411473715",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/UpperRightCornerLongitudinal.lean",
+          "status": "M",
+          "tip_blob": "f39d89699e4ed31957a3c5e000d422dbb179594d",
+          "final_blob": "ad518970c246de2bc93286b39835d7bb68eda0ad",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/UpperRightCornerLongitudinalBounds.lean",
+          "status": "M",
+          "tip_blob": "9b0ffd772bafc16ffd8199d06e85ecc54a7f0f38",
+          "final_blob": "e221769b822b1181e299d92ce6955d3292d5cd2d",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/UpperRightCornerLongitudinalNorm.lean",
+          "status": "M",
+          "tip_blob": "8c07fd9087ca39b123125254f03a4a02d9869f82",
+          "final_blob": "14f4852e629755190cdb6f8a88b14cd8a55fcd77",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/UpperRightCornerReachAxes.lean",
+          "status": "M",
+          "tip_blob": "a3c41b77f3bef12eb6e3001cb2123cee00c8c37c",
+          "final_blob": "afd7c0903239b2cf22b216da9a009cbead06420f",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c977-wall-chain-replay",
+      "sha": "9f19e5f6135de27293419704025e8f52d3e5c434",
+      "parent": "1ee6f8d6ea88931ad7b43f9adaea894abf6a1e01",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Bridge/C977CentralWingReach.lean",
+          "status": "M",
+          "tip_blob": "ffb172f8037506d8a7a02174a4366a635fe1e306",
+          "final_blob": "bf062557511658ddd62df3d9f0788352fd81e74b",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Bridge/C977OppositeWallCenters.lean",
+          "status": "M",
+          "tip_blob": "e3563d506d66b16b92cc29b6b3948d83479ff728",
+          "final_blob": "8ec9f076e6ed28c8b9417b0a5ac39d6a4d40f8fc",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Bridge/C977OuterWings.lean",
+          "status": "M",
+          "tip_blob": "2f285aeb53ee2974fcc7d041ab3865ca137713dd",
+          "final_blob": "74bc3fb2356f22028ad3fdf40f982b66b2298c3a",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Bridge/C977WallCenters.lean",
+          "status": "M",
+          "tip_blob": "4a7affb39e197c5bfe33e51a0e0fb94e0ec96d2b",
+          "final_blob": "64e59b9e44f31288823c4dc30a73a70935a66a5d",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-c979-upper-three-kernel-checks",
+      "sha": "b9e3cc8cebfbd81542e0365b739bc3fd4a556868",
+      "parent": "1b2c4117a2b29272d8faf9523ab07059f90c49f9",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/scripts/factor_c979_upper_three.py",
+          "status": "A",
+          "tip_blob": "c56a0f468740543108f5aa422d502b6cc3f2372d",
+          "final_blob": "a83e45255be6b0e6c94fa924842d7aea0940e964",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": [
+        "projects/n12-refactored/Compact/Cases/C979/EntryQueryChunks/Chunk01.lean",
+        "projects/n12-refactored/Compact/Cases/C979/EntryQueryChunks/Chunk03.lean",
+        "projects/n12-refactored/Compact/Cases/C979/EntryQueryChunks/Chunk11.lean",
+        "projects/n12-refactored/Compact/Cases/C979/EntryQueryChunks/Chunk13.lean",
+        "projects/n12-refactored/Compact/Cases/C979/EntryQueryChunks/Chunk17.lean",
+        "projects/n12-refactored/Compact/Cases/C979/EntryQueryChunks/Chunk19.lean",
+        "projects/n12-refactored/Compact/Cases/C979/EntryQueryChunks/Chunk21.lean",
+        "projects/n12-refactored/Compact/Cases/C979/EntryQueryChunks/Chunk23.lean"
+      ]
+    },
+    {
+      "branch": "codex/n12-chord-closed-witness-bounds",
+      "sha": "faad9dfd9344f43b2d47119a2239736dde26f329",
+      "parent": "6a1ef9cba8192a7cf3e0818c938ef7de70f0dd5c",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Bridge/ChordSyntax.lean",
+          "status": "M",
+          "tip_blob": "3dcb45b976a4108fb50d094ce48a857d7b276da8",
+          "final_blob": "b56bc04dffe7989e6ed151ee53f30b40f57ef58e",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-chord-radii-scope",
+      "sha": "6a1ef9cba8192a7cf3e0818c938ef7de70f0dd5c",
+      "parent": "949b41f1a1c0c2738f6866e1e22f88e2d2a3c780",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Preservation/Chords/Radii.lean",
+          "status": "M",
+          "tip_blob": "baa9beeff2fad6ceaa2fe919778d3a861d2b071a",
+          "final_blob": "5ccc25edc317b518dc034732fd12d3dad435de66",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-cover-data-blocks",
+      "sha": "d3c4f76ba4ba2b392998e43034761c1a7ef59b12",
+      "parent": "061746a0b196c1d4c0e4b26e804b9823afd7ec44",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/scripts/factor_cover_data.py",
+          "status": "A",
+          "tip_blob": "ce7b421c76fce0c4d7bf7d966531715149675844",
+          "final_blob": null,
+          "present_in_final": false
+        },
+        {
+          "path": "projects/n12-refactored/source/S12/CoverData.lean",
+          "status": "M",
+          "tip_blob": "3d26d9829b50aec9e6e1fefbe850def6b71477f7",
+          "final_blob": "d8fd673715d0d32b05c877bcb633cec2ef5c3f51",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/source/S12/CoverDataChunks/Chunk00.lean",
+          "status": "A",
+          "tip_blob": "0ece24312df017af89e1beeb5d22135ae4986a34",
+          "final_blob": null,
+          "present_in_final": false
+        },
+        {
+          "path": "projects/n12-refactored/source/S12/CoverDataChunks/Chunk01.lean",
+          "status": "A",
+          "tip_blob": "24c2d9df62cc5291794edc8d968d3c20676748e1",
+          "final_blob": null,
+          "present_in_final": false
+        },
+        {
+          "path": "projects/n12-refactored/source/S12/CoverDataChunks/Chunk02.lean",
+          "status": "A",
+          "tip_blob": "e7b0f66d4d4216c443e733e60062a6d303d2ec9e",
+          "final_blob": null,
+          "present_in_final": false
+        },
+        {
+          "path": "projects/n12-refactored/source/S12/CoverDataChunks/Chunk03.lean",
+          "status": "A",
+          "tip_blob": "2804e66c2424bb5e5be653bb7e596c85c886fd1d",
+          "final_blob": null,
+          "present_in_final": false
+        },
+        {
+          "path": "projects/n12-refactored/source/S12/CoverDataChunks/Chunk04.lean",
+          "status": "A",
+          "tip_blob": "8c58b3c682ab2d7be257122b39e6fc38eaf6e75c",
+          "final_blob": null,
+          "present_in_final": false
+        },
+        {
+          "path": "projects/n12-refactored/source/S12/CoverDataChunks/Chunk05.lean",
+          "status": "A",
+          "tip_blob": "b0a48ded479e0c446b02d9f8e22b6f00c3d3a460",
+          "final_blob": null,
+          "present_in_final": false
+        },
+        {
+          "path": "projects/n12-refactored/source/S12/CoverDataChunks/Chunk06.lean",
+          "status": "A",
+          "tip_blob": "6b194d12b550c7741f106eb0a7a4c910fb6ee605",
+          "final_blob": null,
+          "present_in_final": false
+        },
+        {
+          "path": "projects/n12-refactored/source/S12/CoverDataChunks/Chunk07.lean",
+          "status": "A",
+          "tip_blob": "133fa024d08b50675aa80883a1bf4a1acb42dd0c",
+          "final_blob": null,
+          "present_in_final": false
+        },
+        {
+          "path": "projects/n12-refactored/source/S12/CoverDataChunks/Chunk08.lean",
+          "status": "A",
+          "tip_blob": "eb2e2145b01f0d7f2614e0a3a75cc76945143478",
+          "final_blob": null,
+          "present_in_final": false
+        },
+        {
+          "path": "projects/n12-refactored/source/S12/CoverDataChunks/Chunk09.lean",
+          "status": "A",
+          "tip_blob": "3b18f56c29dec706c76869655c8ac879bb593702",
+          "final_blob": null,
+          "present_in_final": false
+        },
+        {
+          "path": "projects/n12-refactored/source/S12/CoverDataChunks/Chunk10.lean",
+          "status": "A",
+          "tip_blob": "450a2b7169d03d21d41e5144ecd43a94ca8eebc8",
+          "final_blob": null,
+          "present_in_final": false
+        },
+        {
+          "path": "projects/n12-refactored/source/S12/CoverDataChunks/Chunk11.lean",
+          "status": "A",
+          "tip_blob": "debcf12b262e2e2f9e5d457593b995bc733c560c",
+          "final_blob": null,
+          "present_in_final": false
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-domain-spec-replay",
+      "sha": "1b2c4117a2b29272d8faf9523ab07059f90c49f9",
+      "parent": "d3c4f76ba4ba2b392998e43034761c1a7ef59b12",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/source/S12/DomainSpecData.lean",
+          "status": "M",
+          "tip_blob": "d7794e4aed18736a785697672df6aa888c7cb459",
+          "final_blob": "16ac4e54f4ef1f501f3f5b3daa068655623cff82",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-historical-common-keys-scope",
+      "sha": "4e13710132aff8984ae9a13d1ad215328ea9e299",
+      "parent": "614c792ec217fa3e00ae8cf3969ade71ca38b4d1",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/HistoricalCommon/Keys.lean",
+          "status": "M",
+          "tip_blob": "0cc8de88c56c642ea68a52572fd7a92883c35d3d",
+          "final_blob": "9c08f2bd84234e4a394bcc50cef35a16417aec0e",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-historical-fan-bindings",
+      "sha": "614c792ec217fa3e00ae8cf3969ade71ca38b4d1",
+      "parent": "01b1a7c91114097d92ebad020ab4a774ddcd7892",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Core/BoundaryFanSyntax.lean",
+          "status": "M",
+          "tip_blob": "b13b9ce275c5162e891a03ad012e44e674c8eb1b",
+          "final_blob": "9221c42024ba1582dc96f3a6795e83f48ee4ee42",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-indexed-blocked-target-syntax",
+      "sha": "2ce6f422bbddb9831c8677c899b0ca0877351b5e",
+      "parent": "e0bbe8ff1b0ca28cd61ddbe90a932eff644a904f",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Bridge/IndexedBlockedTargetSyntax.lean",
+          "status": "M",
+          "tip_blob": "cba358b47eecb3ee30c23014bf5d3f12d3cec4c5",
+          "final_blob": "aa114149be6ac3e1a8c1b757961aff37b9bd840b",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-initial-cover-command-options",
+      "sha": "586019c2bd36b1a1b013fa5a4243c18569b17931",
+      "parent": "d9dd0f3355d39609ee69a441d2d75b2097604dc0",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Bridge/InitialCoverBatch.lean",
+          "status": "M",
+          "tip_blob": "6f5eec92d3a2f713a5167a51d89c4f43cfd47282",
+          "final_blob": "2c3f6101ab176d94103613dc4a4cf2801fc590de",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-merged-top-entrances",
+      "sha": "032699b5caa3f9a0f5eb64ca52b153dba0d4927f",
+      "parent": "3f6c1d90fbd1f7db55b3ae4061a759464c538805",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Assembly/MergedTopFurther.lean",
+          "status": "M",
+          "tip_blob": "d02418855e6ae8371b25ff536ccd32b576af7782",
+          "final_blob": "f00151fc5f35b815c683b523b8f0f909bfb62cac",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/MergedTopFurther/Complete.lean",
+          "status": "M",
+          "tip_blob": "19b45a2f45cea7693d828af7367ac91a807f4e90",
+          "final_blob": "b20cb3338079af9c1c3384d0c50585ebee51eab1",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/MergedTopFurther/Ownership.lean",
+          "status": "M",
+          "tip_blob": "2445b92b528b9155e472b47dd414ce5e8a1f6e36",
+          "final_blob": "a182d6029aad51f82b5cceee3a07d0b920c4bd55",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-midpoint-section-endpoints",
+      "sha": "96e3bc89959dd61e8eb7c4f39a34de4623955575",
+      "parent": "3f8a157baf461c24c1727cebbabef4b530aa21a8",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/MidpointSection.lean",
+          "status": "M",
+          "tip_blob": "b94889eac56fcbcf0313c37f94fc9475117cc109",
+          "final_blob": "ae05e00a14aa1319ca3c39bbfeb8811dd84886a3",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-opposite-walls-checks",
+      "sha": "45859875640a54a0acb2afec91b1ddbfd8ef923a",
+      "parent": "12b85c25543404e3ebab1f6896eeec4dd48f7e4b",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Assembly/OppositeCentralWalls.lean",
+          "status": "M",
+          "tip_blob": "896bc5b6b60b641c84d0f7889b72398841e044d4",
+          "final_blob": "166325e89754d7d52508015b9b7661351b952fd5",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/OppositeCentralWalls/Ownership.lean",
+          "status": "M",
+          "tip_blob": "a81cdfb674fdf18e41041187a71baca34eb3a143",
+          "final_blob": "518f326ba1ac2cf4ad1d27901c1c609e28f3807d",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": [
+        "projects/n12-refactored/Compact/Cases/OppositeCentralWalls/Complete.lean"
+      ]
+    },
+    {
+      "branch": "codex/n12-source-assembly-after-c696",
+      "sha": "0c07453389d846cbbe20a610c94fe9683aab38a7",
+      "parent": "ad9d97aa346ed4739651639fd37e88600ce3bc1b",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Bridge/C84MergedBottomDomain.lean",
+          "status": "M",
+          "tip_blob": "331c9f12633c05ef49475814780050497c5d1cf0",
+          "final_blob": "3d1bf0f8c38581f3c5e4f7d2529f636b91100d8f",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/C84MergedBottom.lean",
+          "status": "M",
+          "tip_blob": "6ecd95ef5a6231332906a1b81e6403b8d24c1336",
+          "final_blob": "23fcad46abd4d96a282bc2904c2a2a0fe97102b6",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-source-assembly-after-c84",
+      "sha": "1ee6f8d6ea88931ad7b43f9adaea894abf6a1e01",
+      "parent": "558819c147f25a469e9ccf1cd6516c5949e3ae87",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/C977CenterPairSeparation.lean",
+          "status": "M",
+          "tip_blob": "69c4bc81501ff1b341b25e8c6fd1720d085ef9b6",
+          "final_blob": "8399145e33ceed546a3332f900984276eaf3f227",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/CentralCenterPairIncoming.lean",
+          "status": "M",
+          "tip_blob": "7939c53360f9524acb944c5bc494bdb90dfcad26",
+          "final_blob": "41458917382792869ae79d639e8569d97e1f3de9",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/CentralPositiveTransverse.lean",
+          "status": "M",
+          "tip_blob": "30628e50df5befd073b0e47ce819a43b2a81c2a4",
+          "final_blob": "f5ed532fbb44a23e1172ce622bd419bbc236dab6",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Geometry/SouthwestCentralReach.lean",
+          "status": "M",
+          "tip_blob": "487998bb17c2c18d1f210efb314a50f3b603a0b7",
+          "final_blob": "5dab99946ecfcb2eb51d7be082687c35783cbef2",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Completion/Cases/C977/AuxiliaryVectors.lean",
+          "status": "M",
+          "tip_blob": "a6ab980735f8dfa362a1eaa6f4b3f9f39b20431d",
+          "final_blob": "4cfc470d1e888032f9b4b06c779d5aa8269f274d",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-source-assembly-after-c977",
+      "sha": "e0bbe8ff1b0ca28cd61ddbe90a932eff644a904f",
+      "parent": "29c9afa32ac72b03a7eeb12a47beeb5c2b9ff251",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Assembly/SymbolicRegistry.lean",
+          "status": "M",
+          "tip_blob": "d3cc777e6de3649477f55c53c689e22022691c7c",
+          "final_blob": "d844de2ceb5b2f66985811659d6996e71e92dcaf",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Assembly/SymbolicRegistryIds.lean",
+          "status": "A",
+          "tip_blob": "c970f366eab6ae72c140a3f182138d05c550f48f",
+          "final_blob": null,
+          "present_in_final": false
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-source-assembly-replay",
+      "sha": "9421c8625a1a0be985db7890d297a82b4bf1f5af",
+      "parent": "1322eb2d28974300abf0202aa919733e13379091",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Cases/MergedLower/Complete.lean",
+          "status": "M",
+          "tip_blob": "9869979f38d288b85bae23f195aa80b9c6a0dfca",
+          "final_blob": "242b27ed37b5cd97c2e25e87fba93a7f73f2bacf",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    },
+    {
+      "branch": "codex/n12-transport-owner-domains",
+      "sha": "8024c9e774fec3f679b7a4d8695d1ffb785b28c6",
+      "parent": "a1535d45ddbd8fb33ad2b103a4ff992933cdddce",
+      "classification": "archived unintegrated variants",
+      "changed_final_paths": [
+        {
+          "path": "projects/n12-refactored/Compact/Cases/MergedLower/Complete.lean",
+          "status": "M",
+          "tip_blob": "da7ac5716ffbe787bfa0b6696fbd68cd56c838ba",
+          "final_blob": "242b27ed37b5cd97c2e25e87fba93a7f73f2bacf",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/MergedLower/Domains589590.lean",
+          "status": "M",
+          "tip_blob": "2319d9e8634f11ea920810177fee7ace45b6fcbe",
+          "final_blob": "7ae9978aebb66f59105799e8812593e45853c9df",
+          "present_in_final": true
+        },
+        {
+          "path": "projects/n12-refactored/Compact/Cases/MergedLower/Helpers.lean",
+          "status": "M",
+          "tip_blob": "d9a3bd823f3880550d87c3e093739585c8d7ccd5",
+          "final_blob": "e2dd74d61e0b4429c66ea60bc718cbe792e85e04",
+          "present_in_final": true
+        }
+      ],
+      "identical_final_paths": []
+    }
+  ],
+  "not_compared": [
+    {
+      "branch": "12Refractored",
+      "sha": "3013badbf160901b5884fe7a0b37ad440fad641a",
+      "reason": "Snapshot reports ancestor"
+    },
+    {
+      "branch": "codex/c981-last-scalars-repair",
+      "sha": "97f9abd262599d4a3d474d772fb929c07eaa3a21",
+      "reason": "Snapshot reports ancestor"
+    },
+    {
+      "branch": "codex/c981-short-certificate-bridge-repair",
+      "sha": "0158447f97e60568da0f78dad285d0a227fd3e01",
+      "reason": "Snapshot reports ancestor"
+    },
+    {
+      "branch": "codex/c981-short-certificate-validation",
+      "sha": "f4653ff34b64abfe2bb3554249cb7efb5ab6a918",
+      "reason": "Snapshot reports ancestor"
+    },
+    {
+      "branch": "codex/c981-short54-input-chunks",
+      "sha": "46e0067e3aa72d1001a1bf2b95c8f7e4575c368a",
+      "reason": "Snapshot reports ancestor"
+    },
+    {
+      "branch": "codex/cloud-n12-continuation",
+      "sha": "ba066706bb22fbf4bbb0951d676c9ac6f8f0212c",
+      "reason": "Snapshot reports ancestor"
+    },
+    {
+      "branch": "codex/complete-twelve-squares",
+      "sha": "c5c6144349a141e56ac43c81ed732f731c591eac",
+      "reason": "Snapshot reports ancestor"
+    },
+    {
+      "branch": "codex/n12-initial-programs-2026-10-14",
+      "sha": "01d3d22b28aea68f68eb11e4726d8f9220834874",
+      "reason": "Snapshot reports ancestor"
+    },
+    {
+      "branch": "codex/n12-paused-checkpoint-2026-10-14",
+      "sha": "d5620c3a7eaa08943e0dbea2604e1079e2209238",
+      "reason": "Snapshot reports ancestor"
+    },
+    {
+      "branch": "codex/n12-short-projection-bounds",
+      "sha": "25811c2ed87772759718340818f0a393bb7be12a",
+      "reason": "Snapshot reports ancestor"
+    },
+    {
+      "branch": "n12-coordination",
+      "sha": "730e829b6dd7d032cc8b03fa5d04646fe2958b62",
+      "reason": "Historical branch outside cached codex tip comparison"
+    },
+    {
+      "branch": "n12/c1089-app-draft-20261009",
+      "sha": "f1d927c914bbaf915bfa979c16c1a07ecbd2f8f0",
+      "reason": "Historical branch outside cached codex tip comparison"
+    },
+    {
+      "branch": "n12/formalize-normalization",
+      "sha": "44f32f60ebfbdf7ae7fa932da369dcb5f81fa49b",
+      "reason": "Historical branch outside cached codex tip comparison"
+    },
+    {
+      "branch": "n12/lean-4.19",
+      "sha": "e122bc2b9329da8057ca208343436a380ab97c59",
+      "reason": "Snapshot reports ancestor"
+    },
+    {
+      "branch": "n12/ledger-4.19",
+      "sha": "2f2dad9fa6e81f69dca0f9b9cd4d54bc5e9b0471",
+      "reason": "Historical branch outside cached codex tip comparison"
+    },
+    {
+      "branch": "n12/worker-ben-c1090-route-preservation-20261010",
+      "sha": "80220fca8a8ca90f4df2c3aea8cf7468dc1285cb",
+      "reason": "Historical branch outside cached codex tip comparison"
+    },
+    {
+      "branch": "n12/worker-ben-c696-row-20261010",
+      "sha": "efa9c88582b9ab86b2e8c314028ba920da7c3757",
+      "reason": "Historical branch outside cached codex tip comparison"
+    },
+    {
+      "branch": "n12/worker-ben-codex-20261008",
+      "sha": "672f72ef1761bdefad978eeefa3524fc513dc09c",
+      "reason": "Historical branch outside cached codex tip comparison"
+    },
+    {
+      "branch": "n12/worker-codex-898-20261008",
+      "sha": "af965a97a388eb7d6a4720e74f6068a4c57e3e47",
+      "reason": "Historical branch outside cached codex tip comparison"
+    },
+    {
+      "branch": "n12/worker-codex-976-20261009",
+      "sha": "e521280b37b39610d830a421d83f29b3702009ae",
+      "reason": "Historical branch outside cached codex tip comparison"
+    },
+    {
+      "branch": "n12/worker-codex-c977-20261010",
+      "sha": "cbe674ec39981107208d84d4c15eb29754fe897e",
+      "reason": "Historical branch outside cached codex tip comparison"
+    },
+    {
+      "branch": "recovery/n12-lean-september-2026",
+      "sha": "98ddf88a36d0a227d1a94e1c7e0ed64d1c840de8",
+      "reason": "Snapshot reports ancestor"
+    }
+  ]
+}

@@ -1,0 +1,37 @@
+{
+  "description": "Counterexample to all-orientation forced-point claim from A closed points, missing points, containment, and foreign compulsory hulls ALONE; no actual B,L,R squares asserted.",
+  "side": "1001/1000",
+  "c": "40/401",
+  "s": "399/401",
+  "loU": "15047/8020",
+  "loV": "-1101/401",
+  "box": [
+    "309234001/160801000",
+    "12136226/4020025",
+    "5122953/3216020",
+    "432362689/160801000"
+  ],
+  "foreign_hull_separation": {
+    "B": {
+      "face": "above V",
+      "gap": "125339/401000"
+    },
+    "L": {
+      "face": "above V",
+      "gap": "390999/401000"
+    },
+    "R": {
+      "face": "below V",
+      "gap": "0"
+    }
+  },
+  "target": [
+    "2",
+    "5/2"
+  ],
+  "target_relative_coordinates": [
+    "6503/8020",
+    "403/401"
+  ],
+  "target_excess_above_V": "1599/401000"
+}

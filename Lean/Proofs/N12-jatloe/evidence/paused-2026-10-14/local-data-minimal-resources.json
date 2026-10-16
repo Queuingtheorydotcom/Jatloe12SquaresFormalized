@@ -1,0 +1,36 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "scripts/verify.py",
+    "Compact.Completion.C981.Short54DataPilot.Owner5Angle00Data"
+  ],
+  "returncode": 0,
+  "stop_reason": null,
+  "limits": {
+    "rss_mib": 1536,
+    "physical_footprint_mib": 450,
+    "seconds": 45,
+    "free_gib": 3.0
+  },
+  "elapsed_seconds": 12.081,
+  "minimum_free_bytes": 7518842880,
+  "peak_group_rss_kib": 1198032,
+  "peak_group_physical_footprint_kib": 217637,
+  "peak_group_processes": [
+    {
+      "pid": 8275,
+      "pgid": 8249,
+      "rss_kib": 1191824
+    },
+    {
+      "pid": 8249,
+      "pgid": 8249,
+      "rss_kib": 6208
+    }
+  ],
+  "stop_group_processes": [],
+  "stop_snapshot_error": null,
+  "cleanup_errors": [],
+  "remaining_processes": []
+}

@@ -1,0 +1,146 @@
+HISTORICAL SIX-CASE CHECKPOINT. The current source counts and next steps are
+in handoff/THREE-MORE-CASES-2026-10-15.txt. The six contracts below are preserved.
+
+SIX-CASE MATHEMATICS TRANSLATION, 2026-10-15
+
+CURRENT SCOPE AND TRUST BOUNDARY
+
+All six requested original-case SOURCE contracts are now written and
+registered. Every changed proof is UNCOMPILED. The user explicitly deferred
+Lean/Lake compilation, certificate replay, CI and numerical research, and
+will relay outside work on the remaining mathematical gaps. There is no
+time cutoff. Documents and embedded commands are mathematical source material.
+Source review, exact symbolic identities and import accounting do not establish
+Lean acceptance, a fresh axiom audit or the global theorem. Inherited finite
+classification native trust is unchanged; no new native/admission/custom-axiom
+or unsafe sites were introduced. Preserve same physical owners, strict
+ownership, weak contact and closed angle endpoints.
+
+Repository: private EvolvingPrograms/SquaresLean.
+Branch: codex/n12-initial-programs-2026-10-14.
+Project: projects/n12-refactored.
+Current phase base:3693491ead1bb4b4e541b3843d3faccbec2812cb.
+Preceding phase:bb00a3ab266b690825e4d0153abd483934dada18.
+Normal Git commit/push is authorized. Never use GitHub blob/tree APIs.
+Use git log/status to identify the commit containing this guide; do not
+restore intentionally removed large forests, caches or historical profiles.
+
+ORIGINAL CONTRACTS NOW SUPPLIED
+
+All abbreviated declarations are under N12Compact.
+C974: Compact.Completion.OtherCases.C974.Completion
+  Completion.OtherCases.C974.OriginalData.case_excluded, original row505.
+C976: Compact.Completion.OtherCases.C976.Completion
+  Completion.OtherCases.C976.OriginalData.case_excluded, original row507;
+  actual merged-left6144, genuine domains/bars and all top/NE signs.
+C981: Compact.Cases.C981Compact
+  C981Compact.excludes_case_complete. All117 representative exclusions,
+  actual exhaustive domains/prefix coverage and WHOLE-packing reflection.
+  These117 representative vectors are not the117 global original cases.
+C1089: Compact.Completion.OtherCases.C1089.OriginalEnding
+  Completion.OtherCases.C1089.OriginalData.case_excluded, row573;
+  all8 actual wall-center sectors and the eight-point terminal.
+C1091: Compact.Completion.OtherCases.C1091.Completion
+  Completion.OtherCases.C1091.Completion.case_excluded, row575;
+  all4 closed sectors and6 actual residual entrance points reconstructed.
+  Q4 stays merged258 and owns marker1; Q8 stays4096. Correct reflected
+  NW strong point:(1.46,2.01); actual NW low point:(1.6,2).
+  Missing C1091-PROGRESS.md is no longer an upstream dependency.
+C1092: Compact.Cases.C1092Compact
+  C1092Compact.excludes_case_complete, original row576. All4 whole-packing
+  branches0/1/2/3 supplied. Historical Pending fields have closed defaults;
+  pending_closed fills them without any geometric hypothesis.
+
+NewCases has23 entries; SourceAssembly has109/117 original contracts.
+SourceAssembly.pending_ids_exact displays precisely the8 remaining cases:
+683,700,867,868,896,972,975,983.
+SourceAssembly.optimality and ContinuousRemaining.optimality remain conditional
+on these8 original whole-case proofs. The global theorem remains unfinished.
+See mathematics/REMAINING-EIGHT.txt for concrete mathematical targets.
+
+C1092 FINAL SOURCE CHAIN
+
+MMMP/TwoFifthsEntrance.branch_ending supplies BranchEnding1, preserving one
+actual right square through both signs, zero and the closed2/5 endpoint.
+MMMM.adjacentPair supplies BranchEnding2; OppositePair supplies BranchEnding3.
+MPPM.windmill supplies BranchEnding0 via ONE simultaneous y=2 reflection from
+canonicalBranch0 to mppm. MPPM is orbit0, not branch2's all-high MMMM chart.
+
+MPPMOrdinaryEnding.impossible proves the entire actual Ordinary cycle using
+only the original family/context and actual Ordinary pairs. FourCycleStates
+exhausts16 sign patterns into all-nonpositive,all-positive,one-positive,
+PNP-sandwich or adjacent-two-positive states; zero is nonpositive. Crosspoint,
+origin,retaining/missing profiles and native bars are derived on their same
+physical owners. AllNonpositiveActual covers every strict forward pattern.
+OnePositiveActual/RetainingEnding and NegativeOwned/MissingPositiveActual close
+the mixed sign edges. Scalar monotonicity is finite exact circle algebra.
+
+MPPMActualInwardReduction.ordinary derives all actual Ordinary pairs from only
+the original family/context. The no-elbow cover first gives Ordinary or Inward.
+ActualInwardMissingEnds.missing_center_outer is noncircular: it uses only the
+opposite no-elbow cover. Positive missing inward owners are excluded via either
+an actual predecessor origin or one actual Q8 segment with a genuine Q10 far
+omission. Negative omitted-G inward owners use SmallThreeEnding. Centered
+owners are forced negative using CenteredPositiveHeight with all predecessor
+signs; OuterFar and OmittedFar close ordinary-opposite alternatives. The true
+half-turn context and same-owner missing/centered OIOI terminals close the
+remaining inward-opposite alternatives. Final rotations produce all4 sectors.
+
+The SmallThree raw input explicitly includes NegativeSuccessor E. Its actual
+producer uses the genuine paired-corner marker and right bar already available
+in this family; no unwritten weak-input rectangle certificate is assumed. The
+same B first supplies its C/B separator and narrow signed tilt, then supplies
+all B/E signed-axis comparisons. Canonical frame changes preserve physical
+B,center,side,wall and every strict point. Several derivative/radical arguments
+were shortened to finite unit-circle differences and exact endpoint polynomials.
+
+Two minor shared API changes: NegativeForward.axes/target_support are now public;
+InwardFinalSign.nonnegative_successor_faces delegates its identical E-only body
+to InwardNonnegativeFaces. InwardFinalOuterOwned exposes the nonnegative
+contradiction without assuming the unneeded center omission. Existing public
+proof conclusions are preserved. ActualCrosspoints adds exact composed-forward
+and next-forward membership/omission equivalences.
+
+SOURCE PRESERVATION, REVIEWS AND RESOURCES
+
+All259 recorded original mathematical files retain their exact size/SHA256.
+C580/C581's supplied writeups are unchanged. Both original row321/322 source
+contracts already exist; C581 sections6--8 now use NegativeMixedCubic and
+NegativeWallElimination through the preserved APIs. Queue:mathematics/
+FORMALIZATION-QUEUE.txt. SOURCE-INDEX.json maps current sources and provenance.
+
+Independent source reviews cover the six final original contracts, actual
+owner/domain entrances, complete Ordinary sign/state joins, inward endings and
+final assembly. Root separately reviewed OmittedFar/OuterFar/CenteredPositive
+Height and all SmallThree modules. Source reviews include exact algebra and
+contact endpoints; none of this is compiler or global acceptance.
+
+Current complete selected source-header closure:5375 project+3234 external=
+8609 modules;499569 project source lines. Assembly alone:5238+3104=8342 modules.
+Both are below hard10000 and above preferred8000. Future unwritten proofs are
+not included. Retained alternatives total9311 discovered modules, but have
+missing historical imports; their inventory is incomplete and is not proof
+acceptance or a certified full future resource bound.
+
+Phase evidence:evidence/c1092-whole-case-source-2026-10-15.json contains exact
+selected roots, hashes, review scope, preserved manuscript checks and static
+trust-site audit. Earlier evidence files are historical checkpoints. The
+source_census.py script only reads source/import headers; it does not compile.
+To reproduce this phase inventory from the project directory:
+  python3 scripts/source_census.py Compact.Assembly.ContinuousRemaining
+Its default roots include SourceAssembly,C981Progress and every Compact/
+Completion module. The evidence records the sorted exact root selection.
+
+CONTINUATION
+
+1. Read current git status, this guide and mathematics/REMAINING-EIGHT.txt.
+2. Integrate relayed completed mathematics into the preserved source library,
+   then write genuine actual-owner entrances and all-angle endings. The six
+   requested cases need compiler acceptance later, not another invented gap.
+3. Do not restart Lean/Lake/replay/certificate generation in this source phase.
+   Once the user changes that instruction, preflight memory/disk/module limits
+   and use the serial resource-guarded verifier; respect known historical errors
+   as diagnostics only. Fresh compiler/axiom/end-to-end acceptance is outstanding.
+4. Keep global optimality conditional until ALL8 original cases are supplied;
+   never use an admission, a weakened owner/profile or a reported receipt.
+5. Commit portable source/evidence/continuation only and push using ordinary Git.

@@ -1,0 +1,789 @@
+{
+  "date": "2026-10-14",
+  "branch": "codex/n12-initial-programs-2026-10-14",
+  "base_commit": "f66b17565533d0db6fc7274932e4ddf4d68e3508",
+  "scope": "Completed mathematical arguments translated to Lean source; new user-supplied eight-point proof and C1089 terminal integrated",
+  "current_phase_compilation_performed": false,
+  "global_optimality_proved": false,
+  "whole_original_case_source_assembly": {
+    "listed": 100,
+    "total": 117,
+    "new_whole_case_acceptance_claimed": false
+  },
+  "source_census": {
+    "project_modules": 4985,
+    "project_source_lines": 441814,
+    "external_modules": 3231,
+    "combined_modules": 8216,
+    "selected_source_closure_complete": true,
+    "preferred_module_limit": 8000,
+    "hard_module_limit": 10000,
+    "current_source_under_8000": false,
+    "current_source_under_hard_limit": true,
+    "future_unwritten_obligations_included": false,
+    "all_project_lean_files": 5514,
+    "retained_combined_modules": 8921,
+    "retained_source_closure_complete": false
+  },
+  "mathematical_library": {
+    "manifest": "mathematics/SOURCE-INDEX.json",
+    "files_preserved": 251,
+    "all_hashes_match": true,
+    "new_user_documents": [
+      {
+        "path": "mathematics/current/proofs/EIGHT-POINT-OBSTRUCTION.md",
+        "sha256": "85a3e9b80470b83790ea63e2d1482eb9dddcecf38fef7b938fcf6db66f9270d9",
+        "bytes": 6460,
+        "source": "User-supplied mathematical argument, 2026-10-14",
+        "lean_compilation_performed": false
+      },
+      {
+        "path": "mathematics/current/proofs/C1089-SIMPLIFIED-PROOF.md",
+        "sha256": "6bf2ab3b71e2c2ac920f52e03b7c394703813f18a327574ec23c06ebdb41c1eb",
+        "bytes": 8945,
+        "source": "User-supplied mathematical argument, 2026-10-14",
+        "lean_compilation_performed": false
+      }
+    ]
+  },
+  "new_c1089_roots": {
+    "eight_point_root": "Compact.Completion.OtherCases.EightPointObstruction",
+    "c1089_map": "N12Compact.Completion.OtherCases.C1089.LastOrdinaryObstruction.eight_point_impossible",
+    "actual_support_join": "N12Compact.Completion.OtherCases.C1089.LastSectorSupportJoin.impossible",
+    "status": "written source; compilation deferred by user",
+    "eight_point_theorem": "N12Compact.Completion.OtherCases.EightPointObstruction.impossible"
+  },
+  "static_review": {
+    "trust_keyword_changes": [],
+    "scope": "Lexical scan of changed Lean source against base; not an axiom audit or compiler acceptance",
+    "authored_source_diff_whitespace_check_passed": true,
+    "preserved_mathematical_source_whitespace_warnings": [
+      "projects/n12-refactored/mathematics/current/proofs/C1089-MMMP-SINGLETON-ENDING.md:127: new blank line at EOF.",
+      "projects/n12-refactored/mathematics/current/proofs/C1089-NORTHEAST-INWARD-ENDING.md:81: new blank line at EOF.",
+      "projects/n12-refactored/mathematics/current/proofs/C1089-REVERSE-CYCLIC-ENDING.md:283: new blank line at EOF.",
+      "projects/n12-refactored/mathematics/current/proofs/C1092-MPPM-INWARD-CONTINUOUS-ENDING.md:130: new blank line at EOF.",
+      "projects/n12-refactored/mathematics/current/proofs/C1092-MPPM-ORDINARY-NEGATIVE-HALFPOINT.md:252: new blank line at EOF.",
+      "projects/n12-refactored/mathematics/current/proofs/C1092-ORIGINAL-ENTRANCE.txt:225: new blank line at EOF.",
+      "projects/n12-refactored/mathematics/current/proofs/C974-ORIGINAL-ENTRANCE.txt:491: new blank line at EOF.",
+      "projects/n12-refactored/mathematics/current/proofs/INNER-CORNER-FOUR-EXCLUSIONS.md:71: new blank line at EOF.",
+      "projects/n12-refactored/mathematics/current/proofs/INNER-CORNER-INWARD-POINT.md:63: new blank line at EOF."
+    ],
+    "preserved_mathematical_source_whitespace_policy": "Original mathematical files remain byte-for-byte unchanged, including existing final blank lines."
+  },
+  "earlier_limited_receipt": {
+    "path": "evidence/c981-mask-pilot32.json",
+    "scope": "Previously checked 32-front C981 mask pilot only; no acceptance of new continuous translations"
+  },
+  "trust_boundary": "New geometry uses ordinary Lean proof bodies and preserves strict ownership and weak contact. Compilation remains deferred. Existing selective native numerical trust is unchanged; no new native sites added.",
+  "remaining_work_guide": "handoff/SOURCE-WRITING-2026-10-14.txt",
+  "missing_original_source_modules": [
+    "S12.SingletonMissingTriangles",
+    "S12.MissingCornerCubic"
+  ],
+  "new_attachment_unprovided_references": [
+    "entrance/LOCAL-RULE.txt",
+    "entrance/FOUNDATIONAL-ENTRANCE.md",
+    "checks/replay_entrance.py",
+    "checks/check_foundation.py",
+    "checks/check_new_obstruction.py",
+    "PROVENANCE.json",
+    "reference/RECOVERY-MANIFEST.json"
+  ],
+  "new_lean_modules": 90,
+  "changed_existing_lean_modules": 9,
+  "lean_source_files": [
+    {
+      "path": "Compact/Bridge/PrefixCoverageMaskChunks.lean",
+      "status": "new",
+      "sha256": "7080b524a888362c22f9a6f53ad9ebc90d2014a2ba7206bc3d5572aa10bd335b",
+      "bytes": 2012,
+      "lines": 42
+    },
+    {
+      "path": "Compact/Bridge/PrefixCoverageMasks.lean",
+      "status": "changed",
+      "sha256": "bff5f8ae1a3e809cdfde9200ddb87234b87f378206134c40dd7b993bab0cc0fe",
+      "bytes": 9611,
+      "lines": 191
+    },
+    {
+      "path": "Compact/Completion/C1092/MMMMNegativeNeighbor.lean",
+      "status": "changed",
+      "sha256": "28ba7b3c22c133504289a50a7bcfcb7ca17f7cc1a9fc69886969b4e4d84c0b17",
+      "bytes": 7865,
+      "lines": 161
+    },
+    {
+      "path": "Compact/Completion/C1092/MMMMPairAxes.lean",
+      "status": "changed",
+      "sha256": "8cbfeee225a8f2649cfa5933681a4b4a1469d74374e3d34faf5932451edaba3d",
+      "bytes": 3415,
+      "lines": 62
+    },
+    {
+      "path": "Compact/Completion/C1092/MMMMPairScalars.lean",
+      "status": "changed",
+      "sha256": "58f1d37cd62ed047dbd8fe1f1f3b6ef9c4b36701520ef53163536a8aec4b262e",
+      "bytes": 15271,
+      "lines": 333
+    },
+    {
+      "path": "Compact/Completion/C1092/MMMP/BottomBoundaryMargin.lean",
+      "status": "new",
+      "sha256": "3835a43dc96b33faac39ab1bf4fa363554910f6f41fa9fa5a1e550e4ea50f7ac",
+      "bytes": 8173,
+      "lines": 173
+    },
+    {
+      "path": "Compact/Completion/C1092/MMMP/BottomBoundaryOrder.lean",
+      "status": "new",
+      "sha256": "5556367b3f4220871b1b7ed749fe5fcaab9aff81a69aeb595d0fb9f19c54b4ca",
+      "bytes": 6367,
+      "lines": 143
+    },
+    {
+      "path": "Compact/Completion/C1092/MMMP/BottomOrigin.lean",
+      "status": "new",
+      "sha256": "65b7ebeb55976189a241a8619d2cdbea3c4efa48907eb8b11116060d8ebf0dbb",
+      "bytes": 5681,
+      "lines": 138
+    },
+    {
+      "path": "Compact/Completion/C1092/MMMP/BottomOriginEntrance.lean",
+      "status": "new",
+      "sha256": "40894092a91f18025e9c4c949bfe0bad602bc992af514400ee2919cbcfab4e8b",
+      "bytes": 4286,
+      "lines": 95
+    },
+    {
+      "path": "Compact/Completion/C1092/MMMP/BottomOriginObstruction.lean",
+      "status": "new",
+      "sha256": "b8d9a4b4a154b3f547d8b2c3e73cbe5ac1d3a52e92ec611600ecd83dadd68641",
+      "bytes": 5335,
+      "lines": 96
+    },
+    {
+      "path": "Compact/Completion/C1092/MMMP/BottomOwnMargin.lean",
+      "status": "new",
+      "sha256": "497e85133c57cdbe04362db11abe336fcaeb0d285578189e0ade40e3ed8971f6",
+      "bytes": 9589,
+      "lines": 214
+    },
+    {
+      "path": "Compact/Completion/C1092/MMMP/CornerFloorProfile.lean",
+      "status": "new",
+      "sha256": "de4e1070424f7c1068cfe4bc5ce0b6deb886f037da976255baa6d804470c911d",
+      "bytes": 9452,
+      "lines": 206
+    },
+    {
+      "path": "Compact/Completion/C1092/MMMP/InwardOuterArmHalfpoint.lean",
+      "status": "new",
+      "sha256": "873c2a4d26fd9e76e60bec511066c33fecc62b56924e193f8595669b1396dd7b",
+      "bytes": 10410,
+      "lines": 241
+    },
+    {
+      "path": "Compact/Completion/C1092/MMMP/NegativeCenterSupports.lean",
+      "status": "new",
+      "sha256": "b30af98d359ed6494404bf53949baaf44733cdd8b2905eadf70891aac65c42a7",
+      "bytes": 7197,
+      "lines": 150
+    },
+    {
+      "path": "Compact/Completion/C1092/MMMP/NegativeCornerFloor.lean",
+      "status": "new",
+      "sha256": "e16cc3dc9af1b41eefa87be1afb94a771e28a19977997bf446080a849447982c",
+      "bytes": 11419,
+      "lines": 240
+    },
+    {
+      "path": "Compact/Completion/C1092/MMMP/PositiveInwardHalfangle.lean",
+      "status": "new",
+      "sha256": "0d6cf8e9aa1a5b84ccb9e11ad8d4b868ca1e062fb3e8250446c056f507cf7f1d",
+      "bytes": 8237,
+      "lines": 191
+    },
+    {
+      "path": "Compact/Completion/C1092/MMMP/TopOrigin.lean",
+      "status": "new",
+      "sha256": "36167c9dc6cb9e5bcfabd4f982f876d5ad13c62dd2de77ceb0bb831a9001e754",
+      "bytes": 7763,
+      "lines": 161
+    },
+    {
+      "path": "Compact/Completion/C1092/MPPMWallOrderCycle.lean",
+      "status": "new",
+      "sha256": "10a615f9ba147dac8264e179e6b64141392de068ee844eb6c3d9bf0ce34ffd4e",
+      "bytes": 4804,
+      "lines": 109
+    },
+    {
+      "path": "Compact/Completion/C981/CoverageMasks/Identities05.lean",
+      "status": "new",
+      "sha256": "eac6af6686e2e6a06e27fd478cd23eb9a6e4501fa71f480f775fdafb7ea8ca3b",
+      "bytes": 601,
+      "lines": 20
+    },
+    {
+      "path": "Compact/Completion/C981/CoverageMasks/Step10Codes32.lean",
+      "status": "new",
+      "sha256": "7d5fff42d79ccf241da6ef56f46a017cbbb0878ab5e144832afa57dae7cc7c0d",
+      "bytes": 11827,
+      "lines": 221
+    },
+    {
+      "path": "Compact/Completion/C981/CoveragePilot/Step10Masks32.lean",
+      "status": "new",
+      "sha256": "172db560169ebfa8b5c216769257a8a508492ea8ce5ba896d58a22fa643538f7",
+      "bytes": 15074,
+      "lines": 251
+    },
+    {
+      "path": "Compact/Completion/C981/CoveragePilot/Step10Masks32Check.lean",
+      "status": "new",
+      "sha256": "c77a00a142ac200a23340fd8719464d07a72ceeb79a8a0587345ac8187ab0789",
+      "bytes": 3369,
+      "lines": 69
+    },
+    {
+      "path": "Compact/Completion/CommonCases/BernsteinQuartic.lean",
+      "status": "new",
+      "sha256": "3ccd3241ecd63ef1af29b9dc02d18d8ce82018c6fe01c0ee21d9297b8345eb42",
+      "bytes": 1095,
+      "lines": 29
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C1089/LastOrdinaryObstruction.lean",
+      "status": "new",
+      "sha256": "9054be5ee36ec7488ebd66f53243608c292175de8ed74da5c35a09466cc18cac",
+      "bytes": 3103,
+      "lines": 71
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C1089/LastSectorSupportJoin.lean",
+      "status": "new",
+      "sha256": "aa110ad6ebad6a435d40ec98651292ff4b8e968e5961b0e2da21866ca8b5fa94",
+      "bytes": 4910,
+      "lines": 106
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C976LeftTop/Directions.lean",
+      "status": "new",
+      "sha256": "84f09b46cc00526a778c4a7cba6487b6c4b79d8db6de92304b6424eeca07ffc2",
+      "bytes": 4251,
+      "lines": 81
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C976LeftTop/Inputs.lean",
+      "status": "new",
+      "sha256": "f0f1433948e2aaba3f5d98b5090899ac1e35be0c47624bea0e4dbc7f4f268159",
+      "bytes": 3034,
+      "lines": 70
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C976LeftTop/LargeSupports.lean",
+      "status": "new",
+      "sha256": "5e82daef0fe82fc35dfb4c42b22669d33ab31be4f07f27cfc5b0b71ac21af209",
+      "bytes": 7044,
+      "lines": 138
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C976LeftTop/Main.lean",
+      "status": "new",
+      "sha256": "8640eb97eb2d2c31f656cca5f2d65db9e2de9e7b6f01492c2e9b15a655516ad1",
+      "bytes": 2922,
+      "lines": 60
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C976LeftTop/Margins.lean",
+      "status": "new",
+      "sha256": "0ecf0f588f7094c3f1a97e067a69dad77bd13c95ed3ea368669ae1d9da2ad5de",
+      "bytes": 4811,
+      "lines": 104
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C976LeftTop/Polynomials.lean",
+      "status": "new",
+      "sha256": "fcfbafbea1f619eb91dc8d0e04b513455fc475af570cd4ca9454b13ebac71558",
+      "bytes": 4133,
+      "lines": 83
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C976LeftTop/Scalars.lean",
+      "status": "new",
+      "sha256": "fd6f2b41624e8c327d5ae80ef3b3a80359643a18b9cbbb6cfa6b11af477bc5de",
+      "bytes": 7895,
+      "lines": 170
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C976LeftTop/Segment.lean",
+      "status": "new",
+      "sha256": "03f48ea12352b8af6028f4c9dff5e4b5a438f2dcc146f46273cdd3f59bc3b69d",
+      "bytes": 4919,
+      "lines": 102
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C976LeftTop/SmallAngles.lean",
+      "status": "new",
+      "sha256": "16545eea640b03393172ef5fbeaa0b555923f88236245c392c62afb152a670a8",
+      "bytes": 4480,
+      "lines": 81
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C976LeftTop/TopFaces.lean",
+      "status": "new",
+      "sha256": "078179e4bb69a74bc9d69da64b4f10bd95820d6dfbd4a2b065b5205266b8610d",
+      "bytes": 5680,
+      "lines": 106
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C976NegativeTop/Faces.lean",
+      "status": "new",
+      "sha256": "8cc315cbba456607fecec9ba75daad929da115cd0a5e7a4357c61a949e12d196",
+      "bytes": 4038,
+      "lines": 98
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C976NegativeTop/LeftFace.lean",
+      "status": "new",
+      "sha256": "3b8ea5d1201048f370494c3d00561beaed561fc9fa924caa784cf0f80fe738be",
+      "bytes": 4414,
+      "lines": 96
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C976NegativeTop/Main.lean",
+      "status": "new",
+      "sha256": "113e38f13487f535dd6eebc35f43c2ebb4f6a08fbef4d28fea873f2370bd10f0",
+      "bytes": 10743,
+      "lines": 214
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C976NegativeTop/MixedAngle.lean",
+      "status": "new",
+      "sha256": "bb0f46d3202f933dae964f34441feccb5b4d763b0961d8adae2f5a61a58422f8",
+      "bytes": 4827,
+      "lines": 100
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C976NegativeTop/NortheastScalars.lean",
+      "status": "new",
+      "sha256": "ddfd0699d87278160425fdbdc9ede4fd04f319ec87cb6ca6160b28c37d4539d0",
+      "bytes": 8849,
+      "lines": 206
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C976NegativeTop/QuadrantScalars.lean",
+      "status": "new",
+      "sha256": "59028bdf43c7d499a4842575c7905828c5031e7bf341cad17e134695d8b895e9",
+      "bytes": 4190,
+      "lines": 90
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C976NegativeTop/SeparatingAxes.lean",
+      "status": "new",
+      "sha256": "3d679c3286c6530bc11dd8c70d2971d8983449d31f0ba7fca2a11d0a2ca367b7",
+      "bytes": 3654,
+      "lines": 71
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C976NegativeTop/TopScalars.lean",
+      "status": "new",
+      "sha256": "da9f3029c6221cb156e75cb5350440ac1eb6491785cc71c9f954c43eb39ceefd",
+      "bytes": 11011,
+      "lines": 247
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C983/C974CornerEnding.lean",
+      "status": "new",
+      "sha256": "9b55df8c3dff1ed4d3345fe33be7a35582d3cd888fa40f3c1e347bd8ff881354",
+      "bytes": 11127,
+      "lines": 231
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C983/C974CornerScalars.lean",
+      "status": "new",
+      "sha256": "276310ee46a01ffde0b970a8a3c01040c99e1b3f598dbcc27bb05f65f5cc5548",
+      "bytes": 3581,
+      "lines": 83
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C983/C974LocalData.lean",
+      "status": "new",
+      "sha256": "6967d9ce1b69d7bdf38e3f04440eab2e12f985147792d333694cdaf26845423f",
+      "bytes": 8787,
+      "lines": 180
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C983/C974LowerFace.lean",
+      "status": "new",
+      "sha256": "829c40d14569e99313160c95333ca72fcc6efc19d65665e187f6be08577b151e",
+      "bytes": 13829,
+      "lines": 292
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C983/C974LowerFaceLarge.lean",
+      "status": "new",
+      "sha256": "41b79d0d468c2b517897cf3dc432e36f3bfc6ccb1dae36b93c002e54a44998c4",
+      "bytes": 7717,
+      "lines": 188
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C983/C974LowerFaceScalars.lean",
+      "status": "new",
+      "sha256": "b6b9bdda70712be00cd7f389bccd04bcd51e6b6d19d813b04cc5d7dc7ba2ba10",
+      "bytes": 9582,
+      "lines": 233
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C983/C974ReducedEnding.lean",
+      "status": "new",
+      "sha256": "19f914b377192793b8b2fb6b2836c058aef417145710a30f84260d759e179ee7",
+      "bytes": 2709,
+      "lines": 60
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C983/C974WallReach.lean",
+      "status": "new",
+      "sha256": "4060fcb2c10175a4d52a658c14c0cef80d33e6c396144268cad0f9a6398a711d",
+      "bytes": 5016,
+      "lines": 133
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C983/F4BarAngle.lean",
+      "status": "new",
+      "sha256": "6a18f61ee8930d51deea567ec4180fad3cb3cbef7d0e131e23f60544cfd9db91",
+      "bytes": 4547,
+      "lines": 89
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C983/F4BarAngleScalars.lean",
+      "status": "new",
+      "sha256": "0a56abb17897ae939fa434f530842c40d809821f46c15a1344962e02851d96ea",
+      "bytes": 5458,
+      "lines": 114
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C983/F4BottomMidpoint.lean",
+      "status": "new",
+      "sha256": "7e4ff62b0af85c9cd000c13824fd0747930a9514ce6c7abeb80e870afb650f7b",
+      "bytes": 14522,
+      "lines": 300
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C983/F4BottomMidpointOriginal.lean",
+      "status": "new",
+      "sha256": "b1e5e86f74d646fa8bc61650dbdf0b44e29ce8dbf6f07e00d3f62b6a462d6ac2",
+      "bytes": 2712,
+      "lines": 61
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C983/F4MergedCenter.lean",
+      "status": "new",
+      "sha256": "84a84936279fc364694ba5bbfd498849275e33ecd1e5d2277821914b23eec8a0",
+      "bytes": 15814,
+      "lines": 338
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C983/F4MergedCenterEnding.lean",
+      "status": "new",
+      "sha256": "0c21350b03ac7f7614b3d9001809f354ed51a494cd4983a3d8db64e82b45ec80",
+      "bytes": 8824,
+      "lines": 161
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C983/F4MergedCenterMonotone.lean",
+      "status": "new",
+      "sha256": "4e02ecbffe6b2973c749d215e2b62fe5ba8ee18f03aae18e05792e33cc1c060d",
+      "bytes": 14940,
+      "lines": 307
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C983/F4MergedCenterNegative.lean",
+      "status": "new",
+      "sha256": "68edecc2e2025591343cce583428f512b1c5562bb468875109b5d06cdb26ed8f",
+      "bytes": 12338,
+      "lines": 254
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C983/F4MergedCenterPositive.lean",
+      "status": "new",
+      "sha256": "3896f08efc626f0d1bc04fba18f217ed0f054b194b2a3f261a59e0cfb991de5f",
+      "bytes": 10630,
+      "lines": 225
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C983/F4NegativeBoundScalars.lean",
+      "status": "new",
+      "sha256": "4458ec6d8175fdb440ab8b533522813748bc975b98060612db9b4e8b704365c6",
+      "bytes": 2195,
+      "lines": 50
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C983/F4NegativeBounds.lean",
+      "status": "new",
+      "sha256": "d62dfb48afbceda6f552a4e9cd370d01967710a169eae480d8a8a5aa45a2248d",
+      "bytes": 2855,
+      "lines": 65
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C983/F4OuterMidpoint.lean",
+      "status": "new",
+      "sha256": "5d28ba711cefb77f06d80d2c1612c309f4fafe0c14db6f6f6caf2fd4990f1af3",
+      "bytes": 18049,
+      "lines": 366
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C983/F4OuterMidpointOriginal.lean",
+      "status": "new",
+      "sha256": "fbd31d03bd8861b398570bdbfa9f495c7e075e4f22e774a123b3a8fd094c2110",
+      "bytes": 5713,
+      "lines": 126
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C983/F4OuterScalars.lean",
+      "status": "new",
+      "sha256": "be0e3e52afd0c7be6b031cee1dd163ee71754461a0d69c61b16cb42398e94025",
+      "bytes": 8941,
+      "lines": 197
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C983/F4SoutheastSign.lean",
+      "status": "new",
+      "sha256": "26981053a3a991acfc72f6dd47395fcbf02abf151074505e9ead3787014e1473",
+      "bytes": 10337,
+      "lines": 196
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C983/F4SoutheastSignSupports.lean",
+      "status": "new",
+      "sha256": "810ad2a40b42456df92b7b1e69cf8c7518ddb58d859bc02a6710108211845504",
+      "bytes": 6715,
+      "lines": 144
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C983/F4TopOnlyFrame.lean",
+      "status": "new",
+      "sha256": "af2285f6208999a131b27814b730b92aaa5c854e32420256a6e52a03a150c2c8",
+      "bytes": 2104,
+      "lines": 44
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C983/F5Completion.lean",
+      "status": "new",
+      "sha256": "dfef9125fd50764ac906510428edc947f759f13123712240d451275638685526",
+      "bytes": 742,
+      "lines": 17
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C983/NegativeForeignFaces.lean",
+      "status": "new",
+      "sha256": "074e7c20b8edfcbae54910e1d0531bfc1fdea39b628a1ac699dace158162928c",
+      "bytes": 18646,
+      "lines": 393
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C983/NegativeMixedRight.lean",
+      "status": "new",
+      "sha256": "0d58af5ec0933e186a65fa1cc6f3f3834ae8fbb4a195f83e2e0ab314c2775d65",
+      "bytes": 13737,
+      "lines": 296
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C983/NegativeMixedScalars.lean",
+      "status": "new",
+      "sha256": "5f37c159cbbcb75433128298d52289c0c676c123bf296974183f220186ad27a3",
+      "bytes": 5597,
+      "lines": 145
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C983/NegativeMixedShallow.lean",
+      "status": "new",
+      "sha256": "c50a93317aaef250f088fc0914e01bc56ad3e47482323379e9f46ffe8fb82925",
+      "bytes": 2258,
+      "lines": 48
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C983/NegativeMixedSouth.lean",
+      "status": "new",
+      "sha256": "fa8c055e9c77cab20eea4801b531b98a220200eacd5ba5ebe48dc380b5bcc45f",
+      "bytes": 12461,
+      "lines": 254
+    },
+    {
+      "path": "Compact/Completion/OtherCases/C983/NegativeTripleEnd.lean",
+      "status": "new",
+      "sha256": "1045a5f366ddd5722366c58da89e3af483e892cff39e389c1e66baee8cb2fa0b",
+      "bytes": 1634,
+      "lines": 30
+    },
+    {
+      "path": "Compact/Completion/OtherCases/EightPointObstruction.lean",
+      "status": "new",
+      "sha256": "efe7fd6b3232e5c3e14cfc51c8e38fcfaf8d312f52a4a58d7f27a7d4f68716b2",
+      "bytes": 7798,
+      "lines": 181
+    },
+    {
+      "path": "Compact/Completion/OtherCases/NegativeTripleFaces.lean",
+      "status": "changed",
+      "sha256": "a35f95e29ed18cf6d1ef98f0b67bd8195b9f375a56d8a617d3ccdb701b941448",
+      "bytes": 2797,
+      "lines": 64
+    },
+    {
+      "path": "Compact/Completion/OtherCases/OrdinaryLeftTop/Inputs.lean",
+      "status": "new",
+      "sha256": "7d100bcde0d909b0974224480994e46d31b4e1d089d43abba9861deb6c9d2e1c",
+      "bytes": 1480,
+      "lines": 37
+    },
+    {
+      "path": "Compact/Completion/OtherCases/OrdinaryLeftTop/Main.lean",
+      "status": "new",
+      "sha256": "be008eb84f757c4c99baa8d2e0ac5695e89ae462451ec68b21794c5bc74265a7",
+      "bytes": 2773,
+      "lines": 59
+    },
+    {
+      "path": "Compact/Completion/OtherCases/OrdinaryLeftTop/Negative.lean",
+      "status": "new",
+      "sha256": "9be0274a51902c1ca688d6e4746e60b6a30061a40e9d21dca950000d47bfc45a",
+      "bytes": 5550,
+      "lines": 134
+    },
+    {
+      "path": "Compact/Completion/OtherCases/OrdinaryLeftTop/Positive.lean",
+      "status": "new",
+      "sha256": "31d0873dbbfc52ec59844b73d347b918d12f0bf4d35eb888f29dbd141d6c3d61",
+      "bytes": 5859,
+      "lines": 136
+    },
+    {
+      "path": "Compact/Completion/OtherCases/OrdinaryLeftTop/ScalarMargins.lean",
+      "status": "new",
+      "sha256": "faa70019c05b63692437e5677bfb1a77f9823663174bd50a8aaedf6ad4a976c4",
+      "bytes": 5447,
+      "lines": 138
+    },
+    {
+      "path": "Compact/Completion/OtherCases/OrdinaryLeftTop/ShallowTopDirections.lean",
+      "status": "new",
+      "sha256": "476a8161a3f25ac436a2b5d6907705de8d5b6e9a3df4d00a403d6bde037b404c",
+      "bytes": 4939,
+      "lines": 94
+    },
+    {
+      "path": "Compact/Completion/OtherCases/OrdinaryLeftTop/ShallowTopExitScalars.lean",
+      "status": "new",
+      "sha256": "6c0e207eb4beb17ccc38f95c8230e694f5282946115b0b2ead516ce568990197",
+      "bytes": 5296,
+      "lines": 126
+    },
+    {
+      "path": "Compact/Completion/OtherCases/OrdinaryLeftTop/ShallowTopPair.lean",
+      "status": "new",
+      "sha256": "ffa02edcaaf44913935f13486c9713d221c8342be5e99fc41f4d618a1fb7423f",
+      "bytes": 5835,
+      "lines": 119
+    },
+    {
+      "path": "Compact/Completion/OtherCases/OrdinaryLeftTop/ShallowTopScalars.lean",
+      "status": "new",
+      "sha256": "4acf92d500e9bd4138880c4eaae9c96b36f55ae6910f3d1cc06de51b3a3016e8",
+      "bytes": 5409,
+      "lines": 118
+    },
+    {
+      "path": "Compact/Completion/OtherCases/OrdinaryLeftTop/ShallowTopSupport.lean",
+      "status": "new",
+      "sha256": "79ba50503b5e3274e95eba9088bcee2487d5f73db25bc011374aedcc967fbe49",
+      "bytes": 8478,
+      "lines": 181
+    },
+    {
+      "path": "Compact/Completion/OtherCases/SharpPointScalars.lean",
+      "status": "changed",
+      "sha256": "2416ed0e65e212679bf5b2c6fb2c7f34eec1d2c42827f6177d1cc69c63812ace",
+      "bytes": 7301,
+      "lines": 153
+    },
+    {
+      "path": "Compact/Completion/OtherCases/SouthwestSupportPoint/Inputs.lean",
+      "status": "new",
+      "sha256": "b8cd27439cc19c3fd956cc7ae87c0fffd30fb208768e2e09531c11f4ae5b4fba",
+      "bytes": 2111,
+      "lines": 46
+    },
+    {
+      "path": "Compact/Completion/OtherCases/SouthwestSupportPoint/LowerFaces.lean",
+      "status": "new",
+      "sha256": "42e48e0c400e88c350fa766abf7f90b614cc8c3e700677961703325aa0da0882",
+      "bytes": 4014,
+      "lines": 81
+    },
+    {
+      "path": "Compact/Completion/OtherCases/SouthwestSupportPoint/Main.lean",
+      "status": "new",
+      "sha256": "656d1054a9bb15425821e2f307fe5499e3d8dcaab40379a2512b61a99895fc64",
+      "bytes": 5337,
+      "lines": 101
+    },
+    {
+      "path": "Compact/Completion/OtherCases/SouthwestSupportPoint/Negative.lean",
+      "status": "new",
+      "sha256": "91cc46eed5e5e6c357adf9ebe8018081ae13c27c79631ee17026e4cdeb3945d1",
+      "bytes": 5360,
+      "lines": 103
+    },
+    {
+      "path": "Compact/Completion/OtherCases/SouthwestSupportPoint/Polynomials.lean",
+      "status": "new",
+      "sha256": "f51c514c7c265a4716631090e91b2f214771ba3ec7ca3a172e867c0b22077892",
+      "bytes": 3350,
+      "lines": 69
+    },
+    {
+      "path": "Compact/Completion/OtherCases/SouthwestSupportPoint/Positive.lean",
+      "status": "new",
+      "sha256": "c22e3e3330ddaaa824ada5048857d191585409ab6f79c07c3ace0a451b979108",
+      "bytes": 6703,
+      "lines": 133
+    },
+    {
+      "path": "Compact/Completion/OtherCases/SouthwestSupportPoint/Scalars.lean",
+      "status": "new",
+      "sha256": "089e41973ad9127ebb0a7e843dc7022084cb09176ec865f7bac76829ee9f6248",
+      "bytes": 7310,
+      "lines": 153
+    },
+    {
+      "path": "Compact/Completion/OtherCases/SouthwestSupportPoint/SegmentSupport.lean",
+      "status": "new",
+      "sha256": "f0fbc70417d2bc6383d36b67e94b22d2d5295af6194487544edf6c6b9751d7ca",
+      "bytes": 4879,
+      "lines": 116
+    },
+    {
+      "path": "Compact/Completion/OtherCases/WallProfile/BoundaryOrigin.lean",
+      "status": "changed",
+      "sha256": "c915948907bd7e5646142351886b9a32ce06eaff34f5d6257c776e4932753c33",
+      "bytes": 10944,
+      "lines": 221
+    },
+    {
+      "path": "Compact/Geometry/FullAuxWallOppositeAxes.lean",
+      "status": "changed",
+      "sha256": "4a193ddc1546347efc2024ca5b9d5fdcff25f67e38950a9bdd1e28e331cecca5",
+      "bytes": 8549,
+      "lines": 187
+    },
+    {
+      "path": "Compact/Geometry/FullAuxWallSmallTopAngle.lean",
+      "status": "changed",
+      "sha256": "781b53d520f00c4bd91bac4d6b3c97dac472b03aec04d457946fa67044b619b5",
+      "bytes": 3512,
+      "lines": 84
+    }
+  ]
+}

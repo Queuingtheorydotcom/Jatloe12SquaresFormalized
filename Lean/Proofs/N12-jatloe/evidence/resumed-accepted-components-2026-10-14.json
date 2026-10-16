@@ -1,0 +1,232 @@
+{
+  "description": "Scoped component acceptance after explicit resume. This is neither a whole-C981 certificate nor a global proof. The verifier reuses transitive-fingerprint-checked dependencies.",
+  "completed_original_c981_representative_ids": [
+    2,
+    28,
+    29,
+    30,
+    34,
+    37,
+    41,
+    43,
+    54,
+    55,
+    56,
+    58,
+    69,
+    73,
+    93,
+    98,
+    103,
+    104,
+    107,
+    109
+  ],
+  "c981_integration_patch_applied": true,
+  "c981_full_registry_replay_complete": false,
+  "c981_original_coverage_complete": false,
+  "c1092_mmmm_replay_complete": false,
+  "ben_c705716_fresh_local_replay_complete": false,
+  "global_optimality_proved": false,
+  "records": [
+    {
+      "module": "Compact.Completion.C981.CommonRows",
+      "source_sha256": "842ba366f681fe66c142dfaf4bb82f4c4d1750e2d3cf17733c71a5ef1a434e54",
+      "elapsed_seconds": 19.417,
+      "returncode": 0,
+      "lean_returncode": 0,
+      "rejected_admission": false,
+      "log_sha256": "e301d51a351f3941dc3601670f8d3acdc9ba896e5890c344356ea7392a4f899f",
+      "fingerprint": "557919cd907d34e234ce0fb74b2bb8335d074864baf5e3e1de1e4b4ceb82027f",
+      "object_sha256": "4e58dd447dd4f7725021c4027cfd0f5aa1099dd82997efd9cf5dbaa3a02c0781",
+      "axiom_log": [
+        "'N12Compact.C981CompletionCommonRows.covered_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]"
+      ]
+    },
+    {
+      "module": "Compact.Completion.C981.Common107",
+      "source_sha256": "132a01de10b8617814089ef49a9e88da91256ca149361ccd71f5619341153c03",
+      "elapsed_seconds": 27.977,
+      "returncode": 0,
+      "lean_returncode": 0,
+      "rejected_admission": false,
+      "log_sha256": "f15a03545768fb8668de8dc70fe18f1f8a957d48f3e1f2f4f85e21dfa2de7f8c",
+      "fingerprint": "8f512eb4c6c6cf99a29f0d28db3a35c3d0185c6529f0621502e59a8197a2c05e",
+      "object_sha256": "9a5d66eb8fd58eb407a1ef45839c292695c309427e61d68d544db1c3fecb534f",
+      "axiom_log": [
+        "'N12Compact.C981CompletionCommon107.representative107_excluded' depends on axioms: [propext,"
+      ]
+    },
+    {
+      "module": "Compact.Completion.C981.NewSimpleShortRows",
+      "source_sha256": "60df18cf9cf7cec7c2c3b1cae31204bb5ea2c147321bde7e7cfaecbc81c67604",
+      "elapsed_seconds": 11.449,
+      "returncode": 0,
+      "lean_returncode": 0,
+      "rejected_admission": false,
+      "log_sha256": "55ab29774208f16bca40ba7da3967ff5ae9b77534742a81ce6d773be5f4ea068",
+      "fingerprint": "754e565baaf850201c2b483aaa42eb5320db8d92cbba72b4acbff99f5a9461e8",
+      "object_sha256": "5818592905cfed7a1a6522a2ca000c14147f8f6c92aefc5e3eae3cdbc786419b",
+      "axiom_log": [
+        "'N12Compact.C981CompletionNewSimpleShortRows.covered_excluded' depends on axioms: [propext,"
+      ]
+    },
+    {
+      "module": "Compact.Completion.C981.OutwardTranspose",
+      "source_sha256": "ecdf278558b1dcd997c32edbc58e018a2e230a75b359362ceb8575bba83b6fe1",
+      "elapsed_seconds": 1.754,
+      "returncode": 0,
+      "lean_returncode": 0,
+      "rejected_admission": false,
+      "log_sha256": "17a2b204823b2c4c22f640bb0e8fa84d4c3b20fecb99cbec180c6b78c68c321e",
+      "fingerprint": "d4678c7e13734f642dcff8347be84a86bf8b0de184cbbc6b95a13d0da1c05206",
+      "object_sha256": "e5fef76300b490a231c8eb683ed5f634ae7d641ecb28ede5a47f0f11a28c8487",
+      "axiom_log": [
+        "'N12Compact.C981CompletionOutwardRows.geometry' depends on axioms: [propext, Classical.choice, Quot.sound]",
+        "'N12Compact.C981CompletionOutwardTranspose.excludes' depends on axioms: [propext, Classical.choice, Quot.sound]",
+        "'N12Compact.C981CompletionOutwardTranspose.representative55_excluded' depends on axioms: [propext,"
+      ]
+    },
+    {
+      "module": "Compact.Completion.C981.ShortCentralRows",
+      "source_sha256": "5eb9b3f17a309d4c03cf1e90b2eec4056c74a1f6b1848ce94103733e62bae6d3",
+      "elapsed_seconds": 30.427,
+      "returncode": 0,
+      "lean_returncode": 0,
+      "rejected_admission": false,
+      "log_sha256": "f7909e6c38dabebd99b9b516335152f0c1b084bf313b0c2b14707881e2397d02",
+      "fingerprint": "a25ffadc6c25e298de29f5b4bc7b2ceca95776b2b5e8585049cde8cf7b6def38",
+      "object_sha256": "937ab8bfc3352428e59c1cbc6e6c07cd0c52bfe648d40c98f8ab14755bfcf75f",
+      "axiom_log": [
+        "'N12Compact.C981CompletionShortCentralRows.covered_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]"
+      ]
+    },
+    {
+      "module": "Compact.Completion.C981.LastRows",
+      "source_sha256": "ed8f174693d2b205e2baf7ab24c23a9cb98e15fef57b3aa49bea88958a45df62",
+      "elapsed_seconds": 5.488,
+      "returncode": 0,
+      "lean_returncode": 0,
+      "rejected_admission": false,
+      "log_sha256": "e3c52e6a9d6b919acf8da9f4e5f2b23c519ca4cd6e881243e77f3772ad40764f",
+      "fingerprint": "93729697461ed14edf8026369fc214a2d0606fe439c3eb45bedec18e21c14999",
+      "object_sha256": "0afe5c5f5c5c4aae511919e40e1b2ce25284e40b37cdd438b9f43277fcd644b4",
+      "axiom_log": [
+        "'N12Compact.C981CompletionLastRows.representative29_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]"
+      ]
+    },
+    {
+      "module": "Compact.Completion.C981.Last104",
+      "source_sha256": "cb5753caf69650a2a79c4374b05b8f8d1aec6d9e6ad620890df8ce72bfedc109",
+      "elapsed_seconds": 2.124,
+      "returncode": 0,
+      "lean_returncode": 0,
+      "rejected_admission": false,
+      "log_sha256": "4aec2e26997ca5f0fa8a0c328f3b87c325519ab53a72629cf8dc30d9fd5884f6",
+      "fingerprint": "abd0580acc7fe35009a0dad08e02465b7b9da77038a62293ef32b2e9257bd1d3",
+      "object_sha256": "2cf673984d20825a12a4381df9c7f5fe57467ee4635eef9ae54ae0506340a92f",
+      "axiom_log": [
+        "'N12Compact.C981CompletionLast104.representative104_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]"
+      ]
+    },
+    {
+      "module": "Compact.Bridge.PrefixCoverageIndexed",
+      "source_sha256": "fdbf11ff591723bc3f6a3a0cf75533c4b16fb7347041a09e9f889401933f5f03",
+      "elapsed_seconds": 11.526,
+      "returncode": 0,
+      "lean_returncode": 0,
+      "rejected_admission": false,
+      "log_sha256": "cd0fa00375ba29b14bd96afd2785243a32c66c7c04d9dc9a661dad438b94d219",
+      "fingerprint": "9cc5c67011ac948f61dc592c6e72613bc1d350b4fc1cbea7892118d0c6f11457",
+      "object_sha256": "46ebb67f8c550af86970d851b501b37fec6346b4c62da6734c3757299cff0b8e",
+      "axiom_log": [
+        "'N12Compact.PrefixCoverage.indexedStepCheck_sound' depends on axioms: [propext, Classical.choice, Quot.sound]",
+        "'N12Compact.PrefixCoverage.stepCheck_after_slice' depends on axioms: [propext, Quot.sound]"
+      ]
+    },
+    {
+      "module": "Compact.Bridge.PrefixCoverageMasks",
+      "source_sha256": "442dfb346744a915a62aa0a4154ab6309da4c3907bcb8fcfffe5735c82199a81",
+      "elapsed_seconds": 8.571,
+      "returncode": 0,
+      "lean_returncode": 0,
+      "rejected_admission": false,
+      "log_sha256": "d0b34980cf1404f2e24c6488d99a25da360e5e2d645406e7e62793fbc77b36dc",
+      "fingerprint": "48072aaead2f8058cca049ccc55502e7824f2b5dec6168b21d50d8f745e9bd48",
+      "object_sha256": "2e47b5398f07d8df5120480b31af59c5a97faff5c2e6954cc020aff3292a9a4a",
+      "axiom_log": [
+        "'N12Compact.PrefixCoverage.Masks.disjoint_decode_iff' depends on axioms: [propext, Classical.choice, Quot.sound]",
+        "'N12Compact.PrefixCoverage.Masks.indexedStepCheck_decoded' depends on axioms: [propext, Classical.choice, Quot.sound]"
+      ]
+    },
+    {
+      "module": "Compact.Bridge.C1092WallSymmetry",
+      "source_sha256": "34f6cf6a045813c278e18d7119a786fca1557e1a1f36a044c9690a4db93df8fa",
+      "elapsed_seconds": 3.282,
+      "returncode": 0,
+      "lean_returncode": 0,
+      "rejected_admission": false,
+      "log_sha256": "9c499239d11728e616f0453bcfb01bd41a1e7543b2e6d426f7594b1d087d7a71",
+      "fingerprint": "ddebe7f42a9113e24febdc46c9d331d7ae619f5209b2600e740115af2c513109",
+      "object_sha256": "390b17fc281dbd2027266c1fb088bdfc3db9b582d83029c3abf3bc907a135ec2",
+      "axiom_log": [
+        "'N12Compact.C1092WallSymmetry.original_four_branches' depends on axioms: [propext, Classical.choice, Quot.sound]",
+        "'N12Compact.C1092WallSymmetry.excludes_original' depends on axioms: [propext, Classical.choice, Quot.sound]"
+      ]
+    },
+    {
+      "module": "Completion.Cases.C981.Coverage.Data.Prefix09",
+      "source_sha256": "ef245d7d61ce195f5f55d0d48f2c2068e437f44aef075a1444e9cb66f9472b40",
+      "elapsed_seconds": 0.754,
+      "returncode": 0,
+      "lean_returncode": 0,
+      "rejected_admission": false,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "fingerprint": "cccdbc38f7de42a442af5b65a884432cbd89d3f548962a5b0c5c1637ab343c9c",
+      "object_sha256": "076e926b8377facd66dc6ddb6e35d75e5f778a4375021fff5d2b81d610fa2f45",
+      "axiom_log": []
+    },
+    {
+      "module": "Completion.Cases.C981.Coverage.Data.Prefix10",
+      "source_sha256": "59795e6ffade7d1eaac6405d6382ca62964ac813b811b4cd46093260e2ed0485",
+      "elapsed_seconds": 1.143,
+      "returncode": 0,
+      "lean_returncode": 0,
+      "rejected_admission": false,
+      "log_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "fingerprint": "c52b84d77fb9eb7fe4964e87a95805b33c20ac9a0418699e21a0b6f6a178e5e6",
+      "object_sha256": "0dc122feda4a4cf6fb972943400b63436a194a43c6102bcc8d7039e23390c83e",
+      "axiom_log": []
+    },
+    {
+      "module": "Compact.Assembly.C981Progress",
+      "source_sha256": "3170608d5d62c8e9ebccdaf0bcfa7c702e89d29331177ea8b717ae5623ab2ba6",
+      "elapsed_seconds": 2.287,
+      "returncode": 0,
+      "lean_returncode": 0,
+      "rejected_admission": false,
+      "log_sha256": "ee9145e863d56101c42b3faf5c8ecebcfc07cc45cd07c87ad9407b3a97cd5962",
+      "fingerprint": "1852fd4b70804a13c1a038928bd1eeccde8028bd0c04dfd4e0dae75840af7144",
+      "object_sha256": "95b335c744fbc175678572e3f4343bd492af6637fb97b5adf0386c5de27a82b9",
+      "axiom_log": [
+        "'N12Compact.C981Progress.new_excluded' depends on axioms: [propext, Classical.choice, Quot.sound]"
+      ]
+    },
+    {
+      "module": "Compact.Completion.C981.CoveragePilot.Step10Masks08",
+      "source_sha256": "211facc21f0381c3023fa83ce4741847813275e135678fbe680d997e3dc0e684",
+      "elapsed_seconds": 2.582,
+      "returncode": 0,
+      "lean_returncode": 0,
+      "rejected_admission": false,
+      "log_sha256": "ccc23562a2ddefdcca5916be870f238f1e3fee19544d1f650d852021a97faebd",
+      "fingerprint": "2719297033a8adfc17e6d53738d6bab77c49627bfb530bbc24c651543bde9b11",
+      "object_sha256": "30b97eb6a9b7423a38eadc71a09f1299f168375594f1b307776269dca31c631b",
+      "axiom_log": [
+        "'S12Completion.C981.CoveragePilot.step10Masks08' depends on axioms: [propext, Classical.choice, Quot.sound]"
+      ]
+    }
+  ],
+  "c981_progress_42_replay_complete": true,
+  "c981_8_front_mask_pilot_accepted": true
+}

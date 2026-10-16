@@ -1,0 +1,41 @@
+{
+  "scope": "Exact original literal point-ownership signature only; no Lean replay or geometry sampling.",
+  "catalogue_sha256": "a8917162236714146a042e3dacfcc508c41e48af867cba3a9d82ed59a9325b5d",
+  "bridge_sha256": "36902a6ae8b228077e20b107242127a5efa39e61d7847ac03ef54868e0362059",
+  "rows": 117,
+  "required_auxiliary": {
+    "5": [
+      4,
+      16
+    ],
+    "9": [
+      6,
+      18
+    ],
+    "10": [
+      8,
+      19
+    ],
+    "7": [
+      5,
+      13
+    ],
+    "8": [
+      11
+    ],
+    "11": [
+      3
+    ]
+  },
+  "excluded_auxiliary": {
+    "8": [
+      0
+    ],
+    "11": [
+      17
+    ]
+  },
+  "matched_ids": [
+    6
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "status": "complete exact audit; all direct branches certified; Lean replay pending",
+  "scope": [
+    701,
+    713,
+    717,
+    973,
+    978,
+    979
+  ],
+  "completed_cases": [
+    701,
+    713,
+    717,
+    973,
+    978,
+    979
+  ],
+  "certificate_status": "Exact integer audit only; all new Lean checks remain pending.",
+  "all_outside_contexts_visited": true,
+  "retained_link_failure_samples": [],
+  "all_retained_links_visited": true,
+  "last_position": {
+    "phase": "all retained original relaxation links",
+    "link": 17650
+  },
+  "counts": {
+    "plans": 9166,
+    "outside_branches": 16896,
+    "direct_final_target": 16896,
+    "pair_stages": 113,
+    "selected_pair_links": 16423,
+    "retained_links_total": 17651,
+    "retained_links_visited": 17651,
+    "retained_links_with_exact_hints": 17651
+  },
+  "case_counts": {
+    "701": {
+      "pair_stages": 26,
+      "plans": 1383,
+      "outside_branches": 1425,
+      "literal_raw_piece": 1425,
+      "direct_final_target": 1425,
+      "noncopy_hint_occurrences": 16554,
+      "complete_plans": 1383,
+      "raw_piece_occurrences": 1425,
+      "raw_piece_ids_without_equal_outside_context": 0,
+      "zero_piece_plans": 413,
+      "empty_block_conjunction_plans": 413
+    },
+    "713": {
+      "pair_stages": 9,
+      "plans": 1037,
+      "outside_branches": 1620,
+      "literal_raw_piece": 1620,
+      "direct_final_target": 1620,
+      "noncopy_hint_occurrences": 18166,
+      "complete_plans": 1037,
+      "raw_piece_occurrences": 1620,
+      "raw_piece_ids_without_equal_outside_context": 0,
+      "zero_piece_plans": 276,
+      "empty_block_conjunction_plans": 276
+    },
+    "717": {
+      "pair_stages": 17,
+      "plans": 1937,
+      "outside_branches": 4236,
+      "literal_raw_piece": 4235,
+      "direct_final_target": 4236,
+      "noncopy_hint_occurrences": 49895,
+      "complete_plans": 1937,
+      "raw_piece_occurrences": 4236,
+      "raw_piece_ids_without_equal_outside_context": 1,
+      "zero_piece_plans": 547,
+      "empty_block_conjunction_plans": 547,
+      "no_equal_raw_piece": 1
+    },
+    "973": {
+      "pair_stages": 23,
+      "plans": 1403,
+      "outside_branches": 3514,
+      "literal_raw_piece": 3514,
+      "direct_final_target": 3514,
+      "noncopy_hint_occurrences": 43669,
+      "complete_plans": 1403,
+      "raw_piece_occurrences": 3514,
+      "raw_piece_ids_without_equal_outside_context": 0,
+      "zero_piece_plans": 150,
+      "empty_block_conjunction_plans": 150
+    },
+    "978": {
+      "pair_stages": 14,
+      "plans": 809,
+      "outside_branches": 1646,
+      "literal_raw_piece": 1646,
+      "direct_final_target": 1646,
+      "noncopy_hint_occurrences": 20023,
+      "complete_plans": 809,
+      "raw_piece_occurrences": 1646,
+      "raw_piece_ids_without_equal_outside_context": 0,
+      "zero_piece_plans": 181,
+      "empty_block_conjunction_plans": 181
+    },
+    "979": {
+      "pair_stages": 24,
+      "plans": 2597,
+      "outside_branches": 4455,
+      "literal_raw_piece": 4455,
+      "direct_final_target": 4455,
+      "noncopy_hint_occurrences": 52450,
+      "complete_plans": 2597,
+      "raw_piece_occurrences": 4455,
+      "raw_piece_ids_without_equal_outside_context": 0,
+      "zero_piece_plans": 586,
+      "empty_block_conjunction_plans": 586
+    }
+  },
+  "failure_samples": [],
+  "all_failure_records_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+  "successful_link_witnesses_sha256": "6183c049094bf3fff5dd43efe88509c760e6c62c6b91fbc03948b1cec20392ed",
+  "input_sha256": {
+    "evidence/historical-compact-data/manifest.json": "f20009fcf353dc46a22907d2c1dc78a23a5e8499f569ab549d94bb31ba6d53ca",
+    "evidence/historical-compact-data/rows.json": "5652be93ba32352a8fdc393c028424cf9d454a2fefa7798e55723e5da8027215",
+    "evidence/historical-compact-data/poses.json": "faeaf04102217cc07ceccc576ecfed41a9c7ed164a41bfc516c415ce95226908",
+    "evidence/historical-compact-data/blocks.json": "229f22acc26ca633375a7f8f53dd7cd147158bc573fb8f3aa64f96049541608e",
+    "evidence/historical-compact-data/links.json": "399c825765ebea6d1268177fa8909cbc14fb9b593d6f2c6cabe92ac8e34b39fb",
+    "evidence/historical-compact-data/C701.json": "6723e8797c91294ea344f8401980930449535b2fb06c4668e2e41810becb8c90",
+    "evidence/historical-compact-data/C713.json": "7ed7f008778113b87e979da105f25ab8c412258bf99cd01dac16e58755424e3a",
+    "evidence/historical-compact-data/C717.json": "97de7a3f49746eb39d645eb905f669ce26f4ecea9932b7b8b31f1b13c289e1f8",
+    "evidence/historical-compact-data/C973.json": "5431135cc2ce7bfac80fcfb8110da4001bd9b166b7841b07124aa2d2ebb38612",
+    "evidence/historical-compact-data/C978.json": "54cbc6e78920b25ac5eaa71dcfea16278f318f6448a0b145f4405458f6600431",
+    "evidence/historical-compact-data/C979.json": "5e49e7bd7308b6183ffdcba652edd1543cdb585f8c5cfe431d0d314e9b5d786d"
+  },
+  "outside_semantics": "opposite(current row) :: reversed(true prefix) ++ original source rows; strictness is flipped",
+  "branch_record_schema": {
+    "keep": "[case, planOrdinal, face, 0, targetPoseId, sparseHints]",
+    "close": "[case, planOrdinal, face, 1, [[localRowPosition, positiveWeight],...]]",
+    "unresolved": "[case, planOrdinal, face, 2]",
+    "sparseHints": "[targetRowPosition, 0] constant; [...,1,sourcePosition] single; [...,2,left,right] pair; omitted positions are exact copies"
+  },
+  "strict_complement_ids": "Never required: complements are exact derived Row values.",
+  "trust_boundary": "Authenticated compact extraction and exact integer arithmetic; no historical subtree omitted on failure; numerical audit is not a Lean theorem.",
+  "elapsed_seconds": 2.410489833000611,
+  "peak_rss_bytes": 79200256,
+  "branches_sha256": "914254e93dc71bb73fb5ad5dda4271ceb2c9d592b8123e3c8363e9e9cc1bb050",
+  "branches_bytes": 2217161
+}

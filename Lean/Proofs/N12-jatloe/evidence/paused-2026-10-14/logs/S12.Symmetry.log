@@ -1,0 +1,3 @@
+'S12.inside_pull' depends on axioms: [propext, Classical.choice, Quot.sound]
+'S12.five_point_transformed' depends on axioms: [propext, Classical.choice, Quot.sound]
+'S12.six_point_transformed' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,1 @@
+'N12Compact.CentralOuterReach.points' depends on axioms: [propext, Classical.choice, Quot.sound]

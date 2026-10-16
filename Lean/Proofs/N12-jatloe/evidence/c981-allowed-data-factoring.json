@@ -1,0 +1,71 @@
+{
+  "original_commit": "46e0067e3aa72d1001a1bf2b95c8f7e4575c368a",
+  "original_path": "Completion/Cases/C981/Coverage/AllowedData.lean",
+  "original_sha256": "c7a155235d8b8297a4c89bda35c0ddb5202d33030f5042e9cbec781de0009479",
+  "inverse_sha256": "c7a155235d8b8297a4c89bda35c0ddb5202d33030f5042e9cbec781de0009479",
+  "helper_modules": [
+    {
+      "path": "Completion/Cases/C981/Coverage/Allowed/Owner00.lean",
+      "sha256": "04a00b63b472bab87b9b831ea6d1990c66f5a566e605300af053c461acd524fc"
+    },
+    {
+      "path": "Completion/Cases/C981/Coverage/Allowed/Owner01.lean",
+      "sha256": "d257fa31cbebe1347593d48e6ae106c49c2767a60325f973191dae91d318af5e"
+    },
+    {
+      "path": "Completion/Cases/C981/Coverage/Allowed/Owner02.lean",
+      "sha256": "c37dfe97fe9ea0885687d97b03581f24b8992bc5b5dc73e73424fbb84e5e592c"
+    },
+    {
+      "path": "Completion/Cases/C981/Coverage/Allowed/Owner03.lean",
+      "sha256": "151abead94e2201ef052877d45cd43d0248d187b84d0c8b100ae98f5b6ec8fbc"
+    },
+    {
+      "path": "Completion/Cases/C981/Coverage/Allowed/Owner04.lean",
+      "sha256": "3bd9533314359ec80bc964a8a4ba89eceb467f257235a8a31f5856ff9362f2e5"
+    },
+    {
+      "path": "Completion/Cases/C981/Coverage/Allowed/Owner05.lean",
+      "sha256": "0fbb207215eb90f4c040342735657a07ed52f92e79796663959ce0da845cfca2"
+    },
+    {
+      "path": "Completion/Cases/C981/Coverage/Allowed/Owner06.lean",
+      "sha256": "0aa25670c9da5c8b92bc7d1d8309f03b6ef329971f77e5d331aa1c8a0a6e99df"
+    },
+    {
+      "path": "Completion/Cases/C981/Coverage/Allowed/Owner07.lean",
+      "sha256": "920a3f8cb717cf8c330e8f5c4a9a5fdf36707ab5a1f28e23abcb3709bb851322"
+    },
+    {
+      "path": "Completion/Cases/C981/Coverage/Allowed/Owner08.lean",
+      "sha256": "0b73e0ee8f8c9a6a362cb5a658f59132af75df431b55abf705780f1f680541e1"
+    },
+    {
+      "path": "Completion/Cases/C981/Coverage/Allowed/Owner09.lean",
+      "sha256": "99ca0ae0fb7a9b96899aa8572d843cdf4a50d6475fb077498915260085f08f67"
+    },
+    {
+      "path": "Completion/Cases/C981/Coverage/Allowed/Owner10.lean",
+      "sha256": "db276549f3fdc97c2a7c90edcc8d00ea560d01a396122143fa031bda26ade57b"
+    },
+    {
+      "path": "Completion/Cases/C981/Coverage/Allowed/Owner11.lean",
+      "sha256": "324374720c223a221547f18e3be987feef9311611e9e1b0e41312c43b2504d6f"
+    }
+  ],
+  "wrapper_sha256": "2b78bcb9cb43d53ba4d50b395c3e08fc62dc804e0c4c66eedd9afaa9f9fb161a",
+  "added_lean_modules": 12,
+  "data_relocations": [
+    {
+      "path": "Completion/Cases/C981/Coverage/Data/Allowed05.lean",
+      "declaration": "allowed5",
+      "sha256": "274ab7d94325c17b777c9b75e2a5c86934c213b59de871ecb158aa4ce8d4ff00",
+      "declaration_sha256": "1dee49be77edd6897a687d1e5d084f4bd46d50dd04daabfb386a394e4cecbdc6"
+    }
+  ],
+  "relocated_data_modules_counted_in": "evidence/c981-coverage-pilot.json",
+  "preserved_kernel_decisions": 12,
+  "additional_native_sites": 0,
+  "public_declaration_bodies_byte_identical": true,
+  "lean_replay_performed_by_this_script": false
+}

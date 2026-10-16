@@ -1,0 +1,53 @@
+{
+  "scope": "Exact integer-coordinate original query-premise scan for four C981DoubleWallElbows placements. No Lean compilation or catalogue coverage proof. Queried masks have no extra seed rules.",
+  "catalogue_sha256": "a8917162236714146a042e3dacfcc508c41e48af867cba3a9d82ed59a9325b5d",
+  "bridge_sha256": "d3589c9760cade1d8b8464ba79bb719f55cf9182d61f4378b9bc257ac2a4a019",
+  "rows": 117,
+  "matched_ids": [
+    1,
+    20,
+    21,
+    23,
+    51,
+    112
+  ],
+  "placement_pairs": {
+    "1": [
+      [
+        1,
+        2
+      ]
+    ],
+    "20": [
+      [
+        1,
+        2
+      ]
+    ],
+    "21": [
+      [
+        1,
+        3
+      ]
+    ],
+    "23": [
+      [
+        1,
+        2
+      ]
+    ],
+    "51": [
+      [
+        0,
+        3
+      ]
+    ],
+    "112": [
+      [
+        0,
+        3
+      ]
+    ]
+  },
+  "count": 6
+}

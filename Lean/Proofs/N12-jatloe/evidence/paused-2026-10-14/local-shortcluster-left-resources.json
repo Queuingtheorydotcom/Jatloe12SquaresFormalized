@@ -1,0 +1,36 @@
+{
+  "command": [
+    "python3",
+    "-B",
+    "scripts/verify.py",
+    "S12.ShortCluster.FivePointLeft"
+  ],
+  "returncode": 0,
+  "stop_reason": null,
+  "limits": {
+    "rss_mib": 1200,
+    "physical_footprint_mib": 450,
+    "seconds": 90,
+    "free_gib": 3.0
+  },
+  "elapsed_seconds": 28.496,
+  "minimum_free_bytes": 8578093056,
+  "peak_group_rss_kib": 1215632,
+  "peak_group_physical_footprint_kib": 298323,
+  "peak_group_processes": [
+    {
+      "pid": 5435,
+      "pgid": 5365,
+      "rss_kib": 1206912
+    },
+    {
+      "pid": 5365,
+      "pgid": 5365,
+      "rss_kib": 8720
+    }
+  ],
+  "stop_group_processes": [],
+  "stop_snapshot_error": null,
+  "cleanup_errors": [],
+  "remaining_processes": []
+}

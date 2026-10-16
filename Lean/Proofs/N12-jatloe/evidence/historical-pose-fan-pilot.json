@@ -1,0 +1,26 @@
+{
+  "status": "source activation only; whole fan replay still required",
+  "mode": "pilot",
+  "proposal_sha256": "051f7ac4e292d6651b400b0749e107f06cda502f2de7de042b90ab75e3c326e4",
+  "backup": "evidence/source-archive/historical-fans-before-pose-recipes/051f7ac4e292d665",
+  "selected_sources": 3,
+  "changed_sources": 3,
+  "active_contexts": 12932,
+  "compiled_caches_modified": false,
+  "lean_acceptance_claimed": false,
+  "files": [
+    {
+      "path": "Compact/HistoricalData/SharedFanBlocks.lean",
+      "sha256": "6f572d25836a4c420f932af67c480ad595f5a8abdc192be36a22b04c46fa86aa"
+    },
+    {
+      "path": "Compact/HistoricalFans/C701_713_717_973_978_979/Contexts000.lean",
+      "sha256": "a70a1e6034522d293c9308b38de8477877bfffd7ad23c30a0295987fd669f982"
+    },
+    {
+      "path": "Compact/HistoricalFans/C701_713_717_973_978_979/RecipeBank.lean",
+      "sha256": "86c19ac3490d63c8ce0936f57ba391acf2f5bcd4fc8ff1bd7b16e9a904c33483"
+    }
+  ],
+  "elapsed_seconds": 0.26841608399990946
+}

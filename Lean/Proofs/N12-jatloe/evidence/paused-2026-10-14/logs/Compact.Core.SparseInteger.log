@@ -1,0 +1,4 @@
+/Users/macintosh/Documents/Codex/2026-10-13/plz/work/handoff/12-square-formalization-handoff-2026-10-13/project/Compact/Core/SparseInteger.lean:162:2: warning: try 'simp at impossible' instead of 'simpa using impossible'
+note: this linter can be disabled with `set_option linter.unnecessarySimpa false`
+'N12Compact.SparseInteger.Certificate.Check.normalized_sound' depends on axioms: [propext, Classical.choice, Quot.sound]
+'N12Compact.SparseInteger.replay' depends on axioms: [propext, Classical.choice, Quot.sound]

@@ -1,0 +1,5 @@
+/Users/macintosh/Documents/Codex/2026-10-13/plz/work/ben-continuation/projects/n12-refactored/source/S12/PackingConstant.lean:70:17: warning: unused variable `p`
+note: this linter can be disabled with `set_option linter.unusedVariables false`
+'S12.gridPacking' depends on axioms: [propext, Classical.choice, Quot.sound]
+'S12.packingConstant12_le_four' depends on axioms: [propext, Classical.choice, Quot.sound]
+'S12.packingConstant12_eq_four_of_exclusion' depends on axioms: [propext, Classical.choice, Quot.sound]

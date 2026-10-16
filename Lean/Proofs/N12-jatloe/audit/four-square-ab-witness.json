@@ -1,0 +1,35 @@
+{
+  "side": "1001/1000",
+  "row": "12/5",
+  "A": {
+    "c": "1",
+    "s": "0",
+    "loU": "1999/1000",
+    "loV": "33/20",
+    "X": "4999/2000",
+    "Y": "4301/2000"
+  },
+  "B": {
+    "c": "21/29",
+    "s": "20/29",
+    "X": "3/2",
+    "Y": "287/100",
+    "loU": "148771/58000",
+    "loV": "31511/58000"
+  },
+  "all_compulsory_strict": true,
+  "all_six_exclusions_each": true,
+  "contained": true,
+  "separating_gap": "129/58000",
+  "Amax_BV": "15691/29000",
+  "B_min_V": "31511/58000",
+  "B_section_relative_interval": [
+    "-10229/42000",
+    "9289/40000"
+  ],
+  "B_section_width": "399649/840000",
+  "B_steep_c_plus_s": "41/29",
+  "B_long_radius": "349/1682",
+  "B_row_displacement": "47/100",
+  "scope": "exact fixed witness rejecting A/B-alone elimination; no search and no full four-square counterexample"
+}

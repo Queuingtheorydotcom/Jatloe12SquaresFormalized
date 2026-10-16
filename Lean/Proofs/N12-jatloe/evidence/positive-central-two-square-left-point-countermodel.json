@@ -1,0 +1,57 @@
+{
+  "scope": "Exact hand-supplied two-square countermodel only; actual L is absent, not a twelve-square packing or Lean replay.",
+  "side": "100000001/100000000",
+  "squares": {
+    "O": {
+      "bands": [
+        "999999/1000001",
+        "-2000/1000001",
+        "99800900001/100000100000",
+        "199801001001001/49999999999950000"
+      ],
+      "unit": true,
+      "contained": true,
+      "markers": [
+        0
+      ],
+      "aux": [
+        2,
+        12
+      ],
+      "required_points_strict": true,
+      "corner": false,
+      "center": false,
+      "left_midpoint": false
+    },
+    "A": {
+      "bands": [
+        "399/401",
+        "40/401",
+        "47699999599/40100000000",
+        "35699999599/40100000000"
+      ],
+      "unit": true,
+      "contained": true,
+      "markers": [
+        8
+      ],
+      "aux": [
+        4,
+        13
+      ],
+      "required_points_strict": true,
+      "corner": false,
+      "center": false,
+      "left_midpoint": false
+    }
+  },
+  "separators": [
+    {
+      "frame": "first",
+      "axis": "V",
+      "direction": "first-before-second",
+      "gap": "21559760786071421150381/8040049999991959950000000"
+    }
+  ],
+  "all_two_square_claims_pass": true
+}

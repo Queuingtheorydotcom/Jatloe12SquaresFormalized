@@ -1,0 +1,23 @@
+{
+  "transformation": "Full identical decidable rational Check, replaced norm_num proof generation with direct kernel decision; no new native checks. Two endpoint checks passed before this edit; whole-grid replay pending.",
+  "modules": [
+    {
+      "module": "S12.AngleData32",
+      "changed_rational_checks": 32,
+      "before_sha256": "fb07d8de69d3ccd704879b5ed2fbb153851a0c7262eab013040cff51a4bd9d62",
+      "after_sha256": "2497faf85fe6082a75836b621accb08bcf020a8988db8e162d403fcd1e494604"
+    },
+    {
+      "module": "S12.AngleData64",
+      "changed_rational_checks": 64,
+      "before_sha256": "d8a4143a3a7a75527a9bc20ea7ef300bdee5dd793e24de9c8226cb67f76768ba",
+      "after_sha256": "2698c6d77f1b966357a90a26c33aca6be0d543a83a698648414a3b9a89f18db1"
+    },
+    {
+      "module": "S12.AngleData128",
+      "changed_rational_checks": 128,
+      "before_sha256": "59419942f0e621b660aaf194f39306369dc1b29146f2996108116978aed40121",
+      "after_sha256": "83a6bfdcd0725c38c1dc3bbf1e0a80a48c451e97ee54a3e5afd05cee163f0c4d"
+    }
+  ]
+}

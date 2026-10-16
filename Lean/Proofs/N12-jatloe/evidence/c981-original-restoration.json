@@ -1,0 +1,85 @@
+{
+  "recorded_at": "2026-10-11T01:03:38.816706+00:00",
+  "source_commit": "98ddf88a36d0a227d1a94e1c7e0ed64d1c840de8",
+  "source_manifest_sha256": "8ace39f009882c427bb0a52430ea0cfcf0dbd3fb78421cca18d2472b9af0f460",
+  "part_bytes_and_hash_verified_before_decompression": true,
+  "successful_attempt": [
+    {
+      "name": "source.part0000",
+      "size": 4194304,
+      "sha256": "4a99c59aaaed81167623ec608f10dfa871d7f52315f0fb81a95197d4a09b18ef",
+      "git_sha": "7ac0500287553ffdbcf7e0c5fbacff2bba333987"
+    }
+  ],
+  "files": [
+    {
+      "path": "S12/Case976Domains.lean",
+      "size": 340978,
+      "sha256": "c3caefc7b02efa3ca595011c8fd8a64728f060b14e11c454e786510b27e08c43",
+      "source_archive": "s12-lean-progress.zip",
+      "lines": 2793,
+      "vendor_path": "vendor/S12/Case976Domains.lean",
+      "source_path": "source/S12/Case976Domains.lean",
+      "byte_identity_verified": true
+    }
+  ],
+  "extracted_unique_source_bytes": 340978,
+  "canonical_plus_overlay_disk_bytes": 681956,
+  "new_direct_download_bytes_all_attempts": 16777216,
+  "new_direct_download_limit": 67108864,
+  "prior_connector_binary_fetches": {
+    "result": "Rejected as non-UTF8; no usable payload returned",
+    "actual_downloaded_bytes": "unreported by connector",
+    "upper_bound_from_requested_part_sizes": 65011712,
+    "separate_allowance_renewed_by_root": true
+  },
+  "full_stream_verified": false,
+  "lean_compiled": false,
+  "closures": {
+    "Compact.Cases.C981": {
+      "modules_seen": 84,
+      "missing": [
+        "S12.DirectSingleDomain",
+        "S12.DomainEnumeration",
+        "S12.MissingCornerBranches"
+      ]
+    },
+    "Compact.Assembly.Frontier": {
+      "modules_seen": 71,
+      "missing": []
+    }
+  },
+  "missing_source_manifest_rows": [
+    {
+      "path": "S12/DirectSingleDomain.lean",
+      "size": 2279,
+      "sha256": "bf6e08cd337399e02dc10b3af4de265c972daae9f0519acaedebe6af1ef4d990",
+      "source_archive": "s12-lean-progress.zip"
+    },
+    {
+      "path": "S12/DomainEnumeration.lean",
+      "size": 3686,
+      "sha256": "6234b259a2569cb4aa10134bfdfb79c6357e157440bd5a1e2cf4cc0ea7a19925",
+      "source_archive": "s12-lean-progress.zip"
+    },
+    {
+      "path": "S12/MissingCornerBranches.lean",
+      "size": 1620,
+      "sha256": "e79257b4dadd27605877231f54168607e7881bfd3ede9c9102e6f6ccda3db320",
+      "source_archive": "s12-lean-progress-part-2.zip"
+    }
+  ],
+  "resources": {
+    "command": [
+      "python3",
+      "scripts/restore_small_prefix.py"
+    ],
+    "returncode": 0,
+    "stop_reason": null,
+    "elapsed_seconds": 3.551,
+    "peak_group_rss_kib": 95760,
+    "cleanup_errors": [],
+    "remaining_processes": []
+  },
+  "stopped_reason": "Remaining imports occur beyond 10 GB uncompressed in manifest order; no additional prefix downloads justified within bounded recovery."
+}

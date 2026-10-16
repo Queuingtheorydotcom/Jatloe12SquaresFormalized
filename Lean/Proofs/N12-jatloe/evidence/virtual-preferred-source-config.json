@@ -1,0 +1,127 @@
+{
+  "purpose": "Measure the entire proposed portable delivery before activation. Every proposed original historical entrance and stage is counted; no proof acceptance is inferred.",
+  "preferred_manifest": "evidence/preferred-delivery-roots.json",
+  "root_replacements": [
+    {
+      "old": "Compact.HistoricalFans.C701_713_717_973_978_979.All",
+      "new": [
+        "Compact.Preservation.Complete.All"
+      ],
+      "contract_reason": "The full six-case candidate imports genuine fused fan/common consumers and original packing entrances, all113 pair stages and all21 chord stages. All production fused context outputs are retained separately below even when not reached by a final stage. This is a virtual source replacement, awaiting ordinary replay."
+    },
+    {
+      "old": "Compact.Cases.C713.Relaxation.All",
+      "new": [
+        "Compact.Preservation.Complete.All"
+      ],
+      "contract_reason": "The actual nine C713 source-to-target pair transitions in the direct-pruning candidate replace their pair-only intermediate relaxation links. The original C713.Assembly and all independent mathematical roots remain. This source replacement requires full stage acceptance before real retirement."
+    }
+  ],
+  "additional_roots": [],
+  "forbidden_module_prefixes": [
+    "Compact.HistoricalFans.C701_713_717_973_978_979.Contexts",
+    "Compact.HistoricalFans.C701_713_717_973_978_979.All",
+    "Compact.Cases.C713.Relaxation.",
+    "Compact.Cases.C898.PairStep14CachedData"
+  ],
+  "overlays": [
+    {
+      "name": "boxed and strip-shared direct-route dictionary",
+      "base": "evidence/historical-strip-bank/proposal",
+      "manifest": "evidence/historical-strip-bank/manifest.json",
+      "manifest_sha256": "0633502c6684a16643962975145ab67fe4febad26690520e2ac03073771bba91",
+      "outputs_key": "outputs",
+      "retain_all_outputs": true,
+      "diagnostic_outputs": []
+    },
+    {
+      "name": "shared-query original entrances for five cases",
+      "base": "evidence/proposals/HistoricalInitialSharedQueries",
+      "manifest": "evidence/proposals/HistoricalInitialSharedQueries/manifest.json",
+      "outputs_key": "outputs",
+      "retain_all_outputs": true,
+      "diagnostic_outputs": []
+    },
+    {
+      "name": "fused fan contexts bound to exact whole-target source/block headers",
+      "base": "evidence/proposals/HistoricalCommonHeaderFused",
+      "manifest": "evidence/proposals/HistoricalCommonHeaderFused/manifest.json",
+      "outputs_key": "outputs",
+      "retain_all_outputs": true,
+      "diagnostic_outputs": [
+        "Compact/HistoricalCommon/Pilot.lean"
+      ]
+    },
+    {
+      "name": "all113 uniform whole-target contrapositive stages",
+      "base": "evidence/proposals/HistoricalBlockedTargets",
+      "manifest": "evidence/proposals/HistoricalBlockedTargets/manifest.json",
+      "outputs_key": "outputs",
+      "retain_all_outputs": true,
+      "diagnostic_outputs": []
+    },
+    {
+      "name": "twenty compact original chord stages",
+      "base": "evidence/proposals/HistoricalChordsCompact",
+      "manifest": "evidence/proposals/HistoricalChordsCompact/manifest.json",
+      "outputs_key": "output_files",
+      "retain_all_outputs": true,
+      "diagnostic_outputs": []
+    },
+    {
+      "name": "C898 shared inherited queries",
+      "base": "evidence/proposals/C898SharedQueries",
+      "manifest": "evidence/proposals/C898SharedQueries/manifest.json",
+      "manifest_sha256": "6c958b8e51f02e245d59d4ededad03a4b302526bac21d3b3a55844371140b7fc",
+      "outputs_key": "output_files",
+      "retain_all_outputs": true,
+      "diagnostic_outputs": []
+    },
+    {
+      "name": "C898 fused actual fan and raw view contexts",
+      "base": "evidence/proposals/C898FusedContexts",
+      "manifest": "evidence/proposals/C898FusedContexts/manifest.json",
+      "manifest_sha256": "f7bb2afb05d301cb36c9ec734e7af54db4da6a50b469422e6b780756942e1203",
+      "outputs_key": "output_files",
+      "retain_all_outputs": true,
+      "diagnostic_outputs": []
+    },
+    {
+      "name": "C898 indexed poses with only actual public labels",
+      "base": "evidence/proposals/C898PoseLabels",
+      "manifest": "evidence/proposals/C898PoseLabels/manifest.json",
+      "manifest_sha256": "1f3352f9e4fe8b0a012062304d9b71ff4434d2996441decda58c38ef13925e0c",
+      "outputs_key": "output_files",
+      "retain_all_outputs": true,
+      "diagnostic_outputs": []
+    },
+    {
+      "name": "all-seven shared initial recipe batch assembly",
+      "base": "evidence/proposals/InitialBatchSharing",
+      "manifest": "evidence/proposals/InitialBatchSharing/manifest.json",
+      "manifest_sha256": "5197c887323550e6a862201a43925a366c53c37997b997e209d5209b4ea10e80",
+      "outputs_key": "outputs",
+      "retain_all_outputs": true,
+      "diagnostic_outputs": []
+    },
+    {
+      "name": "C898 exact terminal contexts and relocated cache APIs",
+      "base": "evidence/proposals/C898TerminalContexts",
+      "manifest": "evidence/proposals/C898TerminalContexts/manifest.json",
+      "manifest_sha256": "86699fae3705b64f95093cbd975bd983c9f1ac90a5883b566b35b12208231d37",
+      "outputs_key": "output_files",
+      "retain_all_outputs": true,
+      "diagnostic_outputs": []
+    },
+    {
+      "name": "full six-case original theorem assembly",
+      "base": "evidence/proposals/HistoricalComplete",
+      "manifest": "evidence/proposals/HistoricalComplete/manifest.json",
+      "outputs_key": "output_files",
+      "retain_all_outputs": true,
+      "diagnostic_outputs": []
+    }
+  ],
+  "source_acceptance_claim": false,
+  "final_global_size_bound_claim": false
+}

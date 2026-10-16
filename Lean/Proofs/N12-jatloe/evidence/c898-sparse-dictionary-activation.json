@@ -1,0 +1,61 @@
+{
+  "scope": "Audited pre-fusion sparse dictionaries activated; downstream kernel replay pending.",
+  "public_row_count": 26026,
+  "public_pose_count": 3317,
+  "retained_rows": 10851,
+  "retained_poses": 2196,
+  "complement_keys": 725,
+  "removed_raw_poses": 1121,
+  "removed_rows": 15175,
+  "changes": [
+    {
+      "path": "Compact/Cases/C898/SharedRows.lean",
+      "before_sha256": "2966e726f2d5799aa41b03fda21346f717b56f1a977ce5c07bcf7660c7c9e501",
+      "after_sha256": "59860f339bed62f66c67de38eeeab28c48a4a1ee53f7c3d61fafa2effd856dba",
+      "old_bytes": 1473525,
+      "new_bytes": 649197,
+      "old_lines": 26048,
+      "new_lines": 10873,
+      "preserved_source": "evidence/retired/C898DenseDictionaries/SharedRows.lean"
+    },
+    {
+      "path": "Compact/Cases/C898/SharedPoses.lean",
+      "before_sha256": "f359101c6df3999771de3ace9a623a9b48160eba186e4f0d3c0cf70e520132f5",
+      "after_sha256": "e414e7715d3ef5dc3e77b47203d9e93241ad25bc14cf5b0415033567f455155a",
+      "old_bytes": 560725,
+      "new_bytes": 356882,
+      "old_lines": 6657,
+      "new_lines": 4415,
+      "preserved_source": "evidence/retired/C898DenseDictionaries/SharedPoses.lean"
+    },
+    {
+      "path": "Compact/Cases/C898/PairComplements.lean",
+      "before_sha256": "3c3a8c023a8462bc054b5db40b12d6a35d3f0ff2b8d8b8149920db25350d251d",
+      "after_sha256": "15cb578870bd781ba3e88b8c02dd40e0d7acc024a0e810f8187017f7892f77a8",
+      "old_bytes": 89611,
+      "new_bytes": 14226,
+      "old_lines": 111,
+      "new_lines": 757,
+      "preserved_source": "evidence/retired/C898DenseDictionaries/PairComplements.lean"
+    }
+  ],
+  "subset_clients": [
+    {
+      "path": "Compact/Cases/C898/RecipeInitial/TargetPoolDiagnostic.lean",
+      "before_sha256": "65d323c3cdfcd4999c15057b7618fb3ee3d580009e323044987b10cf463a4e7b",
+      "after_sha256": "eb40550d0ac12d104e8ae86826abee89977f34d788f3287a9092967e1e5b4b7e",
+      "preserved_source": "evidence/retired/C898DenseDictionaries/RecipeInitial-TargetPoolDiagnostic.lean"
+    },
+    {
+      "path": "Compact/Cases/C898/RecipeInitial/Pool00.lean",
+      "before_sha256": "2b0a7782e8ee8f607a8c6967188d515bd10c4600cfc16636cfa1c7bed46e146e",
+      "after_sha256": "2c151d0cedb088be2949cc380955623521b9da599cb5aacc26413d6ceb93b22f",
+      "preserved_source": "evidence/retired/C898DenseDictionaries/RecipeInitial-Pool00.lean"
+    }
+  ],
+  "historical_map_sha256": "0afbf9a29a2a5b76debf7fe9722655ea41cdd66c145ec4f0e5bec4bf40f7913e",
+  "source_selector_sha256": "442b3e1d933b37b5579fe775502f2d52e48b53683a4c32a8fb320aa4cfa4927d",
+  "sparse_helper_sha256": "b597cd99e95974c8a5740baa67ac878d6d1e536a7e20ae5926066f219be6ada1",
+  "validation": "Generic SparseLiteral passed4.036sec before activation. Every selected literal and original public ID was preserved by the source selector. Full actual entry, support, complement and case assembly still require replay.",
+  "inactive_source_notice": "Legacy initial/raw incoming modules must not be imported against these sparse tables; their source is retained only as provenance."
+}

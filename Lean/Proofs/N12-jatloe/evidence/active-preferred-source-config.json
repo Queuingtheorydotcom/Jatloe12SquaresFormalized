@@ -1,0 +1,15 @@
+{
+  "purpose": "Count the full assembled preferred source and retained drafts after the authenticated unverified source transaction. No compilation or proof acceptance is inferred.",
+  "preferred_manifest": "evidence/preferred-delivery-roots.json",
+  "root_replacements": [],
+  "additional_roots": [],
+  "forbidden_module_prefixes": [
+    "Compact.HistoricalFans.C701_713_717_973_978_979.Contexts",
+    "Compact.HistoricalFans.C701_713_717_973_978_979.All",
+    "Compact.Cases.C713.Relaxation.",
+    "Compact.Cases.C898.PairStep14CachedData"
+  ],
+  "overlays": [],
+  "source_acceptance_claim": false,
+  "final_global_size_bound_claim": false
+}

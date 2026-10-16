@@ -1,0 +1,190 @@
+{
+  "status": "complete source proposal; Lean replay pending",
+  "case": 713,
+  "original_links": 1620,
+  "unique_support_rules": 11686,
+  "statistics": {
+    "target_row_occurrences": 19786,
+    "supported_occurrences": 18166,
+    "alias_occurrences": 1620
+  },
+  "failure_count": 0,
+  "failures": [],
+  "source_representation": "one original source/target Spec per link; local rows and hints materialized and kernel checked",
+  "serialized_support_rules": 0,
+  "source_sha256": {
+    "evidence/historical-compact-data/manifest.json": "f20009fcf353dc46a22907d2c1dc78a23a5e8499f569ab549d94bb31ba6d53ca",
+    "evidence/historical-compact-data/C713.json": "7ed7f008778113b87e979da105f25ab8c412258bf99cd01dac16e58755424e3a",
+    "evidence/historical-compact-data/rows.json": "5652be93ba32352a8fdc393c028424cf9d454a2fefa7798e55723e5da8027215",
+    "evidence/historical-compact-data/poses.json": "faeaf04102217cc07ceccc576ecfed41a9c7ed164a41bfc516c415ce95226908",
+    "evidence/historical-compact-data/links.json": "399c825765ebea6d1268177fa8909cbc14fb9b593d6f2c6cabe92ac8e34b39fb"
+  },
+  "lean_modules": 27,
+  "lean_lines": 3616,
+  "lean_bytes": 150404,
+  "outputs": [
+    {
+      "path": "Compact/Cases/C713/Relaxation/Data00.lean",
+      "sha256": "db2da0f14f7c0e7e2125b96c3b1cb667768f4b2f9b1f052b4231a0e11b908a0e",
+      "lines": 138,
+      "bytes": 5747
+    },
+    {
+      "path": "Compact/Cases/C713/Relaxation/Data01.lean",
+      "sha256": "7790ad6b5435a33d04aa8cef13bbe45a5d33d10a0fc37d88f8aba08ccd609a57",
+      "lines": 138,
+      "bytes": 5735
+    },
+    {
+      "path": "Compact/Cases/C713/Relaxation/Data02.lean",
+      "sha256": "ab292cc38fbe6967f623eecb3f97197310f7f07cfc662d790546b7d60ca3fd6b",
+      "lines": 138,
+      "bytes": 5744
+    },
+    {
+      "path": "Compact/Cases/C713/Relaxation/Data03.lean",
+      "sha256": "f843db13c0ba188996b79bd7c4f8c7697e7b9b23084ea60db0a7baaa3c3f4da3",
+      "lines": 138,
+      "bytes": 5747
+    },
+    {
+      "path": "Compact/Cases/C713/Relaxation/Data04.lean",
+      "sha256": "e5078422e536a1ea24506bca4bfdc8fd172dfdc70cb194dcf7c19b0ba2d04bf4",
+      "lines": 138,
+      "bytes": 5748
+    },
+    {
+      "path": "Compact/Cases/C713/Relaxation/Data05.lean",
+      "sha256": "5790bd3c169c7c4ec0b3fa47b6e92c090bbd929761f29634396638919ca64751",
+      "lines": 138,
+      "bytes": 5748
+    },
+    {
+      "path": "Compact/Cases/C713/Relaxation/Data06.lean",
+      "sha256": "35f5edb619f2676723033aad1909c9f408c60a9e2a54383796f29c17458191c1",
+      "lines": 138,
+      "bytes": 5748
+    },
+    {
+      "path": "Compact/Cases/C713/Relaxation/Data07.lean",
+      "sha256": "16a4acab0a8765442dbb73d2c99b4e365400f285dd4537e936e9109f27306654",
+      "lines": 138,
+      "bytes": 5746
+    },
+    {
+      "path": "Compact/Cases/C713/Relaxation/Data08.lean",
+      "sha256": "64eb97d7b319b43c9aa21fe8de31bdd3f181ead751a74692c68027d2e6e6a35a",
+      "lines": 138,
+      "bytes": 5733
+    },
+    {
+      "path": "Compact/Cases/C713/Relaxation/Data09.lean",
+      "sha256": "22c24d79dd643e8abff0fba0fbb98f5b31727a37c33a8fb72e5a97a88a688e94",
+      "lines": 138,
+      "bytes": 5746
+    },
+    {
+      "path": "Compact/Cases/C713/Relaxation/Data10.lean",
+      "sha256": "7769b5dd869dd37c191009788c28aa5b9339a5cfe3c467a70f9af5786740e4ad",
+      "lines": 138,
+      "bytes": 5748
+    },
+    {
+      "path": "Compact/Cases/C713/Relaxation/Data11.lean",
+      "sha256": "7adc8c28b98608f98cde06a787beb86173bf2fded1bc173ec32d2b30fb1d42aa",
+      "lines": 138,
+      "bytes": 5748
+    },
+    {
+      "path": "Compact/Cases/C713/Relaxation/Data12.lean",
+      "sha256": "be5b06d2eeb652fc367fbf2a457049cfc305738a6f906d85b68274c0fb4cce55",
+      "lines": 138,
+      "bytes": 5748
+    },
+    {
+      "path": "Compact/Cases/C713/Relaxation/Data13.lean",
+      "sha256": "c50ddb10d3db754b5b7f27511d73c078261c4a01c0e58f2e7c879a44b7161a79",
+      "lines": 138,
+      "bytes": 5748
+    },
+    {
+      "path": "Compact/Cases/C713/Relaxation/Data14.lean",
+      "sha256": "36cc0b815167b28f0b087443c8492a1c123b7c08d6b6af75a188ad0e5c666a71",
+      "lines": 138,
+      "bytes": 5745
+    },
+    {
+      "path": "Compact/Cases/C713/Relaxation/Data15.lean",
+      "sha256": "bd0f48bff17b5fc3581446b292fd3eff1fb5a93d3ad8fea53d7e8167bb946aa9",
+      "lines": 138,
+      "bytes": 5748
+    },
+    {
+      "path": "Compact/Cases/C713/Relaxation/Data16.lean",
+      "sha256": "e5103af92854395a197b448b78b8bd9e80b21cdd4b7ace2abd024a978d634bf1",
+      "lines": 138,
+      "bytes": 5748
+    },
+    {
+      "path": "Compact/Cases/C713/Relaxation/Data17.lean",
+      "sha256": "824404187dcf7a50284b240fc43b3100e9f6f1a4c1310453c63adefdfa67bfe2",
+      "lines": 138,
+      "bytes": 5709
+    },
+    {
+      "path": "Compact/Cases/C713/Relaxation/Data18.lean",
+      "sha256": "73cad65e2543a6c57832438e1a9206542146709c5e99f8e8652774deb4506a8c",
+      "lines": 138,
+      "bytes": 5746
+    },
+    {
+      "path": "Compact/Cases/C713/Relaxation/Data19.lean",
+      "sha256": "735c4276ed7f736d6f2ff551e5110b63a991c469595f604bbdf393de9819322e",
+      "lines": 138,
+      "bytes": 5747
+    },
+    {
+      "path": "Compact/Cases/C713/Relaxation/Data20.lean",
+      "sha256": "5bd8fbfca6731fbf10716cf80803359a4d926ce8474a38cc9dd194fbaa263612",
+      "lines": 138,
+      "bytes": 5748
+    },
+    {
+      "path": "Compact/Cases/C713/Relaxation/Data21.lean",
+      "sha256": "7961b611cc67b5061abc65c8e6b40329038776728bd25a5ae1f3d0df2501e036",
+      "lines": 138,
+      "bytes": 5745
+    },
+    {
+      "path": "Compact/Cases/C713/Relaxation/Data22.lean",
+      "sha256": "ceaa7e64675fa6b13fe7b7f753cfe2958ec30ccb64af2032bda8d50d3672f55a",
+      "lines": 138,
+      "bytes": 5743
+    },
+    {
+      "path": "Compact/Cases/C713/Relaxation/Data23.lean",
+      "sha256": "8c71691c673903a8640965d95107865b2ea44b539600c99688d9eb3eef8ac208",
+      "lines": 138,
+      "bytes": 5738
+    },
+    {
+      "path": "Compact/Cases/C713/Relaxation/Data24.lean",
+      "sha256": "c44787e87f297dc6bda2315d7da47b2a8b862e824da1626e1877b66c2eb8a3e2",
+      "lines": 138,
+      "bytes": 5747
+    },
+    {
+      "path": "Compact/Cases/C713/Relaxation/Data25.lean",
+      "sha256": "85c4f6bcd2896d2e8138ca391526cc6dc6c516c123713562ab4f9f43090a74b4",
+      "lines": 64,
+      "bytes": 2428
+    },
+    {
+      "path": "Compact/Cases/C713/Relaxation/All.lean",
+      "sha256": "3677b8dcd76c86a0476f830e30604e4d7ac0aca758fde1bae90a6e4efc5cdc8d",
+      "lines": 102,
+      "bytes": 4378
+    }
+  ],
+  "elapsed_seconds": 0.2547748329998285
+}

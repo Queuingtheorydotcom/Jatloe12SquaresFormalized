@@ -1,0 +1,93 @@
+{
+  "commit": "c5c6144349a141e56ac43c81ed732f731c591eac",
+  "projectTree": "725f34740b0aa680c5f7f664352136fcc0528155",
+  "scope": "Git-visible project Lean files only; excludes archive payloads and untracked source; byte counts authenticated by Git tree metadata; no line counts from metadata",
+  "modules": 1223,
+  "bytes": 1078483643,
+  "groups": {
+    "Completion.lean": {
+      "modules": 1,
+      "bytes": 258
+    },
+    "Completion": {
+      "modules": 3,
+      "bytes": 2708
+    },
+    "Completion/Cases/C1089": {
+      "modules": 1,
+      "bytes": 908
+    },
+    "Completion/Cases/C1091": {
+      "modules": 85,
+      "bytes": 103638648
+    },
+    "Completion/Cases/C1092": {
+      "modules": 18,
+      "bytes": 80730
+    },
+    "Completion/Cases/C696": {
+      "modules": 14,
+      "bytes": 83091
+    },
+    "Completion/Cases/C701": {
+      "modules": 2,
+      "bytes": 1813
+    },
+    "Completion/Cases/C709": {
+      "modules": 56,
+      "bytes": 75622238
+    },
+    "Completion/Cases/C713": {
+      "modules": 2,
+      "bytes": 1686
+    },
+    "Completion/Cases/C717": {
+      "modules": 2,
+      "bytes": 1686
+    },
+    "Completion/Cases/C898": {
+      "modules": 2,
+      "bytes": 1688
+    },
+    "Completion/Cases/C973": {
+      "modules": 2,
+      "bytes": 1687
+    },
+    "Completion/Cases/C974": {
+      "modules": 189,
+      "bytes": 157109623
+    },
+    "Completion/Cases/C976": {
+      "modules": 459,
+      "bytes": 558858535
+    },
+    "Completion/Cases/C977": {
+      "modules": 99,
+      "bytes": 74541269
+    },
+    "Completion/Cases/C978": {
+      "modules": 2,
+      "bytes": 1687
+    },
+    "Completion/Cases/C979": {
+      "modules": 2,
+      "bytes": 1687
+    },
+    "Completion/Cases/C981": {
+      "modules": 133,
+      "bytes": 106636932
+    },
+    "Completion/Cases/C983": {
+      "modules": 25,
+      "bytes": 715438
+    },
+    "evidence": {
+      "modules": 7,
+      "bytes": 2282
+    },
+    "vendor": {
+      "modules": 119,
+      "bytes": 1179049
+    }
+  }
+}

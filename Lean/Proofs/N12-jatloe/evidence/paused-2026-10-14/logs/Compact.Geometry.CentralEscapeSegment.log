@@ -1,0 +1,2 @@
+'N12Compact.CentralEscapeSegment.shallow_center' depends on axioms: [propext, Classical.choice, Quot.sound]
+'N12Compact.CentralEscapeSegment.angle_alternatives' depends on axioms: [propext, Classical.choice, Quot.sound]

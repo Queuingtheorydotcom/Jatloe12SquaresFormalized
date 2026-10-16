@@ -1,0 +1,28 @@
+{
+  "scope": "Exact source activation for two complete original chord transitions; Lean replay pending.",
+  "proposal_manifest_sha256": "54a2428f91d0c7e78d0af71bb649dbe2cfded26db7ff871957432c073994c418",
+  "outputs": {
+    "Compact/Preservation/Chords/Radii.lean": {
+      "bytes": 44525,
+      "lines": 976,
+      "sha256": "272416e3f168fc500d3148ba7bd1ced44230bfec2b0e0915f1a538e3b933bbf6"
+    },
+    "Compact/Preservation/Chords/C717Step18.lean": {
+      "bytes": 13326,
+      "lines": 164,
+      "sha256": "424bac75fb3cd77cb3c536d58d6b233e83d3b17236833e16afcfda1118a14bf5"
+    },
+    "Compact/Preservation/Chords/C701Step23.lean": {
+      "bytes": 17944,
+      "lines": 196,
+      "sha256": "60f38eb6f479bf6af8d7b3563dc0a6fb021d1788f48a012dd0bf67acfc62af21"
+    }
+  },
+  "new_files": [
+    "Compact/Preservation/Chords/Radii.lean",
+    "Compact/Preservation/Chords/C717Step18.lean",
+    "Compact/Preservation/Chords/C701Step23.lean"
+  ],
+  "lean_checked": false,
+  "elapsed_seconds": 0.0016408749979746062
+}

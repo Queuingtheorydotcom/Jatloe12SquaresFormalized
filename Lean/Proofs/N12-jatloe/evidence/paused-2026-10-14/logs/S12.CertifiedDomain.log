@@ -1,0 +1,1 @@
+'S12.certified_domain_forced' depends on axioms: [propext, Classical.choice, Quot.sound]

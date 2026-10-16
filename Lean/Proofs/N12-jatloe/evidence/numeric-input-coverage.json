@@ -1,0 +1,1029 @@
+{
+  "scope": "Case-identity fields in authenticated input files; these are entry data, not exclusions or complete witnesses.",
+  "original117": [
+    28,
+    48,
+    71,
+    78,
+    80,
+    84,
+    405,
+    424,
+    445,
+    454,
+    537,
+    556,
+    565,
+    567,
+    569,
+    570,
+    573,
+    574,
+    575,
+    576,
+    577,
+    580,
+    581,
+    585,
+    589,
+    590,
+    669,
+    670,
+    673,
+    674,
+    675,
+    678,
+    680,
+    683,
+    684,
+    690,
+    691,
+    694,
+    696,
+    697,
+    698,
+    699,
+    700,
+    701,
+    702,
+    705,
+    709,
+    711,
+    713,
+    715,
+    716,
+    717,
+    841,
+    842,
+    846,
+    847,
+    848,
+    849,
+    850,
+    851,
+    852,
+    853,
+    862,
+    864,
+    867,
+    868,
+    882,
+    886,
+    887,
+    888,
+    889,
+    890,
+    893,
+    896,
+    898,
+    972,
+    973,
+    974,
+    975,
+    976,
+    977,
+    978,
+    979,
+    981,
+    982,
+    983,
+    985,
+    990,
+    992,
+    993,
+    994,
+    995,
+    997,
+    998,
+    999,
+    1001,
+    1002,
+    1063,
+    1064,
+    1069,
+    1070,
+    1072,
+    1073,
+    1074,
+    1075,
+    1077,
+    1078,
+    1081,
+    1083,
+    1084,
+    1085,
+    1086,
+    1087,
+    1089,
+    1090,
+    1091,
+    1092
+  ],
+  "frontier18": [
+    696,
+    701,
+    709,
+    713,
+    717,
+    898,
+    973,
+    974,
+    976,
+    977,
+    978,
+    979,
+    981,
+    983,
+    1089,
+    1090,
+    1091,
+    1092
+  ],
+  "shortcut59": [
+    28,
+    71,
+    80,
+    405,
+    424,
+    537,
+    556,
+    565,
+    567,
+    569,
+    570,
+    575,
+    576,
+    589,
+    590,
+    669,
+    670,
+    673,
+    674,
+    675,
+    684,
+    698,
+    702,
+    841,
+    842,
+    846,
+    847,
+    848,
+    849,
+    850,
+    851,
+    852,
+    853,
+    882,
+    888,
+    889,
+    890,
+    893,
+    985,
+    990,
+    993,
+    994,
+    999,
+    1002,
+    1063,
+    1064,
+    1069,
+    1070,
+    1073,
+    1074,
+    1075,
+    1077,
+    1078,
+    1081,
+    1083,
+    1084,
+    1085,
+    1086,
+    1087
+  ],
+  "baseline_other40": [
+    48,
+    78,
+    84,
+    445,
+    454,
+    573,
+    574,
+    577,
+    580,
+    581,
+    585,
+    678,
+    680,
+    683,
+    690,
+    691,
+    694,
+    697,
+    699,
+    700,
+    705,
+    711,
+    715,
+    716,
+    862,
+    864,
+    867,
+    868,
+    886,
+    887,
+    896,
+    972,
+    975,
+    982,
+    992,
+    995,
+    997,
+    998,
+    1001,
+    1072
+  ],
+  "inputs_present_case_ids": [
+    28,
+    48,
+    71,
+    78,
+    80,
+    405,
+    424,
+    445,
+    454,
+    537,
+    556,
+    565,
+    567,
+    569,
+    570,
+    573,
+    574,
+    575,
+    576,
+    577,
+    580,
+    581,
+    585,
+    589,
+    590,
+    669,
+    670,
+    673,
+    674,
+    675,
+    678,
+    680,
+    683,
+    684,
+    690,
+    691,
+    694,
+    697,
+    698,
+    699,
+    700,
+    701,
+    702,
+    705,
+    711,
+    713,
+    715,
+    716,
+    717,
+    841,
+    842,
+    846,
+    847,
+    848,
+    849,
+    850,
+    851,
+    852,
+    853,
+    862,
+    864,
+    867,
+    868,
+    882,
+    886,
+    887,
+    888,
+    889,
+    890,
+    893,
+    896,
+    898,
+    972,
+    973,
+    975,
+    976,
+    978,
+    979,
+    982,
+    983,
+    985,
+    990,
+    992,
+    993,
+    994,
+    995,
+    997,
+    998,
+    999,
+    1001,
+    1002,
+    1063,
+    1064,
+    1069,
+    1070,
+    1072,
+    1073,
+    1074,
+    1075,
+    1077,
+    1078,
+    1081,
+    1083,
+    1084,
+    1085,
+    1086,
+    1087,
+    1089,
+    1090,
+    1091
+  ],
+  "original117_without_input": [
+    84,
+    696,
+    709,
+    974,
+    977,
+    981,
+    1092
+  ],
+  "per_case_input_records": {
+    "28": [
+      "data/case28-input.json"
+    ],
+    "48": [
+      "data/case48-input.json"
+    ],
+    "71": [
+      "data/case71-input.json"
+    ],
+    "78": [
+      "data/case78-input.json",
+      "data/case78c0-input.json",
+      "data/case78c1-input.json"
+    ],
+    "80": [
+      "data/case80-input.json"
+    ],
+    "405": [
+      "data/case405-input.json"
+    ],
+    "424": [
+      "data/case424-input.json"
+    ],
+    "445": [
+      "data/case445-input.json",
+      "data/case445c0-input.json",
+      "data/case445c1-input.json"
+    ],
+    "454": [
+      "data/case454-input.json",
+      "data/case454c0-input.json",
+      "data/case454c1-input.json"
+    ],
+    "537": [
+      "data/case537-input.json"
+    ],
+    "556": [
+      "data/case556-input.json"
+    ],
+    "565": [
+      "data/case565-input.json"
+    ],
+    "567": [
+      "data/case567-input.json"
+    ],
+    "569": [
+      "data/case569-input.json"
+    ],
+    "570": [
+      "data/case570-input.json"
+    ],
+    "573": [
+      "data/case573-input.json"
+    ],
+    "574": [
+      "data/case574-input.json"
+    ],
+    "575": [
+      "data/case575-input.json"
+    ],
+    "576": [
+      "data/case576-input.json"
+    ],
+    "577": [
+      "data/case577-input.json"
+    ],
+    "580": [
+      "data/case580-input.json"
+    ],
+    "581": [
+      "data/case581-input.json"
+    ],
+    "585": [
+      "data/case585-input.json"
+    ],
+    "589": [
+      "data/case589-input.json"
+    ],
+    "590": [
+      "data/case590-input.json"
+    ],
+    "669": [
+      "data/case669-input.json"
+    ],
+    "670": [
+      "data/case670-input.json"
+    ],
+    "673": [
+      "data/case673-input.json"
+    ],
+    "674": [
+      "data/case674-input.json"
+    ],
+    "675": [
+      "data/case675-input.json"
+    ],
+    "678": [
+      "data/case678-input.json"
+    ],
+    "680": [
+      "data/case680-input.json"
+    ],
+    "683": [
+      "data/case683-input.json"
+    ],
+    "684": [
+      "data/case684-input.json"
+    ],
+    "690": [
+      "data/case690-input.json"
+    ],
+    "691": [
+      "data/case691-input.json"
+    ],
+    "694": [
+      "data/case694-input.json"
+    ],
+    "697": [
+      "data/case697-input.json"
+    ],
+    "698": [
+      "data/case698-input.json"
+    ],
+    "699": [
+      "data/case699-input.json"
+    ],
+    "700": [
+      "data/case700-input.json"
+    ],
+    "701": [
+      "data/case701-input.json"
+    ],
+    "702": [
+      "data/case702-input.json"
+    ],
+    "705": [
+      "data/case705-input.json",
+      "data/case705-vertices-only-input.json"
+    ],
+    "711": [
+      "data/case711-input.json"
+    ],
+    "713": [
+      "data/case713-input.json"
+    ],
+    "715": [
+      "data/case715-input.json",
+      "data/case715b0-input.json",
+      "data/case715b1-input.json",
+      "data/case715b2-input.json",
+      "data/case715b3-input.json",
+      "data/case715b4-input.json",
+      "data/case715b5-input.json"
+    ],
+    "716": [
+      "data/case716-input.json",
+      "data/case716-vertices-only-input.json"
+    ],
+    "717": [
+      "data/case717-input.json"
+    ],
+    "841": [
+      "data/case841-input.json"
+    ],
+    "842": [
+      "data/case842-input.json"
+    ],
+    "846": [
+      "data/case846-input.json"
+    ],
+    "847": [
+      "data/case847-input.json"
+    ],
+    "848": [
+      "data/case848-input.json"
+    ],
+    "849": [
+      "data/case849-input.json"
+    ],
+    "850": [
+      "data/case850-input.json"
+    ],
+    "851": [
+      "data/case851-input.json"
+    ],
+    "852": [
+      "data/case852-input.json"
+    ],
+    "853": [
+      "data/case853-input.json"
+    ],
+    "862": [
+      "data/case862-input.json"
+    ],
+    "864": [
+      "data/case864-input.json"
+    ],
+    "867": [
+      "data/case867-input.json"
+    ],
+    "868": [
+      "data/case868-input.json"
+    ],
+    "882": [
+      "data/case882-input.json"
+    ],
+    "886": [
+      "data/case886-input.json",
+      "data/case886-vertices-only-input.json"
+    ],
+    "887": [
+      "data/case887-input.json"
+    ],
+    "888": [
+      "data/case888-input.json"
+    ],
+    "889": [
+      "data/case889-input.json"
+    ],
+    "890": [
+      "data/case890-input.json"
+    ],
+    "893": [
+      "data/case893-input.json"
+    ],
+    "896": [
+      "data/case896-input.json"
+    ],
+    "898": [
+      "data/case898-input.json"
+    ],
+    "972": [
+      "data/case972-input.json"
+    ],
+    "973": [
+      "data/case973-input.json"
+    ],
+    "975": [
+      "data/case975-input.json"
+    ],
+    "976": [
+      "data/case976-before-global-support-input.json",
+      "data/case976-input.json",
+      "data/case976c0-input.json",
+      "data/case976c1-input.json",
+      "data/case976m2_0-input.json",
+      "data/case976m2_1-input.json",
+      "data/caseAux976Long2b29d68a5b-input.json",
+      "data/caseAuxCoarse976V41N128-input.json",
+      "data/caseAuxCorner976d6_0-input.json",
+      "data/caseAuxCorner976d6_1-input.json",
+      "data/caseAuxTree976_0-input.json",
+      "data/caseAuxTree976_1-input.json",
+      "data/caseAuxTree976_2-input.json",
+      "data/caseAuxTree976_3-input.json",
+      "data/caseAuxTree976_4-input.json",
+      "data/caseAuxTree976_5-input.json",
+      "data/caseAuxTree976_6-input.json",
+      "data/caseAuxTree976_7-input.json",
+      "data/caseAuxTree976h003ab32588-input.json",
+      "data/caseAuxTree976h064aec2999-input.json",
+      "data/caseAuxTree976h0ab75c7258-input.json",
+      "data/caseAuxTree976h1b498890a3-input.json",
+      "data/caseAuxTree976h28c039e88e-input.json",
+      "data/caseAuxTree976h2b29d68a5b-input.json",
+      "data/caseAuxTree976h2b29d68a5bN128-input.json",
+      "data/caseAuxTree976h2d45b77934-input.json",
+      "data/caseAuxTree976h32761e5430-input.json",
+      "data/caseAuxTree976h353ead2cec-input.json",
+      "data/caseAuxTree976h3b41c9c6d7-input.json",
+      "data/caseAuxTree976h4d70fa6975-input.json",
+      "data/caseAuxTree976h5356dcb502-input.json",
+      "data/caseAuxTree976h5778e572af-input.json",
+      "data/caseAuxTree976h6736b52816-input.json",
+      "data/caseAuxTree976h71056db65f-input.json",
+      "data/caseAuxTree976h71e70543cd-input.json",
+      "data/caseAuxTree976h72bf674263-input.json",
+      "data/caseAuxTree976h74d24e7519-input.json",
+      "data/caseAuxTree976h7c0d95f141-input.json",
+      "data/caseAuxTree976h8ea111ea69-input.json",
+      "data/caseAuxTree976h9103970922-input.json",
+      "data/caseAuxTree976h966fcc9741-input.json",
+      "data/caseAuxTree976h972aa8307e-input.json",
+      "data/caseAuxTree976h9b921ee2e2-input.json",
+      "data/caseAuxTree976h9e1054d299-input.json",
+      "data/caseAuxTree976h9e1054d299N128-input.json",
+      "data/caseAuxTree976ha1141c59ba-input.json",
+      "data/caseAuxTree976hb5abde9924-input.json",
+      "data/caseAuxTree976hb685ab4a8b-input.json",
+      "data/caseAuxTree976hb8acca1a1b-input.json",
+      "data/caseAuxTree976hb9cfe47ee0-input.json",
+      "data/caseAuxTree976hbdb528cabc-input.json",
+      "data/caseAuxTree976hca5c64d4f7-input.json",
+      "data/caseAuxTree976hcb28bb2546-input.json",
+      "data/caseAuxTree976hcb28bb2546N128-input.json",
+      "data/caseAuxTree976hd4cd2ad410-input.json",
+      "data/caseAuxTree976hd4f253a595-input.json",
+      "data/caseAuxTree976hd5eca60911-input.json",
+      "data/caseAuxTree976hdc2b471cef-input.json",
+      "data/caseAuxTree976hdfd3174969-input.json",
+      "data/caseAuxTree976hdfffaa627d-input.json",
+      "data/caseAuxTree976he6b457788e-input.json",
+      "data/caseAuxTree976hed2efd5322-input.json",
+      "data/caseAuxTree976hefb8aa1b39-input.json",
+      "data/caseAuxTree976hfe3b55770e-input.json",
+      "data/caseGlobal976-input.json",
+      "data/caseIntersection976-input.json",
+      "data/caseLocal976-input.json",
+      "data/caseReuseD4976h40e5298e5921-input.json",
+      "data/caseReuseD4976h7a7636ab636d-input.json",
+      "data/caseReuseD4976h88fc2c0f9be9-input.json",
+      "data/caseReuseD4976hc68ee9b3c969-input.json",
+      "data/caseReuseD4976he4e09ade5800-input.json",
+      "data/caseRich976-input.json"
+    ],
+    "978": [
+      "data/case978-input.json"
+    ],
+    "979": [
+      "data/case979-input.json",
+      "data/case979c0-input.json",
+      "data/case979c1-input.json",
+      "data/case979m2_0-input.json",
+      "data/case979m2_1-input.json"
+    ],
+    "982": [
+      "data/case982-input.json",
+      "data/case982c0-input.json",
+      "data/case982c1-input.json"
+    ],
+    "983": [
+      "data/case983-before-global-support-input.json",
+      "data/case983-input.json",
+      "data/case983c0-input.json",
+      "data/case983c1-input.json",
+      "data/case983m2_0-input.json",
+      "data/case983m2_1-input.json",
+      "data/case983m2_2-input.json",
+      "data/caseAuxTree983h028af5f51b-input.json",
+      "data/caseAuxTree983h032b1a7a41-input.json",
+      "data/caseAuxTree983h032b1a7a41N128-input.json",
+      "data/caseAuxTree983h0448c6723a-input.json",
+      "data/caseAuxTree983h04d6ddbc82-input.json",
+      "data/caseAuxTree983h0744877e4d-input.json",
+      "data/caseAuxTree983h0744877e4dN128-input.json",
+      "data/caseAuxTree983h0df98fb45e-input.json",
+      "data/caseAuxTree983h0df98fb45eN128-input.json",
+      "data/caseAuxTree983h0f7528da0d-input.json",
+      "data/caseAuxTree983h11a3df7531-input.json",
+      "data/caseAuxTree983h136b5ac340-input.json",
+      "data/caseAuxTree983h13aa343982-input.json",
+      "data/caseAuxTree983h19e81f92ba-input.json",
+      "data/caseAuxTree983h2483c99842-input.json",
+      "data/caseAuxTree983h24f95989eb-input.json",
+      "data/caseAuxTree983h2c369e8805-input.json",
+      "data/caseAuxTree983h2d2e6f301b-input.json",
+      "data/caseAuxTree983h2e1fb1aae3-input.json",
+      "data/caseAuxTree983h31b418feed-input.json",
+      "data/caseAuxTree983h32785ddec4-input.json",
+      "data/caseAuxTree983h32785ddec4N128-input.json",
+      "data/caseAuxTree983h33adb5ba8d-input.json",
+      "data/caseAuxTree983h35496d7415-input.json",
+      "data/caseAuxTree983h358c663d07-input.json",
+      "data/caseAuxTree983h36c77907e4-input.json",
+      "data/caseAuxTree983h36c77907e4N128-input.json",
+      "data/caseAuxTree983h378dba2590-input.json",
+      "data/caseAuxTree983h378dba2590N128-input.json",
+      "data/caseAuxTree983h39c528979f-input.json",
+      "data/caseAuxTree983h3ad0a39f4f-input.json",
+      "data/caseAuxTree983h3c198c5452-input.json",
+      "data/caseAuxTree983h44e61aa113-input.json",
+      "data/caseAuxTree983h44e61aa113N128-input.json",
+      "data/caseAuxTree983h49eb0e2821-input.json",
+      "data/caseAuxTree983h4bc6695a54-input.json",
+      "data/caseAuxTree983h4c9c99d757-input.json",
+      "data/caseAuxTree983h4f53cda18c-input.json",
+      "data/caseAuxTree983h4f96d87883-input.json",
+      "data/caseAuxTree983h545f416eb1-input.json",
+      "data/caseAuxTree983h5712008f10-input.json",
+      "data/caseAuxTree983h5738c362c8-input.json",
+      "data/caseAuxTree983h57beb9397b-input.json",
+      "data/caseAuxTree983h580559c413-input.json",
+      "data/caseAuxTree983h580559c413N128-input.json",
+      "data/caseAuxTree983h5bdfdd527d-input.json",
+      "data/caseAuxTree983h5dac16daa2-input.json",
+      "data/caseAuxTree983h6156f6ee37-input.json",
+      "data/caseAuxTree983h62334be542-input.json",
+      "data/caseAuxTree983h630b7a3335-input.json",
+      "data/caseAuxTree983h630b7a3335N128-input.json",
+      "data/caseAuxTree983h6409300f4e-input.json",
+      "data/caseAuxTree983h66ea5d0f53-input.json",
+      "data/caseAuxTree983h6a4bd865aa-input.json",
+      "data/caseAuxTree983h6fe8d7884d-input.json",
+      "data/caseAuxTree983h6fe8d7884dN128-input.json",
+      "data/caseAuxTree983h76bf1b967c-input.json",
+      "data/caseAuxTree983h781f598e88-input.json",
+      "data/caseAuxTree983h7838fff284-input.json",
+      "data/caseAuxTree983h7934f83b2d-input.json",
+      "data/caseAuxTree983h7c53c50abf-input.json",
+      "data/caseAuxTree983h7cbd2268d0-input.json",
+      "data/caseAuxTree983h7d357abf34-input.json",
+      "data/caseAuxTree983h7d5bd64b4b-input.json",
+      "data/caseAuxTree983h7e5d3e4de3-input.json",
+      "data/caseAuxTree983h7f0577aa92-input.json",
+      "data/caseAuxTree983h81d9a8ea19-input.json",
+      "data/caseAuxTree983h85c0faccd3-input.json",
+      "data/caseAuxTree983h85c837b080-input.json",
+      "data/caseAuxTree983h86d4c94c21-input.json",
+      "data/caseAuxTree983h87a9abec5f-input.json",
+      "data/caseAuxTree983h8b450afc00-input.json",
+      "data/caseAuxTree983h8c5ad3b8c6-input.json",
+      "data/caseAuxTree983h8cd9e44f70-input.json",
+      "data/caseAuxTree983h8d10aadd6c-input.json",
+      "data/caseAuxTree983h909cd7d222-input.json",
+      "data/caseAuxTree983h9993b04bae-input.json",
+      "data/caseAuxTree983h9b0ebf295d-input.json",
+      "data/caseAuxTree983h9bb3c8d7ef-input.json",
+      "data/caseAuxTree983ha4c4f2e0f4-input.json",
+      "data/caseAuxTree983ha78db6b239-input.json",
+      "data/caseAuxTree983ha7f98a6e00-input.json",
+      "data/caseAuxTree983ha8192faeaa-input.json",
+      "data/caseAuxTree983haaf0980e8b-input.json",
+      "data/caseAuxTree983hab097cf5d2-input.json",
+      "data/caseAuxTree983hab097cf5d2N128-input.json",
+      "data/caseAuxTree983haf519aaefd-input.json",
+      "data/caseAuxTree983hb2326c75a0-input.json",
+      "data/caseAuxTree983hb2326c75a0N128-input.json",
+      "data/caseAuxTree983hb2b1e844d1-input.json",
+      "data/caseAuxTree983hb315faaaff-input.json",
+      "data/caseAuxTree983hb64e2dc96a-input.json",
+      "data/caseAuxTree983hb93a878acd-input.json",
+      "data/caseAuxTree983hc1a9c65d24-input.json",
+      "data/caseAuxTree983hc1a9c65d24N128-input.json",
+      "data/caseAuxTree983hc47e739949-input.json",
+      "data/caseAuxTree983hc4a2bd5739-input.json",
+      "data/caseAuxTree983hc522ea0c08-input.json",
+      "data/caseAuxTree983hc66eb27e22-input.json",
+      "data/caseAuxTree983hc7d040f477-input.json",
+      "data/caseAuxTree983hc814d60e46-input.json",
+      "data/caseAuxTree983hc92ba93bd0-input.json",
+      "data/caseAuxTree983hc9b004d187-input.json",
+      "data/caseAuxTree983hcfaeb11695-input.json",
+      "data/caseAuxTree983hcfca75c98f-input.json",
+      "data/caseAuxTree983hd7c96591e2-input.json",
+      "data/caseAuxTree983hd7c96591e2N128-input.json",
+      "data/caseAuxTree983hd7dabce491-input.json",
+      "data/caseAuxTree983hd9348d5352-input.json",
+      "data/caseAuxTree983hd9348d5352N128-input.json",
+      "data/caseAuxTree983hd9ed2958d9-input.json",
+      "data/caseAuxTree983hdc2ed11509-input.json",
+      "data/caseAuxTree983hdcb76093d9-input.json",
+      "data/caseAuxTree983hddd5a0398b-input.json",
+      "data/caseAuxTree983hdefae9a62a-input.json",
+      "data/caseAuxTree983hdefae9a62aN128-input.json",
+      "data/caseAuxTree983he0e8e3c977-input.json",
+      "data/caseAuxTree983he2a0f89d90-input.json",
+      "data/caseAuxTree983he4c2fa7eeb-input.json",
+      "data/caseAuxTree983he4d607d743-input.json",
+      "data/caseAuxTree983he9b7befb69-input.json",
+      "data/caseAuxTree983hec9e438bba-input.json",
+      "data/caseAuxTree983hec9e438bbaN128-input.json",
+      "data/caseAuxTree983hee37614c4c-input.json",
+      "data/caseAuxTree983hee37614c4cN128-input.json",
+      "data/caseAuxTree983heeaebef289-input.json",
+      "data/caseAuxTree983heeaebef289N128-input.json",
+      "data/caseAuxTree983heed5222c6c-input.json",
+      "data/caseAuxTree983hf153a58aa4-input.json",
+      "data/caseAuxTree983hf2691a4136-input.json",
+      "data/caseAuxTree983hf38afc441a-input.json",
+      "data/caseAuxTree983hf39fb15d5f-input.json",
+      "data/caseAuxTree983hf75b684194-input.json",
+      "data/caseAuxTree983hf75b684194N128-input.json",
+      "data/caseAuxTree983hfc0dac6599-input.json",
+      "data/caseAuxTree983hfdf0cd74b7-input.json",
+      "data/caseAuxTree983hfe8bbcd4f1-input.json",
+      "data/caseBoxTrial983hf2691a4136-input.json",
+      "data/caseFastTrial983h31b418feed-input.json",
+      "data/caseGlobal983-input.json",
+      "data/caseIntersection983-input.json",
+      "data/caseLocal983-input.json",
+      "data/caseReuseD4983h09fcce5102ec-input.json",
+      "data/caseReuseD4983h0bf3772b10e1-input.json",
+      "data/caseReuseD4983h20738111ca42-input.json",
+      "data/caseReuseD4983h23884b301b44-input.json",
+      "data/caseReuseD4983h28596cfb039f-input.json",
+      "data/caseReuseD4983h2998e5049787-input.json",
+      "data/caseReuseD4983h314ac9a3ea4f-input.json",
+      "data/caseReuseD4983h329f9df6c6a8-input.json",
+      "data/caseReuseD4983h39cf046f5a72-input.json",
+      "data/caseReuseD4983h3a05b6072415-input.json",
+      "data/caseReuseD4983h43f3ffb74470-input.json",
+      "data/caseReuseD4983h53ef823262a8-input.json",
+      "data/caseReuseD4983h5cc9effba59e-input.json",
+      "data/caseReuseD4983h68de82318b1b-input.json",
+      "data/caseReuseD4983h7fe13f4eaa51-input.json",
+      "data/caseReuseD4983h89c9247e2479-input.json",
+      "data/caseReuseD4983h926ce422510c-input.json",
+      "data/caseReuseD4983hb7e00180f78f-input.json",
+      "data/caseReuseD4983hbab11c1f6d8c-input.json",
+      "data/caseReuseD4983hce1484b8f5d9-input.json",
+      "data/caseReuseD4983hd13b6d588073-input.json",
+      "data/caseReuseD4983hd776b092ea63-input.json",
+      "data/caseReuseD4983hdc7fe47c988c-input.json",
+      "data/caseReuseD4983hdd7bd0df5621-input.json",
+      "data/caseReuseD4983hdf3686629fef-input.json",
+      "data/caseReuseD4983he865680f2d19-input.json",
+      "data/caseReuseD4983hf5bdef48b3e5-input.json",
+      "data/caseReusePose983h62334be542-input.json",
+      "data/caseRich983-input.json"
+    ],
+    "985": [
+      "data/case985-input.json"
+    ],
+    "990": [
+      "data/case990-input.json"
+    ],
+    "992": [
+      "data/case992-input.json"
+    ],
+    "993": [
+      "data/case993-input.json"
+    ],
+    "994": [
+      "data/case994-input.json"
+    ],
+    "995": [
+      "data/case995-input.json",
+      "data/case995-vertices-only-input.json"
+    ],
+    "997": [
+      "data/case997-input.json",
+      "data/case997b0-input.json",
+      "data/case997b1-input.json",
+      "data/case997b2-input.json",
+      "data/case997b3-input.json"
+    ],
+    "998": [
+      "data/case998-input.json"
+    ],
+    "999": [
+      "data/case999-input.json"
+    ],
+    "1001": [
+      "data/case1001-input.json"
+    ],
+    "1002": [
+      "data/case1002-input.json"
+    ],
+    "1063": [
+      "data/case1063-input.json"
+    ],
+    "1064": [
+      "data/case1064-input.json"
+    ],
+    "1069": [
+      "data/case1069-input.json"
+    ],
+    "1070": [
+      "data/case1070-input.json"
+    ],
+    "1072": [
+      "data/case1072-input.json"
+    ],
+    "1073": [
+      "data/case1073-input.json"
+    ],
+    "1074": [
+      "data/case1074-input.json"
+    ],
+    "1075": [
+      "data/case1075-input.json"
+    ],
+    "1077": [
+      "data/case1077-input.json"
+    ],
+    "1078": [
+      "data/case1078-input.json"
+    ],
+    "1081": [
+      "data/case1081-input.json"
+    ],
+    "1083": [
+      "data/case1083-input.json"
+    ],
+    "1084": [
+      "data/case1084-input.json"
+    ],
+    "1085": [
+      "data/case1085-input.json"
+    ],
+    "1086": [
+      "data/case1086-input.json"
+    ],
+    "1087": [
+      "data/case1087-input.json"
+    ],
+    "1089": [
+      "data/case1089-before-global-support-input.json",
+      "data/case1089-input.json",
+      "data/case1089m0_0-input.json",
+      "data/case1089m0_1-input.json",
+      "data/caseAuxTree1089h165f43d551-input.json",
+      "data/caseAuxTree1089h2c93cd15a3-input.json",
+      "data/caseAuxTree1089h2f41dcc294-input.json",
+      "data/caseAuxTree1089h35311c83f6-input.json",
+      "data/caseAuxTree1089h3c2a2df7f9-input.json",
+      "data/caseAuxTree1089h3f4ff5f5ba-input.json",
+      "data/caseAuxTree1089h4239da34e3-input.json",
+      "data/caseAuxTree1089h4f53cda18c-input.json",
+      "data/caseAuxTree1089h5e5eb28b2e-input.json",
+      "data/caseAuxTree1089h621abba974-input.json",
+      "data/caseAuxTree1089h66c3acd05d-input.json",
+      "data/caseAuxTree1089h726e7974e8-input.json",
+      "data/caseAuxTree1089h732853867f-input.json",
+      "data/caseAuxTree1089h77d5cfcd29-input.json",
+      "data/caseAuxTree1089h78096ebc19-input.json",
+      "data/caseAuxTree1089h81af4fa2c6-input.json",
+      "data/caseAuxTree1089h8e014adcbd-input.json",
+      "data/caseAuxTree1089h9f95b0e534-input.json",
+      "data/caseAuxTree1089ha1f1fb06e6-input.json",
+      "data/caseAuxTree1089ha7974f7d0a-input.json",
+      "data/caseAuxTree1089haf242fffca-input.json",
+      "data/caseAuxTree1089haf242fffcaN128-input.json",
+      "data/caseAuxTree1089hb4b4d1648b-input.json",
+      "data/caseAuxTree1089hb69c7d1c88-input.json",
+      "data/caseAuxTree1089hcb873beb86-input.json",
+      "data/caseAuxTree1089hcfee3d5670-input.json",
+      "data/caseAuxTree1089hde61f64508-input.json",
+      "data/caseAuxTree1089he570873894-input.json",
+      "data/caseAuxTree1089he5c9de007e-input.json",
+      "data/caseAuxTree1089hebe6334d8f-input.json",
+      "data/caseFine1089h310a7dfd0f-input.json",
+      "data/caseFine1089haf150e8529-input.json",
+      "data/caseFine1089hd0c2935a10-input.json",
+      "data/caseGlobal1089-input.json",
+      "data/caseIntersection1089-input.json",
+      "data/caseLocal1089-input.json",
+      "data/caseReuseD41089h51b086136aec-input.json",
+      "data/caseReuseD41089h53ade8b97866-input.json",
+      "data/caseReuseD41089h59c18183d918-input.json",
+      "data/caseReuseD41089h61a26d9fa012-input.json",
+      "data/caseReuseD41089h64c08cfcbe57-input.json",
+      "data/caseReuseD41089h66e88504fc7e-input.json",
+      "data/caseReuseD41089h6768a75ccedd-input.json",
+      "data/caseReuseD41089h921b0270fa89-input.json",
+      "data/caseReuseD41089h97f00956bc3b-input.json",
+      "data/caseReuseD41089h99b22e96f17a-input.json",
+      "data/caseReuseD41089hc1ec68f582cf-input.json",
+      "data/caseReuseD41089hc36c5dc8737d-input.json",
+      "data/caseReuseD41089hc7d9c301e19f-input.json",
+      "data/caseReuseD41089hdb6675d5591a-input.json",
+      "data/caseReuseD41089hdffed2151127-input.json",
+      "data/caseReuseD41089hedbbed88fcb7-input.json",
+      "data/caseRich1089-input.json"
+    ],
+    "1090": [
+      "data/case1090-input.json"
+    ],
+    "1091": [
+      "data/case1091-input.json"
+    ]
+  }
+}

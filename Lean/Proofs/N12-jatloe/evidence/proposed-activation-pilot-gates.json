@@ -1,0 +1,20 @@
+[
+  "Compact.Core.BoxRowRecipe",
+  "Compact.Core.BoxRowSyntax",
+  "Compact.HistoricalData.BoxPilot",
+  "Compact.Core.StripRowRecipe",
+  "Compact.Core.StripRowSyntax",
+  "Compact.HistoricalData.StripPilot",
+  "Compact.Bridge.CheckedCommonFanCommand",
+  "Compact.HistoricalFans.C701_713_717_973_978_979.FusedPilot",
+  "Compact.Bridge.SharedLocalQueries",
+  "Compact.Bridge.InitialCoverBatch",
+  "Compact.Cases.C898.RecipeInitial.BatchCommandPilot",
+  "Compact.Cases.C898.FusedContextSyntax",
+  "Compact.Bridge.DirectPruningPlan",
+  "Compact.Bridge.CommonRectanglePartition",
+  "Compact.Bridge.ChordSyntax",
+  "Compact.Bridge.ChordPacking",
+  "Compact.Preservation.Chords.C717Step18",
+  "Compact.Preservation.Chords.C701Step23"
+]

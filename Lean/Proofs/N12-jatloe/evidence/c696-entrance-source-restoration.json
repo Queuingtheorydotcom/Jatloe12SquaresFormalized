@@ -1,0 +1,49 @@
+{
+  "original_revision": "c5c6144349a141e56ac43c81ed732f731c591eac",
+  "compilation_run": false,
+  "semantic_change": false,
+  "files": [
+    {
+      "path": "Completion/Cases/C696/CornerReduction.lean",
+      "source_sha256": "2b723c7469493fb575b6c162b194d84485f5ce4beefdaf977cd388c5f7b09e2a",
+      "assembled_sha256": "2b723c7469493fb575b6c162b194d84485f5ce4beefdaf977cd388c5f7b09e2a",
+      "import_only_change": false
+    },
+    {
+      "path": "Completion/Cases/C696/AuxiliaryNecessity.lean",
+      "source_sha256": "2a8b4e0258fb68a566eda94a147025ef6035ce33c16deb03abb54731a67ac5d6",
+      "assembled_sha256": "2a8b4e0258fb68a566eda94a147025ef6035ce33c16deb03abb54731a67ac5d6",
+      "import_only_change": false
+    },
+    {
+      "path": "Completion/Cases/C696/SideSignPacking.lean",
+      "source_sha256": "b8af372af55c140345893f41631cd48ac626b96cf4b55494f035547d5e4ed405",
+      "assembled_sha256": "fcdbf503787fb5bba027491789e944435bed87450a0f9a449b69c365508807ab",
+      "import_only_change": true
+    },
+    {
+      "path": "Completion/Cases/C696/SideSign.lean",
+      "source_sha256": "cd4eeb55584f808a8afcece6c37128a9f5f668a2078b7406ba3a84e6fab45df2",
+      "assembled_sha256": "cd4eeb55584f808a8afcece6c37128a9f5f668a2078b7406ba3a84e6fab45df2",
+      "import_only_change": false
+    },
+    {
+      "path": "Completion/Cases/C696/SideSignAlgebra.lean",
+      "source_sha256": "76cae344e5b60ca7b93085c6a5647030a0114f1bafb2a42084d5d396a06a295e",
+      "assembled_sha256": "76cae344e5b60ca7b93085c6a5647030a0114f1bafb2a42084d5d396a06a295e",
+      "import_only_change": false
+    },
+    {
+      "path": "Completion/Cases/C696/AuxUnique.lean",
+      "source_sha256": "daa3850571db725f840329bae91012e9de9fd6daa80502a696adf50520d7c7cc",
+      "assembled_sha256": "daa3850571db725f840329bae91012e9de9fd6daa80502a696adf50520d7c7cc",
+      "import_only_change": false
+    },
+    {
+      "path": "Completion/Cases/C696/RootZeroSymmetry.lean",
+      "source_sha256": "3a2505c2c7feec0ff1a07b6865d83998a015476e2d4681f2c8f82a65d2265db8",
+      "assembled_sha256": "3a2505c2c7feec0ff1a07b6865d83998a015476e2d4681f2c8f82a65d2265db8",
+      "import_only_change": false
+    }
+  ]
+}

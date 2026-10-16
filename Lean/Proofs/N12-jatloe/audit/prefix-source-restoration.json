@@ -1,0 +1,88 @@
+{
+  "source_commit": "98ddf88a36d0a227d1a94e1c7e0ed64d1c840de8",
+  "full_stream_verified": false,
+  "fresh_lean_run": false,
+  "downloaded_bytes": 4194304,
+  "parts": [
+    {
+      "name": "source.part0000",
+      "size": 4194304,
+      "sha256": "4a99c59aaaed81167623ec608f10dfa871d7f52315f0fb81a95197d4a09b18ef",
+      "git_sha": "7ac0500287553ffdbcf7e0c5fbacff2bba333987"
+    }
+  ],
+  "files": [
+    {
+      "path": "S12/Case976Domains.lean",
+      "size": 340978,
+      "sha256": "c3caefc7b02efa3ca595011c8fd8a64728f060b14e11c454e786510b27e08c43",
+      "source_archive": "s12-lean-progress.zip",
+      "lines": 2793
+    }
+  ],
+  "headers": [
+    {
+      "name": "s12-to117/S12.lean",
+      "bytes": 104
+    },
+    {
+      "name": "s12-to117/S12/AffineOverlap.lean",
+      "bytes": 6853
+    },
+    {
+      "name": "s12-to117/S12/AlignedPruneBlock48.lean",
+      "bytes": 1456
+    },
+    {
+      "name": "s12-to117/S12/AllLemmas.lean",
+      "bytes": 2740
+    },
+    {
+      "name": "s12-to117/S12/AngleChordRadius.lean",
+      "bytes": 3909
+    },
+    {
+      "name": "s12-to117/S12/AngleChordRadiusData.lean",
+      "bytes": 50129
+    },
+    {
+      "name": "s12-to117/S12/AngleData.lean",
+      "bytes": 76602
+    },
+    {
+      "name": "s12-to117/S12/AngleEnclosure.lean",
+      "bytes": 4441
+    },
+    {
+      "name": "s12-to117/S12/AngleReference.lean",
+      "bytes": 1827
+    },
+    {
+      "name": "s12-to117/S12/AngleRepresentation.lean",
+      "bytes": 1725
+    },
+    {
+      "name": "s12-to117/S12/ArcConsistency.lean",
+      "bytes": 2850
+    },
+    {
+      "name": "s12-to117/S12/ArithmeticBenchAligned48.lean",
+      "bytes": 98807
+    }
+  ],
+  "retained_bytes": 340978,
+  "cache_peak_bytes": 11677987,
+  "frame_header_hex": "28b52ffd0488dc53025ac1926d45306f9274",
+  "members_seen": 410,
+  "last_member": "s12-to117/S12/Case983Domains.lean",
+  "prefix_end": "ReadError",
+  "decoder_diagnostic": "/*stdin*\\ : Read error (39) : premature end \n",
+  "missing_source_modules": [
+    "S12.DirectSingleDomain",
+    "S12.DomainEnumeration",
+    "S12.MissingCornerBranches"
+  ],
+  "cached_modules": 283,
+  "errors": [],
+  "elapsed_seconds": 3.206
+}

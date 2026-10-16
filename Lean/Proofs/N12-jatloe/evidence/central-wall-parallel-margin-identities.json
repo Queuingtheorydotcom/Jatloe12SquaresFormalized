@@ -1,0 +1,14 @@
+{
+  "scope": "Exact rational polynomial expansion only; not Lean elaboration or geometric acceptance.",
+  "source": "Compact/Geometry/CentralWallParallelMargin.lean",
+  "sha256": "a705a901a3f37db20789a9c55a87cb815c1d7c1a189bb648762c6659828051b7",
+  "quartic_identity_exact": true,
+  "squared_margin_identity_exact": true,
+  "positive_certificate_coefficients": [
+    604136975,
+    26807920080,
+    76776711696,
+    69975280512,
+    18900905472
+  ]
+}

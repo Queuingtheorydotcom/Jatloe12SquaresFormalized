@@ -1,0 +1,1 @@
+'N12Compact.DoubleAuxWallCoupling.missing_strong' depends on axioms: [propext, Classical.choice, Quot.sound]

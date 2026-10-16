@@ -1,0 +1,392 @@
+{
+  "status": "exact source proposal, every row reconstructed; Lean box decoder/pilot and activation pending",
+  "sources": {
+    "evidence/historical-direct-bank/manifest.json": "ba320fd235b5ee9b8c2a50851daa932719438f408f099318ec70cb4191cd9a37",
+    "evidence/historical-polygon-redundancy/manifest.json": "8e8e94c57372d4fea636e795f13637db6f8aeae0e854733e03973e45b2b928fc",
+    "evidence/historical-polygon-redundancy/boxes.json": "5ea066cb4d8ac31976012098f7adbc8b2bb618850a83b8070e0f615d399ef987",
+    "evidence/historical-compact-data/poses.json": "faeaf04102217cc07ceccc576ecfed41a9c7ed164a41bfc516c415ce95226908",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/Counts.lean": "ca652127610ce9fd6fbb43037ee2cf6ac250bcf1855b4d1ad70a1aaa765a6824",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part000000.lean": "05758313aea6105695d6078c31357e62009fbb36cceb75c3dafbde8ff174c930",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part001556.lean": "0ce26229d139cc3f1917f2214e867790afd1d004386aeced0321cff9c9e57ffe",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part003112.lean": "2f1a53866fd079e9eacff7f41d446bf41824a23985111bd3f9eaf83f79126485",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part004668.lean": "839791e736048956f0b19460a8a890a81518ffee15c6d78c6388a92c6a4ee5b8",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part006223.lean": "e3f0f601aacf2ed0cb4bea39f86e970b9e7a5665e64e6a1c9d67e3623b5cf645",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part007779.lean": "9150399d1c82f5da64a6811bed95dc01500ebc853e2b6b731cb5092208d32cb5",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part009335.lean": "7d8cf57fcb52a94bf583e539022b6099ab2f70742e05c7165eac57035ce890d2",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part010891.lean": "a87f2b9e7f6b38cd444c90bb791179a1b468dcd78731a88285d962706d273a59",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part012446.lean": "bdb4f31de6875315adcbeb5c8355b3b612d66bc3db15a22f00eb515203f3d6b2",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part014002.lean": "c22aa8806c4d45115c749397fa84a9f9f07a6581ad057fabc14fe288836ca84f",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part015558.lean": "d0585cf0dc8cf164d8685387c5d1bc405d82ab702eea3c390dc773f1e725a30b",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part017114.lean": "13ea2f5dfe55b381192610cf41f2049616a060b2e6808b0c6ba7272fce757698",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part018669.lean": "cacbf7bbd761e544fe705f613d617e1db9f3d7ef2a23e66d9ac4154e5dfacc84",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part020225.lean": "147e31d5d792b74f4a46c001026257779233e2778453bf31518749afd526ba30",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part021780.lean": "7aff0f2328229ef63b4c0e4ecf8195784e3d3cf0685afd85d3a9be8dc38a14b0",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part023336.lean": "17f6357b2f7d238e370fe5ff9009630440d1cb13e3be02af2c084f20d9fe5a4d",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part024891.lean": "74124fa1993b8851cc5a1070af9a4e9bc85614b0fb76b04bdcd86a7a304186a0",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part026447.lean": "6e8e5f6548acfa32fa83e4763f571d961ebd3e75d56ad7ec10a614cfa40f89e7",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part028003.lean": "9d63e1edda7d3760465a74978c160dcfc18a9fbafe306d098b2121b22464691c",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part029559.lean": "c652b0a42701c5204cb00cc8246ddd85bbe4dc4a4bd8c0a8d30de079aac5fa3d",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part031114.lean": "71bcaa7e6a7fb09d74101843bd2d9f6e28378b5f5c963da99837ee6eb059897c",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part032670.lean": "2abc0258b249b8b1671eeebf332b79c208b0042c6b683e57359959f506b1ba20",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part034226.lean": "1910b4f7a5ca9dd49a1020620eb6c460d6d0f7ffa229e97c622c552b36ebc40f",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part035782.lean": "11ab23d4e165abd99dcf709fa2c06662ac4e6405f6311ee079a20ea129404ebd",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part037337.lean": "2e94edbb79154b48d95bbf5144038bfc902845200222c0ff6d2171f8d9ae4a46",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part038893.lean": "4aa1429a6885bf5328e196653bcbc846e88ac12204bc5e348b91e6d73d659abb",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part040449.lean": "cbb2e51dcbeed1655cfecad34f644b04bfc855dd78aec44dbd7b3b43ccf03dab",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part042005.lean": "fd18326b4f40a5cf99cf80eb0fe15cdc71e64a5346e701e5eaa8068fa191acd3",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part043560.lean": "418f3cf142a47223ab2c3c35a7e331ae51f362f05af5f27d05258444a7b69bf2",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part045116.lean": "0a39a54f99005c218e6a11e1d9704e5bc777243e3ca49a4bd5d043f3c2a23b74",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part046671.lean": "03e09c753f4da045a21d5fb7fab79d71486c5eb63142dabdd36d0f32bb102f67",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part048227.lean": "ce717d452121817523cc0e2fc252ea5ae82d0e6bb12bb5f6cbfcb4582db91dc9",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part049782.lean": "c90fcac9475f123f3dfc5955486d26758fe9ba3cde7370508b7b6b8d2dfa1357",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part051338.lean": "bd89f310c88c259156151f97e4874223f92c46836eb38de0f2dd4dabfeca7b88",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part052894.lean": "cdecfc0c9a92adac3d82ca4fe1a1611e948b879e9726308a89be4e35e1b10ce1",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part054450.lean": "de8c02de9c312a17e5f1a3341a14bde27b7b7e2c4f1de2b95adcf92d9f2a989b",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part056005.lean": "caf8d1541227365d29607ac4b3389a406dac7b7000487f082250f48ae53f5ff7",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part057561.lean": "a979a365f2241355a955bbe9bc3c6758152791f542f7d31ba673fe0b1b00e2ee",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part059117.lean": "f7e935bcbb167cf0a40b6cda56b1ccf241dd6aa05a6f8a948d1ad9bed64a0d41",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part060673.lean": "272ff597a31435d162a53a639479993ffe5fbe797ac89ae00e8026aafbf3c366",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part062228.lean": "afcd3f57aa989974b07c91e6237944d2f9edc4e4468a1d6b5a8243f436439e0d",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part063784.lean": "2f2d25a5bdc8ba177a94b7ee6d3a018e634383a9190f121b74e56be73a79c43d",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part065340.lean": "9dd63a5795e6571e887c72455c619f4e3544abd321de55d4a4fee831b1d890f2",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part066896.lean": "531a086eba9579d9e31953e5d6455decca9f0452e9640254e727ec32676db284",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part068451.lean": "3dc1a6a44e1aa6012a6f1dac2cb6f953f574f296a4756d4bc46c6e0791b65479",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part070007.lean": "316ffc4bd2bafc0372fd9df11f3f24533981985014bbdca88ec1c4b9a3d75f0a",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part071562.lean": "988813f23b56dfd785eb4b3d6dd8d4bb2032f0fdd0eab2f9a48a739e2d56d5ca",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part073118.lean": "507fa8b31af56c7768d441444599a3ae51d876da84f4b0b1d12eeecee5225ccf",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part074673.lean": "0fd40e4356b488bde5d5b80d986580c040f6c6f0f3c7a864103ee608c51580d9",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part076229.lean": "248fe6fd3feeec7ecac0fe7e3e254f70c52c4a7fd99154b7029db4785e2046fd",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part077785.lean": "3b58ed69dfd1eaf6b1aad5a75a60ee43937fb4bf40a509ed98052c818d19e3cc",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part079341.lean": "41bbe6471e35109f56eca222e8551a47f5538fbb2bd4acc71dc1f53b901af960",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part080896.lean": "95b62d3279b904a99c2635424db3cf7d98d34b1e062f2ad20e670b0fa9584c8c",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part082452.lean": "bcf798c1357f0e86c8b2be14f0a3257ebdb0199108a4cc47123933249b7d27a2",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part084007.lean": "94bd19e92ffeb8e02984908e3bb68a7cd0f37cf50e71121adae3dcfbabf65d6e",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part088312.lean": "ce8be41d84ccc190c6d643413edca08d4a335f1b29d4015648ee2a6d4f542922",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part092077.lean": "fb1c15b7a0dd6bb2ac7d1cddf59e765a71e17352f04d912940457711f98eb971",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part095936.lean": "72c08a995a38dfed0f59b970f01d0f9d6b9b3cc17d7dd6c1d2ed1f201323042f",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part099420.lean": "19ff8a8fa527c8ce18cce2b8790d53b64b588c3613102e64f2d42a888f95ffe7",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part103150.lean": "6f1525a05eae884a59435429000067c301edc4b83a7896d5f2cf1bb0c75c4cf2",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part106869.lean": "2d08ffd77d6f24ae61888facbff812b15a9901cb59085dab4ea3df818f7adf8e",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part109619.lean": "ff3d80df8e3061ac841ad0fc7f6306a9e18b1bd911f8940d1e254912cb71abf1",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part111192.lean": "994b6168c72673d354e7dc55244772190f526fd29f29dd25a0171a0c731ce68f",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/RowsChunks/Part112911.lean": "ab24e24e43f62d1ca0bee4a569a4635e3a839ec8315a1b7e00fd5d16394c1e09",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/PosesChunks/Part000000.lean": "5186b25e4fab80859490ad61ac1debf5951f107b5f979286176eb137622322d4",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/PosesChunks/Part001586.lean": "e790ad937f1b29bf33938bc8d367f55e69b0264d7521c9dc1e9061246e10e0e9",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/PosesChunks/Part003171.lean": "e47336e34e035facdeb26a975401ae42d7f016e857f691174f535766002985b2",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/PosesChunks/Part004757.lean": "2a6d71aaf9fd030ae3494d4c347fc164aee31080a3b470a5e5d8f0d7e8c07c02",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/PosesChunks/Part006342.lean": "5955becf85c96aa936ee346e0958427c0cc428ef6c012d6cdc6fbc9e8eb45045",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/PosesChunks/Part007928.lean": "6a218865af82d0b4d03821c589edea86155fcadf9a74cf10e099aae70ed06e83",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/PosesChunks/Part009513.lean": "552c819ad302dbcc27ed5cdac58e76b39cee8fab61f6240e3cb09ef6b6ed1344",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/PosesChunks/Part011098.lean": "3ca065a4c86434ad6bd0081814846f7477f1f4e0698a670a75911b97cc9f646d",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/SharedRows.lean": "d1b903df85ace83d5afb23d6496c9ebcf4c9a761a692a1135f92d247f3089ac5",
+    "evidence/historical-direct-bank/proposal/Compact/HistoricalData/SharedPoses.lean": "7d09a33b95dbb92052bc2208ee746407c9dc4cd9d277383b4ff4ee686160ff53",
+    "Compact/HistoricalData/RowsChunks/Part000000.lean": "b7bb85c19e9e025003a0e430679813ad54cfde7d11796677db034bee51ac82af"
+  },
+  "outputs": {
+    "Compact/HistoricalData/Counts.lean": "ca652127610ce9fd6fbb43037ee2cf6ac250bcf1855b4d1ad70a1aaa765a6824",
+    "Compact/HistoricalData/RowsChunks/Part000000.lean": "1a53e0e308499ea2f3c111649501d72a7148c5333a9d01a07d6cd376c93d14de",
+    "Compact/HistoricalData/RowsChunks/Part001556.lean": "d56f180c805f0bbf84c0109bb4b3debbf7fba7b0854746c0580cb2ed4db9be34",
+    "Compact/HistoricalData/RowsChunks/Part003112.lean": "430064717599e7e3ae34550cfd89d3caee12da4b4fb7fd5557acc4e267c30b4f",
+    "Compact/HistoricalData/RowsChunks/Part004668.lean": "d5910c4d72f0d75c3a96d53a6c3582fa181459580ea399d060f640897f180b94",
+    "Compact/HistoricalData/RowsChunks/Part006223.lean": "20c9eb3f151105c7e2686c2a799d05b06f79ab32fee42235c2d2257b983dbe96",
+    "Compact/HistoricalData/RowsChunks/Part007779.lean": "90e32cbd32dbe3590459ded6edbe68998bb5822c5556d8c785b2d9b082559a6d",
+    "Compact/HistoricalData/RowsChunks/Part009335.lean": "ab3a795867f7ce9ac1633f9e75115f6d69289a95ee69eefd841efb79f9e21257",
+    "Compact/HistoricalData/RowsChunks/Part010891.lean": "69515e47958ca084847f2852abf047a3ce28d6ba5768d16668b6f126046802e5",
+    "Compact/HistoricalData/RowsChunks/Part012446.lean": "e93aa84a28cb7818e94d5f6538af0cef619d5b6402a917658c0b33acfa369106",
+    "Compact/HistoricalData/RowsChunks/Part014002.lean": "7f37e33a29b273702c5412f9b113064b052a401b350a3502390b850120bb2c15",
+    "Compact/HistoricalData/RowsChunks/Part015558.lean": "514eeeabe4de1ad3dc567da946bc2eb3c24785041fcb86cbf398d5100acc71f5",
+    "Compact/HistoricalData/RowsChunks/Part017114.lean": "32df21a67ede61dc50286083f303af6929b33110a60176648b6c4a7589296af7",
+    "Compact/HistoricalData/RowsChunks/Part018669.lean": "b29ac6b6e9aef7176be4c281436c4c42080d851f07a7e4676ec9e93ef1f43bcb",
+    "Compact/HistoricalData/RowsChunks/Part020225.lean": "cb616cf9583aecf862893c936e77054f17b9595817e9ece3b81886c31734bdb5",
+    "Compact/HistoricalData/RowsChunks/Part021780.lean": "497c216c751a471ff197e0c308fe17a68ddb89f2f3caaee0eafd4f2b6d30c458",
+    "Compact/HistoricalData/RowsChunks/Part023336.lean": "10f28fe3fb8213f5a035f4b134f46d10e81e64f6ad280fffe0a276bfe30e220f",
+    "Compact/HistoricalData/RowsChunks/Part024891.lean": "80ac981cfda29aaeb05d147558bbe893b44e04880d0622d417ee46edcf5f2b81",
+    "Compact/HistoricalData/RowsChunks/Part026447.lean": "d2a9a6a28e10e3c75831ddc5f033b4007aa4a9246736ba00f7430e461a497bd3",
+    "Compact/HistoricalData/RowsChunks/Part028003.lean": "5122a8b686331a26f1e46f1310fa905d58244708e0a587c3ee75beaa5f3fbbb3",
+    "Compact/HistoricalData/RowsChunks/Part029559.lean": "c652b0a42701c5204cb00cc8246ddd85bbe4dc4a4bd8c0a8d30de079aac5fa3d",
+    "Compact/HistoricalData/RowsChunks/Part031114.lean": "a86a7a900bbddfc6ed47ae873e90f1d6d074643d221a3e9a0463b5601393e107",
+    "Compact/HistoricalData/RowsChunks/Part032670.lean": "fc552bfde4cc98a9f3980c0935aea4387e78fc79d9a0ddbf1b11287768c24a6e",
+    "Compact/HistoricalData/RowsChunks/Part034226.lean": "2754689190ca9fd258b7eb5cfe2e7942352a588391933dcb578ddcf2784b2161",
+    "Compact/HistoricalData/RowsChunks/Part035782.lean": "7c1cab231552927cad558777d58baade50db11d7cb607202c8e57e0b984d0993",
+    "Compact/HistoricalData/RowsChunks/Part037337.lean": "2f71edf658253bc8dcb3389ae05ae18adcbcf7b55cb8b11b422918433d7fdd42",
+    "Compact/HistoricalData/RowsChunks/Part038893.lean": "3c77ee2feed39645c52f19392db252054a1fbbade3966eb4ffeea8c20939a7ca",
+    "Compact/HistoricalData/RowsChunks/Part040449.lean": "c2016d9e90b3420c448a288abd40605eef73953d19457e18bc52f4221061f037",
+    "Compact/HistoricalData/RowsChunks/Part042005.lean": "950aae819e8cd6bd546e0af2d6d327b9ee977b04d95225cdc2157524f72abac2",
+    "Compact/HistoricalData/RowsChunks/Part043560.lean": "418f3cf142a47223ab2c3c35a7e331ae51f362f05af5f27d05258444a7b69bf2",
+    "Compact/HistoricalData/RowsChunks/Part045116.lean": "bcb163287f6ebccf98962bcb09f69ac2147acdfb476ab37eeab17deadd42a08b",
+    "Compact/HistoricalData/RowsChunks/Part046671.lean": "2745760f1a3015fbd8cc17133eed9f85e2d2ec9e52a8ffe8cec468a04172436c",
+    "Compact/HistoricalData/RowsChunks/Part048227.lean": "bb7a9783fdaf87c50762695a2836e4ad348088b9bb34a9674427ba3d48337a8c",
+    "Compact/HistoricalData/RowsChunks/Part049782.lean": "b268c1bd60a7b825afeff1b298f4b90b4ed3c91f08d19966c2db135188269555",
+    "Compact/HistoricalData/RowsChunks/Part051338.lean": "d9cad6f3d005f57fa731ca758167b8e4608d0b2140ac1b1064631c997b1cd205",
+    "Compact/HistoricalData/RowsChunks/Part052894.lean": "231a70b12eaa8fb8b1b8c7a1ccdb23f4098a70071e3e35a086d70a7c8efa7b38",
+    "Compact/HistoricalData/RowsChunks/Part054450.lean": "ad0dca826139555a677f12142042aabf6642525999bafcacdac0382b64b6b966",
+    "Compact/HistoricalData/RowsChunks/Part056005.lean": "063f8e6803894e1b46843aeb0c7eaeaa3f46c79f583e9e9b246c3d7d370aac7a",
+    "Compact/HistoricalData/RowsChunks/Part057561.lean": "41ba0a51421f59eda9772079746887a7c5ba0191953976ceeb63411e25604000",
+    "Compact/HistoricalData/RowsChunks/Part059117.lean": "007cc16816eeb3fdcd749a7584aca644c6e27cf921b20b459ab569d47afa9f19",
+    "Compact/HistoricalData/RowsChunks/Part060673.lean": "272ff597a31435d162a53a639479993ffe5fbe797ac89ae00e8026aafbf3c366",
+    "Compact/HistoricalData/RowsChunks/Part062228.lean": "f4c2174203ba4b4f00caeb2fc7eb87db692e4d161095579631a54bb7b3361ed9",
+    "Compact/HistoricalData/RowsChunks/Part063784.lean": "675b7a198660e4f9c35e0385970549db39d96f7bfbbadb71b5003c6ae185c0a5",
+    "Compact/HistoricalData/RowsChunks/Part065340.lean": "7ecee5535e2cea41d9e182cb41954f1fa29b52e8355f61a04b256d098c9d4d2b",
+    "Compact/HistoricalData/RowsChunks/Part066896.lean": "f833a1059e41cdb4f31269b7013e80fee6074d142e7549bc0400d3db291b340c",
+    "Compact/HistoricalData/RowsChunks/Part068451.lean": "3dc1a6a44e1aa6012a6f1dac2cb6f953f574f296a4756d4bc46c6e0791b65479",
+    "Compact/HistoricalData/RowsChunks/Part070007.lean": "676f72217b89dd69a0fbd45618eb5bed0ec973cff4f59aaa6183822b45f850b0",
+    "Compact/HistoricalData/RowsChunks/Part071562.lean": "9a5ce7f1a4e18175b9e82e9c8c920817d05414d53dd01f4822b053d8c543f2a2",
+    "Compact/HistoricalData/RowsChunks/Part073118.lean": "64f217b3801594035151327b1d373e11de6fd1e8ad2337e7ad945e525c306d04",
+    "Compact/HistoricalData/RowsChunks/Part074673.lean": "7ec258de9866c56c96c056d1b4c4cfad00e1af40b90c1e756bee0d5710834d88",
+    "Compact/HistoricalData/RowsChunks/Part076229.lean": "79ca7fb22c91b84fc719871687903e7ac0b85a36e5ca27201e079e23d2e530ad",
+    "Compact/HistoricalData/RowsChunks/Part077785.lean": "71592dbfd4bebdd3881971cecffb79867ea1c19ad2e603cd099db51a5fd21b34",
+    "Compact/HistoricalData/RowsChunks/Part079341.lean": "7a0ba38677d2db572c4becdd7903b2accfbf06c0ad4d2410fa715f6ec7487df3",
+    "Compact/HistoricalData/RowsChunks/Part080896.lean": "6bd952b86f57bab948c1eb98a2d64891f3873876b4d21058f152a57bec4e9423",
+    "Compact/HistoricalData/RowsChunks/Part082452.lean": "82ebef4a82d9eb0d1fa939931d77ee252bd508533c9df4e137c2ce763646b631",
+    "Compact/HistoricalData/RowsChunks/Part084007.lean": "94bd19e92ffeb8e02984908e3bb68a7cd0f37cf50e71121adae3dcfbabf65d6e",
+    "Compact/HistoricalData/RowsChunks/Part088312.lean": "ce8be41d84ccc190c6d643413edca08d4a335f1b29d4015648ee2a6d4f542922",
+    "Compact/HistoricalData/RowsChunks/Part092077.lean": "fb1c15b7a0dd6bb2ac7d1cddf59e765a71e17352f04d912940457711f98eb971",
+    "Compact/HistoricalData/RowsChunks/Part095936.lean": "72c08a995a38dfed0f59b970f01d0f9d6b9b3cc17d7dd6c1d2ed1f201323042f",
+    "Compact/HistoricalData/RowsChunks/Part099420.lean": "19ff8a8fa527c8ce18cce2b8790d53b64b588c3613102e64f2d42a888f95ffe7",
+    "Compact/HistoricalData/RowsChunks/Part103150.lean": "6f1525a05eae884a59435429000067c301edc4b83a7896d5f2cf1bb0c75c4cf2",
+    "Compact/HistoricalData/RowsChunks/Part106869.lean": "2d08ffd77d6f24ae61888facbff812b15a9901cb59085dab4ea3df818f7adf8e",
+    "Compact/HistoricalData/RowsChunks/Part109619.lean": "ff3d80df8e3061ac841ad0fc7f6306a9e18b1bd911f8940d1e254912cb71abf1",
+    "Compact/HistoricalData/RowsChunks/Part111192.lean": "994b6168c72673d354e7dc55244772190f526fd29f29dd25a0171a0c731ce68f",
+    "Compact/HistoricalData/RowsChunks/Part112911.lean": "ab24e24e43f62d1ca0bee4a569a4635e3a839ec8315a1b7e00fd5d16394c1e09",
+    "Compact/HistoricalData/PosesChunks/Part000000.lean": "5186b25e4fab80859490ad61ac1debf5951f107b5f979286176eb137622322d4",
+    "Compact/HistoricalData/PosesChunks/Part001586.lean": "e790ad937f1b29bf33938bc8d367f55e69b0264d7521c9dc1e9061246e10e0e9",
+    "Compact/HistoricalData/PosesChunks/Part003171.lean": "e47336e34e035facdeb26a975401ae42d7f016e857f691174f535766002985b2",
+    "Compact/HistoricalData/PosesChunks/Part004757.lean": "2a6d71aaf9fd030ae3494d4c347fc164aee31080a3b470a5e5d8f0d7e8c07c02",
+    "Compact/HistoricalData/PosesChunks/Part006342.lean": "5955becf85c96aa936ee346e0958427c0cc428ef6c012d6cdc6fbc9e8eb45045",
+    "Compact/HistoricalData/PosesChunks/Part007928.lean": "6a218865af82d0b4d03821c589edea86155fcadf9a74cf10e099aae70ed06e83",
+    "Compact/HistoricalData/PosesChunks/Part009513.lean": "552c819ad302dbcc27ed5cdac58e76b39cee8fab61f6240e3cb09ef6b6ed1344",
+    "Compact/HistoricalData/PosesChunks/Part011098.lean": "3ca065a4c86434ad6bd0081814846f7477f1f4e0698a670a75911b97cc9f646d",
+    "Compact/HistoricalData/SharedRows.lean": "d1b903df85ace83d5afb23d6496c9ebcf4c9a761a692a1135f92d247f3089ac5",
+    "Compact/HistoricalData/SharedPoses.lean": "7d09a33b95dbb92052bc2208ee746407c9dc4cd9d277383b4ff4ee686160ff53"
+  },
+  "original_row_count": 99562,
+  "original_pose_count": 12682,
+  "grouped_boxes": 6298,
+  "grouped_row_records": 25192,
+  "cross_leaf_or_separator_boxes_retained_raw": 194,
+  "record_lines_saved": 18894,
+  "source_lines": 94103,
+  "source_bytes": 6652392,
+  "source_modules": 75,
+  "prior_source_lines": 112997,
+  "prior_source_bytes": 7086322,
+  "actual_lines_saved": 18894,
+  "actual_bytes_saved": 433930,
+  "changed_leaves": [
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part000000.lean",
+      "boxes": 212
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part001556.lean",
+      "boxes": 182
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part003112.lean",
+      "boxes": 199
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part004668.lean",
+      "boxes": 139
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part006223.lean",
+      "boxes": 156
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part007779.lean",
+      "boxes": 133
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part009335.lean",
+      "boxes": 178
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part010891.lean",
+      "boxes": 122
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part012446.lean",
+      "boxes": 51
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part014002.lean",
+      "boxes": 123
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part015558.lean",
+      "boxes": 114
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part017114.lean",
+      "boxes": 123
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part018669.lean",
+      "boxes": 51
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part020225.lean",
+      "boxes": 180
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part021780.lean",
+      "boxes": 177
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part023336.lean",
+      "boxes": 180
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part024891.lean",
+      "boxes": 77
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part026447.lean",
+      "boxes": 12
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part028003.lean",
+      "boxes": 94
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part031114.lean",
+      "boxes": 114
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part032670.lean",
+      "boxes": 43
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part034226.lean",
+      "boxes": 129
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part035782.lean",
+      "boxes": 155
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part037337.lean",
+      "boxes": 160
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part038893.lean",
+      "boxes": 156
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part040449.lean",
+      "boxes": 93
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part042005.lean",
+      "boxes": 130
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part045116.lean",
+      "boxes": 52
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part046671.lean",
+      "boxes": 176
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part048227.lean",
+      "boxes": 151
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part049782.lean",
+      "boxes": 164
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part051338.lean",
+      "boxes": 169
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part052894.lean",
+      "boxes": 188
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part054450.lean",
+      "boxes": 70
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part056005.lean",
+      "boxes": 85
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part057561.lean",
+      "boxes": 131
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part059117.lean",
+      "boxes": 84
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part062228.lean",
+      "boxes": 121
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part063784.lean",
+      "boxes": 26
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part065340.lean",
+      "boxes": 8
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part066896.lean",
+      "boxes": 3
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part070007.lean",
+      "boxes": 17
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part071562.lean",
+      "boxes": 176
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part073118.lean",
+      "boxes": 168
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part074673.lean",
+      "boxes": 177
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part076229.lean",
+      "boxes": 185
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part077785.lean",
+      "boxes": 200
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part079341.lean",
+      "boxes": 150
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part080896.lean",
+      "boxes": 194
+    },
+    {
+      "path": "Compact/HistoricalData/RowsChunks/Part082452.lean",
+      "boxes": 120
+    }
+  ],
+  "pilot": {
+    "path": "pilot/Compact/HistoricalData/BoxPilot.lean",
+    "original": "Compact/HistoricalData/RowsChunks/Part000000.lean",
+    "boxes": 244,
+    "source_lines": 1067,
+    "sha256": "03ff3e1e11a7b18fb09120a17546d320139ea6db8744f7eb83addb26903f6742"
+  },
+  "kernel_representation": "Same ordinary balanced tree with the same literal integer Rows and Nat denominators. No extra lookup structure or arithmetic on lookup.",
+  "preservation": "Every original global ID, coefficient, strictness and denominator unchanged. No geometric redundancy deletion was applied.",
+  "required_before_activation": [
+    "Accept BoxRowRecipe/BoxRowSyntax and the exact-original pilot under the same compiler resource limits.",
+    "Accept all complete direct-pruning replacements before removing pair-only bank IDs, exactly as required by historical-direct-bank.",
+    "Verify all emitted source hashes, replay dependent imported roots, and measure the full retained source closure including the two new generic modules."
+  ],
+  "seconds": 0.3625213330014958
+}

@@ -1,0 +1,1225 @@
+{
+  "status": "Parent reports RowIdentity PASS 7.939s and FourSquareCases PASS 6.085s with no memory guard hit; other groups and full registry replay remain in progress.",
+  "method": "58 direct original coverRows lookups, with retainedRows ID injectivity; one registry ID projection",
+  "trust": "No new native checks or axioms. Reuses historical retainedRows_ids, proved by native_decide, plus survivors_distinct. All exclusions and public statements preserved.",
+  "original_row_count": 577,
+  "original_table": {
+    "path": "source/S12/CoverData.lean",
+    "sha256": "663a4e43053099d3781da982ca148dfec3402da0ba33a603859f19fa20f5e7f4",
+    "bytes": 199146,
+    "lines": 86
+  },
+  "helper": {
+    "path": "Compact/Assembly/RowIdentity.lean",
+    "sha256": "3154f9aee82012e534cb6324451cdd8f13c9444d14c962865d8ba52bf861f89a",
+    "bytes": 1881,
+    "lines": 45
+  },
+  "edits": [
+    {
+      "path": "Compact/Assembly/FourSquareCases.lean",
+      "before": {
+        "sha256": "b2d0edee343f3352fca13ca9abef48bfea6c20dda5790440233e8539d23a8737",
+        "bytes": 2010,
+        "lines": 46
+      },
+      "after": {
+        "sha256": "6c5082b46d6d2d42fd13652af8ef5b5031e76857efd40d25ced81400ea3ee4fe",
+        "bytes": 7315,
+        "lines": 156
+      },
+      "witnesses": [
+        {
+          "id": 28,
+          "index": 67,
+          "family_source": "Compact/Cases/FourSquare/Case28.lean",
+          "family_masks": [
+            1,
+            2,
+            4,
+            8,
+            48,
+            192,
+            256,
+            1024,
+            2048,
+            4096,
+            16384,
+            32768
+          ]
+        },
+        {
+          "id": 78,
+          "index": 117,
+          "family_source": "Compact/Cases/FourSquare/Case78.lean",
+          "family_masks": [
+            1,
+            2,
+            4,
+            8,
+            48,
+            192,
+            1024,
+            2048,
+            4096,
+            8448,
+            16384,
+            32768
+          ]
+        },
+        {
+          "id": 537,
+          "index": 278,
+          "family_source": "Compact/Cases/FourSquare/Case537.lean",
+          "family_masks": [
+            1,
+            2,
+            8,
+            48,
+            192,
+            256,
+            512,
+            1024,
+            2048,
+            4096,
+            16384,
+            32768
+          ]
+        },
+        {
+          "id": 556,
+          "index": 297,
+          "family_source": "Compact/Cases/FourSquare/Case556.lean",
+          "family_masks": [
+            1,
+            2,
+            8,
+            48,
+            192,
+            256,
+            516,
+            1024,
+            2048,
+            4096,
+            16384,
+            32768
+          ]
+        },
+        {
+          "id": 565,
+          "index": 306,
+          "family_source": "Compact/Cases/FourSquare/Case565.lean",
+          "family_masks": [
+            1,
+            2,
+            8,
+            48,
+            192,
+            256,
+            1024,
+            2048,
+            4096,
+            8192,
+            16384,
+            32768
+          ]
+        },
+        {
+          "id": 567,
+          "index": 308,
+          "family_source": "Compact/Cases/FourSquare/Case567.lean",
+          "family_masks": [
+            1,
+            2,
+            8,
+            48,
+            192,
+            256,
+            1024,
+            2048,
+            4096,
+            8196,
+            16384,
+            32768
+          ]
+        },
+        {
+          "id": 569,
+          "index": 310,
+          "family_source": "Compact/Cases/FourSquare/Case569.lean",
+          "family_masks": [
+            1,
+            2,
+            8,
+            48,
+            192,
+            256,
+            1024,
+            2048,
+            4096,
+            8704,
+            16384,
+            32768
+          ]
+        },
+        {
+          "id": 570,
+          "index": 311,
+          "family_source": "Compact/Cases/FourSquare/Case570.lean",
+          "family_masks": [
+            1,
+            2,
+            8,
+            48,
+            192,
+            256,
+            1024,
+            2048,
+            4096,
+            8708,
+            16384,
+            32768
+          ]
+        },
+        {
+          "id": 575,
+          "index": 316,
+          "family_source": "Compact/Cases/FourSquare/Case575.lean",
+          "family_masks": [
+            1,
+            2,
+            8,
+            48,
+            192,
+            512,
+            1024,
+            2048,
+            4096,
+            8192,
+            16384,
+            32768
+          ]
+        },
+        {
+          "id": 576,
+          "index": 317,
+          "family_source": "Compact/Cases/FourSquare/Case576.lean",
+          "family_masks": [
+            1,
+            2,
+            8,
+            48,
+            192,
+            512,
+            1024,
+            2048,
+            4096,
+            8196,
+            16384,
+            32768
+          ]
+        },
+        {
+          "id": 577,
+          "index": 318,
+          "family_source": "Compact/Cases/FourSquare/Case577.lean",
+          "family_masks": [
+            1,
+            2,
+            8,
+            48,
+            192,
+            512,
+            1024,
+            2048,
+            4096,
+            8448,
+            16384,
+            32768
+          ]
+        },
+        {
+          "id": 585,
+          "index": 326,
+          "family_source": "Compact/Cases/FourSquare/Case585.lean",
+          "family_masks": [
+            1,
+            2,
+            8,
+            48,
+            192,
+            516,
+            1024,
+            2048,
+            4096,
+            8448,
+            16384,
+            32768
+          ]
+        },
+        {
+          "id": 1085,
+          "index": 569,
+          "family_source": "Compact/Cases/FourSquare/Case1085.lean",
+          "family_masks": [
+            1,
+            12,
+            48,
+            64,
+            256,
+            512,
+            1024,
+            2048,
+            4098,
+            8192,
+            16384,
+            32768
+          ]
+        },
+        {
+          "id": 1086,
+          "index": 570,
+          "family_source": "Compact/Cases/FourSquare/Case1086.lean",
+          "family_masks": [
+            1,
+            12,
+            48,
+            64,
+            256,
+            512,
+            1024,
+            2176,
+            4096,
+            8192,
+            16384,
+            32768
+          ]
+        },
+        {
+          "id": 1087,
+          "index": 571,
+          "family_source": "Compact/Cases/FourSquare/Case1087.lean",
+          "family_masks": [
+            1,
+            12,
+            48,
+            64,
+            256,
+            512,
+            1024,
+            2176,
+            4098,
+            8192,
+            16384,
+            32768
+          ]
+        }
+      ]
+    },
+    {
+      "path": "Compact/Assembly/FourSquareVariantCases.lean",
+      "before": {
+        "sha256": "e7cee2961089f72fceac02d7880a2eec71711f619583b2e8dfa367be1f4be51a",
+        "bytes": 1661,
+        "lines": 40
+      },
+      "after": {
+        "sha256": "7465020dd6efdaa133a239247a2f0382e9f8fde406236e2b2a527a05a8939d1f",
+        "bytes": 5621,
+        "lines": 122
+      },
+      "witnesses": [
+        {
+          "id": 405,
+          "index": 202,
+          "family_source": "Compact/Cases/FourSquareVariant/Case405.lean",
+          "family_masks": [
+            1,
+            2,
+            4,
+            48,
+            192,
+            256,
+            512,
+            1024,
+            2048,
+            4096,
+            16384,
+            32768
+          ]
+        },
+        {
+          "id": 424,
+          "index": 221,
+          "family_source": "Compact/Cases/FourSquareVariant/Case424.lean",
+          "family_masks": [
+            1,
+            2,
+            4,
+            48,
+            192,
+            256,
+            520,
+            1024,
+            2048,
+            4096,
+            16384,
+            32768
+          ]
+        },
+        {
+          "id": 985,
+          "index": 516,
+          "family_source": "Compact/Cases/FourSquareVariant/Case985.lean",
+          "family_masks": [
+            1,
+            2,
+            12,
+            48,
+            256,
+            512,
+            1024,
+            2048,
+            4096,
+            8192,
+            16384,
+            32768
+          ]
+        },
+        {
+          "id": 990,
+          "index": 521,
+          "family_source": "Compact/Cases/FourSquareVariant/Case990.lean",
+          "family_masks": [
+            1,
+            2,
+            12,
+            48,
+            256,
+            512,
+            1024,
+            2048,
+            4224,
+            8192,
+            16384,
+            32768
+          ]
+        },
+        {
+          "id": 993,
+          "index": 524,
+          "family_source": "Compact/Cases/FourSquareVariant/Case993.lean",
+          "family_masks": [
+            1,
+            2,
+            12,
+            48,
+            256,
+            512,
+            1024,
+            2112,
+            4096,
+            8192,
+            16384,
+            32768
+          ]
+        },
+        {
+          "id": 994,
+          "index": 525,
+          "family_source": "Compact/Cases/FourSquareVariant/Case994.lean",
+          "family_masks": [
+            1,
+            2,
+            12,
+            48,
+            256,
+            512,
+            1024,
+            2112,
+            4224,
+            8192,
+            16384,
+            32768
+          ]
+        },
+        {
+          "id": 999,
+          "index": 530,
+          "family_source": "Compact/Cases/FourSquareVariant/Case999.lean",
+          "family_masks": [
+            1,
+            2,
+            12,
+            192,
+            256,
+            512,
+            1024,
+            2048,
+            4096,
+            8192,
+            16384,
+            32784
+          ]
+        },
+        {
+          "id": 1063,
+          "index": 547,
+          "family_source": "Compact/Cases/FourSquareVariant/Case1063.lean",
+          "family_masks": [
+            1,
+            8,
+            48,
+            192,
+            256,
+            512,
+            1024,
+            2048,
+            4096,
+            8192,
+            16384,
+            32768
+          ]
+        },
+        {
+          "id": 1064,
+          "index": 548,
+          "family_source": "Compact/Cases/FourSquareVariant/Case1064.lean",
+          "family_masks": [
+            1,
+            8,
+            48,
+            192,
+            256,
+            512,
+            1024,
+            2048,
+            4096,
+            8196,
+            16384,
+            32768
+          ]
+        },
+        {
+          "id": 1069,
+          "index": 553,
+          "family_source": "Compact/Cases/FourSquareVariant/Case1069.lean",
+          "family_masks": [
+            1,
+            8,
+            48,
+            192,
+            258,
+            512,
+            1024,
+            2048,
+            4096,
+            8192,
+            16384,
+            32768
+          ]
+        },
+        {
+          "id": 1070,
+          "index": 554,
+          "family_source": "Compact/Cases/FourSquareVariant/Case1070.lean",
+          "family_masks": [
+            1,
+            8,
+            48,
+            192,
+            258,
+            512,
+            1024,
+            2048,
+            4096,
+            8196,
+            16384,
+            32768
+          ]
+        }
+      ]
+    },
+    {
+      "path": "Compact/Assembly/FourSquareConvexCases.lean",
+      "before": {
+        "sha256": "bd83722a51e97adacc9be0cee66ed3308e43953898ff86b0bfbde2812f21efa4",
+        "bytes": 1534,
+        "lines": 38
+      },
+      "after": {
+        "sha256": "6e9a9d70a98a5b8ede741c24b3be62bdc2f1d481eaadf0f5afe60d9c85d7589e",
+        "bytes": 4792,
+        "lines": 106
+      },
+      "witnesses": [
+        {
+          "id": 445,
+          "index": 242,
+          "family_source": "Compact/Cases/FourSquareConvex/Case445.lean",
+          "family_masks": [
+            1,
+            2,
+            4,
+            48,
+            192,
+            512,
+            1024,
+            2048,
+            4096,
+            8448,
+            16384,
+            32768
+          ]
+        },
+        {
+          "id": 454,
+          "index": 251,
+          "family_source": "Compact/Cases/FourSquareConvex/Case454.lean",
+          "family_masks": [
+            1,
+            2,
+            4,
+            48,
+            192,
+            520,
+            1024,
+            2048,
+            4096,
+            8448,
+            16384,
+            32768
+          ]
+        },
+        {
+          "id": 862,
+          "index": 449,
+          "family_source": "Compact/Cases/FourSquareConvex/Case862.lean",
+          "family_masks": [
+            1,
+            2,
+            12,
+            16,
+            192,
+            256,
+            512,
+            2048,
+            4096,
+            8192,
+            16384,
+            33792
+          ]
+        },
+        {
+          "id": 864,
+          "index": 451,
+          "family_source": "Compact/Cases/FourSquareConvex/Case864.lean",
+          "family_masks": [
+            1,
+            2,
+            12,
+            16,
+            192,
+            256,
+            512,
+            2048,
+            4096,
+            8192,
+            16416,
+            33792
+          ]
+        },
+        {
+          "id": 992,
+          "index": 523,
+          "family_source": "Compact/Cases/FourSquareConvex/Case992.lean",
+          "family_masks": [
+            1,
+            2,
+            12,
+            48,
+            256,
+            512,
+            1024,
+            2048,
+            4288,
+            8192,
+            16384,
+            32768
+          ]
+        },
+        {
+          "id": 995,
+          "index": 526,
+          "family_source": "Compact/Cases/FourSquareConvex/Case995.lean",
+          "family_masks": [
+            1,
+            2,
+            12,
+            48,
+            256,
+            512,
+            1024,
+            2176,
+            4096,
+            8192,
+            16384,
+            32768
+          ]
+        },
+        {
+          "id": 998,
+          "index": 529,
+          "family_source": "Compact/Cases/FourSquareConvex/Case998.lean",
+          "family_masks": [
+            1,
+            2,
+            12,
+            192,
+            256,
+            512,
+            1024,
+            2048,
+            4096,
+            8192,
+            16384,
+            32768
+          ]
+        },
+        {
+          "id": 1001,
+          "index": 532,
+          "family_source": "Compact/Cases/FourSquareConvex/Case1001.lean",
+          "family_masks": [
+            1,
+            2,
+            12,
+            192,
+            256,
+            512,
+            1024,
+            2048,
+            4096,
+            8192,
+            16384,
+            32816
+          ]
+        },
+        {
+          "id": 1002,
+          "index": 533,
+          "family_source": "Compact/Cases/FourSquareConvex/Case1002.lean",
+          "family_masks": [
+            1,
+            2,
+            12,
+            192,
+            256,
+            512,
+            1024,
+            2048,
+            4096,
+            8192,
+            16416,
+            32784
+          ]
+        }
+      ]
+    },
+    {
+      "path": "Compact/Assembly/FourSquareHighRightCases.lean",
+      "before": {
+        "sha256": "c5c5176be35927af9f5aa785ed9682c8e4d536ae00d6479cd1b0fcafb66779be",
+        "bytes": 1761,
+        "lines": 42
+      },
+      "after": {
+        "sha256": "21ef0e0a7253e2640f92f4a86211521ca09ed30842d48ee077270db8d5acfc9c",
+        "bytes": 6391,
+        "lines": 138
+      },
+      "witnesses": [
+        {
+          "id": 678,
+          "index": 359,
+          "family_source": "Compact/Cases/FourSquareHighRight/Case678.lean",
+          "family_masks": [
+            1,
+            2,
+            12,
+            16,
+            32,
+            192,
+            256,
+            512,
+            2048,
+            4096,
+            8192,
+            17408
+          ]
+        },
+        {
+          "id": 680,
+          "index": 361,
+          "family_source": "Compact/Cases/FourSquareHighRight/Case680.lean",
+          "family_masks": [
+            1,
+            2,
+            12,
+            16,
+            32,
+            192,
+            256,
+            512,
+            2048,
+            4096,
+            16384,
+            33792
+          ]
+        },
+        {
+          "id": 691,
+          "index": 372,
+          "family_source": "Compact/Cases/FourSquareHighRight/Case691.lean",
+          "family_masks": [
+            1,
+            2,
+            12,
+            16,
+            32,
+            192,
+            256,
+            512,
+            4096,
+            8192,
+            17408,
+            34816
+          ]
+        },
+        {
+          "id": 694,
+          "index": 375,
+          "family_source": "Compact/Cases/FourSquareHighRight/Case694.lean",
+          "family_masks": [
+            1,
+            2,
+            12,
+            16,
+            32,
+            192,
+            256,
+            512,
+            6144,
+            8192,
+            17408,
+            32768
+          ]
+        },
+        {
+          "id": 711,
+          "index": 392,
+          "family_source": "Compact/Cases/FourSquareHighRight/Case711.lean",
+          "family_masks": [
+            1,
+            2,
+            12,
+            16,
+            32,
+            192,
+            512,
+            2048,
+            4096,
+            8448,
+            16384,
+            33792
+          ]
+        },
+        {
+          "id": 846,
+          "index": 433,
+          "family_source": "Compact/Cases/FourSquareHighRight/Case846.lean",
+          "family_masks": [
+            1,
+            2,
+            12,
+            16,
+            192,
+            256,
+            512,
+            1024,
+            2048,
+            8192,
+            16384,
+            32768
+          ]
+        },
+        {
+          "id": 847,
+          "index": 434,
+          "family_source": "Compact/Cases/FourSquareHighRight/Case847.lean",
+          "family_masks": [
+            1,
+            2,
+            12,
+            16,
+            192,
+            256,
+            512,
+            1024,
+            2048,
+            8192,
+            16416,
+            32768
+          ]
+        },
+        {
+          "id": 852,
+          "index": 439,
+          "family_source": "Compact/Cases/FourSquareHighRight/Case852.lean",
+          "family_masks": [
+            1,
+            2,
+            12,
+            16,
+            192,
+            256,
+            512,
+            1024,
+            6144,
+            8192,
+            16384,
+            32768
+          ]
+        },
+        {
+          "id": 853,
+          "index": 440,
+          "family_source": "Compact/Cases/FourSquareHighRight/Case853.lean",
+          "family_masks": [
+            1,
+            2,
+            12,
+            16,
+            192,
+            256,
+            512,
+            1024,
+            6144,
+            8192,
+            16416,
+            32768
+          ]
+        },
+        {
+          "id": 886,
+          "index": 473,
+          "family_source": "Compact/Cases/FourSquareHighRight/Case886.lean",
+          "family_masks": [
+            1,
+            2,
+            12,
+            16,
+            192,
+            512,
+            1024,
+            2048,
+            4352,
+            8192,
+            16384,
+            32768
+          ]
+        },
+        {
+          "id": 887,
+          "index": 474,
+          "family_source": "Compact/Cases/FourSquareHighRight/Case887.lean",
+          "family_masks": [
+            1,
+            2,
+            12,
+            16,
+            192,
+            512,
+            1024,
+            2048,
+            4352,
+            8192,
+            16416,
+            32768
+          ]
+        },
+        {
+          "id": 1073,
+          "index": 557,
+          "family_source": "Compact/Cases/FourSquareHighRight/Case1073.lean",
+          "family_masks": [
+            1,
+            12,
+            16,
+            192,
+            256,
+            512,
+            1024,
+            2048,
+            4096,
+            8192,
+            16416,
+            32768
+          ]
+        },
+        {
+          "id": 1074,
+          "index": 558,
+          "family_source": "Compact/Cases/FourSquareHighRight/Case1074.lean",
+          "family_masks": [
+            1,
+            12,
+            16,
+            192,
+            256,
+            512,
+            1024,
+            2048,
+            4098,
+            8192,
+            16416,
+            32768
+          ]
+        }
+      ]
+    },
+    {
+      "path": "Compact/Assembly/FourSquareUnusedCases.lean",
+      "before": {
+        "sha256": "99206324e172cfb38efba3d8eb136bc997ad1d5f4ea47d55c8956f9b70fd0de0",
+        "bytes": 1134,
+        "lines": 31
+      },
+      "after": {
+        "sha256": "861d0cd3794e07a7ff3501b3503d70f76ce6d76d279d1088eed50dc5297ff7de",
+        "bytes": 1975,
+        "lines": 50
+      },
+      "witnesses": [
+        {
+          "id": 841,
+          "index": 428,
+          "family_source": "Compact/Cases/FourSquareUnused/Case841.lean",
+          "family_masks": [
+            1,
+            2,
+            12,
+            16,
+            192,
+            256,
+            512,
+            1024,
+            2048,
+            4096,
+            8192,
+            16384
+          ]
+        },
+        {
+          "id": 842,
+          "index": 429,
+          "family_source": "Compact/Cases/FourSquareUnused/Case842.lean",
+          "family_masks": [
+            1,
+            2,
+            12,
+            16,
+            192,
+            256,
+            512,
+            1024,
+            2048,
+            4096,
+            8192,
+            16416
+          ]
+        }
+      ]
+    },
+    {
+      "path": "Compact/Assembly/FourSquareHighRightExtraCases.lean",
+      "before": {
+        "sha256": "4131f6aba9ed44302644c3d58911191849d7e873d51ac11a3356ab192cc98628",
+        "bytes": 1500,
+        "lines": 37
+      },
+      "after": {
+        "sha256": "d2199beeb58395fb693e48ecc0ff43fb06c8f0f5b8da2a878652a1e5aaee5851",
+        "bytes": 4399,
+        "lines": 98
+      },
+      "witnesses": [
+        {
+          "id": 669,
+          "index": 350,
+          "family_source": "Compact/Cases/FourSquareHighRightExtra/Case669.lean",
+          "family_masks": [
+            1,
+            2,
+            12,
+            16,
+            32,
+            192,
+            256,
+            512,
+            1024,
+            2048,
+            4096,
+            8192
+          ]
+        },
+        {
+          "id": 670,
+          "index": 351,
+          "family_source": "Compact/Cases/FourSquareHighRightExtra/Case670.lean",
+          "family_masks": [
+            1,
+            2,
+            12,
+            16,
+            32,
+            192,
+            256,
+            512,
+            1024,
+            2048,
+            4096,
+            16384
+          ]
+        },
+        {
+          "id": 673,
+          "index": 354,
+          "family_source": "Compact/Cases/FourSquareHighRightExtra/Case673.lean",
+          "family_masks": [
+            1,
+            2,
+            12,
+            16,
+            32,
+            192,
+            256,
+            512,
+            1024,
+            4096,
+            8192,
+            32768
+          ]
+        },
+        {
+          "id": 674,
+          "index": 355,
+          "family_source": "Compact/Cases/FourSquareHighRightExtra/Case674.lean",
+          "family_masks": [
+            1,
+            2,
+            12,
+            16,
+            32,
+            192,
+            256,
+            512,
+            1024,
+            4096,
+            8192,
+            34816
+          ]
+        },
+        {
+          "id": 675,
+          "index": 356,
+          "family_source": "Compact/Cases/FourSquareHighRightExtra/Case675.lean",
+          "family_masks": [
+            1,
+            2,
+            12,
+            16,
+            32,
+            192,
+            256,
+            512,
+            1024,
+            4096,
+            16384,
+            34816
+          ]
+        },
+        {
+          "id": 690,
+          "index": 371,
+          "family_source": "Compact/Cases/FourSquareHighRightExtra/Case690.lean",
+          "family_masks": [
+            1,
+            2,
+            12,
+            16,
+            32,
+            192,
+            256,
+            512,
+            4096,
+            8192,
+            17408,
+            32768
+          ]
+        },
+        {
+          "id": 848,
+          "index": 435,
+          "family_source": "Compact/Cases/FourSquareHighRightExtra/Case848.lean",
+          "family_masks": [
+            1,
+            2,
+            12,
+            16,
+            192,
+            256,
+            512,
+            1024,
+            4096,
+            8192,
+            16384,
+            32768
+          ]
+        },
+        {
+          "id": 850,
+          "index": 437,
+          "family_source": "Compact/Cases/FourSquareHighRightExtra/Case850.lean",
+          "family_masks": [
+            1,
+            2,
+            12,
+            16,
+            192,
+            256,
+            512,
+            1024,
+            4096,
+            8192,
+            16416,
+            32768
+          ]
+        }
+      ]
+    },
+    {
+      "path": "Compact/Assembly/SymbolicRegistry.lean",
+      "before": {
+        "sha256": "8222f8a287f08fed2ec64f4e6e4951bfc26d11bfe5d318acc9cad0e41c1dcdae",
+        "bytes": 8106,
+        "lines": 130
+      },
+      "after": {
+        "sha256": "7b6c2a2c7eedb7f0fec87047af6c28e030dad30ad71170a630332d8068862c27",
+        "bytes": 8680,
+        "lines": 143
+      }
+    }
+  ]
+}

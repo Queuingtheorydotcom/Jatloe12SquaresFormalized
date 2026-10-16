@@ -1,0 +1,409 @@
+{
+  "status": "complete exact fan audit; Lean replay pending",
+  "cases": [
+    713
+  ],
+  "lean_checked": false,
+  "whole_cases_proved": false,
+  "failures": [],
+  "empty_contexts": [],
+  "sources": {
+    "evidence/historical-compact-data/manifest.json": "f20009fcf353dc46a22907d2c1dc78a23a5e8499f569ab549d94bb31ba6d53ca",
+    "evidence/historical-compact-data/rows.json": "5652be93ba32352a8fdc393c028424cf9d454a2fefa7798e55723e5da8027215",
+    "evidence/historical-compact-data/poses.json": "faeaf04102217cc07ceccc576ecfed41a9c7ed164a41bfc516c415ce95226908",
+    "evidence/historical-compact-data/blocks.json": "229f22acc26ca633375a7f8f53dd7cd147158bc573fb8f3aa64f96049541608e",
+    "evidence/historical-compact-data/contexts.json": "93721f24cf17a21e03b8dc3edb6bac6d9f7309abdc440d543a936959464443d5",
+    "evidence/historical-compact-data/references.json": "98ea24eb82ed29fabdc69c34efc30eb314015535afbffddc0f31ca65537afb70",
+    "evidence/historical-compact-data/C713.json": "7ed7f008778113b87e979da105f25ab8c412258bf99cd01dac16e58755424e3a"
+  },
+  "derived_bases": false,
+  "boundary_cycles": true,
+  "limits": {
+    "rss_mib": 256,
+    "seconds": 120,
+    "output_mib": 32
+  },
+  "requested_pairs": 94735,
+  "verified_pairs": 94735,
+  "pairs_closed_by_empty_certificate": 0,
+  "requested_contexts": 1815,
+  "fan_contexts": 1815,
+  "empty_context_count": 0,
+  "all_selected_pairs_pass": true,
+  "failure_count": 0,
+  "cycle_fallback_reasons": {},
+  "statistics": {
+    "line_intersections": 53725,
+    "fan_entries": 12938,
+    "vertex_basis_candidates": 13349,
+    "support_requests": 756664,
+    "cyclic_contexts": 1815,
+    "boundary_row_identifiers": 13284,
+    "derived_cycle_entries": 15099,
+    "legacy_fallback_contexts": 0
+  },
+  "elapsed_seconds": 6.143891332998464,
+  "files": [
+    {
+      "path": "fans.json",
+      "lines": 1,
+      "bytes": 1526160,
+      "sha256": "aad550aaf5f4e806d33639954f783c80f322a61da29db596aa14c58323e7f152"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Directions.lean",
+      "lines": 774,
+      "bytes": 18453,
+      "sha256": "21e15c4df427029946ad17a4b4d2333382ac02db07d51337dc18717aff5bb52a"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts000.lean",
+      "lines": 111,
+      "bytes": 7878,
+      "sha256": "2a2dbc622ddfabeb34beca3904a86419fe6b16f63186f61d58dc982eb38c36e9"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts001.lean",
+      "lines": 111,
+      "bytes": 8087,
+      "sha256": "8c6ad62ea6a616eae6a670d5c9db100af2b3d2c602242d98cb7f907c59683150"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts002.lean",
+      "lines": 111,
+      "bytes": 8418,
+      "sha256": "940f91c41c88d6e7a14b425748534b6c7a9892d75751fe1d88cabea7b84266a8"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts003.lean",
+      "lines": 111,
+      "bytes": 8651,
+      "sha256": "54cd9c9e8e589bab29bdc33de5cbe63c657d105078828c99e6c83bb7688b2bf2"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts004.lean",
+      "lines": 111,
+      "bytes": 8268,
+      "sha256": "24fc3579bb03ce58f065fe177abc702241221fed248b94d0a143df856d4a6321"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts005.lean",
+      "lines": 111,
+      "bytes": 8035,
+      "sha256": "fa80ec105b9955bdbfc50b7a70f4e0689a1f0944e61ce3670e3f61d48f379985"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts006.lean",
+      "lines": 111,
+      "bytes": 8343,
+      "sha256": "3ea7c7239a6284a257169102995e37c9fe4394b7cc169e8b3d9afbb21df0fa1b"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts007.lean",
+      "lines": 111,
+      "bytes": 8032,
+      "sha256": "4df8d7e6c0c885edd1df66fcdf7ff6bc21910997c5d13e0603ab2bcc0769d8b6"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts008.lean",
+      "lines": 111,
+      "bytes": 7521,
+      "sha256": "ce89c807994bf7e573d6cdbac91aec8df6597224029bebe63f630abb85a0d6d9"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts009.lean",
+      "lines": 111,
+      "bytes": 7684,
+      "sha256": "5dd29215ac70225c0d13aa4a081fc85a887b7df2003387d42f410a801aca6228"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts010.lean",
+      "lines": 111,
+      "bytes": 8170,
+      "sha256": "52bbcd0b05dd4e98599e5e955aaa784c45cde658dc6a82411559e56fd5f831e8"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts011.lean",
+      "lines": 111,
+      "bytes": 9533,
+      "sha256": "753646445cdd3ffaf0e3b3472f4ca6c24444d8d26ec72c7baccdb225b4c4a70b"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts012.lean",
+      "lines": 111,
+      "bytes": 8100,
+      "sha256": "d58acffeb6e5bb436842bcb95268362e92d909fdc54d1cefac61091bbb2eb5be"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts013.lean",
+      "lines": 111,
+      "bytes": 7888,
+      "sha256": "bf38e77f6c2339e70b23f79128eb6d15f0781592c5096808c626eec8640f3556"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts014.lean",
+      "lines": 111,
+      "bytes": 8158,
+      "sha256": "2aa34f61c467993db80e36d6a5d643ce69755b609d203b295bfc9030ed8a656e"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts015.lean",
+      "lines": 111,
+      "bytes": 8434,
+      "sha256": "33b4e1a893a506bb892c3e3794d1a5feb54f7f0bdbedc905a7acdc50ff9ccc10"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts016.lean",
+      "lines": 111,
+      "bytes": 8127,
+      "sha256": "ed81202606ebc5a727857d9f99b0643bf03f9465d7d77f79e180690f195fb64f"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts017.lean",
+      "lines": 111,
+      "bytes": 7990,
+      "sha256": "c2e5aa7d773f96b0b1341b66ae0e2aa581e8522016698bf0761860c0bc448222"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts018.lean",
+      "lines": 111,
+      "bytes": 8357,
+      "sha256": "6d07de8a1e26effae7d18ca408150da75c64327b3405c35f372b97236298b7ff"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts019.lean",
+      "lines": 111,
+      "bytes": 7766,
+      "sha256": "6c890f1c40e10174383cc8c22c8f06b9d20e4c5361659a4fe63b6a71d087b44a"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts020.lean",
+      "lines": 111,
+      "bytes": 7697,
+      "sha256": "2d1d70dfde7b390efe7061a5a1e3cc31583c0e101b982cba813f60058348b7e8"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts021.lean",
+      "lines": 111,
+      "bytes": 8035,
+      "sha256": "497692cd27bf3624dfa9043307b919f7d40ffd7c52b7e1f0c45c34b75e54acae"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts022.lean",
+      "lines": 111,
+      "bytes": 8035,
+      "sha256": "b31393d524af00963155b7578eaf652642cf54e2bef52ea0fbddc76b30ae0f35"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts023.lean",
+      "lines": 111,
+      "bytes": 8208,
+      "sha256": "80b057a372996599e243091575450cc1d05b8045aa8a11aed7b951df2ba11b01"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts024.lean",
+      "lines": 111,
+      "bytes": 8464,
+      "sha256": "ebd4dba5fcbe156972f585a1534bb350687b4719d5e724dd28b87bb95fc87bfd"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts025.lean",
+      "lines": 111,
+      "bytes": 8336,
+      "sha256": "2fdc84f8b884f6965953f21d8d124b973c62489a51d957b871c1ad6d4a653d02"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts026.lean",
+      "lines": 111,
+      "bytes": 8125,
+      "sha256": "9a9ecd7f56b626e5052b761b76afe6c5885a2880161e94d8f7ae6c746bd3e44d"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts027.lean",
+      "lines": 111,
+      "bytes": 7563,
+      "sha256": "328190630bcf9ea94891ef6a8804e889f53a352e009c0041eeef2a88f2052439"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts028.lean",
+      "lines": 111,
+      "bytes": 9427,
+      "sha256": "67053477ec1c141bd7e1c0c51ebd485c8983b31340c56d7ac336e81e1671c601"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts029.lean",
+      "lines": 111,
+      "bytes": 8384,
+      "sha256": "f5ef053c45f9555be7b7f493db9369452e217477cd905bf153006dd79dd949f6"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts030.lean",
+      "lines": 111,
+      "bytes": 8179,
+      "sha256": "e9d8fd5fa18d7e73e13ce3581b8e469c79a492a9b7f9fad68a5fe27043b88eb6"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts031.lean",
+      "lines": 111,
+      "bytes": 8034,
+      "sha256": "ae24c226cbbc5a2f9561fd2308cae98f50a88b9cffa12dc8cad9c4964f9830ec"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts032.lean",
+      "lines": 111,
+      "bytes": 8205,
+      "sha256": "bd80aac6e81a9f320b34dc4d91b713f96a1f700347332618cff1c49e21aa6d2e"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts033.lean",
+      "lines": 111,
+      "bytes": 8533,
+      "sha256": "3604cc61be21426b64563dc6c763db22b502d64cd52dd66ad55bc3b5cb0908b7"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts034.lean",
+      "lines": 111,
+      "bytes": 8554,
+      "sha256": "68ff60e7b16eb6dc961e61514e1cd467b42eaebce32f0062c567dd8660b219fe"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts035.lean",
+      "lines": 111,
+      "bytes": 8823,
+      "sha256": "09c1aacf76bc0788ffeb7e362e8134ffb4792770bf23b5549f1f9b159d5c2290"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts036.lean",
+      "lines": 111,
+      "bytes": 8076,
+      "sha256": "f713ffc7bfd7e92987bb8c9a2192ded83288149feb0ec3c7b0d7a44a4cae2acf"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts037.lean",
+      "lines": 111,
+      "bytes": 7606,
+      "sha256": "ac17d61b7bac2642dbd28d08efb82993cccbe479fda840c6431cbe0c6956907d"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts038.lean",
+      "lines": 111,
+      "bytes": 8353,
+      "sha256": "04b4921e92f3350c4fb951db1e0afcdba53bb9e21069ff1c67a6ef08a0f81ddc"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts039.lean",
+      "lines": 111,
+      "bytes": 10860,
+      "sha256": "cc8c2519929ee6f37834c8f0884e123654da701bffce75e53a2df4f5f99097fd"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts040.lean",
+      "lines": 111,
+      "bytes": 8872,
+      "sha256": "4279b28622ef75c86506360323189a479061da35ef6ab0f6fa3f36f488426732"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts041.lean",
+      "lines": 111,
+      "bytes": 8429,
+      "sha256": "8eaa64605ab432d2627317d553304e94ca0cac922802047a1bbc8f336fe62c9b"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts042.lean",
+      "lines": 111,
+      "bytes": 8418,
+      "sha256": "742a74cd69963156ca367186a29a5cdeeb31de50f0edc323450dd41a567e8f56"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts043.lean",
+      "lines": 111,
+      "bytes": 8618,
+      "sha256": "ad3cb014d48c294d211e0374828cfa9cab5f80e466677a2806bd2e5845cf323e"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts044.lean",
+      "lines": 111,
+      "bytes": 9035,
+      "sha256": "0dbb37f38cd0b645bb05a34efd1fee897e0feb29e2381af085c8f77f40f8f1bb"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts045.lean",
+      "lines": 111,
+      "bytes": 8617,
+      "sha256": "e3e682f8887555a47bbc3e97f13e065dac00bf9fcb5badf85c7019a46a0bce23"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts046.lean",
+      "lines": 111,
+      "bytes": 8028,
+      "sha256": "0f4e97453a1878e5eed0190f262d0dd7ebb9e75a75e9f26d764b6fd059a0cb62"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts047.lean",
+      "lines": 111,
+      "bytes": 7513,
+      "sha256": "93a534ce9a7615b2a60950803c4834b06a5471d94f3d4fc6050a62b76582e883"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts048.lean",
+      "lines": 111,
+      "bytes": 7330,
+      "sha256": "52069924475e3a62d43a7c577d22fd91c26857d1618817460ee7fcbb634a06f7"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts049.lean",
+      "lines": 111,
+      "bytes": 7959,
+      "sha256": "2d5162a7e7fbcf3c904371df8d91a4431479d5ef8407c723b60a6d697aeb23da"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts050.lean",
+      "lines": 111,
+      "bytes": 8134,
+      "sha256": "c89869051422fcb73559d32cada46de766f16d386bc6a4abf88f83f6e7901594"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts051.lean",
+      "lines": 111,
+      "bytes": 8323,
+      "sha256": "4476bc375dd75c2412fac3e543d4e59b5f34209eaf8a149056f6a0eb67c15f01"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts052.lean",
+      "lines": 111,
+      "bytes": 8619,
+      "sha256": "239bc6fd3c8403fc1f6a1ae4c1d212add41217b88f40232829524f90cdaabf74"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts053.lean",
+      "lines": 111,
+      "bytes": 8296,
+      "sha256": "e742052562a4551e71dd20c7ffd297c9c61bce0c7a60b80ecff54592482574ad"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts054.lean",
+      "lines": 111,
+      "bytes": 8462,
+      "sha256": "7bc337b66e2513187259fd5f9fe0af337c1c0ded7e71fa26fb527392074c5275"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts055.lean",
+      "lines": 111,
+      "bytes": 8045,
+      "sha256": "c91c6664b9439fb889e9ca592cfbf98be6ae868e7d251e2c4a2e4615e2ca6733"
+    },
+    {
+      "path": "lean/Compact/HistoricalFans/C713/Contexts056.lean",
+      "lines": 84,
+      "bytes": 5922,
+      "sha256": "213647102175b5830cff14db5d9d8ed7a0d7f2c243574b19cb7c6e3af95c9c6e"
+    }
+  ],
+  "lean_lines": 7074,
+  "lean_modules": 58,
+  "remaining": [
+    "Lean checks of all emitted context tables and empty certificates",
+    "all original pair checks and exact global ID/angle/reference adapters",
+    "all relaxation, pruning-cover, chord and original-entrance obligations"
+  ]
+}

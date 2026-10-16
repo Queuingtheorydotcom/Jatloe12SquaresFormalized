@@ -1,0 +1,25 @@
+{
+  "status": "source assembled, full kernel replay pending",
+  "cause": "measured77.4s parsing and deep syntax linter recursion; previous kernel typechecking215ms",
+  "chunk_size": 256,
+  "tables": [
+    {
+      "path": "Compact/Cases/C898/SharedRows.lean",
+      "rows": 26026,
+      "before_sha256": "a33cb68c570a855e49ab9110d72373d43709f356a50448ee0f68d094f57b7909",
+      "after_sha256": "2f2a9f3448eeca8998aaa1f43d2d20d8e739b9f363750aee4fa38150b51e6847",
+      "literal_fields_sha256": "10fa0cf0fbcdc94f5d31abd21cd64764e6d2e49e1d60ed397f4863b80ec1331b",
+      "all_literal_fields_preserved": true,
+      "one_row_per_source_line": true
+    },
+    {
+      "path": "Compact/Cases/C898/Initial/Rows.lean",
+      "rows": 14281,
+      "before_sha256": "44b34eda469698e07a4ef932179c9e2c0881d5903a0a78fb3f049e40bddad081",
+      "after_sha256": "d95974c3dcbb4d6e8595981f59d45bf4f3961c988d0c6abbae54e4b4f2f97b12",
+      "literal_fields_sha256": "b53e9e7e75b15e08d93d640d7484401c3242907ccd7c890fc62ec80a0911f4d3",
+      "all_literal_fields_preserved": true,
+      "one_row_per_source_line": true
+    }
+  ]
+}

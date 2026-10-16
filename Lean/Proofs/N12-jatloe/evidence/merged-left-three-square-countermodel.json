@@ -1,0 +1,94 @@
+{
+  "scope": "Exact verification of a hand-chosen merged A/L/T local countermodel. Not a full packing or Lean proof.",
+  "side": "1001/1000",
+  "squares": {
+    "A": {
+      "frame": [
+        "15/17",
+        "8/17",
+        "28983/17000",
+        "2529/8500"
+      ],
+      "unit": true,
+      "contained": true,
+      "markers": [
+        8,
+        11
+      ],
+      "auxiliary": [
+        4,
+        13
+      ],
+      "center": false
+    },
+    "L": {
+      "frame": [
+        "4/5",
+        "3/5",
+        "6093/4000",
+        "103/100"
+      ],
+      "unit": true,
+      "contained": true,
+      "markers": [
+        12
+      ],
+      "auxiliary": [
+        1,
+        11
+      ],
+      "center": false
+    },
+    "T": {
+      "frame": [
+        "1",
+        "0",
+        "6/5",
+        "29/10"
+      ],
+      "unit": true,
+      "contained": true,
+      "markers": [
+        15
+      ],
+      "auxiliary": [
+        3,
+        14
+      ],
+      "center": false
+    }
+  },
+  "separators": {
+    "AL": [
+      {
+        "frame": "second",
+        "axis": "V",
+        "direction": "first-before-second",
+        "gap": "637/85000"
+      }
+    ],
+    "AT": [
+      {
+        "frame": "first",
+        "axis": "V",
+        "direction": "first-before-second",
+        "gap": "3817/17000"
+      },
+      {
+        "frame": "second",
+        "axis": "V",
+        "direction": "first-before-second",
+        "gap": "327/680"
+      }
+    ],
+    "LT": [
+      {
+        "frame": "first",
+        "axis": "U",
+        "direction": "first-before-second",
+        "gap": "703/4000"
+      }
+    ]
+  },
+  "full_local_claim_refuted": true
+}

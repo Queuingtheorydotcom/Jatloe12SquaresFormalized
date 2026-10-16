@@ -1,0 +1,1 @@
+'N12Compact.RawSupportFanBool.check_sound' depends on axioms: [propext, Quot.sound]

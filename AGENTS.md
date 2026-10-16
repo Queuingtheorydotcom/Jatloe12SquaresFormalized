@@ -14,4 +14,4 @@ the final profile passes.
 Use the project scripts for serial module replay. The remote runner may use
 multiple Lean threads within a module. Keep local defaults conservative and
 machine-specific logs/caches under ignored .verification/ and .lake/ directories.
-Preserve Jatloe's and Ben Gurevitch's credits.
+Preserve Jatloe's, Ben Gurevitch's and CTJLewis's credits.

@@ -1,0 +1,528 @@
+{
+  "status": "source assembled; Lean acceptance pending",
+  "scope": "twenty complete original chord transitions; C713 step5 uses the separate height proof",
+  "lean_checked": false,
+  "counts": {
+    "neighbor_pose_occurrences": 2963,
+    "neighbor_bounds": 5926,
+    "branch_contexts": 2596,
+    "empty_branches": 1470,
+    "empty_terms": 2940,
+    "kept_branches": 1126,
+    "target_row_checks": 13562,
+    "source_poses": 1298,
+    "stages": 20
+  },
+  "failures": [],
+  "used_angles": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16,
+    17,
+    18,
+    19,
+    20,
+    21,
+    22,
+    23,
+    24,
+    25,
+    26,
+    27,
+    28,
+    29,
+    30,
+    31,
+    32,
+    33,
+    34,
+    35,
+    36,
+    37,
+    38,
+    39,
+    40,
+    41,
+    42,
+    43,
+    44,
+    45,
+    46,
+    47,
+    48,
+    49,
+    50,
+    51,
+    52,
+    53,
+    54,
+    55,
+    56,
+    57,
+    58,
+    59,
+    60,
+    61,
+    62,
+    63,
+    64,
+    65,
+    66,
+    67,
+    68,
+    69,
+    70,
+    71,
+    72,
+    73,
+    74,
+    75,
+    76,
+    77,
+    78,
+    79,
+    80,
+    81,
+    82,
+    83,
+    84,
+    85,
+    86,
+    87,
+    88,
+    89,
+    90,
+    91,
+    92,
+    93,
+    94,
+    95,
+    96,
+    97,
+    98,
+    99,
+    100,
+    101,
+    102,
+    103,
+    104,
+    105,
+    106,
+    107,
+    108,
+    109,
+    110,
+    111,
+    112,
+    113,
+    114,
+    115,
+    116,
+    117,
+    118,
+    119,
+    120,
+    121,
+    122,
+    123,
+    124,
+    125,
+    126,
+    127,
+    128,
+    129,
+    130,
+    131,
+    132,
+    133,
+    134,
+    135,
+    136,
+    137,
+    138,
+    139,
+    140,
+    141,
+    142,
+    143,
+    144,
+    145,
+    146,
+    147,
+    148,
+    149,
+    150,
+    151,
+    152,
+    153,
+    154,
+    155,
+    156,
+    157,
+    158,
+    159,
+    160,
+    161,
+    162,
+    163,
+    164,
+    165,
+    166,
+    167,
+    168,
+    169,
+    170,
+    171,
+    172,
+    173,
+    174,
+    175,
+    176,
+    177,
+    178,
+    179,
+    180,
+    181,
+    182,
+    183,
+    184,
+    185,
+    186,
+    187,
+    188,
+    189,
+    190,
+    191
+  ],
+  "inputs": {
+    "evidence/historical-compact-data/manifest.json": "f20009fcf353dc46a22907d2c1dc78a23a5e8499f569ab549d94bb31ba6d53ca",
+    "evidence/historical-direct-cover-audit.json": "48ee51e396d3e1d42b2ebe97190c4a0dd45409686f262c7fcf2d644e2ff4731d",
+    "evidence/historical-compact-data/C701.json": "6723e8797c91294ea344f8401980930449535b2fb06c4668e2e41810becb8c90",
+    "evidence/historical/source-gzip/S12/Push701Chunk56.lean.gz": "cae5c31cb41c1db9f663feca4bcfd3ee423919716e1e41f3dae605f620ae5b7d",
+    "evidence/historical-compact-data/C713.json": "7ed7f008778113b87e979da105f25ab8c412258bf99cd01dac16e58755424e3a",
+    "evidence/historical/source-gzip/S12/Push713Chunk92.lean.gz": "4c08f5fe8f4c4e1e982c7b1be063fd631dda03ecb89a41b4c30992d420b24345",
+    "evidence/historical-compact-data/C717.json": "97de7a3f49746eb39d645eb905f669ce26f4ecea9932b7b8b31f1b13c289e1f8",
+    "evidence/historical/source-gzip/S12/Push717Chunk160.lean.gz": "c6aaae2a8f20e5f5253294fd43ddb87af2ab177d13c8a7e189348e42d98e199c",
+    "evidence/historical-compact-data/C973.json": "5431135cc2ce7bfac80fcfb8110da4001bd9b166b7841b07124aa2d2ebb38612",
+    "evidence/historical/source-gzip/S12/Push973Chunk74.lean.gz": "dabc1fb621857e69f02e9392d15aefdb5eef24ac3df6e55092d48facd6a35cd4",
+    "evidence/historical-compact-data/C978.json": "54cbc6e78920b25ac5eaa71dcfea16278f318f6448a0b145f4405458f6600431",
+    "evidence/historical/source-gzip/S12/Push978Chunk73.lean.gz": "e3fbb099342e5a37008bbee1ae803dcff3683b55cee27192931bdbe6769b3bfd",
+    "evidence/historical-compact-data/C979.json": "5e49e7bd7308b6183ffdcba652edd1543cdb585f8c5cfe431d0d314e9b5d786d",
+    "evidence/historical/source-gzip/S12/Push979Chunk160.lean.gz": "3ea8dc2a5d923a064be04a7ddabdd916b24cdc0fe740a8996bdee16c5508e1cf",
+    "evidence/historical/source-gzip/S12/Push979Chunk159.lean.gz": "c5d1c0ca197e5fee68f902b3c0b44360387ffd2f888ef62067bf37a57f5eb1cf",
+    "evidence/historical-compact-data/poses.json": "faeaf04102217cc07ceccc576ecfed41a9c7ed164a41bfc516c415ce95226908",
+    "evidence/historical-compact-data/rows.json": "5652be93ba32352a8fdc393c028424cf9d454a2fefa7798e55723e5da8027215"
+  },
+  "authenticated_sources": [
+    {
+      "module": "S12.Push701Chunk11",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk11.lean.gz",
+      "sha256": "46d0222cade6902619a6e361a0c64c52022e644713add0d477c0726a8c9fae5c",
+      "bytes": 2987795
+    },
+    {
+      "module": "S12.Push701Chunk12",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk12.lean.gz",
+      "sha256": "ea34b226e9eb24b1a69bb5f608fe6e3dd13770901ad36308292142a6e48d4717",
+      "bytes": 2972775
+    },
+    {
+      "module": "S12.Push701Chunk36",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk36.lean.gz",
+      "sha256": "1f856d5eb822546a1113a373734af535616373feaf3c708899bbbd61a6c3f51f",
+      "bytes": 2820759
+    },
+    {
+      "module": "S12.Push701Chunk37",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk37.lean.gz",
+      "sha256": "d561daa6c83f9d34b58dc987482c042444915d220a0a7242e16f6250e75503df",
+      "bytes": 2919203
+    },
+    {
+      "module": "S12.Push701Chunk48",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk48.lean.gz",
+      "sha256": "db91257d419a6788f843b0d63c5b16369ae4b3ce2740502f89a895d6c306d2d8",
+      "bytes": 2992184
+    },
+    {
+      "module": "S12.Push701Chunk49",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk49.lean.gz",
+      "sha256": "9c8dd7ad7a66d9beafe7bccc419c3cbe669ee4d6c4404c6aa8e7eee8496fe611",
+      "bytes": 2981661
+    },
+    {
+      "module": "S12.Push701Chunk50",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk50.lean.gz",
+      "sha256": "7c908672f8cdcc70249aeff2ef9c0d83aaacb1a46a77e544a47ce6e16caae4f6",
+      "bytes": 2983917
+    },
+    {
+      "module": "S12.Push701Chunk51",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk51.lean.gz",
+      "sha256": "4ec376823d7551452b28008a4c0cde8eb94c4093c2c0e88d4aa48634d8d3fa76",
+      "bytes": 2999602
+    },
+    {
+      "module": "S12.Push701Chunk54",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk54.lean.gz",
+      "sha256": "07f78af539c96948bab1aba8b133b1944ced3430bf919ff4a08dbf529040b681",
+      "bytes": 2868538
+    },
+    {
+      "module": "S12.Push701Chunk55",
+      "path": "evidence/historical/source-gzip/S12/Push701Chunk55.lean.gz",
+      "sha256": "e7ea6fad82b67bd3627b11bd5e8e4bee96fcfcc9bcfcb0794bd9ffa5032de7ed",
+      "bytes": 2989780
+    },
+    {
+      "module": "S12.Push717Chunk159",
+      "path": "evidence/historical/source-gzip/S12/Push717Chunk159.lean.gz",
+      "sha256": "bfb4106d843422bf6f7a4958d6109f25e0105afe7da5c121c6f5ceaf8969ff10",
+      "bytes": 2995911
+    },
+    {
+      "module": "S12.Push717Chunk160",
+      "path": "evidence/historical/source-gzip/S12/Push717Chunk160.lean.gz",
+      "sha256": "c6aaae2a8f20e5f5253294fd43ddb87af2ab177d13c8a7e189348e42d98e199c",
+      "bytes": 1628449
+    },
+    {
+      "module": "S12.Push973Chunk37",
+      "path": "evidence/historical/source-gzip/S12/Push973Chunk37.lean.gz",
+      "sha256": "2fbd4136b07d83f5e91c554e01eff72083fcba7a88c39e3f6726934cba22b389",
+      "bytes": 2887212
+    },
+    {
+      "module": "S12.Push973Chunk38",
+      "path": "evidence/historical/source-gzip/S12/Push973Chunk38.lean.gz",
+      "sha256": "3937ff444934d9800fc4141ed21bb46adfde0f56a2068c0acd7853377cecc2a3",
+      "bytes": 2928821
+    },
+    {
+      "module": "S12.Push973Chunk47",
+      "path": "evidence/historical/source-gzip/S12/Push973Chunk47.lean.gz",
+      "sha256": "6cb0262522070d8de049c6c0bfc64729874a95e38ff8b773a6d4e32734c57483",
+      "bytes": 2922207
+    },
+    {
+      "module": "S12.Push973Chunk48",
+      "path": "evidence/historical/source-gzip/S12/Push973Chunk48.lean.gz",
+      "sha256": "8fd15677f0fb9b9d0f97030d1297ebbe3246bd1aa9a521a67cbce840548e1cd3",
+      "bytes": 2902759
+    },
+    {
+      "module": "S12.Push973Chunk73",
+      "path": "evidence/historical/source-gzip/S12/Push973Chunk73.lean.gz",
+      "sha256": "08b55d126b82b6884fd9f0a5dc9d0634fcae4e2a6d25b9bbb6c59bd4abde9543",
+      "bytes": 2863670
+    },
+    {
+      "module": "S12.Push973Chunk74",
+      "path": "evidence/historical/source-gzip/S12/Push973Chunk74.lean.gz",
+      "sha256": "dabc1fb621857e69f02e9392d15aefdb5eef24ac3df6e55092d48facd6a35cd4",
+      "bytes": 2445244
+    },
+    {
+      "module": "S12.Push978Chunk61",
+      "path": "evidence/historical/source-gzip/S12/Push978Chunk61.lean.gz",
+      "sha256": "db08854175b9f25bba05229fb431d1726b4b6c4e6bb8572d01f73cfe02891087",
+      "bytes": 2867719
+    },
+    {
+      "module": "S12.Push978Chunk62",
+      "path": "evidence/historical/source-gzip/S12/Push978Chunk62.lean.gz",
+      "sha256": "2367133684f694f2ab05588814e9471a5c8e2ac562a89dc28accc0bb286efa40",
+      "bytes": 3008890
+    },
+    {
+      "module": "S12.Push978Chunk71",
+      "path": "evidence/historical/source-gzip/S12/Push978Chunk71.lean.gz",
+      "sha256": "f453c9473c918a6d0d780408f4562f5b7b96fd04d32aa13396cecae5a59bfbb2",
+      "bytes": 2563571
+    },
+    {
+      "module": "S12.Push978Chunk72",
+      "path": "evidence/historical/source-gzip/S12/Push978Chunk72.lean.gz",
+      "sha256": "59fc958d27c164d6b05561497af5c362fb210b0f25138f0a4a2db04cc35260fe",
+      "bytes": 3002473
+    },
+    {
+      "module": "S12.Push979Chunk148",
+      "path": "evidence/historical/source-gzip/S12/Push979Chunk148.lean.gz",
+      "sha256": "05387f9bb6bb301a56d5d15917bd9602ef2a34c257e31af693541e269156b14f",
+      "bytes": 1940702
+    },
+    {
+      "module": "S12.Push979Chunk149",
+      "path": "evidence/historical/source-gzip/S12/Push979Chunk149.lean.gz",
+      "sha256": "5dce17da0be9a2b773be216a3e374039467d7c2aad7547a402fd955584753932",
+      "bytes": 2378202
+    },
+    {
+      "module": "S12.Push979Chunk152",
+      "path": "evidence/historical/source-gzip/S12/Push979Chunk152.lean.gz",
+      "sha256": "5df07fed72c4a641df57c9dfb64a1e1ce0b5f62358a4fb8f5322e052c985ac23",
+      "bytes": 1873482
+    },
+    {
+      "module": "S12.Push979Chunk153",
+      "path": "evidence/historical/source-gzip/S12/Push979Chunk153.lean.gz",
+      "sha256": "ae04a5110d7a059610d5e11e0df68bc795608c15cca06880a8a47f4fb1e966d1",
+      "bytes": 2423731
+    },
+    {
+      "module": "S12.Push979Chunk154",
+      "path": "evidence/historical/source-gzip/S12/Push979Chunk154.lean.gz",
+      "sha256": "606c88d30215bd412a260be6f9cf0836318b2f1ccbf0fb7515f14580fd6cb946",
+      "bytes": 1920632
+    },
+    {
+      "module": "S12.Push979Chunk155",
+      "path": "evidence/historical/source-gzip/S12/Push979Chunk155.lean.gz",
+      "sha256": "17b7fb78502dd1f83c834f6a8d19da3a87f87d3f6c36696422553b0569ba9352",
+      "bytes": 1694143
+    },
+    {
+      "module": "S12.Push979Chunk156",
+      "path": "evidence/historical/source-gzip/S12/Push979Chunk156.lean.gz",
+      "sha256": "bce586e8260ef53b7471a6e62cee53ceb77d1d1f3cf48fe8fadb79c923fa737f",
+      "bytes": 1877815
+    },
+    {
+      "module": "S12.Push979Chunk157",
+      "path": "evidence/historical/source-gzip/S12/Push979Chunk157.lean.gz",
+      "sha256": "c956be2dbbc4ede03222efbd230281c889c5ec8770835b554839a35ae7bca5ac",
+      "bytes": 1845787
+    },
+    {
+      "module": "S12.Push979Chunk158",
+      "path": "evidence/historical/source-gzip/S12/Push979Chunk158.lean.gz",
+      "sha256": "77a32b4025c4b781b07751c028cf7f1190645baf7dd47199e97f854c15de859e",
+      "bytes": 2201592
+    }
+  ],
+  "output_files": {
+    "Compact/Preservation/Chords/Radii.lean": {
+      "bytes": 44525,
+      "lines": 976,
+      "sha256": "272416e3f168fc500d3148ba7bd1ced44230bfec2b0e0915f1a538e3b933bbf6"
+    },
+    "Compact/Preservation/Chords/C701Step06.lean": {
+      "bytes": 140634,
+      "lines": 2547,
+      "sha256": "4981207c926bb05aa23718fd2f3d14f330bca6af16b4e5f2e06e75d62ef677ff"
+    },
+    "Compact/Preservation/Chords/C701Step14.lean": {
+      "bytes": 126032,
+      "lines": 2178,
+      "sha256": "e86c98693746a3f0b4c5c13d80ae532c3628769644508d6049e01a71a781479c"
+    },
+    "Compact/Preservation/Chords/C701Step20.lean": {
+      "bytes": 108419,
+      "lines": 1957,
+      "sha256": "69544c778d981e5aef6534baada5a0b5524da40338ef9ea5e57615f0034b4b08"
+    },
+    "Compact/Preservation/Chords/C701Step23.lean": {
+      "bytes": 46658,
+      "lines": 962,
+      "sha256": "2021332b691bb48395c6827d295e26e47d06afe9169b28817a312dab7f606264"
+    },
+    "Compact/Preservation/Chords/C701Step28.lean": {
+      "bytes": 128953,
+      "lines": 2210,
+      "sha256": "ae4ec3ba83ff3839bd819ad689b8a1b2688096b2e7f3f25433e801c09ee88246"
+    },
+    "Compact/Preservation/Chords/C717Step17.lean": {
+      "bytes": 103872,
+      "lines": 2122,
+      "sha256": "999828fcb071111440041c7673e5c0d2543ffc6287c104234a3e47568c578d69"
+    },
+    "Compact/Preservation/Chords/C717Step18.lean": {
+      "bytes": 33482,
+      "lines": 701,
+      "sha256": "aeed5b0df89abaeb3f5d8decfc271f27c0f4934a58ed363705ba66a2dedd6363"
+    },
+    "Compact/Preservation/Chords/C973Step10.lean": {
+      "bytes": 153618,
+      "lines": 2786,
+      "sha256": "2c70a7f9864b20c7bdb9be0cc3ba6727b3d07a50cc93f816535bd5d657c0842b"
+    },
+    "Compact/Preservation/Chords/C973Step11.lean": {
+      "bytes": 152637,
+      "lines": 2786,
+      "sha256": "28f4ff77cde7bc3a36bdcf4c8f235c12c27344b15bc151abd43f68b1ad39f619"
+    },
+    "Compact/Preservation/Chords/C973Step15.lean": {
+      "bytes": 152898,
+      "lines": 2821,
+      "sha256": "cef8093f2ce1d9347792a3e5a05d822bcc4adea6a2a4e61f222cf9b16fc43216"
+    },
+    "Compact/Preservation/Chords/C973Step25.lean": {
+      "bytes": 100317,
+      "lines": 1933,
+      "sha256": "2f31d76db831d407dbc4ab313827e607face200bed3684f6c1fc312969e6674e"
+    },
+    "Compact/Preservation/Chords/C973Step26.lean": {
+      "bytes": 99134,
+      "lines": 2009,
+      "sha256": "09226f42d798f2cfea089c3159b00fff67f09e4d71fe35543f28679dae92063b"
+    },
+    "Compact/Preservation/Chords/C978Step11.lean": {
+      "bytes": 152524,
+      "lines": 2714,
+      "sha256": "d902c2b03e6a68b059c7c932231397c8e876542355779f805d7d6f5f5d6e6367"
+    },
+    "Compact/Preservation/Chords/C978Step13.lean": {
+      "bytes": 114343,
+      "lines": 2012,
+      "sha256": "8adc0c88da56bcdc6a9bfb377f91837a3f09d6d07812249efd7c8c09c246af11"
+    },
+    "Compact/Preservation/Chords/C979Step17.lean": {
+      "bytes": 261140,
+      "lines": 4371,
+      "sha256": "51827eab0b3d53ec75060e1d20ec9b6050837d8de69e83856f0895193a1bd689"
+    },
+    "Compact/Preservation/Chords/C979Step20.lean": {
+      "bytes": 314159,
+      "lines": 5590,
+      "sha256": "3ca8129f09825e358d80b5b157b46daee1ae17e1bb0acebe3ace3f57401aca68"
+    },
+    "Compact/Preservation/Chords/C979Step21.lean": {
+      "bytes": 207442,
+      "lines": 3436,
+      "sha256": "e27fc6e1c2d0e9a8de4ceea8b27a283353efea1db3b6c84099a890124b08c492"
+    },
+    "Compact/Preservation/Chords/C979Step24.lean": {
+      "bytes": 84203,
+      "lines": 1560,
+      "sha256": "36a48c512d5f9676e6e35006b9736b159b221be4b9768061e4bdacb18bbb0242"
+    },
+    "Compact/Preservation/Chords/C979Step27.lean": {
+      "bytes": 268061,
+      "lines": 4677,
+      "sha256": "df18f18348a1c2f009b303bc87cd660f78da2922354e9d154060610c3dc4951a"
+    },
+    "Compact/Preservation/Chords/C979Step28.lean": {
+      "bytes": 187965,
+      "lines": 3321,
+      "sha256": "d8cc3db2547330ceecf1e6796e92ddf80b38375993a9fd9a2c76ab92f3ced2ce"
+    }
+  },
+  "lean_lines": 53669,
+  "lean_bytes": 2981016,
+  "elapsed_seconds": 1.6191739169989887
+}

@@ -1,0 +1,159 @@
+C580/C581 shared three-owner proposal: original-case adapter plan
+
+STATUS
+Revision1 was run only by the root under the requested guard. It stopped
+at the internal24s limit without an empty result (last completed domains:
+A120 pieces,B149,O139). Revision2 added the already-derived strict foreign
+hulls of all12 actual original owners and was also run only by the root.
+It stopped at24.006s without an empty result; last completed domains were
+A98 pieces,B142,O152 (the last O update was in the previous sweep).
+Both versions are proposal engines, not Lean checkers or proofs. No
+generated certificate is being accepted from either return value. No
+third run or enlarged search has been prepared or authorized here.
+
+ROOT COMMAND (run in the project root, in the parent's sole serial group)
+python3 -B scripts/bounded.py --rss-mib 256 --footprint-mib 256 --seconds 25 --free-gib 3 --receipt .verification/c580581-three-owner-pilot-v2-resources.json -- python3 -B Compact/Completion/FiniteCases/c580581_three_owner_pilot.py --external-memory-guard --report .verification/c580581-three-owner-pilot-v2.json
+
+The pilot reserves its final second for its JSON report. It stops at512
+pieces per owner and2MiB proposed JSON; the parent enforces both aggregate
+RSS and physical footprint256MiB. It imports the row54 pilot engine as a
+library; the row54 search is not invoked. It makes no subprocess, network,
+Lean, dependency, or installation calls. No new proof modules are emitted.
+
+UNCHANGED ORIGINAL CONTRACT
+For v:Fin2 use C580581Entrance.family v and bottomMask v=8192/8196.
+A = OriginalOwners.owner p512
+B = OriginalOwners.owner p(bottomMask v)
+O = OriginalOwners.owner p8
+Every square is the actual physical square from the same arbitrary-real
+normalized packing. It retains strict interior ownership, exact original
+marker masks, containment, common side1<a<=1001/1000 and pairwise interior
+disjointness. No angle or original corner case is selected.
+
+SHARED INSIDE POINTS AND THEIR ACTUAL SOURCES
+A:
+  (47/20,33/20)  actual marker9 from exact mask512 / seed_points_sound
+  (2,87/50)     C580581Points.compulsory SE F4
+  (113/50,2)    C580581Entrance.inside index6, actual SE G6
+  (41/20,39/20) C580581CentralEntrance.southeast_near
+  (5/2,2)       existing C981CompletionCrosspoint.point as below
+B:
+  (2,457/500)   actual marker13, present in both bottom masks
+  (113/50,1)    C580581Entrance.inside index4, actual bottom G5
+  (12/5,1)      C580581Points.compulsory, actual bottom F6
+  (14/5,1)      existing C981CompletionWallAdvance.point as below
+O:
+  (1543/500,1)  actual marker3 of exact mask8
+  (3,28/25)    actual singleton8 seed from seed_points_sound
+  (3,87/50)    actual singleton8 seed from seed_points_sound
+  (81/25,187/100) actual singleton8 seed from seed_points_sound
+
+The two existing-lemma wrappers are in C580581PilotInputs.lean, with public
+bottom_far, southeast_east and southeast_missing_center. They are not yet
+compiled as original adapters.
+They are explicit genuine entrance obligations, not assumptions that the
+pilot's proposed data can manufacture.
+
+BOTTOM-FAR WRAPPER
+Apply C981CompletionWallAdvance.point to pullSwap B.
+  side/container: actual B side and container_pullSwap
+  marker(.914,2) maps to actual B(2,.914)
+  upper(1,2.4) maps to actual B(2.4,1)
+  missing(1,1.74) maps to actual B(1.74,1), foreign actual owner1 seed
+  missing(.76,1.87) maps to actual B(1.87,.76), foreign actual owner1 seed
+  missing(1.65,2.35) maps to actual B(2.35,1.65), foreign actual owner512 marker
+The conclusion maps to actual B(2.8,1). Both bottom masks and the owner1
+membership facts are checked by Fin2 case splitting, never by asserting B
+has a narrower exact auxiliary label. Horizontal convexity then supplies
+B(2.5,1) between2.26 and2.8.
+
+SE-EAST WRAPPER
+Apply C981CompletionCrosspoint.point to q=pullSwap(pullY A).
+q.Inside x y iff A.Inside y(4-x).
+  north q(2,2.26) maps to actual A G6(2.26,2)
+  east q(2.26,2) maps to actual A F4(2,1.74)
+  NE marker maps to actual A SE marker
+  missingSE maps to actual A(1.65,1.65), foreign actual owner2304 marker
+  missingNW maps to actual A(2.35,2.35), foreign actual owner1024 marker
+  rightLow maps to actual A(2.4,1), foreign actual B F6
+  rightHigh maps to actual A(2.5,1), foreign actual B segment point
+The conclusion maps to actual A(2.5,2). Each absence uses original packing
+disjointness; the entire B segment belongs to this same actual B.
+
+OUTSIDE POINTS
+A's excluded original markers are exactly all indices except9.
+B's excluded original markers are all indices except2,13. The optional
+marker2=(3,.914) is left live: B8196 owns it, while B8192 excludes it.
+O's excluded original markers are exactly all indices except3.
+These use OriginalOwners.missing_marker with their actual original masks.
+
+A also excludes(2,2): C580581CentralEntrance.merged_center gives that
+strict point to the actual merged owner2304; apart512/2304 excludes it
+from A. This whole-family center theorem still awaits the parent's replay.
+
+There are no assumed missing auxiliary points. Every other outside point
+is on an edge of another actual original owner's strict-point hull, at
+weights0,1/4,1/2,3/4. Revision2 retains the same three evolving physical
+owners, but adds these proved foreign mandatory inputs:
+  owner1: marker0, actual SW singleton seed, F2/G2
+  owner2: marker1, actual left singleton seed, F0/G0
+  owner8: marker3, actual SE singleton seed, F8/G8
+  owner48: markers4/5 and paired-corner point(3,3)
+  owner192: markers6/7 and paired-corner point(1,3)
+  owner512: marker9, F4/G6 and the above near/east deductions
+  owner1024: marker10, F7/G7 from CentralEntrance.northeast_top
+  owner2304: markers8/11, G3, F5 from CentralEntrance.merged_inward,
+             center(2,2) from CentralEntrance.merged_center
+  owner4096: marker12 and actual F1/G1
+  bottom8192/8196: common marker13 and the above genuine bar points
+  owner16384: marker14 and actual F9/G9
+  owner32768: marker15 and actual F3/G4
+Original markers and seeds use OriginalOwners.seed; necessary G claims
+use C580581Entrance.inside; necessary F claims use C580581Points.compulsory.
+The source adapters remain subject to the parent's complete replay. No
+new right/left wall advance, outward corner pose, or exact auxiliary label
+has been assumed to add this second input set.
+
+The report stores global owner index, point, both endpoint points, and
+weight for every convex ancestry, plus the full mandatory point lists.
+inside_segment with those strict endpoints (including weight0) proves
+ownership; actual pairwise disjointness proves foreignness. A's own global
+owner5, B's owner9 and O's owner2 are excluded from their respective
+foreign lists. No historical hull/pose/label or terminal count is an input.
+
+LIVE CORNER ALTERNATIVES
+O(3,1) is neither assumed nor excluded. Its owning/not-owning alternatives
+remain covered by every full positive-frame angle cell. B marker2 is
+neither assumed nor excluded. Common weaker data handle both original
+bottom masks. All closed boundaries, including tangent points, remain.
+
+FINITE SCHEDULE
+All32 existing checked AngleData32 cells initialize each actual owner.
+At most12 explicit sweeps of directed pairs
+  (A,B),(A,O),(B,A),(B,O),(O,A),(O,B)
+are proposed. A sweep stops on an empty domain, no changed domain, or a
+hard resource limit. Engine output is a proposal only. A surviving or
+bounded-stopped domain is not treated as a contradiction.
+
+IF THE PROPOSAL EMPTIES (at most20 additional Lean modules)
+1. Check the two real family entrance roots and the above two wrappers.
+2. Reuse OwnerEnclosure/PoseRoot/RegionTree for the initial pose coverage;
+   the full32 cells and every closed clipping boundary must be checked.
+3. Emit compact typed ContinuousPruning pair records/RegionTrees for only
+   the finite successful prefix. Kernel-checked arithmetic witnesses must
+   certify every cut and union cover. No Python boolean is a theorem.
+4. Use the sound continuous invariant, actual inside/outside adapters,
+   actual same-side and all three actual disjointness facts to contradict
+   the checked empty domain.
+5. Bind family_impossible v to the original RowIdentity rows and derive
+   the unchanged ExcludesCase580 and ExcludesCase581 contracts. This final
+   adapter cannot rely on a corner sign, exact auxiliary label, sampled
+   angle, historical row count, or an unproved center assumption.
+6. Root alone compiles, audits theorem axioms and the full module closure,
+   and integrates only accepted whole-case exclusions. If more than20
+   modules or2MiB is needed, stop and seek a simpler shared argument.
+
+IF THE PROPOSAL SURVIVES
+Retain the actual residue in the report. Do not expand the search bounds
+or claim either original case is excluded. Revisit genuine multi-owner
+geometry instead.

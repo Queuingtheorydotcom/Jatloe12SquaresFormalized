@@ -1,0 +1,41 @@
+{
+  "scope": "49 exact rational angle pairs checking proposed scalar expressions only; no universal proof, no original packing claim.",
+  "minimum_samples": {
+    "I_pos": {
+      "value": "19/580",
+      "half_angles": [
+        "2/5",
+        "2/5"
+      ]
+    },
+    "III_pos": {
+      "value": "42600167/3627900580",
+      "half_angles": [
+        "2/5",
+        "1/50"
+      ]
+    },
+    "II_pos": {
+      "value": "16273/50020",
+      "half_angles": [
+        "1/50",
+        "1/50"
+      ]
+    },
+    "I_neg": {
+      "value": "19/580",
+      "half_angles": [
+        "2/5",
+        "2/5"
+      ]
+    },
+    "III_neg": {
+      "value": "7/580",
+      "half_angles": [
+        "2/5",
+        "2/5"
+      ]
+    }
+  },
+  "negative_samples": []
+}

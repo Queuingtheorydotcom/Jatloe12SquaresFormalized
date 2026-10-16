@@ -1,0 +1,8 @@
+{
+  "scope": "All 2048 original relaxation links; numerical and source assembly only until Lean replay.",
+  "support_rules": 15504,
+  "links": 2048,
+  "lean_modules": 35,
+  "lean_bytes": 763902,
+  "lean_lines": 20307
+}

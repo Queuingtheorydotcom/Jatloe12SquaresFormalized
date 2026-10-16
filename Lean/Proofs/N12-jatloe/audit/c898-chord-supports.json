@@ -1,0 +1,13 @@
+{
+  "scope": "Exact arithmetic and source-identity audit, not Lean acceptance.",
+  "counts": {
+    "neighbor_two_row_supports": 624,
+    "neighbor_leaves": 312,
+    "excluded_branches": 43,
+    "surviving_branches": 167,
+    "plans": 105
+  },
+  "failures": [],
+  "seconds": 0.3009681669991551,
+  "peak_rss_bytes": 62685184
+}

@@ -1,0 +1,6 @@
+Try this: ring_nf
+/Users/macintosh/Documents/Codex/2026-10-13/plz/work/handoff/12-square-formalization-handoff-2026-10-13/project/source/S12/AxisOverlapCertificate.lean:16:2: warning: 'congr 1' tactic does nothing
+note: this linter can be disabled with `set_option linter.unusedTactic false`
+/Users/macintosh/Documents/Codex/2026-10-13/plz/work/handoff/12-square-formalization-handoff-2026-10-13/project/source/S12/AxisOverlapCertificate.lean:16:10: warning: Used `tac1 <;> tac2` where `(tac1; tac2)` would suffice
+note: this linter can be disabled with `set_option linter.unnecessarySeqFocus false`
+'S12.AxisOverlapCertificate.sound' depends on axioms: [propext, Classical.choice, Quot.sound]

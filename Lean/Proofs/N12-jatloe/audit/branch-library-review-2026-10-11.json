@@ -1,0 +1,301 @@
+{
+  "checked_at": "2026-10-11T04:59Z",
+  "repository": "EvolvingPrograms/SquaresLean",
+  "scope": "Complete untruncated shared-library tree comparison and source review, not Lean replay.",
+  "old_tree": "bce17d588762f74b0d190daed88815207da8d3bd",
+  "new_tree": "43bd12e6d3ab6846648c927c1b279dcb1b91d17a",
+  "file_counts": {
+    "before": 135,
+    "after": 135,
+    "modified": 34,
+    "unchanged": 101,
+    "added": 0,
+    "deleted": 0
+  },
+  "new_n12_mathematical_progress": false,
+  "branch_delta": {
+    "added": [
+      "fix/lean-warnings",
+      "refactor/unified-lean-build"
+    ],
+    "changed": [
+      "main"
+    ],
+    "removed": []
+  },
+  "reviews": [
+    {
+      "path": "Lean/Squares/ArrayKeyOrder.lean",
+      "before_blob": "353912eb42d4287a324f9604f2f4549c96034a27",
+      "after_blob": "1178de70cbbbae0c3bd9ba03d5bca1a85c61a4c7",
+      "declaration_names_unchanged": true,
+      "review": "Maintenance only; no new or stronger mathematical statement or changed checker condition.",
+      "patch": "--- 353912eb42d4287a324f9604f2f4549c96034a27\n\n+++ 1178de70cbbbae0c3bd9ba03d5bca1a85c61a4c7\n\n@@ -6,5 +6,5 @@\n\n     (ho : List.IsChain (fun a b => key a < key b) xs.toList) :\n     Function.Injective (fun i : Fin n => key xs[i.val]!) := by\n-  letI : IsTrans \u03b1 (fun a b => key a < key b) := \u27e8fun _ _ _ => lt_trans\u27e9\n+  let : IsTrans \u03b1 (fun a b => key a < key b) := \u27e8fun _ _ _ => lt_trans\u27e9\n   have hp := List.pairwise_iff_getElem.mp (List.isChain_iff_pairwise.mp ho)\n   intro i j hij"
+    },
+    {
+      "path": "Lean/Squares/ContainerSymmetry.lean",
+      "before_blob": "10d653f6832d18f17ef707d728b58887fd9dcae6",
+      "after_blob": "4920969190881cea699b945b41cf0f2242714ee1",
+      "declaration_names_unchanged": true,
+      "review": "Maintenance only; no new or stronger mathematical statement or changed checker condition.",
+      "patch": "--- 10d653f6832d18f17ef707d728b58887fd9dcae6\n\n+++ 4920969190881cea699b945b41cf0f2242714ee1\n\n@@ -20,5 +20,5 @@\n\n theorem mapPoint_sub (S : \u211d) (g : Fin 4) (flip : Bool) (p c : Point) :\n     mapPoint S g flip p - mapPoint S g flip c = mapAxis g flip (p-c) := by\n-  fin_cases g <;> cases flip <;> ext <;> simp [mapPoint, mapAxis] <;> ring\n+  fin_cases g <;> cases flip <;> ext <;> simp [mapPoint, mapAxis]\n \n theorem mapAxis_normSq (g : Fin 4) (flip : Bool) (v : Point) :\n@@ -39,5 +39,5 @@\n\n   intro p\n   refine \u27e8mapPoint S g (if g = 2 then !flip else flip) p, ?_\u27e9\n-  fin_cases g <;> cases flip <;> ext <;> simp [mapPoint] <;> ring\n+  fin_cases g <;> cases flip <;> ext <;> simp [mapPoint]\n \n theorem mapPoint_container (S : \u211d) (g : Fin 4) (flip : Bool) (p : Point)"
+    },
+    {
+      "path": "Lean/Squares/CoordinateLines.lean",
+      "before_blob": "2f48e98c3c5bc91fc981d941526ee32c6da52792",
+      "after_blob": "60739ec400e111c685c692650508428929e2da64",
+      "declaration_names_unchanged": true,
+      "review": "Maintenance only; no new or stronger mathematical statement or changed checker condition.",
+      "patch": "--- 2f48e98c3c5bc91fc981d941526ee32c6da52792\n\n+++ 60739ec400e111c685c692650508428929e2da64\n\n@@ -1,3 +1,3 @@\n\n-import Mathlib.Data.Real.Basic\n+import Mathlib.Basic.Real.Basic\n import Mathlib.Logic.Function.Basic\n \n@@ -15,5 +15,5 @@\n\n     coordinateLine j t k = t * coordinateDelta j k := by\n   by_cases h : k = j <;> simp [coordinateLine, coordinateDelta,\n-    Function.update_apply, h]\n+    h]\n \n @[simp] theorem coordinateLine_zero (j : \u03b9) : coordinateLine j 0 = 0 := by"
+    },
+    {
+      "path": "Lean/Squares/FieldCheckers/ComplementaryDistance.lean",
+      "before_blob": "33cc42178cc50b446b8b419e4b887ef49e5d3164",
+      "after_blob": "5fafe592962504151929d3d430f205ff3f60fe86",
+      "declaration_names_unchanged": true,
+      "review": "Maintenance only; no new or stronger mathematical statement or changed checker condition.",
+      "patch": "--- 33cc42178cc50b446b8b419e4b887ef49e5d3164\n\n+++ 5fafe592962504151929d3d430f205ff3f60fe86\n\n@@ -34,5 +34,5 @@\n\n       gval (oppositeSide k) ((q.1 : \u211d)/Q-c.1) ((q.2 : \u211d)/Q-c.2) u) =\n       2*((1-u^2)*deltaX p q k+2*u*deltaY p q k-(1+u^2)*Q) := by\n-    fin_cases k <;> simp [oppositeSide, deltaX, deltaY, gval, gc, qeval] <;>\n+    fin_cases k <;> simp [oppositeSide, deltaX, deltaY, gval, gc] <;>\n       field_simp <;> ring\n   exact nonpos_of_mul_nonpos_right (by rw [he]; nlinarith only [hg]) hQr"
+    },
+    {
+      "path": "Lean/Squares/FieldCheckers/ComplementaryPoints.lean",
+      "before_blob": "5826d2a0c10ea91bb2f55db282b0780d27378f76",
+      "after_blob": "33be408f37d26ea76f7e1e5cfdc790aec8a55024",
+      "declaration_names_unchanged": true,
+      "review": "Maintenance only; no new or stronger mathematical statement or changed checker condition.",
+      "patch": "--- 5826d2a0c10ea91bb2f55db282b0780d27378f76\n\n+++ 33be408f37d26ea76f7e1e5cfdc790aec8a55024\n\n@@ -146,5 +146,5 @@\n\n       2*((R : \u211d)^2-(u*R)^2)*deltaX p q k + 4*R*(u*R)*deltaY p q k -\n         ((R : \u211d)^2+(u*R)^2)*(2*Q) := by\n-    fin_cases k <;> simp [oppositeSide, deltaX, deltaY, gval, gc, qeval] <;>\n+    fin_cases k <;> simp [oppositeSide, deltaX, deltaY, gval, gc] <;>\n       field_simp <;> ring\n   apply nonpos_of_mul_nonpos_right (a := (Q : \u211d)*R^2)"
+    },
+    {
+      "path": "Lean/Squares/FieldCheckers/CorrelatedSupport.lean",
+      "before_blob": "c3352d9c875771dd85283f0401f1004bb2592d95",
+      "after_blob": "0100d98bdd7e4e988bf88b86d37b1423a3b02f99",
+      "declaration_names_unchanged": true,
+      "review": "Maintenance only; no new or stronger mathematical statement or changed checker condition.",
+      "patch": "--- c3352d9c875771dd85283f0401f1004bb2592d95\n\n+++ 0100d98bdd7e4e988bf88b86d37b1423a3b02f99\n\n@@ -94,5 +94,5 @@\n\n     push_cast\n     ring\n-  unfold Holds at hsum\n+\n   rw [identity] at hsum\n   have htotal : (2*(det u v : \u211d)*D.eval t)*(z.x.eval t*x+z.y.eval t*y) \u2264"
+    },
+    {
+      "path": "Lean/Squares/FieldCheckers/CorrelatedWall.lean",
+      "before_blob": "71aec5638a166483d0fc95a2feb5ba9125494a69",
+      "after_blob": "5624ecaf358926e46b31e0c21bfb48c5188261ec",
+      "declaration_names_unchanged": true,
+      "review": "Maintenance only; no new or stronger mathematical statement or changed checker condition.",
+      "patch": "--- 71aec5638a166483d0fc95a2feb5ba9125494a69\n\n+++ 5624ecaf358926e46b31e0c21bfb48c5188261ec\n\n@@ -68,5 +68,5 @@\n\n   have hd : 1+u^2 \u2260 0 := ne_of_gt (by positivity)\n   field_simp\n-  <;> ring\n+  ; ring\n \n theorem domain_holds {Q M R x0 x1 y0 y1 : \u2115} {hs : List Plane}"
+    },
+    {
+      "path": "Lean/Squares/FiniteImage.lean",
+      "before_blob": "7cda326fb5993a4019b3c40bc22957c3a889fdda",
+      "after_blob": "18f496224c6b042e66eb522b452ebcbcb8625e40",
+      "declaration_names_unchanged": true,
+      "review": "Maintenance only; no new or stronger mathematical statement or changed checker condition.",
+      "patch": "--- 7cda326fb5993a4019b3c40bc22957c3a889fdda\n\n+++ 18f496224c6b042e66eb522b452ebcbcb8625e40\n\n@@ -8,5 +8,5 @@\n\n arbitrary many-to-one assignment. -/\n theorem image_permutation {\u03b1 : Type} [Fintype \u03b1] {\u03b2 : Type} [DecidableEq \u03b2] (a b : \u03b1 \u2192 \u03b2)\n-    (ha : Function.Injective a) (hb : Function.Injective b)\n+    (_ha : Function.Injective a) (hb : Function.Injective b)\n     (him : Finset.univ.image a = Finset.univ.image b) :\n     \u2203 perm : Equiv.Perm \u03b1, \u2200 i, a (perm i) = b i := by"
+    },
+    {
+      "path": "Lean/Squares/Geometry.lean",
+      "before_blob": "9e4087672f6494968a22eb6b0dadb3db125d4268",
+      "after_blob": "3894065502957fe8f5b16354adfd4ad9fa03fcbe",
+      "declaration_names_unchanged": true,
+      "review": "Maintenance only; no new or stronger mathematical statement or changed checker condition.",
+      "patch": "--- 9e4087672f6494968a22eb6b0dadb3db125d4268\n\n+++ 3894065502957fe8f5b16354adfd4ad9fa03fcbe\n\n@@ -1,3 +1,3 @@\n\n-import Mathlib.Data.Real.Basic\n+import Mathlib.Basic.Real.Basic\n import Mathlib.Algebra.Group.Prod\n "
+    },
+    {
+      "path": "Lean/Squares/GeometryInterop.lean",
+      "before_blob": "95d378b255d63c082649a8d549d8df7e65db7f0a",
+      "after_blob": "2cb1110778fe0d40f32b9bb667062a261b481e48",
+      "declaration_names_unchanged": true,
+      "review": "Maintenance only; no new or stronger mathematical statement or changed checker condition.",
+      "patch": "--- 95d378b255d63c082649a8d549d8df7e65db7f0a\n\n+++ 2cb1110778fe0d40f32b9bb667062a261b481e48\n\n@@ -33,5 +33,5 @@\n\n     SquarePacking.coord q.center (angle q) p = (localX q p, localY q p) := by\n   simp only [SquarePacking.coord, cos_angle, sin_angle, localX, localY, dot, perp]\n-  ext <;> simp <;> ring\n+  ext <;> simp ; ring\n \n theorem closed_iff (q : UnitSquare) (p : Point) :\n@@ -51,10 +51,10 @@\n\n     ClosedSquare (ofAngle c \u03b8) p \u2194 p \u2208 SquarePacking.sq c \u03b8 1 := by\n   simp [ClosedSquare, ofAngle, localX, localY, dot, perp, SquarePacking.sq,\n-    SquarePacking.coord, mul_neg, neg_mul] <;> ring_nf <;> simp\n+    SquarePacking.coord, mul_neg] ; ring_nf ; simp\n \n theorem open_ofAngle (c : Point) (\u03b8 : \u211d) (p : Point) :\n     OpenSquare (ofAngle c \u03b8) p \u2194 p \u2208 SquarePacking.sqInt c \u03b8 1 := by\n   simp [OpenSquare, ofAngle, localX, localY, dot, perp, SquarePacking.sqInt,\n-    SquarePacking.coord, mul_neg, neg_mul] <;> ring_nf <;> simp\n+    SquarePacking.coord, mul_neg] ; ring_nf ; simp\n \n theorem packing_to_packs {n : \u2115} {S : \u211d} (P : Packing n S) :"
+    },
+    {
+      "path": "Lean/Squares/HalfAngleBounds.lean",
+      "before_blob": "393dcda4bfae702804a02eba7bf4ea5e46752199",
+      "after_blob": "320aa91a8bc9b88a0bdf55809cd8f1e254a8bde0",
+      "declaration_names_unchanged": true,
+      "review": "Maintenance only; no new or stronger mathematical statement or changed checker condition.",
+      "patch": "--- 393dcda4bfae702804a02eba7bf4ea5e46752199\n\n+++ 320aa91a8bc9b88a0bdf55809cd8f1e254a8bde0\n\n@@ -22,5 +22,5 @@\n\n   \u00b7 dsimp [chartAxis]\n     rw [Real.cos_two_mul, Real.cos_sq_arctan]\n-    field_simp [hd] <;> ring\n+    field_simp [hd] ; ring\n   \u00b7 dsimp [chartAxis]\n     rw [Real.sin_two_mul, Real.sin_arctan, Real.cos_arctan]"
+    },
+    {
+      "path": "Lean/Squares/IntegerPlane.lean",
+      "before_blob": "7bea82585d90c9748486a691bb50c0a3c32adf95",
+      "after_blob": "7ab64042c99ecb15c5e12ac0135745b96bc8150d",
+      "declaration_names_unchanged": true,
+      "review": "Maintenance only; no new or stronger mathematical statement or changed checker condition.",
+      "patch": "--- 7bea82585d90c9748486a691bb50c0a3c32adf95\n\n+++ 7ab64042c99ecb15c5e12ac0135745b96bc8150d\n\n@@ -32,5 +32,5 @@\n\n     _ = (l.a:\u211d)*(nx:\u211d)*(dy:\u211d)+(l.b:\u211d)*(ny:\u211d)*(dx:\u211d) := by\n       field_simp [ne_of_gt hx, ne_of_gt hy]\n-      <;> ring\n+\n     _ \u2264 _ := by nlinarith [hi]\n "
+    },
+    {
+      "path": "Lean/Squares/Local/AnalyticPairs.lean",
+      "before_blob": "d3cc5aafa704e60cea81f07a5b55db56a77380f5",
+      "after_blob": "741c1c6fc0c9acb9897be9f01fd84859173979c2",
+      "declaration_names_unchanged": true,
+      "review": "Maintenance only; no new or stronger mathematical statement or changed checker condition.",
+      "patch": "--- d3cc5aafa704e60cea81f07a5b55db56a77380f5\n\n+++ 741c1c6fc0c9acb9897be9f01fd84859173979c2\n\n@@ -162,5 +162,5 @@\n\n   \u00b7 funext t\n     exact feature_gap_radial q\u2080 f v h t\n-  \u00b7 simp [trigAffineDerivative, trigAffine, featureRadialLinear] <;> ring\n+  \u00b7 simp [trigAffineDerivative, trigAffine, featureRadialLinear]\n \n theorem feature_gapGradient (S : \u211d) (q\u2080 : (Fin N) \u2192 UnitSquare)"
+    },
+    {
+      "path": "Lean/Squares/Local/AnalyticWalls.lean",
+      "before_blob": "9869bc0874d4512bf1d2ae40b14cfa85d2e35800",
+      "after_blob": "7a00649dc0e282b39944cb383b11f37dd0aefe9e",
+      "declaration_names_unchanged": true,
+      "review": "Maintenance only; no new or stronger mathematical statement or changed checker condition.",
+      "patch": "--- 9869bc0874d4512bf1d2ae40b14cfa85d2e35800\n\n+++ 7a00649dc0e282b39944cb383b11f37dd0aefe9e\n\n@@ -92,5 +92,5 @@\n\n   simp only [trigAffine, mul_zero, add_zero, Real.cos_zero, Real.sin_zero,\n     mul_one] at hb \u22a2\n-  convert hb using 1 <;> congr 1 <;> ring\n+  convert hb using 1 ; congr 1 ; ring\n \n def basisDisplacement (j : Fin (3 * N)) : (Fin (3 * N) \u2192 \u211d) :=\n@@ -102,6 +102,6 @@\n\n   by_cases hk : k = j\n   \u00b7 subst k\n-    simp [basisDisplacement, Function.update_apply]\n-  \u00b7 simp [basisDisplacement, Function.update_apply, hk]\n+    simp [basisDisplacement]\n+  \u00b7 simp [basisDisplacement, hk]\n \n theorem wall_gapGradient (S : \u211d) (q\u2080 : (Fin N) \u2192 UnitSquare)"
+    },
+    {
+      "path": "Lean/Squares/Local/PoseEncoding.lean",
+      "before_blob": "d984a6d54444240c71ee53f72a12bc0093b66fe6",
+      "after_blob": "8e70400df271a9a762e903ea75f06b89f19ceec5",
+      "declaration_names_unchanged": true,
+      "review": "Maintenance only; no new or stronger mathematical statement or changed checker condition.",
+      "patch": "--- d984a6d54444240c71ee53f72a12bc0093b66fe6\n\n+++ 8e70400df271a9a762e903ea75f06b89f19ceec5\n\n@@ -25,5 +25,5 @@\n\n     poseDisplacement referenceSquares q (coordinate i 0) =\n       (q i).center.1-(referenceSquares i).center.1 := by\n-  simp [poseDisplacement, pose_index, coordinate]\n+  simp [poseDisplacement, coordinate]\n \n theorem poseDisplacement_center_y (q : (Fin N) \u2192 UnitSquare) (i : (Fin N)) :\n@@ -84,5 +84,5 @@\n\n     (i : (Fin N)) : poseDisplacementWithAngles referenceSquares q \u03b8 (coordinate i 0) =\n       (q i).center.1-(referenceSquares i).center.1 := by\n-  simp [poseDisplacementWithAngles, pose_index, coordinate]\n+  simp [poseDisplacementWithAngles, coordinate]\n \n theorem poseWithAngles_center_y (q : (Fin N) \u2192 UnitSquare) (\u03b8 : (Fin N) \u2192 \u211d)"
+    },
+    {
+      "path": "Lean/Squares/LocalIsolation.lean",
+      "before_blob": "5a3547498d35925be481f78846563c58a219992a",
+      "after_blob": "bdaae9beba622bec873e87c2bd9e21dde1c45119",
+      "declaration_names_unchanged": true,
+      "review": "Maintenance only; no new or stronger mathematical statement or changed checker condition.",
+      "patch": "--- 5a3547498d35925be481f78846563c58a219992a\n\n+++ bdaae9beba622bec873e87c2bd9e21dde1c45119\n\n@@ -3,5 +3,5 @@\n\n import Mathlib.Algebra.Order.BigOperators.Group.Finset\n import Mathlib.Algebra.BigOperators.Ring.Finset\n-import Mathlib.Data.Real.Basic\n+import Mathlib.Basic.Real.Basic\n import Mathlib.Tactic.Linarith\n import Mathlib.Tactic.Ring"
+    },
+    {
+      "path": "Lean/Squares/OrderedData.lean",
+      "before_blob": "88f8b0b3b629816fe5f9e3a437e5946d8b09b8ce",
+      "after_blob": "54c8a11b9cad200bd328399872739e7653368c64",
+      "declaration_names_unchanged": true,
+      "review": "Maintenance only; no new or stronger mathematical statement or changed checker condition.",
+      "patch": "--- 88f8b0b3b629816fe5f9e3a437e5946d8b09b8ce\n\n+++ 54c8a11b9cad200bd328399872739e7653368c64\n\n@@ -43,5 +43,5 @@\n\n theorem ordered_nodup {\u03b1 : Type*} {key : \u03b1 \u2192 \u2115} {xs : List \u03b1}\n     (h : List.IsChain (fun a b => key a < key b) xs) : xs.Nodup := by\n-  letI : IsTrans \u03b1 (fun a b => key a < key b) := \u27e8fun _ _ _ => lt_trans\u27e9\n+  let : IsTrans \u03b1 (fun a b => key a < key b) := \u27e8fun _ _ _ => lt_trans\u27e9\n   have hp := List.isChain_iff_pairwise.mp h\n   exact hp.imp (fun {a b} hab heq => (ne_of_lt hab) (congrArg key heq))"
+    },
+    {
+      "path": "Lean/Squares/Orientation.lean",
+      "before_blob": "a9fdfbd9bf2112997c39dff4b00ae7e3a1ead69a",
+      "after_blob": "80a3852823d810d1b7efc278255078c49b6c7719",
+      "declaration_names_unchanged": true,
+      "review": "Maintenance only; no new or stronger mathematical statement or changed checker condition.",
+      "patch": "--- a9fdfbd9bf2112997c39dff4b00ae7e3a1ead69a\n\n+++ 80a3852823d810d1b7efc278255078c49b6c7719\n\n@@ -90,5 +90,5 @@\n\n   have hd : 1 + t^2 \u2260 0 := by positivity\n   dsimp [halfAngleAxis, normSq, dot]\n-  field_simp [hd] <;> ring\n+  field_simp [hd] ; ring\n \n theorem firstQuadrant_halfAngle (a b : \u211d) (ha : 0 \u2264 a) (hb : 0 \u2264 b)"
+    },
+    {
+      "path": "Lean/Squares/OwnedHull.lean",
+      "before_blob": "f25f7ef368882f7ec6f2d12327cef80c4f9fd2af",
+      "after_blob": "e41acba06f6119d807a4049d2521b30cbc21d8a0",
+      "declaration_names_unchanged": true,
+      "review": "Maintenance only; no new or stronger mathematical statement or changed checker condition.",
+      "patch": "--- f25f7ef368882f7ec6f2d12327cef80c4f9fd2af\n\n+++ e41acba06f6119d807a4049d2521b30cbc21d8a0\n\n@@ -17,10 +17,10 @@\n\n       ring\n   have strip (v : Point) : Convex \u211d {p : Point | |dot p v| < 1/2} := by\n-    simpa only [abs_lt, Set.setOf_and] using\n+    simpa only [abs_lt, Set.ofPred_and] using\n       (convex_halfSpace_gt (hlin v) (-(1/2 : \u211d))).inter\n         (convex_halfSpace_lt (hlin v) (1/2 : \u211d))\n   have h := ((strip q.axis).inter (strip (perp q.axis))).translate_preimage_left\n     (-q.center)\n-  simpa only [Set.preimage_inter, Set.preimage_setOf_eq, \u2190 Set.setOf_and,\n+  simpa only [Set.preimage_inter, Set.preimage_ofPred_eq, \u2190 Set.ofPred_and,\n     OpenSquare, localX, localY, sub_eq_add_neg] using h\n "
+    },
+    {
+      "path": "Lean/Squares/PackingEquivalence.lean",
+      "before_blob": "9577a9b6d057d2b251a38c96750f93ad0fc805ee",
+      "after_blob": "a964620bce7192c375bef952c24d2be2d2d1cf66",
+      "declaration_names_unchanged": true,
+      "review": "Maintenance only; no new or stronger mathematical statement or changed checker condition.",
+      "patch": "--- 9577a9b6d057d2b251a38c96750f93ad0fc805ee\n\n+++ a964620bce7192c375bef952c24d2be2d2d1cf66\n\n@@ -50,5 +50,5 @@\n\n   cases flip\n   \u00b7 obtain \u27e8q, hq\u27e9 := containerView_surjective S g p\n-    exact \u27e8q, by simpa only [containerSymmetry, Bool.false_eq_true, if_false, id_eq] using hq\u27e9\n+    exact \u27e8q, by simpa only [containerSymmetry, Bool.false_eq_true, ite_false, id_eq] using hq\u27e9\n   \u00b7 obtain \u27e8q, hq\u27e9 := containerView_surjective S g (containerHalfTurn S p)\n     refine \u27e8q, ?_\u27e9"
+    },
+    {
+      "path": "Lean/Squares/PolynomialInterval.lean",
+      "before_blob": "064ef052be5d7b18048e968bb72d7776778ad70e",
+      "after_blob": "83dda1c3c5842aa0953292a72e25df6b9f59251f",
+      "declaration_names_unchanged": true,
+      "review": "Maintenance only; no new or stronger mathematical statement or changed checker condition.",
+      "patch": "--- 064ef052be5d7b18048e968bb72d7776778ad70e\n\n+++ 83dda1c3c5842aa0953292a72e25df6b9f59251f\n\n@@ -1,3 +1,3 @@\n\n-import Mathlib.Data.Real.Basic\n+import Mathlib.Basic.Real.Basic\n import Mathlib.Algebra.Order.BigOperators.Group.Finset\n import Mathlib.Tactic.NormNum\n@@ -34,7 +34,7 @@\n\n     intro i _\n     by_cases hc : 0 \u2264 c i\n-    \u00b7 simp only [if_pos hc]\n+    \u00b7 simp only [ite_eq_left hc]\n       exact mul_le_mul_of_nonneg_left (hxl i) (by exact_mod_cast hc)\n-    \u00b7 simp only [if_neg hc]\n+    \u00b7 simp only [ite_eq_right hc]\n       have hc' : (c i : \u211d) \u2264 0 := by exact_mod_cast le_of_lt (lt_of_not_ge hc)\n       exact mul_le_mul_of_nonpos_left (hxu i) hc'\n@@ -43,7 +43,7 @@\n\n     intro i _\n     by_cases hc : 0 \u2264 c i\n-    \u00b7 simp only [if_pos hc]\n+    \u00b7 simp only [ite_eq_left hc]\n       exact mul_le_mul_of_nonneg_left (hxu i) (by exact_mod_cast hc)\n-    \u00b7 simp only [if_neg hc]\n+    \u00b7 simp only [ite_eq_right hc]\n       have hc' : (c i : \u211d) \u2264 0 := by exact_mod_cast le_of_lt (lt_of_not_ge hc)\n       exact mul_le_mul_of_nonpos_left (hxl i) hc'"
+    },
+    {
+      "path": "Lean/Squares/PoseChecker.lean",
+      "before_blob": "5fb256142264eb944fda9179ea897baa5feea43c",
+      "after_blob": "e2f36cf47228ee9545b5475431a27008ae2e6264",
+      "declaration_names_unchanged": true,
+      "review": "Maintenance only; no new or stronger mathematical statement or changed checker condition.",
+      "patch": "--- 5fb256142264eb944fda9179ea897baa5feea43c\n\n+++ e2f36cf47228ee9545b5475431a27008ae2e6264\n\n@@ -576,5 +576,5 @@\n\n     rw [List.mem_iff_getElem]; exact \u27e8n, by simp [hn, hn'], by simp\u27e9\n   have hRp := hall _ hmem\n-  simp only [Bool.and_eq_true, List.all_eq_true] at hRp\n+  simp only [] at hRp\n   obtain \u27e8hcov, hps\u27e9 := hRp\n   obtain \u27e8hcen, t, ht0, ht1, hlo, hhi, hax\u27e9 := hc\n@@ -582,5 +582,5 @@\n\n   obtain \u27e8ps, hps', rfl\u27e9 := List.mem_map.mp hu\n   have hP := hps ps hps'\n-  simp only [PartnerPiece.check, Bool.and_eq_true, List.all_eq_true, decide_eq_true_eq] at hP\n+  simp only [PartnerPiece.check, Bool.and_eq_true, List.all_eq_true] at hP\n   obtain \u27e8\u27e8hcuts, hwall\u27e9, hrest\u27e9 := hP\n   have hown' : rationalHull (ownedOf s j) \u2286 {p | OpenSquare r p} := by simpa [ownedOf, hj] using hown\n@@ -628,5 +628,5 @@\n\n   ms : List (List (\u2115 \u00d7 \u2115))\n \n-def CReg.check (s : (Squares.PoseState parameters.ownerCount)) (i : (Fin parameters.ownerCount)) (Qi : List ZPoint) (pcov : \u2115 \u2192 List (List PartnerPiece))\n+def CReg.check (_s : (Squares.PoseState parameters.ownerCount)) (i : (Fin parameters.ownerCount)) (Qi : List ZPoint) (pcov : \u2115 \u2192 List (List PartnerPiece))\n     (g : CReg) : Bool :=\n   decide (g.j < parameters.ownerCount) && decide (g.j \u2260 i.val) && convexZF g.verts && decide (0 < Qi.length) &&"
+    },
+    {
+      "path": "Lean/Squares/RationalPose.lean",
+      "before_blob": "e6b5056f6c7cba42ad163b439496ae41f99a6adb",
+      "after_blob": "2d6f3e3b13d784a848dbf1922c53e96934fcf908",
+      "declaration_names_unchanged": true,
+      "review": "Maintenance only; no new or stronger mathematical statement or changed checker condition.",
+      "patch": "--- e6b5056f6c7cba42ad163b439496ae41f99a6adb\n\n+++ 2d6f3e3b13d784a848dbf1922c53e96934fcf908\n\n@@ -716,5 +716,5 @@\n\n   refine \u27e8hu.1, ?_\u27e9\n   by_contra hgt\n-  push_neg at hgt\n+  push Not at hgt\n   have hmono := widU_strictMonoOn hsmem humem hgt\n   linarith"
+    },
+    {
+      "path": "Lean/Squares/RectangleHull.lean",
+      "before_blob": "9b41ac63ce35dd586ed914d12f4a0b0ca2c16ddf",
+      "after_blob": "79c6fceb3cd1bd12eaf54394bdf5b8064968da18",
+      "declaration_names_unchanged": true,
+      "review": "Maintenance only; no new or stronger mathematical statement or changed checker condition.",
+      "patch": "--- 9b41ac63ce35dd586ed914d12f4a0b0ca2c16ddf\n\n+++ 79c6fceb3cd1bd12eaf54394bdf5b8064968da18\n\n@@ -1,3 +1,3 @@\n\n-import Mathlib.Data.Real.Basic\n+import Mathlib.Basic.Real.Basic\n import Mathlib.Analysis.Convex.Hull\n import Mathlib.Tactic.Linarith\n@@ -17,5 +17,5 @@\n\n       (Set.Icc lx hx \u00d7\u02e2 Set.Icc ly hy) := by\n     ext p\n-    simp only [Set.mem_setOf_eq, Set.mem_prod, Set.mem_Icc, inRect]\n+    simp only [Set.mem_ofPred_eq, Set.mem_prod, Set.mem_Icc, inRect]\n     tauto\n   rw [hs]"
+    },
+    {
+      "path": "Lean/Squares/Restricted/Polynomial8.lean",
+      "before_blob": "c5c7e70b28b7ec4553a0521265918c79e35e6066",
+      "after_blob": "ad611718bf68b9af7048e6bfbf0c36239043a869",
+      "declaration_names_unchanged": true,
+      "review": "Maintenance only; no new or stronger mathematical statement or changed checker condition.",
+      "patch": "--- c5c7e70b28b7ec4553a0521265918c79e35e6066\n\n+++ ad611718bf68b9af7048e6bfbf0c36239043a869\n\n@@ -1,3 +1,3 @@\n\n-import Mathlib.Data.Real.Basic import Mathlib.Tactic.Linarith import Mathlib.Tactic.NormNum\n+import Mathlib.Basic.Real.Basic import Mathlib.Tactic.Linarith import Mathlib.Tactic.NormNum\n import Mathlib.Data.Fin.VecNotation import Mathlib.Data.Rat.BigOperators import Mathlib.Data.Rat.Cast.Lemmas\n import Mathlib.Algebra.Order.BigOperators.Ring.Finset\n@@ -27,8 +27,8 @@\n\n     intro k _\n     by_cases hc : 0 \u2264 c k\n-    \u00b7 simp only [hc, if_true]\n+    \u00b7 simp only [hc, ite_true]\n       push_cast\n       exact mul_le_mul_of_nonneg_left (pow_le_pow_left\u2080 haR hax _) (show (0 : \u211d) \u2264 (c k : \u211d) by exact_mod_cast hc)\n-    \u00b7 simp only [hc, if_false]\n+    \u00b7 simp only [hc, ite_false]\n       push_cast\n       exact mul_le_mul_of_nonpos_left (pow_le_pow_left\u2080 hx hxb _)\n@@ -39,8 +39,8 @@\n\n     intro k _\n     by_cases hc : 0 \u2264 c k\n-    \u00b7 simp only [hc, if_true]\n+    \u00b7 simp only [hc, ite_true]\n       push_cast\n       exact mul_le_mul_of_nonneg_left (pow_le_pow_left\u2080 hx hxb _) (show (0 : \u211d) \u2264 (c k : \u211d) by exact_mod_cast hc)\n-    \u00b7 simp only [hc, if_false]\n+    \u00b7 simp only [hc, ite_false]\n       push_cast\n       exact mul_le_mul_of_nonpos_left (pow_le_pow_left\u2080 haR hax _)"
+    },
+    {
+      "path": "Lean/Squares/Restricted/ScaledDualMargin.lean",
+      "before_blob": "bf06524efb15749d39925adafadad7375a1c9ec5",
+      "after_blob": "0c2fac8f73829271d7769032eaa6baec1e398cee",
+      "declaration_names_unchanged": true,
+      "review": "Maintenance only; no new or stronger mathematical statement or changed checker condition.",
+      "patch": "--- bf06524efb15749d39925adafadad7375a1c9ec5\n\n+++ 0c2fac8f73829271d7769032eaa6baec1e398cee\n\n@@ -55,5 +55,5 @@\n\n         (if k=j then (\u03c3 : \u211a)*1000000000000000 else 0))/1000000000000000 := by\n     simp only [div_mul_div_comm, \u2190 Finset.sum_div]\n-    by_cases hk : k=j <;> simp only [hk, if_true, if_false] <;> ring\n+    by_cases hk : k=j <;> simp only [hk, ite_true, ite_false] <;> ring\n   have error : (1/1000000000000 : \u211a)*(\u2211 i, (a i : \u211a)/1000) =\n       (\u2211 i, (a i : \u211a))/1000000000000000 := by\n@@ -77,5 +77,5 @@\n\n     intro k _\n     rw [row, error, abs_div]\n-    norm_num <;> ring\n+    norm_num ; ring\n   rw [radius_error, mass]\n   linarith"
+    },
+    {
+      "path": "Lean/Squares/Restricted/WallStrip.lean",
+      "before_blob": "f02ac0609631d7f75e934b6393fe20701a189a24",
+      "after_blob": "ec6a4a76aa75a0d115bf77a6376eee28a37fe03e",
+      "declaration_names_unchanged": true,
+      "review": "Maintenance only; no new or stronger mathematical statement or changed checker condition.",
+      "patch": "--- f02ac0609631d7f75e934b6393fe20701a189a24\n\n+++ ec6a4a76aa75a0d115bf77a6376eee28a37fe03e\n\n@@ -40,5 +40,5 @@\n\n   have h2 : (coord c \u03b8 (c.1 + x, c.2 + e)).2 = e * Real.cos \u03b8 - x * Real.sin \u03b8 := by\n     simp only [coord]; ring\n-  simp only [sq, slab, Set.mem_setOf_eq, h1, h2]\n+  simp only [sq, slab, Set.mem_ofPred_eq, h1, h2]\n \n /-! ### The two sign symmetries of a slab -/\n@@ -48,5 +48,5 @@\n\n   have h1 : \u03be * -P + e * -Q = -(\u03be * P + e * Q) := by ring\n   have h2 : e * -P - \u03be * -Q = -(e * P - \u03be * Q) := by ring\n-  simp only [slab, Set.mem_setOf_eq, h1, h2, abs_neg]\n+  simp only [slab, Set.mem_ofPred_eq, h1, h2, abs_neg]\n \n lemma slab_neg_snd (P Q e : \u211d) : slab P (-Q) (-e) = slab P Q e := by\n@@ -54,5 +54,5 @@\n\n   have h1 : \u03be * P + -e * -Q = \u03be * P + e * Q := by ring\n   have h2 : -e * P - \u03be * -Q = -(e * P - \u03be * Q) := by ring\n-  simp only [slab, Set.mem_setOf_eq, h1, h2, abs_neg]\n+  simp only [slab, Set.mem_ofPred_eq, h1, h2, abs_neg]\n \n /-! ### The chord bound -/\n@@ -245,5 +245,5 @@\n\n     N \u2264 3 := by\n   by_contra hN\n-  push_neg at hN\n+  push Not at hN\n   choose x hx using fun i => exists_chord (hin i) (hstrip i)\n   -- each chord lies in `[0, t]`, so its left endpoint lies in `[0, t - 1] \u2286 [0, 3]`\n@@ -257,5 +257,5 @@\n\n     intro i j hij\n     by_contra hle\n-    push_neg at hle\n+    push Not at hle\n     rw [abs_le] at hle\n     rcases le_total (x i) (x j) with h | h"
+    },
+    {
+      "path": "Lean/Squares/RigidTransport.lean",
+      "before_blob": "717349acbef845ae8aecab832678f9a8f7579bb9",
+      "after_blob": "94da56ce6478da641b9004fa9dbd80ea231ae901",
+      "declaration_names_unchanged": true,
+      "review": "Maintenance only; no new or stronger mathematical statement or changed checker condition.",
+      "patch": "--- 717349acbef845ae8aecab832678f9a8f7579bb9\n\n+++ 94da56ce6478da641b9004fa9dbd80ea231ae901\n\n@@ -37,5 +37,5 @@\n\n     ((closed_translated _ _ _).mp hp)\n   rcases h with \u27e8hx0, hx1, hy0, hy1\u27e9\n-  simp only [Prod.fst_sub, Prod.snd_sub, Prod.fst, Prod.snd] at hx0 hx1 hy0 hy1\n+  simp only [Prod.fst_sub, Prod.snd_sub] at hx0 hx1 hy0 hy1\n   apply And.intro <;> apply abs_le.mpr\n   \u00b7 exact \u27e8by linarith, by linarith\u27e9"
+    },
+    {
+      "path": "Lean/Squares/Separation/NecessityCore.lean",
+      "before_blob": "2215a4a4d3bafb9f6c73e78b010150ad6fcddf42",
+      "after_blob": "ee087a8a9fc4c8a3a0f62af63ac445231443bd74",
+      "declaration_names_unchanged": true,
+      "review": "Maintenance only; no new or stronger mathematical statement or changed checker condition.",
+      "patch": "--- 2215a4a4d3bafb9f6c73e78b010150ad6fcddf42\n\n+++ ee087a8a9fc4c8a3a0f62af63ac445231443bd74\n\n@@ -24,9 +24,9 @@\n\n         b.axis, -b.axis, perp b.axis, -(perp b.axis)] : List Point) := by\n       simp only [List.mem_cons, List.not_mem_nil, or_false] at hv \u22a2\n-      rcases hv with rfl | rfl | rfl | rfl <;> simp only [eq_self_iff_true, true_or, or_true]\n+      rcases hv with rfl | rfl | rfl | rfl <;> simp only [true_or, or_true]\n     have hvneg : -v \u2208 ([a.axis, -a.axis, perp a.axis, -(perp a.axis),\n         b.axis, -b.axis, perp b.axis, -(perp b.axis)] : List Point) := by\n       simp only [List.mem_cons, List.not_mem_nil, or_false] at hv \u22a2\n-      rcases hv with rfl | rfl | rfl | rfl <;> simp only [eq_self_iff_true, true_or, or_true]\n+      rcases hv with rfl | rfl | rfl | rfl <;> simp only [true_or, or_true]\n     have hp := hlt v hvpos\n     have hm := hlt (-v) hvneg\n@@ -37,6 +37,6 @@\n\n     constructor <;> linarith only [hp, hm]\n   obtain \u27e8p, ha, hb\u27e9 := SATOverlap.actual_overlap a b\n-    (hbound a.axis (by simp only [List.mem_cons, List.not_mem_nil, or_false, eq_self_iff_true, true_or, or_true])) (hbound (perp a.axis) (by simp only [List.mem_cons, List.not_mem_nil, or_false, eq_self_iff_true, true_or, or_true]))\n-    (hbound b.axis (by simp only [List.mem_cons, List.not_mem_nil, or_false, eq_self_iff_true, true_or, or_true])) (hbound (perp b.axis) (by simp only [List.mem_cons, List.not_mem_nil, or_false, eq_self_iff_true, true_or, or_true]))\n+    (hbound a.axis (by simp only [List.mem_cons, List.not_mem_nil, or_false, true_or])) (hbound (perp a.axis) (by simp only [List.mem_cons, List.not_mem_nil, or_false, true_or, or_true]))\n+    (hbound b.axis (by simp only [List.mem_cons, List.not_mem_nil, or_false, true_or, or_true])) (hbound (perp b.axis) (by simp only [List.mem_cons, List.not_mem_nil, or_false, or_true]))\n   exact hdisjoint p \u27e8ha, hb\u27e9\n "
+    },
+    {
+      "path": "Lean/Squares/SortedDisjoint.lean",
+      "before_blob": "ab0ee822095d2eb81274eff34a61207aa39b8876",
+      "after_blob": "43ff42ee6debcff842657e4670243518263b8a53",
+      "declaration_names_unchanged": true,
+      "review": "Maintenance only; no new or stronger mathematical statement or changed checker condition.",
+      "patch": "--- ab0ee822095d2eb81274eff34a61207aa39b8876\n\n+++ 43ff42ee6debcff842657e4670243518263b8a53\n\n@@ -36,5 +36,5 @@\n\n         have hyb := List.pairwise_cons.mp hy\n         by_cases hab : a < b\n-        \u00b7 simp only [disjointScan, if_pos hab] at h\n+        \u00b7 simp only [disjointScan, ite_eq_left hab] at h\n           have ht := ih as (b::bs) hxa.2 hy h\n           intro x hxs hys\n@@ -46,5 +46,5 @@\n\n           \u00b7 exact ht hxs hys\n         \u00b7 by_cases hba : b < a\n-          \u00b7 simp only [disjointScan, if_neg hab, if_pos hba] at h\n+          \u00b7 simp only [disjointScan, ite_eq_right hab, ite_eq_left hba] at h\n             have ht := ih (a::as) bs hx hyb.2 h\n             intro x hxs hys\n@@ -55,5 +55,5 @@\n\n                 omega\n             \u00b7 exact ht hxs hys\n-          \u00b7 simp only [disjointScan, if_neg hab, if_neg hba, Bool.false_eq_true] at h\n+          \u00b7 simp only [disjointScan, ite_eq_right hab, ite_eq_right hba, Bool.false_eq_true] at h\n \n theorem blocks_disjoint {xs ys : List \u2115} {n m a b c d : \u2115}"
+    },
+    {
+      "path": "Lean/Squares/Taylor.lean",
+      "before_blob": "59b7f937e40632091016cd16347589e98d8da542",
+      "after_blob": "1b35874fc125d84abecd08a0f0400eafc96e108d",
+      "declaration_names_unchanged": true,
+      "review": "Maintenance only; no new or stronger mathematical statement or changed checker condition.",
+      "patch": "--- 59b7f937e40632091016cd16347589e98d8da542\n\n+++ 1b35874fc125d84abecd08a0f0400eafc96e108d\n\n@@ -15,5 +15,5 @@\n\n -- One-variable Taylor along a radial segment; derivatives at closed endpoints are included.\n theorem radial_taylor_bound (f f' f'' : \u211d \u2192 \u211d) (\u03c4 K : \u211d)\n-    (h\u03c4 : 0 \u2264 \u03c4) (hK : 0 \u2264 K)\n+    (h\u03c4 : 0 \u2264 \u03c4) (_hK : 0 \u2264 K)\n     (hd : \u2200 t \u2208 Set.Icc 0 \u03c4, HasDerivAt f (f' t) t)\n     (hdd : \u2200 t \u2208 Set.Icc 0 \u03c4, HasDerivAt f' (f'' t) t)\n@@ -37,5 +37,5 @@\n\n       convert ((hg t ht).sub_const (g 0) |>.fun_sub\n         ((hasDerivAt_id t).mul_const (g' 0))).fun_sub\n-        ((((hasDerivAt_id t).pow 2).mul_const K).div_const 2) using 1 <;> dsimp [F] <;> ring\n+        ((((hasDerivAt_id t).pow 2).mul_const K).div_const 2) using 1 <;> dsimp [F] ; ring\n     have hanti : AntitoneOn F (Set.Icc 0 \u03c4) :=\n       antitoneOn_of_deriv_nonpos (convex_Icc _ _)"
+    },
+    {
+      "path": "Lean/Squares/TrigonometricTaylor.lean",
+      "before_blob": "8a65a761645cbb124b257512ead4d2fdc0b108fa",
+      "after_blob": "319d3d4e2a895d40ec5c6adaf18d420d1c88a032",
+      "declaration_names_unchanged": true,
+      "review": "Maintenance only; no new or stronger mathematical statement or changed checker condition.",
+      "patch": "--- 8a65a761645cbb124b257512ead4d2fdc0b108fa\n\n+++ 319d3d4e2a895d40ec5c6adaf18d420d1c88a032\n\n@@ -98,5 +98,5 @@\n\n   calc\n     |(f \u03c4+g \u03c4)-(f 0+g 0)-\u03c4*(a+b)| =\n-        |(f \u03c4-f 0-\u03c4*a)+(g \u03c4-g 0-\u03c4*b)| := by congr 1 <;> ring\n+        |(f \u03c4-f 0-\u03c4*a)+(g \u03c4-g 0-\u03c4*b)| := by congr 1 ; ring\n     _ \u2264 |f \u03c4-f 0-\u03c4*a| + |g \u03c4-g 0-\u03c4*b| := abs_add_le _ _\n     _ \u2264 \u03c4^2*K/2 + \u03c4^2*L/2 := add_le_add hf hg"
+    },
+    {
+      "path": "Lean/Squares/VoronoiHalfplanes.lean",
+      "before_blob": "530fc9648acbfbbc5a0640714d39c9db5ba6df45",
+      "after_blob": "3cdedb38c2526231019b2bf1bee8e8f0c3e41b23",
+      "declaration_names_unchanged": true,
+      "review": "Maintenance only; no new or stronger mathematical statement or changed checker condition.",
+      "patch": "--- 530fc9648acbfbbc5a0640714d39c9db5ba6df45\n\n+++ 3cdedb38c2526231019b2bf1bee8e8f0c3e41b23\n\n@@ -1,3 +1,3 @@\n\n-import Mathlib.Data.Real.Basic\n+import Mathlib.Basic.Real.Basic\n import Mathlib.Tactic.Linarith\n "
+    },
+    {
+      "path": "Lean/Squares/WeightedCover.lean",
+      "before_blob": "1aaeb479926e2ed8ce2d0534e818b9a84908f5d1",
+      "after_blob": "40eb2f2f80fa49e3d588c5cdb7f7f667306766c1",
+      "declaration_names_unchanged": true,
+      "review": "Maintenance only; no new or stronger mathematical statement or changed checker condition.",
+      "patch": "--- 1aaeb479926e2ed8ce2d0534e818b9a84908f5d1\n\n+++ 40eb2f2f80fa49e3d588c5cdb7f7f667306766c1\n\n@@ -161,9 +161,9 @@\n\n     unfold mem at h\n     cases hk : (Nat.beq e.1 x && Nat.beq e.2.1 y)\n-    \u00b7 rw [hk, cond_false] at h\n+    \u00b7 rw [hk, Bool.cond_false] at h\n       cases hl : keyLt e (x, y, w)\n-      \u00b7 rw [hl, cond_false] at h; exact Or.inr (Or.inr (ihr h))\n-      \u00b7 rw [hl, cond_true] at h; exact Or.inl (ihl h)\n-    \u00b7 rw [hk, cond_true] at h\n+      \u00b7 rw [hl, Bool.cond_false] at h; exact Or.inr (Or.inr (ihr h))\n+      \u00b7 rw [hl, Bool.cond_true] at h; exact Or.inl (ihl h)\n+    \u00b7 rw [hk, Bool.cond_true] at h\n       simp only [Bool.and_eq_true, Nat.beq_eq] at hk\n       have hw := Nat.beq_eq.mp h"
+    }
+  ],
+  "downloaded_blob_hashes_match": true
+}

@@ -1,0 +1,924 @@
+{
+  "C696-result.zip": {
+    "archive_bytes": 80049,
+    "expanded_bytes": 259041,
+    "entries": 34,
+    "lean_files": 13,
+    "lean_bytes": 53701,
+    "lean_newlines": 1283,
+    "lean_members": [
+      {
+        "member": "C696-result/Completion/Cases/C696/AuxUnique.lean",
+        "bytes": 3426,
+        "newlines": 88,
+        "sha256": "daa3850571db725f840329bae91012e9de9fd6daa80502a696adf50520d7c7cc"
+      },
+      {
+        "member": "C696-result/Completion/Cases/C696/CornerSeparator.lean",
+        "bytes": 3456,
+        "newlines": 89,
+        "sha256": "9f421cadb63383d651d548a9564b0484b6dfbce8f1ae215d26df768674e9f6f1"
+      },
+      {
+        "member": "C696-result/Completion/Cases/C696/NegativeFaceTransfer.lean",
+        "bytes": 3302,
+        "newlines": 79,
+        "sha256": "bdf5bb46796ffb654b0574ea1235606e03ab77343b2163ec9c462fb0ae8ed57b"
+      },
+      {
+        "member": "C696-result/Completion/Cases/C696/SideSign.lean",
+        "bytes": 9736,
+        "newlines": 244,
+        "sha256": "cd4eeb55584f808a8afcece6c37128a9f5f668a2078b7406ba3a84e6fab45df2"
+      },
+      {
+        "member": "C696-result/Completion/Cases/C696/SideSignAlgebra.lean",
+        "bytes": 2758,
+        "newlines": 67,
+        "sha256": "76cae344e5b60ca7b93085c6a5647030a0114f1bafb2a42084d5d396a06a295e"
+      },
+      {
+        "member": "C696-result/Verification.lean",
+        "bytes": 942,
+        "newlines": 22,
+        "sha256": "6a5e6f105bcbb9316d76314203a9d30b9a7f4c3678b3d43b6956e3b44c9a874c"
+      },
+      {
+        "member": "C696-result/baseline/S12/Cliques.lean",
+        "bytes": 1919,
+        "newlines": 49,
+        "sha256": "2174e9695c051434f829fd120de3b4c41a2c2102f1702a0459407c9549655c1d"
+      },
+      {
+        "member": "C696-result/baseline/S12/Diagonal.lean",
+        "bytes": 9709,
+        "newlines": 228,
+        "sha256": "829bdc2553ec36b8ecf529fab6f0d372ecf1003b9695089dd864996b2851e8f6"
+      },
+      {
+        "member": "C696-result/baseline/S12/Diameter.lean",
+        "bytes": 1783,
+        "newlines": 51,
+        "sha256": "9c4caa1a18260c48e910251d0b003f59ad81bfc41fedad0d5ab8933c191e910f"
+      },
+      {
+        "member": "C696-result/baseline/S12/Markers.lean",
+        "bytes": 3042,
+        "newlines": 56,
+        "sha256": "f5983312697b11014b9d328d0978f8cb49334fbffb78c6c4a35f0814485a6e7b"
+      },
+      {
+        "member": "C696-result/baseline/S12/ShortCluster.lean",
+        "bytes": 3944,
+        "newlines": 91,
+        "sha256": "d321f4ab40cee82d261c331bd72cbc1580da6feee0591b7d8039474b3d083576"
+      },
+      {
+        "member": "C696-result/baseline/S12/TriangleCover.lean",
+        "bytes": 5729,
+        "newlines": 124,
+        "sha256": "2ae750605f38c11308bbad688beb5f1686f60390dadb30d09a02c883607b0733"
+      },
+      {
+        "member": "C696-result/baseline/S12/WallGeometry.lean",
+        "bytes": 3955,
+        "newlines": 95,
+        "sha256": "c4349ce9c0b9893731886c67ea5a725da50228d32d2b57fff1a27ba26cf9cb68"
+      }
+    ],
+    "receipt_integrity": {
+      "scope": "Seven exact upstream baseline modules, five canonical proposal modules and Verification.lean; this receipt does not assert the C696 residual conjecture is proved.",
+      "overall_recorded_exit_code": 0,
+      "fresh_lean_run": false,
+      "checks": [
+        {
+          "source": "baseline/S12/Diagonal.lean",
+          "hash_matches": true,
+          "recorded_exit_code": 0
+        },
+        {
+          "source": "baseline/S12/Cliques.lean",
+          "hash_matches": true,
+          "recorded_exit_code": 0
+        },
+        {
+          "source": "baseline/S12/Markers.lean",
+          "hash_matches": true,
+          "recorded_exit_code": 0
+        },
+        {
+          "source": "baseline/S12/Diameter.lean",
+          "hash_matches": true,
+          "recorded_exit_code": 0
+        },
+        {
+          "source": "baseline/S12/ShortCluster.lean",
+          "hash_matches": true,
+          "recorded_exit_code": 0
+        },
+        {
+          "source": "baseline/S12/TriangleCover.lean",
+          "hash_matches": true,
+          "recorded_exit_code": 0
+        },
+        {
+          "source": "baseline/S12/WallGeometry.lean",
+          "hash_matches": true,
+          "recorded_exit_code": 0
+        },
+        {
+          "source": "Completion/Cases/C696/SideSignAlgebra.lean",
+          "hash_matches": true,
+          "recorded_exit_code": 0
+        },
+        {
+          "source": "Completion/Cases/C696/SideSign.lean",
+          "hash_matches": true,
+          "recorded_exit_code": 0
+        },
+        {
+          "source": "Completion/Cases/C696/AuxUnique.lean",
+          "hash_matches": true,
+          "recorded_exit_code": 0
+        },
+        {
+          "source": "Completion/Cases/C696/CornerSeparator.lean",
+          "hash_matches": true,
+          "recorded_exit_code": 0
+        },
+        {
+          "source": "Completion/Cases/C696/NegativeFaceTransfer.lean",
+          "hash_matches": true,
+          "recorded_exit_code": 0
+        },
+        {
+          "source": "Verification.lean",
+          "hash_matches": true,
+          "recorded_exit_code": 0
+        }
+      ]
+    },
+    "recovery_duplicate_check": {
+      "checked_files": 34,
+      "differing_or_missing": [],
+      "scope": "Exact nested result files, not all recovery research"
+    }
+  },
+  "C981-shared-exclusion.zip": {
+    "archive_bytes": 54509,
+    "expanded_bytes": 462560,
+    "entries": 12,
+    "lean_files": 1,
+    "lean_bytes": 3702,
+    "lean_newlines": 96,
+    "lean_members": [
+      {
+        "member": "C981-shared-exclusion/Completion/Cases/C981/SharedOwnership.lean",
+        "bytes": 3702,
+        "newlines": 96,
+        "sha256": "5983491caca939ec60fdc7fe1a3a474f548d48b5745dfbbc3fb890610003d5f7"
+      }
+    ],
+    "recovery_duplicate_check": {
+      "checked_files": 12,
+      "differing_or_missing": [],
+      "scope": "Exact nested result files, not all recovery research"
+    }
+  },
+  "12-square-formalization-partial-work.zip": {
+    "archive_bytes": 47467888,
+    "expanded_bytes": 202854885,
+    "entries": 7393,
+    "lean_files": 121,
+    "lean_bytes": 381908,
+    "lean_newlines": 8862,
+    "lean_members": [
+      {
+        "member": "12-square-formalization-partial-work/current/C1092/algebra_analysis/UniformP2.lean",
+        "bytes": 3138,
+        "newlines": 76,
+        "sha256": "795775e1230cbd9f8d1f4c8b1627269b6b5fa9c91d5b52e2707a0b1c00359c97"
+      },
+      {
+        "member": "12-square-formalization-partial-work/current/C1092/c1092-wall/WallPolynomial/Definitions.lean",
+        "bytes": 2151,
+        "newlines": 55,
+        "sha256": "253756af3e35b255efb773849290dbfdaf27947c48038823ec99e9cf96fa059e"
+      },
+      {
+        "member": "12-square-formalization-partial-work/current/C1092/soundness/Uniform.lean",
+        "bytes": 3641,
+        "newlines": 80,
+        "sha256": "0184c75a8a0a69f76a60a1e8d417a9147e65f61124a84b51e6a4b10b6464d58b"
+      },
+      {
+        "member": "12-square-formalization-partial-work/current/C1092/soundness/Weighted.lean",
+        "bytes": 2270,
+        "newlines": 56,
+        "sha256": "9ac267d9054a1d30acaa4a1cee34295287d5dee8eae5cb9d17c7d0d53a93fc40"
+      },
+      {
+        "member": "12-square-formalization-partial-work/current/C696/result/Completion/Cases/C696/AuxUnique.lean",
+        "bytes": 3426,
+        "newlines": 88,
+        "sha256": "daa3850571db725f840329bae91012e9de9fd6daa80502a696adf50520d7c7cc"
+      },
+      {
+        "member": "12-square-formalization-partial-work/current/C696/result/Completion/Cases/C696/CornerSeparator.lean",
+        "bytes": 3456,
+        "newlines": 89,
+        "sha256": "9f421cadb63383d651d548a9564b0484b6dfbce8f1ae215d26df768674e9f6f1"
+      },
+      {
+        "member": "12-square-formalization-partial-work/current/C696/result/Completion/Cases/C696/NegativeFaceTransfer.lean",
+        "bytes": 3302,
+        "newlines": 79,
+        "sha256": "bdf5bb46796ffb654b0574ea1235606e03ab77343b2163ec9c462fb0ae8ed57b"
+      },
+      {
+        "member": "12-square-formalization-partial-work/current/C696/result/Completion/Cases/C696/SideSign.lean",
+        "bytes": 9736,
+        "newlines": 244,
+        "sha256": "cd4eeb55584f808a8afcece6c37128a9f5f668a2078b7406ba3a84e6fab45df2"
+      },
+      {
+        "member": "12-square-formalization-partial-work/current/C696/result/Completion/Cases/C696/SideSignAlgebra.lean",
+        "bytes": 2758,
+        "newlines": 67,
+        "sha256": "76cae344e5b60ca7b93085c6a5647030a0114f1bafb2a42084d5d396a06a295e"
+      },
+      {
+        "member": "12-square-formalization-partial-work/current/C696/result/Verification.lean",
+        "bytes": 942,
+        "newlines": 22,
+        "sha256": "6a5e6f105bcbb9316d76314203a9d30b9a7f4c3678b3d43b6956e3b44c9a874c"
+      },
+      {
+        "member": "12-square-formalization-partial-work/current/C696/result/baseline/S12/Cliques.lean",
+        "bytes": 1919,
+        "newlines": 49,
+        "sha256": "2174e9695c051434f829fd120de3b4c41a2c2102f1702a0459407c9549655c1d"
+      },
+      {
+        "member": "12-square-formalization-partial-work/current/C696/result/baseline/S12/Diagonal.lean",
+        "bytes": 9709,
+        "newlines": 228,
+        "sha256": "829bdc2553ec36b8ecf529fab6f0d372ecf1003b9695089dd864996b2851e8f6"
+      },
+      {
+        "member": "12-square-formalization-partial-work/current/C696/result/baseline/S12/Diameter.lean",
+        "bytes": 1783,
+        "newlines": 51,
+        "sha256": "9c4caa1a18260c48e910251d0b003f59ad81bfc41fedad0d5ab8933c191e910f"
+      },
+      {
+        "member": "12-square-formalization-partial-work/current/C696/result/baseline/S12/Markers.lean",
+        "bytes": 3042,
+        "newlines": 56,
+        "sha256": "f5983312697b11014b9d328d0978f8cb49334fbffb78c6c4a35f0814485a6e7b"
+      },
+      {
+        "member": "12-square-formalization-partial-work/current/C696/result/baseline/S12/ShortCluster.lean",
+        "bytes": 3944,
+        "newlines": 91,
+        "sha256": "d321f4ab40cee82d261c331bd72cbc1580da6feee0591b7d8039474b3d083576"
+      },
+      {
+        "member": "12-square-formalization-partial-work/current/C696/result/baseline/S12/TriangleCover.lean",
+        "bytes": 5729,
+        "newlines": 124,
+        "sha256": "2ae750605f38c11308bbad688beb5f1686f60390dadb30d09a02c883607b0733"
+      },
+      {
+        "member": "12-square-formalization-partial-work/current/C696/result/baseline/S12/WallGeometry.lean",
+        "bytes": 3955,
+        "newlines": 95,
+        "sha256": "c4349ce9c0b9893731886c67ea5a725da50228d32d2b57fff1a27ba26cf9cb68"
+      },
+      {
+        "member": "12-square-formalization-partial-work/current/C696/work/C696SideSignAlgebra.lean",
+        "bytes": 2758,
+        "newlines": 67,
+        "sha256": "76cae344e5b60ca7b93085c6a5647030a0114f1bafb2a42084d5d396a06a295e"
+      },
+      {
+        "member": "12-square-formalization-partial-work/current/C696/work/S12-Diameter.lean",
+        "bytes": 1784,
+        "newlines": 52,
+        "sha256": "fa875c7c820c59b84d916449d7f3f7de77a994f7f93c46dd6ac88eb7b8efd50b"
+      },
+      {
+        "member": "12-square-formalization-partial-work/current/C696/work/S12-Packing.lean",
+        "bytes": 3577,
+        "newlines": 85,
+        "sha256": "9cce97bf65c21973b2a76aa7fbb473b752d3731c389c9d623c2d82b443f6b86d"
+      },
+      {
+        "member": "12-square-formalization-partial-work/current/C696/work/S12-TriangleCover.lean",
+        "bytes": 5730,
+        "newlines": 125,
+        "sha256": "d68731b6725c5b25fbdc6683290ffb2b8b47bdc653076565c237f6dd03f19c01"
+      },
+      {
+        "member": "12-square-formalization-partial-work/current/C696/work/S12-WallGeometry.lean",
+        "bytes": 3956,
+        "newlines": 96,
+        "sha256": "12279f0bb0648498d53d02e218882430b93f88bf968036943f40c0aca1fc81d3"
+      },
+      {
+        "member": "12-square-formalization-partial-work/current/C696/work/aux-UniqueAssignment.lean",
+        "bytes": 3426,
+        "newlines": 88,
+        "sha256": "daa3850571db725f840329bae91012e9de9fd6daa80502a696adf50520d7c7cc"
+      },
+      {
+        "member": "12-square-formalization-partial-work/current/C696/work/corner-SeparatorAlgebra.lean",
+        "bytes": 3456,
+        "newlines": 89,
+        "sha256": "9f421cadb63383d651d548a9564b0484b6dfbce8f1ae215d26df768674e9f6f1"
+      },
+      {
+        "member": "12-square-formalization-partial-work/current/C696/work/original/S12/Cliques.lean",
+        "bytes": 1919,
+        "newlines": 49,
+        "sha256": "2174e9695c051434f829fd120de3b4c41a2c2102f1702a0459407c9549655c1d"
+      },
+      {
+        "member": "12-square-formalization-partial-work/current/C696/work/original/S12/Convex.lean",
+        "bytes": 2647,
+        "newlines": 68,
+        "sha256": "a8a7bb8a862018110e0b515a9918dc1898204c19ae02992f5af8177f540c7171"
+      },
+      {
+        "member": "12-square-formalization-partial-work/current/C696/work/original/S12/Diagonal.lean",
+        "bytes": 9709,
+        "newlines": 228,
+        "sha256": "829bdc2553ec36b8ecf529fab6f0d372ecf1003b9695089dd864996b2851e8f6"
+      },
+      {
+        "member": "12-square-formalization-partial-work/current/C696/work/original/S12/Diameter.lean",
+        "bytes": 1783,
+        "newlines": 51,
+        "sha256": "9c4caa1a18260c48e910251d0b003f59ad81bfc41fedad0d5ab8933c191e910f"
+      },
+      {
+        "member": "12-square-formalization-partial-work/current/C696/work/original/S12/Markers.lean",
+        "bytes": 3042,
+        "newlines": 56,
+        "sha256": "f5983312697b11014b9d328d0978f8cb49334fbffb78c6c4a35f0814485a6e7b"
+      },
+      {
+        "member": "12-square-formalization-partial-work/current/C696/work/original/S12/ShortCluster.lean",
+        "bytes": 3944,
+        "newlines": 91,
+        "sha256": "d321f4ab40cee82d261c331bd72cbc1580da6feee0591b7d8039474b3d083576"
+      },
+      {
+        "member": "12-square-formalization-partial-work/current/C696/work/original/S12/TriangleCover.lean",
+        "bytes": 5729,
+        "newlines": 124,
+        "sha256": "2ae750605f38c11308bbad688beb5f1686f60390dadb30d09a02c883607b0733"
+      },
+      {
+        "member": "12-square-formalization-partial-work/current/C696/work/original/S12/WallGeometry.lean",
+        "bytes": 3955,
+        "newlines": 95,
+        "sha256": "c4349ce9c0b9893731886c67ea5a725da50228d32d2b57fff1a27ba26cf9cb68"
+      },
+      {
+        "member": "12-square-formalization-partial-work/current/C696/work/proposal/Completion/Cases/C696/SideSign.lean",
+        "bytes": 9736,
+        "newlines": 244,
+        "sha256": "cd4eeb55584f808a8afcece6c37128a9f5f668a2078b7406ba3a84e6fab45df2"
+      },
+      {
+        "member": "12-square-formalization-partial-work/current/C696/work/proposal/Completion/Cases/C696/SideSignAlgebra.lean",
+        "bytes": 2758,
+        "newlines": 67,
+        "sha256": "76cae344e5b60ca7b93085c6a5647030a0114f1bafb2a42084d5d396a06a295e"
+      },
+      {
+        "member": "12-square-formalization-partial-work/current/C696/work/rightchain-NegativeFaceTransfer.lean",
+        "bytes": 3302,
+        "newlines": 79,
+        "sha256": "bdf5bb46796ffb654b0574ea1235606e03ab77343b2163ec9c462fb0ae8ed57b"
+      },
+      {
+        "member": "12-square-formalization-partial-work/current/C696/work/side-SignLemma.lean",
+        "bytes": 9718,
+        "newlines": 244,
+        "sha256": "c64f096ba98c9038969a0b0947527b4550fc15b2e697a4dd1f49452146293b66"
+      },
+      {
+        "member": "12-square-formalization-partial-work/current/C696/work/side-sign-algebra.lean",
+        "bytes": 2758,
+        "newlines": 67,
+        "sha256": "76cae344e5b60ca7b93085c6a5647030a0114f1bafb2a42084d5d396a06a295e"
+      },
+      {
+        "member": "12-square-formalization-partial-work/current/C981/reference/AuxPacking.lean",
+        "bytes": 5939,
+        "newlines": 135,
+        "sha256": "55309aa558e6e1862ef92ac1f743ce2fc6d26f55112ee549e6264b616c78edd2"
+      },
+      {
+        "member": "12-square-formalization-partial-work/current/C981/reference/AuxiliaryPoints.lean",
+        "bytes": 508,
+        "newlines": 13,
+        "sha256": "fd1847632882aa48896e9bf8c2a54919e87e5c2b678de0b4b32d9199aae3f135"
+      },
+      {
+        "member": "12-square-formalization-partial-work/current/C981/reference/C976/HullOverlap.lean",
+        "bytes": 6992,
+        "newlines": 152,
+        "sha256": "9b4bc7c649a253d64fe6c2654333db20135bacc283eb6ee4a9d3ef98af1d312c"
+      },
+      {
+        "member": "12-square-formalization-partial-work/current/C981/reference/C976/HullPropagation.lean",
+        "bytes": 6278,
+        "newlines": 124,
+        "sha256": "2e9693ea0413fc2b34c426cce85edd0e066feeba0ea898d8d59c3f4012335e99"
+      },
+      {
+        "member": "12-square-formalization-partial-work/current/C981/reference/CombinedPacking.lean",
+        "bytes": 2511,
+        "newlines": 67,
+        "sha256": "c32b75b98663f99e168393451dd2fe90da8af5041be98152205eec6d2ebd8f85"
+      },
+      {
+        "member": "12-square-formalization-partial-work/current/C981/reference/Contracts.lean",
+        "bytes": 688,
+        "newlines": 17,
+        "sha256": "3aba817d25309652a04d15767ccebd7d1d9d4e33054b85478796f1ee34ed0593"
+      },
+      {
+        "member": "12-square-formalization-partial-work/current/C981/reference/Convex.lean",
+        "bytes": 2648,
+        "newlines": 69,
+        "sha256": "e51aead159f1787458e8e2d4355a8c8c5912f718c6bc6bb34342f120b5cb8d11"
+      },
+      {
+        "member": "12-square-formalization-partial-work/current/C981/reference/Diagonal.lean",
+        "bytes": 9710,
+        "newlines": 229,
+        "sha256": "f7f6a826a64c8d5f75d88ee9463592c9fc573d49c45966a799185c0947ce9964"
+      },
+      {
+        "member": "12-square-formalization-partial-work/current/C981/reference/Diameter.lean",
+        "bytes": 1784,
+        "newlines": 52,
+        "sha256": "fa875c7c820c59b84d916449d7f3f7de77a994f7f93c46dd6ac88eb7b8efd50b"
+      },
+      {
+        "member": "12-square-formalization-partial-work/current/C981/reference/FourPointCertificate.lean",
+        "bytes": 5705,
+        "newlines": 138,
+        "sha256": "a1b04067f4d47101813317d9aa2058aef9485143dd5f604d3b8ab679ecd6efe4"
+      },
+      {
+        "member": "12-square-formalization-partial-work/current/C981/reference/LinearCertificate.lean",
+        "bytes": 4617,
+        "newlines": 109,
+        "sha256": "e74ffbaade4e141f612934d08701cd437e46f76016297bfb80a7cd54987b6c39"
+      },
+      {
+        "member": "12-square-formalization-partial-work/current/C981/reference/Markers.lean",
+        "bytes": 3043,
+        "newlines": 57,
+        "sha256": "dd140a1ad1ef027dc9273307250ba34615cd3929e5e867c7d67ea61fd9cb9cf5"
+      },
+      {
+        "member": "12-square-formalization-partial-work/current/C981/reference/Packing.lean",
+        "bytes": 3577,
+        "newlines": 85,
+        "sha256": "9cce97bf65c21973b2a76aa7fbb473b752d3731c389c9d623c2d82b443f6b86d"
+      },
+      {
+        "member": "12-square-formalization-partial-work/current/C981/reference/Raw.lean",
+        "bytes": 2818,
+        "newlines": 69,
+        "sha256": "9463ac705fc7e9fa1c88f316625ea5f014ca98f4aab9876704d9eb872cecc965"
+      },
+      {
+        "member": "12-square-formalization-partial-work/current/C981/reference/RawData.lean",
+        "bytes": 2318,
+        "newlines": 17,
+        "sha256": "a44d906075edaebb098162289ed6fe2b0352303409eb14459add59e812a11208"
+      },
+      {
+        "member": "12-square-formalization-partial-work/current/C981/reference/ShortCluster.lean",
+        "bytes": 3945,
+        "newlines": 92,
+        "sha256": "d54a1343e6f4ea323d9acf7431ebc11eafa47547a7ca3e3f6eefe8e27c82e9be"
+      },
+      {
+        "member": "12-square-formalization-partial-work/current/C981/result/Completion/Cases/C981/SharedOwnership.lean",
+        "bytes": 3702,
+        "newlines": 96,
+        "sha256": "5983491caca939ec60fdc7fe1a3a474f548d48b5745dfbbc3fb890610003d5f7"
+      },
+      {
+        "member": "12-square-formalization-partial-work/current/C981/shared_geometry/WallChordBand.lean",
+        "bytes": 1548,
+        "newlines": 38,
+        "sha256": "04c835ae5a70212620663b475dc273251e2088f91cc0dd22d1a9f4caa9dd8ddf"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat3/m03307_01__DiagonalPilot.lean",
+        "bytes": 9365,
+        "newlines": 221,
+        "sha256": "84b132bbab657ef8c23a67abdcfa2f8ae269bb08fd66f2cfc5ac61bedb4e50dc"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat3/m03413_01__Enumeration.lean",
+        "bytes": 4431,
+        "newlines": 104,
+        "sha256": "445501c0c7cc064be5eb19730c59b3478ffe78dad7efce52b4ca1d8d4f2a3583"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat3/m03424_01__Diameter.lean",
+        "bytes": 1744,
+        "newlines": 49,
+        "sha256": "4568737c9614abf68cf9d08ffc06f38f3c738901547eae2e06c0713388d06efc"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat3/m03435_01__DomainSearch.lean",
+        "bytes": 2252,
+        "newlines": 57,
+        "sha256": "b7630cc110a82bf70a95b34e280325b23005437d7b76c17b29f852e140b947ce"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat3/m03437_01__RawTiming.lean",
+        "bytes": 184,
+        "newlines": 6,
+        "sha256": "c228d506c1d863cdb1e78afac0e5ed395a97c9543c8bf3e8bce7ee87579cd2aa"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat3/m03443_01__Check.lean",
+        "bytes": 158,
+        "newlines": 7,
+        "sha256": "3bd5cc9fc59205688bfeb8ccf64b5fb01df5c140b1f8999085664687a0814d49"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat3/m03459_02__Cover.lean",
+        "bytes": 1068,
+        "newlines": 29,
+        "sha256": "14c0a56c9cff9ab00c1b8ef36c1b2f3d4f2a08c7c6ad875cffa896bf8b413360"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat3/m03461_02__KernelMarkers.lean",
+        "bytes": 135,
+        "newlines": 4,
+        "sha256": "078ae48dc954676f593871a9af2cc0494c68a413359540f50ed747742cd2e70c"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat3/m03467_01__Raw.lean",
+        "bytes": 2468,
+        "newlines": 58,
+        "sha256": "08c46c3e843399273e92fbea37ef010da11b287ec15f15af37c44d71b986427e"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat3/m03473_01__Budget.lean",
+        "bytes": 3261,
+        "newlines": 76,
+        "sha256": "676ecf2f6ccf109bed297c6592ddca0d6dcc2ce15bcc21ea8b73436f4cf719d4"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat3/m03484_02__Packing.lean",
+        "bytes": 3595,
+        "newlines": 84,
+        "sha256": "e2f191134ae304c658029c50cba75e69d8656714b8fcfacd810073955af63be3"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat3/m03491_01__Convex.lean",
+        "bytes": 2612,
+        "newlines": 68,
+        "sha256": "71d9c9dfaf79229bd1ee6fad36028b69de84236a985a2532f8926db5fc6d7ad5"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat3/m03497_01__Cliques.lean",
+        "bytes": 1919,
+        "newlines": 49,
+        "sha256": "2174e9695c051434f829fd120de3b4c41a2c2102f1702a0459407c9549655c1d"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat3/m03507_01__Raw.lean",
+        "bytes": 2468,
+        "newlines": 58,
+        "sha256": "08c46c3e843399273e92fbea37ef010da11b287ec15f15af37c44d71b986427e"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat3/m03515_01__ShortCluster.lean",
+        "bytes": 3944,
+        "newlines": 91,
+        "sha256": "d321f4ab40cee82d261c331bd72cbc1580da6feee0591b7d8039474b3d083576"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat3/m03527_01__HullCertificates.lean",
+        "bytes": 1259,
+        "newlines": 32,
+        "sha256": "0ed40884e50158f4e2b31974cc38f6d62718a5d35a111b170a10af01abba1d96"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat3/m03543_01__Symmetry.lean",
+        "bytes": 3485,
+        "newlines": 102,
+        "sha256": "d0ba26ff1b4fd3b1ae6bce9dad5acd4433b96f0acd9a81dfd2e514ddcc20f9f3"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat3/m03601_01__LinearCertificate.lean",
+        "bytes": 4682,
+        "newlines": 110,
+        "sha256": "f520f12ef3dba813ba04612161e6707b622c429b820026c13c2ae575eeda67f3"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat3/m03622_01__FourPointCertificate.lean",
+        "bytes": 4597,
+        "newlines": 109,
+        "sha256": "65bf46f4ee1edd48ad81d58a74f727cdf31b444aa6e9db944b34da1ab9950410"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat3/m03638_01__FourPointCertificate.lean",
+        "bytes": 999,
+        "newlines": 28,
+        "sha256": "7906233d667954017a40fd54a391f08b65fbd9969e408851d0c00275b8891596"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat3/m03644_01__CachedEnumeration.lean",
+        "bytes": 1688,
+        "newlines": 39,
+        "sha256": "d6c9204ba8d9073321c9eaf7059a9a6a7462e548db5149c61bf573ff9bfa7be4"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat3/m03653_01__TriangleCover.lean",
+        "bytes": 3150,
+        "newlines": 76,
+        "sha256": "44d82595d57bdd36ab5260dce2e4ebb4757aef10165d6b393b0e161f6d3c4ce1"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat3/m03663_02__TriangleCover.lean",
+        "bytes": 2597,
+        "newlines": 50,
+        "sha256": "c7baf787f8f8539e6716747635be38c6ebd89242cbcc983ee58a7151d778624e"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat3/m03691_01__WallGeometry.lean",
+        "bytes": 3951,
+        "newlines": 95,
+        "sha256": "d4733ac3f85e8cb1ed4baecca089590d3893762e5af7f770f5e6e187652c90b0"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat3/m03701_01__CornerCover.lean",
+        "bytes": 3477,
+        "newlines": 80,
+        "sha256": "86b4e5224a6b201d9ae3bd5f96fcf965c5981d705bac9202c992fdff805511d0"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat3/m03706_01__S12.lean",
+        "bytes": 166,
+        "newlines": 8,
+        "sha256": "528299c5d76719430eb190309507f2acf52e1e588fda374947443af9691a61f4"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat3/m03713_01__WallRowCover.lean",
+        "bytes": 4321,
+        "newlines": 105,
+        "sha256": "cd3fe45c437300f8d675f8b72adbf5e67c8b6b17bcff4cae41c2a0b871524961"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat3/m03724_02__MarkerCoverGeometry.lean",
+        "bytes": 5764,
+        "newlines": 119,
+        "sha256": "7c63d4b5bb8a034d737c01f781e284ef1b8b2f15487902d4681d3098a068fc8b"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat3/m05725_01__PinwheelBoundaryPoint.lean",
+        "bytes": 1811,
+        "newlines": 43,
+        "sha256": "50d24d78e7124d8528d78fb7f48c04de9dd7b26fda211a942666bc9aa75db294"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat3/m05740_01__NegativePinwheelPolynomial.lean",
+        "bytes": 1952,
+        "newlines": 49,
+        "sha256": "a8dad30c2dd563c2314d86167a69a51a468b29e87ef1394b3ac123612361ca29"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat3/m05751_01__NegativePinwheelUpper.lean",
+        "bytes": 2176,
+        "newlines": 48,
+        "sha256": "ed9f9e12b6841b1b881b05c705cf5fa401f88d10eceb5363ca220c0a16f75dca"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat3/m05764_01__NegativeCycleVariation.lean",
+        "bytes": 1555,
+        "newlines": 35,
+        "sha256": "b4796e3d007b3ad5e0671060ac1b8f6c1565b22ab8d24a99fb53b79841bcadb4"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat3/m05823_01__PinwheelAxes.lean",
+        "bytes": 5245,
+        "newlines": 110,
+        "sha256": "2b34b65a6a7e1dbb0fbf7d53f64f68e660c982aab6fb96f16c735aff0b89f1bc"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat3/m05884_01__CommonCertifiedEnclosure.lean",
+        "bytes": 1268,
+        "newlines": 29,
+        "sha256": "89dcaf81eed549f25ebdf438fe73c32262bab697058255afb68d8cebf485f1d5"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat3/m05899_01__StrictPointSupport.lean",
+        "bytes": 2671,
+        "newlines": 58,
+        "sha256": "d3e40ccb6c9793a96078f01e34e43bb37705345198455ff67e8b12c9502aae80"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat3/m05920_01__NegativePinwheelStrip.lean",
+        "bytes": 5003,
+        "newlines": 96,
+        "sha256": "ecd9c9987fc181c0915eff1d617696662c30d7ff5ed03ac68897f2ee2f004bd4"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat3/m05936_01__TinyHalfAngleSupport.lean",
+        "bytes": 2601,
+        "newlines": 70,
+        "sha256": "38ece52764d1b36342e8a69c3aa7bfdfd9c773fec7b26d5eec644e4162122f48"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat3/m05950_01__TinyNormalTransport.lean",
+        "bytes": 2594,
+        "newlines": 60,
+        "sha256": "b3d0b44cae44f1785449cbd8bd0c28cd34887d587a161af740a763606466ba94"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat3/m05969_01__NegativeHalfAngleUpper.lean",
+        "bytes": 2939,
+        "newlines": 63,
+        "sha256": "3e44ac6f11b565055a24bf35946f6923c84c1e8ecb6bc9ba030d0867d594c959"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat3/m06469_01__PositiveSupportLipschitz.lean",
+        "bytes": 2972,
+        "newlines": 70,
+        "sha256": "eb62152028a6b4ec2197c65133e1aa738400873403223519958e875b9b674512"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat3/m06497_01__PositiveWallBounds.lean",
+        "bytes": 3647,
+        "newlines": 76,
+        "sha256": "1c6d29fcebb749f03b570eaffc54903337b606eca04ef820a8f19d45e140c6e4"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat3/m06520_02__PositiveWallTransport.lean",
+        "bytes": 4574,
+        "newlines": 96,
+        "sha256": "82114fca5de28c4270e5f0b626b13e46163a077989f09b8c81229ce081a453cd"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat3/m06541_01__PositiveWallErrors.lean",
+        "bytes": 3389,
+        "newlines": 77,
+        "sha256": "0473df36d11a0c82eaa1cbdbab30937c27ab6e27c9973a1b707d42060cd521fd"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat3/m06549_01__PositiveWallIdeal.lean",
+        "bytes": 4171,
+        "newlines": 81,
+        "sha256": "8500ead3915efd70f17891302aea8b3978c3f0dec0d1a413f1d32473ad1cc5ed"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat3/m06563_01__PositiveWallFaces.lean",
+        "bytes": 2609,
+        "newlines": 57,
+        "sha256": "ad3606ae8711ae111c142d9e97a4b9624f2c3d3f9cd09af7929193bd5461479b"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat3/m06580_01__PositiveWallAssembly.lean",
+        "bytes": 2456,
+        "newlines": 47,
+        "sha256": "4e7f4e20c29e1b91daaf78d0a59f92983b06df5f35aac9e6a499899ff9f17f0a"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat3/m06626_01__PositiveWallSources.lean",
+        "bytes": 4322,
+        "newlines": 102,
+        "sha256": "049235c9e530bbf3eafff35b43e128867d54dad19ad7e7a6faaeb81ad07744b3"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat3/m06648_01__PositiveWallSector.lean",
+        "bytes": 5963,
+        "newlines": 100,
+        "sha256": "85b16996db2bf9c6507f8a0929867c3ba3078766c77d14ef3af7e8fcea0098a4"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat3/m06666_01__PositivePinwheelCorner.lean",
+        "bytes": 4275,
+        "newlines": 84,
+        "sha256": "fd6ed4a0b8abb1ae7176e0705ad2fecc448deb0cc3714563b12410f978ada808"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat4/m00582_01__To36.lean",
+        "bytes": 988,
+        "newlines": 17,
+        "sha256": "dbdeb2a59ebf2416af2157d4e83aadd1b0d0b0bd5e813f9f31240fbf247c2d42"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat4/m00626_01__To35.lean",
+        "bytes": 987,
+        "newlines": 17,
+        "sha256": "73b94381147e4a7b885f5504ec8a2ff5cda838dd0cc90157876ae6063c61ef2b"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat4/m00638_01__ConditionalCommonDomain.lean",
+        "bytes": 3023,
+        "newlines": 64,
+        "sha256": "125abc9ba0fcb31ff595b78b74908c163bdb87d385c8a514d56ae7804e3f8afa"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat4/m00657_01__CompactFullFarkasText.lean",
+        "bytes": 702,
+        "newlines": 15,
+        "sha256": "5b2552a365976bc55e656473d151913bf26ac4d75578e048f2f3d9676ec422c3"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat4/m01315_01__PushPrepared573574.lean",
+        "bytes": 50,
+        "newlines": 2,
+        "sha256": "249ec10114f57e51353758bded7efaaadc913f4fd1d9a1efb2060a3b5e327116"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat4/m01933_01__Case976To81Aux.lean",
+        "bytes": 948,
+        "newlines": 15,
+        "sha256": "95415291427714877a3a3598dd32ff38fa8dbee14f25d9a644f133570e0cf29c"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat4/m02074_01__Case983To860Aux.lean",
+        "bytes": 910,
+        "newlines": 14,
+        "sha256": "e6d52493df3ae1c0ebd76738c500508c7d8ec141ded99aa49e820592ade86639"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat4/m02292_02__Case1089AuxCases.lean",
+        "bytes": 105,
+        "newlines": 4,
+        "sha256": "107c469f8418fa874621ba3a0ef58de4831d2bb9a07fef317bc7806d7b3650bc"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat4/m02304_01__Case1089To506Aux.lean",
+        "bytes": 358,
+        "newlines": 7,
+        "sha256": "5c5320021ee6cd8d66de8f427d2a10649d0689653b606bba426dd40078acf64a"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat4/m02638_02__S12.lean",
+        "bytes": 185,
+        "newlines": 6,
+        "sha256": "8132ef9c91884ee13c3f34ce79cf4e300a570f7694ada51fa96c91b821c47d20"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat4/m03527_02__S12.lean",
+        "bytes": 104,
+        "newlines": 3,
+        "sha256": "72abe2b85f0d1e291ca6742203500bae31f1d28a1b9f7100394a1af3f98c381b"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat4/m04068_01__IndexedFarkasMembership.lean",
+        "bytes": 1273,
+        "newlines": 32,
+        "sha256": "7c7fa802420d50fb5e0b2a299a35114f31f00057ac79d5b81dcc9cb72ef722ab"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat4/m04100_01__CoordinateMembership.lean",
+        "bytes": 975,
+        "newlines": 30,
+        "sha256": "bd42dbe82b09d2f79cbf6cc580636d11b41b5efce63cd1443a45132d9a6fabc0"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat4/m04129_01__FastBoxImplications.lean",
+        "bytes": 3567,
+        "newlines": 77,
+        "sha256": "f5933fa1cac789f4191906ebaf7b2630df6e8209965b5c520d5f4524ca45dc14"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat4/m05669_01__CompareMetadata.lean",
+        "bytes": 585,
+        "newlines": 12,
+        "sha256": "0cfe6fb045e4a3e66597e8b1397db34d6e296a56fbdea07785019e2afb8c3148"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat4/m05676_01__RejectCheck.lean",
+        "bytes": 241,
+        "newlines": 6,
+        "sha256": "c095faef6a3ce1ce56fe648964cd27ef7a46df47b37b5e5f118f337131a0d1a1"
+      },
+      {
+        "member": "12-square-formalization-partial-work/historical/TheHandoff/outputs/Jatloe-12-squares-reconstruction/recovered/source-payloads/literal_files/chat4/m06596_01__ProbeImport50.lean",
+        "bytes": 55,
+        "newlines": 2,
+        "sha256": "ca3ed8414e13c22679a8afb1fd0acf0335bd6cbe7fab0bdc320d5bc5e3838234"
+      }
+    ]
+  }
+}
